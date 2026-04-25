@@ -1,5 +1,7 @@
 rootProject.name = "Betabase"
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     repositories {
         google {
@@ -27,4 +29,6 @@ dependencyResolutionManagement {
     }
 }
 
-include(":app")
+include(":androidApp")
+include(":composeApp")
+include(":screenshotTests")

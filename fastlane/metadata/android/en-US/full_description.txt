@@ -1,0 +1,23 @@
+Betabase pulls upcoming sport climbing competitions from multiple sources into one fast, filterable list.
+
+<b>Sources</b>
+• IFSC World Cups, World Championships and Continental Cups (live calendar)
+• NKBV — Dutch national and regional series
+• Sport Climbing Australia — national cups, championships and para events
+
+<b>Filter how you watch</b>
+• Region — World, Netherlands, Australia
+• Discipline — Boulder, Lead, Speed, Combined
+• Round — Qualifier, Semi, Final
+• Audience — Women, Men, Youth
+
+<b>Designed for climbers</b>
+• Bold, flat colour-coded cards: orange for Boulder, blue for Lead, yellow for Speed, purple for Combined
+• Tap any event card to jump to the source's official page — IFSC events open the livestream, NKBV and SCA events open the registration / detail page
+• Pull-to-refresh to fetch the latest IFSC schedule
+• Events grouped by day with bold date headers
+
+<b>What's coming next</b>
+More national federations and continental councils, smarter notifications for finals you care about, and offline-first caching.
+
+Betabase is open source: https://github.com/SimonSchubert/Betabase

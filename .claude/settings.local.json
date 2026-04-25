@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(./gradlew :composeApp:compileKotlinDesktop:*)",
+      "Bash(./gradlew :composeApp:compileKotlinAndroid:*)",
+      "Bash(./gradlew :composeApp:compileDebugKotlinAndroid:*)",
+      "Bash(./gradlew:*)",
+      "WebSearch",
+      "Bash(git ls-tree:*)",
+      "Bash(git rm:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(test:*)",
+      "Bash(xargs cat:*)",
+      "Bash(tree:*)",
+      "WebFetch(domain:www.jetbrains.com)",
+      "WebFetch(domain:composables.com)",
+      "WebFetch(domain:blog.jetbrains.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(xargs -I {} sh -c 'echo \"\"=== {} ===\"\" && head -100 {}')",
+      "Bash(ls:*)",
+      "WebFetch(domain:www.droidcon.com)",
+      "WebFetch(domain:proandroiddev.com)",
+      "WebFetch(domain:mixable.blog)"
+    ]
+  }
+}

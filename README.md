@@ -95,6 +95,22 @@ Required GitHub Actions secrets:
 | `KEY_ALIAS` | key alias inside the keystore |
 | `PLAY_STORE_KEY_JSON` | base64-encoded Play Store API service-account JSON (only needed when enabling the play-store job) |
 
+### Play Store first publish (one-time bootstrap)
+
+A brand-new draft Play Console app rejects every API commit on the production track. The trick is to push the very first build to the **internal** track as a **draft**:
+
+```bash
+KEYSTORE_FILE=/path/to/keystore.jks KEYSTORE_PASSWORD=... KEY_ALIAS=... \
+  ./gradlew :androidApp:bundleRelease
+bundle exec fastlane android first_release
+```
+
+That uploads the AAB + all metadata + all screenshots + icon + feature graphic to the internal-testing draft. Then in Play Console: review the listing, fill in the compliance fields (privacy policy, content rating, target audience, data safety), and **promote the internal release to production** via the Console UI. The first review goes through Google.
+
+After that initial publish, the `first_release` lane is no longer needed — `deploy` and `upload_screenshots` work as in Braincup.
+
+### Ongoing release flow
+
 Local signed builds:
 
 ```bash
