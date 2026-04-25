@@ -1,0 +1,77 @@
+{
+  "source": "SCA",
+  "source_url": "https://www.sportclimbingaustralia.org.au/Upcoming-Events",
+  "fetched_at": "2026-04-25T12:57:49Z",
+  "events": [
+    {
+      "id": "sca-6613270",
+      "title": "2026 Speed National Cup #1",
+      "series": null,
+      "location": "Elevate Climbing Gym. Unit 5, 850 Woodville Road Villawood NSW 2163",
+      "date": "2026-05-02",
+      "time": "09:30",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6613270"
+    },
+    {
+      "id": "sca-6627465",
+      "title": "2026 National Youth Championships",
+      "series": null,
+      "location": "28 Smith Dr, West Ballina NSW 2478",
+      "date": "2026-05-14",
+      "time": "07:00",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6627465"
+    },
+    {
+      "id": "sca-6614552",
+      "title": "EOI Officials Youth National Championships",
+      "series": null,
+      "location": "Climbing Jungle Ballina",
+      "date": "2026-05-14",
+      "time": "07:30",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6614552"
+    },
+    {
+      "id": "sca-6669463",
+      "title": "Setter EOI 2026 Para National Cup",
+      "series": null,
+      "location": "Unit 5/15 - 33 Alfred St, Blackburn, VIC, 3130",
+      "date": "2026-05-20",
+      "time": "08:00",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6669463"
+    },
+    {
+      "id": "sca-6659173",
+      "title": "PARA National Cup 2026",
+      "series": null,
+      "location": "Urban Climb Blackburn - Unit 5/15 - 33 Alfred St, Blackburn VIC 3130",
+      "date": "2026-05-23",
+      "time": "08:00",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6659173"
+    },
+    {
+      "id": "sca-6660658",
+      "title": "2026 Speed National Cup #2",
+      "series": null,
+      "location": "Urban Climb, Blackburn, Victoria",
+      "date": "2026-07-04",
+      "time": "09:30",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6660658"
+    },
+    {
+      "id": "sca-6660661",
+      "title": "2026 Speed National Cup #3",
+      "series": null,
+      "location": "Elevate Climbing, Villawood, NSW, Australia",
+      "date": "2026-08-15",
+      "time": "09:30",
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6660661"
+    }
+  ]
+}

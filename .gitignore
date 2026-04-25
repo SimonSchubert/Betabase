@@ -1,0 +1,37 @@
+# Gradle / build
+.gradle/
+.kotlin/
+/build/
+/app/build/
+build/
+captures/
+.externalNativeBuild
+.cxx/
+
+# IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local SDK config
+/local.properties
+local.properties
+
+# Signing material
+*.keystore
+*.jks
+
+# Fastlane local artifacts (Fastfile + Appfile are committed; everything else regenerates)
+fastlane/play-store-key.json
+fastlane/report.xml
+fastlane/README.md
+.bundle/
+vendor/bundle/
+
+# Local-only data scrapers (JSON output under app/src/main/assets is committed)
+/scripts/
