@@ -4,7 +4,7 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- B glyph (Arial Bold), 48dp tall, optically centered (geometric center +1.5 right to balance the heavy spine). -->
+    <!-- B glyph (Arial Bold), tinted by the system in themed-icon mode. Same geometry as foreground. -->
     <path
         android:fillColor="#FFFFFF"
         android:fillType="evenOdd"

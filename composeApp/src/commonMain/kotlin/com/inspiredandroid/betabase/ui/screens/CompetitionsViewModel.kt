@@ -53,30 +53,27 @@ class CompetitionsViewModel(
 
     private fun load() {
         viewModelScope.launch {
+            val isFirstLoad = _state.value.events.isEmpty()
             _state.update {
-                it.copy(refreshing = it.events.isNotEmpty(), errorMessage = null)
+                it.copy(refreshing = !isFirstLoad, errorMessage = null)
             }
-            runCatching { repository.loadUpcoming() }
-                .onSuccess { events ->
-                    _state.update {
-                        it.copy(
-                            initialLoading = false,
-                            refreshing = false,
-                            errorMessage = null,
-                            events = events,
-                        )
-                    }
+            repository.loadUpcoming().collect { progress ->
+                _state.update { current ->
+                    val allFailed = progress.done && progress.events.isEmpty() && progress.errors.isNotEmpty()
+                    current.copy(
+                        // First load: show events as soon as any source returns so bundled
+                        // data lights up the screen without waiting for slow network feeds.
+                        // Refresh: keep old events visible until everything is done to avoid flicker.
+                        events = if (isFirstLoad || progress.done) progress.events else current.events,
+                        initialLoading = isFirstLoad && !progress.done && progress.events.isEmpty(),
+                        refreshing = !progress.done,
+                        errorMessage = if (allFailed) {
+                            progress.errors.first().message?.takeIf { msg -> msg.isNotBlank() }
+                                ?: "Could not load competitions."
+                        } else null,
+                    )
                 }
-                .onFailure { e ->
-                    _state.update {
-                        it.copy(
-                            initialLoading = false,
-                            refreshing = false,
-                            errorMessage = e.message?.takeIf { msg -> msg.isNotBlank() }
-                                ?: "Could not load competitions.",
-                        )
-                    }
-                }
+            }
         }
     }
 }
