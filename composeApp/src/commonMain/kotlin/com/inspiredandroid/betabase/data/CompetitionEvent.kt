@@ -1,5 +1,6 @@
 package com.inspiredandroid.betabase.data
 
+import androidx.compose.runtime.Immutable
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 
@@ -7,6 +8,7 @@ enum class Discipline { BOULDER, LEAD, SPEED, COMBINED, OTHER }
 enum class Round { QUALIFICATION, SEMIFINAL, FINAL, OTHER }
 enum class Gender { WOMEN, MEN, YOUTH, MIXED }
 
+@Immutable
 data class CompetitionEvent(
     val id: String,
     val title: String,

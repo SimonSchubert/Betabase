@@ -35,10 +35,12 @@ object IcsParser {
                     inEvent = true
                     current = mutableMapOf()
                 }
+
                 line == "END:VEVENT" -> {
                     if (inEvent) events.add(toRawEvent(current))
                     inEvent = false
                 }
+
                 inEvent -> {
                     val (name, params, value) = parseProperty(line) ?: continue
                     current[name] = params to value
@@ -108,10 +110,12 @@ object IcsParser {
                     val instant = ldt.toInstant(TimeZone.UTC)
                     instant.toLocalDateTime(TimeZone.UTC) to TimeZone.UTC
                 }
+
                 params["VALUE"] == "DATE" || value.length == 8 -> {
                     val date = parseCompactDate(value) ?: return null
                     date.atTime(0, 0) to TimeZone.currentSystemDefault()
                 }
+
                 else -> {
                     val zone = params["TZID"]?.let { runCatching { TimeZone.of(it) }.getOrNull() }
                         ?: TimeZone.currentSystemDefault()
@@ -141,24 +145,26 @@ object IcsParser {
         return runCatching { date.atTime(LocalTime(hour, minute, second)) }.getOrNull()
     }
 
-    private fun unescapeText(value: String): String =
-        buildString(value.length) {
-            var i = 0
-            while (i < value.length) {
-                val c = value[i]
-                if (c == '\\' && i + 1 < value.length) {
-                    when (val next = value[i + 1]) {
-                        'n', 'N' -> append('\n')
-                        ',', ';', '\\' -> append(next)
-                        else -> {
-                            append(c); append(next)
-                        }
+    private fun unescapeText(value: String): String = buildString(value.length) {
+        var i = 0
+        while (i < value.length) {
+            val c = value[i]
+            if (c == '\\' && i + 1 < value.length) {
+                when (val next = value[i + 1]) {
+                    'n', 'N' -> append('\n')
+
+                    ',', ';', '\\' -> append(next)
+
+                    else -> {
+                        append(c)
+                        append(next)
                     }
-                    i += 2
-                } else {
-                    append(c)
-                    i++
                 }
+                i += 2
+            } else {
+                append(c)
+                i++
             }
         }
+    }
 }

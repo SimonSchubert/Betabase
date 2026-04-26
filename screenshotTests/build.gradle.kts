@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.compose.multiplatform)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.paparazzi)
+    alias(libs.plugins.spotless)
 }
 
 kotlin {
@@ -15,10 +16,16 @@ kotlin {
 
 android {
     namespace = "com.inspiredandroid.betabase.screenshots"
-    compileSdk = libs.versions.android.compileSdk.get().toInt()
+    compileSdk =
+        libs.versions.android.compileSdk
+            .get()
+            .toInt()
 
     defaultConfig {
-        minSdk = libs.versions.android.minSdk.get().toInt()
+        minSdk =
+            libs.versions.android.minSdk
+                .get()
+                .toInt()
     }
 
     sourceSets["main"].assets.srcDirs(
@@ -51,18 +58,20 @@ tasks.register("updateScreenshots") {
     val storeImagesDirFile = fastlaneEnUsImagesDir.asFile
 
     doLast {
-        val mediaMapping = mapOf(
-            "ready" to "screen_01_ready.png",
-            "loading" to "screen_02_loading.png",
-            "error" to "screen_03_error.png",
-            "filteredEmpty" to "screen_04_filtered_empty.png",
-            "youthFiltered" to "screen_05_youth.png",
-        )
+        val mediaMapping =
+            mapOf(
+                "ready" to "screen_01_ready.png",
+                "loading" to "screen_02_loading.png",
+                "error" to "screen_03_error.png",
+                "filteredEmpty" to "screen_04_filtered_empty.png",
+                "youthFiltered" to "screen_05_youth.png",
+            )
         mediaDirFile.mkdirs()
         mediaMapping.forEach { (testName, mediaName) ->
-            val snapshot = snapshotsDirFile.listFiles()?.find {
-                it.name.endsWith("_ScreenshotTest_$testName.png")
-            }
+            val snapshot =
+                snapshotsDirFile.listFiles()?.find {
+                    it.name.endsWith("_ScreenshotTest_$testName.png")
+                }
             if (snapshot != null) {
                 snapshot.copyTo(mediaDirFile.resolve(mediaName), overwrite = true)
                 println("Copied ${snapshot.name} -> media/$mediaName")
@@ -71,17 +80,19 @@ tasks.register("updateScreenshots") {
             }
         }
 
-        val phoneMapping = mapOf(
-            "ready" to "01_ready.png",
-            "youthFiltered" to "02_youth.png",
-            "filteredEmpty" to "03_filters.png",
-            "error" to "04_offline.png",
-        )
+        val phoneMapping =
+            mapOf(
+                "ready" to "01_ready.png",
+                "youthFiltered" to "02_youth.png",
+                "filteredEmpty" to "03_filters.png",
+                "error" to "04_offline.png",
+            )
         phoneScreenshotsDirFile.mkdirs()
         phoneMapping.forEach { (testName, fastlaneName) ->
-            val snapshot = snapshotsDirFile.listFiles()?.find {
-                it.name.endsWith("_ScreenshotTest_$testName.png")
-            }
+            val snapshot =
+                snapshotsDirFile.listFiles()?.find {
+                    it.name.endsWith("_ScreenshotTest_$testName.png")
+                }
             if (snapshot != null) {
                 snapshot.copyTo(File(phoneScreenshotsDirFile, fastlaneName), overwrite = true)
                 println("Copied ${snapshot.name} -> fastlane/.../phoneScreenshots/$fastlaneName")
@@ -90,10 +101,11 @@ tasks.register("updateScreenshots") {
 
         // Play Store requires exact pixel sizes — Paparazzi can be off-by-a-few in
         // landscape, so we resize to spec on copy.
-        val storeAssets = listOf(
-            Triple("StoreIconTest_render", "icon.png", 512 to 512),
-            Triple("StoreFeatureGraphicTest_render", "featureGraphic.png", 1024 to 500),
-        )
+        val storeAssets =
+            listOf(
+                Triple("StoreIconTest_render", "icon.png", 512 to 512),
+                Triple("StoreFeatureGraphicTest_render", "featureGraphic.png", 1024 to 500),
+            )
         storeImagesDirFile.mkdirs()
         storeAssets.forEach { (testKey, fastlaneName, target) ->
             val snapshot = snapshotsDirFile.listFiles()?.find { it.name.contains("_$testKey.png") }
@@ -126,4 +138,21 @@ dependencies {
     testImplementation(libs.compose.ui)
     testImplementation(libs.compose.components.resources)
     testImplementation(libs.kotlinx.datetime)
+}
+
+spotless {
+    kotlin {
+        target("src/**/*.kt")
+        ktlint("1.5.0").editorConfigOverride(
+            mapOf(
+                "ktlint_standard_no-wildcard-imports" to "disabled",
+                "ktlint_standard_function-naming" to "disabled",
+                "ktlint_standard_property-naming" to "disabled",
+            ),
+        )
+    }
+    kotlinGradle {
+        target("*.gradle.kts")
+        ktlint("1.5.0")
+    }
 }

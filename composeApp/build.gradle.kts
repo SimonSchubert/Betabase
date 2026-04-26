@@ -9,14 +9,21 @@ plugins {
     alias(libs.plugins.compose.multiplatform)
     alias(libs.plugins.android.kotlin.multiplatform.library)
     alias(libs.plugins.kotlinx.serialization)
+    alias(libs.plugins.spotless)
 }
 
 kotlin {
     applyDefaultHierarchyTemplate()
     android {
         namespace = "com.inspiredandroid.betabase"
-        compileSdk = libs.versions.android.compileSdk.get().toInt()
-        minSdk = libs.versions.android.minSdk.get().toInt()
+        compileSdk =
+            libs.versions.android.compileSdk
+                .get()
+                .toInt()
+        minSdk =
+            libs.versions.android.minSdk
+                .get()
+                .toInt()
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_17)
         }
@@ -46,10 +53,11 @@ kotlin {
             val projectDirPath = layout.projectDirectory.asFile.path
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
-                devServer = (devServer ?: KotlinWebpackConfig.DevServer()).apply {
-                    static(rootDirPath)
-                    static(projectDirPath)
-                }
+                devServer =
+                    (devServer ?: KotlinWebpackConfig.DevServer()).apply {
+                        static(rootDirPath)
+                        static(projectDirPath)
+                    }
             }
         }
         binaries.executable()
@@ -99,5 +107,22 @@ compose.desktop {
             packageName = "Betabase"
             packageVersion = "1.0.0"
         }
+    }
+}
+
+spotless {
+    kotlin {
+        target("src/**/*.kt")
+        ktlint("1.5.0").editorConfigOverride(
+            mapOf(
+                "ktlint_standard_no-wildcard-imports" to "disabled",
+                "ktlint_standard_function-naming" to "disabled",
+                "ktlint_standard_property-naming" to "disabled",
+            ),
+        )
+    }
+    kotlinGradle {
+        target("*.gradle.kts")
+        ktlint("1.5.0")
     }
 }

@@ -1,22 +1,21 @@
 package com.inspiredandroid.betabase.data
 
+import androidx.compose.runtime.Immutable
+
+@Immutable
 data class CompetitionsFilters(
     val sources: Set<SourceTag>,
     val disciplines: Set<Discipline>,
     val rounds: Set<Round>,
     val genders: Set<Gender>,
 ) {
-    fun toggle(source: SourceTag) =
-        copy(sources = sources.toggleMember(source))
+    fun toggle(source: SourceTag) = copy(sources = sources.toggleMember(source))
 
-    fun toggle(discipline: Discipline) =
-        copy(disciplines = disciplines.toggleMember(discipline))
+    fun toggle(discipline: Discipline) = copy(disciplines = disciplines.toggleMember(discipline))
 
-    fun toggle(round: Round) =
-        copy(rounds = rounds.toggleMember(round))
+    fun toggle(round: Round) = copy(rounds = rounds.toggleMember(round))
 
-    fun toggle(gender: Gender) =
-        copy(genders = genders.toggleMember(gender))
+    fun toggle(gender: Gender) = copy(genders = genders.toggleMember(gender))
 
     fun matches(event: CompetitionEvent): Boolean {
         val sourceOk = event.source in sources
@@ -36,5 +35,4 @@ data class CompetitionsFilters(
     }
 }
 
-private fun <T> Set<T>.toggleMember(value: T): Set<T> =
-    if (value in this) this - value else this + value
+private fun <T> Set<T>.toggleMember(value: T): Set<T> = if (value in this) this - value else this + value

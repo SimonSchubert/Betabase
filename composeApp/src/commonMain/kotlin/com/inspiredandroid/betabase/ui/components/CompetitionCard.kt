@@ -12,8 +12,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -34,8 +34,14 @@ fun CompetitionCard(
 ) {
     val accent = disciplineColor(event.discipline)
     val uriHandler = LocalUriHandler.current
-    val onClick: (() -> Unit)? = event.url?.let { url ->
-        { runCatching { uriHandler.openUri(url) } }
+    val url = event.url
+    val onClick: (() -> Unit)? = if (url != null) {
+        remember(url, uriHandler) {
+            val handler: () -> Unit = { runCatching { uriHandler.openUri(url) } }
+            handler
+        }
+    } else {
+        null
     }
     BetaCard(
         modifier = modifier.fillMaxWidth(),
@@ -101,36 +107,29 @@ fun CompetitionCard(
                 }
 
                 Spacer(Modifier.height(2.dp))
-                LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    item {
-                        BetaPill(
-                            label = event.discipline.label(),
-                            background = accent,
-                            onColor = onDiscipline(event.discipline),
-                        )
-                    }
-                    item {
-                        BetaPill(
-                            label = event.round.label(),
-                            background = roundBackground(event.round),
-                            onColor = roundForeground(event.round),
-                        )
-                    }
-                    item {
-                        BetaPill(
-                            label = event.gender.label(),
-                            background = BetabaseTheme.colors.ink,
-                            onColor = BetabaseTheme.colors.inkInverse,
-                        )
-                    }
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    BetaPill(
+                        label = event.discipline.label(),
+                        background = accent,
+                        onColor = onDiscipline(event.discipline),
+                    )
+                    BetaPill(
+                        label = event.round.label(),
+                        background = roundBackground(event.round),
+                        onColor = roundForeground(event.round),
+                    )
+                    BetaPill(
+                        label = event.gender.label(),
+                        background = BetabaseTheme.colors.ink,
+                        onColor = BetabaseTheme.colors.inkInverse,
+                    )
                 }
             }
         }
     }
 }
 
-private fun formatHourMinute(hour: Int, minute: Int): String =
-    "${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}"
+private fun formatHourMinute(hour: Int, minute: Int): String = "${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}"
 
 @Composable
 private fun DotSeparator() {

@@ -1,11 +1,11 @@
 package com.inspiredandroid.betabase.data
 
-import kotlin.time.Clock
-import kotlin.time.Duration.Companion.hours
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import kotlinx.datetime.toInstant
+import kotlin.time.Clock
+import kotlin.time.Duration.Companion.hours
 
 class CompetitionsRepository(
     private val sources: List<EventSource>,
