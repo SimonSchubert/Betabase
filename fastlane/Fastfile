@@ -23,19 +23,4 @@ platform :android do
       skip_upload_screenshots: true,
     )
   end
-
-  desc "First-time publish: AAB + everything, internal track, draft status."
-  desc "Run once on a new draft app, then promote in Play Console UI."
-  lane :first_release do
-    upload_to_play_store(
-      track: 'internal',
-      release_status: 'draft',
-      aab: 'androidApp/build/outputs/bundle/release/androidApp-release.aab',
-      skip_upload_apk: true,
-      skip_upload_metadata: false,
-      skip_upload_changelogs: false,
-      skip_upload_images: false,
-      skip_upload_screenshots: false,
-    )
-  end
 end
