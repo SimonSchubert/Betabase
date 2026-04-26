@@ -1,0 +1,4 @@
+Migrated to Compose Multiplatform with iOS, desktop, and Web targets
+Improved UI performance
+Polished UI/UX with launcher icon refinements
+Upgraded dependencies
