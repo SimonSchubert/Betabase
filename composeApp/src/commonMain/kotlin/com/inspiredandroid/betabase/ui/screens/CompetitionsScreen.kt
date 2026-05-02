@@ -27,6 +27,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.inspiredandroid.betabase.data.CompetitionsFilters
@@ -40,7 +41,11 @@ import com.inspiredandroid.betabase.ui.components.BetaChip
 import com.inspiredandroid.betabase.ui.components.BetaText
 import com.inspiredandroid.betabase.ui.components.CompetitionCard
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
+import com.inspiredandroid.betabase.ui.util.FixedInspectionNow
+import com.inspiredandroid.betabase.ui.util.rememberNow
+import com.inspiredandroid.betabase.ui.util.startIn
 import kotlinx.datetime.LocalDate
+import kotlinx.datetime.TimeZone
 
 @Composable
 fun CompetitionsScreen(
@@ -97,7 +102,11 @@ private fun ReadyState(
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val visible = state.filteredEvents
-    val grouped = remember(visible) { visible.groupBy { it.start.date } }
+    val zone = remember { TimeZone.currentSystemDefault() }
+    val inInspection = LocalInspectionMode.current
+    val tickedNow by rememberNow()
+    val now = if (inInspection) FixedInspectionNow else tickedNow
+    val grouped = remember(visible, zone) { visible.groupBy { it.startIn(zone).date } }
     val sortedDays = remember(grouped) { grouped.keys.sorted() }
 
     LazyColumn(
@@ -136,7 +145,7 @@ private fun ReadyState(
                 DayHeader(day)
             }
             items(grouped.getValue(day), key = { it.id }) { event ->
-                CompetitionCard(event)
+                CompetitionCard(event = event, now = now, zone = zone)
             }
         }
     }

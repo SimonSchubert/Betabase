@@ -70,7 +70,9 @@ class CompetitionsViewModel(
                         errorMessage = if (allFailed) {
                             progress.errors.first().message?.takeIf { msg -> msg.isNotBlank() }
                                 ?: "Could not load competitions."
-                        } else null,
+                        } else {
+                            null
+                        },
                     )
                 }
             }

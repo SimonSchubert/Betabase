@@ -26,10 +26,17 @@ import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.Gender
 import com.inspiredandroid.betabase.data.Round
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
+import com.inspiredandroid.betabase.ui.util.formatRelativeStart
+import com.inspiredandroid.betabase.ui.util.startIn
+import com.inspiredandroid.betabase.ui.util.startInstant
+import kotlinx.datetime.TimeZone
+import kotlin.time.Instant
 
 @Composable
 fun CompetitionCard(
     event: CompetitionEvent,
+    now: Instant,
+    zone: TimeZone,
     modifier: Modifier = Modifier,
 ) {
     val accent = disciplineColor(event.discipline)
@@ -62,13 +69,24 @@ fun CompetitionCard(
                     .fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
+                val localStart = remember(event, zone) { event.startIn(zone) }
+                val relative = if (event.allDay) {
+                    null
+                } else {
+                    remember(event, now) { formatRelativeStart(event.startInstant(), now) }
+                }
+                val timeLabel = when {
+                    event.allDay -> "All day"
+                    relative != null -> relative
+                    else -> formatHourMinute(localStart.hour, localStart.minute)
+                }
                 Row(
                     horizontalArrangement = Arrangement.spacedBy(10.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.fillMaxWidth(),
                 ) {
                     BetaText(
-                        text = if (event.allDay) "All day" else formatHourMinute(event.start.hour, event.start.minute),
+                        text = timeLabel,
                         style = BetabaseTheme.typography.titleMedium,
                         color = BetabaseTheme.colors.ink,
                     )
