@@ -37,9 +37,14 @@ val preparePaparazzi by tasks.registering {
     dependsOn(":composeApp:prepareComposeResourcesTaskForCommonMain")
 }
 
-tasks.matching { it.name.startsWith("testDebug") }.configureEach {
-    dependsOn(preparePaparazzi)
-}
+tasks
+    .matching {
+        it.name.startsWith("testDebug") ||
+            it.name == "mergeDebugAssets" ||
+            it.name == "mergeReleaseAssets"
+    }.configureEach {
+        dependsOn(preparePaparazzi)
+    }
 
 tasks.withType<Test>().configureEach {
     reports.html.required.set(false)
