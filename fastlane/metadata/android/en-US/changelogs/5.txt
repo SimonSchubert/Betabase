@@ -1,0 +1,5 @@
+Added gym map
+Added live stream replays
+Persistent filter settings
+Improved relative time display
+Upgraded SDKs

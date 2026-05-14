@@ -1,3 +1,14 @@
+## v0.2.0 — 2026-05-14
+
+### Features
+- Added gym map
+- Added live stream replays
+- Persistent filter settings
+
+### Improvements
+- Improved relative time display
+- Upgraded SDKs
+
 ## v0.1.1 — 2026-04-26
 
 ### Improvements
