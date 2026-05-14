@@ -11,6 +11,7 @@ import com.inspiredandroid.betabase.data.BundledJsonEventSource
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
 import com.inspiredandroid.betabase.data.SourceTag
+import com.inspiredandroid.betabase.data.createFilterStorage
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsViewModel
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
@@ -34,7 +35,8 @@ fun BetabaseApp() {
                 ),
             )
         }
-        val viewModel = viewModel { CompetitionsViewModel(repository) }
+        val filterStorage = remember { createFilterStorage() }
+        val viewModel = viewModel { CompetitionsViewModel(repository, filterStorage) }
         Box(
             modifier = Modifier
                 .fillMaxSize()

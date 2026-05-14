@@ -7,6 +7,7 @@ import com.inspiredandroid.betabase.data.CompetitionEvent
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.Discipline
+import com.inspiredandroid.betabase.data.FilterStorage
 import com.inspiredandroid.betabase.data.Gender
 import com.inspiredandroid.betabase.data.Round
 import com.inspiredandroid.betabase.data.SourceTag
@@ -32,9 +33,12 @@ data class CompetitionsUiState(
 
 class CompetitionsViewModel(
     private val repository: CompetitionsRepository,
+    private val filterStorage: FilterStorage? = null,
 ) : ViewModel() {
 
-    private val _state = MutableStateFlow(CompetitionsUiState())
+    private val _state = MutableStateFlow(
+        CompetitionsUiState(filters = filterStorage?.load() ?: CompetitionsFilters.Default),
+    )
     val state: StateFlow<CompetitionsUiState> = _state.asStateFlow()
 
     init {
@@ -43,13 +47,18 @@ class CompetitionsViewModel(
 
     fun refresh() = load()
 
-    fun toggle(source: SourceTag) = _state.update { it.copy(filters = it.filters.toggle(source)) }
+    fun toggle(source: SourceTag) = updateFilters { it.toggle(source) }
 
-    fun toggle(discipline: Discipline) = _state.update { it.copy(filters = it.filters.toggle(discipline)) }
+    fun toggle(discipline: Discipline) = updateFilters { it.toggle(discipline) }
 
-    fun toggle(round: Round) = _state.update { it.copy(filters = it.filters.toggle(round)) }
+    fun toggle(round: Round) = updateFilters { it.toggle(round) }
 
-    fun toggle(gender: Gender) = _state.update { it.copy(filters = it.filters.toggle(gender)) }
+    fun toggle(gender: Gender) = updateFilters { it.toggle(gender) }
+
+    private inline fun updateFilters(transform: (CompetitionsFilters) -> CompetitionsFilters) {
+        _state.update { it.copy(filters = transform(it.filters)) }
+        filterStorage?.save(_state.value.filters)
+    }
 
     private fun load() {
         viewModelScope.launch {
