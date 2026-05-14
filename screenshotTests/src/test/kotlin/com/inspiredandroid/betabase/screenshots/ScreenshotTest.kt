@@ -1,13 +1,21 @@
 package com.inspiredandroid.betabase.screenshots
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalInspectionMode
 import app.cash.paparazzi.DeviceConfig
 import app.cash.paparazzi.Paparazzi
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.Gender
+import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
+import com.inspiredandroid.betabase.ui.components.Tab
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreenContent
 import com.inspiredandroid.betabase.ui.screens.CompetitionsUiState
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
@@ -23,12 +31,24 @@ class ScreenshotTest {
         maxPercentDifference = 0.1,
     )
 
-    private fun snap(content: @Composable () -> Unit) {
+    private fun snap(selectedTab: Tab = Tab.Comps, content: @Composable () -> Unit) {
         paparazzi.unsafeUpdateConfig(theme = "android:Theme.Material.Light.NoActionBar")
         paparazzi.snapshot {
             CompositionLocalProvider(LocalInspectionMode provides true) {
                 BetabaseTheme {
-                    content()
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .background(BetabaseTheme.colors.background),
+                    ) {
+                        Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
+                            content()
+                        }
+                        BetabaseBottomNav(
+                            selected = selectedTab,
+                            onSelect = {},
+                        )
+                    }
                 }
             }
         }

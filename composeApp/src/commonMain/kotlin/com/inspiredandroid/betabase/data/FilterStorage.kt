@@ -6,6 +6,8 @@ import kotlinx.serialization.json.Json
 interface FilterStorage {
     fun load(): CompetitionsFilters?
     fun save(filters: CompetitionsFilters)
+    fun loadGyms(): GymsFilters?
+    fun saveGyms(filters: GymsFilters)
 }
 
 expect fun createFilterStorage(): FilterStorage
@@ -18,6 +20,12 @@ private data class PersistedFilters(
     val disciplines: List<String> = emptyList(),
     val rounds: List<String> = emptyList(),
     val genders: List<String> = emptyList(),
+)
+
+@Serializable
+private data class PersistedGymsFilters(
+    val disciplines: List<String> = emptyList(),
+    val requireBoards: Boolean = false,
 )
 
 fun encodeFilters(filters: CompetitionsFilters): String = json.encodeToString(
@@ -36,6 +44,21 @@ fun decodeFilters(raw: String): CompetitionsFilters? = runCatching {
         disciplines = persisted.disciplines.mapNotNullTo(mutableSetOf(), ::parseDiscipline),
         rounds = persisted.rounds.mapNotNullTo(mutableSetOf(), ::parseRound),
         genders = persisted.genders.mapNotNullTo(mutableSetOf(), ::parseGender),
+    )
+}.getOrNull()
+
+fun encodeGymsFilters(filters: GymsFilters): String = json.encodeToString(
+    PersistedGymsFilters(
+        disciplines = filters.disciplines.map { it.name },
+        requireBoards = filters.requireBoards,
+    ),
+)
+
+fun decodeGymsFilters(raw: String): GymsFilters? = runCatching {
+    val persisted = json.decodeFromString<PersistedGymsFilters>(raw)
+    GymsFilters(
+        disciplines = persisted.disciplines.mapNotNullTo(mutableSetOf(), ::parseDiscipline),
+        requireBoards = persisted.requireBoards,
     )
 }.getOrNull()
 

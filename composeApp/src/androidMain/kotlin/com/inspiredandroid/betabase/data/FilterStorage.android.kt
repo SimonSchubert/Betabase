@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 
 private const val PREFS_NAME = "betabase_filters"
 private const val KEY_FILTERS = "filters_json"
+private const val KEY_GYMS = "gyms_filters_json"
 
 private lateinit var appContext: Context
 
@@ -23,5 +24,11 @@ private class AndroidFilterStorage(
 
     override fun save(filters: CompetitionsFilters) {
         prefs.edit().putString(KEY_FILTERS, encodeFilters(filters)).apply()
+    }
+
+    override fun loadGyms(): GymsFilters? = prefs.getString(KEY_GYMS, null)?.let(::decodeGymsFilters)
+
+    override fun saveGyms(filters: GymsFilters) {
+        prefs.edit().putString(KEY_GYMS, encodeGymsFilters(filters)).apply()
     }
 }

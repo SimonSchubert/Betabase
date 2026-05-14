@@ -64,6 +64,12 @@ kotlin {
 
     sourceSets {
         val desktopMain by getting
+        val nonWebMain by creating {
+            dependsOn(commonMain.get())
+        }
+        androidMain.get().dependsOn(nonWebMain)
+        iosMain.get().dependsOn(nonWebMain)
+        desktopMain.dependsOn(nonWebMain)
 
         commonMain.dependencies {
             implementation(libs.compose.runtime)
@@ -95,6 +101,9 @@ kotlin {
         }
         wasmJsMain.dependencies {
             implementation(libs.ktor.client.js)
+        }
+        nonWebMain.dependencies {
+            implementation(libs.maplibre.compose)
         }
     }
 }

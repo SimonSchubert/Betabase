@@ -1,0 +1,354 @@
+{
+  "city": "Berlin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-05-14T00:00:00Z",
+  "gyms": [
+    {
+      "id": "alpinclub-berlin-huettenweg",
+      "name": "AlpinClub Berlin Kletterhalle Hüttenweg",
+      "address": "Hüttenweg 43, 14195 Berlin",
+      "url": "https://www.alpinclub-berlin.de/",
+      "lat": 52.4541158,
+      "lng": 13.2677792,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "tue": "18:00-21:00",
+        "wed": "16:00-19:00",
+        "thu": "18:30-21:30",
+        "fri": "19:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "15:00-18:00"
+      }
+    },
+    {
+      "id": "berta-block",
+      "name": "Berta Block",
+      "address": "Mühlenstraße 62, 13187 Berlin",
+      "url": "https://www.bertablock.de/",
+      "lat": 52.5638900,
+      "lng": 13.4103585,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "kilter", "spray"],
+      "size_sqm": 2000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "bouldergarten",
+      "name": "Bouldergarten",
+      "address": "Thiemannstraße 1, 12059 Berlin",
+      "url": "https://bouldergarten.de/",
+      "lat": 52.4793127,
+      "lng": 13.4515865,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 2300,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "boulderklub-kreuzberg",
+      "name": "Boulderklub Kreuzberg",
+      "address": "Ohlauer Straße 38, 10999 Berlin",
+      "url": "https://boulderklub.de/",
+      "lat": 52.4951304,
+      "lng": 13.4286748,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard"],
+      "size_sqm": 1300,
+      "opening_hours": {
+        "mon": "07:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "07:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "bright-site",
+      "name": "Bright Site - Berlin Boulder Project",
+      "address": "Wilhelm-Kabus-Straße 40, 10829 Berlin",
+      "url": "https://www.urbanapes.de/brightsite/",
+      "lat": 52.4818049,
+      "lng": 13.3658336,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 800,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "cliffhanger-boulderlounge",
+      "name": "Cliffhanger Boulderlounge",
+      "address": "Telegrafenweg 21, 13599 Berlin",
+      "url": "https://www.cliffhanger-berlin.de/",
+      "lat": 52.5421112,
+      "lng": 13.2210670,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-berlin",
+      "name": "DAV Kletterzentrum Berlin",
+      "address": "Seydlitzstraße 1H, 10557 Berlin",
+      "url": "https://dav-berlin.de/klettern/kletterzentrum/",
+      "lat": 52.5285248,
+      "lng": 13.3625012,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1751,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:30",
+        "sun": "10:00-21:30"
+      }
+    },
+    {
+      "id": "der-kegel",
+      "name": "Der Kegel",
+      "address": "Revaler Straße 99, 10245 Berlin",
+      "url": "https://derkegel.de/",
+      "lat": 52.5071646,
+      "lng": 13.4543918,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["moonboard", "kilter"],
+      "size_sqm": 550,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "elektra",
+      "name": "Elektra Boulderhalle",
+      "address": "Gustav-Meyer-Allee 25, 13355 Berlin",
+      "url": "https://daselektra.de/",
+      "lat": 52.5410359,
+      "lng": 13.3868779,
+      "disciplines": ["boulder"],
+      "boards": ["kilter", "tension"],
+      "size_sqm": 1900,
+      "opening_hours": {}
+    },
+    {
+      "id": "klettermax-berlin",
+      "name": "Klettermax.Berlin",
+      "address": "Stendaler Straße 21, 12627 Berlin",
+      "url": "https://klettermax.berlin/",
+      "lat": 52.5373155,
+      "lng": 13.6041606,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "thu": "14:00-19:00",
+        "fri": "14:00-19:00",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      }
+    },
+    {
+      "id": "magic-mountain",
+      "name": "Magic Mountain",
+      "address": "Böttgerstraße 20, 13357 Berlin",
+      "url": "https://www.magicmountain.de/",
+      "lat": 52.5485758,
+      "lng": 13.3818333,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 2500,
+      "opening_hours": {
+        "mon": "10:00-23:30",
+        "tue": "10:00-23:30",
+        "wed": "10:00-23:30",
+        "thu": "09:00-23:30",
+        "fri": "09:00-23:30",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "ninja-bloc",
+      "name": "Ninja Bloc",
+      "address": "Seelenbinderstraße 129-157, 12555 Berlin",
+      "url": "https://www.ninjahall.de/der-ninja-bloc-berlin/",
+      "lat": 52.4554964,
+      "lng": 13.5930230,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 150,
+      "opening_hours": {
+        "mon": "10:00-21:00",
+        "tue": "10:00-21:00",
+        "thu": "10:00-21:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "ostbloc",
+      "name": "Ostbloc",
+      "address": "Hauptstraße 13, 10317 Berlin",
+      "url": "https://www.ostbloc.de/",
+      "lat": 52.4915616,
+      "lng": 13.4879599,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1200,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-24:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "south-rock-kletterhalle",
+      "name": "South Rock Kletterhalle",
+      "address": "Trachenbergring 85, 12249 Berlin",
+      "url": "https://southrock-berlin.de/",
+      "lat": 52.4270748,
+      "lng": 13.3699307,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "suedbloc",
+      "name": "Südbloc",
+      "address": "Großbeerenstraße 2-10, 12107 Berlin",
+      "url": "https://www.xn--sdbloc-3ya.de/",
+      "lat": 52.4402348,
+      "lng": 13.3795870,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 1600,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "urban-apes-basement",
+      "name": "Urban Apes Basement",
+      "address": "Stresemannstraße 72, 10963 Berlin",
+      "url": "https://www.urbanapes.de/basement/",
+      "lat": 52.5038087,
+      "lng": 13.3843469,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "tension"],
+      "size_sqm": 1800,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "urban-apes-friedrichshain",
+      "name": "Urban Apes Friedrichshain",
+      "address": "Friedenstraße 91B, 10249 Berlin",
+      "url": "https://www.urbanapes.de/friedrichshain/",
+      "lat": 52.5224895,
+      "lng": 13.4365840,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "urban-apes-wedding",
+      "name": "Urban Apes Wedding",
+      "address": "Müllerstraße 46, 13349 Berlin",
+      "url": "https://www.urbanapes.de/wedding/",
+      "lat": 52.5520730,
+      "lng": 13.3508895,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    }
+  ]
+}
