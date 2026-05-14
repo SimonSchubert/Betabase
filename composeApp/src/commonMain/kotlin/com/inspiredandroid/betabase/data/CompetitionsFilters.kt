@@ -25,6 +25,14 @@ data class CompetitionsFilters(
         return sourceOk && disciplineOk && roundOk && genderOk
     }
 
+    // Streams are IFSC-only, so the source/region filter doesn't apply.
+    fun matches(video: IfscVideo): Boolean {
+        val disciplineOk = video.discipline == Discipline.OTHER || video.discipline in disciplines
+        val roundOk = video.round == Round.OTHER || video.round in rounds
+        val genderOk = video.gender == Gender.MIXED || video.gender in genders
+        return disciplineOk && roundOk && genderOk
+    }
+
     companion object {
         val Default = CompetitionsFilters(
             sources = SourceTag.entries.toSet(),

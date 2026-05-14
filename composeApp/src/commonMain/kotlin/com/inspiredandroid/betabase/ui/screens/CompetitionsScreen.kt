@@ -109,20 +109,25 @@ private fun ReadyState(
     val grouped = remember(visible, zone) { visible.groupBy { it.startIn(zone).date } }
     val sortedDays = remember(grouped) { grouped.keys.sorted() }
 
+    val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
             .windowInsetsPadding(WindowInsets.statusBars),
         contentPadding = PaddingValues(
-            start = 20.dp,
-            end = 20.dp,
             top = 12.dp,
             bottom = 32.dp + bottomInset,
         ),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item("header") {
-            Header(refreshing = state.refreshing, onRefresh = onRefresh, total = state.events.size, visible = visible.size)
+            Header(
+                refreshing = state.refreshing,
+                onRefresh = onRefresh,
+                total = state.events.size,
+                visible = visible.size,
+                modifier = sidePadding,
+            )
         }
         item("filters") {
             FilterChips(
@@ -131,29 +136,43 @@ private fun ReadyState(
                 onToggleDiscipline = onToggleDiscipline,
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
+                modifier = sidePadding,
             )
         }
 
+        if (state.filteredStreams.isNotEmpty()) {
+            item("streams") {
+                Spacer(Modifier.height(4.dp))
+                StreamsCarousel(
+                    streams = state.filteredStreams,
+                    contentPadding = PaddingValues(horizontal = ScreenSidePadding),
+                    headerModifier = sidePadding,
+                )
+            }
+        }
+
         if (visible.isEmpty()) {
-            item("empty") { EmptyState(filtered = state.events.isNotEmpty()) }
+            item("empty") { EmptyState(filtered = state.events.isNotEmpty(), modifier = sidePadding) }
             return@LazyColumn
         }
 
         sortedDays.forEach { day ->
             item("day-$day") {
                 Spacer(Modifier.height(8.dp))
-                DayHeader(day)
+                DayHeader(day, modifier = sidePadding)
             }
             items(grouped.getValue(day), key = { it.id }) { event ->
-                CompetitionCard(event = event, now = now, zone = zone)
+                CompetitionCard(event = event, now = now, zone = zone, modifier = sidePadding)
             }
         }
     }
 }
 
+private val ScreenSidePadding = 20.dp
+
 @Composable
-private fun Header(refreshing: Boolean, onRefresh: () -> Unit, total: Int, visible: Int) {
-    Column(modifier = Modifier.fillMaxWidth()) {
+private fun Header(refreshing: Boolean, onRefresh: () -> Unit, total: Int, visible: Int, modifier: Modifier = Modifier) {
+    Column(modifier = modifier.fillMaxWidth()) {
         BetaText(
             text = "BETABASE",
             style = BetabaseTheme.typography.displayLarge,
@@ -198,9 +217,10 @@ private fun FilterChips(
     onToggleDiscipline: (Discipline) -> Unit,
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = modifier.fillMaxWidth()) {
         FlowRow(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -344,11 +364,11 @@ private fun RefreshChip(refreshing: Boolean, onRefresh: () -> Unit) {
 }
 
 @Composable
-private fun DayHeader(day: LocalDate) {
+private fun DayHeader(day: LocalDate, modifier: Modifier = Modifier) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier.fillMaxWidth(),
     ) {
         Box(
             modifier = Modifier
@@ -447,9 +467,9 @@ private fun ErrorState(message: String, onRetry: () -> Unit) {
 }
 
 @Composable
-private fun EmptyState(filtered: Boolean) {
+private fun EmptyState(filtered: Boolean, modifier: Modifier = Modifier) {
     BetaCard(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier.fillMaxWidth(),
         background = BetabaseTheme.colors.surfaceMuted,
         shape = BetabaseTheme.shapes.cardLarge,
     ) {

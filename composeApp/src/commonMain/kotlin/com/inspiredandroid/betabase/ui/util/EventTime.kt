@@ -39,6 +39,19 @@ fun formatRelativeStart(eventStart: Instant, now: Instant): String? {
     }
 }
 
+fun formatRelativePast(past: Instant, now: Instant): String {
+    val ago = now - past
+    return when {
+        ago < 1.minutes -> "just now"
+        ago < 1.hours -> "${ago.inWholeMinutes}m ago"
+        ago < 1.days -> "${ago.inWholeHours}h ago"
+        ago < 7.days -> "${ago.inWholeDays}d ago"
+        ago < 30.days -> "${ago.inWholeDays / 7}w ago"
+        ago < 365.days -> "${ago.inWholeDays / 30}mo ago"
+        else -> "${ago.inWholeDays / 365}y ago"
+    }
+}
+
 @Composable
 fun rememberNow(tick: Duration = 30.seconds): State<Instant> = produceState(Clock.System.now()) {
     while (true) {

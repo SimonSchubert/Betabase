@@ -9,8 +9,10 @@ import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.FilterStorage
 import com.inspiredandroid.betabase.data.Gender
+import com.inspiredandroid.betabase.data.IfscVideo
 import com.inspiredandroid.betabase.data.Round
 import com.inspiredandroid.betabase.data.SourceTag
+import com.inspiredandroid.betabase.data.VideosRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -23,9 +25,11 @@ data class CompetitionsUiState(
     val refreshing: Boolean = false,
     val errorMessage: String? = null,
     val events: List<CompetitionEvent> = emptyList(),
+    val streams: List<IfscVideo> = emptyList(),
     val filters: CompetitionsFilters = CompetitionsFilters.Default,
 ) {
     val filteredEvents: List<CompetitionEvent> by lazy { events.filter(filters::matches) }
+    val filteredStreams: List<IfscVideo> by lazy { streams.filter(filters::matches) }
 
     val showInitialLoading: Boolean get() = initialLoading && events.isEmpty()
     val showError: Boolean get() = errorMessage != null && events.isEmpty()
@@ -33,6 +37,7 @@ data class CompetitionsUiState(
 
 class CompetitionsViewModel(
     private val repository: CompetitionsRepository,
+    private val videosRepository: VideosRepository? = null,
     private val filterStorage: FilterStorage? = null,
 ) : ViewModel() {
 
@@ -84,6 +89,12 @@ class CompetitionsViewModel(
                         },
                     )
                 }
+            }
+        }
+        videosRepository?.let { repo ->
+            viewModelScope.launch {
+                repo.loadRecent()
+                    .onSuccess { videos -> _state.update { it.copy(streams = videos) } }
             }
         }
     }

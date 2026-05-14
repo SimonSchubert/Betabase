@@ -10,7 +10,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.inspiredandroid.betabase.data.BundledJsonEventSource
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
+import com.inspiredandroid.betabase.data.IfscVideosSource
 import com.inspiredandroid.betabase.data.SourceTag
+import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.createFilterStorage
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsViewModel
@@ -35,8 +37,11 @@ fun BetabaseApp() {
                 ),
             )
         }
+        val videosRepository = remember(httpClient) {
+            VideosRepository(IfscVideosSource(httpClient))
+        }
         val filterStorage = remember { createFilterStorage() }
-        val viewModel = viewModel { CompetitionsViewModel(repository, filterStorage) }
+        val viewModel = viewModel { CompetitionsViewModel(repository, videosRepository, filterStorage) }
         Box(
             modifier = Modifier
                 .fillMaxSize()
