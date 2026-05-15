@@ -27,10 +27,14 @@ android {
                 .get()
                 .toInt()
     }
+}
 
-    sourceSets["main"].assets.srcDirs(
-        "${project(":composeApp").projectDir}/build/generated/compose/resourceGenerator/preparedResources/commonMain",
-    )
+androidComponents {
+    onVariants(selector().all()) { variant ->
+        variant.sources.assets?.addStaticSourceDirectory(
+            "${project(":composeApp").projectDir}/build/generated/compose/resourceGenerator/preparedResources/commonMain",
+        )
+    }
 }
 
 val preparePaparazzi by tasks.registering {

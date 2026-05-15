@@ -67,6 +67,7 @@ class ScreenshotTest {
                 onToggleDiscipline = {},
                 onToggleRound = {},
                 onToggleGender = {},
+                onTogglePara = {},
             )
         }
     }
@@ -84,6 +85,7 @@ class ScreenshotTest {
                 onToggleDiscipline = {},
                 onToggleRound = {},
                 onToggleGender = {},
+                onTogglePara = {},
             )
         }
     }
@@ -102,6 +104,7 @@ class ScreenshotTest {
                 onToggleDiscipline = {},
                 onToggleRound = {},
                 onToggleGender = {},
+                onTogglePara = {},
             )
         }
     }
@@ -123,6 +126,7 @@ class ScreenshotTest {
                 onToggleDiscipline = {},
                 onToggleRound = {},
                 onToggleGender = {},
+                onTogglePara = {},
             )
         }
     }
@@ -144,6 +148,7 @@ class ScreenshotTest {
                 onToggleDiscipline = {},
                 onToggleRound = {},
                 onToggleGender = {},
+                onTogglePara = {},
             )
         }
     }

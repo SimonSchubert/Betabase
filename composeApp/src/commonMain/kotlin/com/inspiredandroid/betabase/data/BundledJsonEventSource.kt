@@ -37,9 +37,8 @@ class BundledJsonEventSource(
             date.atTime(0, 0) to true
         }
         val seriesValue = series?.takeIf { it.isNotEmpty() }
-        val (gender, classifiedDiscipline, round) = EventClassifier.classify(
-            listOfNotNull(title, seriesValue).joinToString(" "),
-        )
+        val classifierInput = listOfNotNull(title, seriesValue).joinToString(" ")
+        val (gender, classifiedDiscipline, round) = EventClassifier.classify(classifierInput)
         val discipline = parseDiscipline(this.discipline) ?: classifiedDiscipline
 
         return CompetitionEvent(
@@ -56,6 +55,7 @@ class BundledJsonEventSource(
             round = round,
             gender = gender,
             allDay = allDay,
+            isPara = EventClassifier.isPara(classifierInput),
         )
     }
 

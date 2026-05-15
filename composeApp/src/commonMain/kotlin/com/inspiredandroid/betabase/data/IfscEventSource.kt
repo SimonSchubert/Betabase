@@ -23,11 +23,12 @@ class IfscEventSource(
         val summary = summary ?: return null
         val start = start ?: return null
         val zone = startZone ?: return null
+        val seriesLine = description?.lineSequence()?.firstOrNull()?.takeIf { it.isNotBlank() }
         val (gender, discipline, round) = EventClassifier.classify(summary)
         return CompetitionEvent(
             id = uid ?: (summary + start.toString()),
             title = summary,
-            series = description?.lineSequence()?.firstOrNull()?.takeIf { it.isNotBlank() },
+            series = seriesLine,
             location = location?.replace("\\,", ",")?.trim().orEmpty(),
             start = start,
             timeZone = zone,
@@ -37,6 +38,7 @@ class IfscEventSource(
             discipline = discipline,
             round = round,
             gender = gender,
+            isPara = EventClassifier.isPara(listOfNotNull(summary, seriesLine).joinToString(" ")),
         )
     }
 

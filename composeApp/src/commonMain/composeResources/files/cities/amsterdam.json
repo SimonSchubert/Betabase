@@ -1,0 +1,167 @@
+{
+  "city": "Amsterdam",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-05-15T00:00:00Z",
+  "gyms": [
+    {
+      "id": "beest-boulders-amsterdam",
+      "name": "Beest Boulders Amsterdam",
+      "address": "Willem de Zwijgerlaan 338B, 1055 RD Amsterdam",
+      "url": "https://beestboulders.com/beest-boulders-amsterdam/",
+      "lat": 52.3816671,
+      "lng": 4.8593849,
+      "disciplines": ["boulder"],
+      "boards": ["spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "beta-boulders-amsterdam",
+      "name": "Beta Boulders",
+      "address": "Stadionplein 18, 1076 CM Amsterdam",
+      "url": "https://betaboulders.nl/",
+      "lat": 52.3441243,
+      "lng": 4.8559540,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "boulder-amsterdam",
+      "name": "Boulder Amsterdam",
+      "address": "Gillis van Ledenberchstraat 62, 1052 VK Amsterdam",
+      "url": "https://boulderneoliet.nl/nl/amsterdam/",
+      "lat": 52.3764475,
+      "lng": 4.8713885,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "boulderhal-luchthaven",
+      "name": "Boulderhal Luchthaven",
+      "address": "Anthony Fokkerweg 75, 1059 CP Amsterdam",
+      "url": "https://www.boulderhalluchthaven.nl/",
+      "lat": 52.3398940,
+      "lng": 4.8424523,
+      "disciplines": ["boulder"],
+      "boards": ["kilter", "tension"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "climbing-center-amsterdam",
+      "name": "Climbing Center Amsterdam",
+      "address": "Erasmusgracht 297, 1061 MD Amsterdam",
+      "url": "https://www.climbingnetwork.nl/indoor/locatie/climbingcenter-amsterdam",
+      "lat": 52.3748833,
+      "lng": 4.8419930,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["kilter", "spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "het-lab",
+      "name": "Het Lab",
+      "address": "Transformatorweg 32, 1014 AK Amsterdam",
+      "url": "https://www.hetlabamsterdam.nl/",
+      "lat": 52.3923080,
+      "lng": 4.8512404,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
+    },
+    {
+      "id": "klimmuur-centraal",
+      "name": "Klimmuur Centraal",
+      "address": "Dijksgracht 2, 1019 BS Amsterdam",
+      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-centraal/",
+      "lat": 52.3766271,
+      "lng": 4.9115779,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "monk-amsterdam",
+      "name": "MONK bouldergym Amsterdam",
+      "address": "Aambeeldstraat 26, 1021 KB Amsterdam",
+      "url": "https://monk.nl/amsterdam/",
+      "lat": 52.3834746,
+      "lng": 4.9292779,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 500,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "09:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "09:00-24:00",
+        "sun": "09:00-24:00"
+      }
+    }
+  ]
+}

@@ -59,6 +59,7 @@ fun CompetitionsScreen(
         onToggleDiscipline = viewModel::toggle,
         onToggleRound = viewModel::toggle,
         onToggleGender = viewModel::toggle,
+        onTogglePara = viewModel::toggleIncludePara,
     )
 }
 
@@ -70,6 +71,7 @@ fun CompetitionsScreenContent(
     onToggleDiscipline: (Discipline) -> Unit,
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
+    onTogglePara: () -> Unit,
 ) {
     Box(
         modifier = Modifier
@@ -86,6 +88,7 @@ fun CompetitionsScreenContent(
                 onToggleDiscipline = onToggleDiscipline,
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
+                onTogglePara = onTogglePara,
             )
         }
     }
@@ -99,6 +102,7 @@ private fun ReadyState(
     onToggleDiscipline: (Discipline) -> Unit,
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
+    onTogglePara: () -> Unit,
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val visible = state.filteredEvents
@@ -136,6 +140,7 @@ private fun ReadyState(
                 onToggleDiscipline = onToggleDiscipline,
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
+                onTogglePara = onTogglePara,
                 modifier = sidePadding,
             )
         }
@@ -217,6 +222,7 @@ private fun FilterChips(
     onToggleDiscipline: (Discipline) -> Unit,
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
+    onTogglePara: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
@@ -308,6 +314,13 @@ private fun FilterChips(
                 selected = Gender.YOUTH in filters.genders,
                 activeColor = colors.youth,
                 onClick = { onToggleGender(Gender.YOUTH) },
+            )
+            DotDivider()
+            BetaChip(
+                label = "Para",
+                selected = filters.includePara,
+                activeColor = colors.ink,
+                onClick = { onTogglePara() },
             )
         }
     }

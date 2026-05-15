@@ -2,12 +2,28 @@
   "version": 1,
   "cities": [
     {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "NL",
+      "lat": 52.373080,
+      "lng": 4.892453,
+      "file": "amsterdam.json"
+    },
+    {
       "id": "berlin",
       "name": "Berlin",
       "country": "DE",
       "lat": 52.520008,
       "lng": 13.404954,
       "file": "berlin.json"
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "GB",
+      "lat": 51.507446,
+      "lng": -0.127765,
+      "file": "london.json"
     }
   ]
 }

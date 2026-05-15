@@ -13,13 +13,22 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.CanvasDrawScope
+import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.translate
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import betabase.composeapp.generated.resources.Res
+import betabase.composeapp.generated.resources.boulder
+import betabase.composeapp.generated.resources.arrow_up
+import com.inspiredandroid.betabase.data.GymMarkerCategory
+import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.theme.LocalContentColor
+import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun CompsIcon(
@@ -55,17 +64,57 @@ fun CompsIcon(
 }
 
 @Composable
-fun rememberGymMarkerBitmap(
+fun rememberGymMarkerBitmaps(
     width: Dp = 32.dp,
     height: Dp = 40.dp,
-): ImageBitmap {
+): Map<GymMarkerCategory, ImageBitmap> {
     val density = LocalDensity.current
-    return remember(density, width, height) {
-        drawGymMarker(density, width, height)
+    val boulderColor = BetabaseTheme.colors.boulder
+    val leadColor = BetabaseTheme.colors.lead
+    val combinedColor = BetabaseTheme.colors.combined
+    val boulderPainter = painterResource(Res.drawable.boulder)
+    val arrowUpPainter = painterResource(Res.drawable.arrow_up)
+    return remember(
+        density, width, height,
+        boulderColor, leadColor, combinedColor,
+        boulderPainter, arrowUpPainter,
+    ) {
+        mapOf(
+            GymMarkerCategory.BOULDER to drawGymMarker(density, width, height, boulderColor) { cx, cy, r ->
+                drawPainterCentered(boulderPainter, cx, cy + r * 0.05f, r * 1.35f, r * 1.2f)
+            },
+            GymMarkerCategory.LEAD to drawGymMarker(density, width, height, leadColor) { cx, cy, r ->
+                drawPainterCentered(arrowUpPainter, cx, cy, r * 1.15f, r * 1.35f)
+            },
+            GymMarkerCategory.COMBINED to drawGymMarker(density, width, height, combinedColor) { cx, cy, r ->
+                drawPainterCentered(arrowUpPainter, cx, cy - r * 0.4f, r * 0.8f, r * 0.85f)
+                drawPainterCentered(boulderPainter, cx, cy + r * 0.4f, r * 1.05f, r * 0.85f)
+            },
+        )
     }
 }
 
-private fun drawGymMarker(density: Density, width: Dp, height: Dp): ImageBitmap {
+private fun DrawScope.drawPainterCentered(
+    painter: Painter,
+    cx: Float,
+    cy: Float,
+    width: Float,
+    height: Float,
+) {
+    translate(left = cx - width / 2f, top = cy - height / 2f) {
+        with(painter) {
+            draw(size = Size(width, height))
+        }
+    }
+}
+
+private fun drawGymMarker(
+    density: Density,
+    width: Dp,
+    height: Dp,
+    fill: Color,
+    drawGlyph: DrawScope.(cx: Float, cy: Float, r: Float) -> Unit,
+): ImageBitmap {
     val pxW: Int
     val pxH: Int
     with(density) {
@@ -110,12 +159,8 @@ private fun drawGymMarker(density: Density, width: Dp, height: Dp): ImageBitmap 
             lineTo(cx, innerTipY)
             close()
         }
-        drawPath(innerFill, color = Color(0xFFE63946))
-        drawCircle(
-            color = Color.White,
-            center = Offset(cx, cy),
-            radius = size.width * 0.16f,
-        )
+        drawPath(innerFill, color = fill)
+        drawGlyph(cx, cy, innerR)
     }
     return bitmap
 }

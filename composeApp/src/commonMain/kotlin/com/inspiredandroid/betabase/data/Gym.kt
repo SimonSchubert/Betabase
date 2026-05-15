@@ -17,6 +17,19 @@ data class Gym(
     val city: String,
 )
 
+enum class GymMarkerCategory { BOULDER, LEAD, COMBINED }
+
+fun Gym.markerCategory(): GymMarkerCategory {
+    val hasBoulder = Discipline.BOULDER in disciplines
+    val hasLead = Discipline.LEAD in disciplines
+    return when {
+        hasBoulder && hasLead -> GymMarkerCategory.COMBINED
+        hasBoulder -> GymMarkerCategory.BOULDER
+        hasLead -> GymMarkerCategory.LEAD
+        else -> GymMarkerCategory.COMBINED
+    }
+}
+
 enum class Board(val label: String) {
     MOONBOARD("MoonBoard"),
     KILTER("Kilter"),

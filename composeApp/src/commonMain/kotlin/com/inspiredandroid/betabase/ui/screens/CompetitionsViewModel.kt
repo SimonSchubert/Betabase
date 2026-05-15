@@ -60,6 +60,8 @@ class CompetitionsViewModel(
 
     fun toggle(gender: Gender) = updateFilters { it.toggle(gender) }
 
+    fun toggleIncludePara() = updateFilters { it.toggleIncludePara() }
+
     private inline fun updateFilters(transform: (CompetitionsFilters) -> CompetitionsFilters) {
         _state.update { it.copy(filters = transform(it.filters)) }
         filterStorage?.save(_state.value.filters)

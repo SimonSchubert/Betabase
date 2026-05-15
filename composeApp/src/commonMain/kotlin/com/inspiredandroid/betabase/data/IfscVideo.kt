@@ -14,6 +14,7 @@ data class IfscVideo(
     val discipline: Discipline,
     val round: Round,
     val gender: Gender,
+    val isPara: Boolean = false,
 ) {
     val isUpcoming: Boolean get() = durationSeconds == 0 && scheduledStartTime != null
 

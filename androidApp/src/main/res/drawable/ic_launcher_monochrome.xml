@@ -4,9 +4,15 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- B glyph (Arial Bold), tinted by the system in themed-icon mode. Same geometry as foreground. -->
+    <!-- Themed-icon variant: three solid hold silhouettes, system tints them at runtime. -->
+
     <path
         android:fillColor="#FFFFFF"
-        android:fillType="evenOdd"
-        android:pathData="M35.40,30.00L54.58,30.00Q60.28,30.00 63.08,30.47Q65.88,30.95 68.09,32.46Q70.30,33.96 71.77,36.47Q73.25,38.97 73.25,42.08Q73.25,45.45 71.43,48.27Q69.61,51.09 66.50,52.49Q70.89,53.77 73.25,56.85Q75.60,59.93 75.60,64.08Q75.60,67.36 74.08,70.45Q72.56,73.55 69.92,75.40Q67.29,77.25 63.42,77.67Q61.00,77.93 51.73,78.00L35.40,78.00ZM45.09,37.99L45.09,49.09L51.44,49.09Q57.10,49.09 58.48,48.92Q60.97,48.63 62.39,47.21Q63.82,45.78 63.82,43.46Q63.82,41.23 62.59,39.84Q61.36,38.45 58.94,38.15Q57.50,37.99 50.65,37.99ZM45.09,57.08L45.09,69.91L54.06,69.91Q59.30,69.91 60.71,69.62Q62.87,69.23 64.23,67.70Q65.58,66.18 65.58,63.63Q65.58,61.47 64.54,59.96Q63.49,58.45 61.51,57.77Q59.53,57.08 52.91,57.08Z" />
+        android:pathData="M74,22 C84,24 90,34 86,46 C80,56 66,56 60,46 C54,36 60,22 70,22 C72,22 73,22 74,22 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,34 C46,32 54,42 52,52 C56,60 48,68 38,66 C26,64 22,52 28,42 C30,36 32,34 34,34 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,66 C76,66 80,78 74,86 C66,92 54,86 54,76 C54,70 58,66 64,66 Z" />
 </vector>

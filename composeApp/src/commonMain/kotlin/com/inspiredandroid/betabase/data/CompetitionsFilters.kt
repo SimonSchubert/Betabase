@@ -8,6 +8,7 @@ data class CompetitionsFilters(
     val disciplines: Set<Discipline>,
     val rounds: Set<Round>,
     val genders: Set<Gender>,
+    val includePara: Boolean = false,
 ) {
     fun toggle(source: SourceTag) = copy(sources = sources.toggleMember(source))
 
@@ -17,7 +18,14 @@ data class CompetitionsFilters(
 
     fun toggle(gender: Gender) = copy(genders = genders.toggleMember(gender))
 
+    fun toggleIncludePara() = copy(includePara = !includePara)
+
     fun matches(event: CompetitionEvent): Boolean {
+        if (event.isPara) {
+            return includePara && event.source in sources &&
+                (event.discipline == Discipline.OTHER || event.discipline in disciplines) &&
+                (event.round == Round.OTHER || event.round in rounds)
+        }
         val sourceOk = event.source in sources
         val disciplineOk = event.discipline == Discipline.OTHER || event.discipline in disciplines
         val roundOk = event.round == Round.OTHER || event.round in rounds
@@ -27,6 +35,11 @@ data class CompetitionsFilters(
 
     // Streams are IFSC-only, so the source/region filter doesn't apply.
     fun matches(video: IfscVideo): Boolean {
+        if (video.isPara) {
+            return includePara &&
+                (video.discipline == Discipline.OTHER || video.discipline in disciplines) &&
+                (video.round == Round.OTHER || video.round in rounds)
+        }
         val disciplineOk = video.discipline == Discipline.OTHER || video.discipline in disciplines
         val roundOk = video.round == Round.OTHER || video.round in rounds
         val genderOk = video.gender == Gender.MIXED || video.gender in genders
@@ -39,6 +52,7 @@ data class CompetitionsFilters(
             disciplines = setOf(Discipline.BOULDER, Discipline.LEAD),
             rounds = setOf(Round.FINAL),
             genders = setOf(Gender.WOMEN, Gender.MEN),
+            includePara = false,
         )
     }
 }

@@ -37,6 +37,7 @@ class IfscVideosSource(
             discipline = discipline,
             round = round,
             gender = gender,
+            isPara = EventClassifier.isPara(title),
         )
     }
 

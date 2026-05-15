@@ -9,7 +9,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import com.inspiredandroid.betabase.data.Gym
-import com.inspiredandroid.betabase.ui.components.rememberGymMarkerBitmap
+import com.inspiredandroid.betabase.data.GymMarkerCategory
+import com.inspiredandroid.betabase.data.markerCategory
+import com.inspiredandroid.betabase.ui.components.rememberGymMarkerBitmaps
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import org.maplibre.compose.camera.CameraPosition
@@ -53,16 +55,18 @@ actual fun GymMap(
         ),
     )
 
-    val features = remember(gyms) {
-        FeatureCollection(
-            gyms.map { gym ->
-                Feature<Point, JsonObject>(
-                    geometry = Point(Position(latitude = gym.latitude, longitude = gym.longitude)),
-                    properties = JsonObject(mapOf("name" to JsonPrimitive(gym.name))),
-                    id = JsonPrimitive(gym.id),
-                )
-            },
-        )
+    val featuresByCategory = remember(gyms) {
+        GymMarkerCategory.entries.associateWith { category ->
+            FeatureCollection(
+                gyms.filter { it.markerCategory() == category }.map { gym ->
+                    Feature<Point, JsonObject>(
+                        geometry = Point(Position(latitude = gym.latitude, longitude = gym.longitude)),
+                        properties = JsonObject(mapOf("name" to JsonPrimitive(gym.name))),
+                        id = JsonPrimitive(gym.id),
+                    )
+                },
+            )
+        }
     }
 
     LaunchedEffect(selectedGym) {
@@ -76,7 +80,7 @@ actual fun GymMap(
         )
     }
 
-    val markerBitmap = rememberGymMarkerBitmap()
+    val markerBitmaps = rememberGymMarkerBitmaps()
 
     MaplibreMap(
         modifier = modifier.fillMaxSize(),
@@ -88,32 +92,36 @@ actual fun GymMap(
             ClickResult.Pass
         },
     ) {
-        val source = rememberGeoJsonSource(data = GeoJsonData.Features(features))
-        SymbolLayer(
-            id = "gym-markers",
-            source = source,
-            iconImage = image(value = markerBitmap),
-            iconAnchor = const(SymbolAnchor.Bottom),
-            iconAllowOverlap = const(true),
-            textField = format(span(feature["name"].asString())),
-            textFont = const(listOf("Noto Sans Bold")),
-            textSize = const(0.85.em),
-            textColor = const(Color(0xFF111111)),
-            textHaloColor = const(Color.White),
-            textHaloWidth = const(2.dp),
-            textAnchor = const(SymbolAnchor.Top),
-            textOffset = offset(0.em, 0.4.em),
-            textOptional = const(true),
-            onClick = { clicked ->
-                val featureId = clicked.firstOrNull()?.id?.content
-                val gym = gyms.firstOrNull { it.id == featureId }
-                if (gym != null) {
-                    onGymSelected(gym)
-                    ClickResult.Consume
-                } else {
-                    ClickResult.Pass
-                }
-            },
-        )
+        GymMarkerCategory.entries.forEach { category ->
+            val source = rememberGeoJsonSource(
+                data = GeoJsonData.Features(featuresByCategory.getValue(category)),
+            )
+            SymbolLayer(
+                id = "gym-markers-${category.name.lowercase()}",
+                source = source,
+                iconImage = image(value = markerBitmaps.getValue(category)),
+                iconAnchor = const(SymbolAnchor.Bottom),
+                iconAllowOverlap = const(true),
+                textField = format(span(feature["name"].asString())),
+                textFont = const(listOf("Noto Sans Bold")),
+                textSize = const(0.85.em),
+                textColor = const(Color(0xFF111111)),
+                textHaloColor = const(Color.White),
+                textHaloWidth = const(2.dp),
+                textAnchor = const(SymbolAnchor.Top),
+                textOffset = offset(0.em, 0.4.em),
+                textOptional = const(true),
+                onClick = { clicked ->
+                    val featureId = clicked.firstOrNull()?.id?.content
+                    val gym = gyms.firstOrNull { it.id == featureId }
+                    if (gym != null) {
+                        onGymSelected(gym)
+                        ClickResult.Consume
+                    } else {
+                        ClickResult.Pass
+                    }
+                },
+            )
+        }
     }
 }

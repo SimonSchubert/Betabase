@@ -23,6 +23,7 @@ data class CompetitionEvent(
     val round: Round,
     val gender: Gender,
     val allDay: Boolean = false,
+    val isPara: Boolean = false,
 )
 
 enum class SourceTag(val displayName: String, val regionLabel: String) {

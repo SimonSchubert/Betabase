@@ -20,6 +20,7 @@ private data class PersistedFilters(
     val disciplines: List<String> = emptyList(),
     val rounds: List<String> = emptyList(),
     val genders: List<String> = emptyList(),
+    val includePara: Boolean = false,
 )
 
 @Serializable
@@ -34,6 +35,7 @@ fun encodeFilters(filters: CompetitionsFilters): String = json.encodeToString(
         disciplines = filters.disciplines.map { it.name },
         rounds = filters.rounds.map { it.name },
         genders = filters.genders.map { it.name },
+        includePara = filters.includePara,
     ),
 )
 
@@ -44,6 +46,7 @@ fun decodeFilters(raw: String): CompetitionsFilters? = runCatching {
         disciplines = persisted.disciplines.mapNotNullTo(mutableSetOf(), ::parseDiscipline),
         rounds = persisted.rounds.mapNotNullTo(mutableSetOf(), ::parseRound),
         genders = persisted.genders.mapNotNullTo(mutableSetOf(), ::parseGender),
+        includePara = persisted.includePara,
     )
 }.getOrNull()
 

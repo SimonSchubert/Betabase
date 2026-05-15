@@ -8,11 +8,14 @@ object EventClassifier {
     private val semi = Regex("\\bsemi[- ]?final")
     private val final = Regex("\\bfinal")
     private val qual = Regex("\\bquali|\\bqualif")
+    private val para = Regex("\\bpara(climbing)?\\b")
 
     fun classify(summary: String): Triple<Gender, Discipline, Round> {
         val lower = summary.lowercase()
         return Triple(detectGender(lower), detectDiscipline(lower), detectRound(lower))
     }
+
+    fun isPara(summary: String): Boolean = para.containsMatchIn(summary.lowercase())
 
     private fun detectGender(s: String): Gender = when {
         youth.containsMatchIn(s) -> Gender.YOUTH
