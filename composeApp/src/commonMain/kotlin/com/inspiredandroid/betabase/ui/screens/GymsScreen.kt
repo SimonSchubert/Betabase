@@ -67,16 +67,22 @@ fun GymsScreen(
             modifier = Modifier.fillMaxSize(),
         )
 
-        FilterChips(
-            filters = state.filters,
-            onToggleDiscipline = viewModel::toggle,
-            onToggleBoards = viewModel::toggleBoards,
+        Column(
             modifier = Modifier
                 .align(Alignment.TopCenter)
                 .fillMaxWidth()
                 .windowInsetsPadding(WindowInsets.statusBars)
                 .padding(horizontal = 12.dp, vertical = 8.dp),
-        )
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            FilterChips(
+                filters = state.filters,
+                onToggleDiscipline = viewModel::toggle,
+                onToggleBoards = viewModel::toggleBoards,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            CityCoverageNotice(modifier = Modifier.fillMaxWidth())
+        }
 
         selectedGym?.let { gym ->
             GymDetailsSheet(
@@ -137,6 +143,24 @@ private fun FilterChips(
                 onClick = onToggleBoards,
             )
         }
+    }
+}
+
+@Composable
+private fun CityCoverageNotice(modifier: Modifier = Modifier) {
+    val colors = BetabaseTheme.colors
+    BetaCard(
+        modifier = modifier,
+        background = colors.surface,
+        shape = BetabaseTheme.shapes.card,
+        bordered = true,
+    ) {
+        BetaText(
+            text = "Map coverage is limited to a few cities for now and will expand over time.",
+            style = BetabaseTheme.typography.bodySmall,
+            color = colors.inkMuted,
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+        )
     }
 }
 

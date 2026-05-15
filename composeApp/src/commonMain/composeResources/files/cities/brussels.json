@@ -1,0 +1,223 @@
+{
+  "city": "Brussels",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-05-15T00:00:00Z",
+  "gyms": [
+    {
+      "id": "a-bloc",
+      "name": "À Bloc",
+      "address": "Avenue Léonard Mommaerts 11, 1140 Evere",
+      "url": "https://abloc.brussels",
+      "lat": 50.8566,
+      "lng": 4.4096,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "arkose-canal",
+      "name": "Arkose Canal",
+      "address": "Rue Willy de Bruyn 52, 1000 Bruxelles",
+      "url": "https://arkose.com/canal",
+      "lat": 50.8677,
+      "lng": 4.3579,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 2800,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "09:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "09:00-24:00",
+        "sun": "09:00-24:00"
+      }
+    },
+    {
+      "id": "bldr-maritime",
+      "name": "BLDR Maritime",
+      "address": "Rue Picard 11, 1000 Bruxelles",
+      "url": "https://www.bldrmaritime.be",
+      "lat": 50.8643,
+      "lng": 4.3443,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-23:00",
+        "tue": "06:00-23:00",
+        "wed": "06:00-23:00",
+        "thu": "06:00-23:00",
+        "fri": "06:00-23:00",
+        "sat": "06:00-23:00",
+        "sun": "06:00-23:00"
+      }
+    },
+    {
+      "id": "brussels-monkeys-climbing",
+      "name": "Brussels Monkeys Climbing",
+      "address": "Avenue du Sippelberg 1, 1080 Bruxelles",
+      "url": "https://www.brusselsmonkeysclimbing.com",
+      "lat": 50.8598,
+      "lng": 4.3245,
+      "disciplines": ["lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "17:00-22:00",
+        "tue": "17:00-22:30",
+        "wed": "17:00-22:30",
+        "thu": "17:00-22:30",
+        "fri": "17:00-22:00",
+        "sat": "14:00-18:00",
+        "sun": "14:00-18:00"
+      }
+    },
+    {
+      "id": "evolution-verticale",
+      "name": "Evolution Verticale",
+      "address": "Avenue des Vaillants 2, 1200 Woluwe-Saint-Lambert",
+      "url": "https://www.ev-club.be",
+      "lat": 50.8435652,
+      "lng": 4.4280499,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 300,
+      "opening_hours": {
+        "mon": "19:00-22:00",
+        "fri": "19:00-22:00",
+        "sun": "14:00-19:00"
+      }
+    },
+    {
+      "id": "le-camp-de-base",
+      "name": "Le Camp de Base",
+      "address": "Chaussée de Boondael 210C, 1050 Ixelles",
+      "url": "https://www.lecampdebase.be",
+      "lat": 50.8216,
+      "lng": 4.3809,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "maniak-padoue",
+      "name": "Maniak Padoue",
+      "address": "Rue des Moines 26, 1190 Forest",
+      "url": "https://padoue.maniak.club",
+      "lat": 50.8277,
+      "lng": 4.3319,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["kilter"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "new-rock",
+      "name": "New Rock",
+      "address": "Chaussée de Watermael 136, 1160 Auderghem",
+      "url": "https://newrockescalade.be",
+      "lat": 50.8143,
+      "lng": 4.4173,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1750,
+      "opening_hours": {
+        "mon": "12:00-24:00",
+        "tue": "12:00-24:00",
+        "wed": "12:00-24:00",
+        "thu": "12:00-24:00",
+        "fri": "12:00-24:00",
+        "sat": "12:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "petite-ile",
+      "name": "Petite Île",
+      "address": "Rue de la Petite Île 1A, 1070 Anderlecht",
+      "url": "https://petite-ile.be",
+      "lat": 50.8316,
+      "lng": 4.3219,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "stone-age",
+      "name": "Stone Age",
+      "address": "Avenue Mounier 87, 1200 Woluwe-Saint-Lambert",
+      "url": "https://stone-age.be",
+      "lat": 50.8510,
+      "lng": 4.4589,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1400,
+      "opening_hours": {
+        "mon": "16:00-23:00",
+        "tue": "16:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "16:00-23:00",
+        "fri": "16:00-23:00",
+        "sat": "13:00-20:00",
+        "sun": "10:00-21:30"
+      }
+    },
+    {
+      "id": "terres-neuves",
+      "name": "Terres Neuves",
+      "address": "Rue Terres Neuves 28, 1000 Bruxelles",
+      "url": "https://terresneuves.be",
+      "lat": 50.8425,
+      "lng": 4.3476,
+      "disciplines": ["lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:30",
+        "tue": "12:00-22:30",
+        "wed": "12:00-22:30",
+        "thu": "12:00-22:30",
+        "fri": "12:00-22:30",
+        "sat": "12:00-19:00",
+        "sun": "10:00-21:00"
+      }
+    }
+  ]
+}

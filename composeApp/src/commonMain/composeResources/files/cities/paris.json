@@ -1,0 +1,677 @@
+{
+  "city": "Paris",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-05-15T00:00:00Z",
+  "gyms": [
+    {
+      "id": "antrebloc",
+      "name": "Antrebloc",
+      "address": "5 Rue Henri Barbusse, 94800 Villejuif",
+      "url": "https://www.antrebloc.com",
+      "lat": 48.80399,
+      "lng": 2.36542,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:30",
+        "fri": "11:00-23:30",
+        "sat": "09:00-20:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "arkose-chevaleret",
+      "name": "Arkose Chevaleret",
+      "address": "181 Rue du Chevaleret, 75013 Paris",
+      "url": "https://arkose.com/chevaleret",
+      "lat": 48.8335,
+      "lng": 2.36861,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-didot",
+      "name": "Arkose Didot",
+      "address": "101 Boulevard Brune, 75014 Paris",
+      "url": "https://arkose.com/didot",
+      "lat": 48.82618,
+      "lng": 2.31504,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-issy-bloc",
+      "name": "Arkose Issy-les-Moulineaux Bloc",
+      "address": "5 Rue du Bateau Lavoir, 92130 Issy-les-Moulineaux",
+      "url": "https://arkose.com/issy-les-moulineaux-bloc",
+      "lat": 48.82636,
+      "lng": 2.26415,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-issy-voie",
+      "name": "Arkose Issy-les-Moulineaux Voie",
+      "address": "1-6 Boulevard Garibaldi, 92130 Issy-les-Moulineaux",
+      "url": "https://arkose.com/issy-les-moulineaux-voie",
+      "lat": 48.82341,
+      "lng": 2.26244,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "08:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-montmartre",
+      "name": "Arkose Montmartre",
+      "address": "16 bis Rue Caulaincourt, 75018 Paris",
+      "url": "https://arkose.com/montmartre",
+      "lat": 48.88687,
+      "lng": 2.33309,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-montreuil",
+      "name": "Arkose Montreuil",
+      "address": "33 Rue du Progrès, 93100 Montreuil",
+      "url": "https://arkose.com/montreuil",
+      "lat": 48.85165,
+      "lng": 2.41921,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-nanterre-arboretum",
+      "name": "Arkose Nanterre Arboretum",
+      "address": "1 Place des Papeteries, 92000 Nanterre",
+      "url": "https://arkose.com/nanterre-arboretum",
+      "lat": 48.90563,
+      "lng": 2.20112,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2000,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-nation",
+      "name": "Arkose Nation",
+      "address": "35 Rue des Grands Champs, 75020 Paris",
+      "url": "https://arkose.com/nation",
+      "lat": 48.85119,
+      "lng": 2.40231,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "09:00-24:00",
+        "sun": "09:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-pantin",
+      "name": "Arkose Pantin",
+      "address": "55 Rue Cartier Bresson, 93500 Pantin",
+      "url": "https://arkose.com/pantin",
+      "lat": 48.90291,
+      "lng": 2.40127,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-24:00",
+        "tue": "08:00-24:00",
+        "wed": "08:00-24:00",
+        "thu": "08:00-24:00",
+        "fri": "08:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-pont-de-sevres",
+      "name": "Arkose Pont de Sèvres",
+      "address": "177 Allée du Forum, 92100 Boulogne-Billancourt",
+      "url": "https://pontdesevres.arkose.com",
+      "lat": 48.82904,
+      "lng": 2.2332,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-saint-denis",
+      "name": "Arkose Saint-Denis",
+      "address": "11 Rue de la Confluence, 93200 Saint-Denis",
+      "url": "https://arkose.com/saint-denis",
+      "lat": 48.92375,
+      "lng": 2.3548,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "09:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "09:00-24:00",
+        "sun": "09:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-strasbourg-saint-denis",
+      "name": "Arkose Strasbourg Saint-Denis",
+      "address": "21 Rue d'Enghien, 75010 Paris",
+      "url": "https://arkose.com/strasbourg-saint-denis",
+      "lat": 48.87185,
+      "lng": 2.35129,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "blocbuster-courbevoie",
+      "name": "Blocbuster Courbevoie",
+      "address": "47 Avenue de l'Europe, 92400 Courbevoie",
+      "url": "https://blocbuster.fr",
+      "lat": 48.90604,
+      "lng": 2.25849,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "blocbuster-la-defense",
+      "name": "Blocbuster La Défense",
+      "address": "48 Square des Corolles, 92400 Courbevoie",
+      "url": "https://blocbuster.fr/la-defense",
+      "lat": 48.89008,
+      "lng": 2.2452,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "blockout-saint-ouen",
+      "name": "Block'Out Saint-Ouen",
+      "address": "50 Rue Ardoin, 93400 Saint-Ouen",
+      "url": "https://www.blockout.fr/bo2-paris",
+      "lat": 48.91134,
+      "lng": 2.32479,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 750,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "climb-up-aubervilliers",
+      "name": "Climb Up Aubervilliers",
+      "address": "111 Avenue Victor Hugo, 93300 Aubervilliers",
+      "url": "https://aubervilliers.climb-up.fr",
+      "lat": 48.90745,
+      "lng": 2.37494,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "09:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "climb-up-porte-d-italie",
+      "name": "Climb Up Porte d'Italie",
+      "address": "18 Avenue de la Porte d'Italie, 75013 Paris",
+      "url": "https://paris-porteditalie.climb-up.fr",
+      "lat": 48.81679,
+      "lng": 2.35951,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 4000,
+      "opening_hours": {
+        "mon": "08:00-24:00",
+        "tue": "08:00-24:00",
+        "wed": "08:00-24:00",
+        "thu": "08:00-24:00",
+        "fri": "08:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "climbing-district-bastille",
+      "name": "Climbing District Bastille",
+      "address": "37 Avenue Ledru-Rollin, 75012 Paris",
+      "url": "https://climbingdistrict.com/salle-escalade-bastille",
+      "lat": 48.8478,
+      "lng": 2.37059,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "climbing-district-batignolles",
+      "name": "Climbing District Batignolles",
+      "address": "69 Rue Mstislav Rostropovitch, 75017 Paris",
+      "url": "https://climbingdistrict.com/batignolles",
+      "lat": 48.89119,
+      "lng": 2.31051,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "climbing-district-buttes-chaumont",
+      "name": "Climbing District Buttes-Chaumont",
+      "address": "55 Rue de Meaux, 75019 Paris",
+      "url": "https://climbingdistrict.com/buttes-chaumont",
+      "lat": 48.88159,
+      "lng": 2.37341,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "climbing-district-pont-de-neuilly",
+      "name": "Climbing District Pont de Neuilly",
+      "address": "166 Avenue Charles de Gaulle, 92200 Neuilly-sur-Seine",
+      "url": "https://climbingdistrict.com/salle-escalade/pont-de-neuilly",
+      "lat": 48.88491,
+      "lng": 2.26113,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "climbing-district-saint-lazare",
+      "name": "Climbing District Saint-Lazare",
+      "address": "26 bis Rue de Saint-Pétersbourg, 75008 Paris",
+      "url": "https://climbingdistrict.com/saint-lazare",
+      "lat": 48.88181,
+      "lng": 2.32616,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "climbing-district-sevres-lecourbe",
+      "name": "Climbing District Sèvres-Lecourbe",
+      "address": "27 Rue François Bonvin, 75015 Paris",
+      "url": "https://climbingdistrict.com/sevres-lecourbe",
+      "lat": 48.84456,
+      "lng": 2.30611,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "08:00-24:00",
+        "sun": "08:00-24:00"
+      }
+    },
+    {
+      "id": "hardbloc-alfortville",
+      "name": "Hardbloc",
+      "address": "11 Rue Parmentier, 94140 Alfortville",
+      "url": "https://www.hardbloc.fr",
+      "lat": 48.80745,
+      "lng": 2.41217,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:30-22:30",
+        "tue": "10:30-22:30",
+        "wed": "10:30-22:30",
+        "thu": "10:30-22:30",
+        "fri": "10:30-22:30",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "just-climb-it",
+      "name": "Just Climb It",
+      "address": "50 Avenue du Docteur Arnold Netter, 75012 Paris",
+      "url": "https://just-climb-it.com",
+      "lat": 48.84689,
+      "lng": 2.40634,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00"
+      }
+    },
+    {
+      "id": "karma-la-villette",
+      "name": "Karma La Villette",
+      "address": "43 Galerie de la Villette, 75019 Paris",
+      "url": "https://karma-escalade.fr/la-villette",
+      "lat": 48.8943,
+      "lng": 2.38571,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "le-triangle",
+      "name": "Le Triangle",
+      "address": "22 Rue François Truffaut, 75012 Paris",
+      "url": "https://www.letriangle.net",
+      "lat": 48.83299,
+      "lng": 2.3857,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 900,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "roc-et-resine",
+      "name": "Roc & Résine",
+      "address": "3 Rue des Alouettes, 94320 Thiais",
+      "url": "https://rocetresine.com",
+      "lat": 48.75187,
+      "lng": 2.37368,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:30-20:00",
+        "sun": "09:30-20:00"
+      }
+    },
+    {
+      "id": "vertical-art-rungis",
+      "name": "Vertical'Art Rungis",
+      "address": "113 Rue des Solets, 94150 Rungis",
+      "url": "https://rungis.vertical-art.fr",
+      "lat": 48.74179,
+      "lng": 2.35007,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1700,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    }
+  ]
+}

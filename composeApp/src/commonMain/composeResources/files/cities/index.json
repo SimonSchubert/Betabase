@@ -18,12 +18,44 @@
       "file": "berlin.json"
     },
     {
+      "id": "brussels",
+      "name": "Brussels",
+      "country": "BE",
+      "lat": 50.846737,
+      "lng": 4.352493,
+      "file": "brussels.json"
+    },
+    {
+      "id": "hamburg",
+      "name": "Hamburg",
+      "country": "DE",
+      "lat": 53.550172,
+      "lng": 10.001317,
+      "file": "hamburg.json"
+    },
+    {
       "id": "london",
       "name": "London",
       "country": "GB",
       "lat": 51.507446,
       "lng": -0.127765,
       "file": "london.json"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "country": "DE",
+      "lat": 48.137108,
+      "lng": 11.575382,
+      "file": "munich.json"
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "FR",
+      "lat": 48.853495,
+      "lng": 2.348392,
+      "file": "paris.json"
     }
   ]
 }

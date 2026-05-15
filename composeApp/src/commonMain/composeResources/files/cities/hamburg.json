@@ -1,0 +1,187 @@
+{
+  "city": "Hamburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-05-15T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-hamburg",
+      "name": "Boulderwelt Hamburg",
+      "address": "Beim Strohhause 17, 20097 Hamburg",
+      "url": "https://www.boulderwelt-hamburg.de",
+      "lat": 53.5540145,
+      "lng": 10.0208859,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "kilter", "spray"],
+      "size_sqm": 2500,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-hamburg",
+      "name": "DAV Kletterzentrum Hamburg",
+      "address": "Döhrnstraße 4, 22529 Hamburg",
+      "url": "https://www.dav-hamburg.de/kletterzentrum",
+      "lat": 53.5975497,
+      "lng": 9.9533308,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 3800,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "flashh",
+      "name": "FLASHH",
+      "address": "Gasstraße 18, 22761 Hamburg",
+      "url": "https://www.flashh.de",
+      "lat": 53.5630715,
+      "lng": 9.9132543,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 1300,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "ht16",
+      "name": "HT16 Kletterzentrum",
+      "address": "Sievekingdamm 1, 20535 Hamburg",
+      "url": "https://www.ht16.de",
+      "lat": 53.5564632,
+      "lng": 10.0422419,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "07:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "07:00-22:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "nordwandhalle",
+      "name": "Nordwandhalle",
+      "address": "Am Inselpark 20, 21109 Hamburg",
+      "url": "https://nordwandhalle.de",
+      "lat": 53.4942817,
+      "lng": 10.0029690,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 4500,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "salon-du-bloc",
+      "name": "Salon du Bloc",
+      "address": "Eppendorfer Weg 4, 20259 Hamburg",
+      "url": "https://www.salondubloc.de",
+      "lat": 53.5683257,
+      "lng": 9.9565880,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 100,
+      "opening_hours": {
+        "mon": "15:00-24:00",
+        "tue": "15:00-24:00",
+        "wed": "15:00-24:00",
+        "thu": "15:00-24:00",
+        "fri": "15:00-22:00",
+        "sat": "16:00-22:00",
+        "sun": "12:00-22:00"
+      }
+    },
+    {
+      "id": "urban-apes-hamburg-ost",
+      "name": "urban apes Hamburg Ost",
+      "address": "Wandsbeker Zollstraße 87-89, 22041 Hamburg",
+      "url": "https://www.urbanapes.de/hamburg-ost",
+      "lat": 53.5763660,
+      "lng": 10.0804599,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "urban-apes-hamburg-st-pauli",
+      "name": "urban apes Hamburg St. Pauli",
+      "address": "Feldstraße 66, 20359 Hamburg",
+      "url": "https://www.urbanapes.de/hamburg-stpauli",
+      "lat": 53.5565464,
+      "lng": 9.9704241,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 800,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "urban-apes-hamburg-west",
+      "name": "urban apes Hamburg West",
+      "address": "Kieler Straße 565, 22525 Hamburg",
+      "url": "https://www.urbanapes.de/hamburg-west",
+      "lat": 53.5992593,
+      "lng": 9.9163979,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    }
+  ]
+}
