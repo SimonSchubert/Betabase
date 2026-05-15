@@ -13,10 +13,10 @@
         android:strokeWidth="3"
         android:strokeLineJoin="round"
         android:strokeLineCap="round"
-        android:pathData="M74,22 C84,24 90,34 86,46 C80,56 66,56 60,46 C54,36 60,22 70,22 C72,22 73,22 74,22 Z" />
+        android:pathData="M65,25 C75,27 81,37 77,49 C71,59 57,59 51,49 C45,39 51,25 61,25 C63,25 64,25 65,25 Z" />
     <path
         android:fillColor="#111111"
-        android:pathData="M72,38 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
+        android:pathData="M63,41 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
 
     <!-- Hold 2: pear / kidney with a lip, left (lead blue) -->
     <path
@@ -25,20 +25,20 @@
         android:strokeWidth="3"
         android:strokeLineJoin="round"
         android:strokeLineCap="round"
-        android:pathData="M34,34 C46,32 54,42 52,52 C56,60 48,68 38,66 C26,64 22,52 28,42 C30,36 32,34 34,34 Z" />
+        android:pathData="M33,42 C45,40 53,50 51,60 C55,68 47,76 37,74 C25,72 21,60 27,50 C29,44 31,42 33,42 Z" />
     <path
         android:fillColor="#111111"
-        android:pathData="M38,50 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
+        android:pathData="M37,58 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
 
-    <!-- Hold 3: small egg, bottom (combined purple) -->
+    <!-- Hold 3: small egg, bottom-right (combined purple) -->
     <path
         android:fillColor="#7C3AED"
         android:strokeColor="#111111"
         android:strokeWidth="3"
         android:strokeLineJoin="round"
         android:strokeLineCap="round"
-        android:pathData="M64,66 C76,66 80,78 74,86 C66,92 54,86 54,76 C54,70 58,66 64,66 Z" />
+        android:pathData="M61,57 C73,57 77,69 71,77 C63,83 51,77 51,67 C51,61 55,57 61,57 Z" />
     <path
         android:fillColor="#111111"
-        android:pathData="M65,78 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
+        android:pathData="M62,69 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0 Z" />
 </vector>
