@@ -1,0 +1,4 @@
+Expanded gym map with more cities
+Refreshed app icon
+UI polish
+Upgraded dependencies

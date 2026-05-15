@@ -1,3 +1,11 @@
+## v0.3.0 — 2026-05-15
+
+### Improvements
+- Expanded gym map with additional cities
+- Refreshed app icon
+- UI polish across the app
+- Upgraded dependencies
+
 ## v0.2.0 — 2026-05-14
 
 ### Features
