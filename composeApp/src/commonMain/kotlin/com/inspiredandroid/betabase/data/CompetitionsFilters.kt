@@ -22,7 +22,8 @@ data class CompetitionsFilters(
 
     fun matches(event: CompetitionEvent): Boolean {
         if (event.isPara) {
-            return includePara && event.source in sources &&
+            return includePara &&
+                event.source in sources &&
                 (event.discipline == Discipline.OTHER || event.discipline in disciplines) &&
                 (event.round == Round.OTHER || event.round in rounds)
         }

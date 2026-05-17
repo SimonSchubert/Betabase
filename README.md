@@ -75,6 +75,7 @@ The two patterns:
 ```bash
 python3 scripts/scrape_nkbv.py
 python3 scripts/scrape_sca.py
+python3 scripts/scrape_ifsc_athletes.py
 # review the diff in app/src/main/assets/*.json, then bump versionCode and release
 ```
 

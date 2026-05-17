@@ -25,6 +25,7 @@ import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.createFilterStorage
 import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
 import com.inspiredandroid.betabase.ui.components.Tab
+import com.inspiredandroid.betabase.ui.screens.AthletesScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsViewModel
 import com.inspiredandroid.betabase.ui.screens.GymsScreen
@@ -66,24 +67,20 @@ fun BetabaseApp() {
         ) {
             Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
                 var gymsEverVisible by rememberSaveable { mutableStateOf(false) }
+                var athletesEverVisible by rememberSaveable { mutableStateOf(false) }
                 if (selectedTab == Tab.Gyms) gymsEverVisible = true
-                val compsOnTop = selectedTab == Tab.Comps
+                if (selectedTab == Tab.Athletes) athletesEverVisible = true
 
-                Box(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .zIndex(if (compsOnTop) 1f else 0f)
-                        .alpha(if (compsOnTop) 1f else 0f),
-                ) {
+                TabLayer(visible = selectedTab == Tab.Comps) {
                     CompetitionsScreen(viewModel = viewModel)
                 }
+                if (athletesEverVisible) {
+                    TabLayer(visible = selectedTab == Tab.Athletes) {
+                        AthletesScreen()
+                    }
+                }
                 if (gymsEverVisible) {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .zIndex(if (!compsOnTop) 1f else 0f)
-                            .alpha(if (!compsOnTop) 1f else 0f),
-                    ) {
+                    TabLayer(visible = selectedTab == Tab.Gyms) {
                         GymsScreen(filterStorage = filterStorage)
                     }
                 }
@@ -93,5 +90,17 @@ fun BetabaseApp() {
                 onSelect = { selectedTab = it },
             )
         }
+    }
+}
+
+@Composable
+private fun TabLayer(visible: Boolean, content: @Composable () -> Unit) {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .zIndex(if (visible) 1f else 0f)
+            .alpha(if (visible) 1f else 0f),
+    ) {
+        content()
     }
 }

@@ -23,8 +23,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import betabase.composeapp.generated.resources.Res
-import betabase.composeapp.generated.resources.boulder
 import betabase.composeapp.generated.resources.arrow_up
+import betabase.composeapp.generated.resources.boulder
 import com.inspiredandroid.betabase.data.GymMarkerCategory
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.theme.LocalContentColor
@@ -75,9 +75,14 @@ fun rememberGymMarkerBitmaps(
     val boulderPainter = painterResource(Res.drawable.boulder)
     val arrowUpPainter = painterResource(Res.drawable.arrow_up)
     return remember(
-        density, width, height,
-        boulderColor, leadColor, combinedColor,
-        boulderPainter, arrowUpPainter,
+        density,
+        width,
+        height,
+        boulderColor,
+        leadColor,
+        combinedColor,
+        boulderPainter,
+        arrowUpPainter,
     ) {
         mapOf(
             GymMarkerCategory.BOULDER to drawGymMarker(density, width, height, boulderColor) { cx, cy, r ->
@@ -163,6 +168,43 @@ private fun drawGymMarker(
         drawGlyph(cx, cy, innerR)
     }
     return bitmap
+}
+
+@Composable
+fun AthletesIcon(
+    modifier: Modifier = Modifier,
+    tint: Color = LocalContentColor.current,
+    size: Dp = 22.dp,
+) {
+    Canvas(modifier = modifier.size(size)) {
+        val w = this.size.width
+        val h = this.size.height
+        val cx = w / 2f
+        val cy = h * 0.58f
+        val r = w * 0.30f
+        val ribbonWidth = w * 0.12f
+        // Two ribbon strips fanning up from the medal.
+        val ribbonTop = h * 0.02f
+        val left = Path().apply {
+            moveTo(cx - r * 0.6f, cy - r * 0.55f)
+            lineTo(cx - r * 0.15f, ribbonTop)
+            lineTo(cx - r * 0.15f + ribbonWidth, ribbonTop)
+            lineTo(cx - r * 0.6f + ribbonWidth, cy - r * 0.55f)
+            close()
+        }
+        val right = Path().apply {
+            moveTo(cx + r * 0.6f, cy - r * 0.55f)
+            lineTo(cx + r * 0.15f, ribbonTop)
+            lineTo(cx + r * 0.15f - ribbonWidth, ribbonTop)
+            lineTo(cx + r * 0.6f - ribbonWidth, cy - r * 0.55f)
+            close()
+        }
+        drawPath(left, color = tint)
+        drawPath(right, color = tint)
+        // Medal circle.
+        drawCircle(color = tint, center = Offset(cx, cy), radius = r, style = Stroke(width = w / 10f))
+        drawCircle(color = tint, center = Offset(cx, cy), radius = r * 0.35f)
+    }
 }
 
 @Composable

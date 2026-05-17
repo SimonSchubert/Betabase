@@ -1,0 +1,6761 @@
+{
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Ranking_of_career_IFSC_victories_by_climber",
+  "fetched_at": "2026-05-17T12:32:59Z",
+  "athletes": [
+    {
+      "id": "ifsc-janja_garnbret",
+      "first_name": "Janja",
+      "last_name": "Garnbret",
+      "gender": "W",
+      "country": "Slovenian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Janja_Garnbret_2017_%28cropped%29.jpg/500px-Janja_Garnbret_2017_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Janja_Garnbret",
+      "titles": {
+        "lead": 8,
+        "boulder": 5,
+        "speed": 0,
+        "combined": 7,
+        "total": 20,
+        "world_cup_season": 10,
+        "world_championship": 10
+      },
+      "medals": {
+        "olympics": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 10,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 4,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 44,
+          "silver": 11,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 13,
+          "silver": 3,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 31,
+          "silver": 8,
+          "bronze": 5
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1999-03-12",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Innsbruck",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-jakob_schubert",
+      "first_name": "Jakob",
+      "last_name": "Schubert",
+      "gender": "M",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jakob_Schubert_Climbing_WCh_2018.jpg/500px-Jakob_Schubert_Climbing_WCh_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jakob_Schubert",
+      "titles": {
+        "lead": 7,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 6,
+        "total": 13,
+        "world_cup_season": 7,
+        "world_championship": 6
+      },
+      "medals": {
+        "olympics": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_championships": {
+          "gold": 6,
+          "silver": 4,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 8,
+          "silver": 8,
+          "bronze": 11
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 3
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 7,
+          "silver": 8,
+          "bronze": 9
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1990-12-31",
+      "last_gold": {
+        "year": 2023,
+        "venue": "Villars-sur-Ollon",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-sandrine_levet",
+      "first_name": "Sandrine",
+      "last_name": "Levet",
+      "gender": "W",
+      "country": "French",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Sandrine_Levet",
+      "titles": {
+        "lead": 0,
+        "boulder": 6,
+        "speed": 0,
+        "combined": 5,
+        "total": 11,
+        "world_cup_season": 10,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1982-07-22",
+      "last_gold": {
+        "year": 2005,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-adam_ondra",
+      "first_name": "Adam",
+      "last_name": "Ondra",
+      "gender": "M",
+      "country": "Czech Republic",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/20180227-LS-0055_by_Lukasz_Sokol.jpg/500px-20180227-LS-0055_by_Lukasz_Sokol.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Adam_Ondra",
+      "titles": {
+        "lead": 6,
+        "boulder": 2,
+        "speed": 0,
+        "combined": 3,
+        "total": 11,
+        "world_cup_season": 7,
+        "world_championship": 4
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 5,
+          "silver": 5,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 11,
+          "silver": 4,
+          "bronze": 2
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 6,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 3,
+          "silver": 2,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 8,
+          "silver": 2,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1993-02-05",
+      "last_gold": {
+        "year": 2022,
+        "venue": "munich",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-angela_eiter",
+      "first_name": "Angela",
+      "last_name": "Eiter",
+      "gender": "W",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Angela_Eiter.jpg/500px-Angela_Eiter.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Angela_Eiter",
+      "titles": {
+        "lead": 7,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 8,
+        "world_cup_season": 4,
+        "world_championship": 4
+      },
+      "medals": {
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 4,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1986-01-27",
+      "last_gold": {
+        "year": 2012,
+        "venue": "paris",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-françois_legrand_(climber)",
+      "first_name": "François",
+      "last_name": "Legrand",
+      "gender": "M",
+      "country": "France",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/2012-07-17_Fran%C3%A7ois_Legrand_%28crop%29.jpg/500px-2012-07-17_Fran%C3%A7ois_Legrand_%28crop%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/François_Legrand_(climber)",
+      "titles": {
+        "lead": 8,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 8,
+        "world_cup_season": 5,
+        "world_championship": 3
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1970-03-26",
+      "last_gold": {
+        "year": 1997,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-jain_kim",
+      "first_name": "Jain",
+      "last_name": "Kim",
+      "gender": "W",
+      "country": "South Korea",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Climbing_World_Championships_2018_Lead_Final_Woman_finalists_01-Jain_Kim.jpg/500px-Climbing_World_Championships_2018_Lead_Final_Woman_finalists_01-Jain_Kim.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jain_Kim",
+      "titles": {
+        "lead": 4,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 3,
+        "total": 7,
+        "world_cup_season": 5,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 12,
+          "silver": 6,
+          "bronze": 9
+        },
+        "world_championships": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 12,
+          "silver": 6,
+          "bronze": 9
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1988-09-11",
+      "last_gold": {
+        "year": 2023,
+        "venue": "Chamonix",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-tomoa_narasaki",
+      "first_name": "Tomoa",
+      "last_name": "Narasaki",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tomoa_Narasaki_JPN_2017-08-19_2373.jpg/500px-Tomoa_Narasaki_JPN_2017-08-19_2373.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tomoa_Narasaki",
+      "titles": {
+        "lead": 0,
+        "boulder": 4,
+        "speed": 0,
+        "combined": 3,
+        "total": 7,
+        "world_cup_season": 4,
+        "world_championship": 3
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 3,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 7,
+          "silver": 15,
+          "bronze": 4
+        },
+        "continental": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 7,
+          "silver": 15,
+          "bronze": 4
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1996-06-22",
+      "last_gold": {
+        "year": 2024,
+        "venue": "Keqiao",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-akiyo_noguchi",
+      "first_name": "Akiyo",
+      "last_name": "Noguchi",
+      "gender": "W",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Boulder_Worldcup_Vienna_29-05-2010a_semifinals092_Akiyo_Noguchi.jpg/500px-Boulder_Worldcup_Vienna_29-05-2010a_semifinals092_Akiyo_Noguchi.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Akiyo_Noguchi",
+      "titles": {
+        "lead": 0,
+        "boulder": 4,
+        "speed": 0,
+        "combined": 3,
+        "total": 7,
+        "world_cup_season": 7,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 8,
+          "silver": 12,
+          "bronze": 13
+        },
+        "olympics": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 4,
+          "bronze": 3
+        },
+        "continental": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 8,
+          "silver": 11,
+          "bronze": 11
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 2
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1989-05-30",
+      "last_gold": {
+        "year": 2018,
+        "venue": "Hachioji",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-kilian_fischhuber",
+      "first_name": "Kilian",
+      "last_name": "Fischhuber",
+      "gender": "M",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kilian_Fischhuber.jpg/500px-Kilian_Fischhuber.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kilian_Fischhuber",
+      "titles": {
+        "lead": 0,
+        "boulder": 5,
+        "speed": 0,
+        "combined": 1,
+        "total": 6,
+        "world_cup_season": 6,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1983-08-01",
+      "last_gold": {
+        "year": 2014,
+        "venue": "Innsbruck 16.05.2014",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-mina_markovič",
+      "first_name": "Mina",
+      "last_name": "Markovič",
+      "gender": "W",
+      "country": "Slovenian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Boulder_Worldcup_Vienna_29-05-2010a_semifinals028_Mina_Markovi%C4%8D.jpg/500px-Boulder_Worldcup_Vienna_29-05-2010a_semifinals028_Mina_Markovi%C4%8D.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mina_Markovič",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 3,
+        "total": 6,
+        "world_cup_season": 6,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 7,
+          "silver": 4,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 7,
+          "silver": 4,
+          "bronze": 1
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2013-05-08",
+      "last_gold": {
+        "year": 2015,
+        "venue": "Kranj",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-liv_sansoz",
+      "first_name": "Liv",
+      "last_name": "Sansoz",
+      "gender": "W",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Portrait_Liv.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liv_Sansoz",
+      "titles": {
+        "lead": 5,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 6,
+        "world_cup_season": 4,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1977-02-12",
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-muriel_sarkany",
+      "first_name": "Muriel",
+      "last_name": "Sarkany",
+      "gender": "W",
+      "country": "Belgian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Muriel_Rock_Climbing.jpg/500px-Muriel_Rock_Climbing.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Muriel_Sarkany",
+      "titles": {
+        "lead": 6,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 6,
+        "world_cup_season": 5,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 4,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1974-08-05",
+      "last_gold": {
+        "year": 2003,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-anna_stöhr",
+      "first_name": "Anna",
+      "last_name": "Stöhr",
+      "gender": "W",
+      "country": "Austria",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/BW_2012-08-26_Anna_Stoehr_AUS_0568.JPG/500px-BW_2012-08-26_Anna_Stoehr_AUS_0568.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anna_Stöhr",
+      "titles": {
+        "lead": 0,
+        "boulder": 6,
+        "speed": 0,
+        "combined": 0,
+        "total": 6,
+        "world_cup_season": 4,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 2,
+          "bronze": 2
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 2,
+          "silver": 2,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1988-04-25",
+      "last_gold": {
+        "year": 2015,
+        "venue": "Toronto",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-sorato_anraku",
+      "first_name": "Sorato",
+      "last_name": "Anraku",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2024_Summer_Olympics_otin_44_%28Sorato_Anraku%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sorato_Anraku",
+      "titles": {
+        "lead": 1,
+        "boulder": 4,
+        "speed": 0,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 4,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 12,
+          "silver": 5,
+          "bronze": 4
+        },
+        "olympics": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0
+        },
+        "continental": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 5,
+          "silver": 4,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 7,
+          "silver": 1,
+          "bronze": 2
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2006-11-14",
+      "last_gold": {
+        "year": 2026,
+        "venue": "keqiao",
+        "competition": "World Cup (event)"
+      }
+    },
+    {
+      "id": "ifsc-alexandre_chabot",
+      "first_name": "Alexandre",
+      "last_name": "Chabot",
+      "gender": "M",
+      "country": "France",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Alexandre_Chabot_-_PuntX_9a_-_Gorges_du_Loup.jpg/500px-Alexandre_Chabot_-_PuntX_9a_-_Gorges_du_Loup.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alexandre_Chabot",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 2,
+        "total": 5,
+        "world_cup_season": 5,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1981-12-27",
+      "last_gold": {
+        "year": 2003,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-robyn_erbesfield",
+      "first_name": "Robyn",
+      "last_name": "Erbesfield",
+      "gender": "W",
+      "country": "American",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2013-07-23_Robyn_Erbesfield-Raboutou.jpg/500px-2013-07-23_Robyn_Erbesfield-Raboutou.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Robyn_Erbesfield",
+      "titles": {
+        "lead": 5,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 4,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1963-05-08",
+      "last_gold": {
+        "year": 1995,
+        "venue": "geneva",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-natalia_grossman",
+      "first_name": "Natalia",
+      "last_name": "Grossman",
+      "gender": "W",
+      "country": "United States",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Grossman_2022.jpg/500px-Grossman_2022.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Natalia_Grossman",
+      "titles": {
+        "lead": 0,
+        "boulder": 5,
+        "speed": 0,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 4,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 11,
+          "silver": 4,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 11,
+          "silver": 2,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 4
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2001-06-22",
+      "last_gold": {
+        "year": 2024,
+        "venue": "Salt Lake City",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-sean_mccoll",
+      "first_name": "Sean",
+      "last_name": "McColl",
+      "gender": "M",
+      "country": "Canada",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/BW_2012-08-26_Sean_McColl_CAN_0865.JPG/500px-BW_2012-08-26_Sean_McColl_CAN_0865.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sean_McColl",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 5,
+        "total": 5,
+        "world_cup_season": 2,
+        "world_championship": 3
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 2,
+          "silver": 5,
+          "bronze": 5
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_championships": {
+          "gold": 3,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 3
+        },
+        "lead": {
+          "gold": 1,
+          "silver": 4,
+          "bronze": 2
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1987-09-03",
+      "last_gold": {
+        "year": 2016,
+        "venue": "Villars-sur-Ollon",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-zhong_qixin",
+      "first_name": "Zhong",
+      "last_name": "Qixin",
+      "gender": "M",
+      "country": "Chinese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Climbing_World_Championships_2018_Speed_third_place_playoff_%28BT0A6526%29.jpg/500px-Climbing_World_Championships_2018_Speed_third_place_playoff_%28BT0A6526%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Zhong_Qixin",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 5,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 0,
+        "world_championship": 5
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 8,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "continental": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "birth_date": "1989-04-07",
+      "last_gold": {
+        "year": 2015,
+        "venue": "Haiyang",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-tatiana_ruyga",
+      "first_name": "Tatiana",
+      "last_name": "Ruyga",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Tatiana_Ruyga",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 5,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 3,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-olena_ryepko",
+      "first_name": "Olena",
+      "last_name": "Ryepko",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Olena_Ryepko",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 5,
+        "combined": 0,
+        "total": 5,
+        "world_cup_season": 2,
+        "world_championship": 3
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-jérôme_meyer",
+      "first_name": "Jérôme",
+      "last_name": "Meyer",
+      "gender": "M",
+      "country": "France",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Jérôme_Meyer",
+      "titles": {
+        "lead": 0,
+        "boulder": 4,
+        "speed": 0,
+        "combined": 0,
+        "total": 4,
+        "world_cup_season": 4,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1979-05-31",
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-tomáš_mrázek",
+      "first_name": "Tomáš",
+      "last_name": "Mrázek",
+      "gender": "M",
+      "country": "Czech",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Tomáš_Mrázek",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 4,
+        "world_cup_season": 2,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 1
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1982-08-24",
+      "last_gold": {
+        "year": 2006,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-tomasz_oleksy",
+      "first_name": "Tomasz",
+      "last_name": "Oleksy",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Tomasz_Oleksy",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 2,
+        "total": 4,
+        "world_cup_season": 4,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-françois_petit_(climber)",
+      "first_name": "François",
+      "last_name": "Petit",
+      "gender": "M",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Fran%C3%A7ois_Petit.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/François_Petit_(climber)",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 4,
+        "world_cup_season": 3,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1975-03-27",
+      "last_gold": {
+        "year": 1999,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-jessica_pilz",
+      "first_name": "Jessica",
+      "last_name": "Pilz",
+      "gender": "W",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CISM2017_250217_115026.jpg/500px-CISM2017_250217_115026.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jessica_Pilz",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 4,
+        "world_cup_season": 2,
+        "world_championship": 2
+      },
+      "medals": {
+        "olympics": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 3,
+          "silver": 13,
+          "bronze": 7
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 3
+        },
+        "world_games": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 3,
+          "silver": 13,
+          "bronze": 6
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1996-11-22",
+      "last_gold": {
+        "year": 2024,
+        "venue": "Seoul",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-dmitri_sarafutdinov",
+      "first_name": "Dmitri",
+      "last_name": "Sarafutdinov",
+      "gender": "M",
+      "country": "Russian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/BW_2012-08-26_Dmitrii_Sherafutdinov_RUS_0755.JPG/500px-BW_2012-08-26_Dmitrii_Sherafutdinov_RUS_0755.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dmitri_Sarafutdinov",
+      "titles": {
+        "lead": 0,
+        "boulder": 4,
+        "speed": 0,
+        "combined": 0,
+        "total": 4,
+        "world_cup_season": 1,
+        "world_championship": 3
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1986-09-16",
+      "last_gold": {
+        "year": 2013,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-maksym_styenkovyy",
+      "first_name": "Maksym",
+      "last_name": "Styenkovyy",
+      "gender": "M",
+      "country": "Ukrainian",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Maksym_Styenkovyy",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 1,
+        "total": 4,
+        "world_cup_season": 2,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 4,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1982-08-16",
+      "last_gold": {
+        "year": 2003,
+        "venue": "chamonix",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-evgeny_vaitcekhovsky",
+      "first_name": "Evgeny",
+      "last_name": "Vaitcekhovsky",
+      "gender": "M",
+      "country": "Russia",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/98/Yevgeniy_Vaitsekhovskiy_%28RUS%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Evgeny_Vaitcekhovsky",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 4,
+        "combined": 0,
+        "total": 4,
+        "world_cup_season": 3,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1986-05-12",
+      "last_gold": {
+        "year": 2008,
+        "venue": "paris",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-olga_zakharova",
+      "first_name": "Olga",
+      "last_name": "Zakharova",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Olga_Zakharova",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 4,
+        "combined": 0,
+        "total": 4,
+        "world_cup_season": 3,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-danyil_boldyrev",
+      "first_name": "Danyil",
+      "last_name": "Boldyrev",
+      "gender": "M",
+      "country": "Ukrainian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2020-11-21_-_IFSC_Euros_-_Speed_M_-_SF_-_Photo_11.jpg/500px-2020-11-21_-_IFSC_Euros_-_Speed_M_-_SF_-_Photo_11.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Danyil_Boldyrev",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 1,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 4,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 4,
+          "silver": 6,
+          "bronze": 6
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 4,
+          "silver": 6,
+          "bronze": 6
+        }
+      },
+      "birth_date": "1992-05-15",
+      "last_gold": {
+        "year": 2022,
+        "venue": "munich",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-christian_core",
+      "first_name": "Christian",
+      "last_name": "Core",
+      "gender": "M",
+      "country": "Italian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Christian_Core_on_Gioia.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Core",
+      "titles": {
+        "lead": 0,
+        "boulder": 3,
+        "speed": 0,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 2,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1974-10-05",
+      "last_gold": {
+        "year": 2003,
+        "venue": "",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-johanna_ernst",
+      "first_name": "Johanna",
+      "last_name": "Ernst",
+      "gender": "W",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Johanna_Ernst_Imst_2009.JPG/500px-Johanna_Ernst_Imst_2009.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Johanna_Ernst",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 2,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1992-11-16",
+      "last_gold": {
+        "year": 2009,
+        "venue": "xining",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-ramón_julián_puigblanque",
+      "first_name": "Ramón J.",
+      "last_name": "Julián Puigblanque",
+      "gender": "M",
+      "country": "Spanish",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Puigblanque_Imst_2010.JPG/500px-Puigblanque_Imst_2010.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ramón_Julián_Puigblanque",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 1,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 3,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1981-11-09",
+      "last_gold": {
+        "year": 2015,
+        "venue": "",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-stanislav_kokorin",
+      "first_name": "Stanislav",
+      "last_name": "Kokorin",
+      "gender": "M",
+      "country": "Russia",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Stanislav_Kokorin_Climbing_WCh_2018.jpg/500px-Stanislav_Kokorin_Climbing_WCh_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Stanislav_Kokorin",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 3,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 2
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        }
+      },
+      "birth_date": "1990-01-22",
+      "last_gold": {
+        "year": 2016,
+        "venue": "Xiamen",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-maria_krasavina",
+      "first_name": "Maria",
+      "last_name": "Krasavina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Maria_Krasavina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 2,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-veddriq_leonardo",
+      "first_name": "Veddriq",
+      "last_name": "Leonardo",
+      "gender": "M",
+      "country": "Indonesia",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Veddriq_Leonardo_Paris_2024_Olympics.jpg/500px-Veddriq_Leonardo_Paris_2024_Olympics.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Veddriq_Leonardo",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 3,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 6,
+          "silver": 0,
+          "bronze": 1
+        },
+        "continental": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 6,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "birth_date": "1997-03-11",
+      "last_gold": {
+        "year": 2023,
+        "venue": "Seoul",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-edyta_ropek",
+      "first_name": "Edyta",
+      "last_name": "Ropek",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Edyta_Ropek",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 3,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-sergey_sinitsyn",
+      "first_name": "Sergey",
+      "last_name": "Sinitsyn",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Sergey_Sinitsyn",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 3,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-patxi_usobiaga_lakunza",
+      "first_name": "Patxi",
+      "last_name": "Usobiaga Lakunza",
+      "gender": "M",
+      "country": "Spain",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Patxi_Usobiaga_Lakunza_2009.JPG/500px-Patxi_Usobiaga_Lakunza_2009.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patxi_Usobiaga_Lakunza",
+      "titles": {
+        "lead": 3,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 2,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1980-09-07",
+      "last_gold": {
+        "year": 2009,
+        "venue": "",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-andrey_vedenmeer",
+      "first_name": "Andrey",
+      "last_name": "Vedenmeer",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Andrey_Vedenmeer",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 3,
+        "combined": 0,
+        "total": 3,
+        "world_cup_season": 2,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-sachi_amma",
+      "first_name": "Sachi",
+      "last_name": "Amma",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Amma_Sachi.JPG/500px-Amma_Sachi.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sachi_Amma",
+      "titles": {
+        "lead": 2,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 1
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1989-09-23",
+      "last_gold": {
+        "year": 2014,
+        "venue": "Briançon 19.07.2014",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-olga_bibik_(climber)",
+      "first_name": "Olga",
+      "last_name": "Bibik",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Olga_Bibik_(climber)",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 1,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-seo_chae-hyun",
+      "first_name": "Chae-hyun",
+      "last_name": "Chae-hyun",
+      "gender": "W",
+      "country": "South Korea",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%EC%84%9C%EC%B1%84%ED%98%84_2021%EB%85%84.jpg/500px-%EC%84%9C%EC%B1%84%ED%98%84_2021%EB%85%84.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Seo_Chae-hyun",
+      "titles": {
+        "lead": 2,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 6,
+          "silver": 7,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 6,
+          "silver": 6,
+          "bronze": 5
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2003-11-01",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Wujiang",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-jongwon_chon",
+      "first_name": "Jongwon",
+      "last_name": "Chon",
+      "gender": "M",
+      "country": "South Korean",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Climbing_World_Championships_2018_Boulder_Final_Chon_%28BT0A9245%29.jpg/500px-Climbing_World_Championships_2018_Boulder_Final_Chon_%28BT0A9245%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jongwon_Chon",
+      "titles": {
+        "lead": 0,
+        "boulder": 2,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1996-02-07",
+      "last_gold": {
+        "year": 2017,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-shauna_coxsey",
+      "first_name": "Shauna",
+      "last_name": "Coxsey",
+      "gender": "W",
+      "country": "England",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Shauna_Coxsey_GBR_2017-08-19_2214.jpg/500px-Shauna_Coxsey_GBR_2017-08-19_2214.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Shauna_Coxsey",
+      "titles": {
+        "lead": 0,
+        "boulder": 2,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 11,
+          "silver": 8,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 11,
+          "silver": 8,
+          "bronze": 5
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1993-01-27",
+      "last_gold": {
+        "year": 2017,
+        "venue": "Navi Mumbai",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-marcin_dzieński",
+      "first_name": "Marcin",
+      "last_name": "Dzieński",
+      "gender": "M",
+      "country": "Polish",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Marcin_Dzie%C5%84ski_Climbing_WCh_2018.jpg/500px-Marcin_Dzie%C5%84ski_Climbing_WCh_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Marcin_Dzieński",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 4,
+          "silver": 3,
+          "bronze": 3
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 4,
+          "silver": 3,
+          "bronze": 3
+        }
+      },
+      "birth_date": "1993-01-22",
+      "last_gold": {
+        "year": 2016,
+        "venue": "Arco",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-alina_gaydamakina",
+      "first_name": "Alina",
+      "last_name": "Gaydamakina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Alina_Gaydamakina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-susi_good",
+      "first_name": "Susi",
+      "last_name": "Good",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Susi_Good",
+      "titles": {
+        "lead": 2,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 0,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-cuilian_he",
+      "first_name": "Cuilian",
+      "last_name": "He",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Cuilian_He",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 0,
+        "world_championship": 2
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-yuji_hirayama",
+      "first_name": "Yuji",
+      "last_name": "Hirayama",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Yuji_Hirayama_-_TEDxTokyo_2009.jpg/500px-Yuji_Hirayama_-_TEDxTokyo_2009.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Yuji_Hirayama",
+      "titles": {
+        "lead": 2,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1969-02-23",
+      "last_gold": {
+        "year": 2000,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-anouck_jaubert",
+      "first_name": "Anouck",
+      "last_name": "Jaubert",
+      "gender": "W",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5905%29.jpg/500px-Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5905%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anouck_Jaubert",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 15,
+          "silver": 6,
+          "bronze": 7
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 15,
+          "silver": 6,
+          "bronze": 7
+        }
+      },
+      "birth_date": "1994-01-27",
+      "last_gold": {
+        "year": 2019,
+        "venue": "Villars-sur-Ollon",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-natalia_kałucka",
+      "first_name": "Natalia",
+      "last_name": "Kałucka",
+      "gender": "W",
+      "country": "Poland",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2020-11-21_-_IFSC_Euros_-_Speed_W_-_Last_16_-_Photo_74_%28cropped%29.jpg/500px-2020-11-21_-_IFSC_Euros_-_Speed_W_-_Last_16_-_Photo_74_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Natalia_Kałucka",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 1
+        }
+      },
+      "birth_date": "2001-12-25",
+      "last_gold": {
+        "year": 2024,
+        "venue": "villars",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-yulia_levochkina",
+      "first_name": "Yulia",
+      "last_name": "Levochkina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Yulia_Levochkina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-bassa_mawem",
+      "first_name": "Bassa",
+      "last_name": "Mawem",
+      "gender": "M",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Championnat_de_France_escalade_de_vitesse_-_2022-03-19_-_Massy_-_podium_M_06.jpg/500px-Championnat_de_France_escalade_de_vitesse_-_2022-03-19_-_Massy_-_podium_M_06.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Bassa_Mawem",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 5
+        }
+      },
+      "birth_date": "1984-11-09",
+      "last_gold": {
+        "year": 2019,
+        "venue": "Moscow",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-aleksandra_mirosław",
+      "first_name": "Aleksandra",
+      "last_name": "Mirosław",
+      "gender": "W",
+      "country": "Polish",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Aleksandra_Rudzi%C5%84ska_Climbing_WCh_2018.jpg/500px-Aleksandra_Rudzi%C5%84ska_Climbing_WCh_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Aleksandra_Mirosław",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 2,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "olympics": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 3
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 8,
+          "silver": 3,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 8,
+          "silver": 3,
+          "bronze": 2
+        }
+      },
+      "birth_date": "1994-02-02",
+      "last_gold": {
+        "year": 2025,
+        "venue": "seoul",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-myriam_motteau",
+      "first_name": "Myriam",
+      "last_name": "Motteau",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Myriam_Motteau",
+      "titles": {
+        "lead": 0,
+        "boulder": 2,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 1,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-yoshiyuki_ogata",
+      "first_name": "Yoshiyuki",
+      "last_name": "Ogata",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Climbing_World_Championships_2018_Boulder_Semi_Ogata_%28BT0A9004%29.jpg/500px-Climbing_World_Championships_2018_Boulder_Semi_Ogata_%28BT0A9004%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Yoshiyuki_Ogata",
+      "titles": {
+        "lead": 0,
+        "boulder": 2,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 5
+        },
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 5
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1998-02-04",
+      "last_gold": {
+        "year": 2022,
+        "venue": "Salt Lake City",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-isabelle_patissier",
+      "first_name": "Isabelle",
+      "last_name": "Patissier",
+      "gender": "W",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Isabelle_pilote_de_rallye.jpg/500px-Isabelle_pilote_de_rallye.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Isabelle_Patissier",
+      "titles": {
+        "lead": 2,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 2,
+        "world_cup_season": 2,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1967-03-01",
+      "last_gold": {
+        "year": 1991,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-yulia_abramchuk",
+      "first_name": "Yulia",
+      "last_name": "Abramchuk",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Yulia_Abramchuk",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-reza_alipour",
+      "first_name": "Reza",
+      "last_name": "Alipour",
+      "gender": "M",
+      "country": "Iran",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5988%29.jpg/500px-Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5988%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Reza_Alipour",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 2,
+          "silver": 2,
+          "bronze": 2
+        },
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "continental": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 5,
+          "silver": 1,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 5,
+          "silver": 1,
+          "bronze": 5
+        }
+      },
+      "birth_date": "1994-04-29",
+      "last_gold": {
+        "year": 2018,
+        "venue": "Moscow",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-daniel_andrada",
+      "first_name": "Daniel",
+      "last_name": "Andrada",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Daniel_Andrada",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-oriane_bertone",
+      "first_name": "Oriane",
+      "last_name": "Bertone",
+      "gender": "W",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Oriane_Bertone.jpg/500px-Oriane_Bertone.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Oriane_Bertone",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 9,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 2,
+          "silver": 9,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2005-03-10",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Prague",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-stéphanie_bodet",
+      "first_name": "Stéphanie",
+      "last_name": "Bodet",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Stéphanie_Bodet",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1976-03-14",
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-mauro_calibani",
+      "first_name": "Mauro",
+      "last_name": "Calibani",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Mauro_Calibani",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-elena_choumilova",
+      "first_name": "Elena",
+      "last_name": "Choumilova",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Elena_Choumilova",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-flavio_crespi",
+      "first_name": "Flavio",
+      "last_name": "Crespi",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Flavio_Crespi",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-martina_cufar",
+      "first_name": "Martina",
+      "last_name": "Cufar",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Martina_Cufar",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-juliette_danion",
+      "first_name": "Juliette",
+      "last_name": "Danion",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Juliette_Danion",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-romain_desgranges",
+      "first_name": "Romain",
+      "last_name": "Desgranges",
+      "gender": "M",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/RomainDesgranges-2.JPG/500px-RomainDesgranges-2.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Romain_Desgranges",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "european_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 6,
+          "silver": 4,
+          "bronze": 3
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 6,
+          "silver": 4,
+          "bronze": 3
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1982-10-12",
+      "last_gold": {
+        "year": 2018,
+        "venue": "Wujiang",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-vladislav_deulin",
+      "first_name": "Vladislav",
+      "last_name": "Deulin",
+      "gender": "M",
+      "country": "Russian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/2020-11-21_-_IFSC_Euros_-_Speed_M_-_QF_-_Photo_09.jpg/500px-2020-11-21_-_IFSC_Euros_-_Speed_M_-_QF_-_Photo_09.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vladislav_Deulin",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 4
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 3,
+          "silver": 3,
+          "bronze": 4
+        }
+      },
+      "birth_date": "1994-05-05",
+      "last_gold": {
+        "year": 2019,
+        "venue": "edinburgh",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-lee_do-hyun_(climber)",
+      "first_name": "Do-hyun",
+      "last_name": "Do-hyun",
+      "gender": "M",
+      "country": "South Korean",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Lee_Do-hyun_Sports_Climbing_2025.jpg/500px-Lee_Do-hyun_Sports_Climbing_2025.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lee_Do-hyun_(climber)",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2002-10-08",
+      "last_gold": {
+        "year": 2025,
+        "venue": "seoul",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-isabelle_dorsimond",
+      "first_name": "Isabelle",
+      "last_name": "Dorsimond",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Isabelle_Dorsimond",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-daniel_dulac",
+      "first_name": "Daniel",
+      "last_name": "Dulac",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Daniel_Dulac",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-charlotte_durif",
+      "first_name": "Charlotte",
+      "last_name": "Durif",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Charlotte_Durif",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-yannick_flohé",
+      "first_name": "Yannick",
+      "last_name": "Flohé",
+      "gender": "M",
+      "country": null,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/2022-08-10_European_Championships_2022_%E2%80%93_Opening_Press_Conference_by_Sandro_Halank%E2%80%93007.jpg/500px-2022-08-10_European_Championships_2022_%E2%80%93_Opening_Press_Conference_by_Sandro_Halank%E2%80%93007.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Yannick_Flohé",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1999-08-14",
+      "last_gold": {
+        "year": 2022,
+        "venue": "Brixen",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-hans_florine",
+      "first_name": "Hans",
+      "last_name": "Florine",
+      "gender": "M",
+      "country": null,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hans_Florine_-_1_%28crop%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hans_Florine",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1964-06-18",
+      "last_gold": {
+        "year": 1991,
+        "venue": "frankfurt",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-ludovico_fossali",
+      "first_name": "Ludovico",
+      "last_name": "Fossali",
+      "gender": "M",
+      "country": "Italian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A6105%29.jpg/500px-Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A6105%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ludovico_Fossali",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 2
+        }
+      },
+      "birth_date": "1997-05-21",
+      "last_gold": {
+        "year": 2024,
+        "venue": "villars",
+        "competition": "European Championships"
+      }
+    },
+    {
+      "id": "ifsc-kokoro_fujii",
+      "first_name": "Kokoro",
+      "last_name": "Fujii",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Kokoro_Fujii_%28JAP%29_2017.jpg/500px-Kokoro_Fujii_%28JAP%29_2017.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kokoro_Fujii",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 5,
+          "silver": 1,
+          "bronze": 3
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "continental": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 5,
+          "silver": 1,
+          "bronze": 3
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1992-11-30",
+      "last_gold": {
+        "year": 2022,
+        "venue": "Seoul",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-alina_gaidamakina",
+      "first_name": "Alina",
+      "last_name": "Gaidamakina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Alina_Gaidamakina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": {
+        "year": 2014,
+        "venue": "Chamonix 10.07.2014",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-rustam_gelmanov",
+      "first_name": "Rustam",
+      "last_name": "Gelmanov",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Rustam_Gelmanov",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": {
+        "year": 2016,
+        "venue": "Kazo",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-stefano_ghisolfi",
+      "first_name": "Stefano",
+      "last_name": "Ghisolfi",
+      "gender": "M",
+      "country": "Italy",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/StefanoGhisolfi-1.JPG/500px-StefanoGhisolfi-1.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Stefano_Ghisolfi",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 6,
+          "silver": 6,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 6,
+          "silver": 6,
+          "bronze": 2
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1993-02-18",
+      "last_gold": {
+        "year": 2021,
+        "venue": "Briançon",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-alberto_ginés",
+      "first_name": "Alberto",
+      "last_name": "Ginés",
+      "gender": "M",
+      "country": "Spain",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93021_Alberto_Gin%C3%A9s_L%C3%B3pez.jpg/500px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93021_Alberto_Gin%C3%A9s_L%C3%B3pez.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alberto_Ginés",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "olympics": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2002-10-23",
+      "last_gold": {
+        "year": 2025,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-natalija_gros",
+      "first_name": "Natalija",
+      "last_name": "Gros",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Natalija_Gros",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-kai_harada",
+      "first_name": "Kai",
+      "last_name": "Harada",
+      "gender": "M",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Climbing_World_Championships_2018_Combined_Final_Harada_%28BT0B0774%29.jpg/500px-Climbing_World_Championships_2018_Combined_Final_Harada_%28BT0B0774%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kai_Harada",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1999-03-10",
+      "last_gold": {
+        "year": 2018,
+        "venue": "innsbruck",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-lynn_hill",
+      "first_name": "Lynn",
+      "last_name": "Hill",
+      "gender": "W",
+      "country": "US",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG/500px-Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lynn_Hill",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1961-01-03",
+      "last_gold": {
+        "year": 1990,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-jan_hojer",
+      "first_name": "Jan",
+      "last_name": "Hojer",
+      "gender": "M",
+      "country": "German",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Climbing_World_Championships_2018_Combined_Final_Hojer_%28BT0B0593%29.jpg/500px-Climbing_World_Championships_2018_Combined_Final_Hojer_%28BT0B0593%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jan_Hojer",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 2
+        },
+        "world_cup": {
+          "gold": 5,
+          "silver": 3,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 5,
+          "silver": 3,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1992-02-09",
+      "last_gold": {
+        "year": 2017,
+        "venue": "Munich",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-emma_hunt",
+      "first_name": "Emma",
+      "last_name": "Hunt",
+      "gender": "W",
+      "country": null,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2019_Sport_%26_Speed_Open_Nationals_-_Awards_-_Emma_Hunt_-_01_%28cropped%29.jpg/500px-2019_Sport_%26_Speed_Open_Nationals_-_Awards_-_Emma_Hunt_-_01_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Emma_Hunt",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 3
+        },
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 3
+        }
+      },
+      "birth_date": "2003-04-01",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Denver",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-yulia_kaplina",
+      "first_name": "Yulia",
+      "last_name": "Kaplina",
+      "gender": "W",
+      "country": "Russian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Iuliia_Kaplina_TQO_2019-12-01.png/500px-Iuliia_Kaplina_TQO_2019-12-01.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Yulia_Kaplina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 1
+        },
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1993-05-11",
+      "last_gold": {
+        "year": 2017,
+        "venue": "",
+        "competition": "World Games"
+      }
+    },
+    {
+      "id": "ifsc-kiromal_katibin",
+      "first_name": "Kiromal",
+      "last_name": "Katibin",
+      "gender": "M",
+      "country": "Indonesian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kiromal_Katibin_Bern2023.jpg/500px-Kiromal_Katibin_Bern2023.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kiromal_Katibin",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_games": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 4,
+          "bronze": 3
+        },
+        "continental": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 2,
+          "silver": 4,
+          "bronze": 3
+        }
+      },
+      "birth_date": "2000-08-21",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Denver",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-aleksandra_kałucka",
+      "first_name": "Aleksandra",
+      "last_name": "Kałucka",
+      "gender": "W",
+      "country": "Poland",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Aleksandra_Ka%C5%82ucka_%28POL%29_2018.jpg/500px-Aleksandra_Ka%C5%82ucka_%28POL%29_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Aleksandra_Kałucka",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "olympics": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 5
+        }
+      },
+      "birth_date": "2001-12-25",
+      "last_gold": {
+        "year": 2022,
+        "venue": "Edinburgh",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-petra_klingler",
+      "first_name": "Petra",
+      "last_name": "Klingler",
+      "gender": "W",
+      "country": "Swiss",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Petra_Klingler_SUI_2017.jpg/500px-Petra_Klingler_SUI_2017.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Petra_Klingler",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1992-02-14",
+      "last_gold": {
+        "year": 2016,
+        "venue": "paris",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-elena_krasovskaya",
+      "first_name": "Elena",
+      "last_name": "Krasovskaya",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Elena_Krasovskaya",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-jernej_kruder",
+      "first_name": "Jernej",
+      "last_name": "Kruder",
+      "gender": "M",
+      "country": "Slovenian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jernej_Kruder_SLO_2100.jpg/500px-Jernej_Kruder_SLO_2100.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jernej_Kruder",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 2,
+          "silver": 3,
+          "bronze": 1
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1990-12-05",
+      "last_gold": {
+        "year": 2019,
+        "venue": "Moscow",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-bernardino_lagni",
+      "first_name": "Bernardino",
+      "last_name": "Lagni",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Bernardino_Lagni",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-david_lama",
+      "first_name": "David",
+      "last_name": "Lama",
+      "gender": "M",
+      "country": "Austrian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/David-lama1.JPG/500px-David-lama1.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/David_Lama",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 1,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1990-08-04",
+      "last_gold": {
+        "year": 2008,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-françois_lombard",
+      "first_name": "François",
+      "last_name": "Lombard",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/François_Lombard",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-desak_made_rita_kusuma_dewi",
+      "first_name": "Desak M.R.",
+      "last_name": "Made Rita Kusuma Dewi",
+      "gender": "W",
+      "country": "Indonesian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Desak_Made_IFSC_Asia_Qual_2023.jpg/500px-Desak_Made_IFSC_Asia_Qual_2023.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Desak_Made_Rita_Kusuma_Dewi",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_games": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 3
+        },
+        "continental": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 3
+        }
+      },
+      "birth_date": "2001-01-24",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Kraków",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-mickaël_mawem",
+      "first_name": "Mickaël",
+      "last_name": "Mawem",
+      "gender": "M",
+      "country": "French",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/MAWEM_Mickael_FRA_6725.jpg/500px-MAWEM_Mickael_FRA_6725.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mickaël_Mawem",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1990-08-03",
+      "last_gold": {
+        "year": 2023,
+        "venue": "bern",
+        "competition": "World Championships"
+      }
+    },
+    {
+      "id": "ifsc-erin_mcneice",
+      "first_name": "Erin",
+      "last_name": "McNeice",
+      "gender": "W",
+      "country": "British",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Erin_McNeice_at_PCL_London_01.jpg/500px-Erin_McNeice_at_PCL_London_01.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Erin_McNeice",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 4
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 2
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2004-04-06",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Bern",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-ai_mori",
+      "first_name": "Ai",
+      "last_name": "Mori",
+      "gender": "W",
+      "country": "Japan",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ai_Mori_in_the_Koper_2022_Lead_World_Cup.png/500px-Ai_Mori_in_the_Koper_2022_Lead_World_Cup.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ai_Mori",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 2,
+          "silver": 4,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "continental": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 2,
+          "silver": 4,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2003-09-17",
+      "last_gold": {
+        "year": 2024,
+        "venue": "Chamonix",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-simon_nadin",
+      "first_name": "Simon",
+      "last_name": "Nadin",
+      "gender": "M",
+      "country": "England",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Simon_Nadin",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1965-07-10",
+      "last_gold": {
+        "year": 1989,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-vladimir_netsvetaev",
+      "first_name": "Vladimir",
+      "last_name": "Netsvetaev",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Vladimir_Netsvetaev",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-miho_nonaka",
+      "first_name": "Miho",
+      "last_name": "Nonaka",
+      "gender": "W",
+      "country": "Japanese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nonaka_miho_1988_original.JPG/500px-Nonaka_miho_1988_original.JPG",
+      "wiki_url": "https://en.wikipedia.org/wiki/Miho_Nonaka",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "olympics": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 4,
+          "silver": 10,
+          "bronze": 12
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 4,
+          "silver": 10,
+          "bronze": 11
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "birth_date": "1997-05-21",
+      "last_gold": {
+        "year": 2023,
+        "venue": "Seoul",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-nataliya_perlova",
+      "first_name": "Nataliya",
+      "last_name": "Perlova",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Nataliya_Perlova",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-alexander_peshekhonov",
+      "first_name": "Alexander",
+      "last_name": "Peshekhonov",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Alexander_Peshekhonov",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-arnaud_petit_(climber)",
+      "first_name": "Arnaud",
+      "last_name": "Petit",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Arnaud_Petit_(climber)",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-pedro_pons",
+      "first_name": "Pedro",
+      "last_name": "Pons",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Pedro_Pons",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-luka_potočar",
+      "first_name": "Luka",
+      "last_name": "Potočar",
+      "gender": "M",
+      "country": "Slovenia",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Luka_Poto%C4%8Dar_%28SLO%29_2019.jpg/500px-Luka_Poto%C4%8Dar_%28SLO%29_2019.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Luka_Potočar",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 0
+        },
+        "european_championships": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2001-11-21",
+      "last_gold": {
+        "year": 2022,
+        "venue": "Koper",
+        "competition": "World Cup (Lead)"
+      }
+    },
+    {
+      "id": "ifsc-gérome_pouvreau",
+      "first_name": "Gérome",
+      "last_name": "Pouvreau",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Gérome_Pouvreau",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-salavat_rakhmetov",
+      "first_name": "Salavat",
+      "last_name": "Rakhmetov",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Salavat_Rakhmetov",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-lisa_rands",
+      "first_name": "Lisa",
+      "last_name": "Rands",
+      "gender": "W",
+      "country": "U.S.",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Lisa_Rands",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1975-10-21",
+      "last_gold": {
+        "year": 2002,
+        "venue": "",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-nanette_raybaud",
+      "first_name": "Nanette",
+      "last_name": "Raybaud",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Nanette_Raybaud",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-natalie_richer",
+      "first_name": "Natalie",
+      "last_name": "Richer",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Natalie_Richer",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-toby_roberts",
+      "first_name": "Toby",
+      "last_name": "Roberts",
+      "gender": "M",
+      "country": "English",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93194.jpg/500px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93194.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Toby_Roberts",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "olympics": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 4,
+          "silver": 1,
+          "bronze": 5
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 3,
+          "silver": 1,
+          "bronze": 3
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2005-03-15",
+      "last_gold": {
+        "year": 2025,
+        "venue": "innsbruck",
+        "competition": "World Cup"
+      }
+    },
+    {
+      "id": "ifsc-alexey_rubtsov",
+      "first_name": "Alexey",
+      "last_name": "Rubtsov",
+      "gender": "M",
+      "country": "Russian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boulder_Worldcup_Vienna_29-05-2010b_winners4_Alexey_Rubtsov_3rd_place.jpg/500px-Boulder_Worldcup_Vienna_29-05-2010b_winners4_Alexey_Rubtsov_3rd_place.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alexey_Rubtsov",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_championships": {
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0
+        },
+        "world_cup": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 7
+        },
+        "world_games": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 2,
+          "silver": 1,
+          "bronze": 7
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1988-08-05",
+      "last_gold": {
+        "year": 2020,
+        "venue": "moscow",
+        "competition": "IFSC European Championships"
+      }
+    },
+    {
+      "id": "ifsc-mélanie_sandoz",
+      "first_name": "Mélanie",
+      "last_name": "Sandoz",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Mélanie_Sandoz",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-olga_shalagina",
+      "first_name": "Olga",
+      "last_name": "Shalagina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Olga_Shalagina",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-malcolm_smith_(climber)",
+      "first_name": "Malcolm",
+      "last_name": "Smith",
+      "gender": "M",
+      "country": "British",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Malcolm_Smith_(climber)",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1973-01-01",
+      "last_gold": {
+        "year": 2002,
+        "venue": "",
+        "competition": "IFSC Climbing World Cup"
+      }
+    },
+    {
+      "id": "ifsc-yiling_song",
+      "first_name": "YiLing",
+      "last_name": "Song",
+      "gender": "W",
+      "country": "Chinese",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5956%29.jpg/500px-Climbing_World_Championships_2018_Speed_Eighth-finals_%28BT0A5956%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/YiLing_Song",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "2001-01-28",
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-anna_stenkovaya",
+      "first_name": "Anna",
+      "last_name": "Stenkovaya",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Anna_Stenkovaya",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-anna_tsyganova",
+      "first_name": "Anna",
+      "last_name": "Tsyganova",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Anna_Tsyganova",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 6
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 6
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-maja_vidmar_(climber)",
+      "first_name": "Maja",
+      "last_name": "Vidmar",
+      "gender": "W",
+      "country": "Slovenian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maja_Vidmar_at_the_2010_Winter_Military_World_Games.jpg/500px-Maja_Vidmar_at_the_2010_Winter_Military_World_Games.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Maja_Vidmar_(climber)",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1985-12-30",
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-sam_watson_(climber)",
+      "first_name": "Samuel",
+      "last_name": "Watson",
+      "gender": "M",
+      "country": "U.S.",
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Sam_Watson_(climber)",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_games": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1
+        },
+        "world_cup": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "birth_date": "2006-02-27",
+      "last_gold": {
+        "year": 2025,
+        "venue": "Bali",
+        "competition": "World Cup (Speed)"
+      }
+    },
+    {
+      "id": "ifsc-juliane_wurm",
+      "first_name": "Juliane",
+      "last_name": "Wurm",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Juliane_Wurm",
+      "titles": {
+        "lead": 0,
+        "boulder": 1,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 2
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": {
+        "year": 2014,
+        "venue": "Chongqing 26.04.2014",
+        "competition": "World Cup (Bouldering)"
+      }
+    },
+    {
+      "id": "ifsc-valentina_yurina",
+      "first_name": "Valentina",
+      "last_name": "Yurina",
+      "gender": "W",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Valentina_Yurina",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-vladimir_zakharov_(climber)",
+      "first_name": "Vladimir",
+      "last_name": "Zakharov",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Vladimir_Zakharov_(climber)",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 0,
+        "world_championship": 1
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-łukasz_świrk",
+      "first_name": "Łukasz",
+      "last_name": "Świrk",
+      "gender": "M",
+      "country": null,
+      "photo": null,
+      "wiki_url": "https://en.wikipedia.org/wiki/Łukasz_Świrk",
+      "titles": {
+        "lead": 0,
+        "boulder": 0,
+        "speed": 1,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": null,
+      "last_gold": null
+    },
+    {
+      "id": "ifsc-domen_škofic",
+      "first_name": "Domen",
+      "last_name": "Škofic",
+      "gender": "M",
+      "country": "Slovenian",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93325.jpg/500px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93325.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Domen_Škofic",
+      "titles": {
+        "lead": 1,
+        "boulder": 0,
+        "speed": 0,
+        "combined": 0,
+        "total": 1,
+        "world_cup_season": 1,
+        "world_championship": 0
+      },
+      "medals": {
+        "world_cup": {
+          "gold": 5,
+          "silver": 4,
+          "bronze": 5
+        },
+        "world_championships": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 1
+        },
+        "european_championships": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1
+        }
+      },
+      "world_cup_events": {
+        "boulder": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        },
+        "lead": {
+          "gold": 5,
+          "silver": 4,
+          "bronze": 5
+        },
+        "speed": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0
+        }
+      },
+      "birth_date": "1994-04-11",
+      "last_gold": {
+        "year": 2018,
+        "venue": "Xiamen",
+        "competition": "World Cup (Lead)"
+      }
+    }
+  ]
+}
