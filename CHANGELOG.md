@@ -1,3 +1,8 @@
+## v0.4.0 — 2026-05-17
+
+### Features
+- Added athletes
+
 ## v0.3.0 — 2026-05-15
 
 ### Improvements
