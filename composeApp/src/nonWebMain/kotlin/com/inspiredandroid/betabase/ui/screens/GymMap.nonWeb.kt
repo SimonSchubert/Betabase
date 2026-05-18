@@ -56,17 +56,16 @@ actual fun GymMap(
     )
 
     val featuresByCategory = remember(gyms) {
-        GymMarkerCategory.entries.associateWith { category ->
-            FeatureCollection(
-                gyms.filter { it.markerCategory() == category }.map { gym ->
-                    Feature<Point, JsonObject>(
-                        geometry = Point(Position(latitude = gym.latitude, longitude = gym.longitude)),
-                        properties = JsonObject(mapOf("name" to JsonPrimitive(gym.name))),
-                        id = JsonPrimitive(gym.id),
-                    )
-                },
-            )
-        }
+        GymMarkerCategory.entries.mapNotNull { category ->
+            val features = gyms.filter { it.markerCategory() == category }.map { gym ->
+                Feature<Point, JsonObject>(
+                    geometry = Point(Position(latitude = gym.latitude, longitude = gym.longitude)),
+                    properties = JsonObject(mapOf("name" to JsonPrimitive(gym.name))),
+                    id = JsonPrimitive(gym.id),
+                )
+            }
+            if (features.isEmpty()) null else category to FeatureCollection(features)
+        }.toMap()
     }
 
     LaunchedEffect(selectedGym) {
@@ -92,9 +91,9 @@ actual fun GymMap(
             ClickResult.Pass
         },
     ) {
-        GymMarkerCategory.entries.forEach { category ->
+        featuresByCategory.forEach { (category, features) ->
             val source = rememberGeoJsonSource(
-                data = GeoJsonData.Features(featuresByCategory.getValue(category)),
+                data = GeoJsonData.Features(features),
             )
             SymbolLayer(
                 id = "gym-markers-${category.name.lowercase()}",
