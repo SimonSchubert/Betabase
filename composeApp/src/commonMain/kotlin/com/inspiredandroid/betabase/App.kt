@@ -16,12 +16,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.zIndex
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.inspiredandroid.betabase.data.AthleteVideosRepository
 import com.inspiredandroid.betabase.data.BundledJsonEventSource
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
 import com.inspiredandroid.betabase.data.IfscVideosSource
 import com.inspiredandroid.betabase.data.SourceTag
 import com.inspiredandroid.betabase.data.VideosRepository
+import com.inspiredandroid.betabase.data.YoutubeChannelSource
 import com.inspiredandroid.betabase.data.createFilterStorage
 import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
 import com.inspiredandroid.betabase.ui.components.Tab
@@ -55,6 +57,9 @@ fun BetabaseApp() {
         val videosRepository = remember(httpClient) {
             VideosRepository(IfscVideosSource(httpClient))
         }
+        val athleteVideosRepository = remember(httpClient) {
+            AthleteVideosRepository(YoutubeChannelSource(httpClient))
+        }
         val filterStorage = remember { createFilterStorage() }
         val viewModel = viewModel { CompetitionsViewModel(repository, videosRepository, filterStorage) }
 
@@ -76,7 +81,7 @@ fun BetabaseApp() {
                 }
                 if (athletesEverVisible) {
                     TabLayer(visible = selectedTab == Tab.Athletes) {
-                        AthletesScreen()
+                        AthletesScreen(videosRepository = athleteVideosRepository)
                     }
                 }
                 if (gymsEverVisible) {

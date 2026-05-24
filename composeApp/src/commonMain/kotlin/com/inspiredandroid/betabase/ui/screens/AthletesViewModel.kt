@@ -5,8 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.inspiredandroid.betabase.data.Athlete
 import com.inspiredandroid.betabase.data.AthleteGender
+import com.inspiredandroid.betabase.data.AthleteVideosRepository
 import com.inspiredandroid.betabase.data.AthletesRepository
 import com.inspiredandroid.betabase.data.Discipline
+import com.inspiredandroid.betabase.data.YoutubeVideo
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -52,16 +54,22 @@ data class AthletesUiState(
     val athletes: List<Athlete> = emptyList(),
     val filters: AthletesFilters = AthletesFilters(),
     val loading: Boolean = true,
+    val videosByChannel: Map<String, List<YoutubeVideo>> = emptyMap(),
 ) {
     val filtered: List<Athlete> by lazy { athletes.filter(filters::matches) }
 }
 
 class AthletesViewModel(
     private val repository: AthletesRepository = AthletesRepository(),
+    private val videosRepository: AthleteVideosRepository? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(AthletesUiState())
     val state: StateFlow<AthletesUiState> = _state.asStateFlow()
+
+    // Channels we've already kicked off a fetch for, so cards scrolling back
+    // into view (or duplicate compositions) don't refire the request.
+    private val requestedChannels = mutableSetOf<String>()
 
     init {
         viewModelScope.launch {
@@ -72,6 +80,21 @@ class AthletesViewModel(
                         .thenBy { it.lastName },
                 )
             _state.update { it.copy(athletes = loaded, loading = false) }
+        }
+    }
+
+    /** Loads the channel's latest videos once; no-op without a videos repository. */
+    fun ensureVideos(channelId: String) {
+        val repo = videosRepository ?: return
+        if (!requestedChannels.add(channelId)) return
+        viewModelScope.launch {
+            repo.load(channelId)
+                .onSuccess { videos ->
+                    if (videos.isNotEmpty()) {
+                        _state.update { it.copy(videosByChannel = it.videosByChannel + (channelId to videos)) }
+                    }
+                }
+                .onFailure { requestedChannels.remove(channelId) } // allow a later retry
         }
     }
 

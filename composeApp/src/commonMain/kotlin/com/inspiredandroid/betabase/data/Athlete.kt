@@ -43,6 +43,7 @@ data class Athlete(
     val country: String?,
     val photoUrl: String?,
     val wikiUrl: String,
+    val youtubeChannelId: String? = null,
     val birthDate: LocalDate?,
     val lastGold: LastGold?,
     // Career titles (overall World Cup season + World Championship titles) by discipline.
