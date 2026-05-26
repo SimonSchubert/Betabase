@@ -1,3 +1,11 @@
+## v0.5.0 — 2026-05-26
+
+### Features
+- Added YouTube channels for athletes
+
+### Improvements
+- Upgraded dependencies
+
 ## v0.4.1 — 2026-05-19
 
 ### Fixes
