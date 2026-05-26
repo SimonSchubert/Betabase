@@ -124,8 +124,23 @@ private fun ReadyState(
         ),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        item("header") {
-            Header(
+        item("brand") {
+            BrandHeader(modifier = sidePadding)
+        }
+
+        if (state.athleteVideos.isNotEmpty()) {
+            item("athlete-videos") {
+                AthleteVideosCarousel(
+                    items = state.athleteVideos,
+                    contentPadding = PaddingValues(horizontal = ScreenSidePadding),
+                    headerModifier = sidePadding,
+                )
+            }
+        }
+
+        item("competitions-section") {
+            Spacer(Modifier.height(8.dp))
+            CompetitionsSectionHeader(
                 refreshing = state.refreshing,
                 onRefresh = onRefresh,
                 total = state.events.size,
@@ -176,11 +191,36 @@ private fun ReadyState(
 private val ScreenSidePadding = 20.dp
 
 @Composable
-private fun Header(refreshing: Boolean, onRefresh: () -> Unit, total: Int, visible: Int, modifier: Modifier = Modifier) {
+private fun BrandHeader(modifier: Modifier = Modifier) {
     Column(modifier = modifier.fillMaxWidth()) {
         BetaText(
             text = "BETABASE",
             style = BetabaseTheme.typography.displayLarge,
+            color = BetabaseTheme.colors.ink,
+            modifier = Modifier.fillMaxWidth(),
+        )
+        Spacer(Modifier.height(8.dp))
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(1.dp)
+                .background(BetabaseTheme.colors.hairline),
+        )
+    }
+}
+
+@Composable
+private fun CompetitionsSectionHeader(
+    refreshing: Boolean,
+    onRefresh: () -> Unit,
+    total: Int,
+    visible: Int,
+    modifier: Modifier = Modifier,
+) {
+    Column(modifier = modifier.fillMaxWidth()) {
+        BetaText(
+            text = "COMPETITIONS",
+            style = BetabaseTheme.typography.displayMedium,
             color = BetabaseTheme.colors.ink,
             modifier = Modifier.fillMaxWidth(),
         )

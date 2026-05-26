@@ -16,7 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.zIndex
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.inspiredandroid.betabase.data.AthleteFeedRepository
 import com.inspiredandroid.betabase.data.AthleteVideosRepository
+import com.inspiredandroid.betabase.data.AthletesRepository
 import com.inspiredandroid.betabase.data.BundledJsonEventSource
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
@@ -57,11 +59,22 @@ fun BetabaseApp() {
         val videosRepository = remember(httpClient) {
             VideosRepository(IfscVideosSource(httpClient))
         }
+        val athletesRepository = remember { AthletesRepository() }
         val athleteVideosRepository = remember(httpClient) {
             AthleteVideosRepository(YoutubeChannelSource(httpClient))
         }
+        val athleteFeedRepository = remember(athletesRepository, athleteVideosRepository) {
+            AthleteFeedRepository(athletesRepository, athleteVideosRepository)
+        }
         val filterStorage = remember { createFilterStorage() }
-        val viewModel = viewModel { CompetitionsViewModel(repository, videosRepository, filterStorage) }
+        val viewModel = viewModel {
+            CompetitionsViewModel(
+                repository = repository,
+                videosRepository = videosRepository,
+                athleteFeedRepository = athleteFeedRepository,
+                filterStorage = filterStorage,
+            )
+        }
 
         var selectedTab by rememberSaveable(stateSaver = TabSaver) { mutableStateOf(Tab.Comps) }
 

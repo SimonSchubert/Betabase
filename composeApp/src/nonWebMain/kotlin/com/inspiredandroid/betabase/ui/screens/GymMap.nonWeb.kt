@@ -91,6 +91,7 @@ actual fun GymMap(
             ClickResult.Pass
         },
     ) {
+        if (!supportsMaplibreProgrammaticLayers) return@MaplibreMap
         featuresByCategory.forEach { (category, features) ->
             val source = rememberGeoJsonSource(
                 data = GeoJsonData.Features(features),

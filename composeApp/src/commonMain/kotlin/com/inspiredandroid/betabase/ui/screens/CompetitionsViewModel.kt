@@ -3,6 +3,8 @@ package com.inspiredandroid.betabase.ui.screens
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.inspiredandroid.betabase.data.AthleteFeedItem
+import com.inspiredandroid.betabase.data.AthleteFeedRepository
 import com.inspiredandroid.betabase.data.CompetitionEvent
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.CompetitionsRepository
@@ -26,6 +28,7 @@ data class CompetitionsUiState(
     val errorMessage: String? = null,
     val events: List<CompetitionEvent> = emptyList(),
     val streams: List<IfscVideo> = emptyList(),
+    val athleteVideos: List<AthleteFeedItem> = emptyList(),
     val filters: CompetitionsFilters = CompetitionsFilters.Default,
 ) {
     val filteredEvents: List<CompetitionEvent> by lazy { events.filter(filters::matches) }
@@ -38,6 +41,7 @@ data class CompetitionsUiState(
 class CompetitionsViewModel(
     private val repository: CompetitionsRepository,
     private val videosRepository: VideosRepository? = null,
+    private val athleteFeedRepository: AthleteFeedRepository? = null,
     private val filterStorage: FilterStorage? = null,
 ) : ViewModel() {
 
@@ -97,6 +101,12 @@ class CompetitionsViewModel(
             viewModelScope.launch {
                 repo.loadRecent()
                     .onSuccess { videos -> _state.update { it.copy(streams = videos) } }
+            }
+        }
+        athleteFeedRepository?.let { repo ->
+            viewModelScope.launch {
+                repo.loadRecent()
+                    .onSuccess { items -> _state.update { it.copy(athleteVideos = items) } }
             }
         }
     }

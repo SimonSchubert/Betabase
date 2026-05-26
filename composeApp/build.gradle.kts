@@ -98,6 +98,12 @@ kotlin {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
             implementation(libs.ktor.client.okhttp)
+            val maplibreJni = libs.maplibre.native.bindings.jni.get()
+            runtimeOnly("${maplibreJni.module}:${maplibreJni.versionConstraint.requiredVersion}") {
+                capabilities {
+                    requireCapability("org.maplibre.compose:maplibre-native-bindings-jni-${detectMaplibreTarget()}")
+                }
+            }
         }
         wasmJsMain.dependencies {
             implementation(libs.ktor.client.js)
@@ -118,6 +124,20 @@ compose.desktop {
             packageVersion = "1.0.0"
         }
     }
+}
+
+fun detectMaplibreTarget(): String {
+    val hostOs = when (val os = System.getProperty("os.name").lowercase()) {
+        "mac os x" -> "macos"
+        else -> os.split(" ").first()
+    }
+    val hostArch = when (val arch = System.getProperty("os.arch").lowercase()) {
+        "x86_64" -> "amd64"
+        "arm64" -> "aarch64"
+        else -> arch
+    }
+    val renderer = if (hostOs == "macos") "metal" else "opengl"
+    return "$hostOs-$hostArch-$renderer"
 }
 
 spotless {
