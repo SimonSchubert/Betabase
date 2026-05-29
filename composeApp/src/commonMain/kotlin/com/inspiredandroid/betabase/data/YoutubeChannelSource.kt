@@ -39,22 +39,21 @@ class YoutubeChannelSource(
         return response.bodyAsText()
     }
 
-    private fun parseEntries(xml: String): List<YoutubeVideo> =
-        ENTRY.findAll(xml).mapNotNull { match ->
-            val entry = match.groupValues[1]
-            val id = VIDEO_ID.find(entry)?.groupValues?.get(1)
-                ?: WATCH_LINK.find(entry)?.groupValues?.get(1)
-                ?: return@mapNotNull null
-            val rawTitle = TITLE.find(entry)?.groupValues?.get(1)?.trim().orEmpty()
-            val published = PUBLISHED.find(entry)?.groupValues?.get(1)
-                ?.let { runCatching { Instant.parse(it) }.getOrNull() }
-                ?: return@mapNotNull null
-            YoutubeVideo(
-                id = id,
-                title = unescapeXml(rawTitle),
-                publishedAt = published,
-            )
-        }.toList()
+    private fun parseEntries(xml: String): List<YoutubeVideo> = ENTRY.findAll(xml).mapNotNull { match ->
+        val entry = match.groupValues[1]
+        val id = VIDEO_ID.find(entry)?.groupValues?.get(1)
+            ?: WATCH_LINK.find(entry)?.groupValues?.get(1)
+            ?: return@mapNotNull null
+        val rawTitle = TITLE.find(entry)?.groupValues?.get(1)?.trim().orEmpty()
+        val published = PUBLISHED.find(entry)?.groupValues?.get(1)
+            ?.let { runCatching { Instant.parse(it) }.getOrNull() }
+            ?: return@mapNotNull null
+        YoutubeVideo(
+            id = id,
+            title = unescapeXml(rawTitle),
+            publishedAt = published,
+        )
+    }.toList()
 
     companion object {
         const val DEFAULT_FEED_BASE = "https://www.youtube.com/feeds/videos.xml?channel_id="

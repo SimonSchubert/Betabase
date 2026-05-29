@@ -187,5 +187,4 @@ private fun AthleteAvatar(photoUrl: String?, initials: String) {
     }
 }
 
-private fun com.inspiredandroid.betabase.data.Athlete.initials(): String =
-    listOf(firstName, lastName).mapNotNull { it.firstOrNull()?.uppercaseChar() }.joinToString("")
+private fun com.inspiredandroid.betabase.data.Athlete.initials(): String = listOf(firstName, lastName).mapNotNull { it.firstOrNull()?.uppercaseChar() }.joinToString("")
