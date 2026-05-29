@@ -120,10 +120,34 @@ compose.desktop {
     application {
         mainClass = "com.inspiredandroid.betabase.MainKt"
 
+        // jlink/jpackage need a vanilla JDK: the JetBrains Runtime that runs Gradle ships patched
+        // modules whose hashes vanilla jlink rejects ("Hash of java.xml differs ... recorded in
+        // java.base"). Point packaging at a real JDK 21 — overridable via -PjlinkJdk=<path> for CI.
+        (findProperty("jlinkJdk") as String? ?: System.getenv("JLINK_JDK"))?.let { javaHome = it }
+            ?: run {
+                val fallback = "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"
+                if (file(fallback).exists()) javaHome = fallback
+            }
+
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Rpm)
             packageName = "Betabase"
             packageVersion = "1.0.0"
+            // Ktor/Coil's OkHttp engine and TLS are resolved reflectively at runtime, so jlink's
+            // static analysis (suggestRuntimeModules) doesn't detect them and strips them from the
+            // bundled runtime — crashing the release build the first time a sponsor image loads
+            // (NoClassDefFoundError: java/net/http/HttpClient$Version). Declare the dynamically
+            // loaded modules explicitly: java.net.http for the HTTP client, jdk.crypto.ec for
+            // HTTPS/TLS, java.naming for DNS, plus the four suggestRuntimeModules reported.
+            modules(
+                "java.net.http",
+                "jdk.crypto.ec",
+                "java.naming",
+                "java.instrument",
+                "java.management",
+                "java.prefs",
+                "jdk.unsupported",
+            )
         }
     }
 }
