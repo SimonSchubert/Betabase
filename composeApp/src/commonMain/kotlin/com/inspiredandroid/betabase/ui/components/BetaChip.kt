@@ -1,7 +1,6 @@
 package com.inspiredandroid.betabase.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -34,11 +33,6 @@ fun BetaChip(
         modifier = modifier
             .clip(shape)
             .background(background)
-            .border(
-                width = 1.5.dp,
-                color = if (selected) activeColor else BetabaseTheme.colors.hairline,
-                shape = shape,
-            )
             .clickable(onClick = onClick)
             .padding(horizontal = 14.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center,

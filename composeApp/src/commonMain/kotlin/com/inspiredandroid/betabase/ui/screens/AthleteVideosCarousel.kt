@@ -50,7 +50,12 @@ fun AthleteVideosCarousel(
     val now = if (inInspection) FixedInspectionNow else tickedNow
 
     Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        SectionHeader(count = items.size, modifier = headerModifier)
+        BetaText(
+            text = "ATHLETE CHANNELS",
+            style = BetabaseTheme.typography.displayMedium,
+            color = BetabaseTheme.colors.ink,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
+        )
         LazyRow(
             contentPadding = contentPadding,
             horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -59,27 +64,6 @@ fun AthleteVideosCarousel(
                 AthleteFeedCard(item = item, now = now)
             }
         }
-    }
-}
-
-@Composable
-private fun SectionHeader(count: Int, modifier: Modifier = Modifier) {
-    Row(
-        modifier = modifier.fillMaxWidth(),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        BetaText(
-            text = "ATHLETE CHANNELS",
-            style = BetabaseTheme.typography.label,
-            color = BetabaseTheme.colors.ink,
-        )
-        BetaText(
-            text = "$count latest uploads",
-            style = BetabaseTheme.typography.labelSmall,
-            color = BetabaseTheme.colors.inkMuted,
-            modifier = Modifier.weight(1f),
-        )
     }
 }
 

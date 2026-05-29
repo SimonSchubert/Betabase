@@ -136,6 +136,9 @@ Paparazzi tests live in `app/src/test/kotlin/.../screenshots/`. Snapshots are co
 
 Add new snapshots by writing a `@Test` in `ScreenshotTest.kt` that calls `snap { CompetitionsScreenContent(state = …, on… = {}) }` with hand-built `CompetitionsUiState`. Map the test name to a media filename inside the `updateScreenshots` task in `app/build.gradle.kts`.
 
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+Background image: https://www.pexels.com/photo/hand-grip-of-a-rock-during-wall-climbing-6700631/

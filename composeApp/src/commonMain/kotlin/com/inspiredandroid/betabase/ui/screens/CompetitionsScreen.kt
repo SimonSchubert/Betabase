@@ -1,5 +1,6 @@
 package com.inspiredandroid.betabase.ui.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -27,9 +28,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import betabase.composeapp.generated.resources.Res
+import betabase.composeapp.generated.resources.background
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.Gender
@@ -46,6 +50,7 @@ import com.inspiredandroid.betabase.ui.util.rememberNow
 import com.inspiredandroid.betabase.ui.util.startIn
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
+import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun CompetitionsScreen(
@@ -64,6 +69,16 @@ fun CompetitionsScreen(
 }
 
 @Composable
+fun ImageBackground() {
+    Image(
+        painter = painterResource(Res.drawable.background),
+        modifier = Modifier.fillMaxSize(),
+        contentScale = ContentScale.Crop,
+        contentDescription = null,
+    )
+}
+
+@Composable
 fun CompetitionsScreenContent(
     state: CompetitionsUiState,
     onRefresh: () -> Unit,
@@ -75,9 +90,9 @@ fun CompetitionsScreenContent(
 ) {
     Box(
         modifier = Modifier
-            .fillMaxSize()
-            .background(BetabaseTheme.colors.background),
+            .fillMaxSize(),
     ) {
+        ImageBackground()
         when {
             state.showInitialLoading -> LoadingState()
             state.showError -> ErrorState(message = state.errorMessage.orEmpty(), onRetry = onRefresh)
@@ -125,7 +140,7 @@ private fun ReadyState(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item("brand") {
-            BrandHeader(modifier = sidePadding)
+            Spacer(Modifier.fillMaxWidth()) // keep for async athlet load
         }
 
         if (state.athleteVideos.isNotEmpty()) {

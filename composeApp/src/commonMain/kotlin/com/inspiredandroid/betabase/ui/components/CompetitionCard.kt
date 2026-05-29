@@ -53,7 +53,7 @@ fun CompetitionCard(
     BetaCard(
         modifier = modifier.fillMaxWidth(),
         shape = BetabaseTheme.shapes.card,
-        background = BetabaseTheme.colors.surface,
+        background = genderBackground(event.gender),
         onClick = onClick,
     ) {
         Row(modifier = Modifier.heightIn(min = 120.dp)) {
@@ -136,11 +136,6 @@ fun CompetitionCard(
                         background = roundBackground(event.round),
                         onColor = roundForeground(event.round),
                     )
-                    BetaPill(
-                        label = event.gender.label(),
-                        background = BetabaseTheme.colors.ink,
-                        onColor = BetabaseTheme.colors.inkInverse,
-                    )
                 }
             }
         }
@@ -173,6 +168,13 @@ private fun disciplineColor(discipline: Discipline): Color = when (discipline) {
 private fun onDiscipline(discipline: Discipline): Color = when (discipline) {
     Discipline.SPEED -> BetabaseTheme.colors.ink
     else -> BetabaseTheme.colors.inkInverse
+}
+
+@Composable
+private fun genderBackground(gender: Gender): Color = when (gender) {
+    Gender.WOMEN -> BetabaseTheme.colors.womenSurface
+    Gender.MEN -> BetabaseTheme.colors.menSurface
+    else -> BetabaseTheme.colors.surface
 }
 
 @Composable

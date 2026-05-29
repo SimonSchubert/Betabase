@@ -73,7 +73,8 @@ fun AthletesScreen(
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
 
-    Box(modifier = modifier.fillMaxSize().background(BetabaseTheme.colors.background)) {
+    Box(modifier = modifier.fillMaxSize()) {
+        ImageBackground()
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
@@ -139,7 +140,7 @@ private fun Header(total: Int, visible: Int, modifier: Modifier = Modifier) {
     Column(modifier = modifier.fillMaxWidth()) {
         BetaText(
             text = "ATHLETES",
-            style = BetabaseTheme.typography.displayLarge,
+            style = BetabaseTheme.typography.displayMedium,
             color = BetabaseTheme.colors.ink,
             modifier = Modifier.fillMaxWidth(),
         )
