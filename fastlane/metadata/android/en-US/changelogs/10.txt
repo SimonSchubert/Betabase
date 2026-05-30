@@ -1,0 +1,5 @@
+Added athlete detail screen
+Added desktop scrollbars
+Extended athlete data and YouTube channels
+Refined visual styling
+Updated dependencies

@@ -1,3 +1,17 @@
+## v0.6.0 — 2026-05-30
+
+### Features
+- Added athlete detail screen
+
+### Fixes
+- Fixed desktop release build
+
+### Improvements
+- Added desktop scrollbars
+- Extended athlete data and added missing YouTube channels
+- Refined visual styling
+- Updated dependencies
+
 ## v0.5.0 — 2026-05-26
 
 ### Features
