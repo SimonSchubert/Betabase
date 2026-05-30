@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional manual overrides for athlete data. Merged at load time by AthletesRepository, keyed by the athlete `id` (now `ifsc-<numericIfscId>`, e.g. `ifsc-1480`). Use this for: better/recent photos, corrected last_competed years, a youtube_channel_id (UC… 24-char), or other small fixes. The scraper always overwrites the base ifsc_athletes.json from the IFSC API; put human-curated values here so they survive re-scrapes.",
+  "overrides": []
+}

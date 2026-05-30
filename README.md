@@ -76,10 +76,27 @@ The two patterns:
 python3 scripts/scrape_nkbv.py
 python3 scripts/scrape_sca.py
 python3 scripts/scrape_ifsc_athletes.py
-# review the diff in app/src/main/assets/*.json, then bump versionCode and release
+# review the diff in app/src/main/assets/*.json (and overrides if edited), then bump versionCode and release
 ```
 
 The scraper scripts themselves are gitignored — they're operator tooling, not shipped code. The JSON they produce is committed.
+
+### Athlete data (IFSC)
+
+`scripts/scrape_ifsc_athletes.py` (which also runs the event-medals pass) populates `ifsc_athletes.json` from Wikipedia. After running it:
+
+- Many more athletes will now have a populated `last_competed` year (sourced from the same World Cup season tables used for medal counts). This powers the active/retired distinction in the Athletes tab.
+- Review the active cohort (those with `last_competed` in the most recent 1–2 seasons). Spot-check that current stars have good photos and reasonable `last_competed` values.
+- For the small number of active athletes where you want a better recent photo or a manual correction, edit `ifsc_athletes_overrides.json` (the repository merges it at load time; the base file is still overwritten by the scraper on every run).
+- **Important active athletes who do not (or no longer) appear on Wikipedia's career victories ranking table must be listed in `scripts/featured_athletes.json`.** The scraper will always fetch and include them with full photo / medal / activity enrichment. This is the main mechanism to protect data quality for the athletes you care most about. Example: Brooke Raboutou was dropped from the ranking table between scrapes; adding her to featured ensures she (and her photo + recent results) stays in the app.
+- Commit the regenerated `ifsc_athletes.json` + any override or featured changes together.
+
+Example jq snippet to list currently active athletes after a scrape:
+
+```bash
+jq '.athletes[] | select(.last_competed != null) | select( (2026 - .last_competed) <= 2 ) | "\(.first_name) \(.last_name) (\(.last_competed))"' \
+  composeApp/src/commonMain/composeResources/files/ifsc_athletes.json
+```
 
 ## Release
 

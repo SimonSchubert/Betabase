@@ -81,15 +81,35 @@ class AthletesViewModel(
     // into view (or duplicate compositions) don't refire the request.
     private val requestedChannels = mutableSetOf<String>()
 
+    // The retired roster lives in a separate bundled file loaded only once the
+    // user asks to see inactive athletes; this guards against re-loading it.
+    private var retiredRequested = false
+
     init {
         viewModelScope.launch {
-            val loaded = repository.load()
-                .sortedWith(
-                    compareByDescending<Athlete> { it.totalGolds }
-                        .thenByDescending { it.totalTitles }
-                        .thenBy { it.lastName },
-                )
+            val loaded = repository.load().sortedByRank()
             _state.update { it.copy(athletes = loaded, loading = false, currentYear = today().year) }
+        }
+    }
+
+    private fun List<Athlete>.sortedByRank(): List<Athlete> = sortedWith(
+        compareByDescending<Athlete> { it.totalGolds }
+            .thenByDescending { it.totalTitles }
+            .thenBy { it.lastName },
+    )
+
+    /** Loads and merges the long-retired roster the first time it's needed. */
+    private fun ensureRetiredLoaded() {
+        if (retiredRequested) return
+        retiredRequested = true
+        viewModelScope.launch {
+            val retired = repository.loadRetired()
+            if (retired.isEmpty()) return@launch
+            _state.update { state ->
+                val ids = state.athletes.mapTo(HashSet()) { it.id }
+                val merged = (state.athletes + retired.filter { it.id !in ids }).sortedByRank()
+                state.copy(athletes = merged)
+            }
         }
     }
 
@@ -111,5 +131,9 @@ class AthletesViewModel(
     fun toggle(gender: AthleteGender) = _state.update { it.copy(filters = it.filters.toggle(gender)) }
     fun selectCountry(country: String?) = _state.update { it.copy(filters = it.filters.withCountry(country)) }
     fun setQuery(query: String) = _state.update { it.copy(filters = it.filters.copy(query = query)) }
-    fun toggleInactive() = _state.update { it.copy(filters = it.filters.copy(showInactive = !it.filters.showInactive)) }
+    fun toggleInactive() {
+        val showing = !_state.value.filters.showInactive
+        if (showing) ensureRetiredLoaded()
+        _state.update { it.copy(filters = it.filters.copy(showInactive = showing)) }
+    }
 }

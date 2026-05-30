@@ -43,7 +43,11 @@ data class Athlete(
     val country: String?,
     val countryCode: String?,
     val photoUrl: String?,
-    val wikiUrl: String,
+    // Wikipedia article URL when the athlete has one; null for most. The card
+    // falls back to [ifscProfileUrl] for the "open profile" action.
+    val wikiUrl: String?,
+    // Official IFSC profile page, used as the link target when there's no wiki page.
+    val ifscProfileUrl: String? = null,
     val youtubeChannelId: String? = null,
     val birthDate: LocalDate?,
     val lastGold: LastGold?,

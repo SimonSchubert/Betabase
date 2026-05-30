@@ -489,12 +489,15 @@ private fun AthleteDetail(
                     }
                 }
             }
-            item("wiki") {
-                BetaButton(
-                    label = "View on Wikipedia",
-                    onClick = { runCatching { uriHandler.openUri(athlete.wikiUrl) } },
-                    modifier = sidePadding.fillMaxWidth(),
-                )
+            val profileLink = athlete.wikiUrl ?: athlete.ifscProfileUrl
+            if (profileLink != null) {
+                item("profile") {
+                    BetaButton(
+                        label = if (athlete.wikiUrl != null) "View on Wikipedia" else "View IFSC profile",
+                        onClick = { runCatching { uriHandler.openUri(profileLink) } },
+                        modifier = sidePadding.fillMaxWidth(),
+                    )
+                }
             }
         }
         PlatformVerticalScrollbar(
