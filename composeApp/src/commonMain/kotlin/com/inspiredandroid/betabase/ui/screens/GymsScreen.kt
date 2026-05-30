@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -43,6 +44,7 @@ import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
 import com.inspiredandroid.betabase.ui.components.BetaPill
 import com.inspiredandroid.betabase.ui.components.BetaText
+import com.inspiredandroid.betabase.ui.components.PlatformVerticalScrollbar
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 
 @Composable
@@ -171,120 +173,130 @@ private fun GymDetailsSheet(
     modifier: Modifier = Modifier,
 ) {
     val uriHandler = LocalUriHandler.current
+    val scrollState = rememberScrollState()
     BetaCard(
         modifier = modifier.padding(12.dp),
         shape = RoundedCornerShape(20.dp),
         bordered = true,
     ) {
-        Column(
-            modifier = Modifier
-                .heightIn(max = 360.dp)
-                .verticalScroll(rememberScrollState())
-                .padding(20.dp),
-        ) {
-            Row(verticalAlignment = Alignment.Top) {
-                Column(modifier = Modifier.weight(1f)) {
-                    BetaText(
-                        text = gym.name,
-                        style = BetabaseTheme.typography.titleMedium,
-                    )
-                    Spacer(Modifier.height(4.dp))
-                    BetaText(
-                        text = gym.address,
-                        style = BetabaseTheme.typography.bodySmall,
-                        color = BetabaseTheme.colors.inkMuted,
-                    )
-                }
-                Box(
-                    modifier = Modifier
-                        .clip(BetabaseTheme.shapes.pill)
-                        .clickable(onClick = onDismiss)
-                        .padding(horizontal = 12.dp, vertical = 6.dp),
-                ) {
-                    BetaText(
-                        text = "CLOSE",
-                        style = BetabaseTheme.typography.labelSmall,
-                        color = BetabaseTheme.colors.inkMuted,
-                    )
-                }
-            }
-
-            if (gym.disciplines.isNotEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    gym.disciplines.forEach { discipline ->
-                        BetaPill(
-                            label = discipline.displayName(),
-                            background = discipline.color(),
-                            onColor = BetabaseTheme.colors.inkInverse,
-                        )
-                    }
-                }
-            }
-
-            if (gym.boards.isNotEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                BetaText(
-                    text = "TRAINING BOARDS",
-                    style = BetabaseTheme.typography.labelSmall,
-                    color = BetabaseTheme.colors.inkMuted,
-                )
-                Spacer(Modifier.height(6.dp))
-                FlowRow(
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    gym.boards.forEach { board ->
-                        BetaPill(
-                            label = board.label,
-                            background = BetabaseTheme.colors.ink,
-                            onColor = BetabaseTheme.colors.inkInverse,
-                        )
-                    }
-                }
-            }
-
-            gym.sizeSqm?.let { size ->
-                Spacer(Modifier.height(12.dp))
-                BetaText(
-                    text = "≈ $size m² climbing surface",
-                    style = BetabaseTheme.typography.bodySmall,
-                    color = BetabaseTheme.colors.inkMuted,
-                )
-            }
-
-            if (gym.openingHours.isNotEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                BetaText(
-                    text = "OPENING HOURS",
-                    style = BetabaseTheme.typography.labelSmall,
-                    color = BetabaseTheme.colors.inkMuted,
-                )
-                Spacer(Modifier.height(6.dp))
-                DayKey.ordered.forEach { day ->
-                    val hours = gym.openingHours[day] ?: "closed"
-                    Row(
-                        modifier = Modifier.fillMaxWidth().padding(vertical = 2.dp),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                    ) {
+        Box {
+            Column(
+                modifier = Modifier
+                    .heightIn(max = 360.dp)
+                    .verticalScroll(scrollState)
+                    .padding(20.dp),
+            ) {
+                Row(verticalAlignment = Alignment.Top) {
+                    Column(modifier = Modifier.weight(1f)) {
                         BetaText(
-                            text = day.label,
-                            style = BetabaseTheme.typography.bodySmall,
+                            text = gym.name,
+                            style = BetabaseTheme.typography.titleMedium,
                         )
+                        Spacer(Modifier.height(4.dp))
                         BetaText(
-                            text = hours,
+                            text = gym.address,
                             style = BetabaseTheme.typography.bodySmall,
                             color = BetabaseTheme.colors.inkMuted,
                         )
                     }
+                    Box(
+                        modifier = Modifier
+                            .clip(BetabaseTheme.shapes.pill)
+                            .clickable(onClick = onDismiss)
+                            .padding(horizontal = 12.dp, vertical = 6.dp),
+                    ) {
+                        BetaText(
+                            text = "CLOSE",
+                            style = BetabaseTheme.typography.labelSmall,
+                            color = BetabaseTheme.colors.inkMuted,
+                        )
+                    }
                 }
-            }
 
-            Spacer(Modifier.height(16.dp))
-            BetaButton(
-                label = "Open Website",
-                onClick = { runCatching { uriHandler.openUri(gym.url) } },
-                shape = BetabaseTheme.shapes.pill,
+                if (gym.disciplines.isNotEmpty()) {
+                    Spacer(Modifier.height(12.dp))
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        gym.disciplines.forEach { discipline ->
+                            BetaPill(
+                                label = discipline.displayName(),
+                                background = discipline.color(),
+                                onColor = BetabaseTheme.colors.inkInverse,
+                            )
+                        }
+                    }
+                }
+
+                if (gym.boards.isNotEmpty()) {
+                    Spacer(Modifier.height(12.dp))
+                    BetaText(
+                        text = "TRAINING BOARDS",
+                        style = BetabaseTheme.typography.labelSmall,
+                        color = BetabaseTheme.colors.inkMuted,
+                    )
+                    Spacer(Modifier.height(6.dp))
+                    FlowRow(
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp),
+                    ) {
+                        gym.boards.forEach { board ->
+                            BetaPill(
+                                label = board.label,
+                                background = BetabaseTheme.colors.ink,
+                                onColor = BetabaseTheme.colors.inkInverse,
+                            )
+                        }
+                    }
+                }
+
+                gym.sizeSqm?.let { size ->
+                    Spacer(Modifier.height(12.dp))
+                    BetaText(
+                        text = "≈ $size m² climbing surface",
+                        style = BetabaseTheme.typography.bodySmall,
+                        color = BetabaseTheme.colors.inkMuted,
+                    )
+                }
+
+                if (gym.openingHours.isNotEmpty()) {
+                    Spacer(Modifier.height(12.dp))
+                    BetaText(
+                        text = "OPENING HOURS",
+                        style = BetabaseTheme.typography.labelSmall,
+                        color = BetabaseTheme.colors.inkMuted,
+                    )
+                    Spacer(Modifier.height(6.dp))
+                    DayKey.ordered.forEach { day ->
+                        val hours = gym.openingHours[day] ?: "closed"
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(vertical = 2.dp),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                        ) {
+                            BetaText(
+                                text = day.label,
+                                style = BetabaseTheme.typography.bodySmall,
+                            )
+                            BetaText(
+                                text = hours,
+                                style = BetabaseTheme.typography.bodySmall,
+                                color = BetabaseTheme.colors.inkMuted,
+                            )
+                        }
+                    }
+                }
+
+                Spacer(Modifier.height(16.dp))
+                BetaButton(
+                    label = "Open Website",
+                    onClick = { runCatching { uriHandler.openUri(gym.url) } },
+                    shape = BetabaseTheme.shapes.pill,
+                )
+            }
+            PlatformVerticalScrollbar(
+                scrollState,
+                Modifier
+                    .align(Alignment.CenterEnd)
+                    .fillMaxHeight()
+                    .padding(vertical = 8.dp),
             )
         }
     }

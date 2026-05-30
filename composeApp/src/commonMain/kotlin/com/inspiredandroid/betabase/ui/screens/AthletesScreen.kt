@@ -11,8 +11,9 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.asPaddingValues
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -24,12 +25,13 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyGridItemSpanScope
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items as gridItems
+import androidx.compose.foundation.lazy.grid.rememberLazyGridState
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -70,11 +72,13 @@ import com.inspiredandroid.betabase.ui.components.BetaChip
 import com.inspiredandroid.betabase.ui.components.BetaPill
 import com.inspiredandroid.betabase.ui.components.BetaSearchField
 import com.inspiredandroid.betabase.ui.components.BetaText
+import com.inspiredandroid.betabase.ui.components.PlatformVerticalScrollbar
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.util.FixedInspectionNow
 import com.inspiredandroid.betabase.ui.util.formatRelativePast
 import com.inspiredandroid.betabase.ui.util.rememberNow
 import kotlin.time.Instant
+import androidx.compose.foundation.lazy.grid.items as gridItems
 
 private val ScreenSidePadding = 20.dp
 private val Gold = Color(0xFFD4AF37)
@@ -123,69 +127,80 @@ private fun AthletesGrid(
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
+    val gridState = rememberLazyGridState()
 
-    LazyVerticalGrid(
-        columns = GridCells.Adaptive(minSize = 108.dp),
-        modifier = Modifier
-            .fillMaxSize()
-            .windowInsetsPadding(WindowInsets.statusBars),
-        contentPadding = PaddingValues(
-            start = ScreenSidePadding,
-            end = ScreenSidePadding,
-            top = 12.dp,
-            bottom = 32.dp + bottomInset,
-        ),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        val fullSpan: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
+    Box(modifier = Modifier.fillMaxSize()) {
+        LazyVerticalGrid(
+            columns = GridCells.Adaptive(minSize = 108.dp),
+            state = gridState,
+            modifier = Modifier
+                .fillMaxSize()
+                .windowInsetsPadding(WindowInsets.statusBars),
+            contentPadding = PaddingValues(
+                start = ScreenSidePadding,
+                end = ScreenSidePadding,
+                top = 12.dp,
+                bottom = 32.dp + bottomInset,
+            ),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            val fullSpan: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
 
-        item(span = fullSpan, key = "header") {
-            Header(total = state.athletes.size, visible = state.filtered.size)
-        }
-        item(span = fullSpan, key = "search") {
-            BetaSearchField(
-                value = state.filters.query,
-                onValueChange = onQueryChange,
-                placeholder = "Search by name or country",
-            )
-        }
-        item(span = fullSpan, key = "gender") {
-            GenderRow(
-                selected = state.filters.genders,
-                showInactive = state.filters.showInactive,
-                onToggle = onToggleGender,
-                onToggleInactive = onToggleInactive,
-            )
-        }
-        if (state.countries.isNotEmpty()) {
-            item(span = fullSpan, key = "country") {
-                CountryRow(
-                    countries = state.countries,
-                    selected = state.filters.country,
-                    onSelect = onSelectCountry,
+            item(span = fullSpan, key = "header") {
+                Header(total = state.athletes.size, visible = state.filtered.size)
+            }
+            item(span = fullSpan, key = "search") {
+                BetaSearchField(
+                    value = state.filters.query,
+                    onValueChange = onQueryChange,
+                    placeholder = "Search by name or country",
                 )
             }
-        }
-
-        if (state.filtered.isEmpty() && !state.loading) {
-            item(span = fullSpan, key = "empty") {
-                BetaText(
-                    text = if (state.athletes.isEmpty()) {
-                        "No athletes loaded."
-                    } else {
-                        "No athletes match the current filters."
-                    },
-                    style = BetabaseTheme.typography.bodySmall,
-                    color = BetabaseTheme.colors.inkMuted,
+            item(span = fullSpan, key = "gender") {
+                GenderRow(
+                    selected = state.filters.genders,
+                    showInactive = state.filters.showInactive,
+                    onToggle = onToggleGender,
+                    onToggleInactive = onToggleInactive,
                 )
             }
-            return@LazyVerticalGrid
-        }
+            if (state.countries.isNotEmpty()) {
+                item(span = fullSpan, key = "country") {
+                    CountryRow(
+                        countries = state.countries,
+                        selected = state.filters.country,
+                        onSelect = onSelectCountry,
+                    )
+                }
+            }
 
-        gridItems(state.filtered, key = { it.id }) { athlete ->
-            AthleteTile(athlete = athlete, onClick = { onOpen(athlete) })
+            if (state.filtered.isEmpty() && !state.loading) {
+                item(span = fullSpan, key = "empty") {
+                    BetaText(
+                        text = if (state.athletes.isEmpty()) {
+                            "No athletes loaded."
+                        } else {
+                            "No athletes match the current filters."
+                        },
+                        style = BetabaseTheme.typography.bodySmall,
+                        color = BetabaseTheme.colors.inkMuted,
+                    )
+                }
+                return@LazyVerticalGrid
+            }
+
+            gridItems(state.filtered, key = { it.id }) { athlete ->
+                AthleteTile(athlete = athlete, onClick = { onOpen(athlete) })
+            }
         }
+        PlatformVerticalScrollbar(
+            gridState,
+            Modifier
+                .align(Alignment.CenterEnd)
+                .windowInsetsPadding(WindowInsets.statusBars)
+                .fillMaxHeight(),
+        )
     }
 }
 
@@ -399,9 +414,11 @@ private fun AthleteDetail(
         LaunchedEffect(channelId) { onRequestVideos() }
     }
 
+    val detailListState = rememberLazyListState()
     Box(modifier = Modifier.fillMaxSize().background(colors.background)) {
         ImageBackground()
         LazyColumn(
+            state = detailListState,
             modifier = Modifier
                 .fillMaxSize()
                 .windowInsetsPadding(WindowInsets.statusBars),
@@ -480,6 +497,13 @@ private fun AthleteDetail(
                 )
             }
         }
+        PlatformVerticalScrollbar(
+            detailListState,
+            Modifier
+                .align(Alignment.CenterEnd)
+                .windowInsetsPadding(WindowInsets.statusBars)
+                .fillMaxHeight(),
+        )
     }
 }
 

@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -21,6 +22,7 @@ import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
@@ -44,6 +46,7 @@ import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
 import com.inspiredandroid.betabase.ui.components.BetaText
 import com.inspiredandroid.betabase.ui.components.CompetitionCard
+import com.inspiredandroid.betabase.ui.components.PlatformVerticalScrollbar
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.util.FixedInspectionNow
 import com.inspiredandroid.betabase.ui.util.rememberNow
@@ -129,77 +132,88 @@ private fun ReadyState(
     val sortedDays = remember(grouped) { grouped.keys.sorted() }
 
     val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
-    LazyColumn(
-        modifier = Modifier
-            .fillMaxSize()
-            .windowInsetsPadding(WindowInsets.statusBars),
-        contentPadding = PaddingValues(
-            top = 12.dp,
-            bottom = 32.dp + bottomInset,
-        ),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        item("brand") {
-            Spacer(Modifier.fillMaxWidth()) // keep for async athlet load
-        }
-
-        if (state.athleteVideos.isNotEmpty()) {
-            item("athlete-videos") {
-                AthleteVideosCarousel(
-                    items = state.athleteVideos,
-                    contentPadding = PaddingValues(horizontal = ScreenSidePadding),
-                    headerModifier = sidePadding,
-                )
+    val listState = rememberLazyListState()
+    Box(modifier = Modifier.fillMaxSize()) {
+        LazyColumn(
+            state = listState,
+            modifier = Modifier
+                .fillMaxSize()
+                .windowInsetsPadding(WindowInsets.statusBars),
+            contentPadding = PaddingValues(
+                top = 12.dp,
+                bottom = 32.dp + bottomInset,
+            ),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            item("brand") {
+                Spacer(Modifier.fillMaxWidth()) // keep for async athlet load
             }
-        }
 
-        item("competitions-section") {
-            Spacer(Modifier.height(8.dp))
-            CompetitionsSectionHeader(
-                refreshing = state.refreshing,
-                onRefresh = onRefresh,
-                total = state.events.size,
-                visible = visible.size,
-                modifier = sidePadding,
-            )
-        }
-        item("filters") {
-            FilterChips(
-                filters = state.filters,
-                onToggleSource = onToggleSource,
-                onToggleDiscipline = onToggleDiscipline,
-                onToggleRound = onToggleRound,
-                onToggleGender = onToggleGender,
-                onTogglePara = onTogglePara,
-                modifier = sidePadding,
-            )
-        }
-
-        if (state.filteredStreams.isNotEmpty()) {
-            item("streams") {
-                Spacer(Modifier.height(4.dp))
-                StreamsCarousel(
-                    streams = state.filteredStreams,
-                    contentPadding = PaddingValues(horizontal = ScreenSidePadding),
-                    headerModifier = sidePadding,
-                )
+            if (state.athleteVideos.isNotEmpty()) {
+                item("athlete-videos") {
+                    AthleteVideosCarousel(
+                        items = state.athleteVideos,
+                        contentPadding = PaddingValues(horizontal = ScreenSidePadding),
+                        headerModifier = sidePadding,
+                    )
+                }
             }
-        }
 
-        if (visible.isEmpty()) {
-            item("empty") { EmptyState(filtered = state.events.isNotEmpty(), modifier = sidePadding) }
-            return@LazyColumn
-        }
-
-        sortedDays.forEach { day ->
-            item("day-$day") {
+            item("competitions-section") {
                 Spacer(Modifier.height(8.dp))
-                DayHeader(day, modifier = sidePadding)
+                CompetitionsSectionHeader(
+                    refreshing = state.refreshing,
+                    onRefresh = onRefresh,
+                    total = state.events.size,
+                    visible = visible.size,
+                    modifier = sidePadding,
+                )
             }
-            items(grouped.getValue(day), key = { it.id }) { event ->
-                CompetitionCard(event = event, now = now, zone = zone, modifier = sidePadding)
+            item("filters") {
+                FilterChips(
+                    filters = state.filters,
+                    onToggleSource = onToggleSource,
+                    onToggleDiscipline = onToggleDiscipline,
+                    onToggleRound = onToggleRound,
+                    onToggleGender = onToggleGender,
+                    onTogglePara = onTogglePara,
+                    modifier = sidePadding,
+                )
+            }
+
+            if (state.filteredStreams.isNotEmpty()) {
+                item("streams") {
+                    Spacer(Modifier.height(4.dp))
+                    StreamsCarousel(
+                        streams = state.filteredStreams,
+                        contentPadding = PaddingValues(horizontal = ScreenSidePadding),
+                        headerModifier = sidePadding,
+                    )
+                }
+            }
+
+            if (visible.isEmpty()) {
+                item("empty") { EmptyState(filtered = state.events.isNotEmpty(), modifier = sidePadding) }
+                return@LazyColumn
+            }
+
+            sortedDays.forEach { day ->
+                item("day-$day") {
+                    Spacer(Modifier.height(8.dp))
+                    DayHeader(day, modifier = sidePadding)
+                }
+                items(grouped.getValue(day), key = { it.id }) { event ->
+                    CompetitionCard(event = event, now = now, zone = zone, modifier = sidePadding)
+                }
             }
         }
+        PlatformVerticalScrollbar(
+            listState,
+            Modifier
+                .align(Alignment.CenterEnd)
+                .windowInsetsPadding(WindowInsets.statusBars)
+                .fillMaxHeight(),
+        )
     }
 }
 

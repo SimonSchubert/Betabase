@@ -94,8 +94,7 @@ data class Athlete(
 const val ActiveWithinSeasons = 2
 
 /** Active = appeared in IFSC results within [ActiveWithinSeasons] seasons of [currentYear]. Null lastCompeted ⇒ inactive. */
-fun Athlete.isActive(currentYear: Int): Boolean =
-    lastCompeted != null && currentYear - lastCompeted <= ActiveWithinSeasons
+fun Athlete.isActive(currentYear: Int): Boolean = lastCompeted != null && currentYear - lastCompeted <= ActiveWithinSeasons
 
 @OptIn(ExperimentalTime::class)
 fun today(): LocalDate {
