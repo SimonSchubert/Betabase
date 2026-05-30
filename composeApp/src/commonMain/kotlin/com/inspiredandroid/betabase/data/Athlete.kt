@@ -41,11 +41,15 @@ data class Athlete(
     val lastName: String,
     val gender: AthleteGender,
     val country: String?,
+    val countryCode: String?,
     val photoUrl: String?,
     val wikiUrl: String,
     val youtubeChannelId: String? = null,
     val birthDate: LocalDate?,
     val lastGold: LastGold?,
+    // Most recent senior IFSC season the athlete appeared in results (not necessarily
+    // medaled). Drives the active/retired distinction; null when uncurated.
+    val lastCompeted: Int? = null,
     // Career titles (overall World Cup season + World Championship titles) by discipline.
     val leadTitles: Int,
     val boulderTitles: Int,
@@ -85,6 +89,13 @@ data class Athlete(
         return dob.until(today, DateTimeUnit.YEAR).toInt()
     }
 }
+
+/** An athlete counts as active if they competed within this many seasons of the current one. */
+const val ActiveWithinSeasons = 2
+
+/** Active = appeared in IFSC results within [ActiveWithinSeasons] seasons of [currentYear]. Null lastCompeted ⇒ inactive. */
+fun Athlete.isActive(currentYear: Int): Boolean =
+    lastCompeted != null && currentYear - lastCompeted <= ActiveWithinSeasons
 
 @OptIn(ExperimentalTime::class)
 fun today(): LocalDate {

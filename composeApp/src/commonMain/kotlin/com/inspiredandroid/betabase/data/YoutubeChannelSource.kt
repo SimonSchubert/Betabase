@@ -41,6 +41,10 @@ class YoutubeChannelSource(
 
     private fun parseEntries(xml: String): List<YoutubeVideo> = ENTRY.findAll(xml).mapNotNull { match ->
         val entry = match.groupValues[1]
+        // Shorts and regular uploads share the same <entry> shape; the only
+        // tell in the Atom feed is the alternate link, which points at
+        // `/shorts/<id>` for a Short and `/watch?v=<id>` otherwise. Drop Shorts.
+        if (SHORT_LINK.containsMatchIn(entry)) return@mapNotNull null
         val id = VIDEO_ID.find(entry)?.groupValues?.get(1)
             ?: WATCH_LINK.find(entry)?.groupValues?.get(1)
             ?: return@mapNotNull null
@@ -65,6 +69,9 @@ class YoutubeChannelSource(
         // Namespace prefix is `yt:` in practice; tolerate its absence just in case.
         private val VIDEO_ID = Regex("<(?:yt:)?videoId>([^<]+)</(?:yt:)?videoId>")
         private val WATCH_LINK = Regex("watch\\?v=([\\w-]+)")
+
+        // A `/shorts/<id>` alternate link marks the entry as a Short.
+        private val SHORT_LINK = Regex("<link\\b[^>]*href=\"[^\"]*/shorts/")
         private val TITLE = Regex("<title\\b[^>]*>(.*?)</title>", RegexOption.DOT_MATCHES_ALL)
         private val PUBLISHED = Regex("<published>([^<]+)</published>")
 

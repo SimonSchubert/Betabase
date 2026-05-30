@@ -1,5 +1,6 @@
 package com.inspiredandroid.betabase.ui.screens
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -10,6 +11,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -23,18 +25,32 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.GridItemSpan
+import androidx.compose.foundation.lazy.grid.LazyGridItemSpanScope
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items as gridItems
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.backhandler.BackHandler
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -43,10 +59,12 @@ import coil3.compose.AsyncImage
 import com.inspiredandroid.betabase.data.Athlete
 import com.inspiredandroid.betabase.data.AthleteGender
 import com.inspiredandroid.betabase.data.AthleteVideosRepository
-import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.MedalCount
 import com.inspiredandroid.betabase.data.YoutubeVideo
+import com.inspiredandroid.betabase.data.flagEmoji
+import com.inspiredandroid.betabase.data.isActive
 import com.inspiredandroid.betabase.data.today
+import com.inspiredandroid.betabase.ui.components.BetaButton
 import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
 import com.inspiredandroid.betabase.ui.components.BetaPill
@@ -70,67 +88,103 @@ fun AthletesScreen(
 ) {
     val viewModel = viewModel { AthletesViewModel(videosRepository = videosRepository) }
     val state by viewModel.state.collectAsStateWithLifecycle()
-    val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
-    val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
+    var selectedId by rememberSaveable { mutableStateOf<String?>(null) }
+    val selected = selectedId?.let { id -> state.athletes.firstOrNull { it.id == id } }
 
     Box(modifier = modifier.fillMaxSize()) {
         ImageBackground()
-        LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .windowInsetsPadding(WindowInsets.statusBars),
-            contentPadding = PaddingValues(top = 12.dp, bottom = 32.dp + bottomInset),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            item("header") {
-                Header(
-                    total = state.athletes.size,
-                    visible = state.filtered.size,
-                    modifier = sidePadding,
-                )
-            }
-            item("search") {
-                BetaSearchField(
-                    value = state.filters.query,
-                    onValueChange = viewModel::setQuery,
-                    placeholder = "Search by name or country",
-                    modifier = sidePadding,
-                )
-            }
-            item("filters") {
-                FilterRow(
-                    selectedGenders = state.filters.genders,
-                    selectedDisciplines = state.filters.disciplines,
-                    onToggleGender = viewModel::toggle,
-                    onToggleDiscipline = viewModel::toggle,
-                    modifier = sidePadding,
-                )
-            }
+        AthletesGrid(
+            state = state,
+            onToggleGender = viewModel::toggle,
+            onSelectCountry = viewModel::selectCountry,
+            onQueryChange = viewModel::setQuery,
+            onToggleInactive = viewModel::toggleInactive,
+            onOpen = { selectedId = it.id },
+        )
+        if (selected != null) {
+            AthleteDetail(
+                athlete = selected,
+                videos = selected.youtubeChannelId?.let { state.videosByChannel[it] },
+                onRequestVideos = { selected.youtubeChannelId?.let(viewModel::ensureVideos) },
+                onBack = { selectedId = null },
+            )
+        }
+    }
+}
 
-            if (state.filtered.isEmpty() && !state.loading) {
-                item("empty") {
-                    BetaText(
-                        text = if (state.athletes.isEmpty()) {
-                            "No athletes loaded."
-                        } else {
-                            "No athletes match the current filters."
-                        },
-                        style = BetabaseTheme.typography.bodySmall,
-                        color = BetabaseTheme.colors.inkMuted,
-                        modifier = sidePadding,
-                    )
-                }
-                return@LazyColumn
-            }
+@Composable
+private fun AthletesGrid(
+    state: AthletesUiState,
+    onToggleGender: (AthleteGender) -> Unit,
+    onSelectCountry: (String?) -> Unit,
+    onQueryChange: (String) -> Unit,
+    onToggleInactive: () -> Unit,
+    onOpen: (Athlete) -> Unit,
+) {
+    val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
+    val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
 
-            items(state.filtered, key = { it.id }) { athlete ->
-                AthleteCard(
-                    athlete = athlete,
-                    videos = athlete.youtubeChannelId?.let { state.videosByChannel[it] },
-                    onRequestVideos = { athlete.youtubeChannelId?.let(viewModel::ensureVideos) },
-                    modifier = sidePadding,
+    LazyVerticalGrid(
+        columns = GridCells.Adaptive(minSize = 108.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .windowInsetsPadding(WindowInsets.statusBars),
+        contentPadding = PaddingValues(
+            start = ScreenSidePadding,
+            end = ScreenSidePadding,
+            top = 12.dp,
+            bottom = 32.dp + bottomInset,
+        ),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        val fullSpan: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
+
+        item(span = fullSpan, key = "header") {
+            Header(total = state.athletes.size, visible = state.filtered.size)
+        }
+        item(span = fullSpan, key = "search") {
+            BetaSearchField(
+                value = state.filters.query,
+                onValueChange = onQueryChange,
+                placeholder = "Search by name or country",
+            )
+        }
+        item(span = fullSpan, key = "gender") {
+            GenderRow(
+                selected = state.filters.genders,
+                showInactive = state.filters.showInactive,
+                onToggle = onToggleGender,
+                onToggleInactive = onToggleInactive,
+            )
+        }
+        if (state.countries.isNotEmpty()) {
+            item(span = fullSpan, key = "country") {
+                CountryRow(
+                    countries = state.countries,
+                    selected = state.filters.country,
+                    onSelect = onSelectCountry,
                 )
             }
+        }
+
+        if (state.filtered.isEmpty() && !state.loading) {
+            item(span = fullSpan, key = "empty") {
+                BetaText(
+                    text = if (state.athletes.isEmpty()) {
+                        "No athletes loaded."
+                    } else {
+                        "No athletes match the current filters."
+                    },
+                    style = BetabaseTheme.typography.bodySmall,
+                    color = BetabaseTheme.colors.inkMuted,
+                )
+            }
+            return@LazyVerticalGrid
+        }
+
+        gridItems(state.filtered, key = { it.id }) { athlete ->
+            AthleteTile(athlete = athlete, onClick = { onOpen(athlete) })
         }
     }
 }
@@ -156,13 +210,6 @@ private fun Header(total: Int, visible: Int, modifier: Modifier = Modifier) {
             color = BetabaseTheme.colors.inkMuted,
             modifier = Modifier.fillMaxWidth(),
         )
-        Spacer(Modifier.height(4.dp))
-        BetaText(
-            text = "Gold medals across Olympics, Worlds, World Cup events (2004+) and Euros. World Cup events before 2004 aren't on Wikipedia.",
-            style = BetabaseTheme.typography.bodySmall,
-            color = BetabaseTheme.colors.inkMuted,
-            modifier = Modifier.fillMaxWidth(),
-        )
         Spacer(Modifier.height(8.dp))
         Box(
             modifier = Modifier
@@ -174,163 +221,385 @@ private fun Header(total: Int, visible: Int, modifier: Modifier = Modifier) {
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterRow(
-    selectedGenders: Set<AthleteGender>,
-    selectedDisciplines: Set<Discipline>,
-    onToggleGender: (AthleteGender) -> Unit,
-    onToggleDiscipline: (Discipline) -> Unit,
+private fun GenderRow(
+    selected: Set<AthleteGender>,
+    showInactive: Boolean,
+    onToggle: (AthleteGender) -> Unit,
+    onToggleInactive: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
-    Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        FlowRow(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        BetaChip(
+            label = "Women",
+            selected = AthleteGender.WOMEN in selected,
+            activeColor = colors.women,
+            onClick = { onToggle(AthleteGender.WOMEN) },
+        )
+        BetaChip(
+            label = "Men",
+            selected = AthleteGender.MEN in selected,
+            activeColor = colors.men,
+            onClick = { onToggle(AthleteGender.MEN) },
+        )
+        BetaChip(
+            label = "Include retired",
+            selected = showInactive,
+            activeColor = colors.ink,
+            onClick = onToggleInactive,
+        )
+    }
+}
+
+@Composable
+private fun CountryRow(
+    countries: List<CountryFacet>,
+    selected: String?,
+    onSelect: (String?) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val colors = BetabaseTheme.colors
+    LazyRow(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        item(key = "__all") {
             BetaChip(
-                label = "Women",
-                selected = AthleteGender.WOMEN in selectedGenders,
-                activeColor = colors.women,
-                onClick = { onToggleGender(AthleteGender.WOMEN) },
-            )
-            BetaChip(
-                label = "Men",
-                selected = AthleteGender.MEN in selectedGenders,
-                activeColor = colors.men,
-                onClick = { onToggleGender(AthleteGender.MEN) },
+                label = "🌍 All",
+                selected = selected == null,
+                activeColor = colors.ink,
+                onClick = { onSelect(null) },
             )
         }
-        FlowRow(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
+        items(countries, key = { it.name }) { facet ->
+            val flag = facet.code?.let { flagEmoji(it) }.orEmpty()
             BetaChip(
-                label = "Boulder",
-                selected = Discipline.BOULDER in selectedDisciplines,
-                activeColor = colors.boulder,
-                onClick = { onToggleDiscipline(Discipline.BOULDER) },
-            )
-            BetaChip(
-                label = "Lead",
-                selected = Discipline.LEAD in selectedDisciplines,
-                activeColor = colors.lead,
-                onClick = { onToggleDiscipline(Discipline.LEAD) },
-            )
-            BetaChip(
-                label = "Speed",
-                selected = Discipline.SPEED in selectedDisciplines,
-                activeColor = colors.speed,
-                activeOnColor = colors.ink,
-                onClick = { onToggleDiscipline(Discipline.SPEED) },
-            )
-            BetaChip(
-                label = "Combined",
-                selected = Discipline.COMBINED in selectedDisciplines,
-                activeColor = colors.combined,
-                onClick = { onToggleDiscipline(Discipline.COMBINED) },
+                label = "$flag ${facet.name} ${facet.count}".trim(),
+                selected = selected == facet.name,
+                activeColor = colors.ink,
+                onClick = { onSelect(facet.name) },
             )
         }
     }
 }
 
 @Composable
-private fun AthleteCard(
+private fun AthleteTile(athlete: Athlete, onClick: () -> Unit) {
+    val colors = BetabaseTheme.colors
+    BetaCard(
+        modifier = Modifier.fillMaxWidth(),
+        shape = BetabaseTheme.shapes.card,
+        onClick = onClick,
+    ) {
+        Column(
+            modifier = Modifier.padding(8.dp).fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Box(modifier = Modifier.fillMaxWidth().aspectRatio(1f)) {
+                TilePhoto(photoUrl = athlete.photoUrl, initials = athlete.initials())
+                if (!athlete.isActive(today().year)) {
+                    Box(modifier = Modifier.align(Alignment.TopStart).padding(6.dp)) {
+                        BetaPill(
+                            label = "RETIRED",
+                            background = colors.surfaceMuted,
+                            onColor = colors.inkMuted,
+                        )
+                    }
+                }
+                if (athlete.totalGolds > 0) {
+                    Box(
+                        modifier = Modifier
+                            .align(Alignment.BottomEnd)
+                            .padding(6.dp)
+                            .size(26.dp)
+                            .clip(CircleShape)
+                            .background(Gold),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        BetaText(
+                            text = athlete.totalGolds.toString(),
+                            style = BetabaseTheme.typography.labelSmall,
+                            color = colors.ink,
+                        )
+                    }
+                }
+            }
+            BetaText(
+                text = athlete.fullName,
+                style = BetabaseTheme.typography.titleSmall,
+                color = colors.ink,
+                maxLines = 2,
+                minLines = 2,
+                overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.fillMaxWidth(),
+                textAlign = TextAlign.Center,
+            )
+            athlete.countryCode?.let { code ->
+                BetaText(
+                    text = "${flagEmoji(code)} ${athlete.country.orEmpty()}".trim(),
+                    style = BetabaseTheme.typography.bodySmall,
+                    color = colors.inkMuted,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.fillMaxWidth(),
+                    textAlign = TextAlign.Center,
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun TilePhoto(photoUrl: String?, initials: String) {
+    val colors = BetabaseTheme.colors
+    val shape = RoundedCornerShape(16.dp)
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .clip(shape)
+            .background(colors.surfaceMuted),
+        contentAlignment = Alignment.Center,
+    ) {
+        BetaText(
+            text = initials,
+            style = BetabaseTheme.typography.titleLarge,
+            color = colors.inkMuted,
+        )
+        if (photoUrl != null) {
+            AsyncImage(
+                model = photoUrl,
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.fillMaxSize().clip(shape),
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalComposeUiApi::class)
+@Composable
+private fun AthleteDetail(
     athlete: Athlete,
     videos: List<YoutubeVideo>?,
     onRequestVideos: () -> Unit,
-    modifier: Modifier = Modifier,
+    onBack: () -> Unit,
 ) {
+    BackHandler(enabled = true, onBack = onBack)
     val uriHandler = LocalUriHandler.current
     val colors = BetabaseTheme.colors
-    val age = athlete.ageOn(today())
+    val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
+    val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val channelId = athlete.youtubeChannelId
     if (channelId != null) {
         LaunchedEffect(channelId) { onRequestVideos() }
     }
-    BetaCard(
-        modifier = modifier.fillMaxWidth(),
-        shape = BetabaseTheme.shapes.card,
-        onClick = { runCatching { uriHandler.openUri(athlete.wikiUrl) } },
-    ) {
-        Column(
-            modifier = Modifier.padding(14.dp).fillMaxWidth(),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
+
+    Box(modifier = Modifier.fillMaxSize().background(colors.background)) {
+        ImageBackground()
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .windowInsetsPadding(WindowInsets.statusBars),
+            contentPadding = PaddingValues(top = 12.dp, bottom = 32.dp + bottomInset),
+            verticalArrangement = Arrangement.spacedBy(18.dp),
         ) {
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(14.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                AthletePhoto(photoUrl = athlete.photoUrl, initials = athlete.initials())
-                Column(
-                    modifier = Modifier.weight(1f),
-                    verticalArrangement = Arrangement.spacedBy(6.dp),
+            item("topbar") {
+                Row(
+                    modifier = sidePadding.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    BetaText(
-                        text = athlete.fullName,
-                        style = BetabaseTheme.typography.titleMedium,
-                        color = colors.ink,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
+                    BackButton(onBack = onBack)
+                }
+            }
+            item("hero") {
+                AthleteHero(athlete = athlete, modifier = sidePadding)
+            }
+            athlete.lastGold?.let { gold ->
+                item("lastgold") {
                     Row(
+                        modifier = sidePadding,
                         horizontalArrangement = Arrangement.spacedBy(6.dp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        val genderLabel = if (athlete.gender == AthleteGender.WOMEN) "W" else "M"
-                        val genderColor = if (athlete.gender == AthleteGender.WOMEN) colors.women else colors.men
-                        BetaPill(
-                            label = genderLabel,
-                            background = genderColor,
-                            onColor = colors.inkInverse,
+                        BetaText(
+                            text = "LAST GOLD",
+                            style = BetabaseTheme.typography.labelSmall,
+                            color = colors.inkMuted,
                         )
-                        val subtitle = listOfNotNull(
-                            athlete.country?.takeIf { it.isNotBlank() },
-                            age?.let { "$it y/o" },
-                        ).joinToString(" · ")
-                        if (subtitle.isNotEmpty()) {
-                            BetaText(
-                                text = subtitle,
-                                style = BetabaseTheme.typography.bodySmall,
-                                color = colors.inkMuted,
-                                maxLines = 1,
-                                overflow = TextOverflow.Ellipsis,
-                            )
-                        }
+                        BetaText(
+                            text = gold.label(),
+                            style = BetabaseTheme.typography.bodySmall,
+                            color = colors.ink,
+                        )
                     }
                 }
-                GoldsBadge(total = athlete.totalGolds)
             }
-
-            athlete.lastGold?.let { gold ->
-                Row(
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    BetaText(
-                        text = "LAST GOLD",
-                        style = BetabaseTheme.typography.labelSmall,
-                        color = colors.inkMuted,
-                    )
-                    BetaText(
-                        text = gold.label(),
-                        style = BetabaseTheme.typography.bodySmall,
-                        color = colors.ink,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
+            athlete.lastCompeted?.let { season ->
+                item("lastseason") {
+                    Row(
+                        modifier = sidePadding,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        BetaText(
+                            text = "LAST SEASON",
+                            style = BetabaseTheme.typography.labelSmall,
+                            color = colors.inkMuted,
+                        )
+                        BetaText(
+                            text = season.toString(),
+                            style = BetabaseTheme.typography.bodySmall,
+                            color = colors.ink,
+                        )
+                    }
                 }
             }
-
-            MedalsRow(athlete = athlete)
-
+            item("titles") {
+                CareerTitles(athlete = athlete, modifier = sidePadding)
+            }
+            item("medals") {
+                MedalsRow(athlete = athlete, modifier = sidePadding)
+            }
             if (!videos.isNullOrEmpty()) {
-                AthleteVideosRow(videos = videos)
+                item("videos") {
+                    Column(modifier = sidePadding) {
+                        AthleteVideosRow(videos = videos)
+                    }
+                }
+            }
+            item("wiki") {
+                BetaButton(
+                    label = "View on Wikipedia",
+                    onClick = { runCatching { uriHandler.openUri(athlete.wikiUrl) } },
+                    modifier = sidePadding.fillMaxWidth(),
+                )
             }
         }
+    }
+}
+
+@Composable
+private fun AthleteHero(athlete: Athlete, modifier: Modifier = Modifier) {
+    val colors = BetabaseTheme.colors
+    val age = athlete.ageOn(today())
+    Column(
+        modifier = modifier.fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        AthletePhoto(photoUrl = athlete.photoUrl, initials = athlete.initials(), size = 128.dp)
+        BetaText(
+            text = athlete.fullName,
+            style = BetabaseTheme.typography.displaySmall,
+            color = colors.ink,
+            textAlign = TextAlign.Center,
+        )
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            val genderLabel = if (athlete.gender == AthleteGender.WOMEN) "W" else "M"
+            val genderColor = if (athlete.gender == AthleteGender.WOMEN) colors.women else colors.men
+            BetaPill(label = genderLabel, background = genderColor, onColor = colors.inkInverse)
+            if (!athlete.isActive(today().year)) {
+                BetaPill(label = "RETIRED", background = colors.surfaceMuted, onColor = colors.inkMuted)
+            }
+            val country = athlete.country?.takeIf { it.isNotBlank() }?.let { name ->
+                athlete.countryCode?.let { "${flagEmoji(it)} $name" } ?: name
+            }
+            val subtitle = listOfNotNull(country, age?.let { "$it y/o" }).joinToString(" · ")
+            if (subtitle.isNotEmpty()) {
+                BetaText(
+                    text = subtitle,
+                    style = BetabaseTheme.typography.bodyMedium,
+                    color = colors.inkMuted,
+                )
+            }
+        }
+        if (athlete.totalGolds > 0) {
+            GoldsBadge(total = athlete.totalGolds)
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun CareerTitles(athlete: Athlete, modifier: Modifier = Modifier) {
+    val colors = BetabaseTheme.colors
+    val titles = buildList {
+        if (athlete.boulderTitles > 0) add(Triple("Boulder", athlete.boulderTitles, colors.boulder))
+        if (athlete.leadTitles > 0) add(Triple("Lead", athlete.leadTitles, colors.lead))
+        if (athlete.speedTitles > 0) add(Triple("Speed", athlete.speedTitles, colors.speed))
+        if (athlete.combinedTitles > 0) add(Triple("Combined", athlete.combinedTitles, colors.combined))
+    }
+    if (titles.isEmpty()) return
+    Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        BetaText(
+            text = "CAREER TITLES",
+            style = BetabaseTheme.typography.labelSmall,
+            color = colors.inkMuted,
+        )
+        FlowRow(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            titles.forEach { (label, count, color) -> TitleChip(label = label, count = count, color = color) }
+        }
+    }
+}
+
+@Composable
+private fun TitleChip(label: String, count: Int, color: Color) {
+    val colors = BetabaseTheme.colors
+    Row(
+        modifier = Modifier
+            .clip(BetabaseTheme.shapes.pill)
+            .background(colors.surfaceMuted)
+            .padding(horizontal = 10.dp, vertical = 5.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        Box(modifier = Modifier.size(10.dp).clip(CircleShape).background(color))
+        BetaText(
+            text = label.uppercase(),
+            style = BetabaseTheme.typography.labelSmall,
+            color = colors.ink,
+        )
+        BetaText(
+            text = count.toString(),
+            style = BetabaseTheme.typography.labelSmall,
+            color = colors.ink,
+        )
+    }
+}
+
+@Composable
+private fun BackButton(onBack: () -> Unit) {
+    val colors = BetabaseTheme.colors
+    BetaCard(
+        modifier = Modifier.size(40.dp),
+        shape = CircleShape,
+        onClick = onBack,
+    ) {
+        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            BackGlyph(tint = colors.ink)
+        }
+    }
+}
+
+@Composable
+private fun BackGlyph(tint: Color) {
+    Canvas(modifier = Modifier.size(16.dp)) {
+        val w = size.width
+        val h = size.height
+        val stroke = w / 8f
+        drawLine(tint, Offset(w * 0.6f, h * 0.2f), Offset(w * 0.32f, h * 0.5f), stroke, cap = StrokeCap.Round)
+        drawLine(tint, Offset(w * 0.32f, h * 0.5f), Offset(w * 0.6f, h * 0.8f), stroke, cap = StrokeCap.Round)
     }
 }
 
@@ -409,11 +678,11 @@ private fun AthleteVideoCard(video: YoutubeVideo, now: Instant) {
 }
 
 @Composable
-private fun AthletePhoto(photoUrl: String?, initials: String) {
+private fun AthletePhoto(photoUrl: String?, initials: String, size: androidx.compose.ui.unit.Dp = 64.dp) {
     val colors = BetabaseTheme.colors
     Box(
         modifier = Modifier
-            .size(64.dp)
+            .size(size)
             .clip(CircleShape)
             .background(colors.surfaceMuted),
         contentAlignment = Alignment.Center,
@@ -428,7 +697,7 @@ private fun AthletePhoto(photoUrl: String?, initials: String) {
                 model = photoUrl,
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.size(64.dp).clip(CircleShape),
+                modifier = Modifier.size(size).clip(CircleShape),
             )
         }
     }
@@ -436,7 +705,7 @@ private fun AthletePhoto(photoUrl: String?, initials: String) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun MedalsRow(athlete: Athlete) {
+private fun MedalsRow(athlete: Athlete, modifier: Modifier = Modifier) {
     val sections = buildList {
         add("Olympics" to athlete.olympic)
         add("Worlds" to athlete.worldChampionships)
@@ -447,7 +716,7 @@ private fun MedalsRow(athlete: Athlete) {
         add("Euros" to athlete.europeanChampionships)
     }.filter { it.second.any }
     if (sections.isEmpty()) return
-    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+    Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(6.dp)) {
         BetaText(
             text = "MEDAL RECORD",
             style = BetabaseTheme.typography.labelSmall,

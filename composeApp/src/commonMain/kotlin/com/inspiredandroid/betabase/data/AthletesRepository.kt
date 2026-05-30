@@ -31,32 +31,37 @@ class AthletesRepository(
         }
     }
 
-    private fun AthleteBundled.toAthlete(): Athlete = Athlete(
-        id = id,
-        firstName = first_name,
-        lastName = last_name,
-        gender = if (gender == "W") AthleteGender.WOMEN else AthleteGender.MEN,
-        country = country?.takeIf { it.isNotBlank() },
-        photoUrl = photo?.takeIf { it.isNotBlank() },
-        wikiUrl = wiki_url,
-        youtubeChannelId = youtube_channel_id?.takeIf { it.isNotBlank() },
-        birthDate = birth_date?.let { runCatching { LocalDate.parse(it) }.getOrNull() },
-        lastGold = last_gold?.let { LastGold(year = it.year, venue = it.venue.orEmpty(), competition = it.competition.orEmpty()) },
-        leadTitles = titles.lead,
-        boulderTitles = titles.boulder,
-        speedTitles = titles.speed,
-        combinedTitles = titles.combined,
-        totalTitles = titles.total,
-        worldCupSeasonTitles = titles.world_cup_season,
-        worldChampionshipTitles = titles.world_championship,
-        worldCupBoulder = world_cup_events["boulder"].toMedalCount(),
-        worldCupLead = world_cup_events["lead"].toMedalCount(),
-        worldCupSpeed = world_cup_events["speed"].toMedalCount(),
-        olympic = medals["olympics"].toMedalCount(),
-        worldChampionships = medals["world_championships"].toMedalCount(),
-        worldGames = medals["world_games"].toMedalCount(),
-        europeanChampionships = medals["european_championships"].toMedalCount(),
-    )
+    private fun AthleteBundled.toAthlete(): Athlete {
+        val countryInfo = normalizeCountry(country)
+        return Athlete(
+            id = id,
+            firstName = first_name,
+            lastName = last_name,
+            gender = if (gender == "W") AthleteGender.WOMEN else AthleteGender.MEN,
+            country = countryInfo?.name ?: country?.takeIf { it.isNotBlank() },
+            countryCode = countryInfo?.code,
+            photoUrl = photo?.takeIf { it.isNotBlank() },
+            wikiUrl = wiki_url,
+            youtubeChannelId = youtube_channel_id?.takeIf { it.isNotBlank() },
+            birthDate = birth_date?.let { runCatching { LocalDate.parse(it) }.getOrNull() },
+            lastGold = last_gold?.let { LastGold(year = it.year, venue = it.venue.orEmpty(), competition = it.competition.orEmpty()) },
+            lastCompeted = last_competed,
+            leadTitles = titles.lead,
+            boulderTitles = titles.boulder,
+            speedTitles = titles.speed,
+            combinedTitles = titles.combined,
+            totalTitles = titles.total,
+            worldCupSeasonTitles = titles.world_cup_season,
+            worldChampionshipTitles = titles.world_championship,
+            worldCupBoulder = world_cup_events["boulder"].toMedalCount(),
+            worldCupLead = world_cup_events["lead"].toMedalCount(),
+            worldCupSpeed = world_cup_events["speed"].toMedalCount(),
+            olympic = medals["olympics"].toMedalCount(),
+            worldChampionships = medals["world_championships"].toMedalCount(),
+            worldGames = medals["world_games"].toMedalCount(),
+            europeanChampionships = medals["european_championships"].toMedalCount(),
+        )
+    }
 
     private fun MedalCountBundled?.toMedalCount(): MedalCount = if (this == null) MedalCount.Zero else MedalCount(gold = gold, silver = silver, bronze = bronze)
 
@@ -85,6 +90,7 @@ private data class AthleteBundled(
     val world_cup_events: Map<String, MedalCountBundled> = emptyMap(),
     val birth_date: String? = null,
     val last_gold: LastGoldBundled? = null,
+    val last_competed: Int? = null,
 )
 
 @Serializable

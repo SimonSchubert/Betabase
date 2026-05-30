@@ -76,6 +76,7 @@ kotlin {
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
             implementation(libs.compose.ui)
+            implementation(libs.compose.ui.backhandler)
             implementation(libs.compose.components.resources)
             implementation(libs.compose.components.ui.tooling.preview)
             implementation(libs.androidx.lifecycle.viewmodel.compose)

@@ -7,8 +7,9 @@ import com.inspiredandroid.betabase.data.Athlete
 import com.inspiredandroid.betabase.data.AthleteGender
 import com.inspiredandroid.betabase.data.AthleteVideosRepository
 import com.inspiredandroid.betabase.data.AthletesRepository
-import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.YoutubeVideo
+import com.inspiredandroid.betabase.data.isActive
+import com.inspiredandroid.betabase.data.today
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -18,16 +19,18 @@ import kotlinx.coroutines.launch
 @Immutable
 data class AthletesFilters(
     val genders: Set<AthleteGender> = AthleteGender.entries.toSet(),
-    val disciplines: Set<Discipline> = emptySet(),
+    val country: String? = null,
     val query: String = "",
+    val showInactive: Boolean = false,
 ) {
     fun toggle(gender: AthleteGender): AthletesFilters = copy(genders = if (gender in genders) genders - gender else genders + gender)
 
-    fun toggle(discipline: Discipline): AthletesFilters = copy(disciplines = if (discipline in disciplines) disciplines - discipline else disciplines + discipline)
+    /** Selects a country, or clears the filter when the already-selected one is tapped again. */
+    fun withCountry(country: String?): AthletesFilters = copy(country = if (country == this.country) null else country)
 
     fun matches(athlete: Athlete): Boolean {
         if (athlete.gender !in genders) return false
-        if (disciplines.isNotEmpty() && disciplines.none { athlete.titlesIn(it) > 0 }) return false
+        if (country != null && athlete.country != country) return false
         val q = query.trim()
         if (q.isNotEmpty()) {
             val needle = q.lowercase()
@@ -41,13 +44,9 @@ data class AthletesFilters(
     }
 }
 
-fun Athlete.titlesIn(discipline: Discipline): Int = when (discipline) {
-    Discipline.LEAD -> leadTitles
-    Discipline.BOULDER -> boulderTitles
-    Discipline.SPEED -> speedTitles
-    Discipline.COMBINED -> combinedTitles
-    Discipline.OTHER -> 0
-}
+/** One selectable country chip: canonical name, flag code, and how many athletes carry it. */
+@Immutable
+data class CountryFacet(val name: String, val code: String?, val count: Int)
 
 @Immutable
 data class AthletesUiState(
@@ -55,8 +54,19 @@ data class AthletesUiState(
     val filters: AthletesFilters = AthletesFilters(),
     val loading: Boolean = true,
     val videosByChannel: Map<String, List<YoutubeVideo>> = emptyMap(),
+    val currentYear: Int = 0,
 ) {
-    val filtered: List<Athlete> by lazy { athletes.filter(filters::matches) }
+    val filtered: List<Athlete> by lazy {
+        athletes.filter { filters.matches(it) && (filters.showInactive || it.isActive(currentYear)) }
+    }
+
+    /** Countries present in the data, most-represented first, for the filter row. */
+    val countries: List<CountryFacet> by lazy {
+        athletes.mapNotNull { a -> a.country?.let { it to a.countryCode } }
+            .groupBy({ it.first }, { it.second })
+            .map { (name, codes) -> CountryFacet(name, codes.firstOrNull { it != null }, codes.size) }
+            .sortedWith(compareByDescending<CountryFacet> { it.count }.thenBy { it.name })
+    }
 }
 
 class AthletesViewModel(
@@ -79,7 +89,7 @@ class AthletesViewModel(
                         .thenByDescending { it.totalTitles }
                         .thenBy { it.lastName },
                 )
-            _state.update { it.copy(athletes = loaded, loading = false) }
+            _state.update { it.copy(athletes = loaded, loading = false, currentYear = today().year) }
         }
     }
 
@@ -99,6 +109,7 @@ class AthletesViewModel(
     }
 
     fun toggle(gender: AthleteGender) = _state.update { it.copy(filters = it.filters.toggle(gender)) }
-    fun toggle(discipline: Discipline) = _state.update { it.copy(filters = it.filters.toggle(discipline)) }
+    fun selectCountry(country: String?) = _state.update { it.copy(filters = it.filters.withCountry(country)) }
     fun setQuery(query: String) = _state.update { it.copy(filters = it.filters.copy(query = query)) }
+    fun toggleInactive() = _state.update { it.copy(filters = it.filters.copy(showInactive = !it.filters.showInactive)) }
 }
