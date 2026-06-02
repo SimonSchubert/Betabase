@@ -3,11 +3,13 @@
   "overrides": [
     {
       "id": "ifsc-1214",
-      "x_handle": "jakob_schubert"
+      "x_handle": "jakob_schubert",
+      "youtube_channel_id": "UCLGyTGdu7R7D7pNNFAJGcHg"
     },
     {
       "id": "ifsc-1364",
-      "x_handle": "AdamOndraCZ"
+      "x_handle": "AdamOndraCZ",
+      "youtube_channel_id": "UC8eNyF9eYwgr_K-Nl4gSHWw"
     },
     {
       "id": "ifsc-2848",
@@ -27,7 +29,8 @@
     },
     {
       "id": "ifsc-1559",
-      "x_handle": "mccollsean"
+      "x_handle": "mccollsean",
+      "youtube_channel_id": "UC_Xh48Z1P9WbM9aoehkcrhg"
     },
     {
       "id": "ifsc-2309",
@@ -35,7 +38,8 @@
     },
     {
       "id": "ifsc-636",
-      "x_handle": "shaunacoxsey"
+      "x_handle": "shaunacoxsey",
+      "youtube_channel_id": "UCbZKLgroyHqvDjCuhKF5rpg"
     },
     {
       "id": "ifsc-60",
@@ -44,6 +48,70 @@
     {
       "id": "ifsc-4665",
       "x_handle": "SharmaClimbing"
+    },
+    {
+      "id": "ifsc-2276",
+      "youtube_channel_id": "UCx3XxWczzWgm1bLmgdeQJMw"
+    },
+    {
+      "id": "ifsc-2253",
+      "youtube_channel_id": "UCx3XxWczzWgm1bLmgdeQJMw"
+    },
+    {
+      "id": "ifsc-2080",
+      "youtube_channel_id": "UCXYedeg0L6RAA2LZpLpuS9w"
+    },
+    {
+      "id": "ifsc-11462",
+      "youtube_channel_id": "UCKwE39nr17fFr0gbx8pMbMw"
+    },
+    {
+      "id": "ifsc-3131",
+      "youtube_channel_id": "UCIRjdHLsHq6xdtAHAmoueqg"
+    },
+    {
+      "id": "ifsc-855",
+      "youtube_channel_id": "UCtKpjSIjJFS4CZiPhbdHFQA"
+    },
+    {
+      "id": "ifsc-2332",
+      "youtube_channel_id": "UCkAPNeraPW-KGvJemx0TjGQ"
+    },
+    {
+      "id": "ifsc-1124",
+      "youtube_channel_id": "UCqHjO4p0AIpDYujp6HWNFHA"
+    },
+    {
+      "id": "ifsc-11468",
+      "youtube_channel_id": "UC28KJvM0709GYghplkV8Glg"
+    },
+    {
+      "id": "ifsc-2294",
+      "youtube_channel_id": "UCEblzEyYy0bmf-DcA6v8npg"
+    },
+    {
+      "id": "ifsc-11490",
+      "youtube_channel_id": "UCrq7CrFwKG1X5mrDUj_mJrA"
+    },
+    {
+      "id": "ifsc-13034",
+      "youtube_channel_id": "UC0HMNJy9g6Tm6NMqA15L7lg"
+    },
+    {
+      "id": "ifsc-1129",
+      "youtube_channel_id": "UCRI-xEFNsgglXNuCoxqJ_Hg"
+    },
+    {
+      "id": "ifsc-1929",
+      "youtube_channel_id": "UCBFa0mQ1rq7TupXPcfv8wFA"
+    },
+    {
+      "id": "ifsc-11675",
+      "youtube_channel_id": "UCCTPjv_M1V1JHDwSYiy17kg"
+    },
+    {
+      "id": "ifsc-1749",
+      "youtube_channel_id": "UC6z1eEXmyVj1QF8UZe4Mqrw"
     }
   ]
 }

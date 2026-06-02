@@ -1,6 +1,7 @@
 package com.inspiredandroid.betabase.ui.screens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -41,6 +42,7 @@ import kotlin.time.Instant
 @Composable
 fun AthleteVideosCarousel(
     items: List<AthleteFeedItem>,
+    onOpenAthlete: (String) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
     headerModifier: Modifier = Modifier,
@@ -61,14 +63,14 @@ fun AthleteVideosCarousel(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             items(items, key = { "${it.athlete.id}:${it.video.id}" }) { item ->
-                AthleteFeedCard(item = item, now = now)
+                AthleteFeedCard(item = item, now = now, onOpenAthlete = onOpenAthlete)
             }
         }
     }
 }
 
 @Composable
-private fun AthleteFeedCard(item: AthleteFeedItem, now: Instant) {
+private fun AthleteFeedCard(item: AthleteFeedItem, now: Instant, onOpenAthlete: (String) -> Unit) {
     val uriHandler = LocalUriHandler.current
     val onClick = remember(item.video.watchUrl, uriHandler) {
         val url = item.video.watchUrl
@@ -119,15 +121,23 @@ private fun AthleteFeedCard(item: AthleteFeedItem, now: Instant) {
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
                     modifier = Modifier.fillMaxWidth(),
                 ) {
-                    AthleteAvatar(photoUrl = item.athlete.photoUrl, initials = item.athlete.initials())
-                    BetaText(
-                        text = item.athlete.fullName,
-                        style = BetabaseTheme.typography.labelSmall,
-                        color = Color.White,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f),
-                    )
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        modifier = Modifier
+                            .weight(1f)
+                            .clickable { onOpenAthlete(item.athlete.id) },
+                    ) {
+                        AthleteAvatar(photoUrl = item.athlete.photoUrl, initials = item.athlete.initials())
+                        BetaText(
+                            text = item.athlete.fullName,
+                            style = BetabaseTheme.typography.labelSmall,
+                            color = Color.White,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                            modifier = Modifier.weight(1f),
+                        )
+                    }
                     BetaPill(
                         label = formatRelativePast(item.video.publishedAt, now),
                         background = Color.Black.copy(alpha = 0.55f),

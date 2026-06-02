@@ -37,9 +37,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
@@ -90,11 +87,12 @@ private val Bronze = Color(0xFFB87333)
 fun AthletesScreen(
     modifier: Modifier = Modifier,
     videosRepository: AthleteVideosRepository? = null,
+    selectedAthleteId: String? = null,
+    onSelectAthlete: (String?) -> Unit = {},
 ) {
     val viewModel = viewModel { AthletesViewModel(videosRepository = videosRepository) }
     val state by viewModel.state.collectAsStateWithLifecycle()
-    var selectedId by rememberSaveable { mutableStateOf<String?>(null) }
-    val selected = selectedId?.let { id -> state.athletes.firstOrNull { it.id == id } }
+    val selected = selectedAthleteId?.let { id -> state.athletes.firstOrNull { it.id == id } }
 
     Box(modifier = modifier.fillMaxSize()) {
         ImageBackground()
@@ -104,14 +102,14 @@ fun AthletesScreen(
             onSelectCountry = viewModel::selectCountry,
             onQueryChange = viewModel::setQuery,
             onToggleInactive = viewModel::toggleInactive,
-            onOpen = { selectedId = it.id },
+            onOpen = { onSelectAthlete(it.id) },
         )
         if (selected != null) {
             AthleteDetail(
                 athlete = selected,
                 videos = selected.youtubeChannelId?.let { state.videosByChannel[it] },
                 onRequestVideos = { selected.youtubeChannelId?.let(viewModel::ensureVideos) },
-                onBack = { selectedId = null },
+                onBack = { onSelectAthlete(null) },
             )
         }
     }

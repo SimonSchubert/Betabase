@@ -77,6 +77,7 @@ fun BetabaseApp() {
         }
 
         var selectedTab by rememberSaveable(stateSaver = TabSaver) { mutableStateOf(Tab.Comps) }
+        var selectedAthleteId by rememberSaveable { mutableStateOf<String?>(null) }
 
         Column(
             modifier = Modifier
@@ -90,11 +91,22 @@ fun BetabaseApp() {
                 if (selectedTab == Tab.Athletes) athletesEverVisible = true
 
                 TabLayer(visible = selectedTab == Tab.Comps) {
-                    CompetitionsScreen(viewModel = viewModel)
+                    CompetitionsScreen(
+                        viewModel = viewModel,
+                        onOpenAthlete = { id ->
+                            selectedAthleteId = id
+                            athletesEverVisible = true
+                            selectedTab = Tab.Athletes
+                        },
+                    )
                 }
                 if (athletesEverVisible) {
                     TabLayer(visible = selectedTab == Tab.Athletes) {
-                        AthletesScreen(videosRepository = athleteVideosRepository)
+                        AthletesScreen(
+                            videosRepository = athleteVideosRepository,
+                            selectedAthleteId = selectedAthleteId,
+                            onSelectAthlete = { selectedAthleteId = it },
+                        )
                     }
                 }
                 if (gymsEverVisible) {

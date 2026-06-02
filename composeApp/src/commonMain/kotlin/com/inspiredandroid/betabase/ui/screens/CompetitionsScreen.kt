@@ -58,6 +58,7 @@ import org.jetbrains.compose.resources.painterResource
 @Composable
 fun CompetitionsScreen(
     viewModel: CompetitionsViewModel,
+    onOpenAthlete: (String) -> Unit = {},
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     CompetitionsScreenContent(
@@ -68,6 +69,7 @@ fun CompetitionsScreen(
         onToggleRound = viewModel::toggle,
         onToggleGender = viewModel::toggle,
         onTogglePara = viewModel::toggleIncludePara,
+        onOpenAthlete = onOpenAthlete,
     )
 }
 
@@ -90,6 +92,7 @@ fun CompetitionsScreenContent(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onOpenAthlete: (String) -> Unit = {},
 ) {
     Box(
         modifier = Modifier
@@ -107,6 +110,7 @@ fun CompetitionsScreenContent(
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
                 onTogglePara = onTogglePara,
+                onOpenAthlete = onOpenAthlete,
             )
         }
     }
@@ -121,6 +125,7 @@ private fun ReadyState(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onOpenAthlete: (String) -> Unit,
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val visible = state.filteredEvents
@@ -153,6 +158,7 @@ private fun ReadyState(
                 item("athlete-videos") {
                     AthleteVideosCarousel(
                         items = state.athleteVideos,
+                        onOpenAthlete = onOpenAthlete,
                         contentPadding = PaddingValues(horizontal = ScreenSidePadding),
                         headerModifier = sidePadding,
                     )
