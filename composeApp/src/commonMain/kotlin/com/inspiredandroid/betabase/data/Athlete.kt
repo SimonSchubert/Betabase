@@ -49,6 +49,9 @@ data class Athlete(
     // Official IFSC profile page, used as the link target when there's no wiki page.
     val ifscProfileUrl: String? = null,
     val youtubeChannelId: String? = null,
+    // X/Twitter handle (without the @). When present, the athlete detail screen shows
+    // a link button to https://x.com/{xHandle}.
+    val xHandle: String? = null,
     val birthDate: LocalDate?,
     val lastGold: LastGold?,
     // Most recent senior IFSC season the athlete appeared in results (not necessarily

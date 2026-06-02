@@ -60,6 +60,7 @@ class AthletesRepository(
                     last_competed = o.last_competed ?: bundled.last_competed,
                     youtube_channel_id = o.youtube_channel_id?.takeIf { it.isNotBlank() }
                         ?: bundled.youtube_channel_id,
+                    x_handle = o.x_handle?.takeIf { it.isNotBlank() } ?: bundled.x_handle,
                 )
             }
             .map { it.toAthlete() }
@@ -89,6 +90,7 @@ class AthletesRepository(
             ifscProfileUrl = profile_url?.takeIf { it.isNotBlank() }
                 ?: ifsc_id?.let { "https://ifsc.results.info/athletes/$it" },
             youtubeChannelId = youtube_channel_id?.takeIf { it.isNotBlank() },
+            xHandle = x_handle?.takeIf { it.isNotBlank() },
             birthDate = birth_date?.let { runCatching { LocalDate.parse(it) }.getOrNull() },
             lastGold = last_gold?.let { LastGold(year = it.year, venue = it.venue.orEmpty(), competition = it.competition.orEmpty()) },
             lastCompeted = last_competed,
@@ -133,6 +135,7 @@ private data class AthleteBundled(
     val ifsc_id: Int? = null,
     val profile_url: String? = null,
     val youtube_channel_id: String? = null,
+    val x_handle: String? = null,
     // Omitted from the JSON for athletes with no titles (slim output), so default it.
     val titles: TitlesBundled = TitlesBundled(),
     val medals: Map<String, MedalCountBundled> = emptyMap(),
@@ -182,4 +185,7 @@ private data class AthleteOverride(
     // IFSC can't provide a YouTube channel id (it exposes a handle/URL, not the
     // UC… id the feed needs), so this is the only place to curate one.
     val youtube_channel_id: String? = null,
+    // Curated X/Twitter handle (e.g. "jakob_schubert"). Only place for socials that
+    // don't come from the IFSC API or Wikipedia enrichment.
+    val x_handle: String? = null,
 )

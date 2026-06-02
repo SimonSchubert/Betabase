@@ -69,6 +69,7 @@ import com.inspiredandroid.betabase.data.today
 import com.inspiredandroid.betabase.ui.components.BetaButton
 import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
+import com.inspiredandroid.betabase.ui.components.BetaOutlineButton
 import com.inspiredandroid.betabase.ui.components.BetaPill
 import com.inspiredandroid.betabase.ui.components.BetaSearchField
 import com.inspiredandroid.betabase.ui.components.BetaText
@@ -495,6 +496,16 @@ private fun AthleteDetail(
                     BetaButton(
                         label = if (athlete.wikiUrl != null) "View on Wikipedia" else "View IFSC profile",
                         onClick = { runCatching { uriHandler.openUri(profileLink) } },
+                        modifier = sidePadding.fillMaxWidth(),
+                    )
+                }
+            }
+            if (athlete.xHandle != null) {
+                val xUrl = "https://x.com/${athlete.xHandle}"
+                item("x") {
+                    BetaOutlineButton(
+                        label = "View on 𝕏",
+                        onClick = { runCatching { uriHandler.openUri(xUrl) } },
                         modifier = sidePadding.fillMaxWidth(),
                     )
                 }

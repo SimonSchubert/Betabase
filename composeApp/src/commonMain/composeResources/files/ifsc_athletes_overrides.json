@@ -1,4 +1,49 @@
 {
-  "_comment": "Optional manual overrides for athlete data. Merged at load time by AthletesRepository, keyed by the athlete `id` (now `ifsc-<numericIfscId>`, e.g. `ifsc-1480`). Use this for: better/recent photos, corrected last_competed years, a youtube_channel_id (UC… 24-char), or other small fixes. The scraper always overwrites the base ifsc_athletes.json from the IFSC API; put human-curated values here so they survive re-scrapes.",
-  "overrides": []
+  "_comment": "Optional manual overrides for athlete data. Merged at load time by AthletesRepository, keyed by the athlete `id` (now `ifsc-<numericIfscId>`, e.g. `ifsc-1480`). Use this for: better/recent photos, corrected last_competed years, a youtube_channel_id (UC… 24-char), x_handle (e.g. \"jakob_schubert\"), or other small fixes. The scraper always overwrites the base ifsc_athletes.json from the IFSC API; put human-curated values here so they survive re-scrapes.",
+  "overrides": [
+    {
+      "id": "ifsc-1214",
+      "x_handle": "jakob_schubert"
+    },
+    {
+      "id": "ifsc-1364",
+      "x_handle": "AdamOndraCZ"
+    },
+    {
+      "id": "ifsc-2848",
+      "x_handle": "OlaMiroslaw"
+    },
+    {
+      "id": "ifsc-811",
+      "x_handle": "albertogines_"
+    },
+    {
+      "id": "ifsc-3340",
+      "x_handle": "VeddriqL"
+    },
+    {
+      "id": "ifsc-1480",
+      "x_handle": "BoldyrevDanyil"
+    },
+    {
+      "id": "ifsc-1559",
+      "x_handle": "mccollsean"
+    },
+    {
+      "id": "ifsc-2309",
+      "x_handle": "yoshiyuki_ogata"
+    },
+    {
+      "id": "ifsc-636",
+      "x_handle": "shaunacoxsey"
+    },
+    {
+      "id": "ifsc-60",
+      "x_handle": "RustamGelmanov"
+    },
+    {
+      "id": "ifsc-4665",
+      "x_handle": "SharmaClimbing"
+    }
+  ]
 }
