@@ -22,11 +22,18 @@ import kotlin.time.Instant
  */
 class YoutubeChannelSource(
     private val client: HttpClient,
+    private val cache: JsonCache? = null,
     private val feedUrlBase: String = DEFAULT_FEED_BASE,
 ) {
 
+    suspend fun cached(channelId: String): List<YoutubeVideo>? {
+        val bytes = cache?.read(cacheKey(channelId)) ?: return null
+        return runCatching { parseEntries(bytes.decodeToString()) }.getOrNull()
+    }
+
     suspend fun fetch(channelId: String): List<YoutubeVideo> {
         val xml = downloadText(feedUrlBase + channelId)
+        runCatching { cache?.write(cacheKey(channelId), xml.encodeToByteArray()) }
         return parseEntries(xml)
     }
 
@@ -61,6 +68,8 @@ class YoutubeChannelSource(
 
     companion object {
         const val DEFAULT_FEED_BASE = "https://www.youtube.com/feeds/videos.xml?channel_id="
+
+        private fun cacheKey(channelId: String): String = "youtube_channel_$channelId.xml"
 
         // Each <entry>…</entry> is one video; this also skips the feed-level
         // <title>/<published> that sit outside any entry.

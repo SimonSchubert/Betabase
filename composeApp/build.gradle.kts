@@ -117,6 +117,14 @@ kotlin {
     }
 }
 
+composeCompiler {
+    val composeReports = providers.gradleProperty("composeCompilerReports").orNull == "true"
+    if (composeReports) {
+        reportsDestination = layout.buildDirectory.dir("compose/reports")
+        metricsDestination = layout.buildDirectory.dir("compose/metrics")
+    }
+}
+
 compose.desktop {
     application {
         mainClass = "com.inspiredandroid.betabase.MainKt"

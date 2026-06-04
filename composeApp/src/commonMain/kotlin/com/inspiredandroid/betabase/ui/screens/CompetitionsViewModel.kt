@@ -99,14 +99,16 @@ class CompetitionsViewModel(
         }
         videosRepository?.let { repo ->
             viewModelScope.launch {
-                repo.loadRecent()
-                    .onSuccess { videos -> _state.update { it.copy(streams = videos) } }
+                repo.loadRecent().collect { result ->
+                    result.onSuccess { videos -> _state.update { it.copy(streams = videos) } }
+                }
             }
         }
         athleteFeedRepository?.let { repo ->
             viewModelScope.launch {
-                repo.loadRecent()
-                    .onSuccess { items -> _state.update { it.copy(athleteVideos = items) } }
+                repo.loadRecent().collect { result ->
+                    result.onSuccess { items -> _state.update { it.copy(athleteVideos = items) } }
+                }
             }
         }
     }

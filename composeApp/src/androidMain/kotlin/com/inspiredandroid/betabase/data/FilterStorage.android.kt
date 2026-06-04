@@ -7,12 +7,6 @@ private const val PREFS_NAME = "betabase_filters"
 private const val KEY_FILTERS = "filters_json"
 private const val KEY_GYMS = "gyms_filters_json"
 
-private lateinit var appContext: Context
-
-fun initFilterStorage(context: Context) {
-    appContext = context.applicationContext
-}
-
 actual fun createFilterStorage(): FilterStorage = AndroidFilterStorage(
     appContext.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE),
 )

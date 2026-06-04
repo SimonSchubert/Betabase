@@ -13,14 +13,23 @@ import kotlin.time.Instant
 
 class IfscVideosSource(
     private val client: HttpClient,
+    private val cache: JsonCache? = null,
     private val feedUrl: String = DEFAULT_URL,
 ) {
 
+    suspend fun cached(): List<IfscVideo>? {
+        val bytes = cache?.read(CACHE_KEY) ?: return null
+        return runCatching { parse(bytes.decodeToString()) }.getOrNull()
+    }
+
     suspend fun fetch(): List<IfscVideo> {
         val text = downloadText(feedUrl)
-        val payload = json.decodeFromString<List<VideoDto>>(text)
-        return payload.mapNotNull { it.toDomain() }
+        runCatching { cache?.write(CACHE_KEY, text.encodeToByteArray()) }
+        return parse(text)
     }
+
+    private fun parse(text: String): List<IfscVideo> =
+        json.decodeFromString<List<VideoDto>>(text).mapNotNull { it.toDomain() }
 
     private fun VideoDto.toDomain(): IfscVideo? {
         val publishedAt = runCatching { Instant.parse(publishedAt) }.getOrNull() ?: return null
@@ -62,6 +71,7 @@ class IfscVideosSource(
 
     companion object {
         const val DEFAULT_URL = "https://raw.githubusercontent.com/sportclimbing/ifsc-videos/main/data/videos.json"
+        private const val CACHE_KEY = "ifsc_videos.json"
         private val json = Json { ignoreUnknownKeys = true }
     }
 }

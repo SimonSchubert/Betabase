@@ -37,6 +37,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
@@ -92,7 +93,9 @@ fun AthletesScreen(
 ) {
     val viewModel = viewModel { AthletesViewModel(videosRepository = videosRepository) }
     val state by viewModel.state.collectAsStateWithLifecycle()
-    val selected = selectedAthleteId?.let { id -> state.athletes.firstOrNull { it.id == id } }
+    val selected = remember(selectedAthleteId, state.athletes) {
+        selectedAthleteId?.let { id -> state.athletes.firstOrNull { it.id == id } }
+    }
 
     Box(modifier = modifier.fillMaxSize()) {
         ImageBackground()
@@ -107,6 +110,7 @@ fun AthletesScreen(
         if (selected != null) {
             AthleteDetail(
                 athlete = selected,
+                currentYear = state.currentYear,
                 videos = selected.youtubeChannelId?.let { state.videosByChannel[it] },
                 onRequestVideos = { selected.youtubeChannelId?.let(viewModel::ensureVideos) },
                 onBack = { onSelectAthlete(null) },
@@ -190,7 +194,7 @@ private fun AthletesGrid(
             }
 
             gridItems(state.filtered, key = { it.id }) { athlete ->
-                AthleteTile(athlete = athlete, onClick = { onOpen(athlete) })
+                AthleteTile(athlete = athlete, currentYear = state.currentYear, onClick = { onOpen(athlete) })
             }
         }
         PlatformVerticalScrollbar(
@@ -302,7 +306,7 @@ private fun CountryRow(
 }
 
 @Composable
-private fun AthleteTile(athlete: Athlete, onClick: () -> Unit) {
+private fun AthleteTile(athlete: Athlete, currentYear: Int, onClick: () -> Unit) {
     val colors = BetabaseTheme.colors
     BetaCard(
         modifier = Modifier.fillMaxWidth(),
@@ -316,7 +320,7 @@ private fun AthleteTile(athlete: Athlete, onClick: () -> Unit) {
         ) {
             Box(modifier = Modifier.fillMaxWidth().aspectRatio(1f)) {
                 TilePhoto(photoUrl = athlete.photoUrl, initials = athlete.initials())
-                if (!athlete.isActive(today().year)) {
+                if (!athlete.isActive(currentYear)) {
                     Box(modifier = Modifier.align(Alignment.TopStart).padding(6.dp)) {
                         BetaPill(
                             label = "RETIRED",
@@ -399,6 +403,7 @@ private fun TilePhoto(photoUrl: String?, initials: String) {
 @Composable
 private fun AthleteDetail(
     athlete: Athlete,
+    currentYear: Int,
     videos: List<YoutubeVideo>?,
     onRequestVideos: () -> Unit,
     onBack: () -> Unit,
@@ -433,7 +438,7 @@ private fun AthleteDetail(
                 }
             }
             item("hero") {
-                AthleteHero(athlete = athlete, modifier = sidePadding)
+                AthleteHero(athlete = athlete, currentYear = currentYear, modifier = sidePadding)
             }
             athlete.lastGold?.let { gold ->
                 item("lastgold") {
@@ -520,7 +525,7 @@ private fun AthleteDetail(
 }
 
 @Composable
-private fun AthleteHero(athlete: Athlete, modifier: Modifier = Modifier) {
+private fun AthleteHero(athlete: Athlete, currentYear: Int, modifier: Modifier = Modifier) {
     val colors = BetabaseTheme.colors
     val age = athlete.ageOn(today())
     Column(
@@ -542,7 +547,7 @@ private fun AthleteHero(athlete: Athlete, modifier: Modifier = Modifier) {
             val genderLabel = if (athlete.gender == AthleteGender.WOMEN) "W" else "M"
             val genderColor = if (athlete.gender == AthleteGender.WOMEN) colors.women else colors.men
             BetaPill(label = genderLabel, background = genderColor, onColor = colors.inkInverse)
-            if (!athlete.isActive(today().year)) {
+            if (!athlete.isActive(currentYear)) {
                 BetaPill(label = "RETIRED", background = colors.surfaceMuted, onColor = colors.inkMuted)
             }
             val country = athlete.country?.takeIf { it.isNotBlank() }?.let { name ->

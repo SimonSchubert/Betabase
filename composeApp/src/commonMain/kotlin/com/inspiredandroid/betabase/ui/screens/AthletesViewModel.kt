@@ -118,13 +118,15 @@ class AthletesViewModel(
         val repo = videosRepository ?: return
         if (!requestedChannels.add(channelId)) return
         viewModelScope.launch {
-            repo.load(channelId)
-                .onSuccess { videos ->
-                    if (videos.isNotEmpty()) {
-                        _state.update { it.copy(videosByChannel = it.videosByChannel + (channelId to videos)) }
+            repo.load(channelId).collect { result ->
+                result
+                    .onSuccess { videos ->
+                        if (videos.isNotEmpty()) {
+                            _state.update { it.copy(videosByChannel = it.videosByChannel + (channelId to videos)) }
+                        }
                     }
-                }
-                .onFailure { requestedChannels.remove(channelId) } // allow a later retry
+                    .onFailure { requestedChannels.remove(channelId) } // allow a later retry
+            }
         }
     }
 

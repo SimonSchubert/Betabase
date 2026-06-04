@@ -27,6 +27,8 @@ import com.inspiredandroid.betabase.data.SourceTag
 import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.YoutubeChannelSource
 import com.inspiredandroid.betabase.data.createFilterStorage
+import com.inspiredandroid.betabase.data.createJsonCache
+import com.inspiredandroid.betabase.data.setupImageLoader
 import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
 import com.inspiredandroid.betabase.ui.components.Tab
 import com.inspiredandroid.betabase.ui.screens.AthletesScreen
@@ -40,11 +42,13 @@ private val TabSaver = Saver<Tab, String>(save = { it.name }, restore = { Tab.va
 @Composable
 fun BetabaseApp() {
     BetabaseTheme {
+        remember { setupImageLoader(); Unit }
         val httpClient = remember { createHttpClient() }
-        val repository = remember(httpClient) {
+        val jsonCache = remember { createJsonCache() }
+        val repository = remember(httpClient, jsonCache) {
             CompetitionsRepository(
                 sources = listOf(
-                    IfscEventSource(httpClient),
+                    IfscEventSource(httpClient, cache = jsonCache),
                     BundledJsonEventSource(
                         resourcePath = "files/nkbv_competitions.json",
                         tag = SourceTag.NKBV,
@@ -56,12 +60,12 @@ fun BetabaseApp() {
                 ),
             )
         }
-        val videosRepository = remember(httpClient) {
-            VideosRepository(IfscVideosSource(httpClient))
+        val videosRepository = remember(httpClient, jsonCache) {
+            VideosRepository(IfscVideosSource(httpClient, cache = jsonCache))
         }
         val athletesRepository = remember { AthletesRepository() }
-        val athleteVideosRepository = remember(httpClient) {
-            AthleteVideosRepository(YoutubeChannelSource(httpClient))
+        val athleteVideosRepository = remember(httpClient, jsonCache) {
+            AthleteVideosRepository(YoutubeChannelSource(httpClient, cache = jsonCache))
         }
         val athleteFeedRepository = remember(athletesRepository, athleteVideosRepository) {
             AthleteFeedRepository(athletesRepository, athleteVideosRepository)

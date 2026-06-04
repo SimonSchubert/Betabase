@@ -9,15 +9,25 @@ import io.ktor.http.isSuccess
 
 class IfscEventSource(
     private val client: HttpClient,
+    private val cache: JsonCache? = null,
     private val feedUrl: String = DEFAULT_URL,
 ) : EventSource {
 
     override val tag: SourceTag = SourceTag.IFSC
 
+    override suspend fun cached(): List<CompetitionEvent>? {
+        val bytes = cache?.read(CACHE_KEY) ?: return null
+        return runCatching { parseEvents(bytes.decodeToString()) }.getOrNull()
+    }
+
     override suspend fun fetch(): List<CompetitionEvent> {
         val text = downloadText(feedUrl)
-        return IcsParser.parse(text).mapNotNull { it.toEvent() }
+        runCatching { cache?.write(CACHE_KEY, text.encodeToByteArray()) }
+        return parseEvents(text)
     }
+
+    private fun parseEvents(text: String): List<CompetitionEvent> =
+        IcsParser.parse(text).mapNotNull { it.toEvent() }
 
     private fun IcsParser.RawEvent.toEvent(): CompetitionEvent? {
         val summary = summary ?: return null
@@ -53,5 +63,6 @@ class IfscEventSource(
 
     companion object {
         const val DEFAULT_URL = "https://calendar.ifsc.stream"
+        private const val CACHE_KEY = "ifsc_events.ics"
     }
 }

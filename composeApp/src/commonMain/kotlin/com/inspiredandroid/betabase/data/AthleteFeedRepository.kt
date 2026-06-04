@@ -4,11 +4,14 @@ import androidx.compose.runtime.Immutable
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.time.Clock
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
+import kotlin.time.Instant
 
 @Immutable
 data class AthleteFeedItem(
@@ -18,9 +21,10 @@ data class AthleteFeedItem(
 
 /**
  * Merges the per-athlete YouTube uploads exposed by [AthleteVideosRepository]
- * into one feed sorted by publish date. Channels are fetched in parallel, and
- * the underlying repository caches each channel for the process lifetime so a
- * later call from the athletes screen is a no-op.
+ * into one feed sorted by publish date. The underlying repository caches each
+ * channel both in memory (process lifetime) and on disk (via JsonCache), so
+ * cold start can paint an assembled feed from disk before any network call
+ * lands. Process-lifetime cache short-circuits subsequent calls entirely.
  */
 class AthleteFeedRepository(
     private val athletesRepository: AthletesRepository,
@@ -31,28 +35,54 @@ class AthleteFeedRepository(
     private val mutex = Mutex()
     private var cached: List<AthleteFeedItem>? = null
 
-    suspend fun loadRecent(): Result<List<AthleteFeedItem>> {
-        mutex.withLock { cached }?.let { return Result.success(it) }
-        return runCatching {
-            val athletes = athletesRepository.load().filter { !it.youtubeChannelId.isNullOrBlank() }
-            if (athletes.isEmpty()) return@runCatching emptyList()
-            val cutoff = Clock.System.now() - maxAge
-            val merged = coroutineScope {
-                athletes.map { athlete ->
-                    async {
-                        // Per-channel failures shouldn't sink the whole feed — a single
-                        // channel that 404s or rate-limits is expected with this many sources.
-                        videosRepository.load(athlete.youtubeChannelId!!)
-                            .getOrElse { emptyList() }
-                            .map { AthleteFeedItem(athlete = athlete, video = it) }
-                    }
-                }.awaitAll()
-            }.flatten()
-            merged.asSequence()
-                .filter { it.video.publishedAt >= cutoff }
-                .sortedByDescending { it.video.publishedAt }
-                .take(maxItems)
-                .toList()
-        }.onSuccess { items -> mutex.withLock { cached = items } }
+    fun loadRecent(): Flow<Result<List<AthleteFeedItem>>> = flow {
+        mutex.withLock { cached }?.let {
+            emit(Result.success(it))
+            return@flow
+        }
+
+        val athletes = runCatching {
+            athletesRepository.load().filter { !it.youtubeChannelId.isNullOrBlank() }
+        }.getOrElse {
+            emit(Result.failure(it))
+            return@flow
+        }
+        if (athletes.isEmpty()) {
+            emit(Result.success(emptyList()))
+            return@flow
+        }
+        val cutoff = Clock.System.now() - maxAge
+
+        val cachedItems = coroutineScope {
+            athletes.map { athlete ->
+                async {
+                    videosRepository.cachedFor(athlete.youtubeChannelId!!)
+                        .orEmpty()
+                        .map { AthleteFeedItem(athlete = athlete, video = it) }
+                }
+            }.awaitAll()
+        }.flatten().topRecent(cutoff)
+        if (cachedItems.isNotEmpty()) emit(Result.success(cachedItems))
+
+        val freshItems = coroutineScope {
+            athletes.map { athlete ->
+                async {
+                    // Per-channel failures shouldn't sink the whole feed — a single
+                    // channel that 404s or rate-limits is expected with this many sources.
+                    videosRepository.fetch(athlete.youtubeChannelId!!)
+                        .getOrElse { emptyList() }
+                        .map { AthleteFeedItem(athlete = athlete, video = it) }
+                }
+            }.awaitAll()
+        }.flatten().topRecent(cutoff)
+        mutex.withLock { cached = freshItems }
+        emit(Result.success(freshItems))
     }
+
+    private fun List<AthleteFeedItem>.topRecent(cutoff: Instant): List<AthleteFeedItem> =
+        asSequence()
+            .filter { it.video.publishedAt >= cutoff }
+            .sortedByDescending { it.video.publishedAt }
+            .take(maxItems)
+            .toList()
 }
