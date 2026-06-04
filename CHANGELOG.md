@@ -1,3 +1,15 @@
+## v0.7.0 — 2026-06-04
+
+### Features
+- Added data and image caching
+- Added athlete X (Twitter) handles
+
+### Fixes
+- Fixed athlete YouTube channel mapping
+
+### Improvements
+- Upgraded dependencies
+
 ## v0.6.0 — 2026-05-30
 
 ### Features
