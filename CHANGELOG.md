@@ -1,3 +1,12 @@
+## v0.7.1 — 2026-06-13
+
+### Features
+- Added German climbing events
+- Refreshed bundled competition data and filter cancelled IFSC events
+
+### Improvements
+- Upgraded dependencies
+
 ## v0.7.0 — 2026-06-04
 
 ### Features

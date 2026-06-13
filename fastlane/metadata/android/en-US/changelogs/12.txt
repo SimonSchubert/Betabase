@@ -1,0 +1,3 @@
+Added German climbing events
+Refreshed competition data and hide cancelled IFSC events
+Upgraded dependencies
