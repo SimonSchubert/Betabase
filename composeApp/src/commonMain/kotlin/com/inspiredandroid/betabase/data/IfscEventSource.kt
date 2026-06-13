@@ -30,6 +30,7 @@ class IfscEventSource(
         IcsParser.parse(text).mapNotNull { it.toEvent() }
 
     private fun IcsParser.RawEvent.toEvent(): CompetitionEvent? {
+        if (status?.equals("CANCELLED", ignoreCase = true) == true) return null
         val summary = summary ?: return null
         val start = start ?: return null
         val zone = startZone ?: return null

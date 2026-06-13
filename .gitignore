@@ -34,5 +34,5 @@ fastlane/README.md
 .bundle/
 vendor/bundle/
 
-# Local-only data scrapers (JSON output under app/src/main/assets is committed)
+# Local-only data scrapers (JSON output under composeResources/files is committed)
 /scripts/

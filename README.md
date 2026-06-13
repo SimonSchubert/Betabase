@@ -24,7 +24,7 @@ A Jetpack Compose Android app that aggregates climbing competitions from multipl
 - Round chips (`Qualifier`, `Semi`, `Final`) — Final only by default.
 - Audience chips (`Women`, `Men`, `Youth`) — Women + Men on by default; Youth detection via title keywords (`jeugd`, `youth`, `junior`, `u14`–`u20`).
 - Tap a card to open the source's event page (livestream player on IFSC events; registration / detail page on NKBV and SCA) — uses Compose's `LocalUriHandler`.
-- Pull-to-refresh fetches the live IFSC feed; bundled sources reload from assets.
+- Pull-to-refresh fetches the live IFSC feed; bundled sources reload from compose resources.
 
 ## Build
 
@@ -40,7 +40,7 @@ The Gradle wrapper handles itself. `local.properties` should point to your Andro
 
 ## Architecture
 
-- `data/EventSource` — the plug-in interface. Implementations: `IfscEventSource` (live HTTP + ICS parser) and `BundledJsonEventSource` (reads `app/src/main/assets/*.json`).
+- `data/EventSource` — the plug-in interface. Implementations: `IfscEventSource` (live HTTP + ICS parser) and `BundledJsonEventSource` (reads `composeApp/src/commonMain/composeResources/files/*.json`).
 - `data/IcsParser` — RFC 5545 line-unfolding ICS parser, TZID-aware. Stdlib only.
 - `data/EventClassifier` — title keyword → `(Gender, Discipline, Round)`. Multilingual for the gender/youth axis (English + Dutch).
 - `data/CompetitionsRepository` — fans out to all sources in parallel, merges, filters past events, sorts by start time.
@@ -55,7 +55,7 @@ The two patterns:
 **Live HTTP feed (IFSC-style):** Implement `EventSource`. Fetch in `Dispatchers.IO`, parse, return `List<CompetitionEvent>`. Add a value to `SourceTag` with a `regionLabel`. Register in `CompetitionsViewModel.Factory`. Done — chip and per-card label appear automatically.
 
 **Scraped bundled JSON (NKBV / SCA-style):**
-1. Drop a Python scraper into `scripts/` (gitignored). Stdlib-only is encouraged. Output to `app/src/main/assets/<source>_competitions.json` matching this schema:
+1. Drop a Python scraper into `scripts/` (gitignored). Stdlib-only is encouraged. Output to `composeApp/src/commonMain/composeResources/files/<source>_competitions.json` matching this schema:
    ```json
    {
      "source": "...", "source_url": "...", "fetched_at": "ISO-Z",
@@ -78,7 +78,7 @@ python3 scripts/scrape_nkbv.py
 python3 scripts/scrape_sca.py
 python3 scripts/scrape_germany.py
 python3 scripts/scrape_ifsc_athletes.py
-# review the diff in app/src/main/assets/*.json (and overrides if edited), then bump versionCode and release
+# review the diff in composeApp/src/commonMain/composeResources/files/*.json (and overrides if edited), then bump versionCode and release
 ```
 
 The scraper scripts themselves are gitignored — they're operator tooling, not shipped code. The JSON they produce is committed.
