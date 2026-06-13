@@ -41,11 +41,18 @@ fun encodeFilters(filters: CompetitionsFilters): String = json.encodeToString(
 
 fun decodeFilters(raw: String): CompetitionsFilters? = runCatching {
     val persisted = json.decodeFromString<PersistedFilters>(raw)
+    val sources = persisted.sources.mapNotNullTo(mutableSetOf(), ::parseSource)
+    if (sources.isEmpty()) {
+        sources.addAll(SourceTag.entries)
+    }
+    val disciplines = persisted.disciplines.mapNotNullTo(mutableSetOf(), ::parseDiscipline)
+    val rounds = persisted.rounds.mapNotNullTo(mutableSetOf(), ::parseRound)
+    val genders = persisted.genders.mapNotNullTo(mutableSetOf(), ::parseGender)
     CompetitionsFilters(
-        sources = persisted.sources.mapNotNullTo(mutableSetOf(), ::parseSource),
-        disciplines = persisted.disciplines.mapNotNullTo(mutableSetOf(), ::parseDiscipline),
-        rounds = persisted.rounds.mapNotNullTo(mutableSetOf(), ::parseRound),
-        genders = persisted.genders.mapNotNullTo(mutableSetOf(), ::parseGender),
+        sources = sources,
+        disciplines = if (disciplines.isEmpty()) CompetitionsFilters.Default.disciplines else disciplines,
+        rounds = if (rounds.isEmpty()) CompetitionsFilters.Default.rounds else rounds,
+        genders = if (genders.isEmpty()) CompetitionsFilters.Default.genders else genders,
         includePara = persisted.includePara,
     )
 }.getOrNull()

@@ -24,6 +24,7 @@ import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
 import com.inspiredandroid.betabase.data.IfscVideosSource
 import com.inspiredandroid.betabase.data.SourceTag
+import kotlinx.datetime.TimeZone
 import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.YoutubeChannelSource
 import com.inspiredandroid.betabase.data.createFilterStorage
@@ -56,6 +57,11 @@ fun BetabaseApp() {
                     BundledJsonEventSource(
                         resourcePath = "files/sca_competitions.json",
                         tag = SourceTag.SCA,
+                    ),
+                    BundledJsonEventSource(
+                        resourcePath = "files/dav_competitions.json",
+                        tag = SourceTag.DAV,
+                        zone = TimeZone.of("Europe/Berlin"),
                     ),
                 ),
             )

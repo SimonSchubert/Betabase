@@ -406,6 +406,7 @@ private fun sourceColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.accent
     SourceTag.NKBV -> BetabaseTheme.colors.ink
     SourceTag.SCA -> Color(0xFF16A34A)
+    SourceTag.DAV -> Color(0xFFF5C400)
 }
 
 @Composable
@@ -413,6 +414,7 @@ private fun sourceOnColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.onAccent
     SourceTag.NKBV -> BetabaseTheme.colors.inkInverse
     SourceTag.SCA -> BetabaseTheme.colors.inkInverse
+    SourceTag.DAV -> BetabaseTheme.colors.ink
 }
 
 @Composable

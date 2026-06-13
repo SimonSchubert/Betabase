@@ -15,10 +15,11 @@ A Jetpack Compose Android app that aggregates climbing competitions from multipl
 - **IFSC** (`World`) — live ICS feed from `calendar.ifsc.stream` covering World Cups, World Championships, Continental Cups, etc. Refreshed on app launch and pull-to-refresh.
 - **NKBV** (`Netherlands`) — Dutch federation national + regional series, scraped from `was2.shiftf5.nl/competitions`. Bundled JSON, refreshed by re-running the scraper and shipping a new app version.
 - **SCA** (`Australia`) — Sport Climbing Australia upcoming events from `sportclimbingaustralia.org.au/Upcoming-Events`. Bundled JSON, same refresh model as NKBV.
+- **DAV** (`Germany`) — German national calendar (DJC, DM), regional seeds, and Techniker Boulder Bundesliga stations scraped into bundled JSON. Refreshed by re-running the scraper.
 
 ## Features
 
-- Region toggle chips (`World` / `Netherlands` / `Australia`) — all on by default.
+- Region toggle chips (`World` / `Netherlands` / `Australia` / `Germany`) — all on by default.
 - Discipline chips (`Boulder`, `Lead`, `Speed`, `Combined`) — Boulder + Lead on by default.
 - Round chips (`Qualifier`, `Semi`, `Final`) — Final only by default.
 - Audience chips (`Women`, `Men`, `Youth`) — Women + Men on by default; Youth detection via title keywords (`jeugd`, `youth`, `junior`, `u14`–`u20`).
@@ -75,6 +76,7 @@ The two patterns:
 ```bash
 python3 scripts/scrape_nkbv.py
 python3 scripts/scrape_sca.py
+python3 scripts/scrape_germany.py
 python3 scripts/scrape_ifsc_athletes.py
 # review the diff in app/src/main/assets/*.json (and overrides if edited), then bump versionCode and release
 ```

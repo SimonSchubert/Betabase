@@ -30,4 +30,5 @@ enum class SourceTag(val displayName: String, val regionLabel: String) {
     IFSC(displayName = "IFSC", regionLabel = "World"),
     NKBV(displayName = "NKBV", regionLabel = "Netherlands"),
     SCA(displayName = "SCA", regionLabel = "Australia"),
+    DAV(displayName = "DAV", regionLabel = "Germany"),
 }

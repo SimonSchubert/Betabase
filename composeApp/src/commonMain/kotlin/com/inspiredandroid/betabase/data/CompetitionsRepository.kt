@@ -7,6 +7,9 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
+import kotlinx.datetime.DateTimeUnit
+import kotlinx.datetime.atTime
+import kotlinx.datetime.plus
 import kotlinx.datetime.toInstant
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.hours
@@ -48,9 +51,18 @@ class CompetitionsRepository(
 
     private fun visibleEvents(events: List<CompetitionEvent>, cutoff: Instant): List<CompetitionEvent> =
         events.asSequence()
-            .filter { it.start.toInstant(it.timeZone) >= cutoff }
+            .filter { it.visibleUntil() >= cutoff }
             .sortedBy { it.start.toInstant(it.timeZone) }
             .toList()
+
+    private fun CompetitionEvent.visibleUntil(): Instant = when {
+        end != null -> endOfDay(end.date)
+        allDay -> endOfDay(start.date)
+        else -> start.toInstant(timeZone)
+    }
+
+    private fun CompetitionEvent.endOfDay(date: kotlinx.datetime.LocalDate): Instant =
+        date.plus(1, DateTimeUnit.DAY).atTime(0, 0).toInstant(timeZone)
 }
 
 data class LoadProgress(

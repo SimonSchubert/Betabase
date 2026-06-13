@@ -30,12 +30,15 @@ class BundledJsonEventSource(
         val dateStr = date?.takeIf { it.isNotEmpty() } ?: return null
         val date = runCatching { LocalDate.parse(dateStr) }.getOrNull() ?: return null
         val timeStr = time?.takeIf { it.isNotEmpty() }
+        val endDateStr = end_date?.takeIf { it.isNotEmpty() }
+        val endDate = endDateStr?.let { runCatching { LocalDate.parse(it) }.getOrNull() }
         val (start, allDay) = if (timeStr != null) {
             val parsedTime = runCatching { LocalTime.parse(timeStr) }.getOrNull() ?: return null
             date.atTime(parsedTime) to false
         } else {
             date.atTime(0, 0) to true
         }
+        val end = endDate?.atTime(23, 59)
         val seriesValue = series?.takeIf { it.isNotEmpty() }
         val classifierInput = listOfNotNull(title, seriesValue).joinToString(" ")
         val (gender, classifiedDiscipline, round) = EventClassifier.classify(classifierInput)
@@ -48,7 +51,7 @@ class BundledJsonEventSource(
             location = location.orEmpty(),
             start = start,
             timeZone = zone,
-            end = null,
+            end = end,
             url = url?.takeIf { it.isNotEmpty() },
             source = tag,
             discipline = discipline,
@@ -84,6 +87,7 @@ private data class BundledEvent(
     val series: String? = null,
     val location: String? = null,
     val date: String? = null,
+    val end_date: String? = null,
     val time: String? = null,
     val discipline: String? = null,
     val url: String? = null,

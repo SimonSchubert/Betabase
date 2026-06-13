@@ -2,9 +2,13 @@ package com.inspiredandroid.betabase.data
 
 object EventClassifier {
 
-    private val youth = Regex("\\bjeugd\\b|\\byouth\\b|\\bjunior\\b|\\bu1[4-9]\\b|\\bu20\\b")
-    private val women = Regex("\\bwomen'?s?\\b|\\bfemale\\b|\\bdames\\b|\\bvrouwen\\b")
-    private val men = Regex("\\bmen'?s?\\b|\\bmale\\b|\\bheren\\b|\\bmannen\\b")
+    private val youth = Regex(
+        "\\bjeugd\\b|\\byouth\\b|\\bjunior\\b|\\bjugend(?!cup)\\b|\\bu1[4-9]\\b|\\bu20\\b",
+    )
+    private val women = Regex(
+        "\\bwomen'?s?\\b|\\bfemale\\b|\\bdames\\b|\\bvrouwen\\b|\\bdamen\\b",
+    )
+    private val men = Regex("\\bmen'?s?\\b|\\bmale\\b|\\bheren\\b|\\bmannen\\b|\\bherren\\b")
     private val semi = Regex("\\bsemi[- ]?final")
     private val final = Regex("\\bfinal")
     private val qual = Regex("\\bquali|\\bqualif")

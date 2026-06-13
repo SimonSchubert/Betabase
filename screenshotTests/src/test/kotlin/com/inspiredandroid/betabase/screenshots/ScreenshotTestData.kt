@@ -82,6 +82,15 @@ val sampleEvents = listOf(
         source = SourceTag.NKBV,
         discipline = Discipline.LEAD, round = Round.OTHER, gender = Gender.MIXED,
     ),
+    event(
+        id = "dav-1",
+        title = "Berta Block Masters 26",
+        series = "Berta Block Masters",
+        location = "Berta Block, Berlin",
+        month = 6, day = 20, hour = 9,
+        source = SourceTag.DAV,
+        discipline = Discipline.BOULDER, round = Round.OTHER, gender = Gender.MIXED,
+    ),
 )
 
 val youthSampleEvents = listOf(
