@@ -1,9 +1,9 @@
 [versions]
 appVersion = "0.7.1"
 android-versionCode = "12"
-android-compileSdk = "36"
+android-compileSdk = "37"
 android-minSdk = "26"
-android-targetSdk = "36"
+android-targetSdk = "37"
 
 agp = "9.2.1"
 kotlin = "2.4.0"
