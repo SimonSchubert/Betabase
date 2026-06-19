@@ -1,0 +1,22 @@
+{
+  "city": "Ingolstadt",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-ingolstadt",
+      "name": "DAV Kletterzentrum Ingolstadt",
+      "address": "Baggerweg 2, 85051 Ingolstadt",
+      "url": "https://www.dav-ingolstadt.de/kletterzentrum",
+      "lat": 48.7502018,
+      "lng": 11.4163409,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

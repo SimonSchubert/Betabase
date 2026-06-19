@@ -1,0 +1,79 @@
+{
+  "city": "Edinburgh",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "alien-bloc",
+      "name": "Alien Bloc",
+      "address": "23 Dunedin Street, EH7 4GJ Edinburgh",
+      "url": "https://www.alienrock.co.uk",
+      "lat": 55.9646823,
+      "lng": -3.1929215,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      }
+    },
+    {
+      "id": "alien-rock",
+      "name": "Alien Rock",
+      "address": "8 Pier Place, EH6 4LP Edinburgh",
+      "url": "https://www.alienrock.co.uk",
+      "lat": 55.9805434,
+      "lng": -3.1963641,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      }
+    },
+    {
+      "id": "climbing-hangar-edinburgh",
+      "name": "The Climbing Hangar Edinburgh",
+      "address": "4 East Telferton, EH7 6XD Edinburgh",
+      "url": "https://www.theclimbinghangar.com/locations/edinburgh",
+      "lat": 55.9560589,
+      "lng": -3.1241059,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "06:30-22:00",
+        "thu": "10:00-22:00",
+        "fri": "06:30-21:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      }
+    },
+    {
+      "id": "eica-ratho",
+      "name": "Edinburgh International Climbing Arena",
+      "address": "Union Canal Towpath, EH28 8AA Ratho",
+      "url": "https://www.edinburghleisure.co.uk/venues/edinburgh-international-climbing-arena",
+      "lat": 55.9234025,
+      "lng": -3.3978164,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

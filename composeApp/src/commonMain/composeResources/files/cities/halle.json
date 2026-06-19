@@ -1,0 +1,36 @@
+{
+  "city": "Halle (Saale)",
+  "gyms": [
+    {
+      "id": "boulderkombinat-halle",
+      "name": "Boulderkombinat",
+      "address": "Delitzscher Straße 63a, 06112 Halle (Saale)",
+      "url": "https://boulderkombinat.de",
+      "lat": 51.479186,
+      "lng": 12.006497,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterthalia-halle",
+      "name": "Kletterthalia",
+      "address": "Thaliapassage 3, 06108 Halle (Saale)",
+      "url": "https://ig-klettern-halle.de/kletterthalia/",
+      "lat": 51.490443,
+      "lng": 11.96653,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

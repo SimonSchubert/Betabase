@@ -1,0 +1,22 @@
+{
+  "city": "Landshut",
+  "gyms": [
+    {
+      "id": "dav-kletterhalle-landshut",
+      "name": "DAV Kletterhalle Landshut",
+      "address": "Karl-Valentin-Weg 6, 84036 Landshut",
+      "url": "https://www.alpenverein-landshut.de/kletterhalle/",
+      "lat": 48.547895,
+      "lng": 12.182028,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

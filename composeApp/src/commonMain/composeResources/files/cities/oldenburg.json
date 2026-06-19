@@ -1,0 +1,22 @@
+{
+  "city": "Oldenburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "up-kletterzentrum",
+      "name": "UP Kletterzentrum Oldenburg",
+      "address": "Diedrich-Dannemann-Straße 87, 26203 Wardenburg",
+      "url": "https://www.up-kletterzentrum.de",
+      "lat": 53.1063966,
+      "lng": 8.1678682,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

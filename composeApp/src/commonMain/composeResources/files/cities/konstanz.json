@@ -1,0 +1,32 @@
+{
+  "city": "Konstanz",
+  "gyms": [
+    {
+      "id": "der-steinbock-konstanz",
+      "name": "der steinbock Konstanz",
+      "address": "August-Borsig-Straße 20, 78467 Konstanz",
+      "url": "https://www.dersteinbock-konstanz.de",
+      "lat": 47.675131,
+      "lng": 9.143658,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

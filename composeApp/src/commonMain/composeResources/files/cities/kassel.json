@@ -1,0 +1,22 @@
+{
+  "city": "Kassel",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-kassel",
+      "name": "DAV Kletterzentrum Kassel",
+      "address": "Johanna-Waescher-Straße 4, 34131 Kassel",
+      "url": "https://www.dav-kassel.de/kletterzentrum",
+      "lat": 51.3062799,
+      "lng": 9.4469601,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

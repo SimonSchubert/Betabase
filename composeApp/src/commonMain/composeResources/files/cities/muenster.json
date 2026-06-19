@@ -1,0 +1,22 @@
+{
+  "city": "Münster",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-muenster",
+      "name": "DAV Kletterzentrum Münster",
+      "address": "Albersloher Weg 10, 48155 Münster",
+      "url": "https://www.dav-muenster.de/kletterzentrum",
+      "lat": 51.9508267,
+      "lng": 7.6359862,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

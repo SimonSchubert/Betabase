@@ -1,0 +1,22 @@
+{
+  "city": "Mülheim an der Ruhr",
+  "gyms": [
+    {
+      "id": "neoliet-kletterhalle-muelheim",
+      "name": "Neoliet Kletterhalle Mülheim",
+      "address": "Ruhrorter Straße 51, 45478 Mülheim an der Ruhr",
+      "url": "https://www.neoliet.de",
+      "lat": 51.432931,
+      "lng": 6.836707,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

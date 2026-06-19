@@ -1,0 +1,43 @@
+{
+  "city": "Stockholm",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "klattercentret",
+      "name": "Klättercentret",
+      "address": "Tellusgången 24, 129 04 Stockholm",
+      "url": "https://www.klattercentret.se",
+      "lat": 59.2990654,
+      "lng": 17.9911878,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klatterverket-gasverket",
+      "name": "Klätterverket Gasverket",
+      "address": "Gasverksvägen 15, 115 42 Stockholm",
+      "url": "https://klatterverket.se",
+      "lat": 59.3576773,
+      "lng": 18.0904923,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klatterverket-sickla",
+      "name": "Klätterverket Sickla",
+      "address": "Marcusplatsen 17, 131 34 Nacka",
+      "url": "https://klatterverket.se",
+      "lat": 59.3055679,
+      "lng": 18.1211641,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

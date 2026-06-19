@@ -1,0 +1,29 @@
+{
+  "city": "Bochum",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-bochum",
+      "name": "Boulderwelt Bochum",
+      "address": "Am Einkaufszentrum 12, 44791 Bochum",
+      "url": "https://www.boulderwelt-bochum.de",
+      "lat": 51.4956152,
+      "lng": 7.2815693,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 3000,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    }
+  ]
+}

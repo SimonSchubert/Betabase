@@ -1,0 +1,51 @@
+{
+  "city": "Milano",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "manga-climbing",
+      "name": "Manga Climbing",
+      "address": "Via Giovanni Livraghi 25, 20126 Milano",
+      "url": "https://www.mangaclimbing.it",
+      "lat": 45.5160489,
+      "lng": 9.2228263,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rockspot",
+      "name": "Rockspot",
+      "address": "Via Gaudenzio Fantoli 11, 20138 Milano",
+      "url": "https://www.rockspot.it",
+      "lat": 45.4530351,
+      "lng": 9.2519801,
+      "disciplines": ["boulder", "lead", "speed"],
+      "boards": ["moonboard", "tension"],
+      "size_sqm": 3000,
+      "opening_hours": {
+        "mon": "08:00-23:30",
+        "tue": "08:00-23:30",
+        "wed": "08:00-23:30",
+        "thu": "08:00-23:30",
+        "fri": "08:00-23:30",
+        "sat": "09:00-19:30",
+        "sun": "09:00-19:30"
+      }
+    },
+    {
+      "id": "urban-wall",
+      "name": "Urban Wall",
+      "address": "Via Antonio Gramsci 29, 20016 Pero",
+      "url": "https://climbingdistrict.uk/climbing-gym/urban-wall",
+      "lat": 45.5112491,
+      "lng": 9.0914364,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {}
+    }
+  ]
+}

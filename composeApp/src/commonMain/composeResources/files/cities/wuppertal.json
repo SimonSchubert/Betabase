@@ -1,0 +1,22 @@
+{
+  "city": "Wuppertal",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-wupperwaende",
+      "name": "DAV-Kletterzentrum Wupperwände",
+      "address": "Badische Straße 76, 42389 Wuppertal",
+      "url": "https://www.wupperwaende.de",
+      "lat": 51.2685586,
+      "lng": 7.2358009,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

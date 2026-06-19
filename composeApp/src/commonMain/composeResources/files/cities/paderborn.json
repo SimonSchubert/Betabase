@@ -1,0 +1,22 @@
+{
+  "city": "Paderborn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "blocbuster-paderborn",
+      "name": "BlocBuster Kletterhalle Paderborn",
+      "address": "Schulze-Delitzsch-Straße 17, 33100 Paderborn",
+      "url": "https://www.blocbuster.de",
+      "lat": 51.7168456,
+      "lng": 8.7769298,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

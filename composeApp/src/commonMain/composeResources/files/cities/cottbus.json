@@ -1,0 +1,22 @@
+{
+  "city": "Cottbus",
+  "gyms": [
+    {
+      "id": "klunker-cottbus",
+      "name": "Klunker Cottbus",
+      "address": "Parzellenstraße 10, 03046 Cottbus",
+      "url": "https://www.klunker-cottbus.de",
+      "lat": 51.751483,
+      "lng": 14.340227,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

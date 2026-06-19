@@ -1,0 +1,21 @@
+{
+  "city": "Weimar",
+  "gyms": [
+    {
+      "id": "blocknroll-weimar",
+      "name": "Block'n'Roll Boulderhalle",
+      "address": "Am Alten Speicher 7, 99427 Weimar",
+      "url": "https://www.blocknroll.de",
+      "lat": 50.994978,
+      "lng": 11.32759,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

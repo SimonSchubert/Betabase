@@ -1,0 +1,79 @@
+{
+  "city": "Oslo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "klatreverket",
+      "name": "Klatreverket",
+      "address": "Mølleparken, 0459 Oslo",
+      "url": "https://klatreverket.no",
+      "lat": 59.9293595,
+      "lng": 10.7579196,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klatreverket-bryn",
+      "name": "Klatreverket Bryn",
+      "address": "Brynsveien, 0678 Oslo",
+      "url": "https://klatreverket.no/bryn",
+      "lat": 59.910069,
+      "lng": 10.8112958,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klatreverket-torshov",
+      "name": "Klatreverket Torshov",
+      "address": "Torshov, 0476 Oslo",
+      "url": "https://klatreverket.no",
+      "lat": 59.934862,
+      "lng": 10.759447,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "oslo-klatresenter",
+      "name": "Oslo Klatresenter",
+      "address": "Skullerudveien, 0694 Oslo",
+      "url": "https://www.osloklatresenter.no",
+      "lat": 59.8676378,
+      "lng": 10.8415319,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "oslo-mikrobuldreri",
+      "name": "Oslo Mikrobuldreri",
+      "address": "Vulkan, 0175 Oslo",
+      "url": "https://www.oslomikrobuldreri.no",
+      "lat": 59.91369,
+      "lng": 10.7661318,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vulkan-klatresenter",
+      "name": "Vulkan klatresenter",
+      "address": "Vulkan, 0175 Oslo",
+      "url": "https://www.vulkanklatresenter.no",
+      "lat": 59.9229349,
+      "lng": 10.7521397,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

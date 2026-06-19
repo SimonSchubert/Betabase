@@ -1,0 +1,22 @@
+{
+  "city": "Trier",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterhalle-cube",
+      "name": "Kletterhalle Cube",
+      "address": "Diedenhofener Straße 27c, 54294 Trier",
+      "url": "https://www.kletterhalle-cube.de",
+      "lat": 49.7294734,
+      "lng": 6.6153859,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

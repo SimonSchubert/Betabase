@@ -1,0 +1,99 @@
+{
+  "city": "Prague",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "big-wall",
+      "name": "BigWall",
+      "address": "Ocelářská 891/16, 190 00 Praha 9",
+      "url": "https://big-wall.cz",
+      "lat": 50.105447,
+      "lng": 14.499869,
+      "disciplines": ["boulder", "lead", "speed"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "freesolo",
+      "name": "FreeSolo",
+      "address": "Donovalská 1662/38, 149 00 Praha 4",
+      "url": "https://freesolo.cz",
+      "lat": 50.037163,
+      "lng": 14.5057623,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "jungle-holesovice",
+      "name": "Jungle Holešovice",
+      "address": "U Výstaviště 11, 170 00 Praha 7",
+      "url": "https://holesovice.jungle.cz",
+      "lat": 50.1058465,
+      "lng": 14.434641,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "lokal-blok",
+      "name": "Lokal Blok",
+      "address": "náměstí 14. října 10, 150 00 Praha 5",
+      "url": "https://lokalblok.cz",
+      "lat": 50.0729996,
+      "lng": 14.4050177,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "11:00-23:00",
+        "sun": "11:00-23:00"
+      }
+    },
+    {
+      "id": "smichoff",
+      "name": "SmíchOFF",
+      "address": "Plzeňská, 150 21 Praha 5",
+      "url": "https://smichoff.cz",
+      "lat": 50.0551047,
+      "lng": 14.4066169,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-23:00",
+        "tue": "06:00-23:00",
+        "wed": "06:00-23:00",
+        "thu": "06:00-23:00",
+        "fri": "06:00-23:00",
+        "sat": "06:00-23:00",
+        "sun": "06:00-23:00"
+      }
+    }
+  ]
+}

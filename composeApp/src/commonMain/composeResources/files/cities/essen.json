@@ -1,0 +1,44 @@
+{
+  "city": "Essen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-essen",
+      "name": "Boulderwelt Essen",
+      "address": "Kopstadtplatz 1, 45127 Essen",
+      "url": "https://www.boulderwelt-essen.de",
+      "lat": 51.4578527,
+      "lng": 7.0114488,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2500,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-essen",
+      "name": "DAV Kletterzentrum Essen",
+      "address": "Huttropstraße 60, 45138 Essen",
+      "url": "https://www.dav-essen.de/kletterzentrum",
+      "lat": 51.4437416,
+      "lng": 7.0332745,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

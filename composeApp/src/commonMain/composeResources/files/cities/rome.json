@@ -1,0 +1,64 @@
+{
+  "city": "Rome",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rock-it-climbing-roma",
+      "name": "Rock it Climbing Roma",
+      "address": "Via Biordo Michelotti 22, 00176 Roma",
+      "url": "https://rockit-arrampicataroma.it",
+      "lat": 41.8939442,
+      "lng": 12.5381418,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["moonboard", "spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      }
+    },
+    {
+      "id": "star-wall-climbing-park",
+      "name": "Star Wall Climbing Park",
+      "address": "Via Edoardo Maragliano 5, 00151 Roma",
+      "url": "https://www.starwall.it",
+      "lat": 41.8649983,
+      "lng": 12.4431053,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00"
+      }
+    },
+    {
+      "id": "vertical-park",
+      "name": "Vertical Park",
+      "address": "Via Sassonegro 88, 00169 Roma",
+      "url": "https://verticalpark.it",
+      "lat": 41.8635365,
+      "lng": 12.5970827,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["moonboard", "spray"],
+      "size_sqm": 350,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "11:30-19:00"
+      }
+    }
+  ]
+}

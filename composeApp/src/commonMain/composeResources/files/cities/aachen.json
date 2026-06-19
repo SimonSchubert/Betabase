@@ -1,0 +1,72 @@
+{
+  "city": "Aachen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "diehalle-aachen",
+      "name": "dieHalle Aachen",
+      "address": "Grüner Weg 22, 52066 Aachen",
+      "url": "https://www.diehalle-aachen.de",
+      "lat": 50.7861652,
+      "lng": 6.1015136,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "campus-aachen",
+      "name": "Campus Aachen",
+      "address": "Tempelhofer Straße 16, 52086 Aachen",
+      "url": "https://www.campus-aachen.de",
+      "lat": 50.78388,
+      "lng": 6.13007,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "moove-aachen",
+      "name": "Moove Aachen",
+      "address": "Kurbrunnenstraße 22, 52066 Aachen",
+      "url": "https://www.moove-aachen.de",
+      "lat": 50.76723,
+      "lng": 6.09507,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "tivoli-rock-aachen",
+      "name": "Tivoli Rock",
+      "address": "Strangenhäuschen 11, 52020 Aachen",
+      "url": "https://www.tivoli-rock.de",
+      "lat": 50.80183,
+      "lng": 6.11131,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

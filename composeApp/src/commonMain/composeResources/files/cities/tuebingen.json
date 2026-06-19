@@ -1,0 +1,21 @@
+{
+  "city": "Tübingen",
+  "gyms": [
+    {
+      "id": "b12-boulderzentrum-tuebingen",
+      "name": "B12 – DAV Boulderzentrum Tübingen",
+      "address": "Bismarckstraße 142, 72072 Tübingen",
+      "url": "https://www.b12-tuebingen.de",
+      "lat": 48.5220037,
+      "lng": 9.0838538,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

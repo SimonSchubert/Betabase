@@ -1,0 +1,51 @@
+{
+  "city": "Copenhagen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "beta-boulders-osterbro",
+      "name": "Beta Boulders Østerbro",
+      "address": "Hammershusgade, 2100 København",
+      "url": "https://betaboulders.com",
+      "lat": 55.7069382,
+      "lng": 12.5610671,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "beta-boulders-sydhavn",
+      "name": "Beta Boulders Sydhavn",
+      "address": "Pladehals Allé, 1705 København",
+      "url": "https://betaboulders.com",
+      "lat": 55.6557971,
+      "lng": 12.5510318,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "bison-boulders-kodbyen",
+      "name": "Bison Boulders Kødbyen",
+      "address": "Flæsketorvet, 1712 København",
+      "url": "https://www.bison-boulders.com",
+      "lat": 55.6672116,
+      "lng": 12.5609106,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    }
+  ]
+}

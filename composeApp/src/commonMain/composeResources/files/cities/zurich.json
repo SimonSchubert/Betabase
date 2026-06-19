@@ -1,0 +1,55 @@
+{
+  "city": "Zürich",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "grindelboulder",
+      "name": "GrindelBoulder",
+      "address": "Grindelstrasse 12, 8303 Bassersdorf",
+      "url": "https://grindelboulder.ch",
+      "lat": 47.4460131,
+      "lng": 8.6092783,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 900,
+      "opening_hours": {}
+    },
+    {
+      "id": "minimum-boulder-fluela",
+      "name": "Minimum Boulder Flüela",
+      "address": "Flüelastrasse 31, 8047 Zürich",
+      "url": "https://minimum.ch",
+      "lat": 47.3816369,
+      "lng": 8.4953202,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "minimum-boulder-leutsch",
+      "name": "Minimum Boulder Leutsch",
+      "address": "Leutschenbachstrasse 44, 8050 Zürich",
+      "url": "https://minimum.ch",
+      "lat": 47.4159444,
+      "lng": 8.5546917,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mito-bouldering",
+      "name": "Mitō Bouldering",
+      "address": "Badenerstrasse 434, 8004 Zürich",
+      "url": "https://mito-bouldering.ch",
+      "lat": 47.3806175,
+      "lng": 8.5056168,
+      "disciplines": ["boulder"],
+      "boards": ["kilter", "tension"],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

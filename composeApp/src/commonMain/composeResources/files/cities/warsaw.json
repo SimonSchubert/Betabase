@@ -1,0 +1,150 @@
+{
+  "city": "Warsaw",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "camp4",
+      "name": "Camp4",
+      "address": "Krasnowolska 50, 02-849 Warszawa",
+      "url": "https://halawspinaczkowa.pl",
+      "lat": 52.1436578,
+      "lng": 21.0053829,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "crux-boulder",
+      "name": "Crux Boulder",
+      "address": "Hoża 51, 00-681 Warszawa",
+      "url": "https://crux.boulder.pl",
+      "lat": 52.2244931,
+      "lng": 21.0101832,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "makak-arena",
+      "name": "Makak Arena Wspinaczkowa",
+      "address": "Palisadowa 20/22, 01-940 Warszawa",
+      "url": "https://arenamakak.pl",
+      "lat": 52.2973763,
+      "lng": 20.9063394,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-22:00"
+      }
+    },
+    {
+      "id": "murall-annopol",
+      "name": "Murall Annopol",
+      "address": "Annopol, 03-236 Warszawa",
+      "url": "https://annopol.murall.pl",
+      "lat": 52.3024951,
+      "lng": 21.0197177,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "murall-gorczewska",
+      "name": "Centrum Wspinaczkowe Murall",
+      "address": "Górczewska, 01-471 Warszawa",
+      "url": "https://murall.pl",
+      "lat": 52.2402959,
+      "lng": 20.9062655,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "obiekto",
+      "name": "Obiekto",
+      "address": "Mińska 65, 03-828 Warszawa",
+      "url": "https://obiekto.pl",
+      "lat": 52.251278,
+      "lng": 21.067527,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "on-sight-obozowa",
+      "name": "Centrum Wspinaczkowe On Sight",
+      "address": "Obozowa 60, 01-423 Warszawa",
+      "url": "https://www.obozowa.waw.pl",
+      "lat": 52.2480282,
+      "lng": 20.9538627,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "volt-boulderownia",
+      "name": "Volt Boulderownia",
+      "address": "Zawodzie 16, 02-981 Warszawa",
+      "url": "https://www.voltboulderownia.pl",
+      "lat": 52.1837152,
+      "lng": 21.0881861,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "west-bouldering",
+      "name": "West Bouldering",
+      "address": "Krakowiaków 80/98, 02-232 Warszawa",
+      "url": "https://www.westbouldering.pl",
+      "lat": 52.1922793,
+      "lng": 20.9352178,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "wgore",
+      "name": "Wgórę",
+      "address": "Dominika Merliniego 2, 02-511 Warszawa",
+      "url": "https://wgore.eu",
+      "lat": 52.1965578,
+      "lng": 21.0262555,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-22:30",
+        "tue": "08:00-22:30",
+        "wed": "08:00-22:30",
+        "thu": "08:00-22:30",
+        "fri": "08:00-22:30",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    }
+  ]
+}

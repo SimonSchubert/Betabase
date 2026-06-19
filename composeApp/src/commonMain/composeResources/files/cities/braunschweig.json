@@ -1,0 +1,37 @@
+{
+  "city": "Braunschweig",
+  "gyms": [
+    {
+      "id": "dav-kletterhalle-braunschweig",
+      "name": "DAV Kletterhalle Braunschweig",
+      "address": "Güldenstraße 39c, 38100 Braunschweig",
+      "url": "https://www.alpenverein-braunschweig.de/kletterhalle/",
+      "lat": 52.265517,
+      "lng": 10.5133546,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "greifhaus-braunschweig",
+      "name": "Greifhaus",
+      "address": "Hamburger Straße 268, 38114 Braunschweig",
+      "url": "https://www.greifhaus-braunschweig.de",
+      "lat": 52.279375,
+      "lng": 10.52112,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Aschaffenburg",
+  "gyms": [
+    {
+      "id": "kletterzentrum-aschaffenburg",
+      "name": "Kletterzentrum Aschaffenburg",
+      "address": "Wendelbergstraße 36, 63739 Aschaffenburg",
+      "url": "https://www.kletterzentrum-aschaffenburg.de",
+      "lat": 49.965968,
+      "lng": 9.177998,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

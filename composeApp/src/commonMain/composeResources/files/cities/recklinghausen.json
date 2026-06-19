@@ -1,0 +1,23 @@
+{
+  "city": "Recklinghausen",
+  "gyms": [
+    {
+      "id": "einstein-boulderhalle-recklinghausen",
+      "name": "einstein Boulderhalle Recklinghausen",
+      "address": "Walkmühlenweg 55, 45661 Recklinghausen",
+      "url": "https://recklinghausen.einstein-boulder.com",
+      "lat": 51.581523,
+      "lng": 7.207447,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

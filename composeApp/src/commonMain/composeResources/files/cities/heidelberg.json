@@ -1,0 +1,22 @@
+{
+  "city": "Heidelberg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-heidelberg",
+      "name": "DAV Kletterzentrum Heidelberg",
+      "address": "Im Bosseldorn 30, 69126 Heidelberg",
+      "url": "https://www.dav-heidelberg.de/kletterzentrum",
+      "lat": 49.3851135,
+      "lng": 8.6793682,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

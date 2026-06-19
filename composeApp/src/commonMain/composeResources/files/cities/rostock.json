@@ -1,0 +1,22 @@
+{
+  "city": "Rostock",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "45-grad-kletterhalle",
+      "name": "45 Grad Kletterhalle",
+      "address": "Am Kayenmühlengraben 2, 18057 Rostock",
+      "url": "https://www.45grad-kletterhalle.de",
+      "lat": 54.0968376,
+      "lng": 12.1025283,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Flensburg",
+  "gyms": [
+    {
+      "id": "nordlandwelle-flensburg",
+      "name": "Nordlandwelle",
+      "address": "Kalleby 33, 24972 Steinbergkirche",
+      "url": "https://www.nordlandwelle.de",
+      "lat": 54.781909,
+      "lng": 9.726457,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Würzburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-wuerzburg",
+      "name": "DAV Kletterzentrum Würzburg",
+      "address": "Weißenburgstraße 55, 97082 Würzburg",
+      "url": "https://www.dav-wuerzburg.de/kletterzentrum",
+      "lat": 49.796709,
+      "lng": 9.9028729,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

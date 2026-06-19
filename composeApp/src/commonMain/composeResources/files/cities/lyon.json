@@ -1,0 +1,83 @@
+{
+  "city": "Lyon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bloc-session-lyon-centre",
+      "name": "Bloc Session Lyon Centre",
+      "address": "175 Avenue Félix Faure, 69003 Lyon",
+      "url": "https://www.blocsession.com/salle-escalade/lyon-centre",
+      "lat": 45.7548934,
+      "lng": 4.8681661,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 800,
+      "opening_hours": {}
+    },
+    {
+      "id": "blockout-lyon",
+      "name": "Block'Out Lyon",
+      "address": "1 Rue des Vergers, 69760 Limonest",
+      "url": "https://www.blockout.fr/bo-lyon",
+      "lat": 45.8065878,
+      "lng": 4.7717325,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 650,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "climb-up-lyon-confluence",
+      "name": "Climb Up Lyon Confluence",
+      "address": "112 Cours Charlemagne, 69002 Lyon",
+      "url": "https://lyon-confluence.climb-up.fr",
+      "lat": 45.7405654,
+      "lng": 4.8179086,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-up-lyon-gerland",
+      "name": "Climb Up Lyon Gerland",
+      "address": "Rue Lortet, 69007 Lyon",
+      "url": "https://lyon-gerland.climb-up.fr",
+      "lat": 45.7432367,
+      "lng": 4.8357011,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "holdup-escalade",
+      "name": "Hold'Up Escalade",
+      "address": "Rue Littré, 69009 Lyon",
+      "url": "https://holdup-escalade.fr",
+      "lat": 45.7725830,
+      "lng": 4.7974124,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      }
+    }
+  ]
+}

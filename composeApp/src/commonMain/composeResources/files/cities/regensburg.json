@@ -1,0 +1,22 @@
+{
+  "city": "Regensburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-regensburg",
+      "name": "DAV Kletterzentrum Regensburg",
+      "address": "Am Silbergarten, 93138 Lappersdorf",
+      "url": "https://www.dav-regensburg.de/kletterzentrum",
+      "lat": 49.0422566,
+      "lng": 12.0862713,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Ulm",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-illertissen",
+      "name": "DAV Kletterzentrum Illertissen",
+      "address": "Friedhofstraße 58, 89257 Illertissen",
+      "url": "https://www.dav-illertissen.de/kletterzentrum",
+      "lat": 48.2335172,
+      "lng": 10.1117057,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

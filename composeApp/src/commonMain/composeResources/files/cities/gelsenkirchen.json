@@ -1,0 +1,32 @@
+{
+  "city": "Gelsenkirchen",
+  "gyms": [
+    {
+      "id": "neoliet-boulderbar-gelsenkirchen",
+      "name": "Neoliet Boulderbar Gelsenkirchen",
+      "address": "Gewerkenstraße 28, 45881 Gelsenkirchen",
+      "url": "https://www.neoliet.de/boulderbar-gelsenkirchen/",
+      "lat": 51.5215366,
+      "lng": 7.0847788,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

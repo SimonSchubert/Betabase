@@ -1,0 +1,36 @@
+{
+  "city": "Bremen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-bremen",
+      "name": "DAV Kletterzentrum Bremen",
+      "address": "Hastedter Osterdeich 220, 28207 Bremen",
+      "url": "https://www.dav-bremen.de/kletterzentrum",
+      "lat": 53.0646899,
+      "lng": 8.8545018,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "blockhelden-bremen",
+      "name": "Blockhelden Bremen",
+      "address": "Hastedter Heerstraße 149, 28207 Bremen",
+      "url": "https://www.blockhelden-bremen.de",
+      "lat": 53.0667754,
+      "lng": 8.8660014,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Marburg",
+  "gyms": [
+    {
+      "id": "volksbank-kletterhalle-marburg",
+      "name": "Volksbank Kletterhalle Marburg",
+      "address": "Rudolf-Bultmann-Straße 4g, 35039 Marburg",
+      "url": "https://www.kletterhalle-marburg.de",
+      "lat": 50.816276,
+      "lng": 8.778897,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

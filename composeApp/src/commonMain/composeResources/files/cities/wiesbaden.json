@@ -1,0 +1,22 @@
+{
+  "city": "Wiesbaden",
+  "gyms": [
+    {
+      "id": "wiesbadener-nordwand",
+      "name": "Wiesbadener Nordwand",
+      "address": "Hagenauer Straße 49, 65203 Wiesbaden",
+      "url": "https://www.wiesbadener-nordwand.de",
+      "lat": 50.049758,
+      "lng": 8.214291,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

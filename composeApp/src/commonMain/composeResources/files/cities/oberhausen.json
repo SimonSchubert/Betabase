@@ -1,0 +1,31 @@
+{
+  "city": "Oberhausen",
+  "gyms": [
+    {
+      "id": "neoliet-boulderbar-oberhausen",
+      "name": "Neoliet Boulderbar Oberhausen",
+      "address": "Erlenstraße 14, 46149 Oberhausen",
+      "url": "https://www.neoliet.de/boulderbar-oberhausen/",
+      "lat": 51.5162133,
+      "lng": 6.8211186,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

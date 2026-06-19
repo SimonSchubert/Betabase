@@ -1,0 +1,21 @@
+{
+  "city": "Rosenheim",
+  "gyms": [
+    {
+      "id": "boulder-halle-rosenheim",
+      "name": "Boulder-Halle",
+      "address": "Finsterwalderstraße 4, 83071 Stephanskirchen",
+      "url": "https://www.boulder-halle.de",
+      "lat": 47.847081,
+      "lng": 12.165664,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

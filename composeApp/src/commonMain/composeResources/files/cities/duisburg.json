@@ -1,0 +1,21 @@
+{
+  "city": "Duisburg",
+  "gyms": [
+    {
+      "id": "einstein-boulderhalle-duisburg",
+      "name": "einstein Boulderhalle Duisburg",
+      "address": "Essenberger Straße 85, 47059 Duisburg",
+      "url": "https://duisburg.einstein-boulder.com",
+      "lat": 51.4317512,
+      "lng": 6.7431745,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1800,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

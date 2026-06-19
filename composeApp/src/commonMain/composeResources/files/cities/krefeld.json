@@ -1,0 +1,33 @@
+{
+  "city": "Krefeld",
+  "gyms": [
+    {
+      "id": "stuntwerk-krefeld",
+      "name": "Stuntwerk Krefeld",
+      "address": "Weyerhofstraße 50, 47803 Krefeld",
+      "url": "https://stuntwerk.de/krefeld/",
+      "lat": 51.3448781,
+      "lng": 6.5437129,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "campusboard",
+        "spraywall"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

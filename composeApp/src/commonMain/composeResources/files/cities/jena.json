@@ -1,0 +1,22 @@
+{
+  "city": "Jena",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rocks-kletterzentrum",
+      "name": "rocks. Kletterzentrum",
+      "address": "Fritz-Winkler-Straße 3, 07743 Jena",
+      "url": "https://www.rocks-kletterzentrum.de",
+      "lat": 50.940114,
+      "lng": 11.5995673,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

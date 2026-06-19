@@ -1,0 +1,22 @@
+{
+  "city": "Bayreuth",
+  "gyms": [
+    {
+      "id": "kletterzentrum-bayreuth",
+      "name": "Kletterzentrum Bayreuth",
+      "address": "Schwabenstraße 27, 95448 Bayreuth",
+      "url": "https://www.kletterzentrum-bayreuth.de",
+      "lat": 49.935712,
+      "lng": 11.598978,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

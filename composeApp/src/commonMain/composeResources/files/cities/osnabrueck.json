@@ -1,0 +1,21 @@
+{
+  "city": "Osnabrück",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "zenit-boulderhalle",
+      "name": "Zenit Boulderhalle",
+      "address": "Dammstraße 2, 49084 Osnabrück",
+      "url": "https://www.zenit-boulderhalle.de",
+      "lat": 52.2682591,
+      "lng": 8.0591998,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

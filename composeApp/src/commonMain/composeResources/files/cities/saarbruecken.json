@@ -1,0 +1,22 @@
+{
+  "city": "Saarbrücken",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-saarbruecken",
+      "name": "DAV Kletterzentrum Saarbrücken",
+      "address": "Mainzer Straße 30, 66111 Saarbrücken",
+      "url": "https://www.dav-saarbruecken.de/kletterzentrum",
+      "lat": 49.231282,
+      "lng": 7.0019761,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Bamberg",
+  "gyms": [
+    {
+      "id": "blockhelden-bamberg",
+      "name": "Blockhelden Bamberg",
+      "address": "Memmelsdorfer Straße 211, 96052 Bamberg",
+      "url": "https://blockhelden.de/bamberg/",
+      "lat": 49.918518,
+      "lng": 10.918492,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

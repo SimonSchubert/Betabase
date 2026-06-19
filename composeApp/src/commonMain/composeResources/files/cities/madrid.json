@@ -1,0 +1,43 @@
+{
+  "city": "Madrid",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulder-madrid",
+      "name": "Boulder Madrid",
+      "address": "Calle Hachero 12, 28053 Madrid",
+      "url": "https://www.bouldermadrid.com",
+      "lat": 40.3912461,
+      "lng": -3.6696446,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "indoorwall-getafe",
+      "name": "Indoorwall Getafe",
+      "address": "Calle Fundidores 27, 28906 Getafe",
+      "url": "https://www.indoorwall.com",
+      "lat": 40.3118730,
+      "lng": -3.7030909,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "sputnik-climbing",
+      "name": "Sputnik Climbing",
+      "address": "Calle de Vallehermoso 87, 28003 Madrid",
+      "url": "https://sputnikclimbing.com",
+      "lat": 40.4394987,
+      "lng": -3.7087577,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "city": "Freiburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "blockhaus-freiburg",
+      "name": "Blockhaus Freiburg",
+      "address": "Ziegelhofstraße 9, 79110 Freiburg",
+      "url": "https://www.blockhaus-freiburg.de",
+      "lat": 48.0228073,
+      "lng": 7.7946131,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulder-kitchen-freiburg",
+      "name": "Boulder Kitchen Freiburg",
+      "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
+      "url": "https://www.freiburg-boulderkitchen.de",
+      "lat": 48.0270273,
+      "lng": 7.8538306,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterzentrum-freiburg",
+      "name": "Kletterzentrum Freiburg",
+      "address": "Schwarzwaldstraße 242, 79117 Freiburg",
+      "url": "https://kletterzentrum-freiburg.de",
+      "lat": 47.9866852,
+      "lng": 7.8951552,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

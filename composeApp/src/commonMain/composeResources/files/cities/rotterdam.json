@@ -1,0 +1,59 @@
+{
+  "city": "Rotterdam",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "beest-boulders-rotterdam",
+      "name": "Beest Boulders Rotterdam",
+      "address": "Benthemplein 10, 3032 CC Rotterdam",
+      "url": "https://beestboulders.com/vestigingen/beest-boulders-rotterdam",
+      "lat": 51.9274849,
+      "lng": 4.4761673,
+      "disciplines": ["boulder"],
+      "boards": ["kilter", "spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "klimmuur-rotterdam",
+      "name": "De Klimmuur Rotterdam",
+      "address": "Prinsenlaan 910, 3062 CT Rotterdam",
+      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-rotterdam",
+      "lat": 51.9365197,
+      "lng": 4.5329279,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "neoliet-bolder-rotterdam",
+      "name": "Neoliet Bolder Rotterdam",
+      "address": "Keilestraat 9, 3029 BP Rotterdam",
+      "url": "https://www.neoliet.nl",
+      "lat": 51.9082420,
+      "lng": 4.4338825,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

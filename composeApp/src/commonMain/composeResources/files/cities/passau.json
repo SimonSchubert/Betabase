@@ -1,0 +1,29 @@
+{
+  "city": "Passau",
+  "gyms": [
+    {
+      "id": "der-steinbock-passau",
+      "name": "der steinbock Passau",
+      "address": "Südtiroler Straße 2, 94036 Passau",
+      "url": "https://www.dersteinbock-passau.de",
+      "lat": 48.5587001,
+      "lng": 13.422591,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

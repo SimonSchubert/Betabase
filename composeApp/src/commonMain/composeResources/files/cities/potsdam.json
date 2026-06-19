@@ -1,0 +1,21 @@
+{
+  "city": "Potsdam",
+  "gyms": [
+    {
+      "id": "blockzone-potsdam",
+      "name": "Blockzone Potsdam",
+      "address": "Am Luftschiffhafen 2, 14471 Potsdam",
+      "url": "https://www.blockzone.de/potsdam/",
+      "lat": 52.3807051,
+      "lng": 13.0176779,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ],
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z"
+}

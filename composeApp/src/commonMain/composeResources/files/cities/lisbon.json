@@ -1,0 +1,55 @@
+{
+  "city": "Lisbon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "98-gravity",
+      "name": "9.8 Gravity",
+      "address": "Rua Engenheiro Adão Manuel Ramos Barata, 2685-332 Sacavém",
+      "url": "https://98gravity.pt",
+      "lat": 38.7842913,
+      "lng": -9.1255514,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "escala25",
+      "name": "Escala25",
+      "address": "Avenida da Índia 52, 1300-141 Lisboa",
+      "url": "https://escala25.com",
+      "lat": 38.7003518,
+      "lng": -9.178815,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-wall",
+      "name": "Vertical Wall",
+      "address": "Rua de Angola, 2620-036 Odivelas",
+      "url": "https://verticalwall.pt",
+      "lat": 38.7907481,
+      "lng": -9.167944,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertigo-climbing-center",
+      "name": "Vertigo Climbing Center",
+      "address": "Avenida Infante Dom Henrique, 1950-408 Lisboa",
+      "url": "https://vertigoclimbing.pt",
+      "lat": 38.739902,
+      "lng": -9.1020322,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

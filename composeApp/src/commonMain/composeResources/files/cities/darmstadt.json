@@ -1,0 +1,22 @@
+{
+  "city": "Darmstadt",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-darmstadt",
+      "name": "DAV Kletterzentrum Darmstadt",
+      "address": "An der Rosenhöhe 12, 64283 Darmstadt",
+      "url": "https://www.dav-darmstadt.de/kletterzentrum",
+      "lat": 49.8772213,
+      "lng": 8.6756433,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

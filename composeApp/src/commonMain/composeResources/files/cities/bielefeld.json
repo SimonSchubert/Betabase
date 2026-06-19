@@ -1,0 +1,22 @@
+{
+  "city": "Bielefeld",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-bielefeld",
+      "name": "DAV Kletterzentrum Bielefeld",
+      "address": "Lerchenstraße 63, 33609 Bielefeld",
+      "url": "https://www.dav-bielefeld.de/kletterzentrum",
+      "lat": 52.0213233,
+      "lng": 8.575856,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

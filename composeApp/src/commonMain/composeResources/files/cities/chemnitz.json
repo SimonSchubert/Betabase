@@ -1,0 +1,22 @@
+{
+  "city": "Chemnitz",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterzentrum-chemnitz",
+      "name": "Kletterzentrum Chemnitz",
+      "address": "Matthesstraße 20, 09113 Chemnitz",
+      "url": "https://www.kletterzentrum-chemnitz.de",
+      "lat": 50.8398612,
+      "lng": 12.9073476,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

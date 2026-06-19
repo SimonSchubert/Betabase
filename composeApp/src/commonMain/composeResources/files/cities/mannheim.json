@@ -1,0 +1,29 @@
+{
+  "city": "Mannheim",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-mannheim",
+      "name": "Boulderwelt Mannheim",
+      "address": "Neckarauer Straße 189, 68163 Mannheim",
+      "url": "https://www.boulderwelt-mannheim.de",
+      "lat": 49.4651306,
+      "lng": 8.4866777,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    }
+  ]
+}

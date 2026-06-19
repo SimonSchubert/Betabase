@@ -1,0 +1,71 @@
+{
+  "city": "Manchester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "awesome-walls-stockport",
+      "name": "Awesome Walls Stockport",
+      "address": "Pear Mill, Stockport Road West, SK6 2BP Stockport",
+      "url": "https://www.awesomewalls.co.uk/stockport",
+      "lat": 53.4140623,
+      "lng": -2.1333589,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "depot-climbing-manchester",
+      "name": "Depot Climbing Manchester",
+      "address": "24 Mosley Road, M17 1PG Manchester",
+      "url": "https://depotclimbing.co.uk/manchester",
+      "lat": 53.4641431,
+      "lng": -2.3209203,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-22:00",
+        "tue": "06:00-22:00",
+        "wed": "06:00-22:00",
+        "thu": "06:00-22:00",
+        "fri": "06:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "parthian-climbing-manchester",
+      "name": "Parthian Climbing",
+      "address": "Bennett Street, M12 5ND Manchester",
+      "url": "https://parthianclimbing.com",
+      "lat": 53.4694188,
+      "lng": -2.2039724,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rock-over-climbing",
+      "name": "Rock Over Climbing",
+      "address": "Cheviot Street, M3 1LW Manchester",
+      "url": "https://rockoverclimbing.com",
+      "lat": 53.4914119,
+      "lng": -2.2452626,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

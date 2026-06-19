@@ -1,0 +1,22 @@
+{
+  "city": "Mainz",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-mainz",
+      "name": "DAV Kletterzentrum Mainz",
+      "address": "Am Judensand 14, 55122 Mainz",
+      "url": "https://www.dav-mainz.de/kletterzentrum",
+      "lat": 50.0079625,
+      "lng": 8.2429236,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Kiel",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-kiel",
+      "name": "DAV Kletterzentrum Kiel",
+      "address": "Suchskrug 25-27, 24107 Kiel",
+      "url": "https://www.dav-kiel.de/kletterzentrum",
+      "lat": 54.3482754,
+      "lng": 10.0920172,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

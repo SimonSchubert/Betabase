@@ -1,0 +1,66 @@
+{
+  "city": "Karlsruhe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-karlsruhe",
+      "name": "Boulderwelt Karlsruhe",
+      "address": "Karlstraße 14, 76133 Karlsruhe",
+      "url": "https://www.boulderwelt-karlsruhe.de",
+      "lat": 49.0104397,
+      "lng": 8.3947847,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-karlsruhe",
+      "name": "DAV Kletter- und Boulderzentrum Karlsruhe",
+      "address": "Alter Schlachthof 39, 76131 Karlsruhe",
+      "url": "https://www.dav-kletterzentrum-karlsruhe.de",
+      "lat": 49.0049478,
+      "lng": 8.4321754,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:30-23:00",
+        "tue": "09:30-23:00",
+        "wed": "07:30-23:00",
+        "thu": "09:30-23:00",
+        "fri": "09:30-23:00",
+        "sat": "09:30-23:00",
+        "sun": "09:30-23:00"
+      }
+    },
+    {
+      "id": "boulderhalle-steil",
+      "name": "Boulderhalle Steil",
+      "address": "Hardeckstraße 4, 76185 Karlsruhe",
+      "url": "https://boulderhalle-steil.com",
+      "lat": 48.9988873,
+      "lng": 8.3614569,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Magdeburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-magdeburg",
+      "name": "DAV Kletterzentrum Magdeburg",
+      "address": "Beyendorfer Straße 50, 39108 Magdeburg",
+      "url": "https://www.dav-magdeburg.de/kletterzentrum",
+      "lat": 52.0807047,
+      "lng": 11.6491264,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

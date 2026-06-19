@@ -1,0 +1,54 @@
+{
+  "city": "Mönchengladbach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "monkeyspot-moenchengladbach",
+      "name": "Monkeyspot",
+      "address": "Ohlerkirchweg 39, 41069 Mönchengladbach",
+      "url": "https://monkeyspot.de/startseite-moenchengladbach/",
+      "lat": 51.184487,
+      "lng": 6.430813,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "kletterkirche-moenchengladbach",
+      "name": "Kletterkirche",
+      "address": "Nicodemstraße 36, 41068 Mönchengladbach",
+      "url": "https://kletterkirche.de",
+      "lat": 51.195847,
+      "lng": 6.41104,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "16:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    }
+  ]
+}

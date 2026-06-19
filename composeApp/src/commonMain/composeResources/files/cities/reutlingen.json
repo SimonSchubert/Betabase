@@ -1,0 +1,21 @@
+{
+  "city": "Reutlingen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderhaus-reutlingen",
+      "name": "Boulderhaus Reutlingen",
+      "address": "Schieferstraße 8, 72760 Reutlingen",
+      "url": "https://www.boulderhaus-reutlingen.de",
+      "lat": 48.4989362,
+      "lng": 9.1995626,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1200,
+      "opening_hours": {}
+    }
+  ]
+}
