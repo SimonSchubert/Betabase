@@ -1,0 +1,87 @@
+{
+  "city": "Nürnberg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cafe-kraft-nuernberg",
+      "name": "Café Kraft",
+      "address": "Gebertstraße 9, 90411 Nürnberg",
+      "url": "https://www.cafekraft.de",
+      "lat": 49.4797711,
+      "lng": 11.1224848,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulderhalle-e4",
+      "name": "Boulderhalle E4",
+      "address": "Allersberger Straße 185, 90461 Nürnberg",
+      "url": "https://www.boulderhalle-e4.de",
+      "lat": 49.4344151,
+      "lng": 11.0972883,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "der-steinbock-nuernberg",
+      "name": "der steinbock Nürnberg",
+      "address": "Leyher Straße 54, 90431 Nürnberg",
+      "url": "https://www.dersteinbock-nuernberg.de",
+      "lat": 49.4510292,
+      "lng": 11.0287018,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "bambule-kletterhalle",
+      "name": "BAMBULE Kletterhalle",
+      "address": "Industriestraße 21a, 90441 Nürnberg",
+      "url": "https://www.bambule-kletterhalle.de",
+      "lat": 49.4315840,
+      "lng": 11.0591933,
+      "disciplines": ["boulder", "lead", "speed"],
+      "boards": [],
+      "size_sqm": 2500,
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:30"
+      }
+    }
+  ]
+}

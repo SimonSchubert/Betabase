@@ -1,0 +1,167 @@
+{
+  "city": "Barcelona",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bloc-district-barcelona-marina",
+      "name": "Bloc District Marina",
+      "address": "Carrer de Zamora, 96-106, 08018 Barcelona",
+      "url": "https://www.blocdistrict.com",
+      "lat": 41.3968987,
+      "lng": 2.1889678,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["moonboard", "kilter", "spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "08:00-22:00",
+        "thu": "08:00-22:00",
+        "fri": "08:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "bloc-district-barcelona-tetuan",
+      "name": "Bloc District Tetuan",
+      "address": "Carrer de Nàpols, 128, 08013 Barcelona",
+      "url": "https://www.blocdistrict.com",
+      "lat": 41.3960860,
+      "lng": 2.1786694,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1400,
+      "opening_hours": {
+        "mon": "07:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "07:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "climbat-la-foixarda",
+      "name": "Climbat La Foixarda",
+      "address": "Camí de la Foixarda s/n, 08038 Barcelona",
+      "url": "https://climbat.com",
+      "lat": 41.3666202,
+      "lng": 2.1481059,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 2000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "freebloc",
+      "name": "Freebloc",
+      "address": "Carrer de Rossend Arús, 11-15, 08014 Barcelona",
+      "url": "https://www.freebloc.com",
+      "lat": 41.3736417,
+      "lng": 2.1374191,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 480,
+      "opening_hours": {
+        "mon": "09:00-24:00",
+        "tue": "09:00-24:00",
+        "wed": "09:00-24:00",
+        "thu": "09:00-24:00",
+        "fri": "09:00-24:00",
+        "sat": "09:00-24:00",
+        "sun": "09:00-24:00"
+      }
+    },
+    {
+      "id": "indoorwall-barcelona-el-clot",
+      "name": "Indoorwall El Clot",
+      "address": "Carrer de Gabriel y Galán, 3, 08026 Barcelona",
+      "url": "https://www.indoorwall.com/centros-indoorwall-rocodromos/indoorwall-el-clot-barcelona",
+      "lat": 41.4113867,
+      "lng": 2.1891159,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "11:00-21:00",
+        "sun": "16:00-21:00"
+      }
+    },
+    {
+      "id": "monobloc-barcelona-la-sagrera",
+      "name": "Monobloc La Sagrera",
+      "address": "Carrer d'Olesa, 71, 08027 Barcelona",
+      "url": "https://lasagrera.monobloc.es",
+      "lat": 41.4247124,
+      "lng": 2.1858417,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "monobloc-barcelona-sants",
+      "name": "Monobloc Sants",
+      "address": "Carrer de la Mineria, 51, 08038 Barcelona",
+      "url": "https://sants.monobloc.es",
+      "lat": 41.3662525,
+      "lng": 2.1395222,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "sharma-climbing-bcn",
+      "name": "Sharma Climbing BCN",
+      "address": "Carrer del Marroc, 206, 08019 Barcelona",
+      "url": "https://www.sharmaclimbing.com",
+      "lat": 41.4157253,
+      "lng": 2.2105633,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "11:00-23:00",
+        "sun": "09:00-18:00"
+      }
+    }
+  ]
+}

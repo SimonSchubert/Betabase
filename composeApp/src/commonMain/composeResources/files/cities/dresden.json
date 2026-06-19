@@ -1,0 +1,99 @@
+{
+  "city": "Dresden",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "xxl-die-wand",
+      "name": "XXL 'Die Wand'",
+      "address": "Breitscheidstraße 40, 01237 Dresden",
+      "url": "https://www.xxl-klettern.de",
+      "lat": 51.0149683,
+      "lng": 13.805918,
+      "disciplines": ["boulder", "lead"],
+      "boards": ["kilter"],
+      "size_sqm": 4100,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "mandala-zeitenstroemung",
+      "name": "Mandala Boulderhalle – Zeitenströmung",
+      "address": "Königsbrücker Straße 96, 01099 Dresden",
+      "url": "https://boulderhalle-dresden.de",
+      "lat": 51.0805355,
+      "lng": 13.7611683,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard"],
+      "size_sqm": 1700,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "mandala-postplatz",
+      "name": "Mandala Boulderhalle – Postplatz",
+      "address": "Annenstraße 1-3, 01067 Dresden",
+      "url": "https://boulderhalle-dresden.de",
+      "lat": 51.0504154,
+      "lng": 13.7312934,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "kletterarena-dresden",
+      "name": "Kletterarena Dresden",
+      "address": "Zwickauer Straße 42, 01069 Dresden",
+      "url": "https://kletterarena-dresden.de",
+      "lat": 51.0411658,
+      "lng": 13.7154671,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "15:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "bouldercity-dresden",
+      "name": "Bouldercity Dresden",
+      "address": "Bischofsweg 32, 01099 Dresden",
+      "url": "https://bouldercity-dresden.de",
+      "lat": 51.0700099,
+      "lng": 13.753463,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

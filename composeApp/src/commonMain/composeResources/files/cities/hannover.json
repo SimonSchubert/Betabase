@@ -1,0 +1,87 @@
+{
+  "city": "Hannover",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderhalle-beta",
+      "name": "Boulderhalle Beta",
+      "address": "Gertrud-Knebusch-Straße 15, 30167 Hannover",
+      "url": "https://boulderhalle-beta.de",
+      "lat": 52.3855295,
+      "lng": 9.7309763,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "spray"],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "griffreich",
+      "name": "GriffReich – DAV Kletterzentrum Hannover",
+      "address": "Peiner Straße 28, 30519 Hannover",
+      "url": "https://griffreich.de",
+      "lat": 52.3388018,
+      "lng": 9.7738309,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "14:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "14:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "kletterbar-hannover",
+      "name": "KletterBar Hannover",
+      "address": "Reinhold-Schleese-Straße 21, 30179 Hannover",
+      "url": "https://www.kletterbar-hannover.de",
+      "lat": 52.4216976,
+      "lng": 9.7255037,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 3400,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "urban-apes-hannover",
+      "name": "urban apes Hannover",
+      "address": "Am Mittelfelde 39, 30519 Hannover",
+      "url": "https://www.urbanapes.de/hannover",
+      "lat": 52.3289382,
+      "lng": 9.7837325,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 475,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    }
+  ]
+}

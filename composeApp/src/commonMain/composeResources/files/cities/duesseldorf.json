@@ -1,0 +1,86 @@
+{
+  "city": "Düsseldorf",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "einstein-boulder-duesseldorf",
+      "name": "Einstein Boulderhalle Düsseldorf",
+      "address": "Lierenfelder Straße 49, 40231 Düsseldorf",
+      "url": "https://duesseldorf.einstein-boulder.com",
+      "lat": 51.2127507,
+      "lng": 6.8214612,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1725,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
+    },
+    {
+      "id": "monkeyspot-duesseldorf",
+      "name": "Monkeyspot",
+      "address": "Schiessstraße 52, 40549 Düsseldorf",
+      "url": "https://www.monkeyspot.de",
+      "lat": 51.2393032,
+      "lng": 6.7235319,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1300,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "move-duesseldorf",
+      "name": "MOVE Kletterhalle",
+      "address": "Diepenstraße 83, 40625 Düsseldorf",
+      "url": "https://move-kletterhalle.de",
+      "lat": 51.2339056,
+      "lng": 6.8422772,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 700,
+      "opening_hours": {
+        "tue": "15:00-23:00",
+        "wed": "15:00-23:00",
+        "thu": "15:00-23:00",
+        "fri": "15:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "superblock-duesseldorf",
+      "name": "Superblock",
+      "address": "Fichtenstraße 53, 40233 Düsseldorf",
+      "url": "https://www.superblock.nrw",
+      "lat": 51.2138154,
+      "lng": 6.8123285,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
+    }
+  ]
+}

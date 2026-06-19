@@ -1,0 +1,87 @@
+{
+  "city": "Leipzig",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bloc-no-limit-leipzig",
+      "name": "Boulderhalle BLOC NO LIMIT",
+      "address": "Brandenburger Straße 26, 04347 Leipzig",
+      "url": "https://boulderhalle-leipzig.de",
+      "lat": 51.3518234,
+      "lng": 12.3954476,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "kilter"],
+      "size_sqm": 2100,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
+    },
+    {
+      "id": "kosmos-bouldern-leipzig",
+      "name": "KOSMOS - Bouldern in Leipzig",
+      "address": "Erich-Zeigner-Allee 64c, 04229 Leipzig",
+      "url": "https://kosmos-bouldern.de",
+      "lat": 51.3230532,
+      "lng": 12.3354915,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 650,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "no-limit-kletterhalle-leipzig",
+      "name": "Kletterhalle NO LIMIT",
+      "address": "Dessauer Straße 2, 04129 Leipzig",
+      "url": "https://kletterhalle-leipzig.de",
+      "lat": 51.3561866,
+      "lng": 12.3847053,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 2300,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
+    },
+    {
+      "id": "onyx-boulderspot-leipzig",
+      "name": "ONYX Boulderspot Leipzig",
+      "address": "Franz-Flemming-Straße 35, 04179 Leipzig",
+      "url": "https://www.onyx-leipzig.de",
+      "lat": 51.3464813,
+      "lng": 12.3055280,
+      "disciplines": ["boulder"],
+      "boards": ["spray"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    }
+  ]
+}

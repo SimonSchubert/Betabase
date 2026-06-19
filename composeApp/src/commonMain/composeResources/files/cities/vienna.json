@@ -1,0 +1,279 @@
+{
+  "city": "Vienna",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "blockfabrik",
+      "name": "Blockfabrik",
+      "address": "Schloßgasse 10-12, 1050 Wien",
+      "url": "https://www.blockfabrik.at",
+      "lat": 48.1905998,
+      "lng": 16.3603242,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:30-23:00",
+        "tue": "07:30-23:00",
+        "wed": "07:30-23:00",
+        "thu": "07:30-23:00",
+        "fri": "07:30-23:00",
+        "sat": "07:30-22:00",
+        "sun": "07:30-22:00"
+      }
+    },
+    {
+      "id": "boulder-monkeys",
+      "name": "Boulder Monkeys",
+      "address": "Haidingergasse 1-15, 1030 Wien",
+      "url": "https://bouldermonkeys.at",
+      "lat": 48.2014986,
+      "lng": 16.4022482,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulderbar-vienna-hannovergasse",
+      "name": "Boulderbar Hannovergasse",
+      "address": "Hannovergasse 21, 1200 Wien",
+      "url": "https://boulderbar.net/standorte/wien-hannovergasse/",
+      "lat": 48.2314810,
+      "lng": 16.3678640,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1280,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulderbar-vienna-hauptbahnhof",
+      "name": "Boulderbar Hauptbahnhof",
+      "address": "Maria-Lassnig-Straße 18, 1100 Wien",
+      "url": "https://boulderbar.net/standorte/wien-hauptbahnhof/",
+      "lat": 48.1815643,
+      "lng": 16.3849557,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1100,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulderbar-vienna-seestadt",
+      "name": "Boulderbar Seestadt",
+      "address": "Ilse-Buck-Straße 22, 1220 Wien",
+      "url": "https://boulderbar.net/standorte/wien-seestadt/",
+      "lat": 48.2303481,
+      "lng": 16.5096507,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulderbar-vienna-wienerberg",
+      "name": "Boulderbar Wienerberg",
+      "address": "Gutheil-Schoder-Gasse 8, 1100 Wien",
+      "url": "https://boulderbar.net/standorte/wien-wienerberg/",
+      "lat": 48.1612454,
+      "lng": 16.3356270,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1100,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "climb-on-marswiese",
+      "name": "climb.on marswiese",
+      "address": "Neuwaldegger Straße 57A, 1170 Wien",
+      "url": "https://marswiese.at/kletterhalle/",
+      "lat": 48.2391326,
+      "lng": 16.2763914,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "08:00-22:00",
+        "thu": "08:00-22:00",
+        "fri": "08:00-22:00",
+        "sat": "08:00-22:00",
+        "sun": "08:00-22:00"
+      }
+    },
+    {
+      "id": "das-flash",
+      "name": "Das Flash Boulderhalle",
+      "address": "Adolf-Schmidl-Gasse 4, 1200 Wien",
+      "url": "https://www.dasflash.at",
+      "lat": 48.2333286,
+      "lng": 16.3759074,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "edelweiss-walfischgasse",
+      "name": "Edelweiss Walfischgasse",
+      "address": "Walfischgasse 12, 1010 Wien",
+      "url": "https://edelweiss-klettern.at/walfischgasse",
+      "lat": 48.2028647,
+      "lng": 16.3727855,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1100,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "09:00-21:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "kletterhalle-wien",
+      "name": "Kletterhalle Wien",
+      "address": "Erzherzog-Karl-Straße 108, 1220 Wien",
+      "url": "https://www.kletterhallewien.at",
+      "lat": 48.2297748,
+      "lng": 16.4505812,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "kletterzentrum-austria",
+      "name": "Kletterzentrum Austria",
+      "address": "Rotenturmstraße 14, 1010 Wien",
+      "url": "https://www.alpenverein-austria.at",
+      "lat": 48.2105603,
+      "lng": 16.3750362,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kraxlerei",
+      "name": "Kraxlerei",
+      "address": "Neuwaldegger Straße 33, 1170 Wien",
+      "url": "https://kraxlerei.at",
+      "lat": 48.2374545,
+      "lng": 16.2860337,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "00:00-24:00",
+        "tue": "00:00-24:00",
+        "wed": "00:00-24:00",
+        "thu": "00:00-24:00",
+        "fri": "00:00-24:00",
+        "sat": "00:00-24:00",
+        "sun": "00:00-24:00"
+      }
+    },
+    {
+      "id": "oegv-kletterzentrum",
+      "name": "ÖGV-Kletterzentrum",
+      "address": "Lerchenfelder Straße 28, 1080 Wien",
+      "url": "https://www.alpenverein.at/gebirgsverein/kletterzentrum/index.php",
+      "lat": 48.2065048,
+      "lng": 16.3508048,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": 440,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "14:00-20:00",
+        "sun": "14:00-20:00"
+      }
+    },
+    {
+      "id": "oetk-kletterhalle",
+      "name": "ÖTK-Kletterhalle",
+      "address": "Bäckerstraße 16, 1010 Wien",
+      "url": "https://www.oetk.at/kletterhalle/",
+      "lat": 48.2087878,
+      "lng": 16.3767623,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:30-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      }
+    }
+  ]
+}

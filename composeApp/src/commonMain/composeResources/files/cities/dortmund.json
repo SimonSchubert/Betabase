@@ -1,0 +1,67 @@
+{
+  "city": "Dortmund",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-dortmund",
+      "name": "Boulderwelt Dortmund",
+      "address": "Brennaborstraße 10, 44149 Dortmund",
+      "url": "https://www.boulderwelt-dortmund.de",
+      "lat": 51.4947158,
+      "lng": 7.3774014,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 3250,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "kletterhalle-bergwerk-dortmund",
+      "name": "Kletterhalle Bergwerk",
+      "address": "Emscherallee 33, 44369 Dortmund",
+      "url": "https://www.kletterhalle-bergwerk.de",
+      "lat": 51.5428286,
+      "lng": 7.4092588,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "14:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "gluecksgriff-boulderhalle",
+      "name": "Glücksgriff Boulderhalle",
+      "address": "Zum Lonnenhohl 14, 44319 Dortmund",
+      "url": "https://www.gluecksgriff-boulderhalle.de",
+      "lat": 51.5328208,
+      "lng": 7.6310288,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    }
+  ]
+}

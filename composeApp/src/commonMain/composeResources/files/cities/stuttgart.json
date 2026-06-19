@@ -1,0 +1,86 @@
+{
+  "city": "Stuttgart",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cityrock",
+      "name": "cityrock",
+      "address": "Fritz-Elsas-Straße 44, 70174 Stuttgart",
+      "url": "https://www.cityrock.de",
+      "lat": 48.7768626,
+      "lng": 9.1693628,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "tue": "18:00-23:00",
+        "wed": "18:00-23:00",
+        "thu": "18:00-23:00",
+        "fri": "18:00-23:00",
+        "sat": "18:00-23:00",
+        "sun": "18:00-23:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-stuttgart",
+      "name": "DAV-Kletterzentrum Stuttgart",
+      "address": "Friedrich-Strobel-Weg 3, 70597 Stuttgart",
+      "url": "https://www.kletterzentrum-stuttgart.de",
+      "lat": 48.7493359,
+      "lng": 9.1874814,
+      "disciplines": ["boulder", "lead", "speed"],
+      "boards": [],
+      "size_sqm": 4600,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "rockerei-stuttgart",
+      "name": "DAV Kletter- und Boulderzentrum Schwaben – Rockerei",
+      "address": "Stammheimer Straße 41, 70435 Stuttgart",
+      "url": "https://www.rockerei-stuttgart.de",
+      "lat": 48.8345647,
+      "lng": 9.1634091,
+      "disciplines": ["boulder", "lead", "speed"],
+      "boards": [],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "vels-stuttgart",
+      "name": "VELS – Die Boulderhalle in Stuttgart",
+      "address": "Handwerkstraße 21, 70565 Stuttgart",
+      "url": "https://vels-stuttgart.de",
+      "lat": 48.7191510,
+      "lng": 9.1283340,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard", "kilter"],
+      "size_sqm": 1600,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    }
+  ]
+}

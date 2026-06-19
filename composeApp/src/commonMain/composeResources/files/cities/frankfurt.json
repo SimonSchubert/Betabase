@@ -1,0 +1,67 @@
+{
+  "city": "Frankfurt am Main",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-19T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderwelt-frankfurt",
+      "name": "Boulderwelt Frankfurt",
+      "address": "August-Schanz-Straße 50, 60433 Frankfurt am Main",
+      "url": "https://boulderwelt-frankfurt.de",
+      "lat": 50.1641452,
+      "lng": 8.6847962,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1650,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "dav-kletterzentrum-frankfurt",
+      "name": "DAV Kletterzentrum Frankfurt",
+      "address": "Homburger Landstraße 283, 60433 Frankfurt am Main",
+      "url": "https://www.dav-klz-ffm.de",
+      "lat": 50.1599005,
+      "lng": 8.6861819,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:30-22:30",
+        "tue": "09:30-22:30",
+        "wed": "09:30-22:30",
+        "thu": "09:30-22:30",
+        "fri": "09:30-22:30",
+        "sat": "09:30-22:30",
+        "sun": "09:30-22:30"
+      }
+    },
+    {
+      "id": "dynochrom",
+      "name": "Dynochrom",
+      "address": "Flinschstraße 45, 60388 Frankfurt am Main",
+      "url": "https://www.dynochrom.de",
+      "lat": 50.1367878,
+      "lng": 8.7327149,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 1050,
+      "opening_hours": {
+        "mon": "15:00-23:30",
+        "tue": "09:00-23:30",
+        "wed": "09:00-23:30",
+        "thu": "09:00-23:30",
+        "fri": "09:00-23:30",
+        "sat": "09:00-23:30",
+        "sun": "09:00-21:30"
+      }
+    }
+  ]
+}
