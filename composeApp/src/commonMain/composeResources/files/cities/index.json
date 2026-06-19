@@ -2,12 +2,60 @@
   "version": 1,
   "cities": [
     {
+      "id": "aachen",
+      "name": "Aachen",
+      "country": "DE",
+      "lat": 50.775346,
+      "lng": 6.083887,
+      "file": "aachen.json"
+    },
+    {
       "id": "amsterdam",
       "name": "Amsterdam",
       "country": "NL",
-      "lat": 52.373080,
+      "lat": 52.37308,
       "lng": 4.892453,
       "file": "amsterdam.json"
+    },
+    {
+      "id": "aschaffenburg",
+      "name": "Aschaffenburg",
+      "country": "DE",
+      "lat": 49.97067,
+      "lng": 9.138486,
+      "file": "aschaffenburg.json"
+    },
+    {
+      "id": "augsburg",
+      "name": "Augsburg",
+      "country": "DE",
+      "lat": 48.370545,
+      "lng": 10.89779,
+      "file": "augsburg.json"
+    },
+    {
+      "id": "bamberg",
+      "name": "Bamberg",
+      "country": "DE",
+      "lat": 49.891604,
+      "lng": 10.886848,
+      "file": "bamberg.json"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "ES",
+      "lat": 41.38258,
+      "lng": 2.177073,
+      "file": "barcelona.json"
+    },
+    {
+      "id": "bayreuth",
+      "name": "Bayreuth",
+      "country": "DE",
+      "lat": 49.944634,
+      "lng": 11.574354,
+      "file": "bayreuth.json"
     },
     {
       "id": "berlin",
@@ -18,12 +66,204 @@
       "file": "berlin.json"
     },
     {
+      "id": "bielefeld",
+      "name": "Bielefeld",
+      "country": "DE",
+      "lat": 52.030228,
+      "lng": 8.532471,
+      "file": "bielefeld.json"
+    },
+    {
+      "id": "bochum",
+      "name": "Bochum",
+      "country": "DE",
+      "lat": 51.481845,
+      "lng": 7.216236,
+      "file": "bochum.json"
+    },
+    {
+      "id": "bonn",
+      "name": "Bonn",
+      "country": "DE",
+      "lat": 50.73743,
+      "lng": 7.098207,
+      "file": "bonn.json"
+    },
+    {
+      "id": "braunschweig",
+      "name": "Braunschweig",
+      "country": "DE",
+      "lat": 52.264658,
+      "lng": 10.523607,
+      "file": "braunschweig.json"
+    },
+    {
+      "id": "bremen",
+      "name": "Bremen",
+      "country": "DE",
+      "lat": 53.079296,
+      "lng": 8.801694,
+      "file": "bremen.json"
+    },
+    {
       "id": "brussels",
       "name": "Brussels",
       "country": "BE",
       "lat": 50.846737,
       "lng": 4.352493,
       "file": "brussels.json"
+    },
+    {
+      "id": "budapest",
+      "name": "Budapest",
+      "country": "HU",
+      "lat": 47.48139,
+      "lng": 19.145772,
+      "file": "budapest.json"
+    },
+    {
+      "id": "chemnitz",
+      "name": "Chemnitz",
+      "country": "DE",
+      "lat": 50.832641,
+      "lng": 12.92083,
+      "file": "chemnitz.json"
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "country": "DK",
+      "lat": 55.686724,
+      "lng": 12.570072,
+      "file": "copenhagen.json"
+    },
+    {
+      "id": "cottbus",
+      "name": "Cottbus",
+      "country": "DE",
+      "lat": 51.756745,
+      "lng": 14.335731,
+      "file": "cottbus.json"
+    },
+    {
+      "id": "darmstadt",
+      "name": "Darmstadt",
+      "country": "DE",
+      "lat": 49.872825,
+      "lng": 8.651193,
+      "file": "darmstadt.json"
+    },
+    {
+      "id": "dortmund",
+      "name": "Dortmund",
+      "country": "DE",
+      "lat": 51.514227,
+      "lng": 7.465279,
+      "file": "dortmund.json"
+    },
+    {
+      "id": "dresden",
+      "name": "Dresden",
+      "country": "DE",
+      "lat": 51.049329,
+      "lng": 13.738144,
+      "file": "dresden.json"
+    },
+    {
+      "id": "duesseldorf",
+      "name": "Düsseldorf",
+      "country": "DE",
+      "lat": 51.225402,
+      "lng": 6.776314,
+      "file": "duesseldorf.json"
+    },
+    {
+      "id": "duisburg",
+      "name": "Duisburg",
+      "country": "DE",
+      "lat": 51.434999,
+      "lng": 6.759562,
+      "file": "duisburg.json"
+    },
+    {
+      "id": "edinburgh",
+      "name": "Edinburgh",
+      "country": "GB",
+      "lat": 55.953346,
+      "lng": -3.188375,
+      "file": "edinburgh.json"
+    },
+    {
+      "id": "erfurt",
+      "name": "Erfurt",
+      "country": "DE",
+      "lat": 50.984768,
+      "lng": 11.029919,
+      "file": "erfurt.json"
+    },
+    {
+      "id": "essen",
+      "name": "Essen",
+      "country": "DE",
+      "lat": 51.455643,
+      "lng": 7.011555,
+      "file": "essen.json"
+    },
+    {
+      "id": "flensburg",
+      "name": "Flensburg",
+      "country": "DE",
+      "lat": 54.783302,
+      "lng": 9.433326,
+      "file": "flensburg.json"
+    },
+    {
+      "id": "frankfurt",
+      "name": "Frankfurt",
+      "country": "DE",
+      "lat": 50.110644,
+      "lng": 8.682092,
+      "file": "frankfurt.json"
+    },
+    {
+      "id": "freiburg",
+      "name": "Freiburg",
+      "country": "DE",
+      "lat": 47.999008,
+      "lng": 7.842104,
+      "file": "freiburg.json"
+    },
+    {
+      "id": "gelsenkirchen",
+      "name": "Gelsenkirchen",
+      "country": "DE",
+      "lat": 51.511032,
+      "lng": 7.096012,
+      "file": "gelsenkirchen.json"
+    },
+    {
+      "id": "giessen",
+      "name": "Gießen",
+      "country": "DE",
+      "lat": 50.586207,
+      "lng": 8.674231,
+      "file": "giessen.json"
+    },
+    {
+      "id": "goettingen",
+      "name": "Göttingen",
+      "country": "DE",
+      "lat": 51.532832,
+      "lng": 9.935181,
+      "file": "goettingen.json"
+    },
+    {
+      "id": "halle",
+      "name": "Halle (Saale)",
+      "country": "DE",
+      "lat": 51.482435,
+      "lng": 11.971298,
+      "file": "halle.json"
     },
     {
       "id": "hamburg",
@@ -34,12 +274,220 @@
       "file": "hamburg.json"
     },
     {
+      "id": "hannover",
+      "name": "Hannover",
+      "country": "DE",
+      "lat": 52.374478,
+      "lng": 9.738553,
+      "file": "hannover.json"
+    },
+    {
+      "id": "heidelberg",
+      "name": "Heidelberg",
+      "country": "DE",
+      "lat": 49.398752,
+      "lng": 8.672434,
+      "file": "heidelberg.json"
+    },
+    {
+      "id": "ingolstadt",
+      "name": "Ingolstadt",
+      "country": "DE",
+      "lat": 48.763016,
+      "lng": 11.425039,
+      "file": "ingolstadt.json"
+    },
+    {
+      "id": "innsbruck",
+      "name": "Innsbruck",
+      "country": "AT",
+      "lat": 47.26543,
+      "lng": 11.392769,
+      "file": "innsbruck.json"
+    },
+    {
+      "id": "jena",
+      "name": "Jena",
+      "country": "DE",
+      "lat": 50.927054,
+      "lng": 11.589237,
+      "file": "jena.json"
+    },
+    {
+      "id": "karlsruhe",
+      "name": "Karlsruhe",
+      "country": "DE",
+      "lat": 49.00689,
+      "lng": 8.403653,
+      "file": "karlsruhe.json"
+    },
+    {
+      "id": "kassel",
+      "name": "Kassel",
+      "country": "DE",
+      "lat": 51.312711,
+      "lng": 9.479746,
+      "file": "kassel.json"
+    },
+    {
+      "id": "kiel",
+      "name": "Kiel",
+      "country": "DE",
+      "lat": 54.323292,
+      "lng": 10.122765,
+      "file": "kiel.json"
+    },
+    {
+      "id": "koeln",
+      "name": "Cologne",
+      "country": "DE",
+      "lat": 50.938361,
+      "lng": 6.959974,
+      "file": "koeln.json"
+    },
+    {
+      "id": "konstanz",
+      "name": "Konstanz",
+      "country": "DE",
+      "lat": 47.659216,
+      "lng": 9.175072,
+      "file": "konstanz.json"
+    },
+    {
+      "id": "krefeld",
+      "name": "Krefeld",
+      "country": "DE",
+      "lat": 51.33312,
+      "lng": 6.562334,
+      "file": "krefeld.json"
+    },
+    {
+      "id": "landshut",
+      "name": "Landshut",
+      "country": "DE",
+      "lat": 48.536217,
+      "lng": 12.151655,
+      "file": "landshut.json"
+    },
+    {
+      "id": "leipzig",
+      "name": "Leipzig",
+      "country": "DE",
+      "lat": 51.340632,
+      "lng": 12.374733,
+      "file": "leipzig.json"
+    },
+    {
+      "id": "lisbon",
+      "name": "Lisbon",
+      "country": "PT",
+      "lat": 38.707751,
+      "lng": -9.136592,
+      "file": "lisbon.json"
+    },
+    {
       "id": "london",
       "name": "London",
       "country": "GB",
       "lat": 51.507446,
       "lng": -0.127765,
       "file": "london.json"
+    },
+    {
+      "id": "luebeck",
+      "name": "Lübeck",
+      "country": "DE",
+      "lat": 53.865467,
+      "lng": 10.686559,
+      "file": "luebeck.json"
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "country": "FR",
+      "lat": 45.757814,
+      "lng": 4.832011,
+      "file": "lyon.json"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "country": "ES",
+      "lat": 40.416782,
+      "lng": -3.703507,
+      "file": "madrid.json"
+    },
+    {
+      "id": "magdeburg",
+      "name": "Magdeburg",
+      "country": "DE",
+      "lat": 52.131273,
+      "lng": 11.638009,
+      "file": "magdeburg.json"
+    },
+    {
+      "id": "mainz",
+      "name": "Mainz",
+      "country": "DE",
+      "lat": 49.992863,
+      "lng": 8.247253,
+      "file": "mainz.json"
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "country": "GB",
+      "lat": 53.442462,
+      "lng": -2.232455,
+      "file": "manchester.json"
+    },
+    {
+      "id": "mannheim",
+      "name": "Mannheim",
+      "country": "DE",
+      "lat": 49.487459,
+      "lng": 8.466039,
+      "file": "mannheim.json"
+    },
+    {
+      "id": "marburg",
+      "name": "Marburg",
+      "country": "DE",
+      "lat": 50.812476,
+      "lng": 8.772234,
+      "file": "marburg.json"
+    },
+    {
+      "id": "milan",
+      "name": "Milan",
+      "country": "IT",
+      "lat": 45.464194,
+      "lng": 9.189635,
+      "file": "milan.json"
+    },
+    {
+      "id": "moenchengladbach",
+      "name": "Mönchengladbach",
+      "country": "DE",
+      "lat": 51.194713,
+      "lng": 6.435379,
+      "file": "moenchengladbach.json"
+    },
+    {
+      "id": "muelheim",
+      "name": "Mülheim an der Ruhr",
+      "country": "DE",
+      "lat": 51.427293,
+      "lng": 6.882919,
+      "file": "muelheim.json"
+    },
+    {
+      "id": "muenster",
+      "name": "Münster",
+      "country": "DE",
+      "lat": 51.960665,
+      "lng": 7.626135,
+      "file": "muenster.json"
     },
     {
       "id": "munich",
@@ -50,12 +498,260 @@
       "file": "munich.json"
     },
     {
+      "id": "nuernberg",
+      "name": "Nürnberg",
+      "country": "DE",
+      "lat": 49.453872,
+      "lng": 11.077298,
+      "file": "nuernberg.json"
+    },
+    {
+      "id": "oberhausen",
+      "name": "Oberhausen",
+      "country": "DE",
+      "lat": 51.469614,
+      "lng": 6.851444,
+      "file": "oberhausen.json"
+    },
+    {
+      "id": "oldenburg",
+      "name": "Oldenburg",
+      "country": "DE",
+      "lat": 53.14345,
+      "lng": 8.214601,
+      "file": "oldenburg.json"
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "country": "NO",
+      "lat": 59.91333,
+      "lng": 10.73897,
+      "file": "oslo.json"
+    },
+    {
+      "id": "osnabrueck",
+      "name": "Osnabrück",
+      "country": "DE",
+      "lat": 52.279911,
+      "lng": 8.047179,
+      "file": "osnabrueck.json"
+    },
+    {
+      "id": "paderborn",
+      "name": "Paderborn",
+      "country": "DE",
+      "lat": 51.71892,
+      "lng": 8.757509,
+      "file": "paderborn.json"
+    },
+    {
       "id": "paris",
       "name": "Paris",
       "country": "FR",
       "lat": 48.853495,
       "lng": 2.348392,
       "file": "paris.json"
+    },
+    {
+      "id": "passau",
+      "name": "Passau",
+      "country": "DE",
+      "lat": 48.574823,
+      "lng": 13.460974,
+      "file": "passau.json"
+    },
+    {
+      "id": "potsdam",
+      "name": "Potsdam",
+      "country": "DE",
+      "lat": 52.400931,
+      "lng": 13.05914,
+      "file": "potsdam.json"
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "country": "CZ",
+      "lat": 50.087465,
+      "lng": 14.421254,
+      "file": "prague.json"
+    },
+    {
+      "id": "recklinghausen",
+      "name": "Recklinghausen",
+      "country": "DE",
+      "lat": 51.611579,
+      "lng": 7.20031,
+      "file": "recklinghausen.json"
+    },
+    {
+      "id": "regensburg",
+      "name": "Regensburg",
+      "country": "DE",
+      "lat": 49.01343,
+      "lng": 12.101624,
+      "file": "regensburg.json"
+    },
+    {
+      "id": "reutlingen",
+      "name": "Reutlingen",
+      "country": "DE",
+      "lat": 48.49144,
+      "lng": 9.20427,
+      "file": "reutlingen.json"
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "IT",
+      "lat": 41.89332,
+      "lng": 12.482932,
+      "file": "rome.json"
+    },
+    {
+      "id": "rosenheim",
+      "name": "Rosenheim",
+      "country": "DE",
+      "lat": 47.855787,
+      "lng": 12.127298,
+      "file": "rosenheim.json"
+    },
+    {
+      "id": "rostock",
+      "name": "Rostock",
+      "country": "DE",
+      "lat": 54.08871,
+      "lng": 12.140493,
+      "file": "rostock.json"
+    },
+    {
+      "id": "rotterdam",
+      "name": "Rotterdam",
+      "country": "NL",
+      "lat": 51.924442,
+      "lng": 4.47775,
+      "file": "rotterdam.json"
+    },
+    {
+      "id": "saarbruecken",
+      "name": "Saarbrücken",
+      "country": "DE",
+      "lat": 49.235409,
+      "lng": 6.996985,
+      "file": "saarbruecken.json"
+    },
+    {
+      "id": "siegen",
+      "name": "Siegen",
+      "country": "DE",
+      "lat": 50.875118,
+      "lng": 8.025613,
+      "file": "siegen.json"
+    },
+    {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "country": "SE",
+      "lat": 59.325117,
+      "lng": 18.071094,
+      "file": "stockholm.json"
+    },
+    {
+      "id": "stuttgart",
+      "name": "Stuttgart",
+      "country": "DE",
+      "lat": 48.778449,
+      "lng": 9.180013,
+      "file": "stuttgart.json"
+    },
+    {
+      "id": "trier",
+      "name": "Trier",
+      "country": "DE",
+      "lat": 49.759644,
+      "lng": 6.64415,
+      "file": "trier.json"
+    },
+    {
+      "id": "tuebingen",
+      "name": "Tübingen",
+      "country": "DE",
+      "lat": 48.520326,
+      "lng": 9.053596,
+      "file": "tuebingen.json"
+    },
+    {
+      "id": "ulm",
+      "name": "Ulm",
+      "country": "DE",
+      "lat": 48.401082,
+      "lng": 9.987608,
+      "file": "ulm.json"
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "country": "AT",
+      "lat": 48.208354,
+      "lng": 16.372504,
+      "file": "vienna.json"
+    },
+    {
+      "id": "warsaw",
+      "name": "Warsaw",
+      "country": "PL",
+      "lat": 52.231958,
+      "lng": 21.006725,
+      "file": "warsaw.json"
+    },
+    {
+      "id": "weimar",
+      "name": "Weimar",
+      "country": "DE",
+      "lat": 50.97933,
+      "lng": 11.329792,
+      "file": "weimar.json"
+    },
+    {
+      "id": "wetzlar",
+      "name": "Wetzlar",
+      "country": "DE",
+      "lat": 50.553144,
+      "lng": 8.504327,
+      "file": "wetzlar.json"
+    },
+    {
+      "id": "wiesbaden",
+      "name": "Wiesbaden",
+      "country": "DE",
+      "lat": 50.082038,
+      "lng": 8.241656,
+      "file": "wiesbaden.json"
+    },
+    {
+      "id": "wuerzburg",
+      "name": "Würzburg",
+      "country": "DE",
+      "lat": 49.791306,
+      "lng": 9.953355,
+      "file": "wuerzburg.json"
+    },
+    {
+      "id": "wuppertal",
+      "name": "Wuppertal",
+      "country": "DE",
+      "lat": 51.256214,
+      "lng": 7.150764,
+      "file": "wuppertal.json"
+    },
+    {
+      "id": "zurich",
+      "name": "Zurich",
+      "country": "CH",
+      "lat": 47.374449,
+      "lng": 8.541042,
+      "file": "zurich.json"
     }
   ]
 }
