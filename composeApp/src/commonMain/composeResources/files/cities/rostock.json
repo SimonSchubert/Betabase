@@ -1,7 +1,7 @@
 {
   "city": "Rostock",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "45-grad-kletterhalle",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "felshelden-rostock",
+      "name": "FELSHELDEN",
+      "address": "Zum Zollamt 4, 18119 Rostock-Warnemünde",
+      "url": "https://www.felshelden.de",
+      "lat": 54.1699326,
+      "lng": 12.0857178,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 540,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
     }
   ]
 }

@@ -14,8 +14,30 @@
       "boards": [],
       "size_sqm": 1800,
       "opening_hours": {}
+    },
+    {
+      "id": "monkeyspot-duisburg",
+      "name": "Monkeyspot Duisburg",
+      "address": "Neuenhofstraße 91, 47055 Duisburg",
+      "url": "https://monkeyspot.de/startseite-duisburg",
+      "lat": 51.3924604,
+      "lng": 6.7494674,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1300,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "city": "Oldenburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "up-kletterzentrum",
@@ -17,6 +17,31 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "oldenbloc",
+      "name": "Oldenbloc",
+      "address": "Melkbrink 76, 26121 Oldenburg",
+      "url": "https://www.oldenbloc.de",
+      "lat": 53.1570851,
+      "lng": 8.2009491,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": 850,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "14:00-22:00",
+        "sun": "14:00-22:00"
+      }
     }
   ]
 }

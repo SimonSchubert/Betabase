@@ -1,7 +1,7 @@
 {
   "city": "Bochum",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-bochum",
@@ -24,6 +24,21 @@
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
       }
+    },
+    {
+      "id": "dav-kletterzentrum-bochum",
+      "name": "DAV Kletterzentrum Bochum",
+      "address": "Lothringer Str. 36c, 44805 Bochum",
+      "url": "https://www.dav-bochum.de",
+      "lat": 51.5191411,
+      "lng": 7.2821604,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

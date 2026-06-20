@@ -1,7 +1,7 @@
 {
   "city": "Regensburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-regensburg",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulderwelt-regensburg",
+      "name": "Boulderwelt Regensburg",
+      "address": "Im Gewerbepark, A46, 93059 Regensburg",
+      "url": "https://www.boulderwelt-regensburg.de",
+      "lat": 49.0322579,
+      "lng": 12.1284946,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
     }
   ]
 }

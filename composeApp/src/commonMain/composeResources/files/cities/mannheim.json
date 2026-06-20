@@ -1,7 +1,7 @@
 {
   "city": "Mannheim",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-mannheim",
@@ -24,6 +24,21 @@
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
       }
+    },
+    {
+      "id": "dav-kletterzentrum-mannheim",
+      "name": "DAV Kletterzentrum Mannheim",
+      "address": "Kunststraße 6-7, 68161 Mannheim",
+      "url": "https://www.dav-mannheim.de",
+      "lat": 49.4866895,
+      "lng": 8.4665272,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

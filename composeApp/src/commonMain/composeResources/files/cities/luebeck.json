@@ -1,7 +1,7 @@
 {
   "city": "Lübeck",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "urban-apes-luebeck",
@@ -12,6 +12,21 @@
       "lng": 10.6756954,
       "disciplines": [
         "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "auszeit-inside-luebeck",
+      "name": "AUSZEIT-inside",
+      "address": "Einsiedelstraße 30–34, 23554 Lübeck",
+      "url": "http://www.auszeit-inside.de",
+      "lat": 53.8851817,
+      "lng": 10.6917655,
+      "disciplines": [
+        "boulder",
+        "lead"
       ],
       "boards": [],
       "size_sqm": null,

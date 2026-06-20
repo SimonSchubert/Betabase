@@ -15,8 +15,30 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "flensbloc-flensburg",
+      "name": "FlensBloc",
+      "address": "Westerallee 159, 24941 Flensburg",
+      "url": "https://www.flensbloc.de",
+      "lat": 54.7764082,
+      "lng": 9.3957162,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

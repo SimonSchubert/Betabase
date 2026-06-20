@@ -14,8 +14,23 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "tu-arena-tuebingen",
+      "name": "TÜ-Arena Kletteranlage",
+      "address": "Europastraße 50, 72072 Tübingen",
+      "url": "https://www.tsg-tuebingen.de/kletteranlage",
+      "lat": 48.5106123,
+      "lng": 9.0418173,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

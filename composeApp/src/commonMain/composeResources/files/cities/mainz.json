@@ -1,7 +1,7 @@
 {
   "city": "Mainz",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-mainz",
@@ -12,6 +12,20 @@
       "lng": 8.2429236,
       "disciplines": [
         "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterkiste-mainz",
+      "name": "Kletterkiste",
+      "address": "Turmstraße 85, 55120 Mainz",
+      "url": "https://www.kletterkiste-mainz.de",
+      "lat": 50.0193139,
+      "lng": 8.226806,
+      "disciplines": [
         "lead"
       ],
       "boards": [],

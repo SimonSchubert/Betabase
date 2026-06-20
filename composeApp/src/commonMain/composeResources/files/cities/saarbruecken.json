@@ -1,7 +1,7 @@
 {
   "city": "Saarbrücken",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-saarbruecken",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulderwerk-saarbruecken",
+      "name": "Boulderwerk",
+      "address": "Neumühler Weg 28, 66130 Saarbrücken",
+      "url": "https://www.boulderwerk.com",
+      "lat": 49.2071733,
+      "lng": 7.0230593,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "11:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ]
 }

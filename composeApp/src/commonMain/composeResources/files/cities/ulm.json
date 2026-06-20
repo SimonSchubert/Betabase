@@ -1,7 +1,7 @@
 {
   "city": "Ulm",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-illertissen",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "einstein-boulder-neu-ulm",
+      "name": "einstein Boulderhalle Neu-Ulm",
+      "address": "Leibnizstraße 12, 89231 Neu-Ulm",
+      "url": "https://neu-ulm.einstein-boulder.com",
+      "lat": 48.3901489,
+      "lng": 10.0298333,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "14:00-22:00",
+        "wed": "14:00-22:00",
+        "thu": "14:00-22:00",
+        "fri": "14:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ]
 }

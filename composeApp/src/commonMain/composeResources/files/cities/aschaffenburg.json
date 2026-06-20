@@ -15,8 +15,22 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "sandstein-aschaffenburg",
+      "name": "Sandstein Boulder Halle",
+      "address": "Mainaschaffer Straße 113, 63741 Aschaffenburg",
+      "url": "https://sandstein-aschaffenburg.de",
+      "lat": 49.9789986,
+      "lng": 9.1143178,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

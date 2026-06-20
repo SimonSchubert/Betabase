@@ -15,8 +15,22 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "peak7-landshut",
+      "name": "Peak7",
+      "address": "Untere Sonnenstraße 7, 84030 Ergolding",
+      "url": "https://www.peak7.de",
+      "lat": 48.560167,
+      "lng": 12.1665625,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

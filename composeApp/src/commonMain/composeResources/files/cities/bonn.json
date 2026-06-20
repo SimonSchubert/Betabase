@@ -1,7 +1,7 @@
 {
   "city": "Bonn",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-bonn",
@@ -17,6 +17,50 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulders-habitat-bonn-dransdorf",
+      "name": "Boulders Habitat Bonn-Dransdorf",
+      "address": "Siemensstraße 20, 53121 Bonn",
+      "url": "https://www.bouldershabitat.de",
+      "lat": 50.7379498,
+      "lng": 7.0708698,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 700,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
+    },
+    {
+      "id": "boulders-habitat-bonn-beuel",
+      "name": "Boulders Habitat Bonn-Beuel",
+      "address": "Paulusstraße 22, 53227 Bonn",
+      "url": "https://www.bouldershabitat.de",
+      "lat": 50.7386638,
+      "lng": 7.1312882,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1100,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     }
   ]
 }

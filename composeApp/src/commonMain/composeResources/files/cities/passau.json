@@ -22,8 +22,23 @@
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
       }
+    },
+    {
+      "id": "es-vertikal-deggendorf",
+      "name": "ES-Vertikal Kletterzentrum",
+      "address": "Sandnerhofweg 5, 94469 Deggendorf",
+      "url": "https://www.esvertikal.de",
+      "lat": 48.8208962,
+      "lng": 12.91241,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 2600,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

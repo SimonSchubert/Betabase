@@ -15,8 +15,22 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "element-boulders-essen",
+      "name": "Element Boulders Essen",
+      "address": "Haedenkampstraße 73, 45143 Essen",
+      "url": "https://essen.element-boulders.de/element-boulders-essen.html",
+      "lat": 51.4552924,
+      "lng": 6.9853767,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

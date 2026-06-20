@@ -1,7 +1,7 @@
 {
   "city": "Münster",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-muenster",
@@ -17,6 +17,29 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "kletterbar-muenster",
+      "name": "KletterBar Münster",
+      "address": "Grevener Str. 125b, 48159 Münster",
+      "url": "https://www.kletterbar-muenster.de",
+      "lat": 51.9788616,
+      "lng": 7.6084513,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 4900,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     }
   ]
 }

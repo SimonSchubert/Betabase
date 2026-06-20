@@ -1,7 +1,7 @@
 {
   "city": "Heidelberg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-heidelberg",
@@ -10,6 +10,21 @@
       "url": "https://www.dav-heidelberg.de/kletterzentrum",
       "lat": 49.3851135,
       "lng": 8.6793682,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterzentrum-heidelberg",
+      "name": "Kletter- und Boulderzentrum Heidelberg",
+      "address": "V. Harbigweg 20, 69124 Heidelberg",
+      "url": "https://www.kletterzentrum-heidelberg.de",
+      "lat": 49.3894429,
+      "lng": 8.6657557,
       "disciplines": [
         "boulder",
         "lead"

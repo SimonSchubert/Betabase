@@ -15,8 +15,30 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "gaia-boulderhalle-marburg",
+      "name": "Gaia Boulderhalle",
+      "address": "Tom-Mutters-Straße 8, 35041 Marburg",
+      "url": "https://www.gaia-boulderhalle.de",
+      "lat": 50.8426883,
+      "lng": 8.769063,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 900,
+      "opening_hours": {
+        "mon": "14:00-22:30",
+        "tue": "14:00-22:30",
+        "wed": "14:00-22:30",
+        "thu": "14:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "10:00-22:30",
+        "sun": "10:00-22:30"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "city": "Kassel",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-kassel",
@@ -17,6 +17,30 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "element-boulders-kassel",
+      "name": "Element Boulders Kassel",
+      "address": "Untere Königsstraße 95, 34117 Kassel",
+      "url": "https://kassel.element-boulders.de",
+      "lat": 51.3201033,
+      "lng": 9.5011438,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "15:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
     }
   ]
 }

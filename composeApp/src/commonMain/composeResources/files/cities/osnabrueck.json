@@ -1,7 +1,7 @@
 {
   "city": "Osnabrück",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "zenit-boulderhalle",
@@ -16,6 +16,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "osnabloc",
+      "name": "OSNABLOC",
+      "address": "Großer Fledderweg 89, 49084 Osnabrück",
+      "url": "https://osnabloc.de",
+      "lat": 52.264566,
+      "lng": 8.0721382,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
     }
   ]
 }

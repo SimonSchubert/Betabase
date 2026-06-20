@@ -1,7 +1,7 @@
 {
   "city": "Würzburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-wuerzburg",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "rock-inn-wuerzburg",
+      "name": "ROCK INN Boulderhalle",
+      "address": "Ohmstraße 6, 97228 Rottendorf",
+      "url": "https://rockinn-wuerzburg.de",
+      "lat": 49.8008966,
+      "lng": 9.9720633,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
     }
   ]
 }

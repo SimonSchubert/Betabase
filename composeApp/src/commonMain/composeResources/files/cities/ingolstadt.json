@@ -1,7 +1,7 @@
 {
   "city": "Ingolstadt",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-ingolstadt",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "schwerkraft-ingolstadt",
+      "name": "Schwerkraft Boulderhalle Ingolstadt",
+      "address": "Marie-Curie-Straße 10, 85055 Ingolstadt",
+      "url": "https://boulderhalle-ingolstadt.de",
+      "lat": 48.7828569,
+      "lng": 11.4730182,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "14:00-22:00",
+        "wed": "09:30-22:00",
+        "thu": "14:00-22:00",
+        "fri": "14:00-22:00",
+        "sat": "09:30-21:00",
+        "sun": "09:30-21:00"
+      }
     }
   ]
 }

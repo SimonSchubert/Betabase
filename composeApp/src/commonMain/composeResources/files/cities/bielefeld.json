@@ -1,7 +1,7 @@
 {
   "city": "Bielefeld",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-bielefeld",
@@ -16,6 +16,20 @@
       ],
       "boards": [],
       "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "center-of-gravity-bielefeld",
+      "name": "Center of Gravity",
+      "address": "Paul-Gerhardt-Weg, 33689 Bielefeld",
+      "url": "https://center-of-gravity-boulderhalle.de",
+      "lat": 51.9357137,
+      "lng": 8.5615077,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2400,
       "opening_hours": {}
     }
   ]

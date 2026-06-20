@@ -15,8 +15,33 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "level-8-giessen",
+      "name": "Level 8 Boulderhalle Gießen",
+      "address": "Lehmweg 10, 35398 Gießen",
+      "url": "https://levelacht.de",
+      "lat": 50.5873884,
+      "lng": 8.6582788,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "moonboard"
+      ],
+      "size_sqm": 500,
+      "opening_hours": {
+        "mon": "14:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "10:00-22:30",
+        "sun": "10:00-21:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

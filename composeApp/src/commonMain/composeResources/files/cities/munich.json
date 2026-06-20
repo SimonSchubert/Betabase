@@ -1,7 +1,7 @@
 {
   "city": "München",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-muenchen-ost",
@@ -10,7 +10,9 @@
       "url": "https://www.boulderwelt-muenchen-ost.de",
       "lat": 48.1257814,
       "lng": 11.6110812,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -30,7 +32,9 @@
       "url": "https://www.boulderwelt-muenchen-west.de",
       "lat": 48.1365179,
       "lng": 11.4204128,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 2500,
       "opening_hours": {
@@ -50,8 +54,13 @@
       "url": "https://www.kbfreimann.de",
       "lat": 48.2068551,
       "lng": 11.6176175,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -70,7 +79,10 @@
       "url": "https://www.kbthalkirchen.de",
       "lat": 48.1070996,
       "lng": 11.5458713,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -90,8 +102,13 @@
       "url": "https://muenchen.einstein-boulder.com",
       "lat": 48.1405664,
       "lng": 11.5227977,
-      "disciplines": ["boulder"],
-      "boards": ["kilter", "spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "06:00-23:00",
@@ -110,8 +127,12 @@
       "url": "https://muenchen.element-boulders.de",
       "lat": 48.1022007,
       "lng": 11.5325848,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 3700,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -130,7 +151,10 @@
       "url": "https://www.heavensgate-muc.de",
       "lat": 48.1240109,
       "lng": 11.6066386,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -150,8 +174,13 @@
       "url": "https://www.mtv-muenchen.de/Sportangebot/Klettern",
       "lat": 48.1281408,
       "lng": 11.5597625,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["tension"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "tension"
+      ],
       "size_sqm": 250,
       "opening_hours": {
         "mon": "06:00-22:00",
@@ -170,7 +199,10 @@
       "url": "https://www.svn-muenchen.de/klettern",
       "lat": 48.1019536,
       "lng": 11.6512166,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -181,6 +213,28 @@
         "fri": "08:00-23:00",
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
+      }
+    },
+    {
+      "id": "boulderwelt-muenchen-sued",
+      "name": "Boulderwelt München Süd",
+      "address": "Eugen-Sänger-Ring 4, 85649 Brunnthal",
+      "url": "https://www.boulderwelt-muenchen-sued.de",
+      "lat": 48.0403389,
+      "lng": 11.6639116,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
       }
     }
   ]

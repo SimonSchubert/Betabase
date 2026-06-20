@@ -1,0 +1,52 @@
+{
+  "city": "Erlangen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "blockhelden-erlangen",
+      "name": "BLOCKHELDEN Erlangen",
+      "address": "Kurt-Albert-Straße 1, 91088 Bubenreuth",
+      "url": "https://blockhelden.de/boulderhalle-erlangen/",
+      "lat": 49.630542,
+      "lng": 11.0113167,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
+    {
+      "id": "dav-sparkassen-bergwelt-erlangen",
+      "name": "DAV Sparkassen Bergwelt",
+      "address": "Hartmannstraße 116, 91052 Erlangen",
+      "url": "https://www.kletter-und-vereinszentrum.de",
+      "lat": 49.584031,
+      "lng": 11.0224874,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    }
+  ]
+}

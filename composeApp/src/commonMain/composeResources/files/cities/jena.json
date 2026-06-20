@@ -1,7 +1,7 @@
 {
   "city": "Jena",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "rocks-kletterzentrum",
@@ -17,6 +17,27 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "plan-b-jena",
+      "name": "Plan B Jena",
+      "address": "Carl-Pulfrich-Straße 4, 07745 Jena",
+      "url": "https://planb-jena.de",
+      "lat": 50.9208548,
+      "lng": 11.5720118,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00"
+      }
     }
   ]
 }

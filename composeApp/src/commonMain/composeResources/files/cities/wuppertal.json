@@ -1,7 +1,7 @@
 {
   "city": "Wuppertal",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-wupperwaende",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulderhalle-prisma",
+      "name": "Boulderhalle Prisma",
+      "address": "Vohwinkeler Str. 119, 42329 Wuppertal",
+      "url": "https://boulderhalle-prisma.de",
+      "lat": 51.2257245,
+      "lng": 7.061567,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2200,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-22:00"
+      }
     }
   ]
 }

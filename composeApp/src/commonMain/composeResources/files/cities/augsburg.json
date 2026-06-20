@@ -1,7 +1,7 @@
 {
   "city": "Augsburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-augsburg",
@@ -17,6 +17,28 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "bloc-huette-augsburg",
+      "name": "Bloc-Hütte Augsburg",
+      "address": "Austraße 35, 86153 Augsburg",
+      "url": "https://bloc-huette.de",
+      "lat": 48.3900528,
+      "lng": 10.8875163,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-22:30",
+        "tue": "13:00-22:30",
+        "wed": "09:00-22:30",
+        "thu": "09:00-22:30",
+        "fri": "09:00-22:30",
+        "sat": "09:00-22:30",
+        "sun": "09:00-21:00"
+      }
     }
   ]
 }

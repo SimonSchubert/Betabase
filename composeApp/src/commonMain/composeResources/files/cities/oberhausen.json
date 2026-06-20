@@ -24,8 +24,32 @@
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
       }
+    },
+    {
+      "id": "neoliet-boulderbar-essen",
+      "name": "Neoliet Boulderbar Essen",
+      "address": "Münchener Straße 106a, 45145 Essen",
+      "url": "https://www.neoliet.de/boulderbar-essen/",
+      "lat": 51.4479486,
+      "lng": 6.9870086,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

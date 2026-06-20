@@ -15,8 +15,30 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "studio-bloc-wiesbaden",
+      "name": "Studio Bloc Wiesbaden",
+      "address": "Holzstraße 11, 65197 Wiesbaden",
+      "url": "https://wiesbaden.studiobloc.de",
+      "lat": 50.0747485,
+      "lng": 8.2075657,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1500,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

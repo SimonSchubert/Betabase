@@ -1,7 +1,7 @@
 {
   "city": "Trier",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "kletterhalle-cube",
@@ -13,6 +13,20 @@
       "disciplines": [
         "boulder",
         "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "eifelblock-trier",
+      "name": "Eifelblock",
+      "address": "Niederkircher Straße, 54294 Trier",
+      "url": "https://www.eifelblock.de/trier",
+      "lat": 49.72871,
+      "lng": 6.6047084,
+      "disciplines": [
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,

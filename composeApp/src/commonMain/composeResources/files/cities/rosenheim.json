@@ -14,8 +14,23 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "dav-kletterhalle-bernau",
+      "name": "DAV Kletterhalle Bernau",
+      "address": "Buchenstraße 17, 83233 Bernau am Chiemsee",
+      "url": "https://www.alpenverein-bernau.de",
+      "lat": 47.8093934,
+      "lng": 12.381801,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

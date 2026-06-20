@@ -202,6 +202,14 @@
       "file": "erfurt.json"
     },
     {
+      "id": "erlangen",
+      "name": "Erlangen",
+      "country": "DE",
+      "lat": 49.597764,
+      "lng": 11.00476,
+      "file": "erlangen.json"
+    },
+    {
       "id": "essen",
       "name": "Essen",
       "country": "DE",

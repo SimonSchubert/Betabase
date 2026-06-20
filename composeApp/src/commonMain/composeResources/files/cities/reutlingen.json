@@ -1,7 +1,7 @@
 {
   "city": "Reutlingen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T00:00:00Z",
   "gyms": [
     {
       "id": "boulderhaus-reutlingen",
@@ -15,6 +15,21 @@
       ],
       "boards": [],
       "size_sqm": 1200,
+      "opening_hours": {}
+    },
+    {
+      "id": "dav-kletterzentrum-reutlingen",
+      "name": "DAV Kletterzentrum Reutlingen",
+      "address": "Rommelsbacher Straße 65, 72760 Reutlingen",
+      "url": "https://www.kletterzentrum-reutlingen.de",
+      "lat": 48.5048697,
+      "lng": 9.2035692,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
       "opening_hours": {}
     }
   ]

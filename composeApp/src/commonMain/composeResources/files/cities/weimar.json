@@ -14,8 +14,32 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "energiewaende-kletterhalle-weimar",
+      "name": "EnergieWände Kletterhalle",
+      "address": "Kromsdorfer Straße 11, 99427 Weimar",
+      "url": "https://kletterhalle-weimar.de",
+      "lat": 50.995121,
+      "lng": 11.3365226,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "14:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }
