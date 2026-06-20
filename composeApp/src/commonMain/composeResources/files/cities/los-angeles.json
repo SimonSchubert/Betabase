@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/la-boulders/wp-content/uploads/sites/11/2025/11/LAB.png"
     },
     {
       "id": "the-stronghold-climbing-gym",
@@ -29,7 +30,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://strongholdclimb.com/wp-content/uploads/2024/04/cropped-logosquare-192x192.png"
     }
   ]
 }

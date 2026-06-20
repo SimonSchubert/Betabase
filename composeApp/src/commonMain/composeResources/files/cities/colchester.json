@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.go-bananas.co.uk/wp-content/uploads/2021/08/logo.png"
     },
     {
       "id": "green-spider-climbing",
@@ -61,7 +62,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.essex.ac.uk/-/media/header-images/2026/june/uk-startup-awards-logo.png"
     }
   ]
 }

@@ -26,8 +26,7 @@ class IfscEventSource(
         return parseEvents(text)
     }
 
-    private fun parseEvents(text: String): List<CompetitionEvent> =
-        IcsParser.parse(text).mapNotNull { it.toEvent() }
+    private fun parseEvents(text: String): List<CompetitionEvent> = IcsParser.parse(text).mapNotNull { it.toEvent() }
 
     private fun IcsParser.RawEvent.toEvent(): CompetitionEvent? {
         if (status?.equals("CANCELLED", ignoreCase = true) == true) return null

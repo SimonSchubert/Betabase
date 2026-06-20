@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.belfastcity.gov.uk/App_Themes/main/img/layout/logo.png"
     },
     {
       "id": "boulderworld-belfast",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderworldbelfast.com/wp-content/uploads/2020/05/cropped-bwb-logo-1-1-192x192.png"
     },
     {
       "id": "matt-talbot-youth-club-climbing",
@@ -44,7 +46,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.belfastcity.gov.uk/App_Themes/main/img/layout/logo.png"
     },
     {
       "id": "queens-sport-climbing-wall",

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/62476dbc1ff73a4fbab47083/096ad9ab-a5d9-4ee8-b748-a4eefd55b66a/Cayuga+Climbs+Logo+Black.png"
     },
     {
       "id": "lindseth-climbing-center",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://scl.cornell.edu/sites/scl/files/2020-05/Welcome%20Wall%20Banner.jpg"
     }
   ]
 }

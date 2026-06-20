@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://centralrockgym.com/arsenalyards/wp-content/uploads/2026/06/Feature-Rectangle-32-52.jpg"
     },
     {
       "id": "central-rock-gym-watertown",
@@ -29,7 +30,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://centralrockgym.com/watertown/wp-content/uploads/2026/06/Feature-Rectangle-32-52.jpg"
     }
   ]
 }

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://clynefarm.com/wp-content/uploads/2021/10/Activities-Horse-Riding-Assault-Course-Climbing.jpg"
     },
     {
       "id": "swansea-university-climbing-wall",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://ik.imagekit.io/s1sp3stox/_web/img/logo/stacked/logo-white-stacked-en@2x.png"
     }
   ]
 }

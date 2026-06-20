@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://myadventurepark.com/wp-content/uploads/2021/03/Climbing-Zipline-Fun.jpg"
     },
     {
       "id": "adventureworks-wetland-ziplines",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.adventureworks.com/_next/image/?url=%2Fimages%2Flogo.png&w=384&q=75"
     }
   ]
 }

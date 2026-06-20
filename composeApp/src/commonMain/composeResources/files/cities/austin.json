@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderingproject.com/wp-content/uploads/2023/06/MARKET-AUSTIN-1920X850-1920x850.jpg"
     },
     {
       "id": "crux-climbing-center-central",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.cruxclimbingcenter.com/central-austin/wp-content/uploads/sites/7/2020/09/DSC03064-600x600.jpeg"
     },
     {
       "id": "mesa-rim-austin",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://mesarim.com/austin/wp-content/uploads/sites/12/2025/12/YOUNG-ADULT-MEMBERSHIP.png"
     }
   ]
 }

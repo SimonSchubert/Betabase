@@ -29,7 +29,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/34/2026/04/Large-Bouldering_Boulder_MVMT_2026-10-1024x683.jpg"
     },
     {
       "id": "the-spot-bouldering-gym",
@@ -43,7 +44,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.thespotgym.com/wp-content/uploads/2026/05/Climbing-Camps-Title-768x445-1.png"
     }
   ]
 }

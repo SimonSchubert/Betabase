@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://hamptonschool.s3.eu-north-1.amazonaws.com/wp-content/uploads/2015/07/hampton-award-badge.png"
     }
   ]
 }

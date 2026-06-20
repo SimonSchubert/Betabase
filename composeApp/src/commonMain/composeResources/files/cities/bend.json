@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.bendrockgym.com/wp-content/uploads/2019/10/BRG_Logo_Outlines_WEB_BLK.png"
     },
     {
       "id": "the-circuit-boudering-gym",
@@ -29,7 +30,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "http://static1.squarespace.com/static/58bda1d6d482e9728ba1f5b7/t/58c6cb9d197aea79a9c315e4/1489423262668/circuit-bouldering-share.png?format=1500w"
     }
   ]
 }

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "http://www.sjsu.edu/aspis/media/brand/icon-spartan-withbackground.svg"
     },
     {
       "id": "the-studio",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/the-studio/wp-content/uploads/sites/9/2025/12/climbing-mobile-min.png"
     }
   ]
 }

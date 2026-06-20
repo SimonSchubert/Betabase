@@ -51,6 +51,7 @@ import kotlin.time.Duration.Companion.milliseconds
 
 private const val MAP_STYLE_URI = "https://tiles.openfreemap.org/styles/liberty"
 private val BERLIN = Position(latitude = 52.5200, longitude = 13.4050)
+
 // Above this zoom every gym is shown as its own pin; at/below it nearby gyms collapse into
 // count badges. Kept low so a focused city ungroups into pins without zooming in far.
 private const val CLUSTER_MAX_ZOOM = 9

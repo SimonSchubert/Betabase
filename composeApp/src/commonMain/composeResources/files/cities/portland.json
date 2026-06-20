@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/28/2021/04/Web-Large-2017_ET_Creative_Rock-Climbing-Outdoors_Instruction_Jeremy-Kinney-38-1024x684.jpg"
     },
     {
       "id": "portland-rock-gym",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.portlandrockgym.com/wp-content/uploads/2023/04/cropped-Cityclimber-Logo-1200x1200-no-border-192x192.jpg"
     },
     {
       "id": "skyhook-bouldering",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://static.wixstatic.com/media/0d4f99_5e618badaa9544879602f9abed98064c~mv2.png"
     },
     {
       "id": "student-recreation-center",
@@ -60,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.pdx.edu/recreation/sites/recreation.web.wdt.pdx.edu/files/styles/parallax_hero_media_extra_large_1440_x_680/public/2025-03/DSC00142.jpg?h=ffd42bfe&itok=CDf75r2w"
     },
     {
       "id": "the-circuit",
@@ -75,7 +79,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "http://static1.squarespace.com/static/58bda1d6d482e9728ba1f5b7/t/58c6cb9d197aea79a9c315e4/1489423262668/circuit-bouldering-share.png?format=1500w"
     },
     {
       "id": "the-circuit-northeast",
@@ -89,7 +94,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "http://static1.squarespace.com/static/58bda1d6d482e9728ba1f5b7/t/58c6cb9d197aea79a9c315e4/1489423262668/circuit-bouldering-share.png?format=1500w"
     },
     {
       "id": "tomo-bouldering-club",
@@ -103,7 +109,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/66595a5466cd1e0ce6025be4/2ac0d92d-b5df-4cdd-9229-91cdb270af00/EPPhotoNate.png?format=2500w"
     }
   ]
 }

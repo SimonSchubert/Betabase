@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/ironworks/wp-content/uploads/sites/4/2025/11/Ironworks-Stacked.png"
     },
     {
       "id": "cragmont-park",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://berkeleyca.gov/sites/default/files/2025-09/Cragmont%20Rock%20Park.jpg"
     },
     {
       "id": "mosaic-boulders",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.mosaicboulders.com/quality_auto/Trachtenberg_Boulder_Dusk_II_41195V_3.jpg"
     },
     {
       "id": "the-oaks-climbing",
@@ -60,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://i0.wp.com/newspack-berkeleyside-cityside.s3.amazonaws.com/wp-content/uploads/2017/08/Oaks-climbing-facility-PhotoTrevor-JohnsonTouchstone.jpg?resize=1376%2C1032&ssl=1"
     },
     {
       "id": "training-center",
@@ -75,7 +79,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/team-training-center/wp-content/uploads/sites/15/2025/11/TrainingCenter-Stacked.png"
     }
   ]
 }

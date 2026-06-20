@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://climbhangar18.com/wp-content/uploads/2020/06/bouldering-icon.png"
     },
     {
       "id": "hangar-18-climbing-gym",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://climbhangar18.com/wp-content/uploads/2020/06/lead-climb-icon.png"
     }
   ]
 }

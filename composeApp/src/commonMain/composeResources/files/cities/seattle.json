@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/68cf05baaed1182fadd8a92d/3893f7c2-a46e-4216-bdc9-9d685a1a44ee/transparent+gold.png?format=1500w"
     },
     {
       "id": "edgeworks-climbing",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://edgeworksclimbing.com/images/Seattle/header_seattle15.jpg"
     },
     {
       "id": "half-moon-bouldering",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/6792aa5c438a58dc1908d137/68e2a813f043e1ae90f47cb9_logo-256.png"
     },
     {
       "id": "momentum-indoor-climbing",
@@ -60,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://momentumclimbing.com/wp-content/uploads/2021/03/MOMENTUM_LOGO-1.png"
     },
     {
       "id": "seattle-bouldering-project",
@@ -74,7 +78,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderingproject.com/wp-content/uploads/2025/05/seattle-market-2.jpg"
     },
     {
       "id": "seattle-bouldering-project-sbp",
@@ -88,7 +93,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderingproject.com/wp-content/uploads/2025/05/seattle-market-2.jpg"
     },
     {
       "id": "seattle-bouldering-project-upper-walls",
@@ -102,7 +108,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderingproject.com/wp-content/uploads/2023/06/LOCATION-SEA-FRE_UW-1920X850-1920x850.jpg"
     },
     {
       "id": "vertical-world",
@@ -117,7 +124,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://seattle.verticalworld.com/wp-content/uploads/et_temp/UpliftDowngradeBanner-1457068_960x368.png"
     }
   ]
 }

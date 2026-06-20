@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.forestryandland.gov.scot/media/nlhfxdbz/fls-nr-reeligglen-lower-photo-oct-2019-079-1.png"
     },
     {
       "id": "glasgow-climbing-centre",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://glasgowclimbingcentre.com/wp-content/themes/gcc-wp/dist/images/logo.jpg"
     },
     {
       "id": "kelvin-hall-climbing-wall",
@@ -44,7 +46,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.glasgowlife.org.uk/media/wtcpqzcc/clip-climb3.jpg?width=800&height=450&v=1dca7dbc2ce03f0"
     },
     {
       "id": "the-newsroom",

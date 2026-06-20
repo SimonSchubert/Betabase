@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://mesarim.com/wp-content/uploads/2019/02/MRHomeslider.jpg"
     },
     {
       "id": "mesa-rim-climbing-academy",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://mesarim.com/academy/wp-content/uploads/sites/7/2018/03/MM-White.png"
     },
     {
       "id": "vertical-hold",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/58a18aa946c3c41632063b26/1774039592634-R4ETDLNMCXFF42O5IYZJ/image-asset.jpeg"
     }
   ]
 }

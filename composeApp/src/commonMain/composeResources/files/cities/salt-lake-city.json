@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "http://www.evo.com/cdn/shop/files/logo-1200x628-clear.png?v=1777505400"
     },
     {
       "id": "momentum-indoor-climbing-trolley-square",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://momentumclimbing.com/wp-content/uploads/2025/12/ChIJ27-OwTr1UocRjCvAXnTbbCM.jpg"
     }
   ]
 }

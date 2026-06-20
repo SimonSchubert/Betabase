@@ -26,16 +26,15 @@ class VideosRepository(
         emit(runCatching { process(source.fetch(), cutoff) })
     }
 
-    private fun process(videos: List<IfscVideo>, cutoff: kotlin.time.Instant): List<IfscVideo> =
-        videos.asSequence()
-            .filter(::isStreamLike)
-            .filter { video ->
-                val anchor = video.scheduledStartTime ?: video.publishedAt
-                anchor >= cutoff
-            }
-            .sortedByDescending { it.scheduledStartTime ?: it.publishedAt }
-            .take(maxItems)
-            .toList()
+    private fun process(videos: List<IfscVideo>, cutoff: kotlin.time.Instant): List<IfscVideo> = videos.asSequence()
+        .filter(::isStreamLike)
+        .filter { video ->
+            val anchor = video.scheduledStartTime ?: video.publishedAt
+            anchor >= cutoff
+        }
+        .sortedByDescending { it.scheduledStartTime ?: it.publishedAt }
+        .take(maxItems)
+        .toList()
 
     // The feed mixes broadcasts, recaps, and YouTube Shorts. Drop the Shorts:
     // social-media clips have duration=0 and no scheduled_start_time, while

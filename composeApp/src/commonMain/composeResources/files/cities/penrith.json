@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.distant-horizons.co.uk/wp-content/uploads/2025/02/distant-horizons.png"
     },
     {
       "id": "eden-valley-sports-centre-climbing",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://evmc.co.uk/wp-content/uploads/2022/03/EVMC-Logo-Ukraine-Transparent.png"
     },
     {
       "id": "the-climbing-centre-penrith",

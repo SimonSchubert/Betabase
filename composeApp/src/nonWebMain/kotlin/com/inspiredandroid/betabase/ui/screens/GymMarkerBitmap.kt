@@ -15,5 +15,4 @@ internal expect fun coilImageToMarkerBitmap(
     density: Density,
 ): ImageBitmap?
 
-internal fun isValidMarkerBitmap(bitmap: ImageBitmap): Boolean =
-    bitmap.width > 0 && bitmap.height > 0
+internal fun isValidMarkerBitmap(bitmap: ImageBitmap): Boolean = bitmap.width > 0 && bitmap.height > 0

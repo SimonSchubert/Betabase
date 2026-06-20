@@ -78,7 +78,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://sport-exercise.ed.ac.uk/themes/upstream/wpp_theme/images/uoe-logo-centred-black.png"
     },
     {
       "id": "meadowbank-sports-centre-climbing",

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.novaparks.com/sites/default/files/styles/scale_800/public/2023-04/Best%20of%20Arlington%20Resized-01%20%281%29.png?itok=MkAewtfI"
     },
     {
       "id": "movement-crystal-city",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/36/2025/01/Medium-Rope-Climbing_Crystal-City_MVMT_2024_MHecker-25-e1735873643376.jpg"
     }
   ]
 }

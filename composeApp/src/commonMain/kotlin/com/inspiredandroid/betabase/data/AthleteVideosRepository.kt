@@ -53,6 +53,5 @@ class AthleteVideosRepository(
         process(source.fetch(channelId))
     }.onSuccess { videos -> mutex.withLock { cache[channelId] = videos } }
 
-    private fun process(videos: List<YoutubeVideo>): List<YoutubeVideo> =
-        videos.sortedByDescending { it.publishedAt }.take(maxItems)
+    private fun process(videos: List<YoutubeVideo>): List<YoutubeVideo> = videos.sortedByDescending { it.publishedAt }.take(maxItems)
 }

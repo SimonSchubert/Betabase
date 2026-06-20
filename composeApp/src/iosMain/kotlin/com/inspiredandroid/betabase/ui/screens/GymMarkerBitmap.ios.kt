@@ -18,20 +18,19 @@ internal actual fun coilImageToMarkerBitmap(
     sizePx: Int,
     platformContext: PlatformContext,
     density: Density,
-): ImageBitmap? =
-    runCatching {
-        val bitmap = ImageBitmap(sizePx, sizePx)
-        val painter = image.asPainter(platformContext)
-        val size = Size(sizePx.toFloat(), sizePx.toFloat())
-        CanvasDrawScope().draw(
-            density = density,
-            layoutDirection = LayoutDirection.Ltr,
-            canvas = Canvas(bitmap),
-            size = size,
-        ) {
-            with(painter) {
-                draw(size)
-            }
+): ImageBitmap? = runCatching {
+    val bitmap = ImageBitmap(sizePx, sizePx)
+    val painter = image.asPainter(platformContext)
+    val size = Size(sizePx.toFloat(), sizePx.toFloat())
+    CanvasDrawScope().draw(
+        density = density,
+        layoutDirection = LayoutDirection.Ltr,
+        canvas = Canvas(bitmap),
+        size = size,
+    ) {
+        with(painter) {
+            draw(size)
         }
-        bitmap.takeIf { it.width > 0 && it.height > 0 }
-    }.getOrNull()
+    }
+    bitmap.takeIf { it.width > 0 && it.height > 0 }
+}.getOrNull()

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/60b2ca03dcfc4f2bd6cb23c6/1622331043728-XQ01QSBMH68PML7O2BHL/Chimp-navbar-logo-horiz-lockup-filled.png"
     },
     {
       "id": "dogpatch-boulders",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/dogpatch-boulders/wp-content/uploads/sites/10/2025/12/climbing-mobile-min.png"
     },
     {
       "id": "mission-cliffs",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://touchstoneclimbing.com/mission-cliffs/wp-content/uploads/sites/6/2025/12/climbing-mobile-min.png"
     },
     {
       "id": "movement-san-francisco",
@@ -60,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/30/2025/12/rope-climbing_SFO_MVMT_2025_066-1024x683.jpg"
     }
   ]
 }

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.denvergov.org/files/ocwebsite/Public/HeroImage/city-and-county-building-card.jpg?w=1200"
     },
     {
       "id": "movement-baker",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/2021/11/Movement-Logo-H-RGB-Teal-White.svg"
     },
     {
       "id": "movement-rino-climbing-fitness",
@@ -46,7 +48,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/22/2026/05/Medium-Bouldering_RINO_MVMT_2026-18.jpg"
     },
     {
       "id": "ubergrippen-indoor-climbing-crag-denver",

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://d21vwm96zyfwvd.cloudfront.net/assets/files/1/img_20230926_082239_cropped-1.1800x700.webp"
     },
     {
       "id": "university-of-cumbria-ambleside-climbing",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.cumbria.ac.uk/media/UOC-Logo-2021-Black-resize.png"
     }
   ]
 }

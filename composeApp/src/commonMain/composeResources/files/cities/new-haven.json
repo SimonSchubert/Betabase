@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/63c847651942c83516dc7284/c4626234-bb92-4869-9630-dc9280dd1e49/Artboard+19+copy+5%402x.png"
     },
     {
       "id": "city-climb",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/544144e6e4b04f34e6f7dc5c/1766165648037-REH50DTCY55OOXEGDAWI/Womens+Climbing+Meeting+%282%29.png"
     }
   ]
 }

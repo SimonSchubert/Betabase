@@ -45,7 +45,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.nottinghamcity.gov.uk/media/btel5rux/ncc-logo.png"
     },
     {
       "id": "nottingham-climbing-centre",
@@ -90,7 +91,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.ntu.ac.uk/media/images/sport/Gym-membership-021910.jpg"
     },
     {
       "id": "the-climbing-depot-nottingham",
@@ -104,7 +106,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.depotclimbing.co.uk/wp-content/uploads/2025/02/depot-climbing-homepage-banner-feb-2025.jpg"
     },
     {
       "id": "university-of-nottingham-climbing-wall",

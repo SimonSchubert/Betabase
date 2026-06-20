@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://res.cloudinary.com/eola/image/upload/q_auto,f_auto/v1/eola/public_images/eola-logo"
     }
   ]
 }

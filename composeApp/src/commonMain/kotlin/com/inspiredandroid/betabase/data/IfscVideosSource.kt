@@ -28,8 +28,7 @@ class IfscVideosSource(
         return parse(text)
     }
 
-    private fun parse(text: String): List<IfscVideo> =
-        json.decodeFromString<List<VideoDto>>(text).mapNotNull { it.toDomain() }
+    private fun parse(text: String): List<IfscVideo> = json.decodeFromString<List<VideoDto>>(text).mapNotNull { it.toDomain() }
 
     private fun VideoDto.toDomain(): IfscVideo? {
         val publishedAt = runCatching { Instant.parse(publishedAt) }.getOrNull() ?: return null

@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://centralrockgym.com/manhattan/wp-content/uploads/2026/06/Feature-Rectangle-32-52.jpg"
     },
     {
       "id": "movement-gowanus",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/52/2024/07/Large-Rope-Climbing_Gowanus_MVMT_2024-28.jpg"
     },
     {
       "id": "the-cliffs-at-harlem",
@@ -45,7 +47,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://movementgyms.com/app/uploads/sites/53/2024/07/Bouldering_Harlem_MVMT_2024-30-scaled.jpg"
     },
     {
       "id": "vital-climbing",
@@ -60,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5a01fd2db1ffb6985b2a9ac5/500ae58f-deda-47ad-84a5-9ad729f1d028/VITAL-Climbing-Gym-bouldering-fitness-yoga-cycling-aerial.jpg?format=2500w"
     }
   ]
 }

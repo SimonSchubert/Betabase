@@ -36,9 +36,8 @@ class AthleteVideosFeedSource(
         return parse(text)
     }
 
-    private fun parse(text: String): Map<String, List<YoutubeVideo>> =
-        json.decodeFromString<FeedFile>(text).channels
-            .mapValues { (_, videos) -> videos.mapNotNull { it.toDomain() } }
+    private fun parse(text: String): Map<String, List<YoutubeVideo>> = json.decodeFromString<FeedFile>(text).channels
+        .mapValues { (_, videos) -> videos.mapNotNull { it.toDomain() } }
 
     private fun VideoDto.toDomain(): YoutubeVideo? {
         val published = runCatching { Instant.parse(publishedAt) }.getOrNull() ?: return null

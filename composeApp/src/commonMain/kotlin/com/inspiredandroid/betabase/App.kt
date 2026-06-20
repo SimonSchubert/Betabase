@@ -25,7 +25,6 @@ import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.IfscEventSource
 import com.inspiredandroid.betabase.data.IfscVideosSource
 import com.inspiredandroid.betabase.data.SourceTag
-import kotlinx.datetime.TimeZone
 import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.YoutubeChannelSource
 import com.inspiredandroid.betabase.data.createFilterStorage
@@ -38,13 +37,17 @@ import com.inspiredandroid.betabase.ui.screens.CompetitionsScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsViewModel
 import com.inspiredandroid.betabase.ui.screens.GymsScreen
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
+import kotlinx.datetime.TimeZone
 
 private val TabSaver = Saver<Tab, String>(save = { it.name }, restore = { Tab.valueOf(it) })
 
 @Composable
 fun BetabaseApp() {
     BetabaseTheme {
-        remember { setupImageLoader(); Unit }
+        remember {
+            setupImageLoader()
+            Unit
+        }
         val httpClient = remember { createHttpClient() }
         val jsonCache = remember { createJsonCache() }
         val repository = remember(httpClient, jsonCache) {

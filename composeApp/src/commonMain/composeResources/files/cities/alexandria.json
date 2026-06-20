@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.fairfaxcounty.gov/parks/sites/parks/files/Assets/images/reccenters/mount-vernon/mvrc-open-banner.png"
     },
     {
       "id": "sportrock",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://static.wixstatic.com/media/6dccff_79891be3aedc4cff84869dd660286a78~mv2.jpg"
     }
   ]
 }

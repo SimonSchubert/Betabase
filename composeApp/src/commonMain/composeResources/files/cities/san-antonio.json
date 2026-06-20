@@ -15,7 +15,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5949198746c3c411a954cea6/1532713772355-WZFNF03O3YABJ3IPK58W/Kids+Training+%281+of+2%29.jpg"
     },
     {
       "id": "the-district",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/60db95e74df38d71ca8ac32b/f3506256-429c-4cce-94a3-75d9dd75ae6e/Black+and+White+Rectangle+Sports+Logo+%289%29.jpg"
     }
   ]
 }

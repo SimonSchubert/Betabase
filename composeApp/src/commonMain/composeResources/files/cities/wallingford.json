@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://rockspotclimbing.com/wp-content/uploads/2017/11/rock-spot-mobile.jpg"
     },
     {
       "id": "prime-climb",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://rockspotclimbing.com/wp-content/uploads/2017/11/rock-spot-mobile.jpg"
     }
   ]
 }

@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://mach1bellingham.com/wp-content/uploads/2025/04/Mach1-MainColor_1.png"
     },
     {
       "id": "vital-climbing-gym",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5a01fd2db1ffb6985b2a9ac5/f709aef7-9ed1-4024-b0ca-50f68943c21a/Boulderham+2023-69.jpg?format=2500w"
     }
   ]
 }

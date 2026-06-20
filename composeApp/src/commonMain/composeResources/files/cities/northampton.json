@@ -31,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://forms.westnorthants.gov.uk/site/images/logo-wnc-white.png"
     },
     {
       "id": "northampton-climbing-centre",
@@ -62,7 +63,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.quintonhouseschool.co.uk/wp-content/uploads/sites/12/2026/02/Quinton-House-School-May-2024-Navy-Studios-School-Photography-170of244-e1771506026290.jpg"
     },
     {
       "id": "the-pinnacle-climbing-centre",

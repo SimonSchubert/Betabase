@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://5.life/bg/wp-content/uploads/sites/6/2022/04/51971949146_75e41f1104_o-1-scaled.jpg"
     },
     {
       "id": "vertical-adventures",
@@ -31,7 +32,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://5.life/va/wp-content/uploads/sites/4/2024/08/VA-1920x1280-27.jpg"
     }
   ]
 }
