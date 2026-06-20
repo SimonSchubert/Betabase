@@ -1,3 +1,13 @@
+## v0.8.0 — 2026-06-20
+
+### Features
+- Expanded gym map with many new European cities and climbing gyms
+- Added refreshed athlete YouTube video feed
+
+### Improvements
+- Improved map pin loading
+- Upgraded dependencies
+
 ## v0.7.1 — 2026-06-13
 
 ### Features

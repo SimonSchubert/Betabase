@@ -1,0 +1,4 @@
+Expanded gym map with many new European cities and climbing gyms
+Added refreshed athlete YouTube video feed
+Improved map pin loading
+Upgraded dependencies
