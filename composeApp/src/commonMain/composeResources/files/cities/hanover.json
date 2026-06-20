@@ -1,0 +1,21 @@
+{
+  "city": "Hanover",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dartmouth-climbing-gym",
+      "name": "Dartmouth Climbing Gym",
+      "address": "29 Engineering Drive, Hanover, NH 03755",
+      "url": "https://outdoors.dartmouth.edu/services/climbing_gym.html",
+      "lat": 43.7037117,
+      "lng": -72.2955044,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

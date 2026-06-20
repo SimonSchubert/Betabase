@@ -40,7 +40,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://kassel.element-boulders.de/files/theme_element_v2/svg/element-logo-white.svg"
     },
     {
       "id": "block-barock-kassel",
@@ -49,10 +50,13 @@
       "url": "https://www.block-barock.de",
       "lat": 51.3124821,
       "lng": 9.4182734,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://block-barock.de/wp-content/uploads/2020/07/BlockBarock_impressions_10-scaled.jpg"
     },
     {
       "id": "vertical-world-kassel",
@@ -61,7 +65,10 @@
       "url": "https://www.vertical-world.de",
       "lat": 51.3124821,
       "lng": 9.4182734,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -73,10 +80,14 @@
       "url": "https://www.kletterzentrum-nordhessen.de",
       "lat": 51.2583842,
       "lng": 9.4162184,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kletterzentrum-nordhessen.de/templates/nordhessen/img/logo.png"
     }
   ]
 }

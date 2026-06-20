@@ -1,0 +1,22 @@
+{
+  "city": "Pittsburgh",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "first-ascent",
+      "name": "First Ascent",
+      "address": "125 West Station Square Drive, Pittsburgh, PA 15219",
+      "url": "https://faclimbing.com/pittsburgh/station-square",
+      "lat": 40.4329651,
+      "lng": -80.0045542,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

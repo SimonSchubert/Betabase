@@ -1,0 +1,22 @@
+{
+  "city": "Aberystwyth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "aberystwyth-university-climbing-wall",
+      "name": "Aberystwyth University Climbing Wall",
+      "address": "Aberystwyth University, Penglais, Aberystwyth SY23 3FL",
+      "url": "https://www.aber.ac.uk/en/sportscentre/",
+      "lat": 52.417786,
+      "lng": -4.065271,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

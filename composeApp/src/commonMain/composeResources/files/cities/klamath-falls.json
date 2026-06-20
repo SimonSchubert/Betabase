@@ -1,0 +1,22 @@
+{
+  "city": "Klamath Falls",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-ledge",
+      "name": "The Ledge",
+      "address": "Klamath Falls, Oregon",
+      "url": "https://yetiledge.wordpress.com",
+      "lat": 42.2236612,
+      "lng": -121.7799738,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

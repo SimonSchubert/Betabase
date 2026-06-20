@@ -10,10 +10,13 @@
       "url": "https://www.boulderhalle-straubing.de",
       "lat": 48.8779433,
       "lng": 12.5643637,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderhalle-straubing.de/wp-content/uploads/2024/01/boulderhalle-straubing-bg-2.jpg"
     }
   ]
 }

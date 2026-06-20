@@ -1,0 +1,22 @@
+{
+  "city": "Menomonie",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "stout-adventures",
+      "name": "Stout Adventures",
+      "address": "Menomonie, Wisconsin",
+      "url": "https://www.uwstout.edu/life-stout/recreation/stout-adventures",
+      "lat": 44.8688108,
+      "lng": -91.9281587,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

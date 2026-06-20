@@ -1,0 +1,22 @@
+{
+  "city": "Oakland Park",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "projectrock",
+      "name": "projectROCK",
+      "address": "3580 North Andrews Avenue, FL 33309",
+      "url": "https://projectrock.com",
+      "lat": 26.171906,
+      "lng": -80.1453592,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

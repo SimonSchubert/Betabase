@@ -1,0 +1,22 @@
+{
+  "city": "Llandudno Junction",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "llandudno-junction-leisure-centre-climbing",
+      "name": "Llandudno Junction Leisure Centre Climbing",
+      "address": "Off Tesco Roundabout, Llandudno Junction LL31 9XY",
+      "url": "https://www.conwy.gov.uk/",
+      "lat": 53.283282,
+      "lng": -3.813398,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

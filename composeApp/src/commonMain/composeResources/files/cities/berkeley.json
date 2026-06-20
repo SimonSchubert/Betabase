@@ -1,0 +1,81 @@
+{
+  "city": "Berkeley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "berkeley-ironworks",
+      "name": "Berkeley Ironworks",
+      "address": "800 Potter Street, Berkeley, CA 94710",
+      "url": "https://touchstoneclimbing.com/ironworks",
+      "lat": 37.8508318,
+      "lng": -122.2925232,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "cragmont-park",
+      "name": "Cragmont Park",
+      "address": "Berkeley, California",
+      "url": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/cragmont-rock-park",
+      "lat": 37.8918057,
+      "lng": -122.2635481,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mosaic-boulders",
+      "name": "Mosaic Boulders",
+      "address": "2369 Telegraph Avenue, Berkeley, CA 94704",
+      "url": "https://www.mosaicboulders.com",
+      "lat": 37.8674458,
+      "lng": -122.2587696,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-oaks-climbing",
+      "name": "The Oaks Climbing",
+      "address": "1861;1863;1865;1869;1871;1875;1877;1965 Solano Avenue, Berkeley, CA",
+      "url": "https://www.berkeleyside.org/2019/12/04/touchstone-gets-building-permit-for-the-oaks-climbing-gym-in-berkeley",
+      "lat": 37.8915901,
+      "lng": -122.2779901,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "training-center",
+      "name": "Training Center",
+      "address": "795 Potter Street, Berkeley, CA 94710",
+      "url": "https://touchstoneclimbing.com/team-training-center",
+      "lat": 37.8515721,
+      "lng": -122.292605,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

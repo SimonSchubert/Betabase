@@ -1,0 +1,22 @@
+{
+  "city": "Sonora",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "class-5-fitness-24-7",
+      "name": "Class 5 Fitness 24/7",
+      "address": "20860 Mechanical Drive, Sonora, CA 95370",
+      "url": "https://www.24-7at5.com",
+      "lat": 37.9997661,
+      "lng": -120.2665502,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "city": "Loughborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "the-climbing-station",
+      "name": "The Climbing Station",
+      "address": "Loughborough University, Ashby Road, Loughborough LE11 3TU",
+      "url": "https://www.theclimbingstation.com/",
+      "lat": 52.764847,
+      "lng": -1.229512,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://theclimbingstation.com/wp-content/uploads/2020/09/Gibbonbanner.png"
+    },
+    {
+      "id": "university-of-loughborough-climbing-wall",
+      "name": "University of Loughborough Climbing Wall",
+      "address": "Powerbase Gym, Loughborough University, Loughborough LE11 3TU",
+      "url": "https://www.lboro.ac.uk/sport/",
+      "lat": 52.764847,
+      "lng": -1.229512,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.lboro.ac.uk/media/media/sport/images/home/promotions/trials-and-tasters-hero-image.jpg"
+    }
+  ]
+}

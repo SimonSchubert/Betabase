@@ -1,0 +1,22 @@
+{
+  "city": "Appleby-in-Westmorland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "eden-community-outdoors-climbing",
+      "name": "Eden Community Outdoors Climbing",
+      "address": "Centre 67, Chapel Street, Appleby CA16 6QR",
+      "url": "https://www.edencommunityoutdoors.org.uk/",
+      "lat": 54.57809,
+      "lng": -2.492998,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Warwick",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "st-nicholas-park-climbing-wall",
+      "name": "St Nicholas Park Climbing Wall",
+      "address": "Banbury Road, Warwick CV34 4QY",
+      "url": "https://www.warwickdc.gov.uk/",
+      "lat": 52.28185,
+      "lng": -1.579204,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

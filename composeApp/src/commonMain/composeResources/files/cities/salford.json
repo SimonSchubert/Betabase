@@ -1,0 +1,22 @@
+{
+  "city": "Salford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "salford-university-climbing-wall",
+      "name": "Salford University Climbing Wall",
+      "address": "University Road, Salford M5 4WT",
+      "url": "https://www.salford.ac.uk/sport",
+      "lat": 53.483504,
+      "lng": -2.270649,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

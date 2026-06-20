@@ -1,0 +1,22 @@
+{
+  "city": "San Marcos",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mesa-rim-north-city",
+      "name": "Mesa Rim (North City)",
+      "address": "285 Industrial Street, San Marcos, CA 92078",
+      "url": "https://mesarim.com/northcity",
+      "lat": 33.135999,
+      "lng": -117.1576936,
+      "disciplines": [
+        "boulder",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

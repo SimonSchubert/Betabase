@@ -1,0 +1,23 @@
+{
+  "city": "Tavistock",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "barn-climbing-wall",
+      "name": "Barn Climbing Wall",
+      "address": "Tavistock College, Callington Road, Tavistock PL19 0JX",
+      "url": "https://www.barnclimbingwall.co.uk/",
+      "lat": 50.5489,
+      "lng": -4.1456,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5c8a4af501232ced20ccfa12/1579521225687-5GK7JQDPUGIVPIMHWZLP/050613BarnClimbing_250.jpg?format=2500w"
+    }
+  ]
+}

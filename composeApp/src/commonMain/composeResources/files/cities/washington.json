@@ -1,0 +1,21 @@
+{
+  "city": "Washington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dc-bouldering-project",
+      "name": "DC Bouldering Project",
+      "address": "1611 Eckington Place Northeast, Washington, DC 20002",
+      "url": "https://www.dcboulderingproject.com",
+      "lat": 38.9115974,
+      "lng": -77.0043223,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

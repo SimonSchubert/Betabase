@@ -1,0 +1,22 @@
+{
+  "city": "Witham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "boundless-adventures-clip-n-climb",
+      "name": "Boundless Adventures Clip n Climb",
+      "address": "Hill House Road, Witham CM8 2DR",
+      "url": "https://boundlessadventures.uk/activities/clip-n-climb/",
+      "lat": 51.802567,
+      "lng": 0.640336,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://boundlessadventures.uk/activities/nottingham/clip-n-climb/clip-n-climb-nottingham-1.avif"
+    }
+  ]
+}

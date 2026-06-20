@@ -1,0 +1,22 @@
+{
+  "city": "Aberlour",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "speyside-sports-centre-climbing",
+      "name": "Speyside Sports Centre Climbing",
+      "address": "Mary Avenue, Aberlour AB38 9PN",
+      "url": "https://www.moray.gov.uk/",
+      "lat": 57.469234,
+      "lng": -3.225588,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

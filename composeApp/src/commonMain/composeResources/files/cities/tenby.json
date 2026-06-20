@@ -1,0 +1,22 @@
+{
+  "city": "Tenby",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "tenby-climbing-centre",
+      "name": "Tenby Climbing Centre",
+      "address": "Castle Hill, Tenby SA70 7BP",
+      "url": "https://www.tenbyclimbing.co.uk/",
+      "lat": 51.67228,
+      "lng": -4.694884,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

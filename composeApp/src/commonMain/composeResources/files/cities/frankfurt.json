@@ -10,7 +10,9 @@
       "url": "https://boulderwelt-frankfurt.de",
       "lat": 50.1641452,
       "lng": 8.6847962,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1650,
       "opening_hours": {
@@ -30,7 +32,10 @@
       "url": "https://www.dav-klz-ffm.de",
       "lat": 50.1599005,
       "lng": 8.6861819,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +46,8 @@
         "fri": "09:30-22:30",
         "sat": "09:30-22:30",
         "sun": "09:30-22:30"
-      }
+      },
+      "image_url": "https://www.dav-klz-ffm.de/wp-content/uploads/2024/11/Boulderhalle.jpg"
     },
     {
       "id": "dynochrom",
@@ -50,7 +56,9 @@
       "url": "https://www.dynochrom.de",
       "lat": 50.1367878,
       "lng": 8.7327149,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1050,
       "opening_hours": {
@@ -61,7 +69,8 @@
         "fri": "09:00-23:30",
         "sat": "09:00-23:30",
         "sun": "09:00-21:30"
-      }
+      },
+      "image_url": "https://i0.wp.com/dynochrom.com/wp-content/uploads/2025/05/cropped-logo-adressleiste.png?fit=192%2C192&ssl=1"
     }
   ]
 }

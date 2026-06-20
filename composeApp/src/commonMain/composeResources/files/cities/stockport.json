@@ -1,0 +1,22 @@
+{
+  "city": "Stockport",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "rope-race-climbing-centre",
+      "name": "Rope Race Climbing Centre",
+      "address": "Unit 6a, Hyde Road, Woodley, Stockport SK6 1ND",
+      "url": "https://www.roperaceclimbingcentre.co.uk/",
+      "lat": 53.4289,
+      "lng": -2.0898,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

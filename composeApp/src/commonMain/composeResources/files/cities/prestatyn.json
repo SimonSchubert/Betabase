@@ -1,0 +1,22 @@
+{
+  "city": "Prestatyn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "prestatyn-leisure-centre-climbing",
+      "name": "Prestatyn Leisure Centre Climbing",
+      "address": "2 Princes Avenue, Prestatyn LL19 8RS",
+      "url": "https://www.denbighshire.gov.uk/",
+      "lat": 53.326556,
+      "lng": -3.406866,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

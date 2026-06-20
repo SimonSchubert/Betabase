@@ -1,0 +1,22 @@
+{
+  "city": "Harrow",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "amphibia-harrow",
+      "name": "Amphibia Harrow",
+      "address": "Harrow Leisure Centre, Christchurch Avenue, Harrow HA3 5BD",
+      "url": "https://www.amphibia-group.co.uk/",
+      "lat": 51.592526,
+      "lng": -0.327418,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

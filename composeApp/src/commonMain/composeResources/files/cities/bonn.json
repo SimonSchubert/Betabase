@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.dav-bonn.de/fileadmin/images/logos/dav-bonn-logo.png"
     },
     {
       "id": "boulders-habitat-bonn-dransdorf",
@@ -38,7 +39,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.bouldershabitat.de/wp-content/uploads/2024/02/bouldern-mit-kindern.jpg"
     },
     {
       "id": "boulders-habitat-bonn-beuel",
@@ -60,7 +62,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.bouldershabitat.de/wp-content/uploads/2024/02/bouldern-mit-kindern.jpg"
     }
   ]
 }

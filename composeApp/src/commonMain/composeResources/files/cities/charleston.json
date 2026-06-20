@@ -1,0 +1,22 @@
+{
+  "city": "Charleston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "wild-blue-ropes",
+      "name": "Wild Blue Ropes",
+      "address": "1595 Highland Avenue, Charleston, SC 29412",
+      "url": "https://www.wildblueropes.com",
+      "lat": 32.7379647,
+      "lng": -79.9660245,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

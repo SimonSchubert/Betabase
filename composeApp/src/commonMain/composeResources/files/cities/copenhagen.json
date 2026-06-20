@@ -10,10 +10,13 @@
       "url": "https://betaboulders.com",
       "lat": 55.7069382,
       "lng": 12.5610671,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg"
     },
     {
       "id": "beta-boulders-sydhavn",
@@ -22,10 +25,13 @@
       "url": "https://betaboulders.com",
       "lat": 55.6557971,
       "lng": 12.5510318,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg"
     },
     {
       "id": "bison-boulders-kodbyen",
@@ -34,7 +40,9 @@
       "url": "https://www.bison-boulders.com",
       "lat": 55.6672116,
       "lng": 12.5609106,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -45,7 +53,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6891f7ddb1168f3cfa60a7c9/1754396706075-IJOGZHQQN6JEJPHMJ5S7/Logo+Bison+Boulders.png"
     }
   ]
 }

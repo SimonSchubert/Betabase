@@ -1,0 +1,36 @@
+{
+  "city": "Greensboro",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "lebauer-park",
+      "name": "LeBauer Park",
+      "address": "208 North Davie Street, NC",
+      "url": "https://www.greensborodowntownparks.org/visit",
+      "lat": 36.0745615,
+      "lng": -79.7879437,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-ultimate-climbing-gym",
+      "name": "The Ultimate Climbing Gym",
+      "address": "Greensboro, North Carolina",
+      "url": "https://ultimate-kids.com/Rock-Wall.html",
+      "lat": 36.0830702,
+      "lng": -79.9278886,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Battle",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "battle-sports-centre-climbing",
+      "name": "Battle Sports Centre Climbing",
+      "address": "North Trade Road, Battle TN33 0HT",
+      "url": "https://www.battlesportscentre.com/",
+      "lat": 50.915918,
+      "lng": 0.46702,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

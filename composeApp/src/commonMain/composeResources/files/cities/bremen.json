@@ -39,7 +39,9 @@
       "url": "https://www.boulderbasebremen.de",
       "lat": 53.1061722,
       "lng": 8.7975242,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -51,10 +53,14 @@
       "url": "https://www.linie7.com",
       "lat": 53.0812841,
       "lng": 8.8134627,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.linie7.com/linie7_cms/wp-content/uploads/2016/04/cropped-original_logo_300dpi_1100_einfach-192x192.png"
     }
   ]
 }

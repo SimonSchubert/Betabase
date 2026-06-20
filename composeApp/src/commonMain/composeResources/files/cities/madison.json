@@ -1,0 +1,22 @@
+{
+  "city": "Madison",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulders-climbing-gym",
+      "name": "Boulders Climbing Gym",
+      "address": "129 South Carroll Street, Madison, WI 53703",
+      "url": "https://www.bouldersgym.com",
+      "lat": 43.0725795,
+      "lng": -89.3833631,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

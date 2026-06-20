@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.dav-mainz.de/165%20-%20Sektion%20Mainz/Logos/Kletterkiste/DAV-Mainz__Kletterkiste__Logo.jpg"
     },
     {
       "id": "kletterkiste-mainz",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kletterkiste-mainz.de/165%20-%20Sektion%20Mainz/Kletterkiste/Halle/96381/image-thumb__96381__heroteaser/DAV-Mainz__Kletterkurs__2019@2x.823c195e.webp"
     }
   ]
 }

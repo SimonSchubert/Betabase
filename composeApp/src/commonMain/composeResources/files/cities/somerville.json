@@ -1,0 +1,21 @@
+{
+  "city": "Somerville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boston-bouldering-project",
+      "name": "Boston Bouldering Project",
+      "address": "12A Tyler Street, MA",
+      "url": "https://www.bostonboulderingproject.com",
+      "lat": 42.381637,
+      "lng": -71.1058777,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

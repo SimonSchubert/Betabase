@@ -1,0 +1,22 @@
+{
+  "city": "Mooresville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cliff-hangers",
+      "name": "Cliff Hangers",
+      "address": "326 Oates Road, Mooresville, NC 28117",
+      "url": "https://www.cliffhangersclimbing.com",
+      "lat": 35.5978376,
+      "lng": -80.8540279,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

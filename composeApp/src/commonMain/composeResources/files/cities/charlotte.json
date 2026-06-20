@@ -1,0 +1,22 @@
+{
+  "city": "Charlotte",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "inner-peaks-climbing-center",
+      "name": "Inner Peaks Climbing Center",
+      "address": "2220 South Tryon Street, Charlotte, NC 28203",
+      "url": "https://www.innerpeaks.com",
+      "lat": 35.2094048,
+      "lng": -80.8677603,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

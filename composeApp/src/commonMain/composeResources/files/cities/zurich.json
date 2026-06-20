@@ -10,10 +10,13 @@
       "url": "https://grindelboulder.ch",
       "lat": 47.4460131,
       "lng": 8.6092783,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 900,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://grindelboulder.ch/medien/2026/03/banner-heavy-rock-2026.png"
     },
     {
       "id": "minimum-boulder-fluela",
@@ -22,10 +25,13 @@
       "url": "https://minimum.ch",
       "lat": 47.3816369,
       "lng": 8.4953202,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://minimum.ch/app/themes/minimum.ch/dist/images/minimum-logo-positive_74f7b3d7.svg"
     },
     {
       "id": "minimum-boulder-leutsch",
@@ -34,10 +40,13 @@
       "url": "https://minimum.ch",
       "lat": 47.4159444,
       "lng": 8.5546917,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://minimum.ch/app/uploads/2018/06/Minimum_HP_Bouldern2.jpg"
     },
     {
       "id": "mito-bouldering",
@@ -46,10 +55,16 @@
       "url": "https://mito-bouldering.ch",
       "lat": 47.3806175,
       "lng": 8.5056168,
-      "disciplines": ["boulder"],
-      "boards": ["kilter", "tension"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "tension"
+      ],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://mito-bouldering.ch/location/boulderingp1.jpg"
     }
   ]
 }

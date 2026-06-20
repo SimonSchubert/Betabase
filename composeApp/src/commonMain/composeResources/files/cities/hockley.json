@@ -1,0 +1,22 @@
+{
+  "city": "Hockley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "clements-hall-climbing-wall",
+      "name": "Clements Hall Climbing Wall",
+      "address": "Clements Hall Way, Hawkwell, Hockley SS5 4LN",
+      "url": "https://www.clementshall.co.uk/",
+      "lat": 51.594779,
+      "lng": 0.67183,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

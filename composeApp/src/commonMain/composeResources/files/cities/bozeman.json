@@ -1,0 +1,22 @@
+{
+  "city": "Bozeman",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "spire-climbing-center",
+      "name": "Spire Climbing Center",
+      "address": "13 Enterprise Boulevard, Bozeman, MT 59718",
+      "url": "https://www.spireclimbingcenter.com",
+      "lat": 45.656189,
+      "lng": -111.0704487,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

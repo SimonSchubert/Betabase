@@ -1,0 +1,22 @@
+{
+  "city": "Salisbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "salisbury-climbing-centre",
+      "name": "Salisbury Climbing Centre",
+      "address": "Five Rivers Leisure Centre, Hulse Road, Salisbury SP1 3NR",
+      "url": "https://www.wiltshire.gov.uk/",
+      "lat": 51.07853,
+      "lng": -1.803517,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

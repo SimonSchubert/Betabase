@@ -1,0 +1,22 @@
+{
+  "city": "Llanfairpwll",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "indy-climbing-wall",
+      "name": "Indy Climbing Wall",
+      "address": "Plas Llanfair, Llanfairpwll LL61 6NT",
+      "url": "https://www.indyclimbingwall.co.uk/",
+      "lat": 53.218835,
+      "lng": -4.199211,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

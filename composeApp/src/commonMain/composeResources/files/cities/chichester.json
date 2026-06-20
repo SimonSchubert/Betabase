@@ -1,0 +1,38 @@
+{
+  "city": "Chichester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "chichester-college-climbing-wall",
+      "name": "Chichester College Climbing Wall",
+      "address": "Westgate Fields, Chichester PO19 1SB",
+      "url": "https://www.chichester.ac.uk/about-us/sports-cntre/indoor-climbing-wall",
+      "lat": 50.834911,
+      "lng": -0.787748,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "high-sports-chichester",
+      "name": "High Sports Chichester",
+      "address": "Westgate Leisure Centre, Via Ravenna, Chichester PO19 1RJ",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 50.833309,
+      "lng": -0.786838,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    }
+  ]
+}

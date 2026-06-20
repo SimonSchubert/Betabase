@@ -1,0 +1,22 @@
+{
+  "city": "Redmond",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-jug",
+      "name": "The Jug",
+      "address": "2605 Southeast 1st Street, Redmond, OR 97756",
+      "url": "https://thejugrockgym.com",
+      "lat": 44.2519432,
+      "lng": -121.1704916,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

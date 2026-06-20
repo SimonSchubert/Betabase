@@ -1,0 +1,21 @@
+{
+  "city": "Stourbridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "crystal-leisure-centre-climbing",
+      "name": "Crystal Leisure Centre Climbing",
+      "address": "Bell Street, Stourbridge DY8 1AE",
+      "url": "https://www.dudley.gov.uk/",
+      "lat": 52.456456,
+      "lng": -2.147952,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Banbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "dewey-sports-centre-climbing",
+      "name": "Dewey Sports Centre Climbing",
+      "address": "Bloxham School, Bloxham, Banbury OX15 4PE",
+      "url": "https://www.bloxham.com/",
+      "lat": 52.022064,
+      "lng": -1.372615,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

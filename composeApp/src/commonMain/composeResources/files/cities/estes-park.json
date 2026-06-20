@@ -1,0 +1,22 @@
+{
+  "city": "Estes Park",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "open-air-adventure-park",
+      "name": "Open Air Adventure Park",
+      "address": "Estes Park, Colorado",
+      "url": "https://www.openairadventurepark.com",
+      "lat": 40.3706327,
+      "lng": -105.5258712,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

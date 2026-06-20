@@ -1,0 +1,21 @@
+{
+  "city": "Cockermouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "cockermouth-sports-centre-climbing",
+      "name": "Cockermouth Sports Centre Climbing",
+      "address": "Castle Gate Drive, Cockermouth CA13 9JR",
+      "url": "https://www.allerdale.gov.uk/",
+      "lat": 54.664592,
+      "lng": -3.357143,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

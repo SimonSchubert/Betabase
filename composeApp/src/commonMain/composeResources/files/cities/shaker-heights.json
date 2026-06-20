@@ -1,0 +1,22 @@
+{
+  "city": "Shaker Heights",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "shaker-rocks",
+      "name": "Shaker Rocks",
+      "address": "3377 Warrensville Center Road, Shaker Heights, OH 44122",
+      "url": "https://shakerrocksclimbing.com",
+      "lat": 41.4679062,
+      "lng": -81.5356098,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

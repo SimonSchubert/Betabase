@@ -1,0 +1,83 @@
+{
+  "city": "Stoke-on-Trent",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "awesome-walls-stoke",
+      "name": "Awesome Walls Stoke",
+      "address": "Sefton Road, Longton, Stoke-on-Trent ST3 5LW",
+      "url": "https://www.awesomewalls.co.uk/stoke/",
+      "lat": 53.0018,
+      "lng": -2.1572,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.awesomewalls.co.uk/wp-content/uploads/2026/05/Route-Setting-All-Jan-May-1-1024x577.jpg"
+    },
+    {
+      "id": "clip-n-climb-stoke",
+      "name": "Clip 'n Climb Stoke",
+      "address": "Unit 2, Lymington Court, Newcastle-under-Lyme ST5 9AX",
+      "url": "https://clipnclimb.co.uk/locations/stoke/",
+      "lat": 53.02357,
+      "lng": -2.243833,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "kilnworx-climbing-centre",
+      "name": "Kilnworx Climbing Centre",
+      "address": "Wycliffe Hall, Wycliffe Street, Burslem, Stoke-on-Trent ST6 3ET",
+      "url": "https://www.kilnworx.co.uk/",
+      "lat": 53.044038,
+      "lng": -2.200514,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "staffordshire-university-climbing-wall",
+      "name": "Staffordshire University Climbing Wall",
+      "address": "Sir Stanley Matthews Sports Centre, Leek Road, Stoke-on-Trent ST4 2DF",
+      "url": "https://www.staffs.ac.uk/sport",
+      "lat": 53.009092,
+      "lng": -2.175522,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.staffs.ac.uk/about/images/gallery/cadman-archive.jpg"
+    },
+    {
+      "id": "stoke-on-trent-open-access-boulder",
+      "name": "Stoke-on-Trent Open Access Boulder",
+      "address": "Central Forest Park, Chell Street, Hanley, Stoke-on-Trent ST1 6BD",
+      "url": "https://www.stoke.gov.uk/",
+      "lat": 53.035852,
+      "lng": -2.169502,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

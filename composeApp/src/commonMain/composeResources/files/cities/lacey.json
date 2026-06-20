@@ -1,0 +1,22 @@
+{
+  "city": "Lacey",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cirque-climbing",
+      "name": "Cirque Climbing",
+      "address": "8276 28th Court Northeast, Lacey, WA 98516",
+      "url": "https://www.cirqueclimbing.com",
+      "lat": 47.0720325,
+      "lng": -122.768049,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

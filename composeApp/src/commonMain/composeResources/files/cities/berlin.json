@@ -10,7 +10,10 @@
       "url": "https://www.alpinclub-berlin.de/",
       "lat": 52.4541158,
       "lng": 13.2677792,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -20,17 +23,24 @@
         "fri": "19:00-22:00",
         "sat": "10:00-20:00",
         "sun": "15:00-18:00"
-      }
+      },
+      "image_url": "https://www.alpinclub-berlin.de/050%20-%20Sektion%20AlpinClub%20Berlin/Artikel/Orte/233595/image-thumb__233595__heroteaser/Oekowerk@2x.44066948.webp"
     },
     {
       "id": "berta-block",
       "name": "Berta Block",
       "address": "Mühlenstraße 62, 13187 Berlin",
       "url": "https://www.bertablock.de/",
-      "lat": 52.5638900,
+      "lat": 52.56389,
       "lng": 13.4103585,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "kilter", "spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter",
+        "spray"
+      ],
       "size_sqm": 2000,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -40,7 +50,8 @@
         "fri": "09:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.bertablock.de/quality_auto/2_edited.png"
     },
     {
       "id": "bouldergarten",
@@ -49,7 +60,10 @@
       "url": "https://bouldergarten.de/",
       "lat": 52.4793127,
       "lng": 13.4515865,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 2300,
       "opening_hours": {
@@ -60,7 +74,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://bouldergarten.de/assets/images/bg-leaf.svg"
     },
     {
       "id": "boulderklub-kreuzberg",
@@ -69,8 +84,12 @@
       "url": "https://boulderklub.de/",
       "lat": 52.4951304,
       "lng": 13.4286748,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": 1300,
       "opening_hours": {
         "mon": "07:00-22:00",
@@ -80,7 +99,8 @@
         "fri": "07:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderklub.de/wp-content/uploads/2025-JKH-TNFClimbFest-Sep-05-2025-0109-edit-1-e1779280057617.png"
     },
     {
       "id": "bright-site",
@@ -89,8 +109,12 @@
       "url": "https://www.urbanapes.de/brightsite/",
       "lat": 52.4818049,
       "lng": 13.3658336,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 800,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -100,7 +124,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     },
     {
       "id": "cliffhanger-boulderlounge",
@@ -108,8 +133,10 @@
       "address": "Telegrafenweg 21, 13599 Berlin",
       "url": "https://www.cliffhanger-berlin.de/",
       "lat": 52.5421112,
-      "lng": 13.2210670,
-      "disciplines": ["boulder"],
+      "lng": 13.221067,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1000,
       "opening_hours": {
@@ -120,7 +147,8 @@
         "fri": "11:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.cliffhanger-berlin.de/wp-content/uploads/2018/08/cliffhanger-slider3.jpg"
     },
     {
       "id": "dav-kletterzentrum-berlin",
@@ -129,7 +157,10 @@
       "url": "https://dav-berlin.de/klettern/kletterzentrum/",
       "lat": 52.5285248,
       "lng": 13.3625012,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1751,
       "opening_hours": {
@@ -140,7 +171,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-21:30",
         "sun": "10:00-21:30"
-      }
+      },
+      "image_url": "https://dav-berlin.de/wp-content/uploads/Bildschirmfoto-2026-06-02-um-13.52.14.png"
     },
     {
       "id": "der-kegel",
@@ -149,8 +181,14 @@
       "url": "https://derkegel.de/",
       "lat": 52.5071646,
       "lng": 13.4543918,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["moonboard", "kilter"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter"
+      ],
       "size_sqm": 550,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -160,7 +198,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://derkegel.de/wp-content/uploads/boulderbereich_draussen_clean_20230531_101958_692.jpg"
     },
     {
       "id": "elektra",
@@ -169,10 +208,16 @@
       "url": "https://daselektra.de/",
       "lat": 52.5410359,
       "lng": 13.3868779,
-      "disciplines": ["boulder"],
-      "boards": ["kilter", "tension"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "tension"
+      ],
       "size_sqm": 1900,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://daselektra.de/wp-content/uploads/ELEKTRA_LOGO_type_Quad-600x400.jpg"
     },
     {
       "id": "klettermax-berlin",
@@ -181,7 +226,10 @@
       "url": "https://klettermax.berlin/",
       "lat": 52.5373155,
       "lng": 13.6041606,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -189,7 +237,8 @@
         "fri": "14:00-19:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      }
+      },
+      "image_url": "https://klettermax.berlin/themes/klettermax/images/klettermax-hexagon-background.svg"
     },
     {
       "id": "magic-mountain",
@@ -198,7 +247,10 @@
       "url": "https://www.magicmountain.de/",
       "lat": 52.5485758,
       "lng": 13.3818333,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 2500,
       "opening_hours": {
@@ -209,7 +261,8 @@
         "fri": "09:00-23:30",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.magicmountain.de/wp-content/uploads/2021/11/magic-mountain-kletterhalle-berlin-klettern-bouldern-800-050.jpg"
     },
     {
       "id": "ninja-bloc",
@@ -217,8 +270,10 @@
       "address": "Seelenbinderstraße 129-157, 12555 Berlin",
       "url": "https://www.ninjahall.de/der-ninja-bloc-berlin/",
       "lat": 52.4554964,
-      "lng": 13.5930230,
-      "disciplines": ["boulder"],
+      "lng": 13.593023,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 150,
       "opening_hours": {
@@ -228,7 +283,8 @@
         "fri": "10:00-21:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://www.ninjahall.de/wp-content/uploads/Ninja-bloc-berlin-bouldern-1-2.webp"
     },
     {
       "id": "ostbloc",
@@ -237,7 +293,9 @@
       "url": "https://www.ostbloc.de/",
       "lat": 52.4915616,
       "lng": 13.4879599,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1200,
       "opening_hours": {
@@ -248,7 +306,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=4000x3000:format=jpg/path/sd5460faf8c6696a7/image/iaf7826dacbcfda44/version/1772555232/die-neigbare-spray-wall-ist-wieder-f%C3%BCr-euch-am-start.jpg"
     },
     {
       "id": "south-rock-kletterhalle",
@@ -257,7 +316,10 @@
       "url": "https://southrock-berlin.de/",
       "lat": 52.4270748,
       "lng": 13.3699307,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1500,
       "opening_hours": {
@@ -268,7 +330,8 @@
         "fri": "10:00-22:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "http://southrock-berlin.de/wp-content/uploads/2022/12/area85-rubrik-home-kletterhalle-610x610-1.jpg"
     },
     {
       "id": "suedbloc",
@@ -276,9 +339,13 @@
       "address": "Großbeerenstraße 2-10, 12107 Berlin",
       "url": "https://www.xn--sdbloc-3ya.de/",
       "lat": 52.4402348,
-      "lng": 13.3795870,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "lng": 13.379587,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 1600,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -288,7 +355,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1874x10000:format=png/path/sd591f4f0729531ad/image/i11741947cb4ce356/version/1730963240/image.png"
     },
     {
       "id": "urban-apes-basement",
@@ -297,8 +365,13 @@
       "url": "https://www.urbanapes.de/basement/",
       "lat": 52.5038087,
       "lng": 13.3843469,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "tension"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "tension"
+      ],
       "size_sqm": 1800,
       "opening_hours": {
         "mon": "08:00-23:00",
@@ -308,7 +381,8 @@
         "fri": "08:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     },
     {
       "id": "urban-apes-friedrichshain",
@@ -316,8 +390,10 @@
       "address": "Friedenstraße 91B, 10249 Berlin",
       "url": "https://www.urbanapes.de/friedrichshain/",
       "lat": 52.5224895,
-      "lng": 13.4365840,
-      "disciplines": ["boulder"],
+      "lng": 13.436584,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -328,17 +404,22 @@
         "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     },
     {
       "id": "urban-apes-wedding",
       "name": "Urban Apes Wedding",
       "address": "Müllerstraße 46, 13349 Berlin",
       "url": "https://www.urbanapes.de/wedding/",
-      "lat": 52.5520730,
+      "lat": 52.552073,
       "lng": 13.3508895,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-22:00",
@@ -348,7 +429,8 @@
         "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     }
   ]
 }

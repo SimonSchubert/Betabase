@@ -1,0 +1,22 @@
+{
+  "city": "New River",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "arizona-outdoor-fun",
+      "name": "Arizona Outdoor Fun",
+      "address": "61112 Old Black Canyon Highway, New River, AZ 85087",
+      "url": "https://azoutdoorfun.com",
+      "lat": 34.0389349,
+      "lng": -112.1493871,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

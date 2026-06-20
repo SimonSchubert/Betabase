@@ -1,0 +1,37 @@
+{
+  "city": "Liberty Township",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cliffhanger",
+      "name": "Cliffhanger",
+      "address": "Liberty Township, Ohio",
+      "url": "https://www.funattheweb.com/climbing-wall-cincinnati",
+      "lat": 39.3715223,
+      "lng": -84.3870365,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-web",
+      "name": "The Web",
+      "address": "Liberty Township, Ohio",
+      "url": "https://www.funattheweb.com",
+      "lat": 39.3715814,
+      "lng": -84.3868441,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

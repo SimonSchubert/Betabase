@@ -1,0 +1,22 @@
+{
+  "city": "Shoreham-by-Sea",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "adur-outdoor-activities-centre",
+      "name": "Adur Outdoor Activities Centre",
+      "address": "Brighton Road, Shoreham-by-Sea BN43 5LT",
+      "url": "https://www.aoac.org.uk/",
+      "lat": 50.8349,
+      "lng": -0.2392,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

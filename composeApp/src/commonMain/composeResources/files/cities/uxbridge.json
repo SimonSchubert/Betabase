@@ -1,0 +1,22 @@
+{
+  "city": "Uxbridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "amphibia-brunel-university",
+      "name": "Amphibia Brunel University",
+      "address": "Brunel University Sports Hall, Kingston Lane, Uxbridge UB8 3PH",
+      "url": "https://www.amphibia-group.co.uk/",
+      "lat": 51.53284,
+      "lng": -0.472836,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

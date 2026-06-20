@@ -1,0 +1,21 @@
+{
+  "city": "Tempe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "phoenix-rock-gym",
+      "name": "Phoenix Rock Gym",
+      "address": "1353 East University Drive, Tempe, AZ 85281",
+      "url": "https://phoenixrockgym.com",
+      "lat": 33.4206466,
+      "lng": -111.9161996,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

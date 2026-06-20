@@ -1,0 +1,22 @@
+{
+  "city": "Wotton-under-Edge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "wootton-under-edge-sports-centre-climbing",
+      "name": "Wootton-under-Edge Sports Centre Climbing",
+      "address": "Kingswood, Wotton-under-Edge GL12 8RB",
+      "url": "https://www.stroud.gov.uk/",
+      "lat": 51.631593,
+      "lng": -2.36415,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

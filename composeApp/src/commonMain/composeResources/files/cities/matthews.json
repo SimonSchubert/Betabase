@@ -1,0 +1,22 @@
+{
+  "city": "Matthews",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "inner-peaks-matthews",
+      "name": "Inner Peaks Matthews",
+      "address": "10715 Independence Pointe Parkway, Matthews, NC 28105",
+      "url": "https://innerpeaks.com",
+      "lat": 35.1205877,
+      "lng": -80.705705,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

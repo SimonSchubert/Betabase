@@ -1,0 +1,22 @@
+{
+  "city": "Livonia",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kirksey-recreation-center",
+      "name": "Kirksey Recreation Center",
+      "address": "15100 Hubbard, Livonia, MI 48154",
+      "url": "https://livonia.gov/228/Kirksey-Recreation-Center",
+      "lat": 42.3963603,
+      "lng": -83.3623638,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Pontypridd",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "the-spot-climbing-centre",
+      "name": "The Spot Climbing Centre",
+      "address": "Unit 11 Rizla House, Treforrest Industrial Estate, Pontypridd CF37 5SP",
+      "url": "https://www.thespotclimbing.co.uk/",
+      "lat": 51.574163,
+      "lng": -3.296833,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-south-wales-climbing-wall",
+      "name": "University of South Wales Climbing Wall",
+      "address": "Llantwit Road, Treforest, Pontypridd CF37 1DL",
+      "url": "https://www.southwales.ac.uk/",
+      "lat": 51.589204,
+      "lng": -3.326003,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "city": "Birchington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "revolution-climbing-centre",
+      "name": "Revolution Climbing Centre",
+      "address": "Oakwood Industrial Estate, Dane Valley Road, Birchington CT10 3JJ",
+      "url": "https://www.revolutionskatepark.co.uk/",
+      "lat": 51.371179,
+      "lng": 1.416006,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.revolutionskatepark.co.uk/images/panels/climbing-sessions.png"
+    }
+  ]
+}

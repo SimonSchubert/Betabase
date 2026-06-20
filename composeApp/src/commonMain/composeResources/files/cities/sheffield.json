@@ -1,0 +1,177 @@
+{
+  "city": "Sheffield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "awesome-walls-sheffield",
+      "name": "Awesome Walls Sheffield",
+      "address": "2 Garter Street, S4 7QX Sheffield",
+      "url": "https://www.awesomewalls.co.uk/sheffield-broken/",
+      "lat": 53.399701,
+      "lng": -1.4454588,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      },
+      "image_url": "https://www.awesomewalls.co.uk/wp-content/uploads/2026/05/Route-Setting-All-Jan-May-1-1024x577.jpg"
+    },
+    {
+      "id": "depot-climbing-sheffield",
+      "name": "Depot Climbing Sheffield",
+      "address": "Newhall Road, S9 2QL Sheffield",
+      "url": "https://www.depotclimbing.co.uk/sheffield/",
+      "lat": 53.398014,
+      "lng": -1.4325155,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-22:00",
+        "tue": "06:00-22:00",
+        "wed": "06:00-22:00",
+        "thu": "06:00-22:00",
+        "fri": "06:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      },
+      "image_url": "https://www.depotclimbing.co.uk/sheffield/wp-content/uploads/sites/15/2023/11/DSC01762-WEB-BANNER-USE-2-1200x800.jpg"
+    },
+    {
+      "id": "heeley-millennium-park-boulders",
+      "name": "Heeley Millennium Park Boulders",
+      "address": "Heeley Millennium Park, Sheffield S2 3AQ",
+      "url": "https://www.heeleypark.org/",
+      "lat": 53.361394,
+      "lng": -1.468618,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "matrix-bouldering-wall",
+      "name": "Matrix Bouldering Wall",
+      "address": "Goodwin Sports Centre, Northumberland Road, Sheffield S10 2TY",
+      "url": "https://www.sport-sheffield.com/",
+      "lat": 53.382144,
+      "lng": -1.496609,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climbing-hangar-sheffield",
+      "name": "The Climbing Hangar Sheffield",
+      "address": "Unit A & B, 15 Sutherland St, S4 7WG Sheffield",
+      "url": "https://www.theclimbinghangar.com/locations/sheffield",
+      "lat": 53.3908394,
+      "lng": -1.4507539,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "tension"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "06:30-22:00",
+        "wed": "06:30-22:00",
+        "thu": "10:00-22:00",
+        "fri": "06:30-21:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "image_url": "https://www.theclimbinghangar.com/media/4791/website-72dpi-tch-sheffield-photography-september-2023-rob-battersby-83.jpg?anchor=center&mode=crop&width=280&height=250&quality=70"
+    },
+    {
+      "id": "the-climbing-works",
+      "name": "The Climbing Works",
+      "address": "Unit B2, Centenary Works, 150 Little London Road, S8 0UJ Sheffield",
+      "url": "https://www.climbingworks.com",
+      "lat": 53.3519519,
+      "lng": -1.4850489,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "the-foundry",
+      "name": "The Foundry",
+      "address": "Unit 2, 45 Mowbray Street, Sheffield S3 8EN",
+      "url": "https://www.foundryclimbing.com/",
+      "lat": 53.390414,
+      "lng": -1.471701,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/59d4a6be8419c263977cf2e3/bce98fbd-2017-48c9-a7f9-1b1509d8b7cf/Adult+Climbing+Home+Page.png?format=2500w"
+    },
+    {
+      "id": "the-mini-works",
+      "name": "The Mini Works",
+      "address": "Unit G, Centenary Works, 150 Little London Road, S8 0UJ Sheffield",
+      "url": "https://www.climbingworks.com/the-mini-works",
+      "lat": 53.3514335,
+      "lng": -1.4847927,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-sheffield-climbing-wall",
+      "name": "University of Sheffield Climbing Wall",
+      "address": "Goodwin Sports Centre, University of Sheffield, Sheffield S10 2TN",
+      "url": "https://sport.sheffield.ac.uk/",
+      "lat": 53.381381,
+      "lng": -1.48853,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

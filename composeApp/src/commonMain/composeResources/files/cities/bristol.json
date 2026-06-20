@@ -1,0 +1,173 @@
+{
+  "city": "Bristol",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "bloc-climbing-bristol",
+      "name": "Bloc Climbing Centre",
+      "address": "Hartcliffe Way, BS3 4RP Bristol",
+      "url": "https://www.blocclimbing.co.uk",
+      "lat": 51.43049,
+      "lng": -2.6048261,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.blocclimbing.co.uk/dist/images/Bloc-Climbing-Logo.svg"
+    },
+    {
+      "id": "bristol-climbing-centre",
+      "name": "Bristol Climbing Centre",
+      "address": "Mina Road, Bristol BS2 9YQ",
+      "url": "https://www.bristolclimbing.co.uk/",
+      "lat": 51.4719787,
+      "lng": -2.5767852,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "redpoint-bristol",
+      "name": "Redpoint Bristol",
+      "address": "40 Winterstoke Road, Bedminster, Bristol BS3 2NW",
+      "url": "https://www.redpointbristol.co.uk/",
+      "lat": 51.434359,
+      "lng": -2.612924,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://redpointbristol.co.uk/wp-content/uploads/2019/12/climbing-wall-bristol.jpg"
+    },
+    {
+      "id": "the-church-bristol",
+      "name": "The Church",
+      "address": "Mina Road, BS2 9YQ Bristol",
+      "url": "https://www.theclimbingacademy.com/locations/the-church/",
+      "lat": 51.4719787,
+      "lng": -2.5767852,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-18:00"
+      },
+      "image_url": "https://www.theclimbingacademy.com/wp-content/uploads/2025/04/tca-logo-150x150.png"
+    },
+    {
+      "id": "climbing-hangar-bristol",
+      "name": "The Climbing Hangar Bristol",
+      "address": "15-29 Union St, BS1 2DF Bristol",
+      "url": "https://www.theclimbinghangar.com/locations/bristol",
+      "lat": 51.4564822,
+      "lng": -2.5913478,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter",
+        "tension"
+      ],
+      "size_sqm": 2508,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "06:30-22:00",
+        "thu": "10:00-22:00",
+        "fri": "06:30-21:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "image_url": "https://www.theclimbinghangar.com/media/5835/bristol-photos-pre-open-2.jpg?anchor=center&mode=crop&width=280&height=250&quality=70"
+    },
+    {
+      "id": "the-mothership",
+      "name": "The Mothership",
+      "address": "85 Barrow Road, BS5 0FD Bristol",
+      "url": "https://www.theclimbingacademy.com/locations/the-mothership/",
+      "lat": 51.4550492,
+      "lng": -2.5690824,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "07:00-22:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "image_url": "https://www.theclimbingacademy.com/wp-content/uploads/2025/04/tca-logo-150x150.png"
+    },
+    {
+      "id": "undercover-rock",
+      "name": "Undercover Rock",
+      "address": "Winterstoke Road, BS3 2NW Bristol",
+      "url": "https://www.undercover-rock.co.uk",
+      "lat": 51.4342245,
+      "lng": -2.6130813,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-bristol-climbing-wall",
+      "name": "University of Bristol Climbing Wall",
+      "address": "Indoor Sports Centre, University of Bristol, Bristol BS8 1TN",
+      "url": "https://www.bristol.ac.uk/sport/",
+      "lat": 51.460755,
+      "lng": -2.604985,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.bristol.ac.uk/media-library/sites/sport/images/logos/rsz_1greenimpact_award_2017_plat-120x105.png"
+    },
+    {
+      "id": "uwe-centre-for-sport-climbing",
+      "name": "UWE Centre for Sport Climbing",
+      "address": "Frenchay Campus, Coldharbour Lane, Bristol BS16 1QY",
+      "url": "https://www.uwe.ac.uk/life/activities/sport/sports-facilities/climbing-wall",
+      "lat": 51.501078,
+      "lng": -2.547459,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.uwe.ac.uk/-/media/uwe/images/life/sport/sport-climbing-courses-740x300.jpg?db=web&amp;rev=0352832e1fbc40179ed744feb3a54f12&amp;hash=74FD4E04A661BA1B602DA17FE321FD87"
+    }
+  ]
+}

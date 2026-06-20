@@ -1,0 +1,21 @@
+{
+  "city": "Stretford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "victorian-park-boulder",
+      "name": "Victorian Park Boulder",
+      "address": "Victoria Park, Stretford, Manchester M32 0TP",
+      "url": "https://www.traffordleisure.co.uk/",
+      "lat": 53.461513,
+      "lng": -2.326675,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

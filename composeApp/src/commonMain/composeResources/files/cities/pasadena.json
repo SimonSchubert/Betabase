@@ -1,0 +1,22 @@
+{
+  "city": "Pasadena",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-post",
+      "name": "The Post",
+      "address": "1100 North Fair Oaks Avenue, Pasadena, CA 91103",
+      "url": "https://touchstoneclimbing.com/the-post",
+      "lat": 34.1647739,
+      "lng": -118.1503115,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

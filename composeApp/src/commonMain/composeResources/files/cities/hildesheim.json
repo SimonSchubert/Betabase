@@ -10,7 +10,10 @@
       "url": "https://www.hiclimb.de",
       "lat": 52.1724621,
       "lng": 9.9435233,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +24,8 @@
         "fri": "14:00-22:30",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://hiclimb.de/wp-content/uploads/2026/06/grilling-2491123_1920.jpg"
     }
   ]
 }

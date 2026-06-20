@@ -1,0 +1,22 @@
+{
+  "city": "Tranent",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "foresters-park-pavilion-climbing",
+      "name": "Foresters Park Pavilion Climbing",
+      "address": "Foresters Park, Tranent EH33 1NL",
+      "url": "https://www.eastlothian.gov.uk/",
+      "lat": 55.944504,
+      "lng": -2.960834,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

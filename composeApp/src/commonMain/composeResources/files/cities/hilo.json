@@ -1,0 +1,22 @@
+{
+  "city": "Hilo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "big-island-climbing",
+      "name": "Big Island Climbing",
+      "address": "126 Keawe Street, Hilo, HI 96720",
+      "url": "https://bigislandclimbing.com",
+      "lat": 19.7253338,
+      "lng": -155.087761,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

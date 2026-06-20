@@ -1,0 +1,23 @@
+{
+  "city": "Chippenham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "the-arc-climbing-centre",
+      "name": "The Arc Climbing Centre",
+      "address": "Westmead Lane, Chippenham SN15 3HZ",
+      "url": "https://www.theclimbingacademy.com/locations/the-arc/",
+      "lat": 51.4629,
+      "lng": -2.1231,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbingacademy.com/wp-content/uploads/2025/04/tca-logo-150x150.png"
+    }
+  ]
+}

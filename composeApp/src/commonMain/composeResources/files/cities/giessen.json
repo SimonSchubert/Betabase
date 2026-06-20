@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://dav-giessen.de/wp-content/uploads/2019/03/backgorund-topo-dav.jpg"
     },
     {
       "id": "level-8-giessen",
@@ -39,7 +40,8 @@
         "fri": "10:00-22:30",
         "sat": "10:00-22:30",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://levelacht.de/eeftypha/2022/07/neue-boulder.jpg"
     }
   ],
   "source": "manual-curation-web-research",

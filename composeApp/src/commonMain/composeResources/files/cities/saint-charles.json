@@ -1,0 +1,22 @@
+{
+  "city": "Saint Charles",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-so-ill-at-the-steel-shop",
+      "name": "Climb So iLL at the Steel Shop",
+      "address": "650 North Main Center, Saint Charles, MO 63301",
+      "url": "https://stcharles.climbsoill.com",
+      "lat": 38.7866257,
+      "lng": -90.4781734,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

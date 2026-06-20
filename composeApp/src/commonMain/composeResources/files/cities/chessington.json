@@ -1,0 +1,22 @@
+{
+  "city": "Chessington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "chessington-rocks",
+      "name": "Chessington Rocks",
+      "address": "Garrison Lane, Chessington KT9 2JS",
+      "url": "https://www.chessingtonsportscentre.co.uk/",
+      "lat": 51.356788,
+      "lng": -0.309274,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

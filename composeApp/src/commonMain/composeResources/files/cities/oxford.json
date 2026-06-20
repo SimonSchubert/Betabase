@@ -1,0 +1,53 @@
+{
+  "city": "Oxford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "cliffs-climbing-centre",
+      "name": "Cliffs Climbing Centre",
+      "address": "Oxford Ice Rink, Oxpens Road, Oxford OX1 1RX",
+      "url": "https://www.cliffsclimbing.co.uk/",
+      "lat": 51.750708,
+      "lng": -1.266501,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rock-solid-oxford-brookes",
+      "name": "Rock Solid Oxford Brookes",
+      "address": "Gypsy Lane, Headington, Oxford OX3 0BP",
+      "url": "https://www.brookes.ac.uk/sport/climb",
+      "lat": 51.754386,
+      "lng": -1.223182,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-oxford-climbing-wall",
+      "name": "University of Oxford Climbing Wall",
+      "address": "Iffley Road Sports Centre, Oxford OX4 1EQ",
+      "url": "https://www.sport.ox.ac.uk/",
+      "lat": 51.747253,
+      "lng": -1.242048,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.sport.ox.ac.uk/sites/default/files/styles/listing_landscape_image/public/sport/images/media/website_homepage_slideshow_template_correct_1728_x_520_px_1.png?itok=A6tuAun-"
+    }
+  ]
+}

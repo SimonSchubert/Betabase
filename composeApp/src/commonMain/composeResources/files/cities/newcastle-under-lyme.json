@@ -1,0 +1,22 @@
+{
+  "city": "Newcastle-under-Lyme",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "chesterton-sports-centre-climbing",
+      "name": "Chesterton Sports Centre Climbing",
+      "address": "Castle Street, Chesterton, Newcastle-under-Lyme ST5 7LP",
+      "url": "https://www.chestertonsportscentre.org.uk/",
+      "lat": 53.039257,
+      "lng": -2.251587,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

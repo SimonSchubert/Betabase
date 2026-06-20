@@ -1,0 +1,22 @@
+{
+  "city": "Edmond",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "blocworks",
+      "name": "Blocworks",
+      "address": "104 South Broadway, Edmond, OK 73034",
+      "url": "https://www.climbblocworks.com",
+      "lat": 35.6539881,
+      "lng": -97.4812324,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

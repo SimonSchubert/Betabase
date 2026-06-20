@@ -1,0 +1,38 @@
+{
+  "city": "Blackpool",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "blackpool-climbing-centre",
+      "name": "Blackpool Climbing Centre",
+      "address": "Palatine Leisure Centre, St Annes Road, Blackpool FY4 2AP",
+      "url": "https://www.better.org.uk/",
+      "lat": 53.797491,
+      "lng": -3.042816,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "blackpool-climbing-towers",
+      "name": "Blackpool Climbing Towers",
+      "address": "George Bancroft Park, Off Stansfield Street, Blackpool FY1 6JB",
+      "url": "https://www.sportblackpool.co.uk/",
+      "lat": 53.800818,
+      "lng": -3.046755,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

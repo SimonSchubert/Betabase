@@ -1,0 +1,22 @@
+{
+  "city": "Guiseley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "aireborough-leisure-centre-climbing",
+      "name": "Aireborough Leisure Centre Climbing",
+      "address": "The Green, Guiseley, Leeds LS20 9BT",
+      "url": "https://www.leeds.gov.uk/",
+      "lat": 53.871991,
+      "lng": -1.707065,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

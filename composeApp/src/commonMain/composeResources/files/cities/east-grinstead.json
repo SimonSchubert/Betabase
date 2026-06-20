@@ -1,0 +1,22 @@
+{
+  "city": "East Grinstead",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "blackland-farm-climbing",
+      "name": "Blackland Farm Climbing",
+      "address": "Grinstead Lane, East Grinstead RH19 4HP",
+      "url": "https://www.girlguiding.org.uk/",
+      "lat": 51.085587,
+      "lng": -0.03035,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -10,7 +10,9 @@
       "url": "https://www.kraftwerk-lueneburg.de",
       "lat": 53.2442186,
       "lng": 10.4213842,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

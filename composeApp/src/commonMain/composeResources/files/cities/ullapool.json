@@ -1,0 +1,22 @@
+{
+  "city": "Ullapool",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "lochbroom-leisure-centre-climbing",
+      "name": "Lochbroom Leisure Centre Climbing",
+      "address": "Quay Street, Ullapool IV26 2UE",
+      "url": "https://www.highlifehighland.com/",
+      "lat": 57.897812,
+      "lng": -5.161894,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

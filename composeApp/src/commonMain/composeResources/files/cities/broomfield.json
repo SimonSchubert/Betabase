@@ -1,0 +1,22 @@
+{
+  "city": "Broomfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "g1-climbing-fitness",
+      "name": "G1 Climbing + Fitness",
+      "address": "8845 West 116th Circle, Broomfield, CO 80021",
+      "url": "https://g1climbing.com",
+      "lat": 39.9064337,
+      "lng": -105.0996976,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

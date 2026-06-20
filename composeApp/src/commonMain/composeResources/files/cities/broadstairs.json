@@ -1,0 +1,22 @@
+{
+  "city": "Broadstairs",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "revolution-climbing-broadstairs",
+      "name": "Revolution Climbing Broadstairs",
+      "address": "Oakwood Industrial Estate, Dane Valley Road, Broadstairs CT10 1LF",
+      "url": "https://www.revolutionclimbingcentre.co.uk/",
+      "lat": 51.358924,
+      "lng": 1.441299,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

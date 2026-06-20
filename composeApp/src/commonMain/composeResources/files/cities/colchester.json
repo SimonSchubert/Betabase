@@ -1,0 +1,67 @@
+{
+  "city": "Colchester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "go-bananas-climbing-colchester",
+      "name": "Go Bananas Climbing Colchester",
+      "address": "9-10 Mason Road, Cowdray Centre, Colchester CO1 1BX",
+      "url": "https://www.go-bananas.co.uk/",
+      "lat": 51.898986,
+      "lng": 0.900731,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "green-spider-climbing",
+      "name": "Green Spider Climbing",
+      "address": "Unit 2, Peartree Road, Stanway, Colchester CO3 0JN",
+      "url": "https://spiderclimbing.com/green-spider/",
+      "lat": 51.7358,
+      "lng": 0.4689,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://spiderclimbing.com/wp-content/uploads/2026/06/Summer-Bash-1-1024x853.png"
+    },
+    {
+      "id": "tiptree-big-red-wall",
+      "name": "Tiptree Big Red Wall",
+      "address": "Leisure World Tiptree, Maypole Road, Colchester CO5 0EJ",
+      "url": "https://www.tiptreesportscentre.co.uk/",
+      "lat": 51.818955,
+      "lng": 0.747011,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-essex-climbing-wall",
+      "name": "University of Essex Climbing Wall",
+      "address": "Wivenhoe Park, Colchester CO4 3SQ",
+      "url": "https://www.essex.ac.uk/sport/facilities/colchester",
+      "lat": 51.87681,
+      "lng": 0.946585,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

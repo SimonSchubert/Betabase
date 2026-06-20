@@ -45,7 +45,8 @@
         "fri": "07:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://www.boulderwelt-muenchen-west.de/wp-content/uploads/2024/02/Luca-Golling-Kurswesen.png"
     },
     {
       "id": "dav-freimann",
@@ -70,7 +71,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://www.kbfreimann.de/wp-content/uploads/sites/8/2022/11/LOGO_KBF_100.png"
     },
     {
       "id": "dav-thalkirchen",
@@ -93,7 +95,8 @@
         "fri": "07:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://www.kbthalkirchen.de/wp-content/uploads/sites/5/2025/07/Aussenwaende_TK_3_0-24-scaled.jpg"
     },
     {
       "id": "einstein-boulder-muenchen",
@@ -118,7 +121,8 @@
         "fri": "06:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://muenchen.einstein-boulder.com/wp-content/uploads/2024/01/LOCAL-ROUTSETTER-NIGHT-story-2025-800-x-800-px-Desktop-Wallpaper.jpg"
     },
     {
       "id": "element-boulders-muenchen",
@@ -142,7 +146,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://muenchen.element-boulders.de/files/theme_element_v2/svg/element-logo-white.svg"
     },
     {
       "id": "heavens-gate-muenchen",
@@ -165,7 +170,8 @@
         "fri": "07:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.heavensgate-muc.de/wp-content/uploads/Big-Wallhalla-Plakat-Druck-4.png"
     },
     {
       "id": "mtv-muenchen",
@@ -213,7 +219,8 @@
         "fri": "08:00-23:00",
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
-      }
+      },
+      "image_url": "https://www.svn-muenchen.de/wp-content/uploads/2021/07/svn-logo.svg"
     },
     {
       "id": "boulderwelt-muenchen-sued",
@@ -235,7 +242,8 @@
         "fri": "07:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://www.boulderwelt-muenchen-sued.de/wp-content/uploads/2020/09/BW_logo_MUC_Sued.png"
     }
   ]
 }

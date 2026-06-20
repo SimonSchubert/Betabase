@@ -1,0 +1,66 @@
+{
+  "city": "New York",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym",
+      "name": "Central Rock Gym",
+      "address": "21 West End Avenue, New York, NY 10023",
+      "url": "https://centralrockgym.com/manhattan",
+      "lat": 40.7725218,
+      "lng": -73.9902928,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-gowanus",
+      "name": "Movement Gowanus",
+      "address": "242 Butler Street, NY 11217",
+      "url": "https://gowanus.thecliffsclimbing.com",
+      "lat": 40.6814293,
+      "lng": -73.9854375,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-cliffs-at-harlem",
+      "name": "The Cliffs at Harlem",
+      "address": "256 West 125th Street, NY 10027",
+      "url": "https://harlem.thecliffsclimbing.com",
+      "lat": 40.8096064,
+      "lng": -73.9502428,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vital-climbing",
+      "name": "Vital Climbing",
+      "address": "182 Broome Street, New York, NY 10002",
+      "url": "https://www.vitalclimbinggym.com/lower-east-side",
+      "lat": 40.7176003,
+      "lng": -73.9863546,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

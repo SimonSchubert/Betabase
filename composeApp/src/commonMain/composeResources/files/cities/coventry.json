@@ -1,0 +1,38 @@
+{
+  "city": "Coventry",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "bear-rock-climbing-centre",
+      "name": "Bear Rock Climbing Centre",
+      "address": "Sports Centre, University of Warwick, Coventry CV4 7AL",
+      "url": "https://warwick.ac.uk/services/sport/climbing",
+      "lat": 52.385682,
+      "lng": -1.56482,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://warwick.ac.uk/services/sport/climb-banner.webp.webp"
+    },
+    {
+      "id": "origin-climbing-centre",
+      "name": "Origin Climbing Centre",
+      "address": "Unit 1, Bayton Road Industrial Estate, Exhall, Coventry CV7 9EJ",
+      "url": "https://www.originclimbing.co.uk/",
+      "lat": 52.463794,
+      "lng": -1.475152,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://static.wixstatic.com/media/8353d9_53df805ab9d945f692b1221a0f8ea821~mv2.jpg"
+    }
+  ]
+}

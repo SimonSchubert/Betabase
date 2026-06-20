@@ -1,0 +1,22 @@
+{
+  "city": "Wolsingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "wolsingham-sports-hall-climbing",
+      "name": "Wolsingham Sports Hall Climbing",
+      "address": "Leazes Lane, Wolsingham DL13 3DN",
+      "url": "https://www.wolsinghamsportshall.com/",
+      "lat": 54.7472637,
+      "lng": -1.8985665,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

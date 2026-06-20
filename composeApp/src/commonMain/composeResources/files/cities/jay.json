@@ -1,0 +1,21 @@
+{
+  "city": "Jay",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "clips-reels-climbing-gym",
+      "name": "Clips & Reels Climbing gym",
+      "address": "Jay, Vermont",
+      "url": "https://jaypeakresort.com/things-to-do/activities/clips-reels-climbing-gym",
+      "lat": 44.9293503,
+      "lng": -72.5035154,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

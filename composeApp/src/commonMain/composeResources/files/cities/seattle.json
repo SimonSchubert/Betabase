@@ -1,0 +1,123 @@
+{
+  "city": "Seattle",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "castle-climbing-club",
+      "name": "Castle Climbing Club",
+      "address": "6327 West Marginal Way Southwest, Seattle, WA 98106",
+      "url": "https://www.castleclimbingclub.com",
+      "lat": 47.545654,
+      "lng": -122.3454543,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "edgeworks-climbing",
+      "name": "Edgeworks Climbing",
+      "address": "2839 Northwest Market Street, Seattle, WA 98107",
+      "url": "https://edgeworksclimbing.com/seattle",
+      "lat": 47.6680443,
+      "lng": -122.395343,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "half-moon-bouldering",
+      "name": "Half Moon Bouldering",
+      "address": "124 North 85th Street, Seattle, WA 98103",
+      "url": "https://halfmoonbouldering.com",
+      "lat": 47.6912616,
+      "lng": -122.3569385,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "momentum-indoor-climbing",
+      "name": "Momentum Indoor Climbing",
+      "address": "2759 1st Avenue South, Seattle, WA 98134",
+      "url": "https://www.momentumclimbing.com/sodo",
+      "lat": 47.5781341,
+      "lng": -122.3348075,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "seattle-bouldering-project",
+      "name": "Seattle Bouldering Project",
+      "address": "3535 Interlake Avenue North, Seattle, WA 98103",
+      "url": "https://seattleboulderingproject.com/fremont",
+      "lat": 47.650259,
+      "lng": -122.3417533,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "seattle-bouldering-project-sbp",
+      "name": "Seattle Bouldering Project - SBP",
+      "address": "900 Poplar Place South, Seattle, WA 98144",
+      "url": "https://seattleboulderingproject.com",
+      "lat": 47.5936174,
+      "lng": -122.3109124,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "seattle-bouldering-project-upper-walls",
+      "name": "Seattle Bouldering Project Upper Walls",
+      "address": "3625 Interlake Avenue North, Seattle, WA 98103",
+      "url": "https://seattleboulderingproject.com/upper-walls",
+      "lat": 47.651373,
+      "lng": -122.341696,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-world",
+      "name": "Vertical World",
+      "address": "2330 West Commodore Way, Seattle, WA 98199",
+      "url": "https://seattle.verticalworld.com",
+      "lat": 47.6610005,
+      "lng": -122.386712,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

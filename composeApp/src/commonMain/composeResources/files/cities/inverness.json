@@ -1,0 +1,37 @@
+{
+  "city": "Inverness",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "climb-inverness-leisure",
+      "name": "Climb@Inverness Leisure",
+      "address": "Inverness Aquadome, Glenurquhart Road, Inverness IV3 5SS",
+      "url": "https://www.invernessleisure.com/",
+      "lat": 57.4689,
+      "lng": -4.2267,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "high-life-highland-climbing",
+      "name": "High Life Highland Climbing",
+      "address": "12-13 Ardross Street, Inverness IV3 5NS",
+      "url": "https://www.highlifehighland.com/",
+      "lat": 57.47487,
+      "lng": -4.231246,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

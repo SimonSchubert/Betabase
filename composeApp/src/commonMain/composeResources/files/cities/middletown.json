@@ -1,0 +1,22 @@
+{
+  "city": "Middletown",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-gravity-vault-middletown-nj",
+      "name": "The Gravity Vault - Middletown, NJ",
+      "address": "37 Kanes Lane, Middletown, NJ 07748",
+      "url": "https://gravityvault.com/locations/middletown-nj",
+      "lat": 40.3862203,
+      "lng": -74.0880513,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

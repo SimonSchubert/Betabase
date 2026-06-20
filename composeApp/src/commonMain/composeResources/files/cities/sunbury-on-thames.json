@@ -1,0 +1,22 @@
+{
+  "city": "Sunbury-on-Thames",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "the-heights-climbing-wall",
+      "name": "The Heights Climbing Wall",
+      "address": "Sunbury Leisure Centre, Nursery Road, Sunbury-on-Thames TW16 6LG",
+      "url": "https://www.heightscc.co.uk/",
+      "lat": 51.413855,
+      "lng": -0.422057,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

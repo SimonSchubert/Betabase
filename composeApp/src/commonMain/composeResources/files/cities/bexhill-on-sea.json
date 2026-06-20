@@ -1,0 +1,22 @@
+{
+  "city": "Bexhill-on-Sea",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "bexhill-college-climbing-wall",
+      "name": "Bexhill College Climbing Wall",
+      "address": "Penland Road, Bexhill-on-Sea TN40 2JG",
+      "url": "https://www.bexhillcollege.ac.uk/",
+      "lat": 50.847108,
+      "lng": 0.490964,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Midlothian",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "peak-experiences-midlothian",
+      "name": "Peak Experiences Midlothian",
+      "address": "11421 Polo Circle, Midlothian, VA 23113",
+      "url": "https://www.peakexperiences.com",
+      "lat": 37.5261052,
+      "lng": -77.6097913,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

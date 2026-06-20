@@ -1,0 +1,22 @@
+{
+  "city": "Traverse City",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "elev8",
+      "name": "ELEV8",
+      "address": "777 Boyd Avenue, Traverse City, MI 49686",
+      "url": "https://www.elev8climbing.com",
+      "lat": 44.7582884,
+      "lng": -85.6060706,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

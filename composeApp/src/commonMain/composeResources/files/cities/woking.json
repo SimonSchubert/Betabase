@@ -1,0 +1,23 @@
+{
+  "city": "Woking",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "red-spider-climbing",
+      "name": "Red Spider Climbing",
+      "address": "Unit 1, Goldsworth Park Trading Estate, Woking GU21 3LQ",
+      "url": "https://spiderclimbing.com/red-spider/",
+      "lat": 51.3162,
+      "lng": -0.558,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://spiderclimbing.com/wp-content/uploads/2026/01/Red-Spider-Spring-Boulder-Series-Blog-Image-800x500px-1.png"
+    }
+  ]
+}

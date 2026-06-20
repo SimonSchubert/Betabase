@@ -1,0 +1,22 @@
+{
+  "city": "Golden",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-golden",
+      "name": "Movement Golden",
+      "address": "700 Golden Ridge Road, Golden, CO 80401",
+      "url": "https://movementgyms.com/golden",
+      "lat": 39.7281533,
+      "lng": -105.2072596,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

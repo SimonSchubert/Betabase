@@ -1,7 +1,7 @@
 {
   "city": "Manchester",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T12:19:36Z",
   "gyms": [
     {
       "id": "awesome-walls-stockport",
@@ -10,7 +10,10 @@
       "url": "https://www.awesomewalls.co.uk/stockport",
       "lat": 53.4140623,
       "lng": -2.1333589,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,16 +24,20 @@
         "fri": "10:00-22:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      }
+      },
+      "image_url": "https://www.awesomewalls.co.uk/wp-content/uploads/2026/05/Route-Setting-All-Jan-May-1-1024x577.jpg"
     },
     {
-      "id": "depot-climbing-manchester",
-      "name": "Depot Climbing Manchester",
-      "address": "24 Mosley Road, M17 1PG Manchester",
-      "url": "https://depotclimbing.co.uk/manchester",
-      "lat": 53.4641431,
-      "lng": -2.3209203,
-      "disciplines": ["boulder", "lead"],
+      "id": "big-depot-manchester",
+      "name": "Big Depot Manchester",
+      "address": "9 Brindley Road, M17 1SB Manchester",
+      "url": "https://www.depotclimbing.co.uk/big-depot-manchester/",
+      "lat": 53.4644784,
+      "lng": -2.2767388,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +48,92 @@
         "fri": "06:00-22:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.depotclimbing.co.uk/big-depot-manchester/wp-content/uploads/sites/20/2025/01/bdm-web-banner.jpg"
+    },
+    {
+      "id": "boulder-uk-manchester",
+      "name": "Boulder UK Manchester",
+      "address": "Unit 6, Piccadilly Trading Estate, Manchester M1 2NP",
+      "url": "https://www.boulderuk.com/",
+      "lat": 53.477807,
+      "lng": -2.221252,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "chill-factore-climbing-wall",
+      "name": "Chill Factore Climbing Wall",
+      "address": "Trafford Way, Trafford Quays, Manchester M41 7JA",
+      "url": "https://www.chillfactore.com/",
+      "lat": 53.468046,
+      "lng": -2.361492,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "clip-n-climb-manchester",
+      "name": "Clip 'n Climb Manchester",
+      "address": "Phoenix Industrial Estate, 5 Great Jackson Street, Manchester M15 4FY",
+      "url": "https://clipnclimb.co.uk/locations/manchester/",
+      "lat": 53.472191,
+      "lng": -2.26083,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "depot-climbing-manchester",
+      "name": "Depot Climbing Manchester",
+      "address": "24 Mosley Road, M17 1PG Manchester",
+      "url": "https://depotclimbing.co.uk/manchester",
+      "lat": 53.4641431,
+      "lng": -2.3209203,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-22:00",
+        "tue": "06:00-22:00",
+        "wed": "06:00-22:00",
+        "thu": "06:00-22:00",
+        "fri": "06:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      },
+      "image_url": "https://www.depotclimbing.co.uk/wp-content/uploads/2025/02/depot-climbing-homepage-banner-feb-2025.jpg"
+    },
+    {
+      "id": "manchester-climbing-centre",
+      "name": "Manchester Climbing Centre",
+      "address": "St Benedicts Church, Bennett Street, Manchester M12 5ND",
+      "url": "https://www.manchesterclimbingcentre.com/",
+      "lat": 53.469307,
+      "lng": -2.204818,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://parthianclimbing.com/wp-content/uploads/2022/11/Parthian-Climbing-Social-Card.jpg"
     },
     {
       "id": "parthian-climbing-manchester",
@@ -50,10 +142,14 @@
       "url": "https://parthianclimbing.com",
       "lat": 53.4694188,
       "lng": -2.2039724,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://parthianclimbing.com/wp-content/uploads/2022/11/Parthian-Climbing-Social-Card.jpg"
     },
     {
       "id": "rock-over-climbing",
@@ -62,7 +158,41 @@
       "url": "https://rockoverclimbing.com",
       "lat": 53.4914119,
       "lng": -2.2452626,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.rockoverclimbing.com/wp-content/uploads/2026/04/Climbz.jpg"
+    },
+    {
+      "id": "university-of-manchester-climbing-wall",
+      "name": "University of Manchester Climbing Wall",
+      "address": "Armitage Sports Centre, University of Manchester, Manchester M13 9PL",
+      "url": "https://www.sport.manchester.ac.uk/",
+      "lat": 53.466926,
+      "lng": -2.233578,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.sport.manchester.ac.uk/wp-content/themes/UoMDiviChild/images/logo.png"
+    },
+    {
+      "id": "vertical-chill-manchester",
+      "name": "Vertical Chill Manchester",
+      "address": "130 Deansgate, Manchester M3 2QS",
+      "url": "https://www.vertical-chill.com/",
+      "lat": 53.4809876,
+      "lng": -2.2481521,
+      "disciplines": [
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

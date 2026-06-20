@@ -1,0 +1,52 @@
+{
+  "city": "Leicester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "leicester-outdoor-pursuits-centre-climbing",
+      "name": "Leicester Outdoor Pursuits Centre Climbing",
+      "address": "Loughborough Road, Leicester LE4 5PN",
+      "url": "https://www.lopc.co.uk/",
+      "lat": 52.661301,
+      "lng": -1.12445,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "moat-community-college-climbing",
+      "name": "Moat Community College Climbing",
+      "address": "Maidstone Road, Leicester LE2 0TU",
+      "url": "https://www.moat.leicester.sch.uk/",
+      "lat": 52.63336,
+      "lng": -1.1196,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-tower-climbing-centre",
+      "name": "The Tower Climbing Centre",
+      "address": "Leicester Leys Leisure Centre, Beaumont Way, Leicester LE4 1DS",
+      "url": "https://www.thetowerclimbingcentre.co.uk/",
+      "lat": 52.666981,
+      "lng": -1.166571,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

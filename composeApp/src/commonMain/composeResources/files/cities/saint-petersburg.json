@@ -1,0 +1,22 @@
+{
+  "city": "Saint Petersburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-ventures",
+      "name": "Vertical Ventures",
+      "address": "116 18th Street South, Saint Petersburg, FL 33712",
+      "url": "https://www.verticalventures.com/stpete",
+      "lat": 27.7695006,
+      "lng": -82.6575666,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

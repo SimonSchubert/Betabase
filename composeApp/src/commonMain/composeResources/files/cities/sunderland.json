@@ -1,0 +1,38 @@
+{
+  "city": "Sunderland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "crowtree-leisure-centre-climbing",
+      "name": "Crowtree Leisure Centre Climbing",
+      "address": "Crowtree Road, Sunderland SR1 3EL",
+      "url": "https://www.sunderland.gov.uk/",
+      "lat": 54.9060942,
+      "lng": -1.3866411,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "sunderland-wall",
+      "name": "Sunderland Wall",
+      "address": "Doxford Works, Pallion Quay, Sunderland SR4 6TQ",
+      "url": "https://sunderlandwall.co.uk/",
+      "lat": 54.8986,
+      "lng": -1.3858,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://sunderlandwall.co.uk/wp-content/uploads/2018/05/cropped-Sunderland-Wall-Logos-2-192x192.jpg"
+    }
+  ]
+}

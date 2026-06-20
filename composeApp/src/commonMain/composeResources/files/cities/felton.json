@@ -1,0 +1,22 @@
+{
+  "city": "Felton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mount-hermon-adventures",
+      "name": "Mount Hermon Adventures",
+      "address": "17 Conference Drive, Felton, CA 95018",
+      "url": "https://mounthermonadventures.com",
+      "lat": 37.0523118,
+      "lng": -122.0559217,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "O'Neill",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kippure-adventure-park",
+      "name": "Kippure Adventure Park",
+      "address": "O'Neill, Nebraska",
+      "url": "https://cityofoneillnebraska.com/parks-and-recreation",
+      "lat": 42.4668371,
+      "lng": -98.6420962,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

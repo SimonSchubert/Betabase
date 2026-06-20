@@ -1,0 +1,36 @@
+{
+  "city": "New Haven",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ascent-climbing-gym",
+      "name": "Ascent Climbing Gym",
+      "address": "New Haven, Connecticut",
+      "url": "https://ascentclimbinggym.com",
+      "lat": 41.3155825,
+      "lng": -72.90526,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "city-climb",
+      "name": "City Climb",
+      "address": "New Haven, Connecticut",
+      "url": "https://www.cityclimbgym.com",
+      "lat": 41.3246801,
+      "lng": -72.9321525,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

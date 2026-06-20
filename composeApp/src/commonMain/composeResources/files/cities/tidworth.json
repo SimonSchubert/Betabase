@@ -1,0 +1,22 @@
+{
+  "city": "Tidworth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "tidworth-leisure-centre-climbing",
+      "name": "Tidworth Leisure Centre Climbing",
+      "address": "Nadder Road, Tidworth SP9 7QN",
+      "url": "https://www.wiltshire.gov.uk/",
+      "lat": 51.237346,
+      "lng": -1.660632,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Evansville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ymca",
+      "name": "YMCA",
+      "address": "516 Court Street, Evansville, IN 47708",
+      "url": "https://ymcaswin.org",
+      "lat": 37.9752128,
+      "lng": -87.5718868,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

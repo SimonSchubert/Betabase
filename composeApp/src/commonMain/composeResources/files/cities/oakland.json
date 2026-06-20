@@ -1,0 +1,37 @@
+{
+  "city": "Oakland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "great-western-power-company",
+      "name": "Great Western Power Company",
+      "address": "520 Thomas L. Berkley Way, Oakland, CA 94612",
+      "url": "http://www.touchstoneclimbing.com/gwpower-co",
+      "lat": 37.8099572,
+      "lng": -122.270132,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "pacific-pipe",
+      "name": "Pacific Pipe",
+      "address": "Oakland, California",
+      "url": "https://touchstoneclimbing.com/pacific-pipe",
+      "lat": 37.8159777,
+      "lng": -122.288745,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

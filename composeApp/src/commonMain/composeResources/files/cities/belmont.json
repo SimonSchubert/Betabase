@@ -1,0 +1,22 @@
+{
+  "city": "Belmont",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-belmont",
+      "name": "Movement - Belmont",
+      "address": "100 El Camino Real, Belmont, CA 94002",
+      "url": "https://movementgyms.com/belmont",
+      "lat": 37.5289552,
+      "lng": -122.2875691,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

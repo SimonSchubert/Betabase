@@ -1,0 +1,22 @@
+{
+  "city": "Hewitt",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "basin-climbing-and-fitness",
+      "name": "Basin Climbing and Fitness",
+      "address": "650 Alliance Parkway, Hewitt, TX 76643",
+      "url": "https://www.basinclimbing.com",
+      "lat": 31.4664749,
+      "lng": -97.1798376,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

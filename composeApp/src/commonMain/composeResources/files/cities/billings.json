@@ -1,0 +1,22 @@
+{
+  "city": "Billings",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "steepworld-climbing-fitness",
+      "name": "Steepworld Climbing & Fitness",
+      "address": "1230 South 31st Street West, Billings, MT 59102",
+      "url": "https://steepworld.com",
+      "lat": 45.7473466,
+      "lng": -108.5933198,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "West Whiteland Township",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "treehouse-world-adventure-park",
+      "name": "Treehouse World Adventure Park",
+      "address": "1442 Phoenixville Pike, PA",
+      "url": "https://treehouseworld.com",
+      "lat": 40.0236456,
+      "lng": -75.5867057,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

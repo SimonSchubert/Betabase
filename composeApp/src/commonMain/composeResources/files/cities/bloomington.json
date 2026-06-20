@@ -1,0 +1,36 @@
+{
+  "city": "Bloomington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-proving-ground-bouldering-gym",
+      "name": "The Proving Ground Bouldering Gym",
+      "address": "1701 East Empire Street, Bloomington, IL 61704",
+      "url": "https://tpgbouldering.com",
+      "lat": 40.4850764,
+      "lng": -88.9503759,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "upper-limits-rock-gym-pro-shop",
+      "name": "Upper Limits Rock Gym & Pro Shop",
+      "address": "1304 West Washington Street, Bloomington, IL",
+      "url": "http://upperlimits.com/bloomington",
+      "lat": 40.4784222,
+      "lng": -89.0128263,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

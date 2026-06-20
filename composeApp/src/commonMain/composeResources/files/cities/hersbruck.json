@@ -10,7 +10,10 @@
       "url": "https://www.kletterwelt-hersbruck.de",
       "lat": 49.5108492,
       "lng": 11.4306234,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

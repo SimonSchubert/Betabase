@@ -1,0 +1,22 @@
+{
+  "city": "Clydach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "dynamic-rock-clydach",
+      "name": "Dynamic Rock Clydach",
+      "address": "16-18 Hebron Road, Clydach, Swansea SA6 5EJ",
+      "url": "https://www.dynamicrock.co.uk/",
+      "lat": 51.7173,
+      "lng": -3.8989,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

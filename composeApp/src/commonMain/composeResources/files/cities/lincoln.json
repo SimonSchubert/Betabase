@@ -1,0 +1,53 @@
+{
+  "city": "Lincoln",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-lincoln",
+      "name": "Clip 'n Climb Lincoln",
+      "address": "Lincolnshire Showground, Grange-de-Lings, Lincoln LN2 2NA",
+      "url": "https://clipnclimb.co.uk/locations/lincoln/",
+      "lat": 53.286414,
+      "lng": -0.543944,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "the-ascent-climbing-wall",
+      "name": "The Ascent Climbing Wall",
+      "address": "North Kesteven Centre, Moor Lane, Lincoln LN5 9AX",
+      "url": "https://www.nkoutreach.co.uk/",
+      "lat": 53.191013,
+      "lng": -0.553985,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-showroom-climbing-centre",
+      "name": "The Showroom Climbing Centre",
+      "address": "Tritton Road, Lincoln LN6 7QY",
+      "url": "https://www.lincsymca.co.uk/health-wellbeing/climbing-bouldering/",
+      "lat": 53.210728,
+      "lng": -0.571996,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.lincsymca.co.uk/wp-content/uploads/DHP-YMCA-Climbing-2023-HR-1049-scaled.jpg"
+    }
+  ]
+}

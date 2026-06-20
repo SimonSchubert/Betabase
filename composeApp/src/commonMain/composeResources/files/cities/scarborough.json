@@ -1,0 +1,22 @@
+{
+  "city": "Scarborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "salt-pump",
+      "name": "Salt Pump",
+      "address": "36 Haigis Parkway, Scarborough, ME 04074",
+      "url": "https://www.saltpumpclimbing.com",
+      "lat": 43.5925807,
+      "lng": -70.3622219,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

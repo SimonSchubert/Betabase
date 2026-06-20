@@ -1,0 +1,23 @@
+{
+  "city": "Barnsley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "barnsley-climbing-centre",
+      "name": "Barnsley Climbing Centre",
+      "address": "Metrodome Leisure Complex, Queens Ground, Barnsley S71 1AN",
+      "url": "https://www.barnsley.gov.uk/",
+      "lat": 53.553223,
+      "lng": -1.473497,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.barnsley.gov.uk/media/rssdinxl/recycling-logo.jpg?width=1280&height=600&quality=90&v=1dca2410c621240"
+    }
+  ]
+}

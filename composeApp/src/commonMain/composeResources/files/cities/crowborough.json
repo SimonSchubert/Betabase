@@ -1,0 +1,22 @@
+{
+  "city": "Crowborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "evolution-climbing",
+      "name": "Evolution Climbing",
+      "address": "Plumyfeather Farm, Lye Green, Crowborough TN6 1UX",
+      "url": "https://www.evolutionclimbing.co.uk/",
+      "lat": 51.09321,
+      "lng": 0.160244,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

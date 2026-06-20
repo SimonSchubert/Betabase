@@ -1,0 +1,22 @@
+{
+  "city": "Walnut Shade",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "branson-zipline-at-wolfe-mountain",
+      "name": "Branson Zipline at Wolfe Mountain",
+      "address": "2339 US-65, Walnut Shade, MO 65771",
+      "url": "https://wolfemountainbranson.com",
+      "lat": 36.7816172,
+      "lng": -93.2231651,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

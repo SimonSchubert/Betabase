@@ -1,7 +1,7 @@
 {
   "city": "London",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-06-20T12:19:59Z",
   "gyms": [
     {
       "id": "bethwall",
@@ -9,8 +9,10 @@
       "address": "Hollybush Place, E2 9QX London",
       "url": "https://londonclimbingcentres.co.uk/centre/bethwall",
       "lat": 51.5277422,
-      "lng": -0.0563810,
-      "disciplines": ["boulder"],
+      "lng": -0.056381,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +23,54 @@
         "fri": "06:00-23:00",
         "sat": "08:00-21:00",
         "sun": "08:00-21:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
+    },
+    {
+      "id": "better-climbing-greenwich",
+      "name": "Better Climbing Greenwich",
+      "address": "Sutcliffe Park Sports Centre, Eltham Road, London SE9 5PA",
+      "url": "https://www.better.org.uk/leisure-centre/london/greenwich/sutcliffe-park-sports-centre/climbing",
+      "lat": 51.442413,
+      "lng": 0.053575,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "better-climbing-walthamstow",
+      "name": "Better Climbing Walthamstow",
+      "address": "Walthamstow Leisure Centre, 243 Markhouse Road, London E17 8RN",
+      "url": "https://www.better.org.uk/",
+      "lat": 51.575928,
+      "lng": -0.028621,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "better-extreme-dagenham",
+      "name": "Better Extreme Dagenham",
+      "address": "Mayesbrook Park, Lodge Avenue, Dagenham RM8 2JR",
+      "url": "https://extreme.better.org.uk/climb",
+      "lat": 51.545449,
+      "lng": 0.113017,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
     },
     {
       "id": "blocfit",
@@ -30,7 +79,9 @@
       "url": "https://www.blocfit.co.uk",
       "lat": 51.4650031,
       "lng": -0.1028668,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -42,7 +93,9 @@
       "url": "https://londonclimbingcentres.co.uk/centre/canarywall",
       "lat": 51.5096695,
       "lng": -0.0273713,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -53,27 +106,8 @@
         "fri": "11:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
-    },
-    {
-      "id": "castle-climbing-centre",
-      "name": "The Castle Climbing Centre",
-      "address": "Green Lanes, N4 2HA London",
-      "url": "https://www.castle-climbing.co.uk",
-      "lat": 51.5652788,
-      "lng": -0.0924406,
-      "disciplines": ["boulder", "lead"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "08:00-22:00",
-        "tue": "08:00-22:00",
-        "wed": "08:00-22:00",
-        "thu": "08:00-22:00",
-        "fri": "08:00-22:00",
-        "sat": "09:00-20:00",
-        "sun": "09:00-20:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
     },
     {
       "id": "city-bouldering-aldgate",
@@ -81,8 +115,10 @@
       "address": "33 Aldgate High Street, EC3N 1AH London",
       "url": "https://www.citybouldering.co.uk",
       "lat": 51.5143877,
-      "lng": -0.0749750,
-      "disciplines": ["boulder"],
+      "lng": -0.074975,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -93,7 +129,8 @@
         "fri": "06:30-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/63a026cf49f5b171d260017d/63a04f578d27939c24e4982a_CityBouldering-57.jpg"
     },
     {
       "id": "city-bouldering-stratford",
@@ -102,7 +139,9 @@
       "url": "https://www.citybouldering.co.uk/locations/stratford",
       "lat": 51.5371878,
       "lng": -0.0039442,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -116,16 +155,109 @@
       }
     },
     {
+      "id": "climb-london-brixton",
+      "name": "Climb London Brixton",
+      "address": "27 Brixton Station Road, London SW9 8QQ",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.46382,
+      "lng": -0.1131,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-london-crystal-palace",
+      "name": "Climb London Crystal Palace",
+      "address": "Ledrington Road, Crystal Palace, London SE19 2BB",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.418998,
+      "lng": -0.067743,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-london-east-ham",
+      "name": "Climb London East Ham",
+      "address": "324 Barking Road, East Ham, London E6 2RT",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.53331,
+      "lng": 0.058313,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-london-hackney",
+      "name": "Climb London Hackney",
+      "address": "40 Hyde Road, Hackney, London E5 4HU",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.5351942,
+      "lng": -0.0839573,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-london-hendon",
+      "name": "Climb London Hendon",
+      "address": "Marble Drive, Hendon, London NW2 1XQ",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.573937,
+      "lng": -0.21545,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-london-swiss-cottage",
+      "name": "Climb London Swiss Cottage",
+      "address": "Adelaide Road, Swiss Cottage, London NW3 3NF",
+      "url": "https://www.climblondon.co.uk/",
+      "lat": 51.54235,
+      "lng": -0.172499,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "climbing-co-fulham",
       "name": "Climbing Co Fulham",
       "address": "33-35 Parsons Green Lane, SW6 4HH London",
       "url": "https://www.citybouldering.co.uk/locations/climbing-co-fulham",
-      "lat": 51.4733000,
-      "lng": -0.2014000,
-      "disciplines": ["boulder"],
+      "lat": 51.4733,
+      "lng": -0.2014,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/63a07ada5189954d6a5cf58e/69ba696fd089ed7b24e65a33_climbing%20co%20fulham.jpg"
     },
     {
       "id": "climbing-district-london-fields",
@@ -134,8 +266,12 @@
       "url": "https://climbingdistrict.uk/climbing-gym/london-fields",
       "lat": 51.5346509,
       "lng": -0.0603288,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "07:00-22:30",
@@ -145,7 +281,8 @@
         "fri": "07:00-22:30",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/bigcomppfinals-351-1-1-2048x1362.jpg"
     },
     {
       "id": "climbing-gym-sen",
@@ -154,7 +291,9 @@
       "url": "https://www.climbinggymsen.co.uk",
       "lat": 51.4984843,
       "lng": -0.1129052,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -165,7 +304,8 @@
         "fri": "11:00-22:00",
         "sat": "09:00-20:00",
         "sun": "09:00-20:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/67da760d2181fd659bacda06/f04b1f48-71bc-48ad-b78b-cb7a48ee162c/Sen+Logo.png"
     },
     {
       "id": "clip-n-climb-chelsea",
@@ -174,10 +314,28 @@
       "url": "https://www.clipnclimbchelsea.co.uk",
       "lat": 51.4779606,
       "lng": -0.1885885,
-      "disciplines": ["lead"],
+      "disciplines": [
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.clipnclimbchelsea.co.uk/images/bg/Clip-n-Climb-Header-Image.jpg"
+    },
+    {
+      "id": "clip-n-climb-wandsworth",
+      "name": "Clip 'n Climb Wandsworth",
+      "address": "Wandsworth High Street, London SW18 4TF",
+      "url": "https://clipnclimb.co.uk/locations/wandsworth/",
+      "lat": 51.454569,
+      "lng": -0.193136,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
     },
     {
       "id": "croywall",
@@ -186,10 +344,29 @@
       "url": "https://londonclimbingcentres.co.uk/centre/croywall",
       "lat": 51.3741559,
       "lng": -0.1155061,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/CroyWall-1-scaled-e1674750642666.jpg"
+    },
+    {
+      "id": "ethos-climbing-wall",
+      "name": "Ethos Climbing Wall",
+      "address": "7 Princes Gardens, South Kensington, London SW7 2AZ",
+      "url": "https://www.imperial.ac.uk/sport/",
+      "lat": 51.499334,
+      "lng": -0.179178,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://pxl01-imperialacuk.terminalfour.net/filters:format(webp)/fit-in/1440x9999999/prod01/channel_3/media/images/banner-left-block-3000X1200/Move-%E2%80%93-homepage-banner-option2.jpg"
     },
     {
       "id": "eustonwall",
@@ -198,7 +375,9 @@
       "url": "https://londonclimbingcentres.co.uk/centre/eustonwall",
       "lat": 51.5246047,
       "lng": -0.1418928,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -209,7 +388,8 @@
         "fri": "06:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
     },
     {
       "id": "harrowall",
@@ -218,7 +398,9 @@
       "url": "https://londonclimbingcentres.co.uk/centre/harrowall",
       "lat": 51.5806563,
       "lng": -0.3443853,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -229,16 +411,20 @@
         "fri": "10:00-23:00",
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
     },
     {
       "id": "jags-climbing-wall",
       "name": "JAGS Climbing Wall",
       "address": "Red Post Hill, SE24 9JN London",
       "url": "https://jagssportsclub.co.uk/climbing-wall",
-      "lat": 51.4543000,
-      "lng": -0.0930000,
-      "disciplines": ["boulder", "lead"],
+      "lat": 51.4543,
+      "lng": -0.093,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -248,9 +434,12 @@
       "name": "Mile End Climbing Wall",
       "address": "Haverfield Road, E3 5BE London",
       "url": "https://www.mileendwall.org.uk",
-      "lat": 51.5276520,
+      "lat": 51.527652,
       "lng": -0.0396704,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -261,7 +450,8 @@
         "fri": "07:00-22:00",
         "sat": "09:00-20:00",
         "sun": "09:00-20:00"
-      }
+      },
+      "image_url": "https://www.mileendwall.org.uk/assets/images/footer-logo.png"
     },
     {
       "id": "ravenswall",
@@ -270,19 +460,25 @@
       "url": "https://londonclimbingcentres.co.uk/centre/ravenswall",
       "lat": 51.4943084,
       "lng": -0.2361095,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/RavensWall-1-scaled.jpg"
     },
     {
       "id": "rise-climbing",
       "name": "Rise Climbing",
       "address": "6 Hoy Street, E16 1ZA London",
       "url": "https://www.rise-climbing.com",
-      "lat": 51.5111880,
+      "lat": 51.511188,
       "lng": 0.0127298,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -293,7 +489,8 @@
         "fri": "10:00-22:00",
         "sat": "09:00-18:00",
         "sun": "09:00-18:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/617967757f4dbb71d86dd1d2/6ef7e3d4-8028-4cfd-a8b1-2170bb7a1a17/RISE_LOGO_RGB_Logo+white+1.png"
     },
     {
       "id": "romford-rock-and-boulder",
@@ -302,7 +499,9 @@
       "url": "https://www.romfordrockandboulder.co.uk",
       "lat": 51.5829803,
       "lng": 0.1745672,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -313,7 +512,38 @@
         "fri": "12:00-22:00",
         "sat": "10:00-18:00",
         "sun": "10:00-16:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/62ad99664e4a0776fc740314/e3e64685-9ea7-4994-98e8-b8d3d62f0fac/rrab-logo-white.png"
+    },
+    {
+      "id": "sobell-leisure-centre-climbing",
+      "name": "Sobell Leisure Centre Climbing",
+      "address": "Hornsey Road, Holloway, London N7 7NY",
+      "url": "https://www.better.org.uk/",
+      "lat": 51.558939,
+      "lng": -0.111574,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "stronghold-climbing-centre-peckham",
+      "name": "Stronghold Climbing Centre Peckham",
+      "address": "133a Bellenden Road, London SE15 4QY",
+      "url": "https://thestrongholduk.com/locations/peckham",
+      "lat": 51.467895,
+      "lng": -0.072272,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/bigcomppfinals-317-1-2048x1368.jpg"
     },
     {
       "id": "stronghold-tottenham-hale",
@@ -322,8 +552,12 @@
       "url": "https://thestrongholduk.com/locations/tottenham-hale",
       "lat": 51.5854474,
       "lng": -0.0607538,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "07:00-22:30",
@@ -333,7 +567,8 @@
         "fri": "07:00-22:30",
         "sat": "09:00-19:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/CompWall.jpg"
     },
     {
       "id": "substation-brixton",
@@ -342,7 +577,9 @@
       "url": "https://brixton.substation.co.uk",
       "lat": 51.4587276,
       "lng": -0.1283887,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -353,7 +590,8 @@
         "fri": "07:00-22:00",
         "sat": "08:00-20:00",
         "sun": "08:00-20:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/679911b1b2d4f1204cafd5e5/679911b1b2d4f1204cafd716_substation-logo-grey.svg"
     },
     {
       "id": "the-arch-acton",
@@ -362,30 +600,13 @@
       "url": "https://www.archclimbingwall.com",
       "lat": 51.5068715,
       "lng": -0.2652484,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
-    },
-    {
-      "id": "the-arch-building-one",
-      "name": "The Arch Climbing Wall: Building One",
-      "address": "Drummond Road, SE16 4DG London",
-      "url": "https://climbingdistrict.uk/climbing-gym/building-one",
-      "lat": 51.4932919,
-      "lng": -0.0610598,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
-      "size_sqm": 1394,
-      "opening_hours": {
-        "mon": "06:30-22:30",
-        "tue": "06:30-22:30",
-        "wed": "06:30-22:30",
-        "thu": "06:30-22:30",
-        "fri": "06:30-22:30",
-        "sat": "09:00-21:00",
-        "sun": "09:00-21:00"
-      }
+      "opening_hours": {},
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/bigcomppfinals-317-1-2048x1368.jpg"
     },
     {
       "id": "the-arch-north",
@@ -394,7 +615,9 @@
       "url": "https://www.archclimbingwall.com/north",
       "lat": 51.5988083,
       "lng": -0.2657352,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -405,7 +628,33 @@
         "fri": "10:00-22:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/bigcomppfinals-317-1-2048x1368.jpg"
+    },
+    {
+      "id": "the-arch-building-one",
+      "name": "The Arch Climbing Wall: Building One",
+      "address": "Drummond Road, SE16 4DG London",
+      "url": "https://climbingdistrict.uk/climbing-gym/building-one",
+      "lat": 51.4932919,
+      "lng": -0.0610598,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": 1394,
+      "opening_hours": {
+        "mon": "06:30-22:30",
+        "tue": "06:30-22:30",
+        "wed": "06:30-22:30",
+        "thu": "06:30-22:30",
+        "fri": "06:30-22:30",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      },
+      "image_url": "https://climbingdistrict.uk/app/uploads/2026/05/NL-MAY-REWIND.png"
     },
     {
       "id": "the-arch-surrey-quays",
@@ -414,7 +663,9 @@
       "url": "https://climbingdistrict.uk/climbing-gym/surrey-quays",
       "lat": 51.4955073,
       "lng": -0.0472809,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -425,7 +676,32 @@
         "fri": "06:30-22:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/bigcomppfinals-317-1-2048x1368.jpg"
+    },
+    {
+      "id": "castle-climbing-centre",
+      "name": "The Castle Climbing Centre",
+      "address": "Green Lanes, N4 2HA London",
+      "url": "https://www.castle-climbing.co.uk",
+      "lat": 51.5652788,
+      "lng": -0.0924406,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "08:00-22:00",
+        "thu": "08:00-22:00",
+        "fri": "08:00-22:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      },
+      "image_url": "https://castleclimbing.fra1.digitaloceanspaces.com/Hero-images/_1200x630_crop_center-center_none/CastleSunBloc.png"
     },
     {
       "id": "the-font-borough",
@@ -434,7 +710,9 @@
       "url": "https://www.the-font.co.uk/borough",
       "lat": 51.5071808,
       "lng": -0.0971764,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 836,
       "opening_hours": {
@@ -445,7 +723,8 @@
         "fri": "06:30-22:30",
         "sat": "10:00-18:00",
         "sun": "10:00-18:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/60057f6c8209ee9db2b04639/6a08c01a47d4c8f901459f72_Brawl%20finals%20tags%20(4).png"
     },
     {
       "id": "the-font-hounslow",
@@ -453,11 +732,14 @@
       "address": "9 Smithy Lane, TW3 1EH Hounslow",
       "url": "https://www.the-font.co.uk/hounslow",
       "lat": 51.4705329,
-      "lng": -0.3618770,
-      "disciplines": ["boulder"],
+      "lng": -0.361877,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/60057f6c8209ee9db2b04639/697c846af9ba77ce4056eb0b_Watch%20the%20England%20Spain%20(540%20x%20405%20mm)%20(9).png"
     },
     {
       "id": "the-font-wandsworth",
@@ -466,7 +748,9 @@
       "url": "https://www.the-font.co.uk/wandsworth",
       "lat": 51.4472776,
       "lng": -0.1912095,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -477,7 +761,8 @@
         "fri": "06:00-22:00",
         "sat": "08:00-20:00",
         "sun": "08:00-20:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/60057f6c8209ee9db2b04639/697c846af9ba77ce4056eb0b_Watch%20the%20England%20Spain%20(540%20x%20405%20mm)%20(9).png"
     },
     {
       "id": "the-font-wandsworth-2",
@@ -486,8 +771,14 @@
       "url": "https://www.the-font.co.uk/wandsworth-2-0",
       "lat": 51.4549274,
       "lng": -0.1931177,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["kilter", "spray"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter",
+        "spray"
+      ],
       "size_sqm": 2323,
       "opening_hours": {
         "mon": "06:15-22:00",
@@ -497,7 +788,8 @@
         "fri": "06:15-22:00",
         "sat": "09:00-18:00",
         "sun": "09:00-18:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/60057f6c8209ee9db2b04639/697c846af9ba77ce4056eb0b_Watch%20the%20England%20Spain%20(540%20x%20405%20mm)%20(9).png"
     },
     {
       "id": "the-reach",
@@ -506,7 +798,10 @@
       "url": "https://www.thereach.org.uk",
       "lat": 51.4944433,
       "lng": 0.0425662,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -517,7 +812,23 @@
         "fri": "10:00-22:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      }
+      },
+      "image_url": "https://www.thereach.org.uk/themes/custom/the_reach_v2/logo.svg"
+    },
+    {
+      "id": "third-space-climbing-wall",
+      "name": "Third Space Climbing Wall",
+      "address": "16-19 Canada Square, Canary Wharf, London E14 5ER",
+      "url": "https://www.thirdspace.london/clubs/canary-wharf/",
+      "lat": 51.504577,
+      "lng": -0.016227,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.thirdspace.london/wp-content/uploads/2025/07/Third_Space_Canary_Wharf_16.07.25_007.jpg"
     },
     {
       "id": "vauxwall-east",
@@ -526,7 +837,9 @@
       "url": "https://londonclimbingcentres.co.uk/centre/vauxeast",
       "lat": 51.4923297,
       "lng": -0.1145915,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -537,7 +850,8 @@
         "fri": "09:00-22:00",
         "sat": "09:00-19:00",
         "sun": "09:00-19:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
     },
     {
       "id": "vauxwall-west",
@@ -546,7 +860,9 @@
       "url": "https://londonclimbingcentres.co.uk/centre/vauxwest",
       "lat": 51.4850511,
       "lng": -0.1229171,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -557,7 +873,36 @@
         "fri": "06:00-23:00",
         "sat": "06:00-23:00",
         "sun": "06:00-23:00"
-      }
+      },
+      "image_url": "https://londonclimbingcentres.co.uk/app/uploads/DSC_1234-2-732x560.jpg"
+    },
+    {
+      "id": "vertical-chill-covent-garden",
+      "name": "Vertical Chill Covent Garden",
+      "address": "3-11 Southampton Street, London WC2E 7HA",
+      "url": "https://www.vertical-chill.com/",
+      "lat": 51.510984,
+      "lng": -0.121888,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "westminster-boat-base-boulder",
+      "name": "Westminster Boat Base Boulder",
+      "address": "Westminster Boating Base, Pimlico, London SW1V 3JY",
+      "url": "https://www.westminsterboatingbase.co.uk/",
+      "lat": 51.485243,
+      "lng": -0.136255,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "westway-climbing-centre",
@@ -566,7 +911,10 @@
       "url": "https://www.everyoneactive.com/centre/westway-sports-fitness-centre",
       "lat": 51.5155273,
       "lng": -0.2207132,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -577,7 +925,8 @@
         "fri": "06:00-22:00",
         "sat": "07:00-20:00",
         "sun": "08:00-21:00"
-      }
+      },
+      "image_url": "https://prod-everyoneactive-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2017/08/04110147/YOUPlus-CentreHero-banner-v3-2.jpg"
     },
     {
       "id": "white-spider",
@@ -586,7 +935,10 @@
       "url": "https://spiderclimbing.com/white-spider",
       "lat": 51.3723559,
       "lng": -0.2914608,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -597,7 +949,8 @@
         "fri": "10:00-22:00",
         "sat": "08:00-19:30",
         "sun": "08:00-19:30"
-      }
+      },
+      "image_url": "https://spiderclimbing.com/wp-content/uploads/2025/09/WS-Student-BTS-Blog-Icon-800x500px.png"
     },
     {
       "id": "yonder-climbing",
@@ -606,7 +959,9 @@
       "url": "https://www.thisisyonder.com",
       "lat": 51.5896021,
       "lng": -0.0409418,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -617,7 +972,8 @@
         "fri": "07:00-22:00",
         "sat": "08:45-18:00",
         "sun": "08:45-18:00"
-      }
+      },
+      "image_url": "http://static1.squarespace.com/static/5f35301faed3a85bf80f77ed/t/69429c61144d875d2d97b4a4/1765973089515/Yonder+Climbing+Wall+1.jpg?format=1500w"
     }
   ]
 }

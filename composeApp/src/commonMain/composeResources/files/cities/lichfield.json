@@ -1,0 +1,22 @@
+{
+  "city": "Lichfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-lichfield",
+      "name": "Clip 'n Climb Lichfield",
+      "address": "St John Street, Lichfield WS13 6PB",
+      "url": "https://clipnclimb.co.uk/locations/lichfield/",
+      "lat": 52.680174,
+      "lng": -1.827942,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    }
+  ]
+}

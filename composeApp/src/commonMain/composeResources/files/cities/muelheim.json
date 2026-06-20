@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.neoliet.de/wp-content/uploads/2019/12/Bouldern-in-Gelsenkirchen-Boulderbar-Neoliet-im-Ruhrgebiet-495x400.jpg"
     },
     {
       "id": "element-boulders-essen",
@@ -28,7 +29,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://essen.element-boulders.de/files/theme_element_v2/svg/element-logo-white.svg"
     }
   ],
   "source": "manual-curation-web-research",

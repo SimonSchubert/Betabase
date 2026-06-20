@@ -10,7 +10,10 @@
       "url": "https://www.cityrock.de",
       "lat": 48.7768626,
       "lng": 9.1693628,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -20,7 +23,8 @@
         "fri": "18:00-23:00",
         "sat": "18:00-23:00",
         "sun": "18:00-23:00"
-      }
+      },
+      "image_url": "https://cityrock.de/wp-content/uploads/2025/12/DSC00931_2_Kopie.original-2048x1365.jpg.pagespeed.ce.V9QB-Pgx-3.jpg"
     },
     {
       "id": "dav-kletterzentrum-stuttgart",
@@ -29,7 +33,11 @@
       "url": "https://www.kletterzentrum-stuttgart.de",
       "lat": 48.7493359,
       "lng": 9.1874814,
-      "disciplines": ["boulder", "lead", "speed"],
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
       "boards": [],
       "size_sqm": 4600,
       "opening_hours": {
@@ -40,7 +48,8 @@
         "fri": "13:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.kletterzentrum-stuttgart.de/wp-content/uploads/2024/03/Yoga-Website-400x250.jpg"
     },
     {
       "id": "rockerei-stuttgart",
@@ -49,7 +58,11 @@
       "url": "https://www.rockerei-stuttgart.de",
       "lat": 48.8345647,
       "lng": 9.1634091,
-      "disciplines": ["boulder", "lead", "speed"],
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
       "boards": [],
       "size_sqm": 1500,
       "opening_hours": {
@@ -60,17 +73,23 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://rockerei-stuttgart.de/wp-content/uploads/2022/09/cropped-Rockerei_FB_LOGO_grau_trans.-192x192.png"
     },
     {
       "id": "vels-stuttgart",
       "name": "VELS – Die Boulderhalle in Stuttgart",
       "address": "Handwerkstraße 21, 70565 Stuttgart",
       "url": "https://vels-stuttgart.de",
-      "lat": 48.7191510,
-      "lng": 9.1283340,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "kilter"],
+      "lat": 48.719151,
+      "lng": 9.128334,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter"
+      ],
       "size_sqm": 1600,
       "opening_hours": {
         "mon": "08:00-23:00",
@@ -80,7 +99,8 @@
         "fri": "08:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://vels-stuttgart.de/wp-content/uploads/2025/01/LOGO_VELS_RGB_WHITE_Banner_40px.svg"
     },
     {
       "id": "griffwerk-stuttgart",
@@ -89,7 +109,9 @@
       "url": "https://www.griffwerk-stuttgart.de",
       "lat": 48.7768626,
       "lng": 9.1693628,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -101,10 +123,14 @@
       "url": "https://www.roccadion.de",
       "lat": 48.8132842,
       "lng": 9.2726184,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.roccadion.de/wp-content/uploads/2024/11/ROC_comeandboulder_pop.jpg"
     }
   ]
 }

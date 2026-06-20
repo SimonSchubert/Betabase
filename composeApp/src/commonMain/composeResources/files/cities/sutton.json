@@ -1,0 +1,22 @@
+{
+  "city": "Sutton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "craggy-island-sutton",
+      "name": "Craggy Island Sutton",
+      "address": "76-77 St Nicholas Way, Sutton SM1 1JB",
+      "url": "https://www.craggy-island.com/",
+      "lat": 51.3612,
+      "lng": -0.1924,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

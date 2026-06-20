@@ -1,0 +1,22 @@
+{
+  "city": "Weymouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "climb-aloft-weymouth",
+      "name": "Climb Aloft Weymouth",
+      "address": "Sea Cadet Training Centre, Barrack Road, Weymouth DT4 8TZ",
+      "url": "https://www.climbaloft.org.uk/",
+      "lat": 50.606055,
+      "lng": -2.450286,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

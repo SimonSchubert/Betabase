@@ -1,0 +1,22 @@
+{
+  "city": "Hillsboro",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "beyond-the-wall-climbing",
+      "name": "Beyond The Wall Climbing",
+      "address": "1001 Southeast Tualatin Valley Highway, Hillsboro, OR 97123",
+      "url": "https://www.beyondthewallclimbing.com",
+      "lat": 45.5115959,
+      "lng": -122.9716055,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

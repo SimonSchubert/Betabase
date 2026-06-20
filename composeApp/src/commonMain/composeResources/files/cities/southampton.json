@@ -1,0 +1,100 @@
+{
+  "city": "Southampton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "boulder-shack",
+      "name": "Boulder Shack",
+      "address": "Unit 7, Hazel Road, SO19 7GB Southampton",
+      "url": "https://www.bouldershack.co.uk",
+      "lat": 50.9165249,
+      "lng": -1.3937588,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://bouldershack.co.uk/wp-content/uploads/2019/04/Bouldershack-Comp-Final-220-1200x799.jpg"
+    },
+    {
+      "id": "high-sports-southampton",
+      "name": "High Sports Southampton",
+      "address": "Bitterne Leisure Centre, Fleming Road, Southampton SO18 2FY",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 50.934243,
+      "lng": -1.365248,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "parthian-climbing-southampton",
+      "name": "Parthian Climbing Southampton",
+      "address": "Unit 8 Hazel Road, Southampton SO19 7GB",
+      "url": "https://parthianclimbing.com/southampton/",
+      "lat": 50.9035,
+      "lng": -1.3832,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://parthianclimbing.com/wp-content/uploads/2022/11/Parthian-Climbing-Social-Card.jpg"
+    },
+    {
+      "id": "southampton-climbing-wall",
+      "name": "Southampton Climbing Wall",
+      "address": "St Marys Leisure Centre, St Marys Road, Southampton SO14 0BL",
+      "url": "https://www.southamptonclimbingwall.co.uk/",
+      "lat": 50.910576,
+      "lng": -1.399281,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://bouldershack.co.uk/wp-content/uploads/2016/08/Tim-Miller-Climber.jpg"
+    },
+    {
+      "id": "climbing-hangar-southampton",
+      "name": "The Climbing Hangar Southampton",
+      "address": "Unit 1, Hazel Road, SO19 7GB Southampton",
+      "url": "https://www.theclimbinghangar.com/locations/southampton",
+      "lat": 50.9020735,
+      "lng": -1.3820347,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbinghangar.com/assets/images/logo-dark.svg"
+    },
+    {
+      "id": "university-of-southampton-climbing-wall",
+      "name": "University of Southampton Climbing Wall",
+      "address": "Jubilee Sports Centre, University of Southampton, Southampton SO17 1BJ",
+      "url": "https://www.southampton.ac.uk/sport/",
+      "lat": 50.934091,
+      "lng": -1.395705,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

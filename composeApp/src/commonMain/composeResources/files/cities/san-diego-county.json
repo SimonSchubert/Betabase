@@ -1,0 +1,21 @@
+{
+  "city": "San Diego County",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ramona-wall",
+      "name": "Ramona Wall",
+      "address": "San Diego County, California",
+      "url": "https://www.dropbox.com/s/5kh4f6652ho312j/Ramona_Wall_Topo_02_18_2018.pdf?dl=0",
+      "lat": 32.9874968,
+      "lng": -116.950089,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

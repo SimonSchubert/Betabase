@@ -1,0 +1,22 @@
+{
+  "city": "Capel Curig",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "plas-y-brenin-climbing-wall",
+      "name": "Plas y Brenin Climbing Wall",
+      "address": "Plas y Brenin National Mountain Sports Centre, Capel Curig LL24 0ET",
+      "url": "https://www.pyb.co.uk/",
+      "lat": 53.102201,
+      "lng": -3.918417,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

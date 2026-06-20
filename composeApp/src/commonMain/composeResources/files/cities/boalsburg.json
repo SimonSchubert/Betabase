@@ -1,0 +1,22 @@
+{
+  "city": "Boalsburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-nittany",
+      "name": "Climb Nittany",
+      "address": "328 Discovery Drive, Boalsburg, PA 16827",
+      "url": "https://5.life/climbnittany",
+      "lat": 40.7764274,
+      "lng": -77.7714704,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

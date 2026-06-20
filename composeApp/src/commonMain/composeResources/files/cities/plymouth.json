@@ -1,0 +1,113 @@
+{
+  "city": "Plymouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "lipson-community-college-climbing",
+      "name": "Lipson Community College Climbing",
+      "address": "Bernice Terrace, Lipson, Plymouth PL4 7PG",
+      "url": "https://www.lipson.plymouth.sch.uk/",
+      "lat": 50.381703,
+      "lng": -4.110539,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mount-batten-climbing-wall",
+      "name": "Mount Batten Climbing Wall",
+      "address": "Mount Batten Centre, Plymouth PL9 9SJ",
+      "url": "https://www.mbc.eclipse.co.uk/",
+      "lat": 50.359899,
+      "lng": -4.127442,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "plymouth-life-centre-climbing",
+      "name": "Plymouth Life Centre Climbing",
+      "address": "40 Mayflower Drive, Plymouth PL2 3DG",
+      "url": "https://www.pl1life.co.uk/",
+      "lat": 50.385518,
+      "lng": -4.15173,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "plymouth-ymca-climbing-wall",
+      "name": "Plymouth YMCA Climbing Wall",
+      "address": "Kitto Centre, Honicknowle Lane, Plymouth PL5 3NG",
+      "url": "https://www.plymouthymca.co.uk/",
+      "lat": 50.402626,
+      "lng": -4.154151,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-climbing-hangar-plymouth",
+      "name": "The Climbing Hangar Plymouth",
+      "address": "Unit 9, Burrington Business Park, Burrington Way, Plymouth PL5 3LX",
+      "url": "https://www.theclimbinghangar.com/locations/plymouth",
+      "lat": 50.4038308,
+      "lng": -4.1670387,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbinghangar.com/assets/images/logo-dark.svg"
+    },
+    {
+      "id": "ucp-marjon-climbing-wall",
+      "name": "UCP Marjon Climbing Wall",
+      "address": "Derriford Road, Plymouth PL6 8BH",
+      "url": "https://www.ucpmarjon.ac.uk/",
+      "lat": 50.420852,
+      "lng": -4.110786,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-plymouth-climbing-wall",
+      "name": "University of Plymouth Climbing Wall",
+      "address": "Plymouth University, Drake Circus, Plymouth PL4 8AA",
+      "url": "https://www.plymouth.ac.uk/sport",
+      "lat": 50.375437,
+      "lng": -4.13794,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://d3bpgcke55gfwt.cloudfront.net/assets/uoplogo-7781d371f371f01ba417d9440f2092a9e96cbd33cb939f6cec72e77cbb01b8f0.svg"
+    }
+  ]
+}

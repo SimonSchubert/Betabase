@@ -1,0 +1,22 @@
+{
+  "city": "Minneapolis",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-endeavors",
+      "name": "Vertical Endeavors",
+      "address": "2540 Nicollet Avenue, Minneapolis, MN 55404",
+      "url": "http://verticalendeavors.com/minneapolis",
+      "lat": 44.9561498,
+      "lng": -93.2784887,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

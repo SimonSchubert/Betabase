@@ -1,0 +1,36 @@
+{
+  "city": "San Antonio",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "armadillo-boulder",
+      "name": "Armadillo Boulder",
+      "address": "1119 Camden Street, San Antonio, TX",
+      "url": "https://armadilloboulders.com",
+      "lat": 29.4397515,
+      "lng": -98.4841005,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-district",
+      "name": "The District",
+      "address": "2424 Broadway, San Antonio, TX 78215",
+      "url": "https://www.thedistrictsa.com",
+      "lat": 29.4490785,
+      "lng": -98.4742104,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

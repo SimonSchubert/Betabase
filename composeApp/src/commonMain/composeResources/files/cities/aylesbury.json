@@ -1,0 +1,23 @@
+{
+  "city": "Aylesbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "high-sports-aylesbury",
+      "name": "High Sports Aylesbury",
+      "address": "Aylesbury Waterside Theatre, Exchange Street, Aylesbury HP20 1UR",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.815843,
+      "lng": -0.811076,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    }
+  ]
+}

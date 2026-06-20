@@ -1,0 +1,22 @@
+{
+  "city": "Ivybridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "ivybridge-community-college-climbing",
+      "name": "Ivybridge Community College Climbing",
+      "address": "Harford Road, Ivybridge PL21 0JA",
+      "url": "https://www.ivybridge.devon.sch.uk/",
+      "lat": 50.393679,
+      "lng": -3.915974,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

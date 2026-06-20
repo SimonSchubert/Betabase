@@ -1,0 +1,22 @@
+{
+  "city": "Sharnbrook",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "sus-climbing-wall",
+      "name": "SUS Climbing Wall",
+      "address": "Sharnbrook Upper School, Odell Road, Sharnbrook MK44 1JL",
+      "url": "https://www.sus-climbing.co.uk/",
+      "lat": 52.221971,
+      "lng": -0.5528,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

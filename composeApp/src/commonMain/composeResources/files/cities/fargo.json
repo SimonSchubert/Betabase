@@ -1,0 +1,22 @@
+{
+  "city": "Fargo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "fargo-climbing",
+      "name": "Fargo Climbing",
+      "address": "2325 46th Street South, Fargo, ND 58104",
+      "url": "https://www.fargoclimbing.com",
+      "lat": 46.8433428,
+      "lng": -96.8643881,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

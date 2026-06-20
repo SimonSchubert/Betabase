@@ -1,0 +1,140 @@
+{
+  "city": "Birmingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "ackers-adventure-climbing",
+      "name": "Ackers Adventure Climbing",
+      "address": "Golden Hillock Road, Sparkbrook, Birmingham B11 2PY",
+      "url": "https://www.ackers-adventure.co.uk/",
+      "lat": 52.4628,
+      "lng": -1.8578,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://ackers-adventure.co.uk/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google-my-business-icon-300x300.png"
+    },
+    {
+      "id": "birmingham-bouldering-centre",
+      "name": "Birmingham Bouldering Centre",
+      "address": "12 Montgomery Street, Digbeth, Birmingham B9 4AA",
+      "url": "https://www.birminghamboulderingcentre.com/",
+      "lat": 52.4752,
+      "lng": -1.8841,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.birminghamboulderingcentre.com/quality_auto/443176_7fa5d22bc53349cdae54b71366cdf81b~mv2.jpg"
+    },
+    {
+      "id": "creation-climbing-centre",
+      "name": "Creation Climbing Centre",
+      "address": "5 Gibb Street, B9 4AA Birmingham",
+      "url": "https://www.creationclimbingcentre.co.uk",
+      "lat": 52.4751584,
+      "lng": -1.8838956,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "creation-climbing-centre-epic",
+      "name": "Creation Climbing Centre Epic",
+      "address": "582 Moseley Road, Birmingham B12 9AA",
+      "url": "https://creationwall.co.uk/",
+      "lat": 52.45484,
+      "lng": -1.886257,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://i0.wp.com/creationwall.co.uk/wp-content/uploads/2026/06/home.png?w=1672&ssl=1"
+    },
+    {
+      "id": "creation-climbing-epic-centre",
+      "name": "Creation Climbing Epic Centre",
+      "address": "582 Moseley Road, Birmingham B12 9AA",
+      "url": "https://creationwall.co.uk/",
+      "lat": 52.4571,
+      "lng": -1.8856,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://i0.wp.com/creationwall.co.uk/wp-content/uploads/2026/06/home.png?w=1672&ssl=1"
+    },
+    {
+      "id": "depot-climbing-birmingham",
+      "name": "Depot Climbing Birmingham",
+      "address": "Gibb Street, B9 4AA Birmingham",
+      "url": "https://www.depotclimbing.co.uk/birmingham/",
+      "lat": 52.4751584,
+      "lng": -1.8838956,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:00-22:00",
+        "tue": "06:00-22:00",
+        "wed": "06:00-22:00",
+        "thu": "06:00-22:00",
+        "fri": "06:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      },
+      "image_url": "https://www.depotclimbing.co.uk/birmingham/wp-content/uploads/sites/17/2023/11/DSC01762-WEB-BANNER-USE-2-1200x800.jpg"
+    },
+    {
+      "id": "redpoint-birmingham",
+      "name": "Redpoint Birmingham",
+      "address": "Gibb Street, B9 4AA Birmingham",
+      "url": "https://www.redpointclimbingcentre.co.uk",
+      "lat": 52.4751584,
+      "lng": -1.8838956,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.redpointbirmingham.co.uk/wp-content/uploads/2016/05/climbing.jpg"
+    },
+    {
+      "id": "university-of-birmingham-climbing-wall",
+      "name": "University of Birmingham Climbing Wall",
+      "address": "Munrow Sports Centre, University of Birmingham, Edgbaston B15 2TT",
+      "url": "https://www.sportandfitness.bham.ac.uk/",
+      "lat": 52.453282,
+      "lng": -1.92789,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.sportandfitness.bham.ac.uk/wp-content/uploads/2020/07/BlackText-stacked-3.png"
+    }
+  ]
+}

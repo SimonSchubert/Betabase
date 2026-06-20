@@ -1,0 +1,22 @@
+{
+  "city": "Kinlochleven",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "ice-factor-kinlochleven",
+      "name": "Ice Factor Kinlochleven",
+      "address": "Leven Road, Kinlochleven PH50 4SF",
+      "url": "https://www.ice-factor.co.uk/",
+      "lat": 56.7203,
+      "lng": -4.9619,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

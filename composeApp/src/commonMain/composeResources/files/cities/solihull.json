@@ -1,0 +1,22 @@
+{
+  "city": "Solihull",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "solihull-sixth-form-college-climbing",
+      "name": "Solihull Sixth Form College Climbing",
+      "address": "Widney Manor Road, Solihull B91 3WR",
+      "url": "https://www.solihullsfc.ac.uk/",
+      "lat": 52.405879,
+      "lng": -1.772637,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

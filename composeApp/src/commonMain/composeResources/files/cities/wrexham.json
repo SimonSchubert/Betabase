@@ -1,0 +1,22 @@
+{
+  "city": "Wrexham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "plas-power-adventure-climbing",
+      "name": "Plas Power Adventure Climbing",
+      "address": "Old Plas Power Colliery, Southsea, Wrexham LL11 5SZ",
+      "url": "https://www.plaspoweradventure.com/",
+      "lat": 53.060077,
+      "lng": -3.047706,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

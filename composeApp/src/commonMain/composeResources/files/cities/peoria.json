@@ -1,0 +1,22 @@
+{
+  "city": "Peoria",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ape-index",
+      "name": "Ape Index",
+      "address": "9700 North 91st Avenue, Peoria, AZ 85345",
+      "url": "https://climbapeindex.com",
+      "lat": 33.5718076,
+      "lng": -112.2556873,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

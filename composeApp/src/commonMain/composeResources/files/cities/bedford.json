@@ -1,0 +1,53 @@
+{
+  "city": "Bedford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "bedford-climbing-centre",
+      "name": "Bedford Climbing Centre",
+      "address": "Robinson Pool and Fitness Centre, Mile Road, Bedford MK42 9BB",
+      "url": "https://www.better.org.uk/",
+      "lat": 52.131859,
+      "lng": -0.467895,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "de-montfort-university-climbing-wall",
+      "name": "De Montfort University Climbing Wall",
+      "address": "Sidney Road, Bedford MK40 2BQ",
+      "url": "https://www.beds.ac.uk/",
+      "lat": 52.142089,
+      "lng": -0.484452,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kempston-outdoor-centre-climbing",
+      "name": "Kempston Outdoor Centre Climbing",
+      "address": "Hillgrounds Road, Kempston, Bedford MK42 8QQ",
+      "url": "https://www.kempstonoutdoorcentre.co.uk/activities/climbing-wall",
+      "lat": 52.118525,
+      "lng": -0.497959,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

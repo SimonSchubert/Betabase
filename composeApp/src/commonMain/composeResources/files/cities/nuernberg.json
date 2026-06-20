@@ -10,8 +10,12 @@
       "url": "https://www.cafekraft.de",
       "lat": 49.4797711,
       "lng": 11.1224848,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -21,7 +25,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/64482eff121c672196de419d/1682452297438-TPGTIF6ZNK7WP1GVEEYE/Erlangen_Hallenansicht_innen.jpg?format=2500w"
     },
     {
       "id": "boulderhalle-e4",
@@ -30,7 +35,9 @@
       "url": "https://www.boulderhalle-e4.de",
       "lat": 49.4344151,
       "lng": 11.0972883,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +48,8 @@
         "fri": "08:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://www.boulderhalle-e4.de/wp-content/uploads/2022/12/boulderhalle-e4-nuernberg-seit-2013.svg"
     },
     {
       "id": "der-steinbock-nuernberg",
@@ -50,8 +58,12 @@
       "url": "https://www.dersteinbock-nuernberg.de",
       "lat": 49.4510292,
       "lng": 11.0287018,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -61,16 +73,21 @@
         "fri": "07:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d8cea73abd6080198b3bc95/1767887866604-GV0Z14Q9Y0GN2FADIU56/250031_2001_Kinderkurse_Screen_Banner_Winterferien2.jpg"
     },
     {
       "id": "bambule-kletterhalle",
       "name": "BAMBULE Kletterhalle",
       "address": "Industriestraße 21a, 90441 Nürnberg",
       "url": "https://www.bambule-kletterhalle.de",
-      "lat": 49.4315840,
+      "lat": 49.431584,
       "lng": 11.0591933,
-      "disciplines": ["boulder", "lead", "speed"],
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
       "boards": [],
       "size_sqm": 2500,
       "opening_hours": {
@@ -81,7 +98,8 @@
         "fri": "10:00-22:30",
         "sat": "09:00-21:00",
         "sun": "09:00-21:30"
-      }
+      },
+      "image_url": "https://bambule-kletterhalle.de/wp-content/uploads/2022/08/logo-mint-weniger-freiflaeche-1024x853.jpg"
     },
     {
       "id": "climbing-factory-nuernberg",
@@ -90,7 +108,10 @@
       "url": "https://www.climbing-factory.de",
       "lat": 49.431584,
       "lng": 11.0591933,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -102,10 +123,13 @@
       "url": "https://www.dersteinbock-zirndorf.de",
       "lat": 49.4427777,
       "lng": 10.9596556,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/564b2ae7e4b026b6304311ad/3809cab3-7863-422f-9947-c97b2a377769/hallenansicht_1.jpg?format=2500w"
     }
   ]
 }

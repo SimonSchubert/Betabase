@@ -1,0 +1,55 @@
+{
+  "city": "Preston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "boulder-uk",
+      "name": "Boulder UK",
+      "address": "3B Carnfield Place, Walton Summit, Bamber Bridge PR5 8AN",
+      "url": "https://www.boulderuk.co.uk/",
+      "lat": 53.7248,
+      "lng": -2.643492,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.boulderuk.co.uk/wp-content/uploads/2024/05/Comp-Wall-scaled.jpg"
+    },
+    {
+      "id": "preston-climbing-centre",
+      "name": "Preston Climbing Centre",
+      "address": "West View Leisure Centre, Ribbleton Lane, Preston PR1 5EP",
+      "url": "https://www.better.org.uk/",
+      "lat": 53.769216,
+      "lng": -2.678369,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "preston-wall",
+      "name": "Preston Wall",
+      "address": "West View Leisure Centre, Ribbleton Lane, Preston PR1 5EP",
+      "url": "https://lakelandclimbingcentres.co.uk/centre/prestonwall/",
+      "lat": 53.7722,
+      "lng": -2.6728,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://lakelandclimbingcentres.co.uk/app/uploads/bouldering-A7303020CMPRSD.jpg"
+    }
+  ]
+}

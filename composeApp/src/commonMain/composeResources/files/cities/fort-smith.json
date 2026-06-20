@@ -1,0 +1,21 @@
+{
+  "city": "Fort Smith",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-horizons-climbing-gym",
+      "name": "Vertical Horizons Climbing Gym",
+      "address": "3625 S. 91st Fort Smith, AR 72903, AR",
+      "url": "https://www.verticalhorizonsclimbinggym.com",
+      "lat": 35.3469281,
+      "lng": -94.3312462,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

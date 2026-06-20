@@ -1,0 +1,22 @@
+{
+  "city": "Sherborne",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "oxley-sports-climbing-wall",
+      "name": "Oxley Sports Climbing Wall",
+      "address": "Bradford Road, Sherborne DT9 3DA",
+      "url": "https://www.oxleysc.com/",
+      "lat": 50.948376,
+      "lng": -2.528923,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

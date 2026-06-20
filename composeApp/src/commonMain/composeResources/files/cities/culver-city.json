@@ -1,0 +1,22 @@
+{
+  "city": "Culver City",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-cliffs-of-id",
+      "name": "The Cliffs of Id",
+      "address": "2537 Fairfax Avenue, Culver City, CA",
+      "url": "https://touchstoneclimbing.com/cliffs-of-id",
+      "lat": 34.0332688,
+      "lng": -118.3711312,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

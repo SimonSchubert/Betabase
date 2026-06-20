@@ -1,0 +1,22 @@
+{
+  "city": "Little Rock",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "little-rock-climbing-center",
+      "name": "Little Rock Climbing Center",
+      "address": "7000 12120 Colonel Glenn, AR",
+      "url": "https://www.littlerockclimbingcenter.com",
+      "lat": 34.711164,
+      "lng": -92.4109198,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

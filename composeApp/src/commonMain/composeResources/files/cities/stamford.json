@@ -1,0 +1,22 @@
+{
+  "city": "Stamford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "tallington-lakes-climbing",
+      "name": "Tallington Lakes Climbing",
+      "address": "Tallington Lakes Leisure Park, Barholm Road, Stamford PE9 4RJ",
+      "url": "https://www.tallingtonlakesproshop.com/",
+      "lat": 52.670107,
+      "lng": -0.379488,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

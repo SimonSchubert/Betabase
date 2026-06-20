@@ -1,0 +1,38 @@
+{
+  "city": "Truro",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "truro-climbing-centre",
+      "name": "Truro Climbing Centre",
+      "address": "Truro Leisure Centre, College Road, Truro TR1 3QS",
+      "url": "https://www.cornwall.gov.uk/",
+      "lat": 50.263321,
+      "lng": -5.082326,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.cornwall.gov.uk/Content/images/cchoriz-logo.png"
+    },
+    {
+      "id": "truro-leisure-centre-climbing",
+      "name": "Truro Leisure Centre Climbing",
+      "address": "College Road, Truro TR1 3GA",
+      "url": "https://www.truroleisurecentre.co.uk/",
+      "lat": 50.263596,
+      "lng": -5.102061,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

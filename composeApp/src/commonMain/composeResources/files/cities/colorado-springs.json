@@ -1,0 +1,36 @@
+{
+  "city": "Colorado Springs",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cityrock-colorado-springs",
+      "name": "CityROCK",
+      "address": "21 North Nevada Avenue, Colorado Springs, CO 80903",
+      "url": "https://climbcityrock.com",
+      "lat": 38.8347879,
+      "lng": -104.8211093,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "pure-bouldering-gym",
+      "name": "Pure Bouldering Gym",
+      "address": "1401 South 8th Street, Colorado Springs, CO 80905",
+      "url": "https://pureboulderinggym.com",
+      "lat": 38.8139606,
+      "lng": -104.8398531,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

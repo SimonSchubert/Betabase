@@ -1,0 +1,22 @@
+{
+  "city": "Edwardsville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ymca-meyer-center",
+      "name": "YMCA - Meyer Center",
+      "address": "7348 Goshen Road, Edwardsville, IL 62025",
+      "url": "https://edwardsvilleymca.com/locations/meyer-center",
+      "lat": 38.7800232,
+      "lng": -89.9235272,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Bourne End",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "bourne-end-jsc-climbing",
+      "name": "Bourne End JSC Climbing",
+      "address": "New Road, Bourne End SL8 5BW",
+      "url": "https://www.bejsc.co.uk/",
+      "lat": 51.58076,
+      "lng": -0.705488,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

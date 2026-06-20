@@ -1,0 +1,52 @@
+{
+  "city": "Cambridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-cambridge",
+      "name": "Clip 'n Climb Cambridge",
+      "address": "Clifton Road, Cambridge CB1 7EA",
+      "url": "https://clipnclimb.co.uk/locations/cambridge/",
+      "lat": 52.1910615,
+      "lng": 0.1380808,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "kelsey-kerridge-climbing-wall",
+      "name": "Kelsey Kerridge Climbing Wall",
+      "address": "Queen Anne Terrace, Cambridge CB2 3QH",
+      "url": "https://kelseykerridge.co.uk/climbing-wall/",
+      "lat": 52.2013991,
+      "lng": 0.1302386,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://kelseykerridge.co.uk/wp-content/uploads/2023/12/DSC08356.jpg"
+    },
+    {
+      "id": "university-of-cambridge-climbing-wall",
+      "name": "University of Cambridge Climbing Wall",
+      "address": "University Sports Centre, Philippa Fawcett Drive, Cambridge CB3 0AS",
+      "url": "https://www.sport.cam.ac.uk/",
+      "lat": 52.209296,
+      "lng": 0.086064,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "city": "Derby",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "alter-rock-climbing-centre",
+      "name": "Alter Rock Climbing Centre",
+      "address": "St James Church, Malcolm Street, Derby DE23 8LU",
+      "url": "https://www.alter-rock.co.uk/",
+      "lat": 52.9153,
+      "lng": -1.4788,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.alter-rock.co.uk/wp-content/uploads/2022/01/IMG_0907-scaled-2000x1500.jpg"
+    },
+    {
+      "id": "derby-arboretum-boulder",
+      "name": "Derby Arboretum Boulder",
+      "address": "Derby Arboretum, Derby DE23 8FN",
+      "url": "https://www.derbyarboretum.co.uk/",
+      "lat": 52.912352,
+      "lng": -1.472087,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-climbing-unit",
+      "name": "The Climbing Unit",
+      "address": "Unit 5 Masons Place Business Park, Nottingham Road, Derby DE21 6YZ",
+      "url": "https://www.theclimbingunit.com/",
+      "lat": 52.924779,
+      "lng": -1.451112,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://i0.wp.com/theclimbingunit.com/wp-content/uploads/2026/03/EAP08147-scaled.jpg?fit=1180%2C704&ssl=1"
+    }
+  ]
+}

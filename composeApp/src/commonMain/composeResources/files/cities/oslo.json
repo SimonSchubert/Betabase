@@ -10,10 +10,14 @@
       "url": "https://klatreverket.no",
       "lat": 59.9293595,
       "lng": 10.7579196,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://klatreverket.no/wp-content/uploads/2022/10/klatreverket_logo.png"
     },
     {
       "id": "klatreverket-bryn",
@@ -22,10 +26,14 @@
       "url": "https://klatreverket.no/bryn",
       "lat": 59.910069,
       "lng": 10.8112958,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://klatreverket.no/wp-content/uploads/2022/10/klatreverket_logo.png"
     },
     {
       "id": "klatreverket-torshov",
@@ -34,10 +42,14 @@
       "url": "https://klatreverket.no",
       "lat": 59.934862,
       "lng": 10.759447,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://klatreverket.no/wp-content/uploads/2022/10/klatreverket_logo.png"
     },
     {
       "id": "oslo-klatresenter",
@@ -46,10 +58,14 @@
       "url": "https://www.osloklatresenter.no",
       "lat": 59.8676378,
       "lng": 10.8415319,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/57ab58d2e18710ca16407418/66a756015af757122e42e8f1_Logo%20OKS%20Flat%20Dark.svg"
     },
     {
       "id": "oslo-mikrobuldreri",
@@ -58,7 +74,9 @@
       "url": "https://www.oslomikrobuldreri.no",
       "lat": 59.91369,
       "lng": 10.7661318,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -70,10 +88,14 @@
       "url": "https://www.vulkanklatresenter.no",
       "lat": 59.9229349,
       "lng": 10.7521397,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/5bf4669d0ce2977e77399adc/6731c82e5d8da8862bd7e102_VULKANLOGO_R%C3%98D.svg"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "city": "Egham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "acs-egham-climbing-wall",
+      "name": "ACS Egham Climbing Wall",
+      "address": "London Road, Egham TW20 0HS",
+      "url": "https://www.amphibia-group.co.uk/",
+      "lat": 51.415542,
+      "lng": -0.578521,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

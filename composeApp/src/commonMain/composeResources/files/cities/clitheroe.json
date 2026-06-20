@@ -1,0 +1,22 @@
+{
+  "city": "Clitheroe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "roefield-climbing-wall",
+      "name": "Roefield Climbing Wall",
+      "address": "Edisford Road, Clitheroe BB7 3LA",
+      "url": "https://www.roefield.co.uk/",
+      "lat": 53.868918,
+      "lng": -2.411615,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

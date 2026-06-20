@@ -1,0 +1,22 @@
+{
+  "city": "Everett",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "metrorock",
+      "name": "MetroRock",
+      "address": "69 Norman Street, Everett, MA 02149",
+      "url": "https://metrorock.com/everett-home",
+      "lat": 42.4076681,
+      "lng": -71.0672409,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

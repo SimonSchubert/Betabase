@@ -15,7 +15,8 @@
         "kilter"
       ],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://recklinghausen.einstein-boulder.com/wp-content/uploads/2025/09/Copy-of-eB_Routesetternight_Infoscreen.png"
     },
     {
       "id": "neoliet-kletterzentrum-bochum",
@@ -30,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.neoliet.de/wp-content/uploads/neoliet-easyclimb-areas_1816x546-495x400.jpg"
     }
   ],
   "source": "manual-curation-web-research",

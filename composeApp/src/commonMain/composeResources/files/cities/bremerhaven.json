@@ -10,10 +10,13 @@
       "url": "https://www.bremerhaven-boulderclub.de",
       "lat": 53.5546553,
       "lng": 8.5778481,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.bremerhaven-boulderclub.de/images/bbc_logo.png"
     }
   ]
 }

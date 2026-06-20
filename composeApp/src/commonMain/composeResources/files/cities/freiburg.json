@@ -23,7 +23,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://static.wixstatic.com/media/39a7ad_949883ec881f4a8eb597ab00a1f53482~mv2.jpg"
     },
     {
       "id": "boulder-kitchen-freiburg",
@@ -37,7 +38,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.freiburg-boulderkitchen.de/wp-content/uploads/2026/03/BoulderkitchenFreiburg.jpg"
     },
     {
       "id": "kletterzentrum-freiburg",
@@ -52,7 +54,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://kletterzentrum-freiburg.de/wp-content/uploads/2025/05/DAV_Freiburg_KleZ-V1-WebRes-387-Foto-von-Hannes-Tell-500x500.jpg"
     },
     {
       "id": "blocwald-freiburg",
@@ -61,10 +64,13 @@
       "url": "https://www.blocwald.de",
       "lat": 48.0228073,
       "lng": 7.7946131,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.blocwald.de/wp-content/uploads/2019/11/boulder_ewa_bp02.jpg"
     },
     {
       "id": "hotzenblock-freiburg",
@@ -73,10 +79,13 @@
       "url": "https://www.hotzenblock.de",
       "lat": 48.0270273,
       "lng": 7.8538306,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://hotzenblock.de/wp-content/uploads/2025/06/hotzenblock_logo-2048x424.png"
     },
     {
       "id": "upjoy-freiburg",
@@ -85,10 +94,13 @@
       "url": "https://www.upjoy.de",
       "lat": 48.0270273,
       "lng": 7.8538306,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://upjoy.de/wp-content/uploads/2022/12/Upjoy_Bouldern_Klettern_facetofce-sw.jpg"
     }
   ]
 }

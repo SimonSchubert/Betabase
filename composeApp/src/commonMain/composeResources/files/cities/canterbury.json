@@ -1,0 +1,69 @@
+{
+  "city": "Canterbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-canterbury",
+      "name": "Clip 'n Climb Canterbury",
+      "address": "Westwood Cross Shopping Centre, Margate Road, Broadstairs CT10 2BF",
+      "url": "https://clipnclimb.co.uk/locations/canterbury/",
+      "lat": 51.359563,
+      "lng": 1.392642,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "high-sports-canterbury",
+      "name": "High Sports Canterbury",
+      "address": "Kingsmead Leisure Centre, Kingsmead Road, Canterbury CT1 1BW",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.284518,
+      "lng": 1.085476,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "kings-recreation-centre-climbing",
+      "name": "Kings Recreation Centre Climbing",
+      "address": "1 St Stephens Road, Canterbury CT2 7HU",
+      "url": "https://www.kingsrecreation.co.uk/",
+      "lat": 51.285425,
+      "lng": 1.080746,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-kent-climbing-wall",
+      "name": "University of Kent Climbing Wall",
+      "address": "Sports Centre, University of Kent, Canterbury CT2 7NL",
+      "url": "https://www.kent.ac.uk/sports/",
+      "lat": 51.297264,
+      "lng": 1.064552,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.kent.ac.uk/kent-theme-assets/assets/images/logo-1200-1200.gif?1781702888"
+    }
+  ]
+}

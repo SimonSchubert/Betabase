@@ -1,0 +1,22 @@
+{
+  "city": "Bishops Cleeve",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:50Z",
+  "gyms": [
+    {
+      "id": "bishops-cleeve-climbing-wall",
+      "name": "Bishops Cleeve Climbing Wall",
+      "address": "Two Hedges Road, Bishops Cleeve GL52 8AE",
+      "url": "https://www.bishopscleeve.org.uk/",
+      "lat": 51.9412781,
+      "lng": -2.0531589,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

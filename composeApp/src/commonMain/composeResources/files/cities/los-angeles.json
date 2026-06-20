@@ -1,0 +1,35 @@
+{
+  "city": "Los Angeles",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "la-boulders",
+      "name": "LA Boulders",
+      "address": "1375 East 6th Street, Los Angeles, CA 90013",
+      "url": "https://touchstoneclimbing.com/la-boulders",
+      "lat": 34.0389702,
+      "lng": -118.2343821,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-stronghold-climbing-gym",
+      "name": "The Stronghold Climbing Gym",
+      "address": "650 South Avenue 21, Los Angeles, CA 90031",
+      "url": "https://www.strongholdclimb.com",
+      "lat": 34.063794,
+      "lng": -118.216879,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

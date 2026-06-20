@@ -1,0 +1,66 @@
+{
+  "city": "San Francisco",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "benchmark-climbing",
+      "name": "Benchmark Climbing",
+      "address": "1414 Van Ness Avenue, San Francisco, CA 94109",
+      "url": "https://www.benchmarkclimbing.com",
+      "lat": 37.7888897,
+      "lng": -122.4217728,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "dogpatch-boulders",
+      "name": "Dogpatch Boulders",
+      "address": "2573 3rd Street, San Francisco, CA 94107",
+      "url": "https://touchstoneclimbing.com/dogpatch-boulders",
+      "lat": 37.7566304,
+      "lng": -122.3877723,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mission-cliffs",
+      "name": "Mission Cliffs",
+      "address": "2295 Harrison Street, San Francisco, CA 94110",
+      "url": "https://touchstoneclimbing.com/mission-cliffs",
+      "lat": 37.7606787,
+      "lng": -122.4124142,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-san-francisco",
+      "name": "Movement San Francisco",
+      "address": "924 Mason Street, CA 94129",
+      "url": "https://movementgyms.com/san-francisco",
+      "lat": 37.8043617,
+      "lng": -122.4683743,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

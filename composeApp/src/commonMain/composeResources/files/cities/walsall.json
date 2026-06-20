@@ -1,0 +1,22 @@
+{
+  "city": "Walsall",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "bentley-climbing-tower",
+      "name": "Bentley Climbing Tower",
+      "address": "Bentley Leisure Pavilion, Bentley Road North, Walsall WS2 0EA",
+      "url": "https://www.wmleisurecentres.co.uk/",
+      "lat": 52.580671,
+      "lng": -2.024435,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

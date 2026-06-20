@@ -1,0 +1,21 @@
+{
+  "city": "Sacramento",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-boulder-field",
+      "name": "The Boulder Field",
+      "address": "8425 Belvedere Avenue, Sacramento, CA 95826",
+      "url": "https://www.theboulderfield.com",
+      "lat": 38.5388423,
+      "lng": -121.394636,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

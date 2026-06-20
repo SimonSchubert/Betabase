@@ -1,0 +1,22 @@
+{
+  "city": "West Bromwich",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "boulder-central",
+      "name": "Boulder Central",
+      "address": "Richmond Street South, West Bromwich B70 0DG",
+      "url": "https://www.bouldercentral.co.uk/",
+      "lat": 52.5186,
+      "lng": -1.9895,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/61437c5a14bef66af4c4c769/1780584281741-DTLS4Q80RZ1I0UH6BS7Y/image-asset.jpeg"
+    }
+  ]
+}

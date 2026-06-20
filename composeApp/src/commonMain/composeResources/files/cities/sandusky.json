@@ -1,0 +1,22 @@
+{
+  "city": "Sandusky",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cedar-point-sports-center",
+      "name": "Cedar Point Sports Center",
+      "address": "2701 Cleveland Road West, Sandusky, OH 44870",
+      "url": "https://www.cpsports.com",
+      "lat": 41.4325735,
+      "lng": -82.6564165,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

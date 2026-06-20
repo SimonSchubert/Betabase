@@ -1,0 +1,37 @@
+{
+  "city": "Milton Keynes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "big-rock-climbing-centre",
+      "name": "Big Rock Climbing Centre",
+      "address": "Unit 2, Tanners Drive, Blakelands, Milton Keynes MK14 5BW",
+      "url": "https://www.bigrockclimbing.co.uk/",
+      "lat": 52.0408,
+      "lng": -0.7597,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-chill-xscape-milton-keynes",
+      "name": "Vertical Chill Xscape Milton Keynes",
+      "address": "Unit 32, Xscape, 602 Marlborough Gate, Milton Keynes MK9 3XA",
+      "url": "https://www.vertical-chill.com/",
+      "lat": 52.041539,
+      "lng": -0.748834,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

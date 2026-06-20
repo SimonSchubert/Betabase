@@ -10,7 +10,10 @@
       "url": "https://www.kletterbox.de",
       "lat": 47.783152,
       "lng": 9.6106506,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

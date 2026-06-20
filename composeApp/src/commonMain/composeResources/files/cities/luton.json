@@ -1,0 +1,38 @@
+{
+  "city": "Luton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "luton-climbing-centre",
+      "name": "Luton Climbing Centre",
+      "address": "Luton Sports Village, Butterfield Green Road, Luton LU2 8DD",
+      "url": "https://www.better.org.uk/",
+      "lat": 51.908024,
+      "lng": -0.392612,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "puttridge-high-school-climbing",
+      "name": "Puttridge High School Climbing",
+      "address": "Putteridge Road, Luton LU2 8HJ",
+      "url": "https://putteridge.schoolbookings.co.uk/",
+      "lat": 51.904056,
+      "lng": -0.383887,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

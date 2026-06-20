@@ -1,0 +1,21 @@
+{
+  "city": "North Logan",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "elevation-rock-gym",
+      "name": "Elevation Rock Gym",
+      "address": "1780 North 200 East, North Logan, UT 84341",
+      "url": "https://elevationrockgym.com",
+      "lat": 41.7637264,
+      "lng": -111.8279979,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

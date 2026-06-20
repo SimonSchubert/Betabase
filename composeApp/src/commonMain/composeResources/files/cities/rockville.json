@@ -1,0 +1,22 @@
+{
+  "city": "Rockville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-rockville",
+      "name": "Movement Rockville",
+      "address": "725 Rockville Pike, Rockville, MD 20852",
+      "url": "https://movementgyms.com/rockville",
+      "lat": 39.0786375,
+      "lng": -77.1434286,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

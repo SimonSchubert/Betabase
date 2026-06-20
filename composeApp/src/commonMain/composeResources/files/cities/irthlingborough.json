@@ -1,0 +1,23 @@
+{
+  "city": "Irthlingborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "rock-uk-frontier-centre",
+      "name": "Rock UK Frontier Centre",
+      "address": "Irthlingborough, Wellingborough NN14 2SH",
+      "url": "https://rockuk.org/centres/frontier-centre/",
+      "lat": 52.3267,
+      "lng": -0.6128,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://rockuk.org/wp-content/themes/nopio_master_theme/assets/images/logo.svg"
+    }
+  ]
+}

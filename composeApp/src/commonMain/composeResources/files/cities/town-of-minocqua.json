@@ -1,0 +1,22 @@
+{
+  "city": "Town of Minocqua",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "northwoods-zip-line-adventure-tours",
+      "name": "Northwoods Zip Line Adventure Tours",
+      "address": "Town of Minocqua, Wisconsin",
+      "url": "https://northwoodszipline.com",
+      "lat": 45.8444162,
+      "lng": -89.7101725,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

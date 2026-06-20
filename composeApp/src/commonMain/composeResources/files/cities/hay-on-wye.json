@@ -1,0 +1,22 @@
+{
+  "city": "Hay-on-Wye",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "trewern-outdoor-centre-climbing",
+      "name": "Trewern Outdoor Centre Climbing",
+      "address": "Cusop, Hay-on-Wye HR3 5NT",
+      "url": "https://www.trewern.org.uk/",
+      "lat": 52.04015,
+      "lng": -3.200546,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

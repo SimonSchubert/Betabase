@@ -1,0 +1,22 @@
+{
+  "city": "Grapevine",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-grapevine",
+      "name": "Movement Grapevine",
+      "address": "3105 William D Tate Avenue, Grapevine, TX 76051",
+      "url": "https://movementgyms.com/grapevine",
+      "lat": 32.9048031,
+      "lng": -97.0960843,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Caernarfon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "beacon-climbing-centre",
+      "name": "Beacon Climbing Centre",
+      "address": "Cibyn Estate, Caernarfon LL55 2BD",
+      "url": "https://www.beaconclimbing.com/",
+      "lat": 53.1412,
+      "lng": -4.2765,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "plas-menai-climbing-wall",
+      "name": "Plas Menai Climbing Wall",
+      "address": "Plas Menai National Outdoor Centre, Caernarfon LL55 1UE",
+      "url": "https://www.plasmenai.co.uk/",
+      "lat": 53.170789,
+      "lng": -4.241131,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

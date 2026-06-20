@@ -1,0 +1,22 @@
+{
+  "city": "Millville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "fun-city-adventure-park",
+      "name": "Fun City Adventure Park",
+      "address": "2126 North 2nd Street, Millville, NJ 08332",
+      "url": "https://www.funcitymillville.com",
+      "lat": 39.421739,
+      "lng": -75.044734,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

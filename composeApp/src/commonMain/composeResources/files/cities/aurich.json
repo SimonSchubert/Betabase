@@ -10,10 +10,13 @@
       "url": "https://www.kluntje-aurich.de",
       "lat": 53.478342,
       "lng": 7.4662201,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 500,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kluntje-aurich.de/onTEAM/layout/img/logo.png"
     }
   ]
 }

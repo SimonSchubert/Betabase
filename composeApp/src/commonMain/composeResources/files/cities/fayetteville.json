@@ -1,0 +1,21 @@
+{
+  "city": "Fayetteville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulders-and-brews-climbing-and-coffee",
+      "name": "Boulders and Brews: Climbing and Coffee",
+      "address": "612 West Dickson Street, Fayetteville, AR 72701",
+      "url": "https://bouldersandbrews.com",
+      "lat": 36.0672597,
+      "lng": -94.1671444,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

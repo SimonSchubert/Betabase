@@ -1,0 +1,22 @@
+{
+  "city": "Gateshead",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "whickham-thorns-climbing",
+      "name": "Whickham Thorns Climbing",
+      "address": "Market Lane, Dunston, Gateshead NE11 9NX",
+      "url": "https://www.gateshead.gov.uk/",
+      "lat": 54.948886,
+      "lng": -1.652402,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

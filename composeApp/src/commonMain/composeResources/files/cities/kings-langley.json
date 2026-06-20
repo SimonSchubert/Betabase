@@ -1,0 +1,22 @@
+{
+  "city": "Kings Langley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "phasels-wood-activity-centre",
+      "name": "Phasels Wood Activity Centre",
+      "address": "Rucklers Lane, Kings Langley WD4 9NA",
+      "url": "https://www.phaselswood.org.uk/",
+      "lat": 51.72564,
+      "lng": -0.480305,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

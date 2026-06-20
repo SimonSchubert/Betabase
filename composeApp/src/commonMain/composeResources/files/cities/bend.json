@@ -1,0 +1,35 @@
+{
+  "city": "Bend",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bend-rock-gym",
+      "name": "Bend Rock Gym",
+      "address": "1182 Southeast Centennial Court, Bend, OR 97702",
+      "url": "https://www.bendrockgym.com",
+      "lat": 44.0382124,
+      "lng": -121.2903616,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-circuit-boudering-gym",
+      "name": "The Circuit Boudering Gym",
+      "address": "63051 Corporate Place, Bend, OR 97701",
+      "url": "https://www.thecircuitgym.com",
+      "lat": 44.089719,
+      "lng": -121.299259,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Eastbourne",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "eastbourne-climbing-centre",
+      "name": "Eastbourne Climbing Centre",
+      "address": "Sovereign Centre, Royal Parade, Eastbourne BN22 6AE",
+      "url": "https://www.leisurecentre.com/",
+      "lat": 50.7816575,
+      "lng": 0.3122968,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.leisurecentre.com/.imaging/focalpoint/600x480/dam/jcr:f6a3a38c-b0e4-4bc7-b35e-ad554cab8acf/Parkwood_Spiceball_BrandShoot_Feb2024_1139RESIZE.jpg"
+    },
+    {
+      "id": "university-of-brighton-eastbourne-climbing",
+      "name": "University of Brighton Eastbourne Climbing",
+      "address": "Denton Road, Eastbourne BN20 7BJ",
+      "url": "https://www.brighton.ac.uk/sport/brighton",
+      "lat": 50.761118,
+      "lng": 0.276975,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

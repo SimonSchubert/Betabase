@@ -1,0 +1,22 @@
+{
+  "city": "Portland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "evo-rock-fitness-portland",
+      "name": "Evo Rock & Fitness Portland",
+      "address": "65 Warren Avenue, Portland, ME 04103",
+      "url": "https://www.evorock.com/portland-me",
+      "lat": 43.6891423,
+      "lng": -70.2994364,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

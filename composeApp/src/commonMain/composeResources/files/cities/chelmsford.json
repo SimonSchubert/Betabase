@@ -1,0 +1,22 @@
+{
+  "city": "Chelmsford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-chelmsford",
+      "name": "Clip 'n Climb Chelmsford",
+      "address": "Riverside Ice and Leisure Centre, Victoria Road, Chelmsford CM1 1FG",
+      "url": "https://clipnclimb.co.uk/locations/chelmsford/",
+      "lat": 51.735883,
+      "lng": 0.477536,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    }
+  ]
+}

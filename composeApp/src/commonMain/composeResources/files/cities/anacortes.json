@@ -1,0 +1,22 @@
+{
+  "city": "Anacortes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mount-erie-rock-climbing-area",
+      "name": "Mount Erie Rock Climbing Area",
+      "address": "Anacortes, Washington",
+      "url": "https://washingtonclimbers.org/index.php/2015/10/13/12188",
+      "lat": 48.4537603,
+      "lng": -122.6294578,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

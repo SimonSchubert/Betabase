@@ -1,0 +1,22 @@
+{
+  "city": "Calshot",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "calshot-activities-centre",
+      "name": "Calshot Activities Centre",
+      "address": "Calshot Spit, Fawley, Southampton SO45 1BR",
+      "url": "https://www.calshot.com/",
+      "lat": 50.8185,
+      "lng": -1.3263,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Hayling Island",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "hi-rock-climbing",
+      "name": "Hi ROCK Climbing",
+      "address": "The Hayling College, Church Road, Hayling Island PO11 0PQ",
+      "url": "https://www.hi-rock.co.uk/",
+      "lat": 50.798814,
+      "lng": -0.97466,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

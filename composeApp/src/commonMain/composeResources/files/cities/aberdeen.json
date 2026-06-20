@@ -1,0 +1,52 @@
+{
+  "city": "Aberdeen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "beach-leisure-centre-climbing",
+      "name": "Beach Leisure Centre Climbing",
+      "address": "The Beach Esplanade, Aberdeen AB24 5NR",
+      "url": "https://www.aberdeencity.gov.uk/",
+      "lat": 57.1411,
+      "lng": -2.0775,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rgu-sport-climbing-wall",
+      "name": "RGU Sport Climbing Wall",
+      "address": "Garthdee Road, Aberdeen AB10 7GE",
+      "url": "https://www.rgusport.co.uk/",
+      "lat": 57.1185,
+      "lng": -2.1328,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "transition-extreme-aberdeen",
+      "name": "Transition Extreme Aberdeen",
+      "address": "Links Road, Aberdeen AB24 5NN",
+      "url": "https://www.transition-extreme.com/",
+      "lat": 57.1689,
+      "lng": -2.0947,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

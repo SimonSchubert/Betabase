@@ -1,0 +1,21 @@
+{
+  "city": "Cleveland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cleveland-rocks-climbing-gym",
+      "name": "Cleveland Rocks Climbing Gym",
+      "address": "2831 Franklin Blvd, OH",
+      "url": "https://www.clevelandrocksclimbing.com",
+      "lat": 41.4870743,
+      "lng": -81.7094998,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

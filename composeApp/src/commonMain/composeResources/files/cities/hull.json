@@ -1,0 +1,39 @@
+{
+  "city": "Hull",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "hull-university-climbing-wall",
+      "name": "Hull University Climbing Wall",
+      "address": "Allam Sports Centre, University of Hull, Hull HU6 7RX",
+      "url": "https://www.hull.ac.uk/sport",
+      "lat": 53.771798,
+      "lng": -0.36639,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://sport.hull.ac.uk/wp-content/themes/CampusSport/dist/images/megamenu/gym_92743205.jpg"
+    },
+    {
+      "id": "rockcity",
+      "name": "Rockcity",
+      "address": "Hawthorn Avenue, Hull HU3 5JX",
+      "url": "https://www.rockcity.co.uk/",
+      "lat": 53.7353156,
+      "lng": -0.3790685,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://rockcity.co.uk/cdn/shop/files/Go-Climbing-1024x427.jpg?v=1734973380&width=1500"
+    }
+  ]
+}

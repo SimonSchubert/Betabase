@@ -1,0 +1,85 @@
+{
+  "city": "Reading",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "amphibia-loddon-valley",
+      "name": "Amphibia Loddon Valley",
+      "address": "Loddon Valley Leisure Centre, Rushey Way, Lower Earley RG6 4GD",
+      "url": "https://www.amphibia-group.co.uk/",
+      "lat": 51.425628,
+      "lng": -0.932172,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "high-sports-reading",
+      "name": "High Sports Reading",
+      "address": "Rivermead Leisure Centre, Richfield Avenue, Reading RG1 8EQ",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.46367,
+      "lng": -0.985466,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "reading-climbing-centre",
+      "name": "Reading Climbing Centre",
+      "address": "Unit 33 Robert Cort Industrial Estate, Britten Road, Reading RG2 0AU",
+      "url": "https://parthianclimbing.com/reading/",
+      "lat": 51.4252,
+      "lng": -0.9783,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://parthianclimbing.com/wp-content/uploads/2022/11/Parthian-Climbing-Social-Card.jpg"
+    },
+    {
+      "id": "climbing-hangar-reading",
+      "name": "The Climbing Hangar Reading",
+      "address": "Unit 1, Weldale Street, RG1 7BX Reading",
+      "url": "https://www.theclimbinghangar.com/locations/reading",
+      "lat": 51.4573815,
+      "lng": -0.9796629,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbinghangar.com/media/4529/website-72dpi-tch-sheffield-photography-september-2023-rob-battersby-55.jpg?anchor=center&mode=crop&quality=70&width=768&height=768&rnd=133451185720000000"
+    },
+    {
+      "id": "university-of-reading-climbing-wall",
+      "name": "University of Reading Climbing Wall",
+      "address": "SportsPark, University of Reading, Reading RG6 6AH",
+      "url": "https://www.reading.ac.uk/sport/",
+      "lat": 51.457626,
+      "lng": -0.945616,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.reading.ac.uk/about/-/media/discover/images/tiles/taster-tiles/about/qap-600x300.png?h=300&w=600&la=en&hash=BE2566699BD9CB18B00680FE353ACAAD"
+    }
+  ]
+}

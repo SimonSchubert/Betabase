@@ -1,0 +1,22 @@
+{
+  "city": "Llanrwst",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "dyffryn-conwy-leisure-centre-climbing",
+      "name": "Dyffryn Conwy Leisure Centre Climbing",
+      "address": "Nebo Road, Llanrwst LL26 0SD",
+      "url": "https://www.conwy.gov.uk/",
+      "lat": 53.133202,
+      "lng": -3.786546,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

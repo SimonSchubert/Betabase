@@ -1,0 +1,22 @@
+{
+  "city": "Cannington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "cannington-climbing-wall",
+      "name": "Cannington Climbing Wall",
+      "address": "Cannington Centre for Land-based Studies, Cannington TA5 2LS",
+      "url": "https://www.canningtonactivitycentre.co.uk/",
+      "lat": 51.152281,
+      "lng": -3.065259,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

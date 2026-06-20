@@ -1,0 +1,21 @@
+{
+  "city": "Llanberis",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "the-heights-hotel-bouldering",
+      "name": "The Heights Hotel Bouldering",
+      "address": "74 High Street, Llanberis LL55 4HB",
+      "url": "https://www.heightshotel.co.uk/",
+      "lat": 53.119582,
+      "lng": -4.126186,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

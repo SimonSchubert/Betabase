@@ -10,7 +10,9 @@
       "url": "https://www.blockfabrik.at",
       "lat": 48.1905998,
       "lng": 16.3603242,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "07:30-23:00",
         "sat": "07:30-22:00",
         "sun": "07:30-22:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/5e1076cb4b55b0338730e1d6/6407189745008b0aee680ba0_BF_Logo_wei%C3%9F-p-3200.png"
     },
     {
       "id": "boulder-monkeys",
@@ -30,7 +33,9 @@
       "url": "https://bouldermonkeys.at",
       "lat": 48.2014986,
       "lng": 16.4022482,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,16 +46,19 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://bouldermonkeys.at/wp-content/uploads/2024/11/boulder-monkeys-hands2.png"
     },
     {
       "id": "boulderbar-vienna-hannovergasse",
       "name": "Boulderbar Hannovergasse",
       "address": "Hannovergasse 21, 1200 Wien",
       "url": "https://boulderbar.net/standorte/wien-hannovergasse/",
-      "lat": 48.2314810,
-      "lng": 16.3678640,
-      "disciplines": ["boulder"],
+      "lat": 48.231481,
+      "lng": 16.367864,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1280,
       "opening_hours": {
@@ -61,7 +69,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderbar.net/wp-content/uploads/2024/04/Boulderwaende-boulderbar-Hannovergasse-1280x853.jpg"
     },
     {
       "id": "boulderbar-vienna-hauptbahnhof",
@@ -70,7 +79,9 @@
       "url": "https://boulderbar.net/standorte/wien-hauptbahnhof/",
       "lat": 48.1815643,
       "lng": 16.3849557,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1100,
       "opening_hours": {
@@ -81,7 +92,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderbar.net/wp-content/uploads/2024/04/Boulderin-klettert-im-Ueberhang.jpg"
     },
     {
       "id": "boulderbar-vienna-seestadt",
@@ -90,7 +102,9 @@
       "url": "https://boulderbar.net/standorte/wien-seestadt/",
       "lat": 48.2303481,
       "lng": 16.5096507,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -101,7 +115,8 @@
         "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderbar.net/wp-content/uploads/2024/04/Boulderwaende-boulderbar-Seestadt-1280x1059.jpg"
     },
     {
       "id": "boulderbar-vienna-wienerberg",
@@ -109,8 +124,10 @@
       "address": "Gutheil-Schoder-Gasse 8, 1100 Wien",
       "url": "https://boulderbar.net/standorte/wien-wienerberg/",
       "lat": 48.1612454,
-      "lng": 16.3356270,
-      "disciplines": ["boulder"],
+      "lng": 16.335627,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1100,
       "opening_hours": {
@@ -121,7 +138,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderbar.net/wp-content/uploads/2024/04/Wahlhuetter-Boulderbar-Wienerberg-6-1280x853.jpg"
     },
     {
       "id": "climb-on-marswiese",
@@ -130,7 +148,10 @@
       "url": "https://marswiese.at/kletterhalle/",
       "lat": 48.2391326,
       "lng": 16.2763914,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -141,7 +162,8 @@
         "fri": "08:00-22:00",
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
-      }
+      },
+      "image_url": "https://marswiese.at/wp-content/uploads/2025/07/NeueRouten.jpg"
     },
     {
       "id": "das-flash",
@@ -150,7 +172,9 @@
       "url": "https://www.dasflash.at",
       "lat": 48.2333286,
       "lng": 16.3759074,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -161,7 +185,8 @@
         "fri": "08:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6901ec29eabed25adae8e06f/bdf0a4f7-4435-464a-8b9a-350e64197545/Bildschirmfoto+2026-02-04+um+21.01.59.png?format=2500w"
     },
     {
       "id": "edelweiss-walfischgasse",
@@ -170,7 +195,9 @@
       "url": "https://edelweiss-klettern.at/walfischgasse",
       "lat": 48.2028647,
       "lng": 16.3727855,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1100,
       "opening_hours": {
@@ -181,7 +208,8 @@
         "fri": "09:00-21:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://edelweiss-klettern.at/_wGlobal/wGlobal/layout/images/LogoEdelweissKlettern.png"
     },
     {
       "id": "kletterhalle-wien",
@@ -190,7 +218,10 @@
       "url": "https://www.kletterhallewien.at",
       "lat": 48.2297748,
       "lng": 16.4505812,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -201,7 +232,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://www.kletterhallewien.at/media/cms_news/kinderboulder_header_kleiner_ohne_tiere.jpg.1680x640_q85_crop_upscale.jpg"
     },
     {
       "id": "kletterzentrum-austria",
@@ -210,10 +242,14 @@
       "url": "https://www.alpenverein-austria.at",
       "lat": 48.2105603,
       "lng": 16.3750362,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.alpenverein-austria.at/austria/slides/bilder/sommer2018/weblication/wThumbnails/2013_07_22_BritanniaWallis_Hochtouren_Fluchthorn-026-0c3a600451804275b3e768884e298c95.JPG"
     },
     {
       "id": "kraxlerei",
@@ -222,7 +258,10 @@
       "url": "https://kraxlerei.at",
       "lat": 48.2374545,
       "lng": 16.2860337,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -233,7 +272,8 @@
         "fri": "00:00-24:00",
         "sat": "00:00-24:00",
         "sun": "00:00-24:00"
-      }
+      },
+      "image_url": "https://kraxlerei.at/files/carouselHeader/6_Hallensperre.png"
     },
     {
       "id": "oegv-kletterzentrum",
@@ -242,7 +282,10 @@
       "url": "https://www.alpenverein.at/gebirgsverein/kletterzentrum/index.php",
       "lat": 48.2065048,
       "lng": 16.3508048,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 440,
       "opening_hours": {
@@ -253,7 +296,8 @@
         "fri": "10:00-23:00",
         "sat": "14:00-20:00",
         "sun": "14:00-20:00"
-      }
+      },
+      "image_url": "https://www.alpenverein.at/gebirgsverein_wAssets/img/programm-bilder/klez/weblication/wThumbnails/KLEZ-25-06-ca46a5c092b516bg58232bf90b64add2.jpg"
     },
     {
       "id": "oetk-kletterhalle",
@@ -262,7 +306,10 @@
       "url": "https://www.oetk.at/kletterhalle/",
       "lat": 48.2087878,
       "lng": 16.3767623,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -273,7 +320,8 @@
         "fri": "09:00-22:00",
         "sat": "13:00-22:00",
         "sun": "13:00-22:00"
-      }
+      },
+      "image_url": "https://www.oetk.at/s/cc_images/cache_2496578243.jpeg?t=1759587124"
     }
   ]
 }

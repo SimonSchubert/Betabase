@@ -1,0 +1,22 @@
+{
+  "city": "Amherst",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ascend",
+      "name": "ASCEND",
+      "address": "Amherst, Massachusetts",
+      "url": "https://www.umass.edu/recwell/climbing",
+      "lat": 42.3849253,
+      "lng": -72.5263808,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

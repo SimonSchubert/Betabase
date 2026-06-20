@@ -1,0 +1,22 @@
+{
+  "city": "Worthing",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "worthing-leisure-centre-climbing",
+      "name": "Worthing Leisure Centre Climbing",
+      "address": "West Park, Shaftesbury Avenue, Worthing BN12 4ET",
+      "url": "https://www.worthingleisure.co.uk/",
+      "lat": 50.815574,
+      "lng": -0.409324,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

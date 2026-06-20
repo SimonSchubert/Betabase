@@ -1,0 +1,22 @@
+{
+  "city": "Crewe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "south-cheshire-college-climbing",
+      "name": "South Cheshire College Climbing",
+      "address": "Danebank Avenue, Crewe CW2 8AB",
+      "url": "https://www.s-cheshire.ac.uk/",
+      "lat": 53.089027,
+      "lng": -2.454972,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -23,7 +23,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://blockhelden.de/wp-content/uploads/2024/03/BLOCKHLEDEN-Bamberg-boulder-splut.jpg"
     },
     {
       "id": "dav-sparkassen-bergwelt-erlangen",
@@ -46,7 +47,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.kletter-und-vereinszentrum.de/wp-content/uploads/2019/04/Logo_Kletter-und-Vereinszentrum_Bergwelt.svg"
     }
   ]
 }

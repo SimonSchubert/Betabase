@@ -1,0 +1,21 @@
+{
+  "city": "Hadley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-hadley",
+      "name": "Central Rock Gym Hadley",
+      "address": "Hadley, Massachusetts",
+      "url": "https://centralrockgym.com/hadley",
+      "lat": 42.342051,
+      "lng": -72.5846123,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

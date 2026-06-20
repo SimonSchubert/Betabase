@@ -1,0 +1,21 @@
+{
+  "city": "Waltham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-waltham",
+      "name": "Central Rock Gym Waltham",
+      "address": "MA 02452",
+      "url": "https://centralrockgym.com/waltham",
+      "lat": 42.3872794,
+      "lng": -71.2015876,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Hackensack",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "goat-climbing-gym",
+      "name": "Goat Climbing Gym",
+      "address": "77 River Street, Hackensack, NJ 07601",
+      "url": "https://goatclimbinggym.com",
+      "lat": 40.8802116,
+      "lng": -74.0418898,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

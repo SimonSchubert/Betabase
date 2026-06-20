@@ -1,0 +1,21 @@
+{
+  "city": "Town of Colonie",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "hudson-boulders",
+      "name": "Hudson Boulders",
+      "address": "195 Troy Schenectady Road, NY 12110",
+      "url": "https://hudsonboulders.com",
+      "lat": 42.740153,
+      "lng": -73.7323381,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

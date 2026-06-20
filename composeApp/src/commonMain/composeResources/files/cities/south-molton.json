@@ -1,0 +1,23 @@
+{
+  "city": "South Molton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "rock-and-rapid-adventures",
+      "name": "Rock and Rapid Adventures",
+      "address": "Hacche Mill, South Molton EX36 3NA",
+      "url": "https://rockandrapidadventures.co.uk/",
+      "lat": 51.029308,
+      "lng": -3.827948,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://rockandrapidadventures.co.uk/wp-content/uploads/2025/11/activities_the_wall_preview.jpg"
+    }
+  ]
+}

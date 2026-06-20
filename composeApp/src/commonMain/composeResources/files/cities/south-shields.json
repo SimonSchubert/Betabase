@@ -1,0 +1,22 @@
+{
+  "city": "South Shields",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "simonside-youth-centre-climbing",
+      "name": "Simonside Youth Centre Climbing",
+      "address": "St Simon Street, South Shields NE34 9SD",
+      "url": "https://www.southtyneside.gov.uk/",
+      "lat": 54.96559,
+      "lng": -1.451446,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

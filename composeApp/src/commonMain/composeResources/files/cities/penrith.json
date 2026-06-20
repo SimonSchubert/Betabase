@@ -1,0 +1,52 @@
+{
+  "city": "Penrith",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "distant-horizons-climbing",
+      "name": "Distant Horizons Climbing",
+      "address": "Leeming Farm, Watermillock, Penrith CA11 0JJ",
+      "url": "https://www.distant-horizons.co.uk/",
+      "lat": 54.587725,
+      "lng": -2.865579,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "eden-valley-sports-centre-climbing",
+      "name": "Eden Valley Sports Centre Climbing",
+      "address": "Southend Road, Penrith CA11 8JH",
+      "url": "https://www.evmc.co.uk/",
+      "lat": 54.661858,
+      "lng": -2.750003,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-climbing-centre-penrith",
+      "name": "The Climbing Centre Penrith",
+      "address": "Newton Rigg, Penrith CA11 0AH",
+      "url": "https://www.theclimbingcentre.co.uk/",
+      "lat": 54.6710846,
+      "lng": -2.7885803,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

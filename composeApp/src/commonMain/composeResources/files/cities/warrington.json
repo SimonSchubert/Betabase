@@ -1,0 +1,23 @@
+{
+  "city": "Warrington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "the-northwest-face",
+      "name": "The Northwest Face",
+      "address": "St Anns Church, Winwick Road, Warrington WA2 7NE",
+      "url": "https://www.northwestface.com/",
+      "lat": 53.3989,
+      "lng": -2.5878,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.northwestface.com/img/logo-footer.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Louisville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-spot",
+      "name": "The Spot",
+      "address": "1754 Dogwood Street, Louisville, CO 80027",
+      "url": "https://www.thespotgym.com/louisville",
+      "lat": 39.9658305,
+      "lng": -105.116746,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

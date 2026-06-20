@@ -10,10 +10,13 @@
       "url": "https://www.boulder-point.de",
       "lat": 53.8282311,
       "lng": 9.9819197,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulder-point.de/wp-content/uploads/2024/06/Boulder-Point_Logo_512x512-150x150.jpg"
     }
   ]
 }

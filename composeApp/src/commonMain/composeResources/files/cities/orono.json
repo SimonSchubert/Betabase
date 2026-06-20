@@ -1,0 +1,22 @@
+{
+  "city": "Orono",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "maine-bound-adventure-center",
+      "name": "Maine Bound Adventure Center",
+      "address": "46 Sebago Road, Orono, ME 04469",
+      "url": "https://umaine.edu/mainebound",
+      "lat": 44.8987875,
+      "lng": -68.6664924,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Goshen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "warehouse-climbing-co",
+      "name": "Warehouse Climbing Co.",
+      "address": "605 Logan Street, IN 46528",
+      "url": "https://www.warehouseclimbingco.com",
+      "lat": 41.5863272,
+      "lng": -85.8254409,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -10,7 +10,11 @@
       "url": "https://big-wall.cz",
       "lat": 50.105447,
       "lng": 14.499869,
-      "disciplines": ["boulder", "lead", "speed"],
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +25,8 @@
         "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://big-wall.cz/media/cache/da/81/da81abc0827824691c3b77b2efc20c29/2026_bigwall_20260329_184633_0000.jpg"
     },
     {
       "id": "freesolo",
@@ -30,7 +35,10 @@
       "url": "https://freesolo.cz",
       "lat": 50.037163,
       "lng": 14.5057623,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +49,8 @@
         "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://freesolo.cz/wp-content/uploads/boulder1-WEB.jpg"
     },
     {
       "id": "jungle-holesovice",
@@ -50,10 +59,13 @@
       "url": "https://holesovice.jungle.cz",
       "lat": 50.1058465,
       "lng": 14.434641,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://holesovice.jungle.cz/data/leaderboard/d12ea7a4ceb042faf5a267dbb3cb2c1e.jpg"
     },
     {
       "id": "lokal-blok",
@@ -62,7 +74,9 @@
       "url": "https://lokalblok.cz",
       "lat": 50.0729996,
       "lng": 14.4050177,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -73,7 +87,8 @@
         "fri": "11:00-23:00",
         "sat": "11:00-23:00",
         "sun": "11:00-23:00"
-      }
+      },
+      "image_url": "https://www.lokalblok.cz/files/responsive/1280/0/983-photo-2026-01-26-17-54-48.webp"
     },
     {
       "id": "smichoff",
@@ -82,7 +97,10 @@
       "url": "https://smichoff.cz",
       "lat": 50.0551047,
       "lng": 14.4066169,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {

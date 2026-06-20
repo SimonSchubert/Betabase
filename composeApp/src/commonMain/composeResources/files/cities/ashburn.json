@@ -1,0 +1,22 @@
+{
+  "city": "Ashburn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "up-ultimate-adventure-park",
+      "name": "Up! Ultimate Adventure Park",
+      "address": "20051 Riverside Commons Plaza, Ashburn, VA 20147",
+      "url": "https://www.upultimateadventurepark.com",
+      "lat": 39.0626864,
+      "lng": -77.4608217,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

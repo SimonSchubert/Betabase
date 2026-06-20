@@ -1,0 +1,67 @@
+{
+  "city": "Denver",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "carla-madison-recreation-center",
+      "name": "Carla Madison Recreation Center",
+      "address": "2405 East Colfax Avenue, Denver, CO 80206",
+      "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Recreation-Centers-Pools/Recreation-Centers/Carla-Madison-Recreation-Center",
+      "lat": 39.7407128,
+      "lng": -104.9584841,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-baker",
+      "name": "Movement Baker",
+      "address": "1155 West 5th Avenue, Denver, CO 80204",
+      "url": "https://movementgyms.com",
+      "lat": 39.7251862,
+      "lng": -105.0025132,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-rino-climbing-fitness",
+      "name": "Movement RiNo Climbing + Fitness",
+      "address": "3201 Walnut Street, Denver, CO 80205",
+      "url": "https://movementgyms.com/rino",
+      "lat": 39.7656693,
+      "lng": -104.9784131,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "ubergrippen-indoor-climbing-crag-denver",
+      "name": "Übergrippen Indoor Climbing Crag - Denver",
+      "address": "8610 East 21st Avenue, Denver, CO 80220",
+      "url": "https://ugclimbing.com",
+      "lat": 39.7485305,
+      "lng": -104.8876011,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

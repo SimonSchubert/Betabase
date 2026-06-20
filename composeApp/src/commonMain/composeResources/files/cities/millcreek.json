@@ -1,0 +1,22 @@
+{
+  "city": "Millcreek",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-front-climbing-club",
+      "name": "The Front Climbing Club",
+      "address": "4140 South Main Street, UT 84107",
+      "url": "https://thefrontclimbingclub.com",
+      "lat": 40.6818226,
+      "lng": -111.8915557,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

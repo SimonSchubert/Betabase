@@ -1,0 +1,22 @@
+{
+  "city": "Wimborne",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "the-edge-climbing-wall",
+      "name": "The Edge Climbing Wall",
+      "address": "Queen Elizabeth Leisure Centre, Blandford Road, Wimborne BH21 4DT",
+      "url": "https://www.qe-leisure-centre.co.uk/",
+      "lat": 50.806269,
+      "lng": -2.004894,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

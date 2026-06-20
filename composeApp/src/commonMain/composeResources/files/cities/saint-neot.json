@@ -1,0 +1,22 @@
+{
+  "city": "Saint Neot",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "magic-wood-climbing-centre",
+      "name": "Magic Wood Climbing Centre",
+      "address": "Woodlands Farm, Saint Neot PL14 6HQ",
+      "url": "https://www.magicwoodclimbing.co.uk/",
+      "lat": 50.471034,
+      "lng": -4.553927,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

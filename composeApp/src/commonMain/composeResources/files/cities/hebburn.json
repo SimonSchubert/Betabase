@@ -1,0 +1,22 @@
+{
+  "city": "Hebburn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "clegwell-community-centre-climbing",
+      "name": "Clegwell Community Centre Climbing",
+      "address": "Mountbatten Avenue, Hebburn NE31 1LG",
+      "url": "https://www.southtyneside.gov.uk/",
+      "lat": 54.972517,
+      "lng": -1.519118,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

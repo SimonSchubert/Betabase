@@ -1,0 +1,22 @@
+{
+  "city": "Southport",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "southport-ymca-climbing-wall",
+      "name": "Southport YMCA Climbing Wall",
+      "address": "81 Hoghton Street, Southport PR9 0PR",
+      "url": "https://www.southportymca.org.uk/",
+      "lat": 53.650591,
+      "lng": -2.997718,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

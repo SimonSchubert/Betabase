@@ -1,0 +1,36 @@
+{
+  "city": "Salt Lake City",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bouldering-project",
+      "name": "Bouldering Project",
+      "address": "Salt Lake City, Utah",
+      "url": "https://campus.evo.com/bouldering-project",
+      "lat": 40.7545049,
+      "lng": -111.9034794,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "momentum-indoor-climbing-trolley-square",
+      "name": "Momentum Indoor Climbing Trolley Square",
+      "address": "602 East 500 South, Salt Lake City, UT 84102",
+      "url": "https://momentumclimbing.com/trolleysquare",
+      "lat": 40.7573843,
+      "lng": -111.8735628,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

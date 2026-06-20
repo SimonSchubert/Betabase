@@ -1,0 +1,21 @@
+{
+  "city": "Abergavenny",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "aber-rocks",
+      "name": "Aber Rocks",
+      "address": "Unit 1, Castle Meadows Park, Merthyr Road, Abergavenny NP7 7RZ",
+      "url": "https://www.aber-rocks.co.uk/",
+      "lat": 51.8241,
+      "lng": -3.0172,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

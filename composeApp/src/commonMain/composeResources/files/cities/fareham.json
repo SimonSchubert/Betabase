@@ -1,0 +1,21 @@
+{
+  "city": "Fareham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "red-spider-fareham",
+      "name": "Red Spider Fareham",
+      "address": "Unit N, Fort Wallington, Fareham PO16 8UJ",
+      "url": "https://www.redspiderclimbing.com/",
+      "lat": 50.848257,
+      "lng": -1.167816,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

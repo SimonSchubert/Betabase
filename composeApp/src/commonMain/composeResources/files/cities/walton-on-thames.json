@@ -1,0 +1,22 @@
+{
+  "city": "Walton-on-Thames",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "high-sports-walton-on-thames",
+      "name": "High Sports Walton-on-Thames",
+      "address": "Elmbridge Xcel Centre, Waterside Drive, Walton-on-Thames KT12 2JG",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.398694,
+      "lng": -0.41279,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

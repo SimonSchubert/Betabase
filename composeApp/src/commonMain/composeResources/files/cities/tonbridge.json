@@ -1,0 +1,23 @@
+{
+  "city": "Tonbridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "rock-uk-carroty-wood",
+      "name": "Rock UK Carroty Wood",
+      "address": "Carroty Wood, Higham Lane, Brenchley, Tonbridge TN12 7RR",
+      "url": "https://rockuk.org/centres/carroty-wood/",
+      "lat": 51.2289,
+      "lng": 0.3892,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://rockuk.org/wp-content/themes/nopio_master_theme/assets/images/logo.svg"
+    }
+  ]
+}

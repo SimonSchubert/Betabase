@@ -1,0 +1,37 @@
+{
+  "city": "Raleigh",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "nova-trampoline-and-adventure-park",
+      "name": "Nova trampoline and Adventure Park",
+      "address": "1514 Garner Station Boulevard, Raleigh, NC 27603",
+      "url": "https://www.novaraleigh.com",
+      "lat": 35.7258986,
+      "lng": -78.6556225,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "triangle-rock-club-raleigh",
+      "name": "Triangle Rock Club - Raleigh",
+      "address": "6022 Duraleigh Road, Raleigh, NC 27612",
+      "url": "https://www.trianglerockclub.com/raleigh",
+      "lat": 35.8609991,
+      "lng": -78.711764,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

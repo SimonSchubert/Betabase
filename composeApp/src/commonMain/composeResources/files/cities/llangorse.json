@@ -1,0 +1,22 @@
+{
+  "city": "Llangorse",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "llangorse-multi-activity-centre-climbing",
+      "name": "Llangorse Multi Activity Centre Climbing",
+      "address": "The Gilfach, Llangorse, Brecon LD3 7UH",
+      "url": "https://www.activityuk.com/",
+      "lat": 51.932874,
+      "lng": -3.240546,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

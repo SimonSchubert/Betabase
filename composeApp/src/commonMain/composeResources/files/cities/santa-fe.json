@@ -1,0 +1,22 @@
+{
+  "city": "Santa Fe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "santa-fe-climbing-center",
+      "name": "Santa Fe Climbing Center",
+      "address": "3008 Cielo Court, Santa Fe, NM 87505",
+      "url": "https://climbsantafe.com",
+      "lat": 35.6534042,
+      "lng": -105.9923934,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

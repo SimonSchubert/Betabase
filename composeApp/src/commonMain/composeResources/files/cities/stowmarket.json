@@ -1,0 +1,22 @@
+{
+  "city": "Stowmarket",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "the-cragg-climbing-wall",
+      "name": "The Cragg Climbing Wall",
+      "address": "Mid Suffolk Leisure Centre, Gainsborough Road, Stowmarket IP14 1LH",
+      "url": "https://www.everyoneactive.com/",
+      "lat": 52.192301,
+      "lng": 0.981567,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

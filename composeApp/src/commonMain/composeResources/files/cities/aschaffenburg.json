@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kletterzentrum-aschaffenburg.de/018%20-%20Sektion%20Aschaffenburg/_KBZ/Artikel/Wiederkerendes/257880/image-thumb__257880__objectteaser/Offne_Tuer_565x377@2x.257bc725.webp"
     },
     {
       "id": "sandstein-aschaffenburg",
@@ -28,7 +29,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://sandstein-aschaffenburg.de/.cm4all/uproc.php/0/Halle/.Halle4.jpg/picture-400?_=18b243bcdc8"
     }
   ],
   "source": "manual-curation-web-research",

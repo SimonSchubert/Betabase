@@ -1,0 +1,36 @@
+{
+  "city": "Riverside",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "hangar-18-east-riverside",
+      "name": "Hangar 18 - East Riverside",
+      "address": "2111, Unit A Iowa Avenue, Riverside, CA 92507",
+      "url": "https://climbhangar18.com/east-riverside",
+      "lat": 33.9914562,
+      "lng": -117.3410676,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "hangar-18-climbing-gym",
+      "name": "Hangar 18 Climbing Gym",
+      "address": "6935 Arlington Avenue, Riverside, CA 92504",
+      "url": "https://www.climbhangar18.com/location/riverside",
+      "lat": 33.9461767,
+      "lng": -117.4461529,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

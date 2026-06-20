@@ -1,0 +1,22 @@
+{
+  "city": "Wymondham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "wymondham-leisure-centre-climbing-wall",
+      "name": "Wymondham Leisure Centre Climbing Wall",
+      "address": "Norwich Road, Wymondham NR18 0NT",
+      "url": "https://www.southnorfolkandbroadland.gov.uk/",
+      "lat": 52.573238,
+      "lng": 1.120506,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

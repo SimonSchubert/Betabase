@@ -1,0 +1,23 @@
+{
+  "city": "Bournemouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "bournemouth-climbing-wall",
+      "name": "Bournemouth Climbing Wall",
+      "address": "Littledown Centre, Chaseside, Bournemouth BH7 7DX",
+      "url": "https://www.bhliveactive.org.uk/littledown",
+      "lat": 50.744943,
+      "lng": -1.825185,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://bhlive-cms.azurewebsites.net/assets/images/default/Littledown/Gym/_1920x1080_crop_center-center_70_none/41202/2023_BHLIVE_LITTLEDOWN_CENTRE_JB_-243_websize.webp"
+    }
+  ]
+}

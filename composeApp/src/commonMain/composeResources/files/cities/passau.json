@@ -21,7 +21,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5c7beb0d7d0c916ffdf10516/1759131612184-BAOP5X502KWY2BIUO5BR/IMG_1297%2B%25281%2529.jpg"
     },
     {
       "id": "es-vertikal-deggendorf",
@@ -36,7 +37,8 @@
       ],
       "boards": [],
       "size_sqm": 2600,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://image.jimcdn.com/app/cms/image/transf/none/path/sb57c6255662383e3/image/ibe240e52bb91745f/version/1777890547/image.jpg"
     }
   ],
   "source": "manual-curation-web-research",

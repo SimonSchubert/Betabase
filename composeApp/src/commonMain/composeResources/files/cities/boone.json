@@ -1,0 +1,22 @@
+{
+  "city": "Boone",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "center-45",
+      "name": "Center 45",
+      "address": "200 Den Mac Drive, Boone, NC 28607",
+      "url": "https://www.center45.com",
+      "lat": 36.2138925,
+      "lng": -81.6367356,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

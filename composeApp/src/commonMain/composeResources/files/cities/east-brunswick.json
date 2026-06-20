@@ -1,0 +1,22 @@
+{
+  "city": "East Brunswick",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rock-n-air-adventure-park",
+      "name": "Rock 'N' Air Adventure Park",
+      "address": "581 State Route 18 South, East Brunswick, NJ 08816",
+      "url": "https://www.rocknair.com",
+      "lat": 40.4358736,
+      "lng": -74.3918798,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

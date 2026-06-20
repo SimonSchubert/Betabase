@@ -1,0 +1,126 @@
+{
+  "city": "Nottingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-nottingham",
+      "name": "Clip 'n Climb Nottingham",
+      "address": "The Cornerhouse, Burton Street, Nottingham NG1 4DB",
+      "url": "https://clipnclimb.co.uk/locations/nottingham/",
+      "lat": 52.9555823,
+      "lng": -1.1501532,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "depot-climbing-nottingham",
+      "name": "Depot Climbing Nottingham",
+      "address": "Colwick Industrial Estate, NG4 2JY Nottingham",
+      "url": "https://www.depotclimbing.co.uk/nottingham/",
+      "lat": 52.9501796,
+      "lng": -1.1138774,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.depotclimbing.co.uk/nottingham/wp-content/uploads/sites/16/2023/11/DSC01762-WEB-BANNER-USE-2-1200x800.jpg"
+    },
+    {
+      "id": "meadows-youth-centre-climbing",
+      "name": "Meadows Youth Centre Climbing",
+      "address": "Wilford Crescent East, The Meadows, Nottingham NG2 2EA",
+      "url": "https://www.nottinghamcity.gov.uk/",
+      "lat": 52.940121,
+      "lng": -1.144433,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "nottingham-climbing-centre",
+      "name": "Nottingham Climbing Centre",
+      "address": "212 Noel Street, NG7 5BB Nottingham",
+      "url": "https://www.nottinghamclimbingcentre.com",
+      "lat": 52.9716215,
+      "lng": -1.1708036,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "nottingham-climbing-centre-lenton",
+      "name": "Nottingham Climbing Centre Lenton",
+      "address": "3 Prospect Place, Nottingham NG7 1RS",
+      "url": "https://www.nottingham-climbing.co.uk/",
+      "lat": 52.947993,
+      "lng": -1.17196,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.prismic.io/nottingham-climbing/aJ3YLKTt2nPbaUf2_landing.jpg?auto=format%2Ccompress&width=3840"
+    },
+    {
+      "id": "nottingham-trent-university-climbing",
+      "name": "Nottingham Trent University Climbing",
+      "address": "Lee Westwood Sports Centre, Clifton Lane, Nottingham NG11 8NS",
+      "url": "https://www.ntu.ac.uk/sport",
+      "lat": 52.911636,
+      "lng": -1.183151,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-climbing-depot-nottingham",
+      "name": "The Climbing Depot Nottingham",
+      "address": "Lower Parliament Street, Nottingham NG1 1EU",
+      "url": "https://www.theclimbingdepot.com/",
+      "lat": 52.957023,
+      "lng": -1.14343,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-nottingham-climbing-wall",
+      "name": "University of Nottingham Climbing Wall",
+      "address": "David Ross Sports Village, University of Nottingham, Nottingham NG7 2RD",
+      "url": "https://www.nottingham.ac.uk/sport/",
+      "lat": 52.940393,
+      "lng": -1.189663,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.nottingham.ac.uk/Sport/Images/findyouractive-web-banner.x2b5d9d73.jpg"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Brecon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "brecon-leisure-centre-climbing",
+      "name": "Brecon Leisure Centre Climbing",
+      "address": "Penlan, Brecon LD3 9SR",
+      "url": "https://en.powys.gov.uk/",
+      "lat": 51.953442,
+      "lng": -3.381424,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

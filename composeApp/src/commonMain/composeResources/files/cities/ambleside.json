@@ -1,0 +1,36 @@
+{
+  "city": "Ambleside",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "adventure-peaks-climbing-wall",
+      "name": "Adventure Peaks Climbing Wall",
+      "address": "101 Lake Road, Ambleside LA22 0DB",
+      "url": "https://www.adventurepeaks.com/",
+      "lat": 54.429328,
+      "lng": -2.962664,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-cumbria-ambleside-climbing",
+      "name": "University of Cumbria Ambleside Climbing",
+      "address": "Rydal Road, Ambleside LA23 2BQ",
+      "url": "https://www.cumbria.ac.uk/",
+      "lat": 54.372776,
+      "lng": -2.900181,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

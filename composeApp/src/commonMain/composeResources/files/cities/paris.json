@@ -26,7 +26,8 @@
         "fri": "11:00-23:30",
         "sat": "09:00-20:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://antrebloc.com/wp-content/uploads/2019/07/cropped-LOGO-ANTREBLOC-red-copie-192x192.jpg"
     },
     {
       "id": "arkose-chevaleret",
@@ -48,7 +49,8 @@
         "fri": "07:00-24:00",
         "sat": "07:00-24:00",
         "sun": "07:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-chevaleret.svg"
     },
     {
       "id": "arkose-didot",
@@ -70,7 +72,8 @@
         "fri": "07:00-24:00",
         "sat": "07:00-24:00",
         "sun": "07:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-didot.svg"
     },
     {
       "id": "arkose-issy-bloc",
@@ -92,7 +95,8 @@
         "fri": "07:00-24:00",
         "sat": "07:00-24:00",
         "sun": "07:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-issy-les-moulineaux-bloc.svg"
     },
     {
       "id": "arkose-issy-voie",
@@ -115,7 +119,8 @@
         "fri": "09:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-issy-les-moulineaux-voie.svg"
     },
     {
       "id": "arkose-montmartre",
@@ -137,7 +142,8 @@
         "fri": "07:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-montmartre.svg"
     },
     {
       "id": "arkose-montreuil",
@@ -159,7 +165,8 @@
         "fri": "07:00-24:00",
         "sat": "07:00-24:00",
         "sun": "07:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-montreuil.svg"
     },
     {
       "id": "arkose-nanterre-arboretum",
@@ -181,7 +188,8 @@
         "fri": "07:00-24:00",
         "sat": "07:00-24:00",
         "sun": "07:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-nanterre-arboretum.svg"
     },
     {
       "id": "arkose-nation",
@@ -203,7 +211,8 @@
         "fri": "07:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-nation.svg"
     },
     {
       "id": "arkose-pantin",
@@ -226,7 +235,8 @@
         "fri": "08:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-pantin.svg"
     },
     {
       "id": "arkose-pont-de-sevres",
@@ -271,7 +281,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-saint-denis.svg"
     },
     {
       "id": "arkose-strasbourg-saint-denis",
@@ -315,7 +326,8 @@
         "fri": "11:00-23:00",
         "sat": "09:00-20:00",
         "sun": "09:00-20:00"
-      }
+      },
+      "image_url": "https://blocbuster.fr/wp-content/uploads/2026/06/BB1-Slider-2-scaled.jpg"
     },
     {
       "id": "blocbuster-la-defense",
@@ -337,7 +349,8 @@
         "fri": "11:00-23:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      }
+      },
+      "image_url": "https://blocbuster.fr/wp-content/uploads/2023/03/Logo-BB_ligne-blanc.png"
     },
     {
       "id": "blockout-saint-ouen",
@@ -382,7 +395,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://aubervilliers.climb-up.fr/wp-content/uploads/2024/03/PHOTO-2-2-scaled-1-2048x1321.webp"
     },
     {
       "id": "climb-up-porte-d-italie",
@@ -405,7 +419,8 @@
         "fri": "08:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://paris-porteditalie.climb-up.fr/wp-content/uploads/2026/03/LOGO-CLIMB-UP-BLANC.webp"
     },
     {
       "id": "climbing-district-bastille",
@@ -427,7 +442,8 @@
         "fri": "07:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.com/app/uploads/2024/09/2024.01.13-14-15-Climbing-District-©-Arthur-Delicque-3763-scaled.jpg"
     },
     {
       "id": "climbing-district-batignolles",
@@ -493,7 +509,8 @@
         "fri": "07:00-24:00",
         "sat": "08:00-24:00",
         "sun": "08:00-24:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.com/app/uploads/2024/09/2024.01.13-14-15-Climbing-District-©-Arthur-Delicque-1272-scaled.jpg"
     },
     {
       "id": "climbing-district-saint-lazare",
@@ -516,7 +533,8 @@
         "fri": "07:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://climbingdistrict.com/app/uploads/2024/09/CD-Saint-Lazare_grimpeuse-et-vue-coin-canape-bibliothequejpg.jpg"
     },
     {
       "id": "climbing-district-sevres-lecourbe",
@@ -581,7 +599,8 @@
         "thu": "09:00-22:00",
         "fri": "09:00-22:00",
         "sat": "09:00-22:00"
-      }
+      },
+      "image_url": "https://just-climb-it.com/wp-content/uploads/2019/03/bouldering-climber-climbing-9606-2.jpg"
     },
     {
       "id": "karma-la-villette",
@@ -649,7 +668,8 @@
         "fri": "11:00-23:00",
         "sat": "09:30-20:00",
         "sun": "09:30-20:00"
-      }
+      },
+      "image_url": "http://rocetresine.com/wp-content/uploads/2019/06/cropped-climbing-5-2.jpg"
     },
     {
       "id": "vertical-art-rungis",
@@ -671,7 +691,8 @@
         "fri": "11:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://rungis.vertical-art.fr/wp-content/uploads/sites/5/2021/12/cropped-logo-verticalart-192x192.png"
     }
   ]
 }

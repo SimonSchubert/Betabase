@@ -10,8 +10,13 @@
       "url": "https://www.xxl-klettern.de",
       "lat": 51.0149683,
       "lng": 13.805918,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 4100,
       "opening_hours": {
         "mon": "08:00-23:00",
@@ -21,7 +26,8 @@
         "fri": "08:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.xxl-klettern.de/wp-content/uploads/2019/03/Banner-Internet-HochHinaus_A.jpg"
     },
     {
       "id": "mandala-zeitenstroemung",
@@ -30,8 +36,12 @@
       "url": "https://boulderhalle-dresden.de",
       "lat": 51.0805355,
       "lng": 13.7611683,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": 1700,
       "opening_hours": {
         "mon": "08:00-23:00",
@@ -41,7 +51,8 @@
         "fri": "08:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderhalle-dresden.de/files/Mandala%20Bilder/News-Events/2026/2026_Routesetting%20Header/26_05-06_Medienpaket_Routesetting.jpg"
     },
     {
       "id": "mandala-postplatz",
@@ -50,7 +61,9 @@
       "url": "https://boulderhalle-dresden.de",
       "lat": 51.0504154,
       "lng": 13.7312934,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -61,7 +74,8 @@
         "fri": "08:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderhalle-dresden.de/files/Mandala%20Bilder/News-Events/2026/2026_Routesetting%20Header/26_05-06_Medienpaket_Routesetting.jpg"
     },
     {
       "id": "kletterarena-dresden",
@@ -70,7 +84,9 @@
       "url": "https://kletterarena-dresden.de",
       "lat": 51.0411658,
       "lng": 13.7154671,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -81,7 +97,8 @@
         "fri": "10:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://kletterarena-dresden.de/wp-content/uploads/2025/03/Logo_KletterArena_dropshadow.png"
     },
     {
       "id": "bouldercity-dresden",
@@ -90,10 +107,13 @@
       "url": "https://bouldercity-dresden.de",
       "lat": 51.0700099,
       "lng": 13.753463,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://bouldercity-dresden.de/wp-content/uploads/2025/03/vereinshalle-1.jpg"
     },
     {
       "id": "boulderdrome-radebeul",
@@ -102,10 +122,15 @@
       "url": "https://www.boulderdrome.de",
       "lat": 51.1042186,
       "lng": 13.6553842,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 2000,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://cdn.prod.website-files.com/62aedd574bde0e65375b99a6/63e64d9e61ca7551c829ed76_boulderdrome%20Panorama.avif"
     }
   ]
 }

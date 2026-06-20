@@ -1,0 +1,22 @@
+{
+  "city": "Romsey",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "golden-gecko-climbing-centre",
+      "name": "Golden Gecko Climbing Centre",
+      "address": "Unit 34, Romsey Industrial Estate, Greatbridge Road, Romsey SO51 0HR",
+      "url": "https://www.ggclimbing.com/",
+      "lat": 50.994644,
+      "lng": -1.49569,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

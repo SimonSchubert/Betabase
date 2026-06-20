@@ -10,10 +10,15 @@
       "url": "https://www.blocsession.com/salle-escalade/lyon-centre",
       "lat": 45.7548934,
       "lng": 4.8681661,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 800,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.blocsession.com/wp-content/uploads/2024/12/logo-blocsession-square-100x100.png"
     },
     {
       "id": "blockout-lyon",
@@ -22,7 +27,9 @@
       "url": "https://www.blockout.fr/bo-lyon",
       "lat": 45.8065878,
       "lng": 4.7717325,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 650,
       "opening_hours": {
@@ -42,10 +49,14 @@
       "url": "https://lyon-confluence.climb-up.fr",
       "lat": 45.7405654,
       "lng": 4.8179086,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://lyon-confluence.climb-up.fr/wp-content/uploads/2024/04/PHOTO-2-2-2048x1321.jpg"
     },
     {
       "id": "climb-up-lyon-gerland",
@@ -54,19 +65,25 @@
       "url": "https://lyon-gerland.climb-up.fr",
       "lat": 45.7432367,
       "lng": 4.8357011,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://lyon-gerland.climb-up.fr/wp-content/uploads/2020/07/LOGO-CLIMB-UP-BLANC.png"
     },
     {
       "id": "holdup-escalade",
       "name": "Hold'Up Escalade",
       "address": "Rue Littré, 69009 Lyon",
       "url": "https://holdup-escalade.fr",
-      "lat": 45.7725830,
+      "lat": 45.772583,
       "lng": 4.7974124,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {

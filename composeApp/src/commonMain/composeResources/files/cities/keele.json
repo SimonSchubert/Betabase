@@ -1,0 +1,21 @@
+{
+  "city": "Keele",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "keele-university-climbing-wall",
+      "name": "Keele University Climbing Wall",
+      "address": "Keele University, Keele ST5 5BG",
+      "url": "https://www.keelefm.co.uk/leisure.php",
+      "lat": 53.00309,
+      "lng": -2.273713,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

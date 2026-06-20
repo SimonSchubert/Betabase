@@ -1,0 +1,22 @@
+{
+  "city": "Guisborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "laurence-jackson-sports-centre-climbing",
+      "name": "Laurence Jackson Sports Centre Climbing",
+      "address": "Church Lane, Guisborough TS14 7BA",
+      "url": "https://www.grasp.me.uk/",
+      "lat": 54.531409,
+      "lng": -1.045628,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

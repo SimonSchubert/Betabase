@@ -1,0 +1,65 @@
+{
+  "city": "Belfast",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "belfast-ozone-climbing",
+      "name": "Belfast Ozone Climbing",
+      "address": "Ormeau Embankment, Belfast BT6 8LT",
+      "url": "https://www.belfastcity.gov.uk/",
+      "lat": 54.589646,
+      "lng": -5.915099,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderworld-belfast",
+      "name": "BoulderWorld Belfast",
+      "address": "Unit 1 Boucher Business Centre, Apollo Road, Belfast BT12 6HP",
+      "url": "https://www.boulderworldbelfast.com/",
+      "lat": 54.581887,
+      "lng": -5.958091,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "matt-talbot-youth-club-climbing",
+      "name": "Matt Talbot Youth Club Climbing",
+      "address": "Moyard Parade, Belfast BT12 7HG",
+      "url": "https://www.belfastcity.gov.uk/",
+      "lat": 54.597447,
+      "lng": -5.986858,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "queens-sport-climbing-wall",
+      "name": "Queen's Sport Climbing Wall",
+      "address": "Botanic Gardens, Belfast BT9 5EX",
+      "url": "https://www.queenssport.com/",
+      "lat": 54.580536,
+      "lng": -5.930831,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

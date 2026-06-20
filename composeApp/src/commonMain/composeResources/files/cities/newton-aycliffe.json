@@ -1,0 +1,22 @@
+{
+  "city": "Newton Aycliffe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "rock-antics-newton-aycliffe",
+      "name": "Rock Antics Newton Aycliffe",
+      "address": "ROF 59 Building, Durham Way South, Newton Aycliffe DL5 6XN",
+      "url": "https://www.rockantics.co.uk/",
+      "lat": 54.601212,
+      "lng": -1.571964,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

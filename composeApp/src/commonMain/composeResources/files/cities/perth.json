@@ -1,0 +1,22 @@
+{
+  "city": "Perth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "perth-grammar-school-climbing-wall",
+      "name": "Perth Grammar School Climbing Wall",
+      "address": "Gowans Terrace, Perth PH1 5AZ",
+      "url": "https://www.mcofs.org.uk/",
+      "lat": 56.409452,
+      "lng": -3.443561,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

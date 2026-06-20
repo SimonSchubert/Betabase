@@ -1,0 +1,23 @@
+{
+  "city": "Kendal",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "lakeland-climbing-centre",
+      "name": "Lakeland Climbing Centre",
+      "address": "Unit 27 Lake District Business Park, Mintbridge Road, Kendal LA9 6NH",
+      "url": "https://lakelandclimbingcentres.co.uk/",
+      "lat": 54.3422,
+      "lng": -2.7341,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://lakelandclimbingcentres.co.uk/app/uploads/Feature-Image-Template-1-732x560.jpg"
+    }
+  ]
+}

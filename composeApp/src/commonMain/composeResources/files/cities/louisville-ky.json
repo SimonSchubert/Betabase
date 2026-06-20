@@ -1,0 +1,21 @@
+{
+  "city": "Louisville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "norton-healthcare-sports-learning-center",
+      "name": "Norton Healthcare Sports & Learning Center",
+      "address": "3029 West Muhammad Ali Boulevard, Louisville, KY 40212",
+      "url": "https://www.nortonslc.com",
+      "lat": 38.2581744,
+      "lng": -85.8015163,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Derry",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "foyle-arena-climbing-wall",
+      "name": "Foyle Arena Climbing Wall",
+      "address": "Foyle Arena, 2 Limavady Road, Derry BT47 6JY",
+      "url": "https://foylearena.com/",
+      "lat": 54.999636,
+      "lng": -7.305307,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "st-columbs-park-centre-climbing",
+      "name": "St Columbs Park Centre Climbing",
+      "address": "Waterside, Londonderry BT47 6TH",
+      "url": "https://www.derrystrabane.com/",
+      "lat": 55.0349,
+      "lng": -7.238962,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

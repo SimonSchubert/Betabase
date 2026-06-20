@@ -1,0 +1,22 @@
+{
+  "city": "Garelochhead",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "centre-81-climbing",
+      "name": "Centre 81 Climbing",
+      "address": "Old School Road, Garelochhead G84 0AT",
+      "url": "https://www.centre81.org.uk/",
+      "lat": 56.080847,
+      "lng": -4.831831,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

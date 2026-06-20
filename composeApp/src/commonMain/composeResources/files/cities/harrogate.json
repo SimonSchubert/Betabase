@@ -1,0 +1,36 @@
+{
+  "city": "Harrogate",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "harrogate-climbing-centre",
+      "name": "Harrogate Climbing Centre",
+      "address": "Hornbeam Park Avenue, Harrogate HG2 8QT",
+      "url": "https://live-for-today.com/climbing",
+      "lat": 53.9968,
+      "lng": -1.5389,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "highball-climbing-centre",
+      "name": "Highball Climbing Centre",
+      "address": "Hornbeam Park Close, Harrogate HG2 8PA",
+      "url": "https://www.highballclimbing.co.uk/",
+      "lat": 53.9965,
+      "lng": -1.5392,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Sevenoaks",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "knole-academy-climbing-wall",
+      "name": "Knole Academy Climbing Wall",
+      "address": "Bradbourne Vale Road, Sevenoaks TN13 3LE",
+      "url": "https://www.knoleacademy.org/",
+      "lat": 51.287264,
+      "lng": 0.183796,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

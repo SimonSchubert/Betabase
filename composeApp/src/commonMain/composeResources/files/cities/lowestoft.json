@@ -1,0 +1,22 @@
+{
+  "city": "Lowestoft",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "east-face-indoor-climbing-wall",
+      "name": "East Face Indoor Climbing Wall",
+      "address": "Waveney Sports Centre, Water Lane, Lowestoft NR32 2NH",
+      "url": "https://www.waveney.gov.uk/",
+      "lat": 52.483323,
+      "lng": 1.746009,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Jacksonville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-edge-rock-gym",
+      "name": "The Edge Rock Gym",
+      "address": "3563 Philips Hwy, Jacksonville, FL 32207",
+      "url": "https://www.theedgerockgym.com",
+      "lat": 30.2898222,
+      "lng": -81.6335504,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

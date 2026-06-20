@@ -10,8 +10,14 @@
       "url": "https://rockit-arrampicataroma.it",
       "lat": 41.8939442,
       "lng": 12.5381418,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["moonboard", "spray"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard",
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "08:00-23:00",
@@ -21,7 +27,8 @@
         "fri": "08:00-23:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      }
+      },
+      "image_url": "https://www.rockit-arrampicataroma.it/wp-content/uploads/2017/07/rock-it-climbing-roma-02.jpg?id=199"
     },
     {
       "id": "star-wall-climbing-park",
@@ -30,7 +37,10 @@
       "url": "https://www.starwall.it",
       "lat": 41.8649983,
       "lng": 12.4431053,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -39,7 +49,8 @@
         "wed": "09:00-22:00",
         "thu": "09:00-22:00",
         "fri": "09:00-22:00"
-      }
+      },
+      "image_url": "https://i0.wp.com/www.starwall.it/wp-content/uploads/2023/10/star-wall-DEF.png?fit=800%2C477&ssl=1"
     },
     {
       "id": "vertical-park",
@@ -48,8 +59,14 @@
       "url": "https://verticalpark.it",
       "lat": 41.8635365,
       "lng": 12.5970827,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["moonboard", "spray"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard",
+        "spray"
+      ],
       "size_sqm": 350,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -58,7 +75,8 @@
         "thu": "10:00-23:00",
         "fri": "13:00-23:00",
         "sat": "11:30-19:00"
-      }
+      },
+      "image_url": "https://verticalpark.it/images/logoverticalpark.png"
     }
   ]
 }

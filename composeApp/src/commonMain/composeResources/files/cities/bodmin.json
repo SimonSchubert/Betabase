@@ -1,0 +1,22 @@
+{
+  "city": "Bodmin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "vitalise-churchtown-climbing",
+      "name": "Vitalise Churchtown Climbing",
+      "address": "Lanlivery, Bodmin PL30 5BT",
+      "url": "https://www.vitalise.org.uk/",
+      "lat": 50.400263,
+      "lng": -4.703489,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

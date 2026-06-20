@@ -1,0 +1,97 @@
+{
+  "city": "Glasgow",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:20:07Z",
+  "gyms": [
+    {
+      "id": "cuningar-loop-boulders",
+      "name": "Cuningar Loop Boulders",
+      "address": "Cuningar Loop Woodland Park, Rutherglen, Glasgow G73 1NY",
+      "url": "https://www.forestryandland.gov.scot/",
+      "lat": 55.8456,
+      "lng": -4.2125,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "glasgow-climbing-centre",
+      "name": "Glasgow Climbing Centre",
+      "address": "534 Paisley Road West, Glasgow G51 1RN",
+      "url": "https://www.glasgowclimbingcentre.co.uk/",
+      "lat": 55.8508742,
+      "lng": -4.3094622,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kelvin-hall-climbing-wall",
+      "name": "Kelvin Hall Climbing Wall",
+      "address": "Kelvin Hall, Argyle Street, Glasgow G3 8AW",
+      "url": "https://www.glasgowlife.org.uk/",
+      "lat": 55.868545,
+      "lng": -4.294231,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-newsroom",
+      "name": "The Newsroom",
+      "address": "124 Portman Street, G41 1EJ Glasgow",
+      "url": "https://www.theclimbingacademy.com/locations/the-newsroom/",
+      "lat": 55.8504352,
+      "lng": -4.281947,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-22:00",
+        "tue": "07:00-22:00",
+        "wed": "07:00-22:00",
+        "thu": "07:00-22:00",
+        "fri": "07:00-22:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "image_url": "https://www.theclimbingacademy.com/wp-content/uploads/2025/04/tca-logo-150x150.png"
+    },
+    {
+      "id": "the-prop-store",
+      "name": "The Prop Store",
+      "address": "Unit B2, 24 Craigmont Street, G20 9BT Glasgow",
+      "url": "https://www.theclimbingacademy.com/locations/the-prop-store/",
+      "lat": 55.8901324,
+      "lng": -4.2863566,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "image_url": "https://www.theclimbingacademy.com/wp-content/uploads/2025/04/tca-logo-150x150.png"
+    }
+  ]
+}

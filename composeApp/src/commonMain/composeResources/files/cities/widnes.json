@@ -1,0 +1,21 @@
+{
+  "city": "Widnes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "widnes-open-access-boulder",
+      "name": "Widnes Open Access Boulder",
+      "address": "Victoria Park, Widnes WA8 6PX",
+      "url": "https://www.halton.gov.uk/",
+      "lat": 53.374445,
+      "lng": -2.732581,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

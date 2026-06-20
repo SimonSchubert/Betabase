@@ -1,0 +1,36 @@
+{
+  "city": "Saint Paul",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-endeavors-twin-cities-bouldering",
+      "name": "Vertical Endeavors - Twin Cities Bouldering",
+      "address": "2550 Wabash Avenue, Saint Paul, MN 55114",
+      "url": "https://www.verticalendeavors.com",
+      "lat": 44.9604979,
+      "lng": -93.2068105,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-endevours",
+      "name": "Vertical Endevours",
+      "address": "855 Phalen Boulevard, Saint Paul, MN 55106",
+      "url": "http://verticalendeavors.com",
+      "lat": 44.966448,
+      "lng": -93.064688,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

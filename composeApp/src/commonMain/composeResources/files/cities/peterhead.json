@@ -1,0 +1,22 @@
+{
+  "city": "Peterhead",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "peterhead-community-centre-climbing",
+      "name": "Peterhead Community Centre Climbing",
+      "address": "Balmoor Terrace, Peterhead AB42 1EP",
+      "url": "https://www.aberdeenshire.gov.uk/",
+      "lat": 57.51038,
+      "lng": -1.789009,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

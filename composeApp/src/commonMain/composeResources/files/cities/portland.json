@@ -1,0 +1,109 @@
+{
+  "city": "Portland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement",
+      "name": "Movement",
+      "address": "1405 Northwest 14th Avenue, Portland, OR 97209",
+      "url": "https://movementgyms.com/portland",
+      "lat": 45.5330996,
+      "lng": -122.6860581,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "portland-rock-gym",
+      "name": "Portland Rock Gym",
+      "address": "21 Northeast 12th Avenue, Portland, OR 97232",
+      "url": "https://www.portlandrockgym.com",
+      "lat": 45.5232862,
+      "lng": -122.6539391,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "skyhook-bouldering",
+      "name": "Skyhook Bouldering",
+      "address": "2436 Southeast 12th Avenue, Portland, OR 97214",
+      "url": "https://www.skyhookbouldering.com",
+      "lat": 45.5053187,
+      "lng": -122.6535076,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "student-recreation-center",
+      "name": "Student Recreation Center",
+      "address": "1800 Southwest 6th Avenue, Portland, OR 97201",
+      "url": "https://www.pdx.edu/recreation",
+      "lat": 45.5114028,
+      "lng": -122.6821596,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-circuit",
+      "name": "The Circuit",
+      "address": "6050 South Macadam Avenue, Portland, OR 97239",
+      "url": "https://www.thecircuitgym.com",
+      "lat": 45.480292,
+      "lng": -122.6723814,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-circuit-northeast",
+      "name": "The Circuit Northeast",
+      "address": "410 Northeast 17th Avenue, Portland, OR 97232",
+      "url": "https://www.thecircuitgym.com/northeast",
+      "lat": 45.5258593,
+      "lng": -122.6480958,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "tomo-bouldering-club",
+      "name": "Tomo Bouldering Club",
+      "address": "1315 Northwest Overton Street, Portland, OR 97209",
+      "url": "https://www.tomoboulderingclub.com",
+      "lat": 45.5324,
+      "lng": -122.6850244,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

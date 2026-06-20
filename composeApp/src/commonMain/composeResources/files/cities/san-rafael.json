@@ -1,0 +1,22 @@
+{
+  "city": "San Rafael",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-gravity-vault-marin",
+      "name": "The Gravity Vault Marin",
+      "address": "440 Smith Ranch Road, San Rafael, CA 94903",
+      "url": "https://gravityvault.com/locations/marin-county-ca",
+      "lat": 38.0179003,
+      "lng": -122.5216061,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

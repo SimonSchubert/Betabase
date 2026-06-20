@@ -1,0 +1,22 @@
+{
+  "city": "Voorhees",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-gravity-vault-voorhees",
+      "name": "The Gravity Vault Voorhees",
+      "address": "333 Preston Avenue, Voorhees, NJ 08043-1763",
+      "url": "https://gravityvault.com/locations/voorhees-nj",
+      "lat": 39.8533135,
+      "lng": -75.0131621,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

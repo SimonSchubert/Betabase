@@ -1,0 +1,22 @@
+{
+  "city": "Gillingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "gillingham-climbing-wall",
+      "name": "Gillingham Climbing Wall",
+      "address": "Hardings Lane, Gillingham SP8 4QP",
+      "url": "https://www.go-climbing.com/",
+      "lat": 51.038191,
+      "lng": -2.268208,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

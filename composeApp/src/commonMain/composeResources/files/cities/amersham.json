@@ -1,0 +1,22 @@
+{
+  "city": "Amersham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "the-climb-amersham",
+      "name": "The Climb Amersham",
+      "address": "Bensheim Way, Chiltern Avenue, Amersham HP6 5AH",
+      "url": "https://www.theclimb.co.uk/",
+      "lat": 51.675797,
+      "lng": -0.60281,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "city": "Bath",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "university-of-bath-climbing-wall",
+      "name": "University of Bath Climbing Wall",
+      "address": "Sports Training Village, University of Bath, Bath BA2 7AY",
+      "url": "https://www.bath.ac.uk/sport/",
+      "lat": 51.379324,
+      "lng": -2.327157,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://c1.staticflickr.com/3/2867/33312932520_7dd8be4109_b.jpg"
+    },
+    {
+      "id": "writhlington-climbing-wall",
+      "name": "Writhlington Climbing Wall",
+      "address": "Knobsbury Lane, Radstock, Bath BA3 3NQ",
+      "url": "https://www.dragonflyleisure.co.uk/activities/climbing-wall/",
+      "lat": 51.287369,
+      "lng": -2.430883,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.dragonflyleisure.co.uk/wp-content/uploads/2019/11/climbing-wall-banner.jpg"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Indian River",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "big-bear-adventures",
+      "name": "Big Bear Adventures",
+      "address": "4271 South Straits Highway, Indian River, MI 49749",
+      "url": "https://bigbearadventures.com",
+      "lat": 45.4012749,
+      "lng": -84.6188295,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

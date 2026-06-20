@@ -1,0 +1,21 @@
+{
+  "city": "Santa Clarita",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "top-out-climbing-gym",
+      "name": "Top Out Climbing Gym",
+      "address": "26332 Ferry Court, Santa Clarita, CA 91350",
+      "url": "https://www.topoutclimbing.com",
+      "lat": 34.409566,
+      "lng": -118.5088104,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

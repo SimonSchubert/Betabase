@@ -1,0 +1,22 @@
+{
+  "city": "Morrisville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "triangle-rock-club-morrisville",
+      "name": "Triangle Rock Club - Morrisville",
+      "address": "102 Pheasant Wood Court, Morrisville, NC 27560",
+      "url": "https://www.trianglerockclub.com/morrisville",
+      "lat": 35.8110071,
+      "lng": -78.8211505,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

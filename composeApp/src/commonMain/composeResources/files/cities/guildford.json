@@ -1,0 +1,54 @@
+{
+  "city": "Guildford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "craggy-island-guildford",
+      "name": "Craggy Island Guildford",
+      "address": "Walnut Tree Close, Guildford GU1 4UT",
+      "url": "https://www.craggy-island.com/",
+      "lat": 51.2355,
+      "lng": -0.5756,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "high-sports-guildford-spectrum",
+      "name": "High Sports Guildford Spectrum",
+      "address": "Guildford Spectrum, Parkway, Guildford GU1 1UP",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.249234,
+      "lng": -0.56299,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "surrey-sports-park-climbing",
+      "name": "Surrey Sports Park Climbing",
+      "address": "Richard Meyjes Road, Guildford GU2 7AD",
+      "url": "https://surreysportspark.co.uk/climbing",
+      "lat": 51.238255,
+      "lng": -0.604732,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://surreysportspark.co.uk/hubfs/group%20climb.png"
+    }
+  ]
+}

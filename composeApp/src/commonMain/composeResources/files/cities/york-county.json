@@ -1,0 +1,22 @@
+{
+  "city": "York County",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "victory-family-ymca",
+      "name": "Victory Family YMCA",
+      "address": "Long Green Boulevard, York County, VA 23693",
+      "url": "https://www.ymcavp.org/locations/victory-family-ymca",
+      "lat": 37.1122411,
+      "lng": -76.4446368,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

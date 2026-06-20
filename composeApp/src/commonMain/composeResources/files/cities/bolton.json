@@ -1,0 +1,23 @@
+{
+  "city": "Bolton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "bolton-climbing-centre",
+      "name": "Bolton Climbing Centre",
+      "address": "Bolton One, Moor Lane, Bolton BL3 5BN",
+      "url": "https://www.better.org.uk/",
+      "lat": 53.573944,
+      "lng": -2.435244,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    }
+  ]
+}

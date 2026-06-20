@@ -1,0 +1,22 @@
+{
+  "city": "Storrs",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "four-arrows-ropes-course",
+      "name": "Four Arrows Ropes Course",
+      "address": "14 Sherman Place, Storrs, CT 06268",
+      "url": "https://fourarrows.uconn.edu",
+      "lat": 41.8085083,
+      "lng": -72.2922512,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

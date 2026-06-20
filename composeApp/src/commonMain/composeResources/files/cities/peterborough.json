@@ -1,0 +1,37 @@
+{
+  "city": "Peterborough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "peterborough-climbing-centre",
+      "name": "Peterborough Climbing Centre",
+      "address": "Regional Fitness and Swimming Centre, Bishop's Road, Peterborough PE1 5BW",
+      "url": "https://www.vivacity-peterborough.com/",
+      "lat": 52.570881,
+      "lng": -0.235097,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "peterborough-climbing-wall",
+      "name": "Peterborough Climbing Wall",
+      "address": "Town Sports Club, Bretton Gate, Peterborough PE3 9UZ",
+      "url": "https://www.peterboroughclimbingwall.co.uk/",
+      "lat": 52.584704,
+      "lng": -0.275651,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

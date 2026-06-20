@@ -1,0 +1,22 @@
+{
+  "city": "Newbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "newbury-waterside-centre-climbing",
+      "name": "Newbury Waterside Centre Climbing",
+      "address": "Toomers Wharf, Northbrook Street, Newbury RG14 1DS",
+      "url": "https://eola.co/rh365",
+      "lat": 51.40223,
+      "lng": -1.322387,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

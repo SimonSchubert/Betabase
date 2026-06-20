@@ -1,0 +1,22 @@
+{
+  "city": "Kirkwall",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "kirkwall-grammar-school-climbing",
+      "name": "Kirkwall Grammar School Climbing",
+      "address": "Kirkwall Grammar School, Kirkwall KW15 1QN",
+      "url": "https://www.orkney.gov.uk/",
+      "lat": 58.978796,
+      "lng": -2.947171,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Glossop",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:36Z",
+  "gyms": [
+    {
+      "id": "glossop-leisure-centre-climbing",
+      "name": "Glossop Leisure Centre Climbing",
+      "address": "High Street East, Glossop SK13 8PN",
+      "url": "https://www.highpeak.gov.uk/",
+      "lat": 53.44345,
+      "lng": -1.946573,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

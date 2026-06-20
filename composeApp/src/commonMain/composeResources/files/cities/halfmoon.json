@@ -1,0 +1,21 @@
+{
+  "city": "Halfmoon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-edge-halfmoon-climbing-gym",
+      "name": "The Edge Halfmoon (Climbing Gym)",
+      "address": "1544 Halfmoon Parkway, Halfmoon, NY 12065",
+      "url": "http://www.theedgehalfmoon.com",
+      "lat": 42.8424016,
+      "lng": -73.7517088,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

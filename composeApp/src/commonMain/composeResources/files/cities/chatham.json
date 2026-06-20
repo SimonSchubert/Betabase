@@ -1,0 +1,22 @@
+{
+  "city": "Chatham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-gravity-vault",
+      "name": "The Gravity Vault",
+      "address": "40 Watchung Avenue, Chatham, NJ 07928",
+      "url": "https://gravityvault.com/locations/chatham-nj",
+      "lat": 40.731647,
+      "lng": -74.3810464,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

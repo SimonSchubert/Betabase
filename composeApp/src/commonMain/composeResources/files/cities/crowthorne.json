@@ -1,0 +1,22 @@
+{
+  "city": "Crowthorne",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "wellington-college-sports-club-climbing",
+      "name": "Wellington College Sports Club Climbing",
+      "address": "Dukes Ride, Crowthorne RG11 7PU",
+      "url": "https://www.wellingtoncollegesportsclub.co.uk/",
+      "lat": 51.3672535,
+      "lng": -0.818595,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

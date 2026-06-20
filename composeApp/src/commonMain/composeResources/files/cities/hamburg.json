@@ -10,8 +10,14 @@
       "url": "https://www.boulderwelt-hamburg.de",
       "lat": 53.5540145,
       "lng": 10.0208859,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "kilter", "spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter",
+        "spray"
+      ],
       "size_sqm": 2500,
       "opening_hours": {
         "mon": "07:00-23:00",
@@ -30,7 +36,10 @@
       "url": "https://www.dav-hamburg.de/kletterzentrum",
       "lat": 53.5975497,
       "lng": 9.9533308,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 3800,
       "opening_hours": {
@@ -50,8 +59,12 @@
       "url": "https://www.flashh.de",
       "lat": 53.5630715,
       "lng": 9.9132543,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 1300,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -61,7 +74,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/60b61b33656c2968e1cf8a30/9efe2ade-aa9a-47c2-9ba0-11fab5215858/FLASHH_boulderspot_Wettkampfwand+%281%29.jpg?format=2500w"
     },
     {
       "id": "ht16",
@@ -70,7 +84,10 @@
       "url": "https://www.ht16.de",
       "lat": 53.5564632,
       "lng": 10.0422419,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1000,
       "opening_hours": {
@@ -81,7 +98,8 @@
         "fri": "07:00-22:00",
         "sat": "09:00-20:00",
         "sun": "09:00-20:00"
-      }
+      },
+      "image_url": "https://www.ht16.de/wp-content/uploads/2026/04/Website_Teaser_eingerueckt-4-1024x581.png"
     },
     {
       "id": "nordwandhalle",
@@ -89,8 +107,11 @@
       "address": "Am Inselpark 20, 21109 Hamburg",
       "url": "https://nordwandhalle.de",
       "lat": 53.4942817,
-      "lng": 10.0029690,
-      "disciplines": ["boulder", "lead"],
+      "lng": 10.002969,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 4500,
       "opening_hours": {
@@ -101,7 +122,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://nordwandhalle.de/wp-content/uploads/2026/04/Routenbau_Toprope_042026.jpg"
     },
     {
       "id": "salon-du-bloc",
@@ -109,8 +131,10 @@
       "address": "Eppendorfer Weg 4, 20259 Hamburg",
       "url": "https://www.salondubloc.de",
       "lat": 53.5683257,
-      "lng": 9.9565880,
-      "disciplines": ["boulder"],
+      "lng": 9.956588,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 100,
       "opening_hours": {
@@ -121,16 +145,19 @@
         "fri": "15:00-22:00",
         "sat": "16:00-22:00",
         "sun": "12:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/62a99e39abf94c47f7d99e0f/1770805096364-7JGKLCENSQ4RZ0CDAS12/image-asset.jpeg"
     },
     {
       "id": "urban-apes-hamburg-ost",
       "name": "urban apes Hamburg Ost",
       "address": "Wandsbeker Zollstraße 87-89, 22041 Hamburg",
       "url": "https://www.urbanapes.de/hamburg-ost",
-      "lat": 53.5763660,
+      "lat": 53.576366,
       "lng": 10.0804599,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -141,7 +168,8 @@
         "fri": "10:00-22:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     },
     {
       "id": "urban-apes-hamburg-st-pauli",
@@ -150,7 +178,9 @@
       "url": "https://www.urbanapes.de/hamburg-stpauli",
       "lat": 53.5565464,
       "lng": 9.9704241,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 800,
       "opening_hours": {
@@ -161,7 +191,8 @@
         "fri": "10:00-22:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     },
     {
       "id": "urban-apes-hamburg-west",
@@ -170,8 +201,12 @@
       "url": "https://www.urbanapes.de/hamburg-west",
       "lat": 53.5992593,
       "lng": 9.9163979,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "11:00-23:00",
@@ -181,7 +216,8 @@
         "fri": "11:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     }
   ]
 }

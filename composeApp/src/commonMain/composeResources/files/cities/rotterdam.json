@@ -10,8 +10,13 @@
       "url": "https://beestboulders.com/vestigingen/beest-boulders-rotterdam",
       "lat": 51.9274849,
       "lng": 4.4761673,
-      "disciplines": ["boulder"],
-      "boards": ["kilter", "spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -21,7 +26,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://beestboulders.com/wp-content/uploads/2024/09/Beest_Logo_Web_175x500.png"
     },
     {
       "id": "klimmuur-rotterdam",
@@ -30,8 +36,13 @@
       "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-rotterdam",
       "lat": 51.9365197,
       "lng": 4.5329279,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["spray"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "13:00-23:00",
@@ -41,19 +52,23 @@
         "fri": "13:00-23:00",
         "sat": "09:00-18:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.deklimmuur.nl/wp-content/uploads/2023/01/KM_Logo_Web_175x360-1.png"
     },
     {
       "id": "neoliet-bolder-rotterdam",
       "name": "Neoliet Bolder Rotterdam",
       "address": "Keilestraat 9, 3029 BP Rotterdam",
       "url": "https://www.neoliet.nl",
-      "lat": 51.9082420,
+      "lat": 51.908242,
       "lng": 4.4338825,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.neoliet.nl/wp-content/uploads/2022/11/LR-nieuwsbrief-web-4842-scaled.jpg"
     }
   ]
 }

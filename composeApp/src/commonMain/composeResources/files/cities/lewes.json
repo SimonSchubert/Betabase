@@ -1,0 +1,22 @@
+{
+  "city": "Lewes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "lewes-leisure-centre-climbing",
+      "name": "Lewes Leisure Centre Climbing",
+      "address": "Mountfield Road, Lewes BN7 2XG",
+      "url": "https://www.waveleisure.co.uk/lewes",
+      "lat": 50.869161,
+      "lng": 0.01853,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

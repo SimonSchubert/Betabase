@@ -1,0 +1,22 @@
+{
+  "city": "Wilmslow",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "rock-over-climbing-wilmslow",
+      "name": "Rock Over Climbing Wilmslow",
+      "address": "Unit 5, Handforth Trading Estate, Wilmslow SK9 3RP",
+      "url": "https://rockoverclimbing.com/wilmslow/",
+      "lat": 53.3488,
+      "lng": -2.2106,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Abingdon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-ward-y-in-abingdon",
+      "name": "The Ward Y in Abingdon",
+      "address": "101 Walter Ward Boulevard, Abingdon, MD 21009",
+      "url": "https://ymaryland.org/locations/familycenterys/wardharfordcounty",
+      "lat": 39.4650563,
+      "lng": -76.3065159,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

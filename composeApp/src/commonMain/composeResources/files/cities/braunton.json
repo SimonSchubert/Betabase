@@ -1,0 +1,22 @@
+{
+  "city": "Braunton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "braunton-school-climbing-wall",
+      "name": "Braunton School Climbing Wall",
+      "address": "Exeter Road, Braunton EX33 2JL",
+      "url": "https://www.braunton.devon.sch.uk/",
+      "lat": 51.106947,
+      "lng": -4.160525,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

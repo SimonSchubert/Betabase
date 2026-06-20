@@ -1,0 +1,22 @@
+{
+  "city": "Richmond",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "peak-experiences-richmond",
+      "name": "Peak Experiences Richmond",
+      "address": "1375 Overbrook Rd, Richmond, VA 23220",
+      "url": "https://www.peakexperiences.com",
+      "lat": 37.5631377,
+      "lng": -77.4554986,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

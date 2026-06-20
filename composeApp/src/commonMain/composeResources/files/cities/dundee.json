@@ -1,0 +1,22 @@
+{
+  "city": "Dundee",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "avertical-world",
+      "name": "Avertical World",
+      "address": "7 Blinshall Street, Dundee DD1 5DF",
+      "url": "https://www.averticalworld.co.uk/",
+      "lat": 56.462088,
+      "lng": -2.968358,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

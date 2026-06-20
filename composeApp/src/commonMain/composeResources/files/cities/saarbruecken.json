@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.dav-saarbruecken.de/wp-content/uploads/2018/08/dav-sb-logo.png"
     },
     {
       "id": "boulderwerk-saarbruecken",
@@ -38,7 +39,8 @@
         "fri": "13:00-22:00",
         "sat": "11:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/63bc0f23802a057af98d2294/1709560242713-REX1UGIKPJVYUCGYGDTM/image-asset.jpeg"
     },
     {
       "id": "kba-saar",
@@ -47,7 +49,10 @@
       "url": "https://www.kba-saar.de",
       "lat": 49.2732328,
       "lng": 7.0215449,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

@@ -1,0 +1,22 @@
+{
+  "city": "Shrewsbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "shrewsbury-sports-village-climbing",
+      "name": "Shrewsbury Sports Village Climbing",
+      "address": "The Guildhall, Frankwell Quay, Shrewsbury SY3 8HQ",
+      "url": "https://www.shrewsbury.gov.uk/",
+      "lat": 52.711405,
+      "lng": -2.756352,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

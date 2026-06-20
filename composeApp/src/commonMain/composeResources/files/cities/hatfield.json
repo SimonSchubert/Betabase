@@ -1,0 +1,22 @@
+{
+  "city": "Hatfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "hertfordshire-sports-village-climbing",
+      "name": "Hertfordshire Sports Village Climbing",
+      "address": "de Havilland Campus, Hatfield AL10 9EU",
+      "url": "https://www.hertssportsvillage.co.uk/",
+      "lat": 51.76071,
+      "lng": -0.250279,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

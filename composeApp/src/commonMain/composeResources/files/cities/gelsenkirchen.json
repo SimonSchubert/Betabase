@@ -24,7 +24,8 @@
         "fri": "12:00-22:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.neoliet.de/wp-content/uploads/2019/12/Bouldern-in-Gelsenkirchen.jpg"
     },
     {
       "id": "stuntwerk-essen",
@@ -41,7 +42,8 @@
         "campusboard"
       ],
       "size_sqm": 1500,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://stuntwerk.de/wp-content/uploads/parkour-1200x750px.jpg"
     }
   ],
   "source": "manual-curation-web-research",

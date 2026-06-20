@@ -1,0 +1,22 @@
+{
+  "city": "Wichita",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bliss-climbing-and-fitness",
+      "name": "Bliss Climbing and Fitness",
+      "address": "11114 East 28th Street North, Wichita, KS 67226",
+      "url": "https://climbbliss.com",
+      "lat": 37.7363317,
+      "lng": -97.2092593,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

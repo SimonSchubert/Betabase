@@ -1,0 +1,53 @@
+{
+  "city": "Portsmouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "fort-purbrook-climbing",
+      "name": "Fort Purbrook Climbing",
+      "address": "Portsdown Hill Road, Portsmouth PO6 1BJ",
+      "url": "https://www.peterashleyactivitycentres.co.uk/",
+      "lat": 50.853061,
+      "lng": -1.037117,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://peterashleyactivitycentres.co.uk/wp-content/uploads/2022/02/Fort-Purbrook-Climbing-Bouldering-Wall.jpg"
+    },
+    {
+      "id": "high-sports-portsmouth",
+      "name": "High Sports Portsmouth",
+      "address": "Mountbatten Centre, Alexandra Road, Portsmouth PO2 9QA",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 50.82463,
+      "lng": -1.082283,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "portsmouth-climbing-centre",
+      "name": "Portsmouth Climbing Centre",
+      "address": "Hilsea Lido, Hilsea Island Road, Portsmouth PO3 5HB",
+      "url": "https://www.portsmouthclimbingcentre.co.uk/",
+      "lat": 50.822364,
+      "lng": -1.060918,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

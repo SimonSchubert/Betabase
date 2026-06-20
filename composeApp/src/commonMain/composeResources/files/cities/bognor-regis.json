@@ -1,0 +1,22 @@
+{
+  "city": "Bognor Regis",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "bognor-regis-arena-climbing",
+      "name": "Bognor Regis Arena Climbing",
+      "address": "Westloats Lane, Bognor Regis PO21 5JD",
+      "url": "https://www.thearena.uk/",
+      "lat": 50.793743,
+      "lng": -0.692229,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

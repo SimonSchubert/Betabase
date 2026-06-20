@@ -1,0 +1,21 @@
+{
+  "city": "Stoneham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-stoneham",
+      "name": "Central Rock Gym Stoneham",
+      "address": "10 Adam Rd., MA",
+      "url": "https://centralrockgym.com/stoneham",
+      "lat": 42.4777157,
+      "lng": -71.1108851,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

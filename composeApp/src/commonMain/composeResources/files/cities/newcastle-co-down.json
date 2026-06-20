@@ -1,0 +1,22 @@
+{
+  "city": "Newcastle, Co. Down",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "tollymore-national-outdoor-centre-climbing",
+      "name": "Tollymore National Outdoor Centre Climbing",
+      "address": "32 Hilltown Road, Bryansford, Newcastle BT33 0PZ",
+      "url": "https://www.tollymore.com/",
+      "lat": 54.222741,
+      "lng": -5.964536,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

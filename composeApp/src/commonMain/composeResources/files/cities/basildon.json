@@ -1,0 +1,22 @@
+{
+  "city": "Basildon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "basildon-climbing-centre",
+      "name": "Basildon Climbing Centre",
+      "address": "Basildon Sporting Village, Gloucester Park, Basildon SS14 2GA",
+      "url": "https://www.basildon.gov.uk/",
+      "lat": 51.581605,
+      "lng": 0.468892,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

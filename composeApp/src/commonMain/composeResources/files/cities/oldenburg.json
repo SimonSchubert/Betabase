@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.up-kletterzentrum.de/203%20-%20Sektion%20Oldenburg/Redaktion/Kletterzentrum/199944/image-thumb__199944__heroteaser/Kletterzentrum-Terrasse@2x.a3222718.webp"
     },
     {
       "id": "oldenbloc",
@@ -41,7 +42,8 @@
         "fri": "10:00-22:00",
         "sat": "14:00-22:00",
         "sun": "14:00-22:00"
-      }
+      },
+      "image_url": "https://www.oldenbloc.de/wp-content/uploads/2022/03/oldenbloc-O-Logo-rot.svg"
     }
   ]
 }

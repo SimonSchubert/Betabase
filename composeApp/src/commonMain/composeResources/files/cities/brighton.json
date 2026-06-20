@@ -1,0 +1,68 @@
+{
+  "city": "Brighton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "boulder-brighton",
+      "name": "Boulder Brighton",
+      "address": "30 Old Shoreham Road, BN3 6GY Hove",
+      "url": "https://www.boulderbrighton.co.uk",
+      "lat": 50.8380151,
+      "lng": -0.2030578,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.boulderbrighton.co.uk/_PublicSite/boulderbrighton/_Perm/cc8e62ac-4253-4cf1-89f5-e2225a04c7e0.jpg"
+    },
+    {
+      "id": "the-project-climbing",
+      "name": "The Project Climbing Centre",
+      "address": "8 Kingsway, BN3 4QD Hove",
+      "url": "https://www.theprojectclimbing.co.uk",
+      "lat": 50.8289398,
+      "lng": -0.2043548,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-rock-court-climbing",
+      "name": "The Rock Court Climbing",
+      "address": "Stanley Deason Leisure Centre, Wilson Avenue, Brighton BN2 9PB",
+      "url": "https://www.aultd.org/",
+      "lat": 50.823024,
+      "lng": -0.1008839,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-sussex-climbing-wall",
+      "name": "University of Sussex Climbing Wall",
+      "address": "Sussex Sports, University of Sussex, Brighton BN1 9RB",
+      "url": "https://www.sussex.ac.uk/sport/",
+      "lat": 50.863145,
+      "lng": -0.089959,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.sussex.ac.uk/wcm/assets/media/original/69425.jpg"
+    }
+  ]
+}

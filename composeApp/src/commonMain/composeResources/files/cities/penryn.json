@@ -1,0 +1,22 @@
+{
+  "city": "Penryn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "granite-planet-climbing-centre",
+      "name": "Granite Planet Climbing Centre",
+      "address": "Unit 10 Parkengue, Kernick Industrial Estate, Penryn TR10 9EP",
+      "url": "http://www.graniteplanetclimbing.co.uk/",
+      "lat": 50.166447,
+      "lng": -5.122583,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

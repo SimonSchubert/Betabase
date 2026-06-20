@@ -1,0 +1,87 @@
+{
+  "city": "Liverpool",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "awesome-walls-liverpool",
+      "name": "Awesome Walls Liverpool",
+      "address": "St Albans Church, Athol Street, L5 9TN Liverpool",
+      "url": "https://www.awesomewalls.co.uk/liverpool2/",
+      "lat": 53.423927,
+      "lng": -2.995764,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      },
+      "image_url": "https://www.awesomewalls.co.uk/wp-content/uploads/2026/05/Route-Setting-All-Jan-May-1-1024x577.jpg"
+    },
+    {
+      "id": "climbing-hangar-liverpool-north",
+      "name": "The Climbing Hangar Liverpool North",
+      "address": "Unit 1, Sandhills Lane, L5 9JJ Liverpool",
+      "url": "https://www.theclimbinghangar.com/locations/liverpool-north",
+      "lat": 53.430219,
+      "lng": -2.9894814,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbinghangar.com/media/4529/website-72dpi-tch-sheffield-photography-september-2023-rob-battersby-55.jpg?anchor=center&mode=crop&quality=70&width=768&height=768&rnd=133451185720000000"
+    },
+    {
+      "id": "climbing-hangar-liverpool-south",
+      "name": "The Climbing Hangar Liverpool South",
+      "address": "Units 14 & 15, The Matchworks, 40 Speke Road, L19 2RF Liverpool",
+      "url": "https://www.theclimbinghangar.com/locations/liverpool-south",
+      "lat": 53.349808,
+      "lng": -2.8863908,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "06:30-22:00",
+        "thu": "06:30-22:00",
+        "fri": "06:30-21:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "image_url": "https://www.theclimbinghangar.com/assets/images/logo-dark.svg"
+    },
+    {
+      "id": "university-of-liverpool-climbing-wall",
+      "name": "University of Liverpool Climbing Wall",
+      "address": "Liverpool Guild of Students, 160 Mount Pleasant, Liverpool L3 5TR",
+      "url": "https://www.liverpoolguild.org/",
+      "lat": 53.405072,
+      "lng": -2.966107,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.liverpoolguild.org/stylesheet/template/logo.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Meridian",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-view",
+      "name": "Vertical View",
+      "address": "1334 East Bird Dog Drive, Meridian, ID 83642",
+      "url": "https://www.verticalview.com",
+      "lat": 43.5927883,
+      "lng": -116.377744,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

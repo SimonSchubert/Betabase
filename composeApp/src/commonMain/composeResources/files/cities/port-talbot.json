@@ -1,0 +1,37 @@
+{
+  "city": "Port Talbot",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "port-talbot-ymca-climbing",
+      "name": "Port Talbot YMCA Climbing",
+      "address": "Talbot Road, Port Talbot SA13 1HU",
+      "url": "https://www.ymcatg.org/",
+      "lat": 51.589968,
+      "lng": -3.777639,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "tonmawr-rock-climbing",
+      "name": "Tonmawr Rock Climbing",
+      "address": "Heol Hamdden, Port Talbot SA12 9UU",
+      "url": "https://www.npt.gov.uk/",
+      "lat": 51.653865,
+      "lng": -3.736392,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

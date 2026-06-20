@@ -1,0 +1,22 @@
+{
+  "city": "Chester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "the-boardroom-climbing",
+      "name": "The Boardroom Climbing",
+      "address": "Unit 3, Chester Trade Park, Old Liverpool Road, Chester CH2 4AU",
+      "url": "https://www.boardroomclimbing.com/",
+      "lat": 53.224683,
+      "lng": -2.897753,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

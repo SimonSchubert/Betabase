@@ -1,0 +1,21 @@
+{
+  "city": "Houston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "momentum-rock-climbing",
+      "name": "Momentum Rock Climbing",
+      "address": "1401 Silver Street, Houston, TX",
+      "url": "https://momentumclimbing.com/silver-street",
+      "lat": 29.7710914,
+      "lng": -95.3777403,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

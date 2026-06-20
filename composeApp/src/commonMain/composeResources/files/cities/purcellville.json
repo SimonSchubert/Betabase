@@ -1,0 +1,22 @@
+{
+  "city": "Purcellville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "harpers-ferry-adventure-center",
+      "name": "Harpers Ferry Adventure Center",
+      "address": "Purcellville, VA",
+      "url": "https://harpersferryadventurecenter.com",
+      "lat": 39.3182592,
+      "lng": -77.707508,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

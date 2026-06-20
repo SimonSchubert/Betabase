@@ -1,0 +1,21 @@
+{
+  "city": "Oban",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "atlantis-leisure-climbing",
+      "name": "Atlantis Leisure Climbing",
+      "address": "Dalriach Road, Oban PA34 5JE",
+      "url": "https://www.atlantisleisure.co.uk/",
+      "lat": 56.418723,
+      "lng": -5.470895,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

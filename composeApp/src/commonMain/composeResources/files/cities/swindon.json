@@ -1,0 +1,39 @@
+{
+  "city": "Swindon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "rockstar-climbing-centre",
+      "name": "Rockstar Climbing Centre",
+      "address": "Unit 3, IO Centre, Hobley Drive, Swindon SN3 4NS",
+      "url": "https://www.rockstarclimbing.co.uk/",
+      "lat": 51.58194,
+      "lng": -1.751766,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "http://static1.squarespace.com/static/62ba9ea2d390413f525c6af0/t/63a460704d09f6106c3aefc3/1770975382406/rockstar-climbing-blue.jpg?format=1500w"
+    },
+    {
+      "id": "swindon-climbing-centre",
+      "name": "Swindon Climbing Centre",
+      "address": "Link Centre, Whitehill Way, Swindon SN5 7DN",
+      "url": "https://www.better.org.uk/",
+      "lat": 51.560799,
+      "lng": -1.831324,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    }
+  ]
+}

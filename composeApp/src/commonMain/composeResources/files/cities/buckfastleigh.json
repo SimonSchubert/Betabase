@@ -1,0 +1,22 @@
+{
+  "city": "Buckfastleigh",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "dart-rock-climbing-centre",
+      "name": "Dart Rock Climbing Centre",
+      "address": "Old Totnes Road, Buckfastleigh TQ11 0NF",
+      "url": "https://www.dartrock.co.uk/",
+      "lat": 50.481054,
+      "lng": -3.765649,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

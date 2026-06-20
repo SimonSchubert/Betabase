@@ -1,0 +1,21 @@
+{
+  "city": "Urbana",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "urbana-boulders",
+      "name": "Urbana Boulders",
+      "address": "1502 North Cunningham Avenue, Urbana, IL 61802",
+      "url": "https://www.urbanaboulders.com",
+      "lat": 40.1259173,
+      "lng": -88.19902,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

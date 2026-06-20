@@ -1,0 +1,22 @@
+{
+  "city": "Pangbourne",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "adventure-dolphin-climbing",
+      "name": "Adventure Dolphin Climbing",
+      "address": "Dolphin Centre, Whitchurch Road, Pangbourne RG8 7DA",
+      "url": "https://www.adventuredolphin.co.uk/",
+      "lat": 51.484978,
+      "lng": -1.080017,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

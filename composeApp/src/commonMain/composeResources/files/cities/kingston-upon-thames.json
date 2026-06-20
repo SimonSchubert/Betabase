@@ -1,0 +1,22 @@
+{
+  "city": "Kingston upon Thames",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-kingston",
+      "name": "Clip 'n Climb Kingston",
+      "address": "Unit 2, 55-59 High Street, Kingston upon Thames KT1 1JQ",
+      "url": "https://clipnclimb.co.uk/locations/kingston/",
+      "lat": 51.409205,
+      "lng": -0.306049,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    }
+  ]
+}

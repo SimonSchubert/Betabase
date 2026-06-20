@@ -1,0 +1,22 @@
+{
+  "city": "Tulsa",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-tulsa",
+      "name": "Climb Tulsa",
+      "address": "4923 East 32nd Street South, Tulsa, OK 74135",
+      "url": "https://climbtulsa.com",
+      "lat": 36.1181113,
+      "lng": -95.9211413,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

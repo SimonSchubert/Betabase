@@ -1,0 +1,23 @@
+{
+  "city": "Leigh-on-Sea",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "blue-spider-climbing",
+      "name": "Blue Spider Climbing",
+      "address": "Unit 3, Progress Road, Leigh-on-Sea SS9 5PR",
+      "url": "https://spiderclimbing.com/blue-spider/",
+      "lat": 51.5456,
+      "lng": 0.6531,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://spiderclimbing.com/wp-content/uploads/2026/02/BS-Spring-Series-Blog-Icon-800x500px.png"
+    }
+  ]
+}

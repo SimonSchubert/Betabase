@@ -10,7 +10,9 @@
       "url": "https://www.bouldermadrid.com",
       "lat": 40.3912461,
       "lng": -3.6696446,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -20,12 +22,16 @@
       "name": "Indoorwall Getafe",
       "address": "Calle Fundidores 27, 28906 Getafe",
       "url": "https://www.indoorwall.com",
-      "lat": 40.3118730,
+      "lat": 40.311873,
       "lng": -3.7030909,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.indoorwall.com/wp-content/uploads/2019/04/IW-indoorwall-climbing-center.png"
     },
     {
       "id": "sputnik-climbing",
@@ -34,10 +40,14 @@
       "url": "https://sputnikclimbing.com",
       "lat": 40.4394987,
       "lng": -3.7087577,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://sputnikclimbing.com/wp-content/uploads/2025/04/Sputnik-climbingcohete.png"
     }
   ]
 }

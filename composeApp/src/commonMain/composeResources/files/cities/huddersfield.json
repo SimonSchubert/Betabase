@@ -1,0 +1,36 @@
+{
+  "city": "Huddersfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "be-boulder",
+      "name": "Be Boulder",
+      "address": "Unit 4, Leeds Road, Huddersfield HD2 1YY",
+      "url": "https://www.be-boulder.co.uk/",
+      "lat": 53.6712,
+      "lng": -1.7448,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "huddersfield-climbing-centre",
+      "name": "Huddersfield Climbing Centre",
+      "address": "Spring Grove Mills, Springwood, Huddersfield HD1 4BP",
+      "url": "https://www.huddersfieldclimbingcentre.co.uk/",
+      "lat": 53.643446,
+      "lng": -1.789664,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Newport",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "shropshire-climbing-centre",
+      "name": "Shropshire Climbing Centre",
+      "address": "The Malthouse, Springfield Industrial Estate, Newport TF10 7EZ",
+      "url": "https://www.newportrock.com/",
+      "lat": 52.762719,
+      "lng": -2.375937,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

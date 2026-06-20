@@ -1,0 +1,22 @@
+{
+  "city": "Oldbury",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "portway-climbing-wall",
+      "name": "Portway Climbing Wall",
+      "address": "Newbury Lane, Oldbury B69 1HE",
+      "url": "https://www.portwayclimbingwall.co.uk/",
+      "lat": 52.497603,
+      "lng": -2.030324,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

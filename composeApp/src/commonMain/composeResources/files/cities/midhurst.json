@@ -1,0 +1,22 @@
+{
+  "city": "Midhurst",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "climb-midhurst",
+      "name": "Climb Midhurst",
+      "address": "River Site, Lamberts Lane, Midhurst GU29 9DT",
+      "url": "https://www.chichester.ac.uk/AboutUs/Sports-Centre/Climb-Midhurst/",
+      "lat": 50.991643,
+      "lng": -0.738771,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

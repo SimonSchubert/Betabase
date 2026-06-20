@@ -1,0 +1,22 @@
+{
+  "city": "Holland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "scrapyard-climbing-collective",
+      "name": "Scrapyard Climbing Collective",
+      "address": "76 S River Ave, Holland, MI 49423",
+      "url": "https://scrapyardclimbing.com",
+      "lat": 42.7944627,
+      "lng": -86.1100536,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Gresham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rock-haven-climbing-gym",
+      "name": "Rock Haven Climbing Gym",
+      "address": "355 Northeast 223rd Avenue, Gresham, OR 97030",
+      "url": "https://www.rockhavenclimbling.com",
+      "lat": 45.5262648,
+      "lng": -122.4344066,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

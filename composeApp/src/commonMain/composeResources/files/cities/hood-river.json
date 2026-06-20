@@ -1,0 +1,21 @@
+{
+  "city": "Hood River",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "brimstone-boulders",
+      "name": "Brimstone Boulders",
+      "address": "Hood River, Oregon",
+      "url": "https://www.brimstoneboulders.com",
+      "lat": 45.7083905,
+      "lng": -121.5169052,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Darlington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "dolphin-centre-climbing-wall",
+      "name": "Dolphin Centre Climbing Wall",
+      "address": "Horsemarket, Darlington DL1 5RP",
+      "url": "https://www.darlington.gov.uk/",
+      "lat": 54.523718,
+      "lng": -1.554141,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

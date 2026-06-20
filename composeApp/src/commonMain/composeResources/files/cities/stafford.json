@@ -1,0 +1,22 @@
+{
+  "city": "Stafford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "sir-graham-balfour-school-climbing",
+      "name": "Sir Graham Balfour School Climbing",
+      "address": "Stone Road, Stafford ST16 1NR",
+      "url": "https://www.sgbs.staffs.sch.uk/",
+      "lat": 52.828469,
+      "lng": -2.125248,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

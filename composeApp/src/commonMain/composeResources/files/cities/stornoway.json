@@ -1,0 +1,22 @@
+{
+  "city": "Stornoway",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "lewis-sports-centre-climbing",
+      "name": "Lewis Sports Centre Climbing",
+      "address": "Springfield Road, Stornoway HS1 2AF",
+      "url": "https://www.cne-siar.gov.uk/",
+      "lat": 58.221085,
+      "lng": -6.383603,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

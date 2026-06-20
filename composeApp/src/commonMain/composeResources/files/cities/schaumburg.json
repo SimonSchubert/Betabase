@@ -1,0 +1,22 @@
+{
+  "city": "Schaumburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cube-challenges",
+      "name": "Cube Challenges",
+      "address": "137 East Golf Road, Schaumburg, IL 60173",
+      "url": "https://schaumburg.cubechallenges.us/en",
+      "lat": 42.048686,
+      "lng": -88.0466818,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

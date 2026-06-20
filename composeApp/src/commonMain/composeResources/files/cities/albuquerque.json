@@ -1,0 +1,21 @@
+{
+  "city": "Albuquerque",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "stone-age-climbing-gym",
+      "name": "Stone Age Climbing Gym",
+      "address": "4130 Cutler Avenue Northeast, Albuquerque, NM 87110",
+      "url": "https://climbstoneage.com",
+      "lat": 35.1053493,
+      "lng": -106.5998044,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

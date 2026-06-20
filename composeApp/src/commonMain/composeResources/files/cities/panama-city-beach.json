@@ -1,0 +1,22 @@
+{
+  "city": "Panama City Beach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "skytrail-ropes-course",
+      "name": "SkyTrail Ropes Course",
+      "address": "Panama City Beach, Florida",
+      "url": "https://skywheelpcb.com/skytrail-ropes-course",
+      "lat": 30.2180364,
+      "lng": -85.8725077,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

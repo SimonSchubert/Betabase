@@ -1,0 +1,21 @@
+{
+  "city": "Philadelphia",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "tufas-boulder-lounge",
+      "name": "Tufas Boulder Lounge",
+      "address": "1614 North 5th Street, Philadelphia, PA 19122",
+      "url": "https://tufasboulderlounge.com",
+      "lat": 39.9759354,
+      "lng": -75.1438759,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

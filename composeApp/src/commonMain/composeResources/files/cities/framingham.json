@@ -1,0 +1,21 @@
+{
+  "city": "Framingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-framingham",
+      "name": "Central Rock Gym Framingham",
+      "address": "1451 Concord Street, MA 01701",
+      "url": "https://centralrockgym.com/framingham",
+      "lat": 42.3185819,
+      "lng": -71.3974144,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

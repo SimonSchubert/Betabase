@@ -1,0 +1,22 @@
+{
+  "city": "Newton Abbot",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "crs-adventures-climbing",
+      "name": "CRS Adventures Climbing",
+      "address": "Holne Park, Ashburton, Newton Abbot TQ13 7NP",
+      "url": "https://www.crsadventures.com/",
+      "lat": 50.516606,
+      "lng": -3.788727,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

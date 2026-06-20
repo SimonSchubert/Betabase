@@ -10,7 +10,9 @@
       "url": "https://blocbox-training.com",
       "lat": 47.2727866,
       "lng": 11.4069501,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://blocbox-training.com/wp-content/uploads/2024/01/logo-black.png"
     },
     {
       "id": "kletterzentrum-innsbruck",
@@ -30,7 +33,11 @@
       "url": "https://www.kletterzentrum-innsbruck.at",
       "lat": 47.2768106,
       "lng": 11.4134391,
-      "disciplines": ["boulder", "lead", "speed"],
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
       "boards": [],
       "size_sqm": 5700,
       "opening_hours": {
@@ -41,7 +48,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.kletterzentrum-innsbruck.at/uploads/videos/header_poster_1280.jpg"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "city": "Hampton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "hampton-school-climbing-wall",
+      "name": "Hampton School Climbing Wall",
+      "address": "Hanworth Road, Hampton TW12 3HD",
+      "url": "https://www.hamptonschool.org.uk/",
+      "lat": 51.428645,
+      "lng": -0.371214,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

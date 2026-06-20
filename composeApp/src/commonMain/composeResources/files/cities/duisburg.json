@@ -13,7 +13,8 @@
       ],
       "boards": [],
       "size_sqm": 1800,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://duisburg.einstein-boulder.com/wp-content/uploads/2021/06/eBD_BoulderKinderbetreuung_1920.jpg"
     },
     {
       "id": "monkeyspot-duisburg",
@@ -35,7 +36,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://monkeyspot.de/wp-content/uploads/2023/10/Boulderbereich.jpg"
     }
   ],
   "source": "manual-curation-web-research",

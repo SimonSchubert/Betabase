@@ -1,0 +1,22 @@
+{
+  "city": "Oakham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "rockblok-climbing-centre",
+      "name": "Rockblok Climbing Centre",
+      "address": "Whitwell Leisure Park, Bull Brig Lane, Rutland Water LE15 8BL",
+      "url": "https://www.rockblok.co.uk/",
+      "lat": 52.667916,
+      "lng": -0.63371,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

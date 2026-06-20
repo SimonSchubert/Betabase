@@ -1,0 +1,22 @@
+{
+  "city": "South Boston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rock-spot-climbing",
+      "name": "Rock Spot Climbing",
+      "address": "30 Old Colony Avenue, South Boston, MA 02127",
+      "url": "https://southboston.rockspotclimbing.com",
+      "lat": 42.336498,
+      "lng": -71.0564578,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Geneseo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "sunrise-bouldering",
+      "name": "Sunrise Bouldering",
+      "address": "2 School Street, Geneseo, NY 14454",
+      "url": "https://www.sunrisebouldering.com",
+      "lat": 42.795539,
+      "lng": -77.8178268,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

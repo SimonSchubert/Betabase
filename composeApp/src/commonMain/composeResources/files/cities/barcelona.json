@@ -10,8 +10,15 @@
       "url": "https://www.blocdistrict.com",
       "lat": 41.3968987,
       "lng": 2.1889678,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["moonboard", "kilter", "spray"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter",
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "08:00-22:00",
@@ -21,16 +28,20 @@
         "fri": "08:00-22:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      }
+      },
+      "image_url": "https://www.blocdistrict.com/wp-content/uploads/logo-web.png"
     },
     {
       "id": "bloc-district-barcelona-tetuan",
       "name": "Bloc District Tetuan",
       "address": "Carrer de Nàpols, 128, 08013 Barcelona",
       "url": "https://www.blocdistrict.com",
-      "lat": 41.3960860,
+      "lat": 41.396086,
       "lng": 2.1786694,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1400,
       "opening_hours": {
@@ -41,7 +52,8 @@
         "fri": "07:00-22:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.blocdistrict.com/wp-content/uploads/logo-web.png"
     },
     {
       "id": "climbat-la-foixarda",
@@ -50,7 +62,10 @@
       "url": "https://climbat.com",
       "lat": 41.3666202,
       "lng": 2.1481059,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 2000,
       "opening_hours": {
@@ -61,7 +76,8 @@
         "fri": "10:00-21:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://climbat.com/wp-content/uploads/2026/06/PROMOVERANO_TV.jpg"
     },
     {
       "id": "freebloc",
@@ -70,7 +86,9 @@
       "url": "https://www.freebloc.com",
       "lat": 41.3736417,
       "lng": 2.1374191,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 480,
       "opening_hours": {
@@ -81,7 +99,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://freebloc.com/wp-content/uploads/2021/03/cropped-logo-192x192.png"
     },
     {
       "id": "indoorwall-barcelona-el-clot",
@@ -90,7 +109,10 @@
       "url": "https://www.indoorwall.com/centros-indoorwall-rocodromos/indoorwall-el-clot-barcelona",
       "lat": 41.4113867,
       "lng": 2.1891159,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1500,
       "opening_hours": {
@@ -101,7 +123,8 @@
         "fri": "10:00-22:30",
         "sat": "11:00-21:00",
         "sun": "16:00-21:00"
-      }
+      },
+      "image_url": "https://www.indoorwall.com/wp-content/uploads/2019/04/indoorwall-el-clot1.jpg?id=3249"
     },
     {
       "id": "monobloc-barcelona-la-sagrera",
@@ -110,7 +133,9 @@
       "url": "https://lasagrera.monobloc.es",
       "lat": 41.4247124,
       "lng": 2.1858417,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1000,
       "opening_hours": {
@@ -121,7 +146,8 @@
         "fri": "09:00-22:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      }
+      },
+      "image_url": "https://lasagrera.monobloc.es/we_images/1687344694.jpg"
     },
     {
       "id": "monobloc-barcelona-sants",
@@ -130,7 +156,9 @@
       "url": "https://sants.monobloc.es",
       "lat": 41.3662525,
       "lng": 2.1395222,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -141,7 +169,8 @@
         "fri": "09:00-22:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://sants.monobloc.es/img/logo-sants.svg"
     },
     {
       "id": "sharma-climbing-bcn",
@@ -150,7 +179,10 @@
       "url": "https://www.sharmaclimbing.com",
       "lat": 41.4157253,
       "lng": 2.2105633,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {

@@ -1,0 +1,22 @@
+{
+  "city": "Aspen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "aspen-recreation-center",
+      "name": "Aspen Recreation Center",
+      "address": "Aspen, Colorado",
+      "url": "https://www.aspenrecreation.com/aspen-recreation-center",
+      "lat": 39.189557,
+      "lng": -106.8509984,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

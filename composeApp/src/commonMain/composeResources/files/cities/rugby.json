@@ -1,0 +1,22 @@
+{
+  "city": "Rugby",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "high-sports-rugby",
+      "name": "High Sports Rugby",
+      "address": "The Queen's Diamond Jubilee Centre, Bruce Williams Way, Rugby CV22 5LJ",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 52.366217,
+      "lng": -1.254699,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

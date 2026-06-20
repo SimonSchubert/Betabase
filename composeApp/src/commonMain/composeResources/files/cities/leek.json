@@ -1,0 +1,21 @@
+{
+  "city": "Leek",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "upper-limits-climbing",
+      "name": "Upper Limits Climbing",
+      "address": "Leek College, Stockwell Street, Leek ST13 6UB",
+      "url": "https://www.leek.ac.uk/upper-limits",
+      "lat": 53.1073174,
+      "lng": -2.0232792,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

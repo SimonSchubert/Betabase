@@ -1,0 +1,84 @@
+{
+  "city": "Northampton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "benham-sports-arena-climbing",
+      "name": "Benham Sports Arena Climbing",
+      "address": "King's Park Road, Moulton Park, Northampton NN3 6LL",
+      "url": "https://www.actioncentres.co.uk/",
+      "lat": 52.275409,
+      "lng": -0.8778,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "danes-camp-climbing-wall",
+      "name": "Danes Camp Climbing Wall",
+      "address": "Clannell Road, Northampton NN4 0RX",
+      "url": "https://www.northampton.gov.uk/",
+      "lat": 52.214105,
+      "lng": -0.909936,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "northampton-climbing-centre",
+      "name": "Northampton Climbing Centre",
+      "address": "Mounts Baths Complex, Upper Mounts, Northampton NN1 3DN",
+      "url": "https://www.northampton.gov.uk/",
+      "lat": 52.241612,
+      "lng": -0.893869,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://forms.westnorthants.gov.uk/site/images/logo-wnc-white.png"
+    },
+    {
+      "id": "quinton-house-school-climbing-wall",
+      "name": "Quinton House School Climbing Wall",
+      "address": "Upton Hall, Upton, Northampton NN5 4UX",
+      "url": "https://www.quintonhouseschool.co.uk/",
+      "lat": 52.234063,
+      "lng": -0.949365,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-pinnacle-climbing-centre",
+      "name": "The Pinnacle Climbing Centre",
+      "address": "Unit 1, Minton Business Centre, Main Road, Far Cotton, Northampton NN4 8ES",
+      "url": "https://www.thepinnaclecentre.co.uk/",
+      "lat": 52.228368,
+      "lng": -0.908313,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://cdn.sanity.io/images/tde4zjj8/production/f1655a7ca429a34290bf37899583530b5f11e0d7-6000x4000.jpg?rect=0,50,6000,3900&w=400&h=260&q=80&fit=crop&auto=format"
+    }
+  ]
+}

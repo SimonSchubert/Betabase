@@ -1,0 +1,22 @@
+{
+  "city": "San Bernardino",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "student-recreation-fitness-center",
+      "name": "Student Recreation & Fitness Center",
+      "address": "San Bernardino, California",
+      "url": "http://www.csusbrecsports.com",
+      "lat": 34.181299,
+      "lng": -117.3185553,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

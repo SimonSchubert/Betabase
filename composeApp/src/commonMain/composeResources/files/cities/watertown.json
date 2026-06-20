@@ -1,0 +1,35 @@
+{
+  "city": "Watertown",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-arsenal-yards",
+      "name": "Central Rock Gym Arsenal Yards",
+      "address": "Watertown, Massachusetts",
+      "url": "https://centralrockgym.com/arsenalyards",
+      "lat": 42.3621616,
+      "lng": -71.1570258,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "central-rock-gym-watertown",
+      "name": "Central Rock Gym Watertown",
+      "address": "74 Acton Street, Watertown, MA 02472",
+      "url": "https://centralrockgym.com/watertown",
+      "lat": 42.3694218,
+      "lng": -71.1987407,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

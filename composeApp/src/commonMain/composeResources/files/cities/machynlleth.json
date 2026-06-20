@@ -1,0 +1,21 @@
+{
+  "city": "Machynlleth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "bro-ddyfi-leisure-centre-climbing",
+      "name": "Bro Ddyfi Leisure Centre Climbing",
+      "address": "Aberystwyth Road, Machynlleth SY20 8ER",
+      "url": "https://en.powys.gov.uk/",
+      "lat": 52.588988,
+      "lng": -3.851884,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

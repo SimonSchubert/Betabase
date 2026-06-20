@@ -1,0 +1,37 @@
+{
+  "city": "Columbus",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bloc-garten",
+      "name": "Bloc Garten",
+      "address": "512 Maier Place, Columbus, OH 43215",
+      "url": "https://5.life/bg",
+      "lat": 39.9504495,
+      "lng": -83.0079702,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-adventures",
+      "name": "Vertical Adventures",
+      "address": "6513 Kingsmill Court, Columbus, OH 43229",
+      "url": "https://5.life/va",
+      "lat": 40.0986307,
+      "lng": -82.9955737,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

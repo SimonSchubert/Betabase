@@ -1,0 +1,52 @@
+{
+  "city": "Keswick",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "calvert-trust-keswick-climbing",
+      "name": "Calvert Trust Keswick Climbing",
+      "address": "Little Crossthwaite, Underskiddaw, Keswick CA12 4QD",
+      "url": "https://www.calvert-trust.org.uk/keswick",
+      "lat": 54.636487,
+      "lng": -3.186165,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "keswick-climbing-wall",
+      "name": "Keswick Climbing Wall",
+      "address": "Goosewell Farm, Keswick CA12 4RN",
+      "url": "https://www.keswickclimbingwall.co.uk/",
+      "lat": 54.603399,
+      "lng": -3.107054,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "king-kong-climbing-centre",
+      "name": "King Kong Climbing Centre",
+      "address": "Heads Road, Keswick CA12 5EZ",
+      "url": "https://www.kingkongclimbingcentre.co.uk/",
+      "lat": 54.600707,
+      "lng": -3.139598,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

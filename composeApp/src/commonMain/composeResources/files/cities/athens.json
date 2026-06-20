@@ -1,0 +1,22 @@
+{
+  "city": "Athens",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "uga-climbing-wall",
+      "name": "UGA Climbing Wall",
+      "address": "Athens, Georgia",
+      "url": "https://recsports.uga.edu/climbing-wall",
+      "lat": 33.9381222,
+      "lng": -83.3712306,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

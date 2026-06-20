@@ -1,0 +1,22 @@
+{
+  "city": "Paignton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "parkfield-climbing-wall",
+      "name": "Parkfield Climbing Wall",
+      "address": "Colin Road, Paignton TQ3 2NR",
+      "url": "https://www.torbay.gov.uk/",
+      "lat": 50.441974,
+      "lng": -3.559878,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

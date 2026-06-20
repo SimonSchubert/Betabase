@@ -1,0 +1,69 @@
+{
+  "city": "Carlisle",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "carlisle-climbing-centre",
+      "name": "Carlisle Climbing Centre",
+      "address": "Sands Centre, Petteril Bank Road, Carlisle CA1 3JB",
+      "url": "https://www.better.org.uk/",
+      "lat": 54.87561,
+      "lng": -2.899092,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "clip-n-climb-carlisle",
+      "name": "Clip 'n Climb Carlisle",
+      "address": "Bitts Park, Carlisle CA3 8UZ",
+      "url": "https://clipnclimb.co.uk/locations/carlisle/",
+      "lat": 54.8987119,
+      "lng": -2.939294,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "eden-rock-climbing",
+      "name": "Eden Rock Climbing",
+      "address": "9 Brunel Way, Durranhill Industrial Estate, Carlisle CA1 3NQ",
+      "url": "https://www.edenrockclimbing.com/",
+      "lat": 54.88268,
+      "lng": -2.909131,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.edenrockclimbing.com/quality_auto/Eden%20Rock%20LOGO%20Carlisle%20(port).png"
+    },
+    {
+      "id": "st-aidans-county-high-school-climbing",
+      "name": "St Aidans County High School Climbing",
+      "address": "Lismore Place, Carlisle CA1 1LY",
+      "url": "https://www.st-aidans.cumbria.sch.uk/",
+      "lat": 54.895837,
+      "lng": -2.923321,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

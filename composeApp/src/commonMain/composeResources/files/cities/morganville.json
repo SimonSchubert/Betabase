@@ -1,0 +1,22 @@
+{
+  "city": "Morganville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "garden-state-rocks",
+      "name": "Garden State Rocks",
+      "address": "705 Ginesi Drive, Morganville, NJ 07751",
+      "url": "https://www.gardenstaterocks.com",
+      "lat": 40.3519287,
+      "lng": -74.293197,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

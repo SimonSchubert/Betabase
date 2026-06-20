@@ -10,10 +10,13 @@
       "url": "https://98gravity.pt",
       "lat": 38.7842913,
       "lng": -9.1255514,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.98gravity.pt/wp-content/uploads/2022/12/banner.jpg"
     },
     {
       "id": "escala25",
@@ -22,10 +25,13 @@
       "url": "https://escala25.com",
       "lat": 38.7003518,
       "lng": -9.178815,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://escala25.com/wp-content/uploads/2023/12/230624-Escala25-244-768x512.jpg"
     },
     {
       "id": "vertical-wall",
@@ -34,7 +40,10 @@
       "url": "https://verticalwall.pt",
       "lat": 38.7907481,
       "lng": -9.167944,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -46,10 +55,14 @@
       "url": "https://vertigoclimbing.pt",
       "lat": 38.739902,
       "lng": -9.1020322,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://vertigoclimbing.pt/wp-content/uploads/2020/11/vertigo_project_berlogos_4q.jpg"
     }
   ]
 }

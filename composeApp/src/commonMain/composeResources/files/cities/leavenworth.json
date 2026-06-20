@@ -1,0 +1,22 @@
+{
+  "city": "Leavenworth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "beargrass",
+      "name": "beargrass",
+      "address": "122 Zelt Strasse, Leavenworth, WA 98826",
+      "url": "https://www.beargrass.com",
+      "lat": 47.5987512,
+      "lng": -120.6439231,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Atlanta",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-overlook",
+      "name": "The Overlook",
+      "address": "1030 White Street Southwest, Atlanta, GA 30310",
+      "url": "https://overlookclimbing.com",
+      "lat": 33.731559,
+      "lng": -84.421264,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

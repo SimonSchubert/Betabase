@@ -1,0 +1,69 @@
+{
+  "city": "Exeter",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-exeter",
+      "name": "Clip 'n Climb Exeter",
+      "address": "Renslade House, Bonhay Road, Exeter EX4 3AT",
+      "url": "https://clipnclimb.co.uk/locations/exeter/",
+      "lat": 50.7196479,
+      "lng": -3.5382893,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "quay-climbing-centre",
+      "name": "Quay Climbing Centre",
+      "address": "Exeter Quay, Exeter EX2 4AN",
+      "url": "https://www.quayclimbingcentre.co.uk/",
+      "lat": 50.7186,
+      "lng": -3.5308,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://quayclimbingcentre.co.uk/wp-content/uploads/2019/10/CNC-logo-white.png"
+    },
+    {
+      "id": "the-climbing-hangar-exeter",
+      "name": "The Climbing Hangar Exeter",
+      "address": "6 Marsh Green Road North, Marsh Barton, Exeter EX2 8NY",
+      "url": "https://www.theclimbinghangar.com/locations/exeter",
+      "lat": 50.7089669,
+      "lng": -3.5277754,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.theclimbinghangar.com/media/3990/1080px-72dpi-tch-plymouth-climbing-rob-battersby-7.jpg?crop=0.1375,0,0.195833333333333,0&cropmode=percentage&width=320&height=320&quality=70"
+    },
+    {
+      "id": "university-of-exeter-climbing-wall",
+      "name": "University of Exeter Climbing Wall",
+      "address": "Sports Park, University of Exeter, Exeter EX4 4QN",
+      "url": "https://sport.exeter.ac.uk/",
+      "lat": 50.737326,
+      "lng": -3.537458,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.exeter.ac.uk/v8media/global/images/opengraph-logo.jpg"
+    }
+  ]
+}

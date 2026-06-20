@@ -1,0 +1,36 @@
+{
+  "city": "Long Island City",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "brooklyn-boulders-queensbridge",
+      "name": "Brooklyn Boulders Queensbridge",
+      "address": "23-10 41st Avenue, Long Island City, NY 11101",
+      "url": "https://brooklynboulders.com/queensbridge",
+      "lat": 40.7525859,
+      "lng": -73.9401946,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-lic",
+      "name": "Movement LIC",
+      "address": "11-11 44th Drive, Long Island City, NY 11101",
+      "url": "https://movementgyms.com/lic",
+      "lat": 40.748631,
+      "lng": -73.9487946,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

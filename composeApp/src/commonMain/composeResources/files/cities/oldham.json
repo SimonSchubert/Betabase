@@ -1,0 +1,53 @@
+{
+  "city": "Oldham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "oldham-climbing-centre",
+      "name": "Oldham Climbing Centre",
+      "address": "Oldham Sports Centre, Lord Street, Oldham OL1 3JA",
+      "url": "https://oclactive.co.uk/activities/",
+      "lat": 53.549956,
+      "lng": -2.103481,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.oldhamactive.co.uk/wp-content/uploads/2026/03/Water_OldhamActive_L.jpg"
+    },
+    {
+      "id": "summit-up-climbing",
+      "name": "Summit Up Climbing",
+      "address": "Sir Norman Stoller Way, Oldham OL1 3SE",
+      "url": "https://summitupclimbing.com/",
+      "lat": 53.543641,
+      "lng": -2.109714,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "volume-1-climbing",
+      "name": "Volume 1 Climbing",
+      "address": "Unit 1, Foxdenton Business Park, Foxdenton Lane, Chadderton, Oldham OL9 9QR",
+      "url": "https://www.volume1climbing.co.uk/",
+      "lat": 53.5442,
+      "lng": -2.1188,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d4c0d22b85e410001b2d825/d1c50e56-605a-4811-a352-1960707baaef/Black+Logo+Only+PNG.png"
+    }
+  ]
+}

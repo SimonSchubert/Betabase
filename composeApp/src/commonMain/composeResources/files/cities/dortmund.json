@@ -10,8 +10,12 @@
       "url": "https://www.boulderwelt-dortmund.de",
       "lat": 51.4947158,
       "lng": 7.3774014,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": 3250,
       "opening_hours": {
         "mon": "07:00-23:00",
@@ -30,7 +34,10 @@
       "url": "https://www.kletterhalle-bergwerk.de",
       "lat": 51.5428286,
       "lng": 7.4092588,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +48,8 @@
         "fri": "14:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://kletterhalle-bergwerk.de/wp-content/uploads/2026/02/Presie_2026_Kletterhalle_Bergwerk_Dortmund-2.png"
     },
     {
       "id": "gluecksgriff-boulderhalle",
@@ -50,7 +58,9 @@
       "url": "https://www.gluecksgriff-boulderhalle.de",
       "lat": 51.5328208,
       "lng": 7.6310288,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -61,7 +71,8 @@
         "fri": "12:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.gluecksgriff-boulderhalle.de/wp-content/uploads/2018/07/gluecksgriff-boulderhalle-09.jpg?id=5790"
     }
   ]
 }

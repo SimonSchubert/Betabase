@@ -1,0 +1,37 @@
+{
+  "city": "Ipswich",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "clip-n-climb-ipswich",
+      "name": "Clip 'n Climb Ipswich",
+      "address": "Suffolk Leisure Park, Bourne Hill, Wherstead, Ipswich IP2 8NQ",
+      "url": "https://clipnclimb.co.uk/locations/ipswich/",
+      "lat": 52.031158,
+      "lng": 1.148573,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "suffolk-leisure-park-climbing",
+      "name": "Suffolk Leisure Park Climbing",
+      "address": "Bourne Hill, Wherstead, Ipswich IP2 8NQ",
+      "url": "https://suffolkleisurepark.co.uk/",
+      "lat": 52.031158,
+      "lng": 1.148573,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://suffolkleisurepark.co.uk/wp-content/uploads/2023/05/suffolklogo.png"
+    }
+  ]
+}

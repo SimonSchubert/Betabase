@@ -1,0 +1,22 @@
+{
+  "city": "Des Moines",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-iowa-east-village",
+      "name": "Climb Iowa East Village",
+      "address": "150 East 4th Street, Des Moines, IA 50309",
+      "url": "https://climbiowa.com/east-village",
+      "lat": 41.5863645,
+      "lng": -93.6119295,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

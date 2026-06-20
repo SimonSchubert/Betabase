@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.dav-kiel.de/fileadmin/templates/dav-kiel/DAV-Kiel-Logo-250.jpg"
     },
     {
       "id": "kletterbar-kiel",
@@ -39,7 +40,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://kletterbar-kiel.de/wp-content/uploads/2021/12/KletterBar-Kiel-Aussenbereich-scaled.jpg"
     },
     {
       "id": "nordbloc-kiel",
@@ -48,7 +50,9 @@
       "url": "https://www.nordbloc-kiel.de",
       "lat": 54.33849,
       "lng": 10.1186983,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

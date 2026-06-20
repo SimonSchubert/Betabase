@@ -1,0 +1,22 @@
+{
+  "city": "Buxton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "white-hall-centre-climbing",
+      "name": "White Hall Centre Climbing",
+      "address": "Long Hill, Buxton SK17 6SX",
+      "url": "https://www.whitehallcentre.org.uk/",
+      "lat": 53.284228,
+      "lng": -1.952998,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

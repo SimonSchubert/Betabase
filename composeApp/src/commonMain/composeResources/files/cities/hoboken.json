@@ -1,0 +1,22 @@
+{
+  "city": "Hoboken",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-gravity-vault-hoboken",
+      "name": "The Gravity Vault Hoboken",
+      "address": "1423 Clinton Street, Hoboken, NJ 07030",
+      "url": "https://www.gravityvault.com/locations/hoboken-nj",
+      "lat": 40.7548636,
+      "lng": -74.0300656,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

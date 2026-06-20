@@ -1,0 +1,22 @@
+{
+  "city": "Ripon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "alpine-climbing-adventure-fitness",
+      "name": "Alpine Climbing Adventure Fitness",
+      "address": "1450 Garrison Way, Ripon, CA 95366",
+      "url": "https://climbatalpine.com",
+      "lat": 37.7483192,
+      "lng": -121.1384903,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

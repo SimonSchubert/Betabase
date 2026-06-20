@@ -38,7 +38,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.dav-mannheim.de/wp-content/uploads/backgorund-topo-dav.jpg"
     },
     {
       "id": "boulderhaus-mannheim",
@@ -47,7 +48,9 @@
       "url": "https://www.boulderhaus.net/mannheim",
       "lat": 49.3861699,
       "lng": 8.6791896,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

@@ -1,0 +1,23 @@
+{
+  "city": "Hemel Hempstead",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "xc-climbing-centre",
+      "name": "XC Climbing Centre",
+      "address": "Jarman Park, Hemel Hempstead HP2 4JS",
+      "url": "https://thexc.co.uk/climbing/",
+      "lat": 51.7536,
+      "lng": -0.4598,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://thexc.co.uk/wp-content/uploads/2023/11/Together-black-logo.png"
+    }
+  ]
+}

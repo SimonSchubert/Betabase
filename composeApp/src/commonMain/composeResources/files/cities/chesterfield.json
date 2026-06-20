@@ -1,0 +1,22 @@
+{
+  "city": "Chesterfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "healthy-living-centre-climbing",
+      "name": "Healthy Living Centre Climbing",
+      "address": "Barlow Road, Staveley, Chesterfield S43 3XR",
+      "url": "https://www.chesterfield.gov.uk/",
+      "lat": 53.265722,
+      "lng": -1.352875,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

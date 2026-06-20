@@ -1,0 +1,22 @@
+{
+  "city": "Treharris",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "rock-uk-summit-centre",
+      "name": "Rock UK Summit Centre",
+      "address": "The Old Drift Mine, Trelewis, Treharris CF46 6RD",
+      "url": "https://rockuk.org/centres/summit-centre/",
+      "lat": 51.6628,
+      "lng": -3.3245,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Barrow-in-Furness",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "the-park-leisure-centre-climbing",
+      "name": "The Park Leisure Centre Climbing",
+      "address": "Greengate Street, Barrow-in-Furness LA13 9DT",
+      "url": "https://www.barrowbc.gov.uk/",
+      "lat": 54.116362,
+      "lng": -3.212194,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

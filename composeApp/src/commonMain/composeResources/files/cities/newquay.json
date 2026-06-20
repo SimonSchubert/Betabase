@@ -1,0 +1,52 @@
+{
+  "city": "Newquay",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "deadpoint-bouldering-studio",
+      "name": "DeadPoint Bouldering Studio",
+      "address": "St Columb Industrial Estate, St Columb Major TR9 6SF",
+      "url": "https://www.deadpoint.global/",
+      "lat": 50.42814,
+      "lng": -4.947792,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "newquay-climbing-centre",
+      "name": "Newquay Climbing Centre",
+      "address": "Waterworld, Trenance Leisure Park, Newquay TR7 2LZ",
+      "url": "https://www.cornwall.gov.uk/",
+      "lat": 50.410482,
+      "lng": -5.068405,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.cornwall.gov.uk/Content/images/cchoriz-logo.png"
+    },
+    {
+      "id": "newquay-sports-centre-climbing",
+      "name": "Newquay Sports Centre Climbing",
+      "address": "Yeoman Way, Tretherras, Newquay TR7 2SL",
+      "url": "https://www.newquaysportscentre.co.uk/",
+      "lat": 50.415414,
+      "lng": -5.061149,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

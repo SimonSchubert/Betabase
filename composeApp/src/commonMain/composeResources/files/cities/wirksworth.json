@@ -1,0 +1,23 @@
+{
+  "city": "Wirksworth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "wirksworth-leisure-centre-climbing-wall",
+      "name": "Wirksworth Leisure Centre Climbing Wall",
+      "address": "Hannage Way, Wirksworth, Derbyshire DE4 4GH",
+      "url": "https://www.freedom-leisure.co.uk/centres/wirksworth-leisure-centre/",
+      "lat": 53.087332,
+      "lng": -1.559415,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://freedomleisure2022.s3.amazonaws.com/stock/gym/1200x675/1200x675-gym-ladies-rowers-smiling.jpg"
+    }
+  ]
+}

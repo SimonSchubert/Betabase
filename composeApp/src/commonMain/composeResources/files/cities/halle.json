@@ -13,7 +13,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderkombinat.de/wp-content/uploads/2022/07/BK-Website-Title-Slider-02.jpg"
     },
     {
       "id": "kletterthalia-halle",
@@ -28,7 +29,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://ig-klettern-halle.de/administrator/cache/preview/0f1da26caed7fe4bf13935f929a4be84.jpg"
     }
   ],
   "source": "manual-curation-web-research",

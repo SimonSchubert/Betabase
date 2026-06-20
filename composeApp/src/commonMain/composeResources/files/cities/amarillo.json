@@ -1,0 +1,22 @@
+{
+  "city": "Amarillo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cinergy-skywalker",
+      "name": "Cinergy Skywalker",
+      "address": "9201 Cinergy Square, Amarillo, TX 79119",
+      "url": "https://www.cinergy.com/play/amarillo",
+      "lat": 35.1529245,
+      "lng": -101.9443287,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

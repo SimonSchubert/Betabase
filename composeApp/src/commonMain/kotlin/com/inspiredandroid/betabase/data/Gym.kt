@@ -8,6 +8,7 @@ data class Gym(
     val name: String,
     val address: String,
     val url: String,
+    val imageUrl: String? = null,
     val latitude: Double,
     val longitude: Double,
     val disciplines: Set<Discipline>,

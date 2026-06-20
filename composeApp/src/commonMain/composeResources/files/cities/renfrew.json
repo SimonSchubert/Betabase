@@ -1,0 +1,21 @@
+{
+  "city": "Renfrew",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "climbzone-braehead",
+      "name": "Climbzone Braehead",
+      "address": "Soar at Intu Braehead, Kings Inch Road, Renfrew PA4 8XU",
+      "url": "https://www.climbzone.co.uk/",
+      "lat": 55.872195,
+      "lng": -4.368736,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

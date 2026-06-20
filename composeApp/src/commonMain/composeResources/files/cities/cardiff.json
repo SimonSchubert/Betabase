@@ -1,0 +1,22 @@
+{
+  "city": "Cardiff",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulders-cardiff",
+      "name": "Boulders Climbing Centre",
+      "address": "St Catherine's Park, Pengam Road, CF24 5FA Cardiff",
+      "url": "https://www.bouldersuk.com",
+      "lat": 51.4930943,
+      "lng": -3.1418216,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5b680ff22714e5a2859144bf/e364f082-81ba-4f4e-92fd-be117999999e/NICAS-Primary-Centre-Logo.jpg?format=2500w"
+    }
+  ]
+}

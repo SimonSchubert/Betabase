@@ -1,0 +1,55 @@
+{
+  "city": "Norwich",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "highball-norwich",
+      "name": "Highball Norwich",
+      "address": "Unit 7, 5 Whiffler Road, Norwich NR3 2AG",
+      "url": "https://www.highballnorwich.co.uk/",
+      "lat": 52.651058,
+      "lng": 1.266248,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://highballnorwich.co.uk/wp-content/uploads/2025/01/lq-background-peaks-boulders-edit.jpg"
+    },
+    {
+      "id": "open-climbing-norwich",
+      "name": "OPEN Climbing Norwich",
+      "address": "20 Bank Plain, Norwich NR2 4SF",
+      "url": "https://www.open247.org.uk/climbing-wall.aspx",
+      "lat": 52.629906,
+      "lng": 1.297649,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://open247.org.uk/wp-content/uploads/2021/12/Дизайн-без-назви-1.png"
+    },
+    {
+      "id": "sportspark-uea-climbing-wall",
+      "name": "Sportspark UEA Climbing Wall",
+      "address": "University of East Anglia, Norwich NR4 7TJ",
+      "url": "https://www.sportspark.co.uk/sports/climbing/",
+      "lat": 52.622394,
+      "lng": 1.241412,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.sportspark.co.uk/f/154676/8400x5600/247f719377/children-using-the-climbing-wall.jpg/m/3150x2100/filters:quality(60)"
+    }
+  ]
+}

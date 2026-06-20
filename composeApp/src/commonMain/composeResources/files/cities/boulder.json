@@ -1,0 +1,49 @@
+{
+  "city": "Boulder",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulder-rock-club",
+      "name": "Boulder Rock Club",
+      "address": "2829 Mapleton Avenue, Boulder, CO 80301",
+      "url": "https://boulderrockclub.com",
+      "lat": 40.0259692,
+      "lng": -105.2567614,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-boulder-climbing-and-fitness",
+      "name": "Movement Boulder Climbing and Fitness",
+      "address": "2845 Valmont Road, Boulder, CO 80301",
+      "url": "https://movementgyms.com/boulder",
+      "lat": 40.0299005,
+      "lng": -105.2574861,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-spot-bouldering-gym",
+      "name": "The Spot Bouldering Gym",
+      "address": "3240 Prairie Avenue, Boulder, CO 80301",
+      "url": "https://www.thespotgym.com",
+      "lat": 40.0216245,
+      "lng": -105.250614,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

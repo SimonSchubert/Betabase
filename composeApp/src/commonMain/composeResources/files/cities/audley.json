@@ -1,0 +1,22 @@
+{
+  "city": "Audley",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "peak-pursuits-audley",
+      "name": "Peak Pursuits Audley",
+      "address": "Nantwich Road, Audley, Stoke-on-Trent ST7 8DH",
+      "url": "https://www.peakpursuits.co.uk/",
+      "lat": 53.055794,
+      "lng": -2.302873,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

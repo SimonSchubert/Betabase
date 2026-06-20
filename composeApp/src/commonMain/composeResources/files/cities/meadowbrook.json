@@ -1,0 +1,22 @@
+{
+  "city": "Meadowbrook",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "high-point-climbing-and-fitness-birmingham",
+      "name": "High Point Climbing and Fitness - Birmingham",
+      "address": "Meadowbrook, Alabama",
+      "url": "https://www.highpointclimbing.com/birmingham/birmingham-main",
+      "lat": 33.4204417,
+      "lng": -86.6983389,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

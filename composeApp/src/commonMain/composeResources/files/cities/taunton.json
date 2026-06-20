@@ -1,0 +1,53 @@
+{
+  "city": "Taunton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "blackbrook-pavilion-climbing",
+      "name": "Blackbrook Pavilion Climbing",
+      "address": "Blackbrook Way, Taunton TA1 2RW",
+      "url": "https://www.toneleisure.co.uk/",
+      "lat": 51.009438,
+      "lng": -3.073841,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "taunton-climbing-centre",
+      "name": "Taunton Climbing Centre",
+      "address": "Blackbrook Sports Centre, Blackbrook Way, Taunton TA1 2RW",
+      "url": "https://www.somerset.gov.uk/",
+      "lat": 51.009438,
+      "lng": -3.073841,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://28e3e776d6e4908ac673.b-cdn.net/wp-content/uploads/2022/11/newLogo.png"
+    },
+    {
+      "id": "taunton-school-climbing-wall",
+      "name": "Taunton School Climbing Wall",
+      "address": "Staplegrove Road, Taunton TA2 6AD",
+      "url": "https://www.tauntonschoolevents.co.uk/",
+      "lat": 51.026397,
+      "lng": -3.115215,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

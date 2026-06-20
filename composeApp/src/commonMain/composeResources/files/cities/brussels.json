@@ -10,7 +10,9 @@
       "url": "https://abloc.brussels",
       "lat": 50.8566,
       "lng": 4.4096,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://abloc.brussels/_app/immutable/assets/logo-A.rkv75rIA.webp"
     },
     {
       "id": "arkose-canal",
@@ -30,7 +33,9 @@
       "url": "https://arkose.com/canal",
       "lat": 50.8677,
       "lng": 4.3579,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 2800,
       "opening_hours": {
@@ -41,7 +46,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://arkose.com/file/loft_home~logo-cercle-canal.svg"
     },
     {
       "id": "bldr-maritime",
@@ -50,7 +56,9 @@
       "url": "https://www.bldrmaritime.be",
       "lat": 50.8643,
       "lng": 4.3443,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -61,7 +69,8 @@
         "fri": "06:00-23:00",
         "sat": "06:00-23:00",
         "sun": "06:00-23:00"
-      }
+      },
+      "image_url": "https://www-static.bldrmaritime.be/wp-content/uploads/2026/05/Boulderen-2.png"
     },
     {
       "id": "brussels-monkeys-climbing",
@@ -70,7 +79,9 @@
       "url": "https://www.brusselsmonkeysclimbing.com",
       "lat": 50.8598,
       "lng": 4.3245,
-      "disciplines": ["lead"],
+      "disciplines": [
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -90,14 +101,18 @@
       "url": "https://www.ev-club.be",
       "lat": 50.8435652,
       "lng": 4.4280499,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 300,
       "opening_hours": {
         "mon": "19:00-22:00",
         "fri": "19:00-22:00",
         "sun": "14:00-19:00"
-      }
+      },
+      "image_url": "https://www.ev-club.be/views/images/diapo_redim/slider01.jpg"
     },
     {
       "id": "le-camp-de-base",
@@ -106,7 +121,9 @@
       "url": "https://www.lecampdebase.be",
       "lat": 50.8216,
       "lng": 4.3809,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -117,7 +134,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://www.lecampdebase.be/wp-content/uploads/2022/04/Layer-1.png"
     },
     {
       "id": "maniak-padoue",
@@ -126,8 +144,13 @@
       "url": "https://padoue.maniak.club",
       "lat": 50.8277,
       "lng": 4.3319,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -137,7 +160,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://www.maniak.club/web/image/website/16/logo/300x300?unique=ef55253"
     },
     {
       "id": "new-rock",
@@ -146,7 +170,10 @@
       "url": "https://newrockescalade.be",
       "lat": 50.8143,
       "lng": 4.4173,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1750,
       "opening_hours": {
@@ -157,7 +184,8 @@
         "fri": "12:00-24:00",
         "sat": "12:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://newrockescalade.be/wp-content/uploads/2022/03/new_rock_logo-removebg-preview.png"
     },
     {
       "id": "petite-ile",
@@ -166,7 +194,9 @@
       "url": "https://petite-ile.be",
       "lat": 50.8316,
       "lng": 4.3219,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -177,16 +207,20 @@
         "fri": "09:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://petite-ile.be/wp-content/uploads/2019/04/photo-01.jpg"
     },
     {
       "id": "stone-age",
       "name": "Stone Age",
       "address": "Avenue Mounier 87, 1200 Woluwe-Saint-Lambert",
       "url": "https://stone-age.be",
-      "lat": 50.8510,
+      "lat": 50.851,
       "lng": 4.4589,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 1400,
       "opening_hours": {
@@ -197,7 +231,8 @@
         "fri": "16:00-23:00",
         "sat": "13:00-20:00",
         "sun": "10:00-21:30"
-      }
+      },
+      "image_url": "https://stone-age.be/wp-content/uploads/2016/07/chainimage-free-wood-textures-grey-wood-texture-scale-grain-plank-stock-wallpaper.jpg"
     },
     {
       "id": "terres-neuves",
@@ -206,7 +241,9 @@
       "url": "https://terresneuves.be",
       "lat": 50.8425,
       "lng": 4.3476,
-      "disciplines": ["lead"],
+      "disciplines": [
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -217,7 +254,8 @@
         "fri": "12:00-22:30",
         "sat": "12:00-19:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://terresneuves.be/wp-content/uploads/cropped-Logo-mauve-TN-192x192.jpg"
     }
   ]
 }

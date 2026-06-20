@@ -1,0 +1,21 @@
+{
+  "city": "Hilltop",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ruckus-climbing-gym",
+      "name": "Ruckus Climbing Gym",
+      "address": "5005 High Point Road, NC",
+      "url": "https://ruckusclimbinggym.com",
+      "lat": 36.0237942,
+      "lng": -79.8757211,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

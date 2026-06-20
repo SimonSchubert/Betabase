@@ -1,0 +1,22 @@
+{
+  "city": "Cleethorpes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "lindsey-climbing-club",
+      "name": "Lindsey Climbing Club",
+      "address": "Grainsby Avenue, Cleethorpes DN35 9NX",
+      "url": "https://www.lindseyclimbingclub.co.uk/",
+      "lat": 53.547981,
+      "lng": -0.039806,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

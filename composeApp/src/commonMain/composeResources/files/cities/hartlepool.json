@@ -1,0 +1,21 @@
+{
+  "city": "Hartlepool",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "summerhill-boulder-park",
+      "name": "Summerhill Boulder Park",
+      "address": "Summerhill Visitors Centre, Summerhill Lane, Hartlepool TS25 4LL",
+      "url": "https://www.sunnysummerhill.com/",
+      "lat": 54.677845,
+      "lng": -1.23894,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

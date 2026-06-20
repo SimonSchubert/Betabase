@@ -1,0 +1,23 @@
+{
+  "city": "Horsham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "high-sports-horsham",
+      "name": "High Sports Horsham",
+      "address": "Horsham Sports Club, Hop Oast Road, Horsham RH13 5BD",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.060049,
+      "lng": -0.320945,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    }
+  ]
+}

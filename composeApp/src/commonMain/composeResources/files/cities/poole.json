@@ -1,0 +1,22 @@
+{
+  "city": "Poole",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "the-project-climbing-centre-poole",
+      "name": "The Project Climbing Centre Poole",
+      "address": "The Dolphin Centre, Poole, Dorset BH15 1UD",
+      "url": "https://www.theprojectclimbingcentre.co.uk/",
+      "lat": 50.718076,
+      "lng": -1.979826,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

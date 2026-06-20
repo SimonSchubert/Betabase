@@ -1,0 +1,22 @@
+{
+  "city": "Barnard Castle",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "teesdale-indoor-climbing-wall",
+      "name": "Teesdale Indoor Climbing Wall",
+      "address": "Teesdale Leisure Centre, Strathmore Road, Barnard Castle DL12 8DS",
+      "url": "https://www.durham.gov.uk/",
+      "lat": 54.551451,
+      "lng": -1.916754,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

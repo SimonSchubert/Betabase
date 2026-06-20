@@ -1,0 +1,22 @@
+{
+  "city": "Northleach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "far-peak-climbing",
+      "name": "Far Peak Climbing",
+      "address": "1 The Hayloft, Northleach GL54 3AP",
+      "url": "https://www.farpeakclimbing.co.uk/",
+      "lat": 51.817138,
+      "lng": -1.861936,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

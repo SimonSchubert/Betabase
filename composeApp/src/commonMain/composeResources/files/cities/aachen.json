@@ -23,7 +23,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://www.diehalle-aachen.de/files/content/BoulderarenaN.jpg"
     },
     {
       "id": "campus-aachen",
@@ -51,7 +52,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.moove-aachen.de/files/content/BoulderarenaN.jpg"
     },
     {
       "id": "tivoli-rock-aachen",

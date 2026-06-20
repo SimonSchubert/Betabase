@@ -1,0 +1,23 @@
+{
+  "city": "Lancaster",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "lancaster-wall",
+      "name": "Lancaster Wall",
+      "address": "Salt Ayre Leisure Centre, Morecambe Road, Lancaster LA1 5JS",
+      "url": "https://lakelandclimbingcentres.co.uk/centre/lancasterwall/",
+      "lat": 54.0528,
+      "lng": -2.7871,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://lakelandclimbingcentres.co.uk/app/uploads/Feature-Image-TemplateCMPRSD-16-732x560.jpg"
+    }
+  ]
+}

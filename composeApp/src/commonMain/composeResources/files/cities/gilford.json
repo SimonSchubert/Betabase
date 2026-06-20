@@ -1,0 +1,22 @@
+{
+  "city": "Gilford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "gilford-community-centre-climbing",
+      "name": "Gilford Community Centre Climbing",
+      "address": "5 Stramore Road, Gilford BT63 6HL",
+      "url": "https://www.gilfordleisure.com/",
+      "lat": 54.373818,
+      "lng": -6.364894,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

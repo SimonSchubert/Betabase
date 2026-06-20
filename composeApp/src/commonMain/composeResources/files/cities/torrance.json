@@ -1,0 +1,22 @@
+{
+  "city": "Torrance",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "class-5",
+      "name": "Class 5",
+      "address": "20120 Hawthorne Boulevard, CA",
+      "url": "https://touchstoneclimbing.com/class-5",
+      "lat": 33.8490494,
+      "lng": -118.3513346,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

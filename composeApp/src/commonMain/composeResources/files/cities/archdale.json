@@ -1,0 +1,22 @@
+{
+  "city": "Archdale",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kersey-valley-attractions",
+      "name": "Kersey Valley Attractions",
+      "address": "1615 Kersey Valley Road, NC",
+      "url": "https://kerseyvalley.com",
+      "lat": 35.9301757,
+      "lng": -79.935757,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

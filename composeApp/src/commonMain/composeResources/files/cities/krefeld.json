@@ -25,7 +25,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://stuntwerk.de/wp-content/uploads/boulderbereich_kre_1200x750px.jpg"
     }
   ],
   "source": "manual-curation-web-research",

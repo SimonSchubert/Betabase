@@ -1,0 +1,22 @@
+{
+  "city": "Ely",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "mepal-outdoor-centre-climbing",
+      "name": "Mepal Outdoor Centre Climbing",
+      "address": "Chatteris Road, Mepal, Ely CB6 2AZ",
+      "url": "https://www.mepal.co.uk/",
+      "lat": 52.42051,
+      "lng": 0.097031,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Tuckahoe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "odyssey-ropes-course",
+      "name": "Odyssey Ropes Course",
+      "address": "Tuckahoe, Virginia",
+      "url": "https://challengediscovery.com",
+      "lat": 37.5717021,
+      "lng": -77.5374762,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Santa Barbara",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "santa-barbara-rock-gym",
+      "name": "Santa Barbara Rock Gym",
+      "address": "322 State Street, Santa Barbara, CA 93101",
+      "url": "https://www.sbrockgym.com",
+      "lat": 34.415565,
+      "lng": -119.69358,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -10,7 +10,9 @@
       "url": "https://duesseldorf.einstein-boulder.com",
       "lat": 51.2127507,
       "lng": 6.8214612,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1725,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-23:00",
         "sun": "10:00-23:00"
-      }
+      },
+      "image_url": "https://cdn.wisenetwork.fi/assets/einsteinboulderduesseldorf/icons/apple-icon-114x114.png?"
     },
     {
       "id": "monkeyspot-duesseldorf",
@@ -30,7 +33,9 @@
       "url": "https://www.monkeyspot.de",
       "lat": 51.2393032,
       "lng": 6.7235319,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1300,
       "opening_hours": {
@@ -41,7 +46,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://monkeyspot.de/wp-content/uploads/2023/10/Boulderbereich.jpg"
     },
     {
       "id": "move-duesseldorf",
@@ -50,7 +56,10 @@
       "url": "https://move-kletterhalle.de",
       "lat": 51.2339056,
       "lng": 6.8422772,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 700,
       "opening_hours": {
@@ -60,7 +69,8 @@
         "fri": "15:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://move-kletterhalle.de/wp-content/uploads/2017/01/Kletterhalle.jpg"
     },
     {
       "id": "superblock-duesseldorf",
@@ -69,7 +79,9 @@
       "url": "https://www.superblock.nrw",
       "lat": 51.2138154,
       "lng": 6.8123285,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1000,
       "opening_hours": {
@@ -80,7 +92,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.superblock.nrw/wp-content/uploads/2022/02/logo_full.png"
     },
     {
       "id": "bergstation-duesseldorf",
@@ -89,7 +102,10 @@
       "url": "https://www.bergstation.de",
       "lat": 51.2138154,
       "lng": 6.8123285,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

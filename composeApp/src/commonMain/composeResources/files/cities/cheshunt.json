@@ -1,0 +1,22 @@
+{
+  "city": "Cheshunt",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "herts-young-mariners-base-climbing",
+      "name": "Herts Young Mariners Base Climbing",
+      "address": "213 Windmill Lane, Cheshunt EN8 9AJ",
+      "url": "https://www.hymb.com/",
+      "lat": 51.703048,
+      "lng": -0.023347,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

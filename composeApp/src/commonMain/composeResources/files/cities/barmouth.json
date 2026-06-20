@@ -1,0 +1,22 @@
+{
+  "city": "Barmouth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "barmouth-leisure-centre-climbing",
+      "name": "Barmouth Leisure Centre Climbing",
+      "address": "The Promenade, Beach Road, Barmouth LL42 1NF",
+      "url": "https://www.gwynedd.llyw.cymru/",
+      "lat": 52.721366,
+      "lng": -4.056161,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

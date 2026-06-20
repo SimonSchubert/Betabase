@@ -10,10 +10,14 @@
       "url": "https://www.klattercentret.se",
       "lat": 59.2990654,
       "lng": 17.9911878,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.klattercentret.se/wp-content/themes/klattercentret-startsida/images/logo-white.png"
     },
     {
       "id": "klatterverket-gasverket",
@@ -22,7 +26,10 @@
       "url": "https://klatterverket.se",
       "lat": 59.3576773,
       "lng": 18.0904923,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -34,7 +41,10 @@
       "url": "https://klatterverket.se",
       "lat": 59.3055679,
       "lng": 18.1211641,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

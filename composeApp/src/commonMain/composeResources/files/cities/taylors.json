@@ -1,0 +1,22 @@
+{
+  "city": "Taylors",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-blue-ridge",
+      "name": "Climb Blue Ridge",
+      "address": "301 Bulls Road, Taylors, SC 29687",
+      "url": "https://www.climbbr.com",
+      "lat": 34.9938676,
+      "lng": -82.3345297,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

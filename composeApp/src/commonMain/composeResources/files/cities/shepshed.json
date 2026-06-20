@@ -1,0 +1,22 @@
+{
+  "city": "Shepshed",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:20:07Z",
+  "gyms": [
+    {
+      "id": "hind-leys-community-college-climbing",
+      "name": "Hind Leys Community College Climbing",
+      "address": "Forest Street, Shepshed, Loughborough LE12 9DB",
+      "url": "https://www.hind-leys.leics.sch.uk/",
+      "lat": 52.7715,
+      "lng": -1.2928,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

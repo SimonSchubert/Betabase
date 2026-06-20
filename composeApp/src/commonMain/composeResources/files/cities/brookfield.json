@@ -1,0 +1,22 @@
+{
+  "city": "Brookfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "adventure-rock",
+      "name": "Adventure Rock",
+      "address": "21250 West Capitol Drive, Brookfield, WI 53072",
+      "url": "https://adventurerock.com/about/brookfield",
+      "lat": 43.084507,
+      "lng": -88.1766619,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "city": "Austin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "austin-bouldering-project",
+      "name": "Austin Bouldering Project",
+      "address": "979 Springdale Road, Austin, TX 78702",
+      "url": "https://austinboulderingproject.com",
+      "lat": 30.2632677,
+      "lng": -97.6962958,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "crux-climbing-center-central",
+      "name": "Crux Climbing Center Central",
+      "address": "6015 Dillard Circle, Austin, TX 78752",
+      "url": "https://www.cruxclimbingcenter.com/central-austin",
+      "lat": 30.3260561,
+      "lng": -97.7170815,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mesa-rim-austin",
+      "name": "Mesa Rim Austin",
+      "address": "1205 Sheldon Cove, Austin, TX 78753",
+      "url": "https://mesarim.com/austin",
+      "lat": 30.3430109,
+      "lng": -97.6854227,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

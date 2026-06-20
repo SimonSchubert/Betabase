@@ -1,0 +1,22 @@
+{
+  "city": "Fontana",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "just-play-adventure-park",
+      "name": "Just Play Adventure Park",
+      "address": "7391 East Avenue, Fontana, CA 92336",
+      "url": "https://justplayadventurepark.com",
+      "lat": 34.1196619,
+      "lng": -117.5137494,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

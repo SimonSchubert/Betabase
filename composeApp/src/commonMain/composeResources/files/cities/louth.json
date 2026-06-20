@@ -1,0 +1,22 @@
+{
+  "city": "Louth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "cordeaux-academy-climbing-wall",
+      "name": "Cordeaux Academy Climbing Wall",
+      "address": "North Holme Road, Louth LN11 0GH",
+      "url": "https://www.cordeaux.lincs.sch.uk/",
+      "lat": 53.369536,
+      "lng": 0.000381,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "El Cerrito",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bridges-rock-gym",
+      "name": "Bridges Rock Gym",
+      "address": "5635 San Diego Street, El Cerrito, CA 94530",
+      "url": "https://www.bridgesrockgym.com",
+      "lat": 37.900135,
+      "lng": -122.3074266,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

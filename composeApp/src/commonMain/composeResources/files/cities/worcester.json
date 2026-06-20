@@ -1,0 +1,22 @@
+{
+  "city": "Worcester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "vertical-limit",
+      "name": "Vertical Limit",
+      "address": "Unit 11, Shrub Hill, Worcester WR4 9EL",
+      "url": "https://www.vlimit.co.uk/",
+      "lat": 52.195253,
+      "lng": -2.212391,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Randolph",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-randolph",
+      "name": "Central Rock Gym Randolph",
+      "address": "Randolph, Massachusetts",
+      "url": "https://centralrockgym.com/randolph",
+      "lat": 42.1995653,
+      "lng": -71.0664666,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

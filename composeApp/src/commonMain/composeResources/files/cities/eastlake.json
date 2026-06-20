@@ -1,0 +1,21 @@
+{
+  "city": "Eastlake",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "paradiso-climbing-co-op",
+      "name": "Paradiso Climbing Co-op",
+      "address": "33801 Curtis Boulevard, OH",
+      "url": "https://www.paradisoclimbing.co",
+      "lat": 41.6326721,
+      "lng": -81.4469219,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

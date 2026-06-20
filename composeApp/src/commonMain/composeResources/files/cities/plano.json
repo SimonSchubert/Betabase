@@ -1,0 +1,22 @@
+{
+  "city": "Plano",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "go-ape",
+      "name": "Go Ape",
+      "address": "5901 Los Rios Boulevard, Plano, TX 75074",
+      "url": "https://www.goape.com/location/Texas-Plano",
+      "lat": 33.0576348,
+      "lng": -96.6748802,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

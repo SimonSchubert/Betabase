@@ -10,12 +10,100 @@
       "file": "aachen.json"
     },
     {
+      "id": "aberdeen",
+      "name": "Aberdeen",
+      "country": "GB",
+      "lat": 57.142833,
+      "lng": -2.101667,
+      "file": "aberdeen.json"
+    },
+    {
+      "id": "abergavenny",
+      "name": "Abergavenny",
+      "country": "GB",
+      "lat": 51.8241,
+      "lng": -3.0172,
+      "file": "abergavenny.json"
+    },
+    {
+      "id": "aberlour",
+      "name": "Aberlour",
+      "country": "GB",
+      "lat": 57.469234,
+      "lng": -3.225588,
+      "file": "aberlour.json"
+    },
+    {
+      "id": "aberystwyth",
+      "name": "Aberystwyth",
+      "country": "GB",
+      "lat": 52.417786,
+      "lng": -4.065271,
+      "file": "aberystwyth.json"
+    },
+    {
+      "id": "abingdon",
+      "name": "Abingdon",
+      "country": "US",
+      "lat": 39.465056,
+      "lng": -76.306516,
+      "file": "abingdon.json"
+    },
+    {
       "id": "albstadt",
       "name": "Albstadt",
       "country": "DE",
       "lat": 48.233048,
       "lng": 8.9991483,
       "file": "albstadt.json"
+    },
+    {
+      "id": "albuquerque",
+      "name": "Albuquerque",
+      "country": "US",
+      "lat": 35.105349,
+      "lng": -106.599804,
+      "file": "albuquerque.json"
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "country": "US",
+      "lat": 38.787703,
+      "lng": -77.09481,
+      "file": "alexandria.json"
+    },
+    {
+      "id": "amarillo",
+      "name": "Amarillo",
+      "country": "US",
+      "lat": 35.152924,
+      "lng": -101.944329,
+      "file": "amarillo.json"
+    },
+    {
+      "id": "ambleside",
+      "name": "Ambleside",
+      "country": "GB",
+      "lat": 54.401052,
+      "lng": -2.931423,
+      "file": "ambleside.json"
+    },
+    {
+      "id": "amersham",
+      "name": "Amersham",
+      "country": "GB",
+      "lat": 51.675797,
+      "lng": -0.60281,
+      "file": "amersham.json"
+    },
+    {
+      "id": "amherst",
+      "name": "Amherst",
+      "country": "US",
+      "lat": 42.384925,
+      "lng": -72.526381,
+      "file": "amherst.json"
     },
     {
       "id": "amsterdam",
@@ -26,12 +114,100 @@
       "file": "amsterdam.json"
     },
     {
+      "id": "anacortes",
+      "name": "Anacortes",
+      "country": "US",
+      "lat": 48.45376,
+      "lng": -122.629458,
+      "file": "anacortes.json"
+    },
+    {
+      "id": "andover",
+      "name": "Andover",
+      "country": "GB",
+      "lat": 51.208547,
+      "lng": -1.482032,
+      "file": "andover.json"
+    },
+    {
+      "id": "ann-arbor",
+      "name": "Ann Arbor",
+      "country": "US",
+      "lat": 42.283134,
+      "lng": -83.808973,
+      "file": "ann-arbor.json"
+    },
+    {
+      "id": "appleby-in-westmorland",
+      "name": "Appleby-in-Westmorland",
+      "country": "GB",
+      "lat": 54.57809,
+      "lng": -2.492998,
+      "file": "appleby-in-westmorland.json"
+    },
+    {
+      "id": "archdale",
+      "name": "Archdale",
+      "country": "US",
+      "lat": 35.930176,
+      "lng": -79.935757,
+      "file": "archdale.json"
+    },
+    {
+      "id": "arlington",
+      "name": "Arlington",
+      "country": "US",
+      "lat": 38.866591,
+      "lng": -77.096771,
+      "file": "arlington.json"
+    },
+    {
       "id": "aschaffenburg",
       "name": "Aschaffenburg",
       "country": "DE",
       "lat": 49.97067,
       "lng": 9.138486,
       "file": "aschaffenburg.json"
+    },
+    {
+      "id": "ashburn",
+      "name": "Ashburn",
+      "country": "US",
+      "lat": 39.062686,
+      "lng": -77.460822,
+      "file": "ashburn.json"
+    },
+    {
+      "id": "aspen",
+      "name": "Aspen",
+      "country": "US",
+      "lat": 39.189557,
+      "lng": -106.850998,
+      "file": "aspen.json"
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "country": "US",
+      "lat": 33.938122,
+      "lng": -83.371231,
+      "file": "athens.json"
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "country": "US",
+      "lat": 33.731559,
+      "lng": -84.421264,
+      "file": "atlanta.json"
+    },
+    {
+      "id": "audley",
+      "name": "Audley",
+      "country": "GB",
+      "lat": 53.055794,
+      "lng": -2.302873,
+      "file": "audley.json"
     },
     {
       "id": "augsburg",
@@ -50,12 +226,52 @@
       "file": "aurich.json"
     },
     {
+      "id": "austin",
+      "name": "Austin",
+      "country": "US",
+      "lat": 30.310778,
+      "lng": -97.6996,
+      "file": "austin.json"
+    },
+    {
+      "id": "aviemore",
+      "name": "Aviemore",
+      "country": "GB",
+      "lat": 57.159941,
+      "lng": -3.824678,
+      "file": "aviemore.json"
+    },
+    {
+      "id": "aylesbury",
+      "name": "Aylesbury",
+      "country": "GB",
+      "lat": 51.815843,
+      "lng": -0.811076,
+      "file": "aylesbury.json"
+    },
+    {
       "id": "bamberg",
       "name": "Bamberg",
       "country": "DE",
       "lat": 49.891604,
       "lng": 10.886848,
       "file": "bamberg.json"
+    },
+    {
+      "id": "banbury",
+      "name": "Banbury",
+      "country": "GB",
+      "lat": 52.022064,
+      "lng": -1.372615,
+      "file": "banbury.json"
+    },
+    {
+      "id": "bangor",
+      "name": "Bangor",
+      "country": "GB",
+      "lat": 53.226384,
+      "lng": -4.135626,
+      "file": "bangor.json"
     },
     {
       "id": "barcelona",
@@ -66,12 +282,132 @@
       "file": "barcelona.json"
     },
     {
+      "id": "barmouth",
+      "name": "Barmouth",
+      "country": "GB",
+      "lat": 52.721366,
+      "lng": -4.056161,
+      "file": "barmouth.json"
+    },
+    {
+      "id": "barnard-castle",
+      "name": "Barnard Castle",
+      "country": "GB",
+      "lat": 54.551451,
+      "lng": -1.916754,
+      "file": "barnard-castle.json"
+    },
+    {
+      "id": "barnsley",
+      "name": "Barnsley",
+      "country": "GB",
+      "lat": 53.553223,
+      "lng": -1.473497,
+      "file": "barnsley.json"
+    },
+    {
+      "id": "barrow-in-furness",
+      "name": "Barrow-in-Furness",
+      "country": "GB",
+      "lat": 54.116362,
+      "lng": -3.212194,
+      "file": "barrow-in-furness.json"
+    },
+    {
+      "id": "basildon",
+      "name": "Basildon",
+      "country": "GB",
+      "lat": 51.581605,
+      "lng": 0.468892,
+      "file": "basildon.json"
+    },
+    {
+      "id": "bath",
+      "name": "Bath",
+      "country": "GB",
+      "lat": 51.333346,
+      "lng": -2.37902,
+      "file": "bath.json"
+    },
+    {
+      "id": "baton-rouge",
+      "name": "Baton Rouge",
+      "country": "US",
+      "lat": 30.375606,
+      "lng": -91.074785,
+      "file": "baton-rouge.json"
+    },
+    {
+      "id": "battle",
+      "name": "Battle",
+      "country": "GB",
+      "lat": 50.915918,
+      "lng": 0.46702,
+      "file": "battle.json"
+    },
+    {
       "id": "bayreuth",
       "name": "Bayreuth",
       "country": "DE",
       "lat": 49.944634,
       "lng": 11.574354,
       "file": "bayreuth.json"
+    },
+    {
+      "id": "bedford",
+      "name": "Bedford",
+      "country": "GB",
+      "lat": 52.131859,
+      "lng": -0.467895,
+      "file": "bedford.json"
+    },
+    {
+      "id": "beeston",
+      "name": "Beeston",
+      "country": "GB",
+      "lat": 52.923046,
+      "lng": -1.216983,
+      "file": "beeston.json"
+    },
+    {
+      "id": "belfast",
+      "name": "Belfast",
+      "country": "GB",
+      "lat": 54.581212,
+      "lng": -5.944461,
+      "file": "belfast.json"
+    },
+    {
+      "id": "bellingham",
+      "name": "Bellingham",
+      "country": "US",
+      "lat": 48.771655,
+      "lng": -122.482383,
+      "file": "bellingham.json"
+    },
+    {
+      "id": "belmont",
+      "name": "Belmont",
+      "country": "US",
+      "lat": 37.528955,
+      "lng": -122.287569,
+      "file": "belmont.json"
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "country": "US",
+      "lat": 44.063966,
+      "lng": -121.29481,
+      "file": "bend.json"
+    },
+    {
+      "id": "berkeley",
+      "name": "Berkeley",
+      "country": "US",
+      "lat": 37.870649,
+      "lng": -122.277087,
+      "file": "berkeley.json"
     },
     {
       "id": "berlin",
@@ -82,12 +418,84 @@
       "file": "berlin.json"
     },
     {
+      "id": "bexhill-on-sea",
+      "name": "Bexhill-on-Sea",
+      "country": "GB",
+      "lat": 50.847108,
+      "lng": 0.490964,
+      "file": "bexhill-on-sea.json"
+    },
+    {
       "id": "bielefeld",
       "name": "Bielefeld",
       "country": "DE",
       "lat": 52.030228,
       "lng": 8.532471,
       "file": "bielefeld.json"
+    },
+    {
+      "id": "billings",
+      "name": "Billings",
+      "country": "US",
+      "lat": 45.747347,
+      "lng": -108.59332,
+      "file": "billings.json"
+    },
+    {
+      "id": "birchington",
+      "name": "Birchington",
+      "country": "GB",
+      "lat": 51.371179,
+      "lng": 1.416006,
+      "file": "birchington.json"
+    },
+    {
+      "id": "birmingham",
+      "name": "Birmingham",
+      "country": "GB",
+      "lat": 52.479699,
+      "lng": -1.902691,
+      "file": "birmingham.json"
+    },
+    {
+      "id": "bishops-cleeve",
+      "name": "Bishops Cleeve",
+      "country": "GB",
+      "lat": 51.941278,
+      "lng": -2.053159,
+      "file": "bishops-cleeve.json"
+    },
+    {
+      "id": "blackpool",
+      "name": "Blackpool",
+      "country": "GB",
+      "lat": 53.797491,
+      "lng": -3.042816,
+      "file": "blackpool.json"
+    },
+    {
+      "id": "bloomington",
+      "name": "Bloomington",
+      "country": "US",
+      "lat": 40.481749,
+      "lng": -88.981601,
+      "file": "bloomington.json"
+    },
+    {
+      "id": "blue-springs",
+      "name": "Blue Springs",
+      "country": "US",
+      "lat": 39.029766,
+      "lng": -94.273666,
+      "file": "blue-springs.json"
+    },
+    {
+      "id": "boalsburg",
+      "name": "Boalsburg",
+      "country": "US",
+      "lat": 40.776427,
+      "lng": -77.77147,
+      "file": "boalsburg.json"
     },
     {
       "id": "bochum",
@@ -98,6 +506,30 @@
       "file": "bochum.json"
     },
     {
+      "id": "bodmin",
+      "name": "Bodmin",
+      "country": "GB",
+      "lat": 50.400263,
+      "lng": -4.703489,
+      "file": "bodmin.json"
+    },
+    {
+      "id": "bognor-regis",
+      "name": "Bognor Regis",
+      "country": "GB",
+      "lat": 50.793743,
+      "lng": -0.692229,
+      "file": "bognor-regis.json"
+    },
+    {
+      "id": "bolton",
+      "name": "Bolton",
+      "country": "GB",
+      "lat": 53.573944,
+      "lng": -2.435244,
+      "file": "bolton.json"
+    },
+    {
       "id": "bonn",
       "name": "Bonn",
       "country": "DE",
@@ -106,12 +538,84 @@
       "file": "bonn.json"
     },
     {
+      "id": "boone",
+      "name": "Boone",
+      "country": "US",
+      "lat": 36.213893,
+      "lng": -81.636736,
+      "file": "boone.json"
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "country": "US",
+      "lat": 42.347365,
+      "lng": -71.100524,
+      "file": "boston.json"
+    },
+    {
+      "id": "boulder",
+      "name": "Boulder",
+      "country": "US",
+      "lat": 40.025831,
+      "lng": -105.254954,
+      "file": "boulder.json"
+    },
+    {
+      "id": "bourne-end",
+      "name": "Bourne End",
+      "country": "GB",
+      "lat": 51.58076,
+      "lng": -0.705488,
+      "file": "bourne-end.json"
+    },
+    {
+      "id": "bournemouth",
+      "name": "Bournemouth",
+      "country": "GB",
+      "lat": 50.744943,
+      "lng": -1.825185,
+      "file": "bournemouth.json"
+    },
+    {
+      "id": "bozeman",
+      "name": "Bozeman",
+      "country": "US",
+      "lat": 45.656189,
+      "lng": -111.070449,
+      "file": "bozeman.json"
+    },
+    {
+      "id": "bracknell",
+      "name": "Bracknell",
+      "country": "GB",
+      "lat": 51.404803,
+      "lng": -0.747714,
+      "file": "bracknell.json"
+    },
+    {
       "id": "braunschweig",
       "name": "Braunschweig",
       "country": "DE",
       "lat": 52.264658,
       "lng": 10.523607,
       "file": "braunschweig.json"
+    },
+    {
+      "id": "braunton",
+      "name": "Braunton",
+      "country": "GB",
+      "lat": 51.106947,
+      "lng": -4.160525,
+      "file": "braunton.json"
+    },
+    {
+      "id": "brecon",
+      "name": "Brecon",
+      "country": "GB",
+      "lat": 51.953442,
+      "lng": -3.381424,
+      "file": "brecon.json"
     },
     {
       "id": "bremen",
@@ -130,12 +634,84 @@
       "file": "bremerhaven.json"
     },
     {
+      "id": "brighouse",
+      "name": "Brighouse",
+      "country": "GB",
+      "lat": 53.700245,
+      "lng": -1.780763,
+      "file": "brighouse.json"
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton",
+      "country": "GB",
+      "lat": 50.82253,
+      "lng": -0.137163,
+      "file": "brighton.json"
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol",
+      "country": "GB",
+      "lat": 51.454513,
+      "lng": -2.58791,
+      "file": "bristol.json"
+    },
+    {
+      "id": "broadstairs",
+      "name": "Broadstairs",
+      "country": "GB",
+      "lat": 51.358924,
+      "lng": 1.441299,
+      "file": "broadstairs.json"
+    },
+    {
+      "id": "bromley",
+      "name": "Bromley",
+      "country": "GB",
+      "lat": 51.372323,
+      "lng": 0.039661,
+      "file": "bromley.json"
+    },
+    {
+      "id": "brookfield",
+      "name": "Brookfield",
+      "country": "US",
+      "lat": 43.084507,
+      "lng": -88.176662,
+      "file": "brookfield.json"
+    },
+    {
+      "id": "brooklyn",
+      "name": "Brooklyn",
+      "country": "US",
+      "lat": 40.706097,
+      "lng": -73.954743,
+      "file": "brooklyn.json"
+    },
+    {
+      "id": "broomfield",
+      "name": "Broomfield",
+      "country": "US",
+      "lat": 39.906434,
+      "lng": -105.099698,
+      "file": "broomfield.json"
+    },
+    {
       "id": "brussels",
       "name": "Brussels",
       "country": "BE",
       "lat": 50.846737,
       "lng": 4.352493,
       "file": "brussels.json"
+    },
+    {
+      "id": "buckfastleigh",
+      "name": "Buckfastleigh",
+      "country": "GB",
+      "lat": 50.481054,
+      "lng": -3.765649,
+      "file": "buckfastleigh.json"
     },
     {
       "id": "budapest",
@@ -146,12 +722,332 @@
       "file": "budapest.json"
     },
     {
+      "id": "buellton",
+      "name": "Buellton",
+      "country": "US",
+      "lat": 34.59485,
+      "lng": -120.178718,
+      "file": "buellton.json"
+    },
+    {
+      "id": "buford",
+      "name": "Buford",
+      "country": "US",
+      "lat": 34.065208,
+      "lng": -84.004127,
+      "file": "buford.json"
+    },
+    {
+      "id": "burnley",
+      "name": "Burnley",
+      "country": "GB",
+      "lat": 53.787028,
+      "lng": -2.215944,
+      "file": "burnley.json"
+    },
+    {
+      "id": "buxton",
+      "name": "Buxton",
+      "country": "GB",
+      "lat": 53.284228,
+      "lng": -1.952998,
+      "file": "buxton.json"
+    },
+    {
+      "id": "caernarfon",
+      "name": "Caernarfon",
+      "country": "GB",
+      "lat": 53.155994,
+      "lng": -4.258816,
+      "file": "caernarfon.json"
+    },
+    {
+      "id": "callander",
+      "name": "Callander",
+      "country": "GB",
+      "lat": 56.236855,
+      "lng": -4.212617,
+      "file": "callander.json"
+    },
+    {
+      "id": "calshot",
+      "name": "Calshot",
+      "country": "GB",
+      "lat": 50.8185,
+      "lng": -1.3263,
+      "file": "calshot.json"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "country": "GB",
+      "lat": 52.200586,
+      "lng": 0.118128,
+      "file": "cambridge.json"
+    },
+    {
+      "id": "cannington",
+      "name": "Cannington",
+      "country": "GB",
+      "lat": 51.152281,
+      "lng": -3.065259,
+      "file": "cannington.json"
+    },
+    {
+      "id": "canterbury",
+      "name": "Canterbury",
+      "country": "GB",
+      "lat": 51.313782,
+      "lng": 1.18089,
+      "file": "canterbury.json"
+    },
+    {
+      "id": "capel-curig",
+      "name": "Capel Curig",
+      "country": "GB",
+      "lat": 53.102201,
+      "lng": -3.918417,
+      "file": "capel-curig.json"
+    },
+    {
+      "id": "cardiff",
+      "name": "Cardiff",
+      "country": "GB",
+      "lat": 51.481583,
+      "lng": -3.17909,
+      "file": "cardiff.json"
+    },
+    {
+      "id": "carlisle",
+      "name": "Carlisle",
+      "country": "GB",
+      "lat": 54.887161,
+      "lng": -2.919193,
+      "file": "carlisle.json"
+    },
+    {
+      "id": "carmel",
+      "name": "Carmel",
+      "country": "US",
+      "lat": 39.92954,
+      "lng": -86.238327,
+      "file": "carmel.json"
+    },
+    {
+      "id": "castle-rock",
+      "name": "Castle Rock",
+      "country": "US",
+      "lat": 39.401193,
+      "lng": -104.8874,
+      "file": "castle-rock.json"
+    },
+    {
+      "id": "castleford",
+      "name": "Castleford",
+      "country": "GB",
+      "lat": 53.710191,
+      "lng": -1.3419,
+      "file": "castleford.json"
+    },
+    {
+      "id": "champaign",
+      "name": "Champaign",
+      "country": "US",
+      "lat": 40.11392,
+      "lng": -88.25865,
+      "file": "champaign.json"
+    },
+    {
+      "id": "charleston",
+      "name": "Charleston",
+      "country": "US",
+      "lat": 32.737965,
+      "lng": -79.966025,
+      "file": "charleston.json"
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "country": "US",
+      "lat": 35.209405,
+      "lng": -80.86776,
+      "file": "charlotte.json"
+    },
+    {
+      "id": "charlottesville",
+      "name": "Charlottesville",
+      "country": "US",
+      "lat": 38.041225,
+      "lng": -78.478446,
+      "file": "charlottesville.json"
+    },
+    {
+      "id": "chatham",
+      "name": "Chatham",
+      "country": "US",
+      "lat": 40.731647,
+      "lng": -74.381046,
+      "file": "chatham.json"
+    },
+    {
+      "id": "chattanooga",
+      "name": "Chattanooga",
+      "country": "US",
+      "lat": 35.054068,
+      "lng": -85.310981,
+      "file": "chattanooga.json"
+    },
+    {
+      "id": "chelmsford",
+      "name": "Chelmsford",
+      "country": "GB",
+      "lat": 51.735883,
+      "lng": 0.477536,
+      "file": "chelmsford.json"
+    },
+    {
+      "id": "cheltenham",
+      "name": "Cheltenham",
+      "country": "GB",
+      "lat": 51.910159,
+      "lng": -2.078475,
+      "file": "cheltenham.json"
+    },
+    {
       "id": "chemnitz",
       "name": "Chemnitz",
       "country": "DE",
       "lat": 50.832641,
       "lng": 12.92083,
       "file": "chemnitz.json"
+    },
+    {
+      "id": "cheshunt",
+      "name": "Cheshunt",
+      "country": "GB",
+      "lat": 51.703048,
+      "lng": -0.023347,
+      "file": "cheshunt.json"
+    },
+    {
+      "id": "chessington",
+      "name": "Chessington",
+      "country": "GB",
+      "lat": 51.356788,
+      "lng": -0.309274,
+      "file": "chessington.json"
+    },
+    {
+      "id": "chester",
+      "name": "Chester",
+      "country": "GB",
+      "lat": 53.224683,
+      "lng": -2.897753,
+      "file": "chester.json"
+    },
+    {
+      "id": "chesterfield",
+      "name": "Chesterfield",
+      "country": "GB",
+      "lat": 53.265722,
+      "lng": -1.352875,
+      "file": "chesterfield.json"
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "US",
+      "lat": 41.874624,
+      "lng": -87.644152,
+      "file": "chicago.json"
+    },
+    {
+      "id": "chichester",
+      "name": "Chichester",
+      "country": "GB",
+      "lat": 50.833309,
+      "lng": -0.786838,
+      "file": "chichester.json"
+    },
+    {
+      "id": "chippenham",
+      "name": "Chippenham",
+      "country": "GB",
+      "lat": 51.4629,
+      "lng": -2.1231,
+      "file": "chippenham.json"
+    },
+    {
+      "id": "cleethorpes",
+      "name": "Cleethorpes",
+      "country": "GB",
+      "lat": 53.547981,
+      "lng": -0.039806,
+      "file": "cleethorpes.json"
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland",
+      "country": "US",
+      "lat": 41.487074,
+      "lng": -81.7095,
+      "file": "cleveland.json"
+    },
+    {
+      "id": "clitheroe",
+      "name": "Clitheroe",
+      "country": "GB",
+      "lat": 53.868918,
+      "lng": -2.411615,
+      "file": "clitheroe.json"
+    },
+    {
+      "id": "clydach",
+      "name": "Clydach",
+      "country": "GB",
+      "lat": 51.7173,
+      "lng": -3.8989,
+      "file": "clydach.json"
+    },
+    {
+      "id": "cockermouth",
+      "name": "Cockermouth",
+      "country": "GB",
+      "lat": 54.664592,
+      "lng": -3.357143,
+      "file": "cockermouth.json"
+    },
+    {
+      "id": "colchester",
+      "name": "Colchester",
+      "country": "GB",
+      "lat": 51.7358,
+      "lng": 0.4689,
+      "file": "colchester.json"
+    },
+    {
+      "id": "koeln",
+      "name": "Cologne",
+      "country": "DE",
+      "lat": 50.938361,
+      "lng": 6.959974,
+      "file": "koeln.json"
+    },
+    {
+      "id": "colorado-springs",
+      "name": "Colorado Springs",
+      "country": "US",
+      "lat": 38.824374,
+      "lng": -104.830481,
+      "file": "colorado-springs.json"
+    },
+    {
+      "id": "columbus",
+      "name": "Columbus",
+      "country": "US",
+      "lat": 40.02454,
+      "lng": -83.001772,
+      "file": "columbus.json"
     },
     {
       "id": "copenhagen",
@@ -162,12 +1058,100 @@
       "file": "copenhagen.json"
     },
     {
+      "id": "corvallis",
+      "name": "Corvallis",
+      "country": "US",
+      "lat": 44.563099,
+      "lng": -123.263005,
+      "file": "corvallis.json"
+    },
+    {
       "id": "cottbus",
       "name": "Cottbus",
       "country": "DE",
       "lat": 51.756745,
       "lng": 14.335731,
       "file": "cottbus.json"
+    },
+    {
+      "id": "coventry",
+      "name": "Coventry",
+      "country": "GB",
+      "lat": 52.424738,
+      "lng": -1.519986,
+      "file": "coventry.json"
+    },
+    {
+      "id": "cramlington",
+      "name": "Cramlington",
+      "country": "GB",
+      "lat": 55.085046,
+      "lng": -1.591822,
+      "file": "cramlington.json"
+    },
+    {
+      "id": "crawley",
+      "name": "Crawley",
+      "country": "GB",
+      "lat": 51.097188,
+      "lng": -0.191175,
+      "file": "crawley.json"
+    },
+    {
+      "id": "crewe",
+      "name": "Crewe",
+      "country": "GB",
+      "lat": 53.089027,
+      "lng": -2.454972,
+      "file": "crewe.json"
+    },
+    {
+      "id": "crowborough",
+      "name": "Crowborough",
+      "country": "GB",
+      "lat": 51.09321,
+      "lng": 0.160244,
+      "file": "crowborough.json"
+    },
+    {
+      "id": "crowthorne",
+      "name": "Crowthorne",
+      "country": "GB",
+      "lat": 51.367253,
+      "lng": -0.818595,
+      "file": "crowthorne.json"
+    },
+    {
+      "id": "culver-city",
+      "name": "Culver City",
+      "country": "US",
+      "lat": 34.033269,
+      "lng": -118.371131,
+      "file": "culver-city.json"
+    },
+    {
+      "id": "curry-village",
+      "name": "Curry Village",
+      "country": "US",
+      "lat": 37.748384,
+      "lng": -119.570289,
+      "file": "curry-village.json"
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "country": "US",
+      "lat": 32.881211,
+      "lng": -96.768597,
+      "file": "dallas.json"
+    },
+    {
+      "id": "darlington",
+      "name": "Darlington",
+      "country": "GB",
+      "lat": 54.523718,
+      "lng": -1.554141,
+      "file": "darlington.json"
     },
     {
       "id": "darmstadt",
@@ -178,12 +1162,60 @@
       "file": "darmstadt.json"
     },
     {
+      "id": "denton",
+      "name": "Denton",
+      "country": "US",
+      "lat": 33.215849,
+      "lng": -97.134789,
+      "file": "denton.json"
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "country": "US",
+      "lat": 39.745025,
+      "lng": -104.956753,
+      "file": "denver.json"
+    },
+    {
+      "id": "derby",
+      "name": "Derby",
+      "country": "GB",
+      "lat": 52.9153,
+      "lng": -1.4788,
+      "file": "derby.json"
+    },
+    {
+      "id": "derry",
+      "name": "Derry",
+      "country": "GB",
+      "lat": 54.999636,
+      "lng": -7.305307,
+      "file": "derry.json"
+    },
+    {
+      "id": "des-moines",
+      "name": "Des Moines",
+      "country": "US",
+      "lat": 41.586365,
+      "lng": -93.61193,
+      "file": "des-moines.json"
+    },
+    {
       "id": "dietmannsried",
       "name": "Dietmannsried",
       "country": "DE",
       "lat": 47.8269002,
       "lng": 10.2842415,
       "file": "dietmannsried.json"
+    },
+    {
+      "id": "doncaster",
+      "name": "Doncaster",
+      "country": "GB",
+      "lat": 53.513188,
+      "lng": -1.105481,
+      "file": "doncaster.json"
     },
     {
       "id": "dortmund",
@@ -202,14 +1234,6 @@
       "file": "dresden.json"
     },
     {
-      "id": "duesseldorf",
-      "name": "Düsseldorf",
-      "country": "DE",
-      "lat": 51.225402,
-      "lng": 6.776314,
-      "file": "duesseldorf.json"
-    },
-    {
       "id": "duisburg",
       "name": "Duisburg",
       "country": "DE",
@@ -218,12 +1242,132 @@
       "file": "duisburg.json"
     },
     {
+      "id": "dundee",
+      "name": "Dundee",
+      "country": "GB",
+      "lat": 56.462088,
+      "lng": -2.968358,
+      "file": "dundee.json"
+    },
+    {
+      "id": "dunwoody",
+      "name": "Dunwoody",
+      "country": "US",
+      "lat": 33.933725,
+      "lng": -84.302386,
+      "file": "dunwoody.json"
+    },
+    {
+      "id": "durham",
+      "name": "Durham",
+      "country": "GB",
+      "lat": 54.77358,
+      "lng": -1.562904,
+      "file": "durham.json"
+    },
+    {
+      "id": "duesseldorf",
+      "name": "Düsseldorf",
+      "country": "DE",
+      "lat": 51.225402,
+      "lng": 6.776314,
+      "file": "duesseldorf.json"
+    },
+    {
+      "id": "east-brunswick",
+      "name": "East Brunswick",
+      "country": "US",
+      "lat": 40.435874,
+      "lng": -74.39188,
+      "file": "east-brunswick.json"
+    },
+    {
+      "id": "east-grinstead",
+      "name": "East Grinstead",
+      "country": "GB",
+      "lat": 51.085587,
+      "lng": -0.03035,
+      "file": "east-grinstead.json"
+    },
+    {
+      "id": "eastbourne",
+      "name": "Eastbourne",
+      "country": "GB",
+      "lat": 50.781658,
+      "lng": 0.312297,
+      "file": "eastbourne.json"
+    },
+    {
+      "id": "eastlake",
+      "name": "Eastlake",
+      "country": "US",
+      "lat": 41.632672,
+      "lng": -81.446922,
+      "file": "eastlake.json"
+    },
+    {
       "id": "edinburgh",
       "name": "Edinburgh",
       "country": "GB",
       "lat": 55.953346,
       "lng": -3.188375,
       "file": "edinburgh.json"
+    },
+    {
+      "id": "edmond",
+      "name": "Edmond",
+      "country": "US",
+      "lat": 35.653988,
+      "lng": -97.481232,
+      "file": "edmond.json"
+    },
+    {
+      "id": "edwardsville",
+      "name": "Edwardsville",
+      "country": "US",
+      "lat": 38.780023,
+      "lng": -89.923527,
+      "file": "edwardsville.json"
+    },
+    {
+      "id": "egham",
+      "name": "Egham",
+      "country": "GB",
+      "lat": 51.415542,
+      "lng": -0.578521,
+      "file": "egham.json"
+    },
+    {
+      "id": "egremont",
+      "name": "Egremont",
+      "country": "GB",
+      "lat": 54.484386,
+      "lng": -3.529319,
+      "file": "egremont.json"
+    },
+    {
+      "id": "el-cerrito",
+      "name": "El Cerrito",
+      "country": "US",
+      "lat": 37.900135,
+      "lng": -122.307427,
+      "file": "el-cerrito.json"
+    },
+    {
+      "id": "ely",
+      "name": "Ely",
+      "country": "GB",
+      "lat": 52.42051,
+      "lng": 0.097031,
+      "file": "ely.json"
+    },
+    {
+      "id": "englewood",
+      "name": "Englewood",
+      "country": "US",
+      "lat": 39.650121,
+      "lng": -105.000734,
+      "file": "englewood.json"
     },
     {
       "id": "erfurt",
@@ -250,12 +1394,148 @@
       "file": "essen.json"
     },
     {
+      "id": "estes-park",
+      "name": "Estes Park",
+      "country": "US",
+      "lat": 40.370633,
+      "lng": -105.525871,
+      "file": "estes-park.json"
+    },
+    {
+      "id": "evansville",
+      "name": "Evansville",
+      "country": "US",
+      "lat": 37.975213,
+      "lng": -87.571887,
+      "file": "evansville.json"
+    },
+    {
+      "id": "everett",
+      "name": "Everett",
+      "country": "US",
+      "lat": 42.407668,
+      "lng": -71.067241,
+      "file": "everett.json"
+    },
+    {
+      "id": "evesham",
+      "name": "Evesham",
+      "country": "GB",
+      "lat": 52.090406,
+      "lng": -1.949664,
+      "file": "evesham.json"
+    },
+    {
+      "id": "exeter",
+      "name": "Exeter",
+      "country": "GB",
+      "lat": 50.72198,
+      "lng": -3.534508,
+      "file": "exeter.json"
+    },
+    {
+      "id": "fareham",
+      "name": "Fareham",
+      "country": "GB",
+      "lat": 50.848257,
+      "lng": -1.167816,
+      "file": "fareham.json"
+    },
+    {
+      "id": "fargo",
+      "name": "Fargo",
+      "country": "US",
+      "lat": 46.843343,
+      "lng": -96.864388,
+      "file": "fargo.json"
+    },
+    {
+      "id": "farnham",
+      "name": "Farnham",
+      "country": "GB",
+      "lat": 51.216371,
+      "lng": -0.7951,
+      "file": "farnham.json"
+    },
+    {
+      "id": "fayetteville",
+      "name": "Fayetteville",
+      "country": "US",
+      "lat": 36.06726,
+      "lng": -94.167144,
+      "file": "fayetteville.json"
+    },
+    {
+      "id": "federal-way",
+      "name": "Federal Way",
+      "country": "US",
+      "lat": 47.32522,
+      "lng": -122.312773,
+      "file": "federal-way.json"
+    },
+    {
+      "id": "felton",
+      "name": "Felton",
+      "country": "US",
+      "lat": 37.052312,
+      "lng": -122.055922,
+      "file": "felton.json"
+    },
+    {
+      "id": "fitchburg",
+      "name": "Fitchburg",
+      "country": "US",
+      "lat": 43.032643,
+      "lng": -89.381596,
+      "file": "fitchburg.json"
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
+      "country": "US",
+      "lat": 35.194366,
+      "lng": -111.649603,
+      "file": "flagstaff.json"
+    },
+    {
       "id": "flensburg",
       "name": "Flensburg",
       "country": "DE",
       "lat": 54.783302,
       "lng": 9.433326,
       "file": "flensburg.json"
+    },
+    {
+      "id": "fontana",
+      "name": "Fontana",
+      "country": "US",
+      "lat": 34.119662,
+      "lng": -117.513749,
+      "file": "fontana.json"
+    },
+    {
+      "id": "fort-smith",
+      "name": "Fort Smith",
+      "country": "US",
+      "lat": 35.346928,
+      "lng": -94.331246,
+      "file": "fort-smith.json"
+    },
+    {
+      "id": "fort-william",
+      "name": "Fort William",
+      "country": "GB",
+      "lat": 56.811114,
+      "lng": -5.116928,
+      "file": "fort-william.json"
+    },
+    {
+      "id": "framingham",
+      "name": "Framingham",
+      "country": "US",
+      "lat": 42.318582,
+      "lng": -71.397414,
+      "file": "framingham.json"
     },
     {
       "id": "frankfurt",
@@ -274,12 +1554,60 @@
       "file": "freiburg.json"
     },
     {
+      "id": "fremont",
+      "name": "Fremont",
+      "country": "US",
+      "lat": 37.510499,
+      "lng": -121.950964,
+      "file": "fremont.json"
+    },
+    {
+      "id": "gainesville",
+      "name": "Gainesville",
+      "country": "US",
+      "lat": 29.645548,
+      "lng": -82.325301,
+      "file": "gainesville.json"
+    },
+    {
+      "id": "gairloch",
+      "name": "Gairloch",
+      "country": "GB",
+      "lat": 57.711378,
+      "lng": -5.684689,
+      "file": "gairloch.json"
+    },
+    {
+      "id": "garelochhead",
+      "name": "Garelochhead",
+      "country": "GB",
+      "lat": 56.080847,
+      "lng": -4.831831,
+      "file": "garelochhead.json"
+    },
+    {
+      "id": "gateshead",
+      "name": "Gateshead",
+      "country": "GB",
+      "lat": 54.948886,
+      "lng": -1.652402,
+      "file": "gateshead.json"
+    },
+    {
       "id": "gelsenkirchen",
       "name": "Gelsenkirchen",
       "country": "DE",
       "lat": 51.511032,
       "lng": 7.096012,
       "file": "gelsenkirchen.json"
+    },
+    {
+      "id": "geneseo",
+      "name": "Geneseo",
+      "country": "US",
+      "lat": 42.795539,
+      "lng": -77.817827,
+      "file": "geneseo.json"
     },
     {
       "id": "giessen",
@@ -290,12 +1618,116 @@
       "file": "giessen.json"
     },
     {
-      "id": "goettingen",
-      "name": "Göttingen",
-      "country": "DE",
-      "lat": 51.532832,
-      "lng": 9.935181,
-      "file": "goettingen.json"
+      "id": "gilford",
+      "name": "Gilford",
+      "country": "GB",
+      "lat": 54.373818,
+      "lng": -6.364894,
+      "file": "gilford.json"
+    },
+    {
+      "id": "gillingham",
+      "name": "Gillingham",
+      "country": "GB",
+      "lat": 51.038191,
+      "lng": -2.268208,
+      "file": "gillingham.json"
+    },
+    {
+      "id": "glasgow",
+      "name": "Glasgow",
+      "country": "GB",
+      "lat": 55.860916,
+      "lng": -4.251433,
+      "file": "glasgow.json"
+    },
+    {
+      "id": "glossop",
+      "name": "Glossop",
+      "country": "GB",
+      "lat": 53.44345,
+      "lng": -1.946573,
+      "file": "glossop.json"
+    },
+    {
+      "id": "gloucester",
+      "name": "Gloucester",
+      "country": "GB",
+      "lat": 51.8653,
+      "lng": -2.245,
+      "file": "gloucester.json"
+    },
+    {
+      "id": "godalming",
+      "name": "Godalming",
+      "country": "GB",
+      "lat": 51.198885,
+      "lng": -0.628981,
+      "file": "godalming.json"
+    },
+    {
+      "id": "golden",
+      "name": "Golden",
+      "country": "US",
+      "lat": 39.728153,
+      "lng": -105.20726,
+      "file": "golden.json"
+    },
+    {
+      "id": "goleta",
+      "name": "Goleta",
+      "country": "US",
+      "lat": 34.436817,
+      "lng": -119.804013,
+      "file": "goleta.json"
+    },
+    {
+      "id": "goshen",
+      "name": "Goshen",
+      "country": "US",
+      "lat": 41.586327,
+      "lng": -85.825441,
+      "file": "goshen.json"
+    },
+    {
+      "id": "grand-junction",
+      "name": "Grand Junction",
+      "country": "US",
+      "lat": 39.093549,
+      "lng": -108.590857,
+      "file": "grand-junction.json"
+    },
+    {
+      "id": "grantham",
+      "name": "Grantham",
+      "country": "GB",
+      "lat": 52.90727,
+      "lng": -0.665082,
+      "file": "grantham.json"
+    },
+    {
+      "id": "grapevine",
+      "name": "Grapevine",
+      "country": "US",
+      "lat": 32.904803,
+      "lng": -97.096084,
+      "file": "grapevine.json"
+    },
+    {
+      "id": "greensboro",
+      "name": "Greensboro",
+      "country": "US",
+      "lat": 36.078816,
+      "lng": -79.857916,
+      "file": "greensboro.json"
+    },
+    {
+      "id": "greenville",
+      "name": "Greenville",
+      "country": "US",
+      "lat": 34.835842,
+      "lng": -82.429182,
+      "file": "greenville.json"
     },
     {
       "id": "greifswald",
@@ -314,6 +1746,86 @@
       "file": "grenzach-wyhlen.json"
     },
     {
+      "id": "gresham",
+      "name": "Gresham",
+      "country": "US",
+      "lat": 45.526265,
+      "lng": -122.434407,
+      "file": "gresham.json"
+    },
+    {
+      "id": "grimes",
+      "name": "Grimes",
+      "country": "US",
+      "lat": 41.659318,
+      "lng": -93.766004,
+      "file": "grimes.json"
+    },
+    {
+      "id": "guildford",
+      "name": "Guildford",
+      "country": "GB",
+      "lat": 51.240996,
+      "lng": -0.581107,
+      "file": "guildford.json"
+    },
+    {
+      "id": "guisborough",
+      "name": "Guisborough",
+      "country": "GB",
+      "lat": 54.531409,
+      "lng": -1.045628,
+      "file": "guisborough.json"
+    },
+    {
+      "id": "guiseley",
+      "name": "Guiseley",
+      "country": "GB",
+      "lat": 53.871991,
+      "lng": -1.707065,
+      "file": "guiseley.json"
+    },
+    {
+      "id": "goettingen",
+      "name": "Göttingen",
+      "country": "DE",
+      "lat": 51.532832,
+      "lng": 9.935181,
+      "file": "goettingen.json"
+    },
+    {
+      "id": "hackensack",
+      "name": "Hackensack",
+      "country": "US",
+      "lat": 40.880212,
+      "lng": -74.04189,
+      "file": "hackensack.json"
+    },
+    {
+      "id": "hadley",
+      "name": "Hadley",
+      "country": "US",
+      "lat": 42.342051,
+      "lng": -72.584612,
+      "file": "hadley.json"
+    },
+    {
+      "id": "halfmoon",
+      "name": "Halfmoon",
+      "country": "US",
+      "lat": 42.842402,
+      "lng": -73.751709,
+      "file": "halfmoon.json"
+    },
+    {
+      "id": "halifax",
+      "name": "Halifax",
+      "country": "GB",
+      "lat": 53.727051,
+      "lng": -1.858562,
+      "file": "halifax.json"
+    },
+    {
       "id": "halle",
       "name": "Halle (Saale)",
       "country": "DE",
@@ -330,12 +1842,100 @@
       "file": "hamburg.json"
     },
     {
+      "id": "hampton",
+      "name": "Hampton",
+      "country": "GB",
+      "lat": 51.428645,
+      "lng": -0.371214,
+      "file": "hampton.json"
+    },
+    {
       "id": "hannover",
       "name": "Hannover",
       "country": "DE",
       "lat": 52.374478,
       "lng": 9.738553,
       "file": "hannover.json"
+    },
+    {
+      "id": "hanover",
+      "name": "Hanover",
+      "country": "US",
+      "lat": 43.703712,
+      "lng": -72.295504,
+      "file": "hanover.json"
+    },
+    {
+      "id": "harlech",
+      "name": "Harlech",
+      "country": "GB",
+      "lat": 52.862365,
+      "lng": -4.114892,
+      "file": "harlech.json"
+    },
+    {
+      "id": "harlow",
+      "name": "Harlow",
+      "country": "GB",
+      "lat": 51.768401,
+      "lng": 0.098877,
+      "file": "harlow.json"
+    },
+    {
+      "id": "harrogate",
+      "name": "Harrogate",
+      "country": "GB",
+      "lat": 53.9968,
+      "lng": -1.5389,
+      "file": "harrogate.json"
+    },
+    {
+      "id": "harrow",
+      "name": "Harrow",
+      "country": "GB",
+      "lat": 51.592526,
+      "lng": -0.327418,
+      "file": "harrow.json"
+    },
+    {
+      "id": "hartlepool",
+      "name": "Hartlepool",
+      "country": "GB",
+      "lat": 54.677845,
+      "lng": -1.23894,
+      "file": "hartlepool.json"
+    },
+    {
+      "id": "hatfield",
+      "name": "Hatfield",
+      "country": "GB",
+      "lat": 51.76071,
+      "lng": -0.250279,
+      "file": "hatfield.json"
+    },
+    {
+      "id": "hay-on-wye",
+      "name": "Hay-on-Wye",
+      "country": "GB",
+      "lat": 52.04015,
+      "lng": -3.200546,
+      "file": "hay-on-wye.json"
+    },
+    {
+      "id": "hayling-island",
+      "name": "Hayling Island",
+      "country": "GB",
+      "lat": 50.798814,
+      "lng": -0.97466,
+      "file": "hayling-island.json"
+    },
+    {
+      "id": "hebburn",
+      "name": "Hebburn",
+      "country": "GB",
+      "lat": 54.972517,
+      "lng": -1.519118,
+      "file": "hebburn.json"
     },
     {
       "id": "heidelberg",
@@ -354,12 +1954,36 @@
       "file": "heidenau.json"
     },
     {
+      "id": "hemel-hempstead",
+      "name": "Hemel Hempstead",
+      "country": "GB",
+      "lat": 51.7536,
+      "lng": -0.4598,
+      "file": "hemel-hempstead.json"
+    },
+    {
       "id": "hersbruck",
       "name": "Hersbruck",
       "country": "DE",
       "lat": 49.510849,
       "lng": 11.430623,
       "file": "hersbruck.json"
+    },
+    {
+      "id": "hewitt",
+      "name": "Hewitt",
+      "country": "US",
+      "lat": 31.466475,
+      "lng": -97.179838,
+      "file": "hewitt.json"
+    },
+    {
+      "id": "high-wycombe",
+      "name": "High Wycombe",
+      "country": "GB",
+      "lat": 51.615118,
+      "lng": -0.760478,
+      "file": "high-wycombe.json"
     },
     {
       "id": "hildesheim",
@@ -370,12 +1994,132 @@
       "file": "hildesheim.json"
     },
     {
+      "id": "hillsboro",
+      "name": "Hillsboro",
+      "country": "US",
+      "lat": 45.511596,
+      "lng": -122.971605,
+      "file": "hillsboro.json"
+    },
+    {
+      "id": "hilltop",
+      "name": "Hilltop",
+      "country": "US",
+      "lat": 36.023794,
+      "lng": -79.875721,
+      "file": "hilltop.json"
+    },
+    {
+      "id": "hilo",
+      "name": "Hilo",
+      "country": "US",
+      "lat": 19.725334,
+      "lng": -155.087761,
+      "file": "hilo.json"
+    },
+    {
+      "id": "hoboken",
+      "name": "Hoboken",
+      "country": "US",
+      "lat": 40.754864,
+      "lng": -74.030066,
+      "file": "hoboken.json"
+    },
+    {
+      "id": "hockley",
+      "name": "Hockley",
+      "country": "GB",
+      "lat": 51.594779,
+      "lng": 0.67183,
+      "file": "hockley.json"
+    },
+    {
+      "id": "holland",
+      "name": "Holland",
+      "country": "US",
+      "lat": 42.794463,
+      "lng": -86.110054,
+      "file": "holland.json"
+    },
+    {
+      "id": "hood-river",
+      "name": "Hood River",
+      "country": "US",
+      "lat": 45.708391,
+      "lng": -121.516905,
+      "file": "hood-river.json"
+    },
+    {
+      "id": "horsham",
+      "name": "Horsham",
+      "country": "GB",
+      "lat": 51.060049,
+      "lng": -0.320945,
+      "file": "horsham.json"
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "country": "US",
+      "lat": 29.771091,
+      "lng": -95.37774,
+      "file": "houston.json"
+    },
+    {
+      "id": "huddersfield",
+      "name": "Huddersfield",
+      "country": "GB",
+      "lat": 53.643446,
+      "lng": -1.789664,
+      "file": "huddersfield.json"
+    },
+    {
+      "id": "hull",
+      "name": "Hull",
+      "country": "GB",
+      "lat": 53.771798,
+      "lng": -0.36639,
+      "file": "hull.json"
+    },
+    {
+      "id": "huntingdon",
+      "name": "Huntingdon",
+      "country": "GB",
+      "lat": 52.289035,
+      "lng": -0.321093,
+      "file": "huntingdon.json"
+    },
+    {
       "id": "illschwang",
       "name": "Illschwang",
       "country": "DE",
       "lat": 49.4492713,
       "lng": 11.6856007,
       "file": "illschwang.json"
+    },
+    {
+      "id": "incline-village",
+      "name": "Incline Village",
+      "country": "US",
+      "lat": 39.253218,
+      "lng": -119.953712,
+      "file": "incline-village.json"
+    },
+    {
+      "id": "indian-river",
+      "name": "Indian River",
+      "country": "US",
+      "lat": 45.401275,
+      "lng": -84.61883,
+      "file": "indian-river.json"
+    },
+    {
+      "id": "ingleton",
+      "name": "Ingleton",
+      "country": "GB",
+      "lat": 54.15398,
+      "lng": -2.467606,
+      "file": "ingleton.json"
     },
     {
       "id": "ingolstadt",
@@ -394,12 +2138,76 @@
       "file": "innsbruck.json"
     },
     {
+      "id": "inverness",
+      "name": "Inverness",
+      "country": "GB",
+      "lat": 57.471885,
+      "lng": -4.228973,
+      "file": "inverness.json"
+    },
+    {
+      "id": "ipswich",
+      "name": "Ipswich",
+      "country": "GB",
+      "lat": 52.031158,
+      "lng": 1.148573,
+      "file": "ipswich.json"
+    },
+    {
+      "id": "irthlingborough",
+      "name": "Irthlingborough",
+      "country": "GB",
+      "lat": 52.3267,
+      "lng": -0.6128,
+      "file": "irthlingborough.json"
+    },
+    {
+      "id": "ithaca",
+      "name": "Ithaca",
+      "country": "US",
+      "lat": 42.459159,
+      "lng": -76.442109,
+      "file": "ithaca.json"
+    },
+    {
+      "id": "ivybridge",
+      "name": "Ivybridge",
+      "country": "GB",
+      "lat": 50.393679,
+      "lng": -3.915974,
+      "file": "ivybridge.json"
+    },
+    {
+      "id": "jacksonville",
+      "name": "Jacksonville",
+      "country": "US",
+      "lat": 30.289822,
+      "lng": -81.63355,
+      "file": "jacksonville.json"
+    },
+    {
+      "id": "jay",
+      "name": "Jay",
+      "country": "US",
+      "lat": 44.92935,
+      "lng": -72.503515,
+      "file": "jay.json"
+    },
+    {
       "id": "jena",
       "name": "Jena",
       "country": "DE",
       "lat": 50.927054,
       "lng": 11.589237,
       "file": "jena.json"
+    },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree",
+      "country": "US",
+      "lat": 34.134695,
+      "lng": -116.315583,
+      "file": "joshua-tree.json"
     },
     {
       "id": "kaltenkirchen",
@@ -426,12 +2234,52 @@
       "file": "kassel.json"
     },
     {
+      "id": "keele",
+      "name": "Keele",
+      "country": "GB",
+      "lat": 53.00309,
+      "lng": -2.273713,
+      "file": "keele.json"
+    },
+    {
       "id": "kempten",
       "name": "Kempten",
       "country": "DE",
       "lat": 47.7267063,
       "lng": 10.3168835,
       "file": "kempten.json"
+    },
+    {
+      "id": "kendal",
+      "name": "Kendal",
+      "country": "GB",
+      "lat": 54.3422,
+      "lng": -2.7341,
+      "file": "kendal.json"
+    },
+    {
+      "id": "kennesaw",
+      "name": "Kennesaw",
+      "country": "US",
+      "lat": 34.032532,
+      "lng": -84.572572,
+      "file": "kennesaw.json"
+    },
+    {
+      "id": "keswick",
+      "name": "Keswick",
+      "country": "GB",
+      "lat": 54.602053,
+      "lng": -3.123326,
+      "file": "keswick.json"
+    },
+    {
+      "id": "kidderminster",
+      "name": "Kidderminster",
+      "country": "GB",
+      "lat": 52.388526,
+      "lng": -2.2497,
+      "file": "kidderminster.json"
     },
     {
       "id": "kiel",
@@ -442,6 +2290,30 @@
       "file": "kiel.json"
     },
     {
+      "id": "kings-langley",
+      "name": "Kings Langley",
+      "country": "GB",
+      "lat": 51.72564,
+      "lng": -0.480305,
+      "file": "kings-langley.json"
+    },
+    {
+      "id": "kingston-upon-thames",
+      "name": "Kingston upon Thames",
+      "country": "GB",
+      "lat": 51.409205,
+      "lng": -0.306049,
+      "file": "kingston-upon-thames.json"
+    },
+    {
+      "id": "kinlochleven",
+      "name": "Kinlochleven",
+      "country": "GB",
+      "lat": 56.7203,
+      "lng": -4.9619,
+      "file": "kinlochleven.json"
+    },
+    {
       "id": "kirchheim",
       "name": "Kirchheim bei München",
       "country": "DE",
@@ -450,20 +2322,28 @@
       "file": "kirchheim.json"
     },
     {
+      "id": "kirkwall",
+      "name": "Kirkwall",
+      "country": "GB",
+      "lat": 58.978796,
+      "lng": -2.947171,
+      "file": "kirkwall.json"
+    },
+    {
+      "id": "klamath-falls",
+      "name": "Klamath Falls",
+      "country": "US",
+      "lat": 42.223661,
+      "lng": -121.779974,
+      "file": "klamath-falls.json"
+    },
+    {
       "id": "koblenz",
       "name": "Koblenz",
       "country": "DE",
       "lat": 50.356944,
       "lng": 7.588995,
       "file": "koblenz.json"
-    },
-    {
-      "id": "koeln",
-      "name": "Cologne",
-      "country": "DE",
-      "lat": 50.938361,
-      "lng": 6.959974,
-      "file": "koeln.json"
     },
     {
       "id": "konstanz",
@@ -480,6 +2360,30 @@
       "lat": 51.33312,
       "lng": 6.562334,
       "file": "krefeld.json"
+    },
+    {
+      "id": "lacey",
+      "name": "Lacey",
+      "country": "US",
+      "lat": 47.072032,
+      "lng": -122.768049,
+      "file": "lacey.json"
+    },
+    {
+      "id": "lake-geneva",
+      "name": "Lake Geneva",
+      "country": "US",
+      "lat": 42.611909,
+      "lng": -88.442872,
+      "file": "lake-geneva.json"
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster",
+      "country": "GB",
+      "lat": 54.0528,
+      "lng": -2.7871,
+      "file": "lancaster.json"
     },
     {
       "id": "landau",
@@ -506,12 +2410,84 @@
       "file": "laufenburg.json"
     },
     {
+      "id": "leavenworth",
+      "name": "Leavenworth",
+      "country": "US",
+      "lat": 47.598751,
+      "lng": -120.643923,
+      "file": "leavenworth.json"
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds",
+      "country": "GB",
+      "lat": 53.797418,
+      "lng": -1.543794,
+      "file": "leeds.json"
+    },
+    {
+      "id": "leek",
+      "name": "Leek",
+      "country": "GB",
+      "lat": 53.107317,
+      "lng": -2.023279,
+      "file": "leek.json"
+    },
+    {
+      "id": "leicester",
+      "name": "Leicester",
+      "country": "GB",
+      "lat": 52.661301,
+      "lng": -1.12445,
+      "file": "leicester.json"
+    },
+    {
+      "id": "leigh-on-sea",
+      "name": "Leigh-on-Sea",
+      "country": "GB",
+      "lat": 51.5456,
+      "lng": 0.6531,
+      "file": "leigh-on-sea.json"
+    },
+    {
       "id": "leipzig",
       "name": "Leipzig",
       "country": "DE",
       "lat": 51.340632,
       "lng": 12.374733,
       "file": "leipzig.json"
+    },
+    {
+      "id": "lewes",
+      "name": "Lewes",
+      "country": "GB",
+      "lat": 50.869161,
+      "lng": 0.01853,
+      "file": "lewes.json"
+    },
+    {
+      "id": "liberty-township",
+      "name": "Liberty Township",
+      "country": "US",
+      "lat": 39.371552,
+      "lng": -84.38694,
+      "file": "liberty-township.json"
+    },
+    {
+      "id": "lichfield",
+      "name": "Lichfield",
+      "country": "GB",
+      "lat": 52.680174,
+      "lng": -1.827942,
+      "file": "lichfield.json"
+    },
+    {
+      "id": "lincoln",
+      "name": "Lincoln",
+      "country": "GB",
+      "lat": 53.248571,
+      "lng": -0.55797,
+      "file": "lincoln.json"
     },
     {
       "id": "lisbon",
@@ -522,6 +2498,70 @@
       "file": "lisbon.json"
     },
     {
+      "id": "little-rock",
+      "name": "Little Rock",
+      "country": "US",
+      "lat": 34.711164,
+      "lng": -92.41092,
+      "file": "little-rock.json"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "country": "GB",
+      "lat": 53.407199,
+      "lng": -2.991573,
+      "file": "liverpool.json"
+    },
+    {
+      "id": "livonia",
+      "name": "Livonia",
+      "country": "US",
+      "lat": 42.39636,
+      "lng": -83.362364,
+      "file": "livonia.json"
+    },
+    {
+      "id": "llanberis",
+      "name": "Llanberis",
+      "country": "GB",
+      "lat": 53.119582,
+      "lng": -4.126186,
+      "file": "llanberis.json"
+    },
+    {
+      "id": "llandudno-junction",
+      "name": "Llandudno Junction",
+      "country": "GB",
+      "lat": 53.283282,
+      "lng": -3.813398,
+      "file": "llandudno-junction.json"
+    },
+    {
+      "id": "llanfairpwll",
+      "name": "Llanfairpwll",
+      "country": "GB",
+      "lat": 53.218835,
+      "lng": -4.199211,
+      "file": "llanfairpwll.json"
+    },
+    {
+      "id": "llangorse",
+      "name": "Llangorse",
+      "country": "GB",
+      "lat": 51.932874,
+      "lng": -3.240546,
+      "file": "llangorse.json"
+    },
+    {
+      "id": "llanrwst",
+      "name": "Llanrwst",
+      "country": "GB",
+      "lat": 53.133202,
+      "lng": -3.786546,
+      "file": "llanrwst.json"
+    },
+    {
       "id": "london",
       "name": "London",
       "country": "GB",
@@ -530,12 +2570,92 @@
       "file": "london.json"
     },
     {
+      "id": "long-island-city",
+      "name": "Long Island City",
+      "country": "US",
+      "lat": 40.750608,
+      "lng": -73.944495,
+      "file": "long-island-city.json"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "US",
+      "lat": 34.051382,
+      "lng": -118.225631,
+      "file": "los-angeles.json"
+    },
+    {
+      "id": "loughborough",
+      "name": "Loughborough",
+      "country": "GB",
+      "lat": 52.764847,
+      "lng": -1.229512,
+      "file": "loughborough.json"
+    },
+    {
+      "id": "louisville",
+      "name": "Louisville",
+      "country": "US",
+      "lat": 39.965831,
+      "lng": -105.116746,
+      "file": "louisville.json"
+    },
+    {
+      "id": "louisville-ky",
+      "name": "Louisville",
+      "country": "US",
+      "lat": 38.258174,
+      "lng": -85.801516,
+      "file": "louisville-ky.json"
+    },
+    {
+      "id": "louth",
+      "name": "Louth",
+      "country": "GB",
+      "lat": 53.369536,
+      "lng": 0.000381,
+      "file": "louth.json"
+    },
+    {
+      "id": "loveland",
+      "name": "Loveland",
+      "country": "US",
+      "lat": 39.283897,
+      "lng": -84.29715,
+      "file": "loveland.json"
+    },
+    {
+      "id": "lowestoft",
+      "name": "Lowestoft",
+      "country": "GB",
+      "lat": 52.483323,
+      "lng": 1.746009,
+      "file": "lowestoft.json"
+    },
+    {
       "id": "ludwigshafen",
       "name": "Ludwigshafen",
       "country": "DE",
       "lat": 49.481112,
       "lng": 8.435308,
       "file": "ludwigshafen.json"
+    },
+    {
+      "id": "luton",
+      "name": "Luton",
+      "country": "GB",
+      "lat": 51.908024,
+      "lng": -0.392612,
+      "file": "luton.json"
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "country": "FR",
+      "lat": 45.757814,
+      "lng": 4.832011,
+      "file": "lyon.json"
     },
     {
       "id": "luebeck",
@@ -554,12 +2674,20 @@
       "file": "lueneburg.json"
     },
     {
-      "id": "lyon",
-      "name": "Lyon",
-      "country": "FR",
-      "lat": 45.757814,
-      "lng": 4.832011,
-      "file": "lyon.json"
+      "id": "machynlleth",
+      "name": "Machynlleth",
+      "country": "GB",
+      "lat": 52.588988,
+      "lng": -3.851884,
+      "file": "machynlleth.json"
+    },
+    {
+      "id": "madison",
+      "name": "Madison",
+      "country": "US",
+      "lat": 43.07258,
+      "lng": -89.383363,
+      "file": "madison.json"
     },
     {
       "id": "madrid",
@@ -576,6 +2704,14 @@
       "lat": 52.131273,
       "lng": 11.638009,
       "file": "magdeburg.json"
+    },
+    {
+      "id": "maidstone",
+      "name": "Maidstone",
+      "country": "GB",
+      "lat": 51.267738,
+      "lng": 0.534994,
+      "file": "maidstone.json"
     },
     {
       "id": "mainz",
@@ -610,12 +2746,172 @@
       "file": "marburg.json"
     },
     {
+      "id": "martley",
+      "name": "Martley",
+      "country": "GB",
+      "lat": 52.237581,
+      "lng": -2.357129,
+      "file": "martley.json"
+    },
+    {
+      "id": "matthews",
+      "name": "Matthews",
+      "country": "US",
+      "lat": 35.120588,
+      "lng": -80.705705,
+      "file": "matthews.json"
+    },
+    {
+      "id": "meadowbrook",
+      "name": "Meadowbrook",
+      "country": "US",
+      "lat": 33.420442,
+      "lng": -86.698339,
+      "file": "meadowbrook.json"
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "US",
+      "lat": 28.105499,
+      "lng": -80.691529,
+      "file": "melbourne.json"
+    },
+    {
+      "id": "menomonie",
+      "name": "Menomonie",
+      "country": "US",
+      "lat": 44.868811,
+      "lng": -91.928159,
+      "file": "menomonie.json"
+    },
+    {
+      "id": "meridian",
+      "name": "Meridian",
+      "country": "US",
+      "lat": 43.592788,
+      "lng": -116.377744,
+      "file": "meridian.json"
+    },
+    {
+      "id": "mesa",
+      "name": "Mesa",
+      "country": "US",
+      "lat": 33.408975,
+      "lng": -111.877417,
+      "file": "mesa.json"
+    },
+    {
+      "id": "middlesbrough",
+      "name": "Middlesbrough",
+      "country": "GB",
+      "lat": 54.547376,
+      "lng": -1.21107,
+      "file": "middlesbrough.json"
+    },
+    {
+      "id": "middletown",
+      "name": "Middletown",
+      "country": "US",
+      "lat": 40.38622,
+      "lng": -74.088051,
+      "file": "middletown.json"
+    },
+    {
+      "id": "midhurst",
+      "name": "Midhurst",
+      "country": "GB",
+      "lat": 50.991643,
+      "lng": -0.738771,
+      "file": "midhurst.json"
+    },
+    {
+      "id": "midlothian",
+      "name": "Midlothian",
+      "country": "US",
+      "lat": 37.526105,
+      "lng": -77.609791,
+      "file": "midlothian.json"
+    },
+    {
       "id": "milan",
       "name": "Milan",
       "country": "IT",
       "lat": 45.464194,
       "lng": 9.189635,
       "file": "milan.json"
+    },
+    {
+      "id": "millcreek",
+      "name": "Millcreek",
+      "country": "US",
+      "lat": 40.681823,
+      "lng": -111.891556,
+      "file": "millcreek.json"
+    },
+    {
+      "id": "millville",
+      "name": "Millville",
+      "country": "US",
+      "lat": 39.421739,
+      "lng": -75.044734,
+      "file": "millville.json"
+    },
+    {
+      "id": "milnsbridge",
+      "name": "Milnsbridge",
+      "country": "GB",
+      "lat": 53.648376,
+      "lng": -1.839395,
+      "file": "milnsbridge.json"
+    },
+    {
+      "id": "milton-keynes",
+      "name": "Milton Keynes",
+      "country": "GB",
+      "lat": 52.0408,
+      "lng": -0.7597,
+      "file": "milton-keynes.json"
+    },
+    {
+      "id": "minneapolis",
+      "name": "Minneapolis",
+      "country": "US",
+      "lat": 44.95615,
+      "lng": -93.278489,
+      "file": "minneapolis.json"
+    },
+    {
+      "id": "mooresville",
+      "name": "Mooresville",
+      "country": "US",
+      "lat": 35.597838,
+      "lng": -80.854028,
+      "file": "mooresville.json"
+    },
+    {
+      "id": "morganville",
+      "name": "Morganville",
+      "country": "US",
+      "lat": 40.351929,
+      "lng": -74.293197,
+      "file": "morganville.json"
+    },
+    {
+      "id": "morrisville",
+      "name": "Morrisville",
+      "country": "US",
+      "lat": 35.811007,
+      "lng": -78.821151,
+      "file": "morrisville.json"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "country": "DE",
+      "lat": 48.137108,
+      "lng": 11.575382,
+      "file": "munich.json"
     },
     {
       "id": "moenchengladbach",
@@ -642,12 +2938,148 @@
       "file": "muenster.json"
     },
     {
-      "id": "munich",
-      "name": "Munich",
-      "country": "DE",
-      "lat": 48.137108,
-      "lng": 11.575382,
-      "file": "munich.json"
+      "id": "new-haven",
+      "name": "New Haven",
+      "country": "US",
+      "lat": 41.320131,
+      "lng": -72.918706,
+      "file": "new-haven.json"
+    },
+    {
+      "id": "new-river",
+      "name": "New River",
+      "country": "US",
+      "lat": 34.038935,
+      "lng": -112.149387,
+      "file": "new-river.json"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "country": "US",
+      "lat": 40.745289,
+      "lng": -73.978082,
+      "file": "new-york.json"
+    },
+    {
+      "id": "newark",
+      "name": "Newark",
+      "country": "US",
+      "lat": 40.743012,
+      "lng": -74.168613,
+      "file": "newark.json"
+    },
+    {
+      "id": "newbury",
+      "name": "Newbury",
+      "country": "GB",
+      "lat": 51.40223,
+      "lng": -1.322387,
+      "file": "newbury.json"
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle",
+      "country": "GB",
+      "lat": 54.978252,
+      "lng": -1.61778,
+      "file": "newcastle.json"
+    },
+    {
+      "id": "newcastle-co-down",
+      "name": "Newcastle, Co. Down",
+      "country": "GB",
+      "lat": 54.222741,
+      "lng": -5.964536,
+      "file": "newcastle-co-down.json"
+    },
+    {
+      "id": "newcastle-under-lyme",
+      "name": "Newcastle-under-Lyme",
+      "country": "GB",
+      "lat": 53.039257,
+      "lng": -2.251587,
+      "file": "newcastle-under-lyme.json"
+    },
+    {
+      "id": "newport",
+      "name": "Newport",
+      "country": "GB",
+      "lat": 52.762719,
+      "lng": -2.375937,
+      "file": "newport.json"
+    },
+    {
+      "id": "newquay",
+      "name": "Newquay",
+      "country": "GB",
+      "lat": 50.410482,
+      "lng": -5.068405,
+      "file": "newquay.json"
+    },
+    {
+      "id": "newton-abbot",
+      "name": "Newton Abbot",
+      "country": "GB",
+      "lat": 50.516606,
+      "lng": -3.788727,
+      "file": "newton-abbot.json"
+    },
+    {
+      "id": "newton-aycliffe",
+      "name": "Newton Aycliffe",
+      "country": "GB",
+      "lat": 54.601212,
+      "lng": -1.571964,
+      "file": "newton-aycliffe.json"
+    },
+    {
+      "id": "north-logan",
+      "name": "North Logan",
+      "country": "US",
+      "lat": 41.763726,
+      "lng": -111.827998,
+      "file": "north-logan.json"
+    },
+    {
+      "id": "northampton",
+      "name": "Northampton",
+      "country": "GB",
+      "lat": 52.241612,
+      "lng": -0.893869,
+      "file": "northampton.json"
+    },
+    {
+      "id": "northleach",
+      "name": "Northleach",
+      "country": "GB",
+      "lat": 51.817138,
+      "lng": -1.861936,
+      "file": "northleach.json"
+    },
+    {
+      "id": "northport",
+      "name": "Northport",
+      "country": "US",
+      "lat": 33.232208,
+      "lng": -87.610664,
+      "file": "northport.json"
+    },
+    {
+      "id": "norwich",
+      "name": "Norwich",
+      "country": "GB",
+      "lat": 52.622394,
+      "lng": 1.241412,
+      "file": "norwich.json"
+    },
+    {
+      "id": "nottingham",
+      "name": "Nottingham",
+      "country": "GB",
+      "lat": 52.954022,
+      "lng": -1.155181,
+      "file": "nottingham.json"
     },
     {
       "id": "nuernberg",
@@ -656,6 +3088,46 @@
       "lat": 49.453872,
       "lng": 11.077298,
       "file": "nuernberg.json"
+    },
+    {
+      "id": "o-neill",
+      "name": "O'Neill",
+      "country": "US",
+      "lat": 42.466837,
+      "lng": -98.642096,
+      "file": "o-neill.json"
+    },
+    {
+      "id": "oakham",
+      "name": "Oakham",
+      "country": "GB",
+      "lat": 52.667916,
+      "lng": -0.63371,
+      "file": "oakham.json"
+    },
+    {
+      "id": "oakland",
+      "name": "Oakland",
+      "country": "US",
+      "lat": 37.812967,
+      "lng": -122.279438,
+      "file": "oakland.json"
+    },
+    {
+      "id": "oakland-park",
+      "name": "Oakland Park",
+      "country": "US",
+      "lat": 26.171906,
+      "lng": -80.145359,
+      "file": "oakland-park.json"
+    },
+    {
+      "id": "oban",
+      "name": "Oban",
+      "country": "GB",
+      "lat": 56.418723,
+      "lng": -5.470895,
+      "file": "oban.json"
     },
     {
       "id": "oberhausen",
@@ -674,12 +3146,44 @@
       "file": "offenbach.json"
     },
     {
+      "id": "oldbury",
+      "name": "Oldbury",
+      "country": "GB",
+      "lat": 52.497603,
+      "lng": -2.030324,
+      "file": "oldbury.json"
+    },
+    {
       "id": "oldenburg",
       "name": "Oldenburg",
       "country": "DE",
       "lat": 53.14345,
       "lng": 8.214601,
       "file": "oldenburg.json"
+    },
+    {
+      "id": "oldham",
+      "name": "Oldham",
+      "country": "GB",
+      "lat": 53.547078,
+      "lng": -2.11114,
+      "file": "oldham.json"
+    },
+    {
+      "id": "omaha",
+      "name": "Omaha",
+      "country": "US",
+      "lat": 41.210168,
+      "lng": -96.02328,
+      "file": "omaha.json"
+    },
+    {
+      "id": "orono",
+      "name": "Orono",
+      "country": "US",
+      "lat": 44.898787,
+      "lng": -68.666492,
+      "file": "orono.json"
     },
     {
       "id": "oslo",
@@ -698,12 +3202,60 @@
       "file": "osnabrueck.json"
     },
     {
+      "id": "oswestry",
+      "name": "Oswestry",
+      "country": "GB",
+      "lat": 52.84886,
+      "lng": -3.042001,
+      "file": "oswestry.json"
+    },
+    {
+      "id": "overland-park",
+      "name": "Overland Park",
+      "country": "US",
+      "lat": 38.936551,
+      "lng": -94.669729,
+      "file": "overland-park.json"
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "country": "GB",
+      "lat": 51.748981,
+      "lng": -1.254275,
+      "file": "oxford.json"
+    },
+    {
       "id": "paderborn",
       "name": "Paderborn",
       "country": "DE",
       "lat": 51.71892,
       "lng": 8.757509,
       "file": "paderborn.json"
+    },
+    {
+      "id": "paignton",
+      "name": "Paignton",
+      "country": "GB",
+      "lat": 50.441974,
+      "lng": -3.559878,
+      "file": "paignton.json"
+    },
+    {
+      "id": "panama-city-beach",
+      "name": "Panama City Beach",
+      "country": "US",
+      "lat": 30.218036,
+      "lng": -85.872508,
+      "file": "panama-city-beach.json"
+    },
+    {
+      "id": "pangbourne",
+      "name": "Pangbourne",
+      "country": "GB",
+      "lat": 51.484978,
+      "lng": -1.080017,
+      "file": "pangbourne.json"
     },
     {
       "id": "paris",
@@ -714,12 +3266,108 @@
       "file": "paris.json"
     },
     {
+      "id": "pasadena",
+      "name": "Pasadena",
+      "country": "US",
+      "lat": 34.164774,
+      "lng": -118.150312,
+      "file": "pasadena.json"
+    },
+    {
       "id": "passau",
       "name": "Passau",
       "country": "DE",
       "lat": 48.574823,
       "lng": 13.460974,
       "file": "passau.json"
+    },
+    {
+      "id": "penrith",
+      "name": "Penrith",
+      "country": "GB",
+      "lat": 54.666471,
+      "lng": -2.769292,
+      "file": "penrith.json"
+    },
+    {
+      "id": "penryn",
+      "name": "Penryn",
+      "country": "GB",
+      "lat": 50.166447,
+      "lng": -5.122583,
+      "file": "penryn.json"
+    },
+    {
+      "id": "peoria",
+      "name": "Peoria",
+      "country": "US",
+      "lat": 33.571808,
+      "lng": -112.255687,
+      "file": "peoria.json"
+    },
+    {
+      "id": "perth",
+      "name": "Perth",
+      "country": "GB",
+      "lat": 56.409452,
+      "lng": -3.443561,
+      "file": "perth.json"
+    },
+    {
+      "id": "peterborough",
+      "name": "Peterborough",
+      "country": "GB",
+      "lat": 52.570881,
+      "lng": -0.235097,
+      "file": "peterborough.json"
+    },
+    {
+      "id": "peterhead",
+      "name": "Peterhead",
+      "country": "GB",
+      "lat": 57.51038,
+      "lng": -1.789009,
+      "file": "peterhead.json"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "country": "US",
+      "lat": 39.975935,
+      "lng": -75.143876,
+      "file": "philadelphia.json"
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "country": "US",
+      "lat": 33.581283,
+      "lng": -112.01364,
+      "file": "phoenix.json"
+    },
+    {
+      "id": "pittsburgh",
+      "name": "Pittsburgh",
+      "country": "US",
+      "lat": 40.432965,
+      "lng": -80.004554,
+      "file": "pittsburgh.json"
+    },
+    {
+      "id": "plano",
+      "name": "Plano",
+      "country": "US",
+      "lat": 33.057635,
+      "lng": -96.67488,
+      "file": "plano.json"
+    },
+    {
+      "id": "plymouth",
+      "name": "Plymouth",
+      "country": "GB",
+      "lat": 50.388262,
+      "lng": -4.152236,
+      "file": "plymouth.json"
     },
     {
       "id": "pockau-lengefeld",
@@ -730,12 +3378,68 @@
       "file": "pockau-lengefeld.json"
     },
     {
+      "id": "pontypridd",
+      "name": "Pontypridd",
+      "country": "GB",
+      "lat": 51.574163,
+      "lng": -3.296833,
+      "file": "pontypridd.json"
+    },
+    {
+      "id": "poole",
+      "name": "Poole",
+      "country": "GB",
+      "lat": 50.718076,
+      "lng": -1.979826,
+      "file": "poole.json"
+    },
+    {
+      "id": "port-talbot",
+      "name": "Port Talbot",
+      "country": "GB",
+      "lat": 51.621916,
+      "lng": -3.757016,
+      "file": "port-talbot.json"
+    },
+    {
+      "id": "portland",
+      "name": "Portland",
+      "country": "US",
+      "lat": 45.515951,
+      "lng": -122.668738,
+      "file": "portland.json"
+    },
+    {
+      "id": "portland-me",
+      "name": "Portland",
+      "country": "US",
+      "lat": 43.689142,
+      "lng": -70.299436,
+      "file": "portland-me.json"
+    },
+    {
+      "id": "portsmouth",
+      "name": "Portsmouth",
+      "country": "GB",
+      "lat": 50.823497,
+      "lng": -1.071601,
+      "file": "portsmouth.json"
+    },
+    {
       "id": "potsdam",
       "name": "Potsdam",
       "country": "DE",
       "lat": 52.400931,
       "lng": 13.05914,
       "file": "potsdam.json"
+    },
+    {
+      "id": "poughkeepsie",
+      "name": "Poughkeepsie",
+      "country": "US",
+      "lat": 41.643797,
+      "lng": -73.925093,
+      "file": "poughkeepsie.json"
     },
     {
       "id": "prague",
@@ -746,12 +3450,68 @@
       "file": "prague.json"
     },
     {
+      "id": "prestatyn",
+      "name": "Prestatyn",
+      "country": "GB",
+      "lat": 53.326556,
+      "lng": -3.406866,
+      "file": "prestatyn.json"
+    },
+    {
+      "id": "preston",
+      "name": "Preston",
+      "country": "GB",
+      "lat": 53.769216,
+      "lng": -2.678369,
+      "file": "preston.json"
+    },
+    {
+      "id": "purcellville",
+      "name": "Purcellville",
+      "country": "US",
+      "lat": 39.318259,
+      "lng": -77.707508,
+      "file": "purcellville.json"
+    },
+    {
+      "id": "radstock",
+      "name": "Radstock",
+      "country": "GB",
+      "lat": 51.287369,
+      "lng": -2.430883,
+      "file": "radstock.json"
+    },
+    {
+      "id": "raleigh",
+      "name": "Raleigh",
+      "country": "US",
+      "lat": 35.793449,
+      "lng": -78.683693,
+      "file": "raleigh.json"
+    },
+    {
+      "id": "randolph",
+      "name": "Randolph",
+      "country": "US",
+      "lat": 42.199565,
+      "lng": -71.066467,
+      "file": "randolph.json"
+    },
+    {
       "id": "ravensburg",
       "name": "Ravensburg",
       "country": "DE",
       "lat": 47.781918,
       "lng": 9.610581,
       "file": "ravensburg.json"
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "country": "GB",
+      "lat": 51.456292,
+      "lng": -0.97113,
+      "file": "reading.json"
     },
     {
       "id": "recklinghausen",
@@ -762,12 +3522,36 @@
       "file": "recklinghausen.json"
     },
     {
+      "id": "redhill",
+      "name": "Redhill",
+      "country": "GB",
+      "lat": 51.197188,
+      "lng": -0.163274,
+      "file": "redhill.json"
+    },
+    {
+      "id": "redmond",
+      "name": "Redmond",
+      "country": "US",
+      "lat": 44.251943,
+      "lng": -121.170492,
+      "file": "redmond.json"
+    },
+    {
       "id": "regensburg",
       "name": "Regensburg",
       "country": "DE",
       "lat": 49.01343,
       "lng": 12.101624,
       "file": "regensburg.json"
+    },
+    {
+      "id": "renfrew",
+      "name": "Renfrew",
+      "country": "GB",
+      "lat": 55.872195,
+      "lng": -4.368736,
+      "file": "renfrew.json"
     },
     {
       "id": "reutlingen",
@@ -778,12 +3562,68 @@
       "file": "reutlingen.json"
     },
     {
-      "id": "rodental",
-      "name": "Rödental",
-      "country": "DE",
-      "lat": 50.295987,
-      "lng": 11.0431938,
-      "file": "rodental.json"
+      "id": "richmond",
+      "name": "Richmond",
+      "country": "US",
+      "lat": 37.563138,
+      "lng": -77.455499,
+      "file": "richmond.json"
+    },
+    {
+      "id": "rickmansworth",
+      "name": "Rickmansworth",
+      "country": "GB",
+      "lat": 51.63917,
+      "lng": -0.498443,
+      "file": "rickmansworth.json"
+    },
+    {
+      "id": "ripon",
+      "name": "Ripon",
+      "country": "US",
+      "lat": 37.748319,
+      "lng": -121.13849,
+      "file": "ripon.json"
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "country": "US",
+      "lat": 33.968816,
+      "lng": -117.39361,
+      "file": "riverside.json"
+    },
+    {
+      "id": "rochdale",
+      "name": "Rochdale",
+      "country": "GB",
+      "lat": 53.618389,
+      "lng": -2.149501,
+      "file": "rochdale.json"
+    },
+    {
+      "id": "rochester",
+      "name": "Rochester",
+      "country": "GB",
+      "lat": 51.410491,
+      "lng": 0.526402,
+      "file": "rochester.json"
+    },
+    {
+      "id": "rocklin",
+      "name": "Rocklin",
+      "country": "US",
+      "lat": 38.788724,
+      "lng": -121.235706,
+      "file": "rocklin.json"
+    },
+    {
+      "id": "rockville",
+      "name": "Rockville",
+      "country": "US",
+      "lat": 39.078637,
+      "lng": -77.143429,
+      "file": "rockville.json"
     },
     {
       "id": "rome",
@@ -792,6 +3632,14 @@
       "lat": 41.89332,
       "lng": 12.482932,
       "file": "rome.json"
+    },
+    {
+      "id": "romsey",
+      "name": "Romsey",
+      "country": "GB",
+      "lat": 50.994644,
+      "lng": -1.49569,
+      "file": "romsey.json"
     },
     {
       "id": "rosenheim",
@@ -810,12 +3658,36 @@
       "file": "rostock.json"
     },
     {
+      "id": "rotherham",
+      "name": "Rotherham",
+      "country": "GB",
+      "lat": 53.439867,
+      "lng": -1.335905,
+      "file": "rotherham.json"
+    },
+    {
       "id": "rotterdam",
       "name": "Rotterdam",
       "country": "NL",
       "lat": 51.924442,
       "lng": 4.47775,
       "file": "rotterdam.json"
+    },
+    {
+      "id": "rugby",
+      "name": "Rugby",
+      "country": "GB",
+      "lat": 52.366217,
+      "lng": -1.254699,
+      "file": "rugby.json"
+    },
+    {
+      "id": "rodental",
+      "name": "Rödental",
+      "country": "DE",
+      "lat": 50.295987,
+      "lng": 11.0431938,
+      "file": "rodental.json"
     },
     {
       "id": "saarbruecken",
@@ -826,12 +3698,420 @@
       "file": "saarbruecken.json"
     },
     {
+      "id": "sacramento",
+      "name": "Sacramento",
+      "country": "US",
+      "lat": 38.538842,
+      "lng": -121.394636,
+      "file": "sacramento.json"
+    },
+    {
+      "id": "saint-charles",
+      "name": "Saint Charles",
+      "country": "US",
+      "lat": 38.786626,
+      "lng": -90.478173,
+      "file": "saint-charles.json"
+    },
+    {
+      "id": "saint-louis",
+      "name": "Saint Louis",
+      "country": "US",
+      "lat": 38.614766,
+      "lng": -90.207862,
+      "file": "saint-louis.json"
+    },
+    {
+      "id": "saint-neot",
+      "name": "Saint Neot",
+      "country": "GB",
+      "lat": 50.471034,
+      "lng": -4.553927,
+      "file": "saint-neot.json"
+    },
+    {
+      "id": "saint-paul",
+      "name": "Saint Paul",
+      "country": "US",
+      "lat": 44.963473,
+      "lng": -93.135749,
+      "file": "saint-paul.json"
+    },
+    {
+      "id": "saint-petersburg",
+      "name": "Saint Petersburg",
+      "country": "US",
+      "lat": 27.769501,
+      "lng": -82.657567,
+      "file": "saint-petersburg.json"
+    },
+    {
+      "id": "salford",
+      "name": "Salford",
+      "country": "GB",
+      "lat": 53.483504,
+      "lng": -2.270649,
+      "file": "salford.json"
+    },
+    {
+      "id": "salisbury",
+      "name": "Salisbury",
+      "country": "GB",
+      "lat": 51.07853,
+      "lng": -1.803517,
+      "file": "salisbury.json"
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "Salt Lake City",
+      "country": "US",
+      "lat": 40.755945,
+      "lng": -111.888521,
+      "file": "salt-lake-city.json"
+    },
+    {
+      "id": "san-antonio",
+      "name": "San Antonio",
+      "country": "US",
+      "lat": 29.444415,
+      "lng": -98.479155,
+      "file": "san-antonio.json"
+    },
+    {
+      "id": "san-bernardino",
+      "name": "San Bernardino",
+      "country": "US",
+      "lat": 34.181299,
+      "lng": -117.318555,
+      "file": "san-bernardino.json"
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "country": "US",
+      "lat": 32.849649,
+      "lng": -117.18151,
+      "file": "san-diego.json"
+    },
+    {
+      "id": "san-diego-county",
+      "name": "San Diego County",
+      "country": "US",
+      "lat": 32.987497,
+      "lng": -116.950089,
+      "file": "san-diego-county.json"
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "US",
+      "lat": 37.77764,
+      "lng": -122.422583,
+      "file": "san-francisco.json"
+    },
+    {
+      "id": "san-jose",
+      "name": "San Jose",
+      "country": "US",
+      "lat": 37.332404,
+      "lng": -121.882675,
+      "file": "san-jose.json"
+    },
+    {
+      "id": "san-marcos",
+      "name": "San Marcos",
+      "country": "US",
+      "lat": 33.135999,
+      "lng": -117.157694,
+      "file": "san-marcos.json"
+    },
+    {
+      "id": "san-rafael",
+      "name": "San Rafael",
+      "country": "US",
+      "lat": 38.0179,
+      "lng": -122.521606,
+      "file": "san-rafael.json"
+    },
+    {
+      "id": "sandusky",
+      "name": "Sandusky",
+      "country": "US",
+      "lat": 41.432573,
+      "lng": -82.656417,
+      "file": "sandusky.json"
+    },
+    {
+      "id": "sandy-spring",
+      "name": "Sandy Spring",
+      "country": "US",
+      "lat": 39.131441,
+      "lng": -77.025247,
+      "file": "sandy-spring.json"
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara",
+      "country": "US",
+      "lat": 34.415565,
+      "lng": -119.69358,
+      "file": "santa-barbara.json"
+    },
+    {
+      "id": "santa-clarita",
+      "name": "Santa Clarita",
+      "country": "US",
+      "lat": 34.409566,
+      "lng": -118.50881,
+      "file": "santa-clarita.json"
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz",
+      "country": "US",
+      "lat": 36.96804,
+      "lng": -122.006511,
+      "file": "santa-cruz.json"
+    },
+    {
+      "id": "santa-fe",
+      "name": "Santa Fe",
+      "country": "US",
+      "lat": 35.653404,
+      "lng": -105.992393,
+      "file": "santa-fe.json"
+    },
+    {
+      "id": "scarborough",
+      "name": "Scarborough",
+      "country": "US",
+      "lat": 43.592581,
+      "lng": -70.362222,
+      "file": "scarborough.json"
+    },
+    {
+      "id": "schaumburg",
+      "name": "Schaumburg",
+      "country": "US",
+      "lat": 42.048686,
+      "lng": -88.046682,
+      "file": "schaumburg.json"
+    },
+    {
+      "id": "scunthorpe",
+      "name": "Scunthorpe",
+      "country": "GB",
+      "lat": 53.572996,
+      "lng": -0.669164,
+      "file": "scunthorpe.json"
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "country": "US",
+      "lat": 47.629918,
+      "lng": -122.351702,
+      "file": "seattle.json"
+    },
+    {
+      "id": "sevenoaks",
+      "name": "Sevenoaks",
+      "country": "GB",
+      "lat": 51.287264,
+      "lng": 0.183796,
+      "file": "sevenoaks.json"
+    },
+    {
+      "id": "shaker-heights",
+      "name": "Shaker Heights",
+      "country": "US",
+      "lat": 41.467906,
+      "lng": -81.53561,
+      "file": "shaker-heights.json"
+    },
+    {
+      "id": "sharnbrook",
+      "name": "Sharnbrook",
+      "country": "GB",
+      "lat": 52.221971,
+      "lng": -0.5528,
+      "file": "sharnbrook.json"
+    },
+    {
+      "id": "sheffield",
+      "name": "Sheffield",
+      "country": "GB",
+      "lat": 53.381129,
+      "lng": -1.470085,
+      "file": "sheffield.json"
+    },
+    {
+      "id": "shepshed",
+      "name": "Shepshed",
+      "country": "GB",
+      "lat": 52.7715,
+      "lng": -1.2928,
+      "file": "shepshed.json"
+    },
+    {
+      "id": "sherborne",
+      "name": "Sherborne",
+      "country": "GB",
+      "lat": 50.948376,
+      "lng": -2.528923,
+      "file": "sherborne.json"
+    },
+    {
+      "id": "shoreham-by-sea",
+      "name": "Shoreham-by-Sea",
+      "country": "GB",
+      "lat": 50.8349,
+      "lng": -0.2392,
+      "file": "shoreham-by-sea.json"
+    },
+    {
+      "id": "shrewsbury",
+      "name": "Shrewsbury",
+      "country": "GB",
+      "lat": 52.711405,
+      "lng": -2.756352,
+      "file": "shrewsbury.json"
+    },
+    {
       "id": "siegen",
       "name": "Siegen",
       "country": "DE",
       "lat": 50.875118,
       "lng": 8.025613,
       "file": "siegen.json"
+    },
+    {
+      "id": "silver-maple-ridge",
+      "name": "Silver Maple Ridge",
+      "country": "US",
+      "lat": 33.481119,
+      "lng": -82.140159,
+      "file": "silver-maple-ridge.json"
+    },
+    {
+      "id": "solihull",
+      "name": "Solihull",
+      "country": "GB",
+      "lat": 52.405879,
+      "lng": -1.772637,
+      "file": "solihull.json"
+    },
+    {
+      "id": "somerville",
+      "name": "Somerville",
+      "country": "US",
+      "lat": 42.381637,
+      "lng": -71.105878,
+      "file": "somerville.json"
+    },
+    {
+      "id": "sonora",
+      "name": "Sonora",
+      "country": "US",
+      "lat": 37.999766,
+      "lng": -120.26655,
+      "file": "sonora.json"
+    },
+    {
+      "id": "south-boston",
+      "name": "South Boston",
+      "country": "US",
+      "lat": 42.336498,
+      "lng": -71.056458,
+      "file": "south-boston.json"
+    },
+    {
+      "id": "south-lake-tahoe",
+      "name": "South Lake Tahoe",
+      "country": "US",
+      "lat": 38.90556,
+      "lng": -119.999203,
+      "file": "south-lake-tahoe.json"
+    },
+    {
+      "id": "south-molton",
+      "name": "South Molton",
+      "country": "GB",
+      "lat": 51.029308,
+      "lng": -3.827948,
+      "file": "south-molton.json"
+    },
+    {
+      "id": "south-shields",
+      "name": "South Shields",
+      "country": "GB",
+      "lat": 54.96559,
+      "lng": -1.451446,
+      "file": "south-shields.json"
+    },
+    {
+      "id": "southampton",
+      "name": "Southampton",
+      "country": "GB",
+      "lat": 50.909698,
+      "lng": -1.404351,
+      "file": "southampton.json"
+    },
+    {
+      "id": "southend-on-sea",
+      "name": "Southend-on-Sea",
+      "country": "GB",
+      "lat": 51.55435,
+      "lng": 0.734742,
+      "file": "southend-on-sea.json"
+    },
+    {
+      "id": "southport",
+      "name": "Southport",
+      "country": "GB",
+      "lat": 53.650591,
+      "lng": -2.997718,
+      "file": "southport.json"
+    },
+    {
+      "id": "springfield",
+      "name": "Springfield",
+      "country": "US",
+      "lat": 38.747284,
+      "lng": -77.276246,
+      "file": "springfield.json"
+    },
+    {
+      "id": "stafford",
+      "name": "Stafford",
+      "country": "GB",
+      "lat": 52.828469,
+      "lng": -2.125248,
+      "file": "stafford.json"
+    },
+    {
+      "id": "stamford",
+      "name": "Stamford",
+      "country": "GB",
+      "lat": 52.670107,
+      "lng": -0.379488,
+      "file": "stamford.json"
+    },
+    {
+      "id": "stevenage",
+      "name": "Stevenage",
+      "country": "GB",
+      "lat": 51.901873,
+      "lng": -0.20532,
+      "file": "stevenage.json"
+    },
+    {
+      "id": "stirling",
+      "name": "Stirling",
+      "country": "GB",
+      "lat": 56.1198,
+      "lng": -3.9366,
+      "file": "stirling.json"
     },
     {
       "id": "stockholm",
@@ -842,12 +4122,76 @@
       "file": "stockholm.json"
     },
     {
+      "id": "stockport",
+      "name": "Stockport",
+      "country": "GB",
+      "lat": 53.4289,
+      "lng": -2.0898,
+      "file": "stockport.json"
+    },
+    {
+      "id": "stoke-on-trent",
+      "name": "Stoke-on-Trent",
+      "country": "GB",
+      "lat": 53.012685,
+      "lng": -2.200516,
+      "file": "stoke-on-trent.json"
+    },
+    {
+      "id": "stoneham",
+      "name": "Stoneham",
+      "country": "US",
+      "lat": 42.477716,
+      "lng": -71.110885,
+      "file": "stoneham.json"
+    },
+    {
+      "id": "stornoway",
+      "name": "Stornoway",
+      "country": "GB",
+      "lat": 58.221085,
+      "lng": -6.383603,
+      "file": "stornoway.json"
+    },
+    {
+      "id": "storrs",
+      "name": "Storrs",
+      "country": "US",
+      "lat": 41.808508,
+      "lng": -72.292251,
+      "file": "storrs.json"
+    },
+    {
+      "id": "stourbridge",
+      "name": "Stourbridge",
+      "country": "GB",
+      "lat": 52.456456,
+      "lng": -2.147952,
+      "file": "stourbridge.json"
+    },
+    {
+      "id": "stowmarket",
+      "name": "Stowmarket",
+      "country": "GB",
+      "lat": 52.192301,
+      "lng": 0.981567,
+      "file": "stowmarket.json"
+    },
+    {
       "id": "straubing",
       "name": "Straubing",
       "country": "DE",
       "lat": 48.877346,
       "lng": 12.564364,
       "file": "straubing.json"
+    },
+    {
+      "id": "stretford",
+      "name": "Stretford",
+      "country": "GB",
+      "lat": 53.461513,
+      "lng": -2.326675,
+      "file": "stretford.json"
     },
     {
       "id": "stuttgart",
@@ -858,12 +4202,220 @@
       "file": "stuttgart.json"
     },
     {
+      "id": "sunbury-on-thames",
+      "name": "Sunbury-on-Thames",
+      "country": "GB",
+      "lat": 51.413855,
+      "lng": -0.422057,
+      "file": "sunbury-on-thames.json"
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "country": "GB",
+      "lat": 54.8986,
+      "lng": -1.3858,
+      "file": "sunderland.json"
+    },
+    {
+      "id": "sutton",
+      "name": "Sutton",
+      "country": "GB",
+      "lat": 51.3612,
+      "lng": -0.1924,
+      "file": "sutton.json"
+    },
+    {
+      "id": "suwanee",
+      "name": "Suwanee",
+      "country": "US",
+      "lat": 34.073164,
+      "lng": -84.058003,
+      "file": "suwanee.json"
+    },
+    {
+      "id": "swansea",
+      "name": "Swansea",
+      "country": "GB",
+      "lat": 51.604287,
+      "lng": -3.995333,
+      "file": "swansea.json"
+    },
+    {
+      "id": "swindon",
+      "name": "Swindon",
+      "country": "GB",
+      "lat": 51.560799,
+      "lng": -1.831324,
+      "file": "swindon.json"
+    },
+    {
+      "id": "tallahassee",
+      "name": "Tallahassee",
+      "country": "US",
+      "lat": 30.48059,
+      "lng": -84.297386,
+      "file": "tallahassee.json"
+    },
+    {
+      "id": "taunton",
+      "name": "Taunton",
+      "country": "GB",
+      "lat": 51.009438,
+      "lng": -3.073841,
+      "file": "taunton.json"
+    },
+    {
+      "id": "tavistock",
+      "name": "Tavistock",
+      "country": "GB",
+      "lat": 50.5489,
+      "lng": -4.1456,
+      "file": "tavistock.json"
+    },
+    {
+      "id": "taylors",
+      "name": "Taylors",
+      "country": "US",
+      "lat": 34.993868,
+      "lng": -82.33453,
+      "file": "taylors.json"
+    },
+    {
+      "id": "tempe",
+      "name": "Tempe",
+      "country": "US",
+      "lat": 33.420647,
+      "lng": -111.9162,
+      "file": "tempe.json"
+    },
+    {
+      "id": "tenby",
+      "name": "Tenby",
+      "country": "GB",
+      "lat": 51.67228,
+      "lng": -4.694884,
+      "file": "tenby.json"
+    },
+    {
+      "id": "thornton",
+      "name": "Thornton",
+      "country": "US",
+      "lat": 39.868077,
+      "lng": -104.979774,
+      "file": "thornton.json"
+    },
+    {
+      "id": "tidworth",
+      "name": "Tidworth",
+      "country": "GB",
+      "lat": 51.237346,
+      "lng": -1.660632,
+      "file": "tidworth.json"
+    },
+    {
+      "id": "tonbridge",
+      "name": "Tonbridge",
+      "country": "GB",
+      "lat": 51.2289,
+      "lng": 0.3892,
+      "file": "tonbridge.json"
+    },
+    {
+      "id": "torrance",
+      "name": "Torrance",
+      "country": "US",
+      "lat": 33.849049,
+      "lng": -118.351335,
+      "file": "torrance.json"
+    },
+    {
+      "id": "town-of-colonie",
+      "name": "Town of Colonie",
+      "country": "US",
+      "lat": 42.740153,
+      "lng": -73.732338,
+      "file": "town-of-colonie.json"
+    },
+    {
+      "id": "town-of-minocqua",
+      "name": "Town of Minocqua",
+      "country": "US",
+      "lat": 45.844416,
+      "lng": -89.710172,
+      "file": "town-of-minocqua.json"
+    },
+    {
+      "id": "tranent",
+      "name": "Tranent",
+      "country": "GB",
+      "lat": 55.944504,
+      "lng": -2.960834,
+      "file": "tranent.json"
+    },
+    {
+      "id": "traverse-city",
+      "name": "Traverse City",
+      "country": "US",
+      "lat": 44.758288,
+      "lng": -85.606071,
+      "file": "traverse-city.json"
+    },
+    {
+      "id": "treharris",
+      "name": "Treharris",
+      "country": "GB",
+      "lat": 51.6628,
+      "lng": -3.3245,
+      "file": "treharris.json"
+    },
+    {
       "id": "trier",
       "name": "Trier",
       "country": "DE",
       "lat": 49.759644,
       "lng": 6.64415,
       "file": "trier.json"
+    },
+    {
+      "id": "truro",
+      "name": "Truro",
+      "country": "GB",
+      "lat": 50.263321,
+      "lng": -5.082326,
+      "file": "truro.json"
+    },
+    {
+      "id": "tuckahoe",
+      "name": "Tuckahoe",
+      "country": "US",
+      "lat": 37.571702,
+      "lng": -77.537476,
+      "file": "tuckahoe.json"
+    },
+    {
+      "id": "tucson",
+      "name": "Tucson",
+      "country": "US",
+      "lat": 32.260089,
+      "lng": -110.800591,
+      "file": "tucson.json"
+    },
+    {
+      "id": "tulsa",
+      "name": "Tulsa",
+      "country": "US",
+      "lat": 36.118111,
+      "lng": -95.921141,
+      "file": "tulsa.json"
+    },
+    {
+      "id": "tunbridge-wells",
+      "name": "Tunbridge Wells",
+      "country": "GB",
+      "lat": 51.149631,
+      "lng": 0.259496,
+      "file": "tunbridge-wells.json"
     },
     {
       "id": "tuebingen",
@@ -874,12 +4426,44 @@
       "file": "tuebingen.json"
     },
     {
+      "id": "ullapool",
+      "name": "Ullapool",
+      "country": "GB",
+      "lat": 57.897812,
+      "lng": -5.161894,
+      "file": "ullapool.json"
+    },
+    {
       "id": "ulm",
       "name": "Ulm",
       "country": "DE",
       "lat": 48.401082,
       "lng": 9.987608,
       "file": "ulm.json"
+    },
+    {
+      "id": "urbana",
+      "name": "Urbana",
+      "country": "US",
+      "lat": 40.125917,
+      "lng": -88.19902,
+      "file": "urbana.json"
+    },
+    {
+      "id": "uxbridge",
+      "name": "Uxbridge",
+      "country": "GB",
+      "lat": 51.53284,
+      "lng": -0.472836,
+      "file": "uxbridge.json"
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "country": "US",
+      "lat": 45.630139,
+      "lng": -122.671956,
+      "file": "vancouver.json"
     },
     {
       "id": "vienna",
@@ -890,12 +4474,108 @@
       "file": "vienna.json"
     },
     {
+      "id": "virginia-beach",
+      "name": "Virginia Beach",
+      "country": "US",
+      "lat": 36.806182,
+      "lng": -75.98746,
+      "file": "virginia-beach.json"
+    },
+    {
+      "id": "voorhees",
+      "name": "Voorhees",
+      "country": "US",
+      "lat": 39.853313,
+      "lng": -75.013162,
+      "file": "voorhees.json"
+    },
+    {
+      "id": "wallingford",
+      "name": "Wallingford",
+      "country": "US",
+      "lat": 41.454951,
+      "lng": -72.835145,
+      "file": "wallingford.json"
+    },
+    {
+      "id": "walnut-shade",
+      "name": "Walnut Shade",
+      "country": "US",
+      "lat": 36.781617,
+      "lng": -93.223165,
+      "file": "walnut-shade.json"
+    },
+    {
+      "id": "walsall",
+      "name": "Walsall",
+      "country": "GB",
+      "lat": 52.580671,
+      "lng": -2.024435,
+      "file": "walsall.json"
+    },
+    {
+      "id": "waltham",
+      "name": "Waltham",
+      "country": "US",
+      "lat": 42.387279,
+      "lng": -71.201588,
+      "file": "waltham.json"
+    },
+    {
+      "id": "walton-on-thames",
+      "name": "Walton-on-Thames",
+      "country": "GB",
+      "lat": 51.398694,
+      "lng": -0.41279,
+      "file": "walton-on-thames.json"
+    },
+    {
+      "id": "warrington",
+      "name": "Warrington",
+      "country": "GB",
+      "lat": 53.3989,
+      "lng": -2.5878,
+      "file": "warrington.json"
+    },
+    {
       "id": "warsaw",
       "name": "Warsaw",
       "country": "PL",
       "lat": 52.231958,
       "lng": 21.006725,
       "file": "warsaw.json"
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "country": "GB",
+      "lat": 52.28185,
+      "lng": -1.579204,
+      "file": "warwick.json"
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "country": "US",
+      "lat": 38.911597,
+      "lng": -77.004322,
+      "file": "washington.json"
+    },
+    {
+      "id": "watertown",
+      "name": "Watertown",
+      "country": "US",
+      "lat": 42.365792,
+      "lng": -71.177883,
+      "file": "watertown.json"
+    },
+    {
+      "id": "watford",
+      "name": "Watford",
+      "country": "GB",
+      "lat": 51.694954,
+      "lng": -0.392822,
+      "file": "watford.json"
     },
     {
       "id": "weimar",
@@ -914,6 +4594,22 @@
       "file": "weitnau.json"
     },
     {
+      "id": "west-bromwich",
+      "name": "West Bromwich",
+      "country": "GB",
+      "lat": 52.5186,
+      "lng": -1.9895,
+      "file": "west-bromwich.json"
+    },
+    {
+      "id": "west-whiteland-township",
+      "name": "West Whiteland Township",
+      "country": "US",
+      "lat": 40.023646,
+      "lng": -75.586706,
+      "file": "west-whiteland-township.json"
+    },
+    {
       "id": "wetzlar",
       "name": "Wetzlar",
       "country": "DE",
@@ -930,12 +4626,52 @@
       "file": "weyarn.json"
     },
     {
+      "id": "weymouth",
+      "name": "Weymouth",
+      "country": "GB",
+      "lat": 50.606055,
+      "lng": -2.450286,
+      "file": "weymouth.json"
+    },
+    {
+      "id": "whitchurch",
+      "name": "Whitchurch",
+      "country": "GB",
+      "lat": 51.282488,
+      "lng": -1.335679,
+      "file": "whitchurch.json"
+    },
+    {
+      "id": "wichita",
+      "name": "Wichita",
+      "country": "US",
+      "lat": 37.736332,
+      "lng": -97.209259,
+      "file": "wichita.json"
+    },
+    {
+      "id": "widnes",
+      "name": "Widnes",
+      "country": "GB",
+      "lat": 53.374445,
+      "lng": -2.732581,
+      "file": "widnes.json"
+    },
+    {
       "id": "wiesbaden",
       "name": "Wiesbaden",
       "country": "DE",
       "lat": 50.082038,
       "lng": 8.241656,
       "file": "wiesbaden.json"
+    },
+    {
+      "id": "wigan",
+      "name": "Wigan",
+      "country": "GB",
+      "lat": 53.544658,
+      "lng": -2.629289,
+      "file": "wigan.json"
     },
     {
       "id": "wildau",
@@ -954,12 +4690,100 @@
       "file": "willingen.json"
     },
     {
-      "id": "wuerzburg",
-      "name": "Würzburg",
-      "country": "DE",
-      "lat": 49.791306,
-      "lng": 9.953355,
-      "file": "wuerzburg.json"
+      "id": "wilmslow",
+      "name": "Wilmslow",
+      "country": "GB",
+      "lat": 53.3488,
+      "lng": -2.2106,
+      "file": "wilmslow.json"
+    },
+    {
+      "id": "wimborne",
+      "name": "Wimborne",
+      "country": "GB",
+      "lat": 50.806269,
+      "lng": -2.004894,
+      "file": "wimborne.json"
+    },
+    {
+      "id": "winchester",
+      "name": "Winchester",
+      "country": "GB",
+      "lat": 51.066478,
+      "lng": -1.312577,
+      "file": "winchester.json"
+    },
+    {
+      "id": "wirksworth",
+      "name": "Wirksworth",
+      "country": "GB",
+      "lat": 53.087332,
+      "lng": -1.559415,
+      "file": "wirksworth.json"
+    },
+    {
+      "id": "witham",
+      "name": "Witham",
+      "country": "GB",
+      "lat": 51.802567,
+      "lng": 0.640336,
+      "file": "witham.json"
+    },
+    {
+      "id": "woking",
+      "name": "Woking",
+      "country": "GB",
+      "lat": 51.3162,
+      "lng": -0.558,
+      "file": "woking.json"
+    },
+    {
+      "id": "wolsingham",
+      "name": "Wolsingham",
+      "country": "GB",
+      "lat": 54.747264,
+      "lng": -1.898567,
+      "file": "wolsingham.json"
+    },
+    {
+      "id": "wolverhampton",
+      "name": "Wolverhampton",
+      "country": "GB",
+      "lat": 52.5936,
+      "lng": -2.1489,
+      "file": "wolverhampton.json"
+    },
+    {
+      "id": "worcester",
+      "name": "Worcester",
+      "country": "GB",
+      "lat": 52.195253,
+      "lng": -2.212391,
+      "file": "worcester.json"
+    },
+    {
+      "id": "worthing",
+      "name": "Worthing",
+      "country": "GB",
+      "lat": 50.815574,
+      "lng": -0.409324,
+      "file": "worthing.json"
+    },
+    {
+      "id": "wotton-under-edge",
+      "name": "Wotton-under-Edge",
+      "country": "GB",
+      "lat": 51.631593,
+      "lng": -2.36415,
+      "file": "wotton-under-edge.json"
+    },
+    {
+      "id": "wrexham",
+      "name": "Wrexham",
+      "country": "GB",
+      "lat": 53.060077,
+      "lng": -3.047706,
+      "file": "wrexham.json"
     },
     {
       "id": "wuppertal",
@@ -968,6 +4792,38 @@
       "lat": 51.256214,
       "lng": 7.150764,
       "file": "wuppertal.json"
+    },
+    {
+      "id": "wymondham",
+      "name": "Wymondham",
+      "country": "GB",
+      "lat": 52.573238,
+      "lng": 1.120506,
+      "file": "wymondham.json"
+    },
+    {
+      "id": "wuerzburg",
+      "name": "Würzburg",
+      "country": "DE",
+      "lat": 49.791306,
+      "lng": 9.953355,
+      "file": "wuerzburg.json"
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "country": "GB",
+      "lat": 53.960214,
+      "lng": -1.091829,
+      "file": "york.json"
+    },
+    {
+      "id": "york-county",
+      "name": "York County",
+      "country": "US",
+      "lat": 37.112241,
+      "lng": -76.444637,
+      "file": "york-county.json"
     },
     {
       "id": "zurich",

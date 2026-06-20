@@ -1,0 +1,22 @@
+{
+  "city": "Suwanee",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "adrenaline-climbing",
+      "name": "Adrenaline Climbing",
+      "address": "460 Brogdon Road, Suwanee, GA 30024",
+      "url": "https://www.adrenalineclimbing.com",
+      "lat": 34.0731645,
+      "lng": -84.0580026,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

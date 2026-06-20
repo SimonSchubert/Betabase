@@ -1,0 +1,22 @@
+{
+  "city": "Huntingdon",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "grafham-water-climbing",
+      "name": "Grafham Water Climbing",
+      "address": "Grafham Water Centre, Perry, Huntingdon PE28 0BX",
+      "url": "https://www.grafham-water-centre.co.uk/",
+      "lat": 52.289035,
+      "lng": -0.321093,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

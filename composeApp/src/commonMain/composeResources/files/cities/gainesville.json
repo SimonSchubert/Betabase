@@ -1,0 +1,21 @@
+{
+  "city": "Gainesville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-knot-climbing-gym",
+      "name": "The Knot - Climbing Gym",
+      "address": "704 South Main Street, Gainesville, FL 32601",
+      "url": "https://climbtheknot.com",
+      "lat": 29.6455476,
+      "lng": -82.3253012,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

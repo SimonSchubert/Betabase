@@ -1,0 +1,141 @@
+{
+  "city": "Leeds",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "big-depot-leeds",
+      "name": "Big Depot Leeds",
+      "address": "Gelderd Road, LS12 6BY Leeds",
+      "url": "https://www.depotclimbing.co.uk/leeds-gelderd-road/",
+      "lat": 53.7839918,
+      "lng": -1.575818,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.depotclimbing.co.uk/wp-content/uploads/2025/02/Depot-Climbing-About-Us-MES-banner-Feb-2025.jpg"
+    },
+    {
+      "id": "carnegie-annex-climbing-wall",
+      "name": "Carnegie Annex Climbing Wall",
+      "address": "Church Wood Avenue, Headingley, Leeds LS6 3QS",
+      "url": "https://www.leedsbeckett.ac.uk/",
+      "lat": 53.826353,
+      "lng": -1.590754,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "city-bloc-leeds",
+      "name": "City Bloc Leeds",
+      "address": "Unit C7/C8, Cross Green Garth, LS9 0SG Leeds",
+      "url": "https://www.citybloc.co.uk",
+      "lat": 53.7842541,
+      "lng": -1.5128918,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://citybloc.co.uk/wp-content/uploads/2020/07/tudorshoots-09634-2048x1365.jpg"
+    },
+    {
+      "id": "clip-n-climb-leeds",
+      "name": "Clip 'n Climb Leeds",
+      "address": "Cardigan Fields Leisure Park, Kirkstall Road, Leeds LS4 2DG",
+      "url": "https://clipnclimb.co.uk/locations/leeds/",
+      "lat": 53.804424,
+      "lng": -1.58342,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://assets.clipnclimb.co.uk/wp-media-folder-clip-n-climb-uk/wp-content/uploads/2022/03/cncSlide1-1.jpg"
+    },
+    {
+      "id": "depot-climbing-leeds",
+      "name": "Depot Climbing Leeds",
+      "address": "Unit 1, Richardshaw Road, LS28 6LE Pudsey",
+      "url": "https://www.depotclimbing.co.uk/leeds/",
+      "lat": 53.8035744,
+      "lng": -1.6597555,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.depotclimbing.co.uk/leeds/wp-content/uploads/sites/13/2024/03/Website-Banner-Homepages-Cover.jpg"
+    },
+    {
+      "id": "depot-leeds-armley",
+      "name": "Depot Climbing Leeds Armley",
+      "address": "Unit 1, Armley Road, LS12 2QH Leeds",
+      "url": "https://www.depotclimbing.co.uk/leeds-armley",
+      "lat": 53.7980512,
+      "lng": -1.5785778,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.depotclimbing.co.uk/leeds-armley/wp-content/uploads/sites/19/2022/09/depot-climbing_centre-social-icon.png"
+    },
+    {
+      "id": "the-climbing-lab",
+      "name": "The Climbing Lab",
+      "address": "Unit 3, Cross Green Industrial Estate, Leeds LS9 0SG",
+      "url": "https://www.theclimbinglab.co.uk/",
+      "lat": 53.785622,
+      "lng": -1.512045,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-leeds-wall",
+      "name": "The Leeds Wall",
+      "address": "100a Gelderd Road, Wortley, Leeds LS12 6BY",
+      "url": "https://www.theleedswall.co.uk/",
+      "lat": 53.784078,
+      "lng": -1.576413,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "university-of-leeds-climbing-wall",
+      "name": "University of Leeds Climbing Wall",
+      "address": "The Edge, University of Leeds, Leeds LS2 9JT",
+      "url": "https://sport.leeds.ac.uk/",
+      "lat": 53.807974,
+      "lng": -1.553334,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

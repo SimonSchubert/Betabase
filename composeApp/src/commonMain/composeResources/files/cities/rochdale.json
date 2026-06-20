@@ -1,0 +1,22 @@
+{
+  "city": "Rochdale",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "climb-rochdale",
+      "name": "Climb Rochdale",
+      "address": "Rochdale Leisure Centre, Entwisle Road, Rochdale OL16 2HZ",
+      "url": "https://www.climbrochdale.co.uk/",
+      "lat": 53.618389,
+      "lng": -2.149501,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

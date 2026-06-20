@@ -1,0 +1,21 @@
+{
+  "city": "Milnsbridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:59Z",
+  "gyms": [
+    {
+      "id": "milnsbridge-climbing-boulder",
+      "name": "Milnsbridge Climbing Boulder",
+      "address": "Crow Lane Recreation Ground, Milnsbridge, Huddersfield HD3 4JL",
+      "url": "https://www.kirklees.gov.uk/",
+      "lat": 53.648376,
+      "lng": -1.839395,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

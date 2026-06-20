@@ -1,0 +1,22 @@
+{
+  "city": "Fremont",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-peak-of-fremont",
+      "name": "The Peak of Fremont",
+      "address": "CA 94538",
+      "url": "https://thepeakoffremont.com",
+      "lat": 37.5104988,
+      "lng": -121.9509636,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

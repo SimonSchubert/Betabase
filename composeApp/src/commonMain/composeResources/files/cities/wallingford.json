@@ -1,0 +1,37 @@
+{
+  "city": "Wallingford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mountain-fun",
+      "name": "Mountain Fun",
+      "address": "Wallingford, Connecticut",
+      "url": "https://www.primeclimb.com",
+      "lat": 41.4549389,
+      "lng": -72.8353501,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "prime-climb",
+      "name": "Prime Climb",
+      "address": "Wallingford, Connecticut",
+      "url": "https://www.primeclimb.com",
+      "lat": 41.4549631,
+      "lng": -72.8349398,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

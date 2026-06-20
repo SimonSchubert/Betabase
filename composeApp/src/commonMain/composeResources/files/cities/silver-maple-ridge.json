@@ -1,0 +1,22 @@
+{
+  "city": "Silver Maple Ridge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "active-climbing-augusta",
+      "name": "Active Climbing Augusta",
+      "address": "643 South Old Belair Road, GA",
+      "url": "https://www.activeclimbingaugusta.com",
+      "lat": 33.4811185,
+      "lng": -82.140159,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

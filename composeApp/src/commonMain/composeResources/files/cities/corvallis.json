@@ -1,0 +1,21 @@
+{
+  "city": "Corvallis",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "valley-rock-gym",
+      "name": "Valley Rock Gym",
+      "address": "401 Southwest Jefferson Avenue, Corvallis, OR 97333",
+      "url": "https://valleyrockgym.com/home",
+      "lat": 44.5630992,
+      "lng": -123.2630054,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

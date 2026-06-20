@@ -1,0 +1,69 @@
+{
+  "city": "York",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "energise-leisure-centre-climbing",
+      "name": "Energise Leisure Centre Climbing",
+      "address": "Acomb, York YO24 4BZ",
+      "url": "https://www.better.org.uk/leisure-centre/york/energise",
+      "lat": 53.946144,
+      "lng": -1.117139,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    },
+    {
+      "id": "red-goat-climbing",
+      "name": "Red Goat Climbing",
+      "address": "6 Redeness Street, York YO31 7UU",
+      "url": "https://www.redgoatclimbing.co.uk/",
+      "lat": 53.961812,
+      "lng": -1.070992,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.redgoatclimbing.co.uk/wp-content/uploads/2022/03/logo2.png"
+    },
+    {
+      "id": "university-of-york-climbing-wall",
+      "name": "University of York Climbing Wall",
+      "address": "University of York Sports Centre, York YO10 5NA",
+      "url": "https://www.york.ac.uk/sport/",
+      "lat": 53.944643,
+      "lng": -1.056792,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.york.ac.uk/static/2/images/uoy_logo_white.svg"
+    },
+    {
+      "id": "york-climbing-centre",
+      "name": "York Climbing Centre",
+      "address": "Unit 2, Rose Avenue, York YO26 6RU",
+      "url": "https://www.yorkclimbingcentre.co.uk/",
+      "lat": 53.975785,
+      "lng": -1.126866,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Scunthorpe",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:57:02Z",
+  "gyms": [
+    {
+      "id": "west-common-youth-sports-hall-climbing",
+      "name": "West Common Youth Sports Hall Climbing",
+      "address": "West Common Lane, Scunthorpe DN17 1DS",
+      "url": "https://www.northlincs.gov.uk/",
+      "lat": 53.572996,
+      "lng": -0.669164,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Newark",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "method-climbing-gym",
+      "name": "Method Climbing Gym",
+      "address": "16 Lombardy Street, Newark, NJ 07102",
+      "url": "https://methodclimb.com",
+      "lat": 40.7430122,
+      "lng": -74.1686127,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

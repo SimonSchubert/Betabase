@@ -1,0 +1,21 @@
+{
+  "city": "Omaha",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "approach-climbing-gym",
+      "name": "Approach Climbing Gym",
+      "address": "Omaha, Nebraska",
+      "url": "https://omaharockgym.com",
+      "lat": 41.2101678,
+      "lng": -96.0232799,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

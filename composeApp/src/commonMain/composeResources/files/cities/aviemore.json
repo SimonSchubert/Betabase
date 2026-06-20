@@ -1,0 +1,37 @@
+{
+  "city": "Aviemore",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "aviemore-indoor-climbing-wall",
+      "name": "Aviemore Indoor Climbing Wall",
+      "address": "Dalfaber Industrial Estate, Aviemore PH22 1ST",
+      "url": "https://www.highlifehighland.com/",
+      "lat": 57.202382,
+      "lng": -3.819256,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "glenmore-lodge-climbing",
+      "name": "Glenmore Lodge Climbing",
+      "address": "Glenmore, Aviemore PH22 1QU",
+      "url": "https://www.glenmorelodge.org.uk/",
+      "lat": 57.1175,
+      "lng": -3.8301,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

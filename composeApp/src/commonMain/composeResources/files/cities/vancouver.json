@@ -1,0 +1,22 @@
+{
+  "city": "Vancouver",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-source-climbing-center",
+      "name": "The Source Climbing Center",
+      "address": "1118 Main Street, Vancouver, WA 98660",
+      "url": "https://www.sourceclimbing.com",
+      "lat": 45.6301388,
+      "lng": -122.6719564,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

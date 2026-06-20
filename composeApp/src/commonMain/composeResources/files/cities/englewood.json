@@ -1,0 +1,22 @@
+{
+  "city": "Englewood",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-englewood",
+      "name": "Movement Englewood",
+      "address": "1050 West Hampden Avenue, Englewood, CO 80110",
+      "url": "https://www.earthtreksclimbing.com/englewood",
+      "lat": 39.6501209,
+      "lng": -105.0007344,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

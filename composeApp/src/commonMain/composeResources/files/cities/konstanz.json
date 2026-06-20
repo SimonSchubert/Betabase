@@ -24,7 +24,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5ca714607eb88c749514d68c/1659445446704-S87PXBGYZ2H769C5S1YD/focus-boulder14.jpg"
     },
     {
       "id": "kletterwerk-radolfzell",
@@ -47,7 +48,8 @@
         "fri": "15:00-22:30",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://www.kletterwerk.de/140%20-%20Sektion%20Konstanz/Kletterwerk/Hallenteile/212171/image-thumb__212171__heroteaser/AH_roundview@2x.d3cf3097.webp"
     }
   ],
   "source": "manual-curation-web-research",

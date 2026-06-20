@@ -1,0 +1,22 @@
+{
+  "city": "Saint Louis",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-so-ill-at-the-power-plant",
+      "name": "Climb So iLL at the Power Plant",
+      "address": "1419 Carroll Street, Saint Louis, MO 63104",
+      "url": "https://stlouis.climbsoill.com",
+      "lat": 38.6147657,
+      "lng": -90.2078617,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

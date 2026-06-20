@@ -1,0 +1,22 @@
+{
+  "city": "Incline Village",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "high-altitude-fitness",
+      "name": "High Altitude Fitness",
+      "address": "880 Northwood Boulevard, Incline Village, NV 89451",
+      "url": "https://www.highaltitudefit.net",
+      "lat": 39.2532178,
+      "lng": -119.9537123,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

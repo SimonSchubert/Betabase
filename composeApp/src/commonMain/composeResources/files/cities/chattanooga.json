@@ -1,0 +1,21 @@
+{
+  "city": "Chattanooga",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "high-point-climbing-gym",
+      "name": "High Point Climbing Gym",
+      "address": "219 Broad Street, TN 37402",
+      "url": "https://www.highpointclimbing.com/locations/downtown",
+      "lat": 35.0540679,
+      "lng": -85.310981,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

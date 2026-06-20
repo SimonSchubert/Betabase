@@ -1,0 +1,22 @@
+{
+  "city": "Rocklin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "quarry-park-adventures",
+      "name": "Quarry Park Adventures",
+      "address": "5373 Pacific Street, Rocklin, CA 95677",
+      "url": "https://quarrypark.com/adventures",
+      "lat": 38.7887244,
+      "lng": -121.2357059,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

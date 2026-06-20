@@ -1,0 +1,82 @@
+{
+  "city": "Chicago",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "first-ascent-avondale",
+      "name": "First Ascent Avondale",
+      "address": "3516 North Spaulding Avenue, Chicago, IL 60618",
+      "url": "https://faclimbing.com/chicago",
+      "lat": 41.9451229,
+      "lng": -87.710378,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "first-ascent-block-37",
+      "name": "First Ascent Block 37",
+      "address": "108 North State Street, Chicago, IL 60602",
+      "url": "https://faclimbing.com/chicago/block-37",
+      "lat": 41.8840436,
+      "lng": -87.6287724,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "first-ascent-humboldt-park",
+      "name": "First Ascent Humboldt Park",
+      "address": "2950 West Grand Avenue, Chicago, IL 60622",
+      "url": "https://faclimbing.com/chicago/humboldt-park",
+      "lat": 41.8964703,
+      "lng": -87.7015534,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-lincoln-park",
+      "name": "Movement Lincoln Park",
+      "address": "1460 North Dayton Street, Chicago, IL 60642",
+      "url": "https://movementgyms.com/lincoln-park",
+      "lat": 41.907987,
+      "lng": -87.6495845,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "steelworkers-park-climbing-wall",
+      "name": "Steelworkers Park Climbing Wall",
+      "address": "Chicago, Illinois",
+      "url": "https://www.chicagoparkdistrict.com/parks-facilities/steelworkersparkclimbingwall",
+      "lat": 41.7394982,
+      "lng": -87.5304723,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

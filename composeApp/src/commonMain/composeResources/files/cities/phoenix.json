@@ -1,0 +1,21 @@
+{
+  "city": "Phoenix",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "black-rock-bouldering-gym",
+      "name": "Black Rock Bouldering Gym",
+      "address": "10436 North 32nd Street, Phoenix, AZ 85028",
+      "url": "https://www.blackrockboulderinggym.com",
+      "lat": 33.5812835,
+      "lng": -112.0136397,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

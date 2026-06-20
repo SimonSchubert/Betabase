@@ -1,0 +1,22 @@
+{
+  "city": "Poughkeepsie",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "gravity-vault-indoor-rock-gyms",
+      "name": "Gravity Vault Indoor Rock Gyms",
+      "address": "6 Neptune Road, Poughkeepsie, NY 12601",
+      "url": "https://www.gravityvault.com/locations/poughkeepsie-ny",
+      "lat": 41.6437967,
+      "lng": -73.9250928,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

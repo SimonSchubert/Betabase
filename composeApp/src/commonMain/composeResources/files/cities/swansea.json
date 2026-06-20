@@ -1,0 +1,37 @@
+{
+  "city": "Swansea",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "clyne-farm-climbing",
+      "name": "Clyne Farm Climbing",
+      "address": "Westport Avenue, Mayals, Swansea SA3 5AR",
+      "url": "https://www.clynefarm.com/",
+      "lat": 51.598943,
+      "lng": -4.010031,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "swansea-university-climbing-wall",
+      "name": "Swansea University Climbing Wall",
+      "address": "Sketty Lane, Swansea SA2 8PP",
+      "url": "https://www.swansea.ac.uk/",
+      "lat": 51.609631,
+      "lng": -3.980635,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

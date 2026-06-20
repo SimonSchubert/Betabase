@@ -10,8 +10,13 @@
       "url": "https://boulderhalle-leipzig.de",
       "lat": 51.3518234,
       "lng": 12.3954476,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter"
+      ],
       "size_sqm": 2100,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -21,7 +26,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-23:00",
         "sun": "10:00-23:00"
-      }
+      },
+      "image_url": "https://boulderhalle-leipzig.de/wp-content/uploads/2026/04/logotransparentkleinorange-scaled.png"
     },
     {
       "id": "kosmos-bouldern-leipzig",
@@ -30,7 +36,9 @@
       "url": "https://kosmos-bouldern.de",
       "lat": 51.3230532,
       "lng": 12.3354915,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 650,
       "opening_hours": {
@@ -41,7 +49,8 @@
         "fri": "09:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://kosmos-bouldern.de/wp-content/uploads/2021/12/kosmoslogo.jpg"
     },
     {
       "id": "no-limit-kletterhalle-leipzig",
@@ -50,7 +59,10 @@
       "url": "https://kletterhalle-leipzig.de",
       "lat": 51.3561866,
       "lng": 12.3847053,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 2300,
       "opening_hours": {
@@ -61,7 +73,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-23:00",
         "sun": "10:00-23:00"
-      }
+      },
+      "image_url": "https://kletterhalle-leipzig.de/wp-content/uploads/2026/06/Ferienklettern-Aushang-Sommerferien-2026-1024x679.jpg"
     },
     {
       "id": "onyx-boulderspot-leipzig",
@@ -69,9 +82,13 @@
       "address": "Franz-Flemming-Straße 35, 04179 Leipzig",
       "url": "https://www.onyx-leipzig.de",
       "lat": 51.3464813,
-      "lng": 12.3055280,
-      "disciplines": ["boulder"],
-      "boards": ["spray"],
+      "lng": 12.305528,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -81,7 +98,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.onyx-leipzig.de/wp-content/uploads/2025/01/Foto-05.11.24-12-46-52-scaled.jpg"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "city": "Castleford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "vertical-chill-castleford",
+      "name": "Vertical Chill Castleford",
+      "address": "Colorado Way, Glasshoughton, Castleford WF10 4TA",
+      "url": "https://www.vertical-chill.com/",
+      "lat": 53.710191,
+      "lng": -1.3419,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

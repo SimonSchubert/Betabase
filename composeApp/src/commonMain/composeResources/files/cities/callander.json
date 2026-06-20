@@ -1,0 +1,22 @@
+{
+  "city": "Callander",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "mclaren-leisure-centre-climbing",
+      "name": "McLaren Leisure Centre Climbing",
+      "address": "Mollands Road, Callander FK17 8JP",
+      "url": "https://www.mclarenleisurecentre.co.uk/",
+      "lat": 56.236855,
+      "lng": -4.212617,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

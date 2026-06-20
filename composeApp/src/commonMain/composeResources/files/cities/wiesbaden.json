@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://wiesbadener-nordwand.de/wp-content/uploads/2023/12/IMG_6239-scaled.jpeg"
     },
     {
       "id": "studio-bloc-wiesbaden",
@@ -36,7 +37,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-23:00",
         "sun": "10:00-23:00"
-      }
+      },
+      "image_url": "http://wiesbaden.studiobloc.de/wp-content/uploads/2025/12/130-_DSC3299-scaled.jpg"
     }
   ],
   "source": "manual-curation-web-research",

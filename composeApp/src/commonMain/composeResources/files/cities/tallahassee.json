@@ -1,0 +1,22 @@
+{
+  "city": "Tallahassee",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "alchemy-climbing",
+      "name": "Alchemy Climbing",
+      "address": "2810 Sharer Road, Tallahassee, FL 32312",
+      "url": "https://movies8tallahassee.com",
+      "lat": 30.4805899,
+      "lng": -84.2973861,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

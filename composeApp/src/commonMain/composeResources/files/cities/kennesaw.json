@@ -1,0 +1,22 @@
+{
+  "city": "Kennesaw",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "comfort-suites-at-kennesaw-state-university",
+      "name": "Comfort Suites at Kennesaw State University",
+      "address": "3366 Busbee Drive Northwest, Kennesaw, GA 30144",
+      "url": "https://www.choicehotels.com/georgia/kennesaw/comfort-suites-hotels/ga539",
+      "lat": 34.0325317,
+      "lng": -84.5725724,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

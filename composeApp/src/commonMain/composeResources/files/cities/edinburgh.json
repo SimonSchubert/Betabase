@@ -1,7 +1,7 @@
 {
   "city": "Edinburgh",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-06-20T12:14:58Z",
   "gyms": [
     {
       "id": "alien-bloc",
@@ -10,7 +10,9 @@
       "url": "https://www.alienrock.co.uk",
       "lat": 55.9646823,
       "lng": -3.1929215,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "10:00-22:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      }
+      },
+      "image_url": "https://www.alienrock.co.uk/wp-content/uploads/2024/08/logo.gif"
     },
     {
       "id": "alien-rock",
@@ -30,7 +33,10 @@
       "url": "https://www.alienrock.co.uk",
       "lat": 55.9805434,
       "lng": -3.1963641,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +47,53 @@
         "fri": "10:00-22:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      }
+      },
+      "image_url": "https://www.alienrock.co.uk/wp-content/uploads/2024/08/logo.gif"
+    },
+    {
+      "id": "eica-ratho",
+      "name": "Edinburgh International Climbing Arena",
+      "address": "Union Canal Towpath, EH28 8AA Ratho",
+      "url": "https://www.edinburghleisure.co.uk/venues/edinburgh-international-climbing-arena",
+      "lat": 55.9234025,
+      "lng": -3.3978164,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "edinburgh-university-climbing-wall",
+      "name": "Edinburgh University Climbing Wall",
+      "address": "Centre for Sport and Exercise, 46 Pleasance, Edinburgh EH8 9TJ",
+      "url": "https://www.sport.ed.ac.uk/",
+      "lat": 55.947238,
+      "lng": -3.181714,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "meadowbank-sports-centre-climbing",
+      "name": "Meadowbank Sports Centre Climbing",
+      "address": "139 London Road, Edinburgh EH7 5TT",
+      "url": "https://www.edinburghleisure.co.uk/",
+      "lat": 55.956915,
+      "lng": -3.163719,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "climbing-hangar-edinburgh",
@@ -50,7 +102,9 @@
       "url": "https://www.theclimbinghangar.com/locations/edinburgh",
       "lat": 55.9560589,
       "lng": -3.1241059,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -61,19 +115,8 @@
         "fri": "06:30-21:00",
         "sat": "09:00-19:00",
         "sun": "09:00-19:00"
-      }
-    },
-    {
-      "id": "eica-ratho",
-      "name": "Edinburgh International Climbing Arena",
-      "address": "Union Canal Towpath, EH28 8AA Ratho",
-      "url": "https://www.edinburghleisure.co.uk/venues/edinburgh-international-climbing-arena",
-      "lat": 55.9234025,
-      "lng": -3.3978164,
-      "disciplines": ["boulder", "lead"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
+      },
+      "image_url": "https://www.theclimbinghangar.com/media/4529/website-72dpi-tch-sheffield-photography-september-2023-rob-battersby-55.jpg?anchor=center&mode=crop&quality=70&width=768&height=768&rnd=133451185720000000"
     }
   ]
 }

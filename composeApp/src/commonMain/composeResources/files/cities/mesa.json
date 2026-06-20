@@ -1,0 +1,22 @@
+{
+  "city": "Mesa",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "focus-climbing-center",
+      "name": "Focus Climbing Center",
+      "address": "2150 West Broadway Road, Mesa, AZ 85202",
+      "url": "https://focusclimbingcenter.com",
+      "lat": 33.4089755,
+      "lng": -111.8774171,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

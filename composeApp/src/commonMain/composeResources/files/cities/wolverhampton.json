@@ -1,0 +1,22 @@
+{
+  "city": "Wolverhampton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "wolf-mountain-activity-centre",
+      "name": "Wolf Mountain Activity Centre",
+      "address": "Paget Road, Wolverhampton WV6 0DU",
+      "url": "https://www.wolfmountainactivitycentre.co.uk/",
+      "lat": 52.5936,
+      "lng": -2.1489,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

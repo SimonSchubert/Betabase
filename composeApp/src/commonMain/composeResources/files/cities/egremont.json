@@ -1,0 +1,37 @@
+{
+  "city": "Egremont",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "west-lakes-academy-climbing",
+      "name": "West Lakes Academy Climbing",
+      "address": "Main Street, Egremont CA22 2DQ",
+      "url": "https://www.westlakesacademy.org.uk/",
+      "lat": 54.484386,
+      "lng": -3.529319,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "wyndham-school-sports-centre-climbing",
+      "name": "Wyndham School Sports Centre Climbing",
+      "address": "Main Street, Egremont CA22 2XZ",
+      "url": "https://www.wyndham.cumbria.sch.uk/",
+      "lat": 54.4823477,
+      "lng": -3.5284637,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

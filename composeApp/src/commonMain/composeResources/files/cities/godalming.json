@@ -1,0 +1,22 @@
+{
+  "city": "Godalming",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "charterhouse-club-climbing-wall",
+      "name": "Charterhouse Club Climbing Wall",
+      "address": "Dukes Drive, Charterhouse, Godalming GU7 2RS",
+      "url": "https://www.charterhouseclub.com/",
+      "lat": 51.198885,
+      "lng": -0.628981,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

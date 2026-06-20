@@ -1,0 +1,22 @@
+{
+  "city": "Goleta",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-pad-climbing",
+      "name": "The Pad Climbing",
+      "address": "5160 Hollister Avenue, Goleta, CA 93111",
+      "url": "https://thepadclimbing.org/santa-barbara",
+      "lat": 34.4368168,
+      "lng": -119.8040126,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

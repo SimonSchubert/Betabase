@@ -1,0 +1,22 @@
+{
+  "city": "Santa Cruz",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "pacific-edge",
+      "name": "Pacific Edge",
+      "address": "104 Bronson Street, Santa Cruz, CA 95062",
+      "url": "https://pacificedgeclimbinggym.com",
+      "lat": 36.9680396,
+      "lng": -122.006511,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

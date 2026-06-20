@@ -23,7 +23,8 @@
         "fri": "12:00-22:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.neoliet.de/wp-content/uploads/2019/12/Bouldern-in-Oberhausen.jpg"
     },
     {
       "id": "neoliet-boulderbar-essen",
@@ -47,7 +48,8 @@
         "fri": "10:00-22:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.neoliet.de/wp-content/uploads/2019/12/Bouldern-in-Gelsenkirchen.jpg"
     }
   ],
   "source": "manual-curation-web-research",

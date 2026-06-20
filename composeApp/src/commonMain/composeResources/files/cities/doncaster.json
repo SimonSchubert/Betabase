@@ -1,0 +1,23 @@
+{
+  "city": "Doncaster",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "doncaster-climbing-centre",
+      "name": "Doncaster Climbing Centre",
+      "address": "The Dome, Doncaster Leisure Park, Doncaster DN4 7NW",
+      "url": "https://www.the-dome.co.uk/",
+      "lat": 53.513188,
+      "lng": -1.105481,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.moirae.co.uk/images/moirae_logo_footer.svg"
+    }
+  ]
+}

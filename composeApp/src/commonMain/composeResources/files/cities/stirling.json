@@ -1,0 +1,22 @@
+{
+  "city": "Stirling",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "the-peak-stirling",
+      "name": "The Peak Stirling",
+      "address": "Forthside Way, Stirling FK7 7UJ",
+      "url": "https://www.the-peak-stirling.org.uk/",
+      "lat": 56.1198,
+      "lng": -3.9366,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

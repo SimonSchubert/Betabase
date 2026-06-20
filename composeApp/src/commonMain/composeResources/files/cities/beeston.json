@@ -1,0 +1,21 @@
+{
+  "city": "Beeston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "beeston-youth-centre-climbing",
+      "name": "Beeston Youth Centre Climbing",
+      "address": "West End, Beeston, Nottingham NG9 1GL",
+      "url": "https://www.nottinghamshire.gov.uk/",
+      "lat": 52.923046,
+      "lng": -1.216983,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

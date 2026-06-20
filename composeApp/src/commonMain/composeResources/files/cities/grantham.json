@@ -1,0 +1,22 @@
+{
+  "city": "Grantham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "grantham-meres-climbing-wall",
+      "name": "Grantham Meres Climbing Wall",
+      "address": "Trent Road, Grantham NG31 7XQ",
+      "url": "https://www.leisureconnection.co.uk/",
+      "lat": 52.90727,
+      "lng": -0.665082,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

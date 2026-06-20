@@ -1,0 +1,21 @@
+{
+  "city": "Fort William",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "fort-william-climbing-wall",
+      "name": "Fort William Climbing Wall",
+      "address": "Calluna Bunkhouse, Connochie Road, Fort William PH33 6JX",
+      "url": "https://www.fortwilliam.co.uk/",
+      "lat": 56.811114,
+      "lng": -5.116928,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

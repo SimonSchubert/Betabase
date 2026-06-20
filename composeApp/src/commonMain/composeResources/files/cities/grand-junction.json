@@ -1,0 +1,22 @@
+{
+  "city": "Grand Junction",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "grand-valley-climbing",
+      "name": "Grand Valley Climbing",
+      "address": "611 25 Road, Grand Junction, CO 81505",
+      "url": "https://grandvalleyclimbing.com",
+      "lat": 39.0935494,
+      "lng": -108.5908568,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

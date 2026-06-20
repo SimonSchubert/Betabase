@@ -1,0 +1,22 @@
+{
+  "city": "Loveland",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mosaic-climbing",
+      "name": "Mosaic Climbing",
+      "address": "9501 Union Cemetery Road, Loveland, OH 45140",
+      "url": "https://www.mosaicclimbing.com",
+      "lat": 39.2838969,
+      "lng": -84.29715,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "city": "Stevenage",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "high-sports-stevenage",
+      "name": "High Sports Stevenage",
+      "address": "Stevenage Arts & Leisure Centre, Lytton Way, Stevenage SG1 1LZ",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.901873,
+      "lng": -0.20532,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "city": "Cheltenham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "cheltenham-climbing-centre",
+      "name": "Cheltenham Climbing Centre",
+      "address": "Cheltenham Leisure Centre, Tommy Taylors Lane, Cheltenham GL50 4RN",
+      "url": "https://www.better.org.uk/",
+      "lat": 51.910159,
+      "lng": -2.078475,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://web-assets.better.org.uk/image/047719655275/image_jo8u4jqv9h7ot84l88is4vg05v/-FWEBP"
+    }
+  ]
+}

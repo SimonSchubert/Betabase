@@ -1,0 +1,22 @@
+{
+  "city": "Brighouse",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "rokt-climbing-gym",
+      "name": "ROKT Climbing Gym",
+      "address": "Sugdens Old Flour Mill, Mill Royd Street, Brighouse HD6 1EY",
+      "url": "https://www.rokt.co.uk/",
+      "lat": 53.700245,
+      "lng": -1.780763,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Blue Springs",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ibex-climbing-gym",
+      "name": "Ibex Climbing Gym",
+      "address": "801 Northwest South Outer Road, Blue Springs, MO 64015",
+      "url": "https://www.climbibex.com",
+      "lat": 39.0297656,
+      "lng": -94.2736661,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

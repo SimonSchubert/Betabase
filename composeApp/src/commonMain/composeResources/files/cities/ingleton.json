@@ -1,0 +1,22 @@
+{
+  "city": "Ingleton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "inglesport-climbing-wall",
+      "name": "Inglesport Climbing Wall",
+      "address": "11 The Square, Ingleton LA6 3EB",
+      "url": "https://www.inglesport.com/",
+      "lat": 54.15398,
+      "lng": -2.467606,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Buellton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "highline-adventures",
+      "name": "Highline Adventures",
+      "address": "700 East Highway 246, Buellton, CA 93427",
+      "url": "https://highlineadventures.com",
+      "lat": 34.5948499,
+      "lng": -120.1787179,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

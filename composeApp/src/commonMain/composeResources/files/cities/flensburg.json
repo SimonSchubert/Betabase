@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.nordlandwelle.de/resources/pics/logo_nordlandwelle.png"
     },
     {
       "id": "flensbloc-flensburg",
@@ -36,7 +37,8 @@
         "fri": "12:00-22:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1818x10000:format=png/path/s378be2a49fbde746/image/i22da53f18d1eda58/version/1598024024/image.png"
     }
   ],
   "source": "manual-curation-web-research",

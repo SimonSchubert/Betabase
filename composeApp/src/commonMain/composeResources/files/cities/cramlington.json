@@ -1,0 +1,22 @@
+{
+  "city": "Cramlington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "concordia-leisure-centre-climbing",
+      "name": "Concordia Leisure Centre Climbing",
+      "address": "Forum Way, Cramlington NE23 6YB",
+      "url": "https://www.bval.co.uk/",
+      "lat": 55.085046,
+      "lng": -1.591822,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

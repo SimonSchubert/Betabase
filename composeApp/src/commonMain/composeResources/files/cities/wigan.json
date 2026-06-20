@@ -1,0 +1,23 @@
+{
+  "city": "Wigan",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:52:45Z",
+  "gyms": [
+    {
+      "id": "wigan-climbing-centre",
+      "name": "Wigan Climbing Centre",
+      "address": "Wigan Life Centre, College Avenue, Wigan WN1 1NJ",
+      "url": "https://www.wigan.gov.uk/",
+      "lat": 53.544658,
+      "lng": -2.629289,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.wigan.gov.uk/Images/slider/Here-for-you-cost-of-living-banner.png"
+    }
+  ]
+}

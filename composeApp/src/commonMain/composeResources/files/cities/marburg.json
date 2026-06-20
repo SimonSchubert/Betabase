@@ -14,7 +14,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kletterhalle-marburg.de/167%20-%20Sektion%20Marburg-Lahn/Kletterhalle/Hallenfotos/57953/image-thumb__57953__heroteaser/VKM_Aussen7@2x.217c7f21.webp"
     },
     {
       "id": "gaia-boulderhalle-marburg",
@@ -36,7 +37,8 @@
         "fri": "10:00-22:30",
         "sat": "10:00-22:30",
         "sun": "10:00-22:30"
-      }
+      },
+      "image_url": "https://www.gaia-boulderhalle.de/assets/images/logo.svg"
     }
   ],
   "source": "manual-curation-web-research",

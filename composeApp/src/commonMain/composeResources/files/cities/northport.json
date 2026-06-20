@@ -1,0 +1,22 @@
+{
+  "city": "Northport",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "crux-climbing",
+      "name": "Crux Climbing",
+      "address": "Northport, Alabama",
+      "url": "https://www.cruxclimbingal.com",
+      "lat": 33.2322084,
+      "lng": -87.6106639,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

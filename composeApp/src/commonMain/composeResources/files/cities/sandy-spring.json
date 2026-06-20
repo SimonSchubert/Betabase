@@ -1,0 +1,22 @@
+{
+  "city": "Sandy Spring",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-adventure-park-at-sandy-spring-friends-school",
+      "name": "The Adventure Park at Sandy Spring Friends School",
+      "address": "16701 Norwood Road, Sandy Spring, MD 20860",
+      "url": "https://sandyspringadventurepark.org",
+      "lat": 39.1314411,
+      "lng": -77.0252473,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "city": "Tunbridge Wells",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T10:53:36Z",
+  "gyms": [
+    {
+      "id": "high-sports-tunbridge-wells",
+      "name": "High Sports Tunbridge Wells",
+      "address": "Tunbridge Wells Sports Centre, St Johns Road, Tunbridge Wells TN4 9TX",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.149631,
+      "lng": 0.259496,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "karma-climbing-centre",
+      "name": "Karma Climbing Centre",
+      "address": "3 North Farm Road, Tunbridge Wells TN2 3DR",
+      "url": "https://www.karmaclimbing.com/",
+      "lat": 51.1498,
+      "lng": 0.2836,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Brooklyn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "metrorock-brooklyn",
+      "name": "MetroRock Brooklyn",
+      "address": "321 Starr Street, Brooklyn, NY 11237",
+      "url": "https://www.metrorock.com/brooklyn",
+      "lat": 40.7080614,
+      "lng": -73.9203394,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-cliffs-at-dumbo",
+      "name": "The Cliffs at DUMBO",
+      "address": "99 Plymouth Street, Brooklyn, NY 11201",
+      "url": "https://dumbo.thecliffsclimbing.com",
+      "lat": 40.7041336,
+      "lng": -73.9891475,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

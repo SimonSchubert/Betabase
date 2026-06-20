@@ -16,7 +16,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.wupperwaende.de/025%20-%20Sektion%20Wuppertal/03%20Geb%C3%A4ude/05%20Wupperw%C3%A4nde/136443/image-thumb__136443__heroteaser/WW%20au%C3%9Fen%202@2x.c7fc8294.webp"
     },
     {
       "id": "boulderhalle-prisma",
@@ -38,7 +39,8 @@
         "fri": "11:00-23:00",
         "sat": "10:00-23:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://boulderhalle-prisma.de/wp-content/uploads/2023/01/overview.png"
     }
   ]
 }

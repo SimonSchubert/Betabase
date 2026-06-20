@@ -1,0 +1,21 @@
+{
+  "city": "Overland Park",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "apex-climbing-gym",
+      "name": "Apex Climbing Gym",
+      "address": "7200 West 106th Street, Overland Park, KS 66212",
+      "url": "https://apexclimbinggym.com",
+      "lat": 38.9365506,
+      "lng": -94.6697286,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

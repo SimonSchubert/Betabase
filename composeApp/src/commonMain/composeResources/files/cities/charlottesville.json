@@ -1,0 +1,22 @@
+{
+  "city": "Charlottesville",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rocky-top-climbing",
+      "name": "Rocky Top Climbing",
+      "address": "1729 Allied Street, Charlottesville, VA 22903",
+      "url": "https://www.rockytopclimbing.com",
+      "lat": 38.0412248,
+      "lng": -78.4784461,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "city": "Newcastle",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:07:43Z",
+  "gyms": [
+    {
+      "id": "berghaus-wall-eldon-square",
+      "name": "Berghaus Wall Eldon Square",
+      "address": "Eldon Square, Newcastle upon Tyne NE1 7XY",
+      "url": "https://www.northcountryleisure.org.uk/newcastle",
+      "lat": 54.973703,
+      "lng": -1.615431,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-newcastle-pool",
+      "name": "Climb Newcastle @ The Pool",
+      "address": "Shipley Place, NE6 2DQ Newcastle upon Tyne",
+      "url": "https://www.climbnewcastle.com",
+      "lat": 54.9754163,
+      "lng": -1.5797004,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.climbnewcastle.com/image/cache/catalog/climb-newcastle-logo-new-600x315w.png"
+    },
+    {
+      "id": "newcastle-climbing-centre",
+      "name": "Newcastle Climbing Centre",
+      "address": "St Marks Church, 285 Shields Road, Newcastle upon Tyne NE6 2UQ",
+      "url": "https://www.newcastleclimbingcentre.co.uk/",
+      "lat": 54.978701,
+      "lng": -1.575385,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.newcastleclimbingcentre.co.uk/wp-content/uploads/2025/01/climbing_kids_lessons_newcastle_01-400x250.jpg"
+    },
+    {
+      "id": "sport-central-climbing-wall",
+      "name": "Sport Central Climbing Wall",
+      "address": "Northumbria University, Northumberland Road, Newcastle upon Tyne NE1 8ST",
+      "url": "https://www.nusportcentral.com/",
+      "lat": 54.976634,
+      "lng": -1.607451,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://static.hugedomains.com/images/hdv3-img/hd-header-logo-v3.svg"
+    },
+    {
+      "id": "climb-newcastle-valley",
+      "name": "The Valley Climbing Centre",
+      "address": "Quality Row, NE6 1LN Newcastle upon Tyne",
+      "url": "https://www.climbnewcastle.com",
+      "lat": 54.9739837,
+      "lng": -1.5890023,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.climbnewcastle.com/image/cache/catalog/climb-newcastle-logo-new-600x315w.png"
+    },
+    {
+      "id": "university-of-newcastle-climbing-wall",
+      "name": "University of Newcastle Climbing Wall",
+      "address": "Gosforth Sports Centre, Newcastle University, Newcastle upon Tyne NE3 1YT",
+      "url": "https://www.ncl.ac.uk/sport/",
+      "lat": 55.005906,
+      "lng": -1.608464,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://pxl-nclacuk.terminalfour.net/prod01/channel_3/mediav8/sport-/sport-homepage-hero.jpg"
+    }
+  ]
+}

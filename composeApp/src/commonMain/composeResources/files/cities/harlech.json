@@ -1,0 +1,22 @@
+{
+  "city": "Harlech",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "harlech-climbing-wall",
+      "name": "Harlech Climbing Wall",
+      "address": "Ffordd y Traeth, Harlech LL46 2UG",
+      "url": "https://www.harlechclimbingwall.com/",
+      "lat": 52.862365,
+      "lng": -4.114892,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

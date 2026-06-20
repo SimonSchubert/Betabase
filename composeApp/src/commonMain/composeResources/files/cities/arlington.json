@@ -1,0 +1,37 @@
+{
+  "city": "Arlington",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-upton",
+      "name": "Climb UPton",
+      "address": "6060 Wilson Boulevard, Arlington, VA 22205",
+      "url": "https://www.novaparks.com/parks/climb-upton",
+      "lat": 38.8714884,
+      "lng": -77.1432351,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "movement-crystal-city",
+      "name": "Movement Crystal City",
+      "address": "1235 South Clark Street, Arlington, VA 22202",
+      "url": "https://movementgyms.com/crystal-city",
+      "lat": 38.8616929,
+      "lng": -77.0503061,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

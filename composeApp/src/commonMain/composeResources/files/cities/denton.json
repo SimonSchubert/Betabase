@@ -1,0 +1,22 @@
+{
+  "city": "Denton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "movement-climbing-yoga-fitness",
+      "name": "Movement Climbing, Yoga, & Fitness",
+      "address": "220 West Oak Street, Denton, TX 76201",
+      "url": "https://movementgyms.com/denton",
+      "lat": 33.2158494,
+      "lng": -97.1347886,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

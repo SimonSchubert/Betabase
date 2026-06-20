@@ -10,8 +10,13 @@
       "url": "https://boulderhalle-beta.de",
       "lat": 52.3855295,
       "lng": 9.7309763,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard", "spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "spray"
+      ],
       "size_sqm": 1500,
       "opening_hours": {
         "mon": "10:00-23:00",
@@ -21,7 +26,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://boulderhalle-beta.de/wp-content/uploads/2019/01/Beta-Boulderhalle-Hannover-Logo_weiß_300x140-300x140.png"
     },
     {
       "id": "griffreich",
@@ -30,7 +36,10 @@
       "url": "https://griffreich.de",
       "lat": 52.3388018,
       "lng": 9.7738309,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +50,8 @@
         "fri": "14:00-22:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      }
+      },
+      "image_url": "https://griffreich.de/113%20-%20Sektion%20Hannover/GriffReich/News/179370/image-thumb__179370__heroteaser/%C3%9Cberhang@2x.3de2dcbb.webp"
     },
     {
       "id": "kletterbar-hannover",
@@ -50,7 +60,10 @@
       "url": "https://www.kletterbar-hannover.de",
       "lat": 52.4216976,
       "lng": 9.7255037,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 3400,
       "opening_hours": {
@@ -61,7 +74,8 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://kletterbar-hannover.de/wp-content/uploads/2018/11/Slider_Halle.jpg"
     },
     {
       "id": "urban-apes-hannover",
@@ -70,7 +84,9 @@
       "url": "https://www.urbanapes.de/hannover",
       "lat": 52.3289382,
       "lng": 9.7837325,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 475,
       "opening_hours": {
@@ -81,7 +97,8 @@
         "fri": "10:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
     }
   ]
 }

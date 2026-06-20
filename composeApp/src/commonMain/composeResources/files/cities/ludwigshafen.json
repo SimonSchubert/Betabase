@@ -10,10 +10,14 @@
       "url": "https://www.kletterzentrum-extrem.de",
       "lat": 49.4735238,
       "lng": 8.4505428,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://kletterzentrum.de/wp-content/uploads/2026/01/cropped-Headerbild-Startseite.jpg"
     }
   ]
 }

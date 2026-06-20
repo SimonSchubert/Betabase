@@ -1,0 +1,22 @@
+{
+  "city": "Whitchurch",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:36Z",
+  "gyms": [
+    {
+      "id": "testbourne-community-school-climbing",
+      "name": "Testbourne Community School Climbing",
+      "address": "Micheldever Road, Whitchurch RG28 7PT",
+      "url": "https://www.testbourne.hants.sch.uk/",
+      "lat": 51.282488,
+      "lng": -1.335679,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

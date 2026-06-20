@@ -1,0 +1,22 @@
+{
+  "city": "Lake Geneva",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "lake-geneva-ziplines-and-adventures",
+      "name": "Lake Geneva Ziplines and Adventures",
+      "address": "N3232 County Road H, Lake Geneva, WI 53147",
+      "url": "https://lakegenevaadventures.com",
+      "lat": 42.6119087,
+      "lng": -88.4428725,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

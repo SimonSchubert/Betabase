@@ -1,0 +1,22 @@
+{
+  "city": "Rochester",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "arethusa-venture-centre-climbing",
+      "name": "Arethusa Venture Centre Climbing",
+      "address": "Lower Upnor, Rochester ME2 4XB",
+      "url": "https://www.arethusa.org.uk/",
+      "lat": 51.410491,
+      "lng": 0.526402,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

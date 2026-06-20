@@ -23,7 +23,8 @@
         "fri": "07:00-23:00",
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
-      }
+      },
+      "image_url": "https://www.boulderwelt-karlsruhe.de/wp-content/uploads/2022/07/BW_logo_Karlsruhe-1.png"
     },
     {
       "id": "dav-kletterzentrum-karlsruhe",
@@ -46,7 +47,8 @@
         "fri": "09:30-23:00",
         "sat": "09:30-23:00",
         "sun": "09:30-23:00"
-      }
+      },
+      "image_url": "https://www.dav-kletterzentrum-karlsruhe.de/131%20-%20Sektion%20Karlsruhe/Kletter-%20und%20Boulderzentrum/Kurse%20-%20Indoor/04%20Hallenbilder/23812/image-thumb__23812__heroteaser/DAV_Kletterhalle01@2x.7cbdb326.webp"
     },
     {
       "id": "boulderhalle-steil",
@@ -60,7 +62,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://boulderhalle-steil.com/wp-content/uploads/2023/08/IMG_7218-uai-720x540.jpeg"
     }
   ]
 }

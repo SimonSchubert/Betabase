@@ -1,0 +1,22 @@
+{
+  "city": "Gairloch",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:19:09Z",
+  "gyms": [
+    {
+      "id": "gairloch-leisure-centre-climbing",
+      "name": "Gairloch Leisure Centre Climbing",
+      "address": "Gairloch, Wester Ross IV21 2BQ",
+      "url": "https://www.highlifehighland.com/",
+      "lat": 57.711378,
+      "lng": -5.684689,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

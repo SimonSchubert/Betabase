@@ -1,0 +1,22 @@
+{
+  "city": "Ann Arbor",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "planet-rock",
+      "name": "Planet Rock",
+      "address": "Ann Arbor, Michigan",
+      "url": "https://www.planet-rock.com",
+      "lat": 42.283134,
+      "lng": -83.8089729,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

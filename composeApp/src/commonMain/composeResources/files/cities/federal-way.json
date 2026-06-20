@@ -1,0 +1,22 @@
+{
+  "city": "Federal Way",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-nora",
+      "name": "Climb Nora",
+      "address": "30820 Pacific Highway South, Federal Way, WA 98003",
+      "url": "https://www.climbnora.com",
+      "lat": 47.3252199,
+      "lng": -122.3127729,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

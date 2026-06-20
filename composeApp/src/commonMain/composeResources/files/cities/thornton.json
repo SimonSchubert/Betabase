@@ -1,0 +1,22 @@
+{
+  "city": "Thornton",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-spot-thorton",
+      "name": "The Spot Thorton",
+      "address": "9499 Washington Street, Thornton, CO 80229",
+      "url": "https://www.thespotgym.com/locations/thornton",
+      "lat": 39.868077,
+      "lng": -104.9797739,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

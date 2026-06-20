@@ -1,0 +1,22 @@
+{
+  "city": "Oswestry",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:01:09Z",
+  "gyms": [
+    {
+      "id": "oswestry-climbing-centre",
+      "name": "Oswestry Climbing Centre",
+      "address": "Unit 11 Maesbury Road, Oswestry SY10 8HA",
+      "url": "https://www.oswestryclimbingcentre.co.uk/",
+      "lat": 52.84886,
+      "lng": -3.042001,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

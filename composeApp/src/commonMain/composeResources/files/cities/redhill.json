@@ -1,0 +1,22 @@
+{
+  "city": "Redhill",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "high-sports-redhill",
+      "name": "High Sports Redhill",
+      "address": "Unit 6, Orchard Business Centre, Redhill RH1 5EL",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.197188,
+      "lng": -0.163274,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

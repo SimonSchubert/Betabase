@@ -1,0 +1,38 @@
+{
+  "city": "Harlow",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "high-sports-harlow",
+      "name": "High Sports Harlow",
+      "address": "Harlow Leisurezone, Second Avenue, Harlow CM20 3DT",
+      "url": "https://www.high-sports.co.uk/",
+      "lat": 51.768401,
+      "lng": 0.098877,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f12ce20127abe4c412d2571/ee2bd3dc-b9ab-4499-89bc-3c16aa5e209e/High+Sports+black+logo+only.png"
+    },
+    {
+      "id": "the-lock-climbing-wall",
+      "name": "The Lock Climbing Wall",
+      "address": "Burnt Mill Lane, Harlow CM20 2QS",
+      "url": "https://www.essexoutdoors.com/the_lock_climbing_wall.php",
+      "lat": 51.783521,
+      "lng": 0.095606,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

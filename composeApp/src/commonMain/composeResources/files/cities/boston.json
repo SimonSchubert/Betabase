@@ -1,0 +1,21 @@
+{
+  "city": "Boston",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "central-rock-gym-fenway",
+      "name": "Central Rock Gym Fenway",
+      "address": "5 David Ortiz Drive, Boston, MA 02215",
+      "url": "https://centralrockgym.com/fenway",
+      "lat": 42.3473648,
+      "lng": -71.1005236,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "city": "Castle Rock",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "ubergrippen-indoor-climbing-crag",
+      "name": "Ubergrippen Indoor Climbing Crag",
+      "address": "3690 Bilberry Street, Castle Rock, CO 80109",
+      "url": "https://ugclimbing.com/castle-rock",
+      "lat": 39.4011926,
+      "lng": -104.8874002,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

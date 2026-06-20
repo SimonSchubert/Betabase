@@ -1,0 +1,22 @@
+{
+  "city": "Radstock",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "writhlington-sports-centre-climbing",
+      "name": "Writhlington Sports Centre Climbing",
+      "address": "Knobsbury Lane, Writhlington, Radstock BA3 3NQ",
+      "url": "https://www.writhlingtonsportscentre.co.uk/",
+      "lat": 51.287369,
+      "lng": -2.430883,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

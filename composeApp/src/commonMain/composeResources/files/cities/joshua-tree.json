@@ -1,0 +1,22 @@
+{
+  "city": "Joshua Tree",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "nomad-ventures",
+      "name": "Nomad Ventures",
+      "address": "61795 29 Palms Highway, Joshua Tree, CA 92252",
+      "url": "https://nomadventures.com",
+      "lat": 34.1346947,
+      "lng": -116.315583,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

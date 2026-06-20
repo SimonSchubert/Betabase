@@ -1,0 +1,51 @@
+{
+  "city": "San Diego",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mesa-rim-climbing-fitness-center",
+      "name": "Mesa Rim Climbing & Fitness Center",
+      "address": "10110 Mesa Rim Road, CA 92121",
+      "url": "https://mesarim.com",
+      "lat": 32.9023013,
+      "lng": -117.1777051,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mesa-rim-climbing-academy",
+      "name": "Mesa Rim Climbing Academy",
+      "address": "10070 Mesa Rim Road, San Diego, CA 92121",
+      "url": "https://mesarim.com/academy",
+      "lat": 32.9017124,
+      "lng": -117.177829,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-hold",
+      "name": "Vertical Hold",
+      "address": "2074 Hancock Street, San Diego, CA 92110",
+      "url": "https://www.verticalhold.com",
+      "lat": 32.744932,
+      "lng": -117.188995,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -10,7 +10,9 @@
       "url": "https://boulderplanet.de",
       "lat": 50.9450349,
       "lng": 6.9050147,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1400,
       "opening_hours": {
@@ -21,7 +23,8 @@
         "fri": "09:00-23:30",
         "sat": "09:00-23:30",
         "sun": "09:00-23:30"
-      }
+      },
+      "image_url": "https://boulderplanet.de/wp-content/uploads/2026/02/fakten-boulderrouten-2026.jpg"
     },
     {
       "id": "canyon-chorweiler",
@@ -30,7 +33,10 @@
       "url": "https://www.canyon-chorweiler.de",
       "lat": 51.0291253,
       "lng": 6.8950503,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +47,8 @@
         "fri": "10:00-22:45",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://canyon-chorweiler.de/wp-content/uploads/2026/03/Klettermarathon-Bilder-online-768x960.png"
     },
     {
       "id": "einstein-boulder-koeln",
@@ -50,7 +57,9 @@
       "url": "https://koeln.einstein-boulder.com",
       "lat": 50.9450391,
       "lng": 6.9023595,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 2000,
       "opening_hours": {
@@ -61,7 +70,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://cdn.wisenetwork.fi/assets/einsteinboulderkoeln/icons/apple-icon-114x114.png?"
     },
     {
       "id": "element-boulders-koeln",
@@ -70,7 +80,9 @@
       "url": "https://koeln.element-boulders.de",
       "lat": 50.9366391,
       "lng": 6.9530556,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -81,7 +93,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://koeln.element-boulders.de/files/theme_element_v2/svg/element-logo-white.svg"
     },
     {
       "id": "k11-boulderhalle",
@@ -90,7 +103,9 @@
       "url": "https://k11-koeln.de",
       "lat": 50.9155541,
       "lng": 6.9638068,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -101,7 +116,8 @@
         "fri": "14:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      }
+      },
+      "image_url": "https://k11-koeln.de/wp-content/uploads/2024/07/cropped-logok11-192x192.png"
     },
     {
       "id": "kletterfabrik",
@@ -109,8 +125,11 @@
       "address": "Oskar-Jäger-Straße 173, 50825 Köln",
       "url": "https://www.kletterfabrik.koeln",
       "lat": 50.9470582,
-      "lng": 6.9069460,
-      "disciplines": ["boulder", "lead"],
+      "lng": 6.906946,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": 2750,
       "opening_hours": {
@@ -121,7 +140,8 @@
         "fri": "09:30-23:00",
         "sat": "10:00-21:00",
         "sun": "10:00-21:00"
-      }
+      },
+      "image_url": "https://www.kletterfabrik.koeln/assets/images/b/Kletterfabrik_Fotos_313-3jnxvb9jjzns1mc.jpg"
     },
     {
       "id": "kletterhalle-dellbrueck",
@@ -130,10 +150,14 @@
       "url": "https://kletterhalle-dellbrueck.de",
       "lat": 50.9833751,
       "lng": 7.0734147,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://kletterhalle-dellbrueck.de/wp-content/uploads/2019/11/foto-flyer.png"
     },
     {
       "id": "stuntwerk-koeln-muelheim",
@@ -142,7 +166,9 @@
       "url": "https://stuntwerk.de/koeln-muelheim",
       "lat": 50.9657075,
       "lng": 7.0130676,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 3200,
       "opening_hours": {
@@ -153,7 +179,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://stuntwerk.de/wp-content/uploads/boulderbereich-2_koeln-mh_1200x750px.jpg"
     },
     {
       "id": "stuntwerk-koeln-zollstock",
@@ -162,7 +189,9 @@
       "url": "https://stuntwerk.de/koeln-zollstock",
       "lat": 50.9186197,
       "lng": 6.9393557,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -173,7 +202,8 @@
         "fri": "08:00-22:00",
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
-      }
+      },
+      "image_url": "https://stuntwerk.de/wp-content/uploads/boulderbereich-2_koeln-zst_1200x750px.jpg"
     }
   ]
 }

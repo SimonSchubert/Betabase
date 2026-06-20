@@ -1,0 +1,22 @@
+{
+  "city": "Buford",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "treetop-quest-gwinnett",
+      "name": "Treetop Quest Gwinnett",
+      "address": "2020 Clean Water Drive, Buford, GA 30519",
+      "url": "https://www.treetopquest.com/gwinnett",
+      "lat": 34.0652077,
+      "lng": -84.0041268,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

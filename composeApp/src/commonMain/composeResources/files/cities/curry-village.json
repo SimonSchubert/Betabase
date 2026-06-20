@@ -1,0 +1,22 @@
+{
+  "city": "Curry Village",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "royal-arches",
+      "name": "Royal Arches",
+      "address": "Curry Village, California",
+      "url": "http://www.rockclimbing.com/routes/North_America/United_States/California/Yosemite_N..._Park/Yosemite_Valley/Royal_Arches/Royal_Arches/Royal_Arches_Route._909.html",
+      "lat": 37.7483838,
+      "lng": -119.5702887,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

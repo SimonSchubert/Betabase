@@ -1,0 +1,22 @@
+{
+  "city": "Grimes",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "climb-iowa-grimes",
+      "name": "Climb Iowa Grimes",
+      "address": "3605 Southeast Miehe Drive, Grimes, IA 50111",
+      "url": "https://climbiowa.com/grimes",
+      "lat": 41.6593182,
+      "lng": -93.7660039,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

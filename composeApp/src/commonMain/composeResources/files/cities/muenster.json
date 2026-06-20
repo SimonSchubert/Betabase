@@ -39,7 +39,8 @@
         "fri": "10:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://kletterbar-muenster.de/wp-content/uploads/2022/08/Vorstieg_KLetterBar_Kiel-scaled.jpg"
     },
     {
       "id": "monolith-muenster",
@@ -48,7 +49,9 @@
       "url": "https://monolith-boulderhalle.de",
       "lat": 51.9503842,
       "lng": 7.6362184,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
@@ -60,10 +63,13 @@
       "url": "https://www.rockvibes.de",
       "lat": 51.9788616,
       "lng": 7.6084513,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://rockvibes.de/HP/wp-content/uploads/2020/11/rock_vibes.png"
     }
   ]
 }

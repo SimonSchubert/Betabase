@@ -1,0 +1,22 @@
+{
+  "city": "Tucson",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "the-bloc-climbing-fitness",
+      "name": "The BLOC climbing + fitness",
+      "address": "8975 East Tanque Verde Road, Tucson, AZ 85749-9466",
+      "url": "https://rocksandropes.com",
+      "lat": 32.2600889,
+      "lng": -110.8005906,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

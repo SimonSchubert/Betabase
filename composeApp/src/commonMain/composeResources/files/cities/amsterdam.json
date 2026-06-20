@@ -10,8 +10,12 @@
       "url": "https://beestboulders.com/beest-boulders-amsterdam/",
       "lat": 52.3816671,
       "lng": 4.8593849,
-      "disciplines": ["boulder"],
-      "boards": ["spray"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "07:00-23:00",
@@ -21,7 +25,8 @@
         "fri": "07:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://beestboulders.com/wp-content/uploads/2024/09/Beest_Logo_Web_175x500.png"
     },
     {
       "id": "beta-boulders-amsterdam",
@@ -29,8 +34,10 @@
       "address": "Stadionplein 18, 1076 CM Amsterdam",
       "url": "https://betaboulders.nl/",
       "lat": 52.3441243,
-      "lng": 4.8559540,
-      "disciplines": ["boulder"],
+      "lng": 4.855954,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -41,7 +48,8 @@
         "fri": "07:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://betaboulders.nl/wp-content/uploads/2021/07/BETALOGOwhite-trasp.png"
     },
     {
       "id": "boulder-amsterdam",
@@ -50,7 +58,9 @@
       "url": "https://boulderneoliet.nl/nl/amsterdam/",
       "lat": 52.3764475,
       "lng": 4.8713885,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -61,17 +71,23 @@
         "fri": "10:00-23:00",
         "sat": "09:00-19:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://boulderneoliet.nl/wp-content/uploads/2025/03/Boulder-Amsterdam-0048-scaled.jpg"
     },
     {
       "id": "boulderhal-luchthaven",
       "name": "Boulderhal Luchthaven",
       "address": "Anthony Fokkerweg 75, 1059 CP Amsterdam",
       "url": "https://www.boulderhalluchthaven.nl/",
-      "lat": 52.3398940,
+      "lat": 52.339894,
       "lng": 4.8424523,
-      "disciplines": ["boulder"],
-      "boards": ["kilter", "tension"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter",
+        "tension"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -81,7 +97,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      }
+      },
+      "image_url": "https://www.boulderhalluchthaven.nl/images/pictures/Foto-134-h.jpg"
     },
     {
       "id": "climbing-center-amsterdam",
@@ -89,9 +106,15 @@
       "address": "Erasmusgracht 297, 1061 MD Amsterdam",
       "url": "https://www.climbingnetwork.nl/indoor/locatie/climbingcenter-amsterdam",
       "lat": 52.3748833,
-      "lng": 4.8419930,
-      "disciplines": ["boulder", "lead"],
-      "boards": ["kilter", "spray"],
+      "lng": 4.841993,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter",
+        "spray"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "12:00-23:00",
@@ -101,16 +124,19 @@
         "fri": "12:00-23:00",
         "sat": "09:00-21:00",
         "sun": "09:00-21:00"
-      }
+      },
+      "image_url": "https://cdn.prod.website-files.com/69202846dbcc5b75b3a178cf/698dc753e0b63782ee5c1a9c_Climbing%20Network%20boulder%20ams.jpg"
     },
     {
       "id": "het-lab",
       "name": "Het Lab",
       "address": "Transformatorweg 32, 1014 AK Amsterdam",
       "url": "https://www.hetlabamsterdam.nl/",
-      "lat": 52.3923080,
+      "lat": 52.392308,
       "lng": 4.8512404,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 1500,
       "opening_hours": {
@@ -130,7 +156,10 @@
       "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-centraal/",
       "lat": 52.3766271,
       "lng": 4.9115779,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -141,7 +170,8 @@
         "fri": "09:00-23:00",
         "sat": "09:00-19:00",
         "sun": "09:00-23:00"
-      }
+      },
+      "image_url": "https://www.deklimmuur.nl/wp-content/uploads/2023/01/KM_Logo_Web_175x360-1.png"
     },
     {
       "id": "monk-amsterdam",
@@ -150,7 +180,9 @@
       "url": "https://monk.nl/amsterdam/",
       "lat": 52.3834746,
       "lng": 4.9292779,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": 500,
       "opening_hours": {
@@ -161,7 +193,8 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      }
+      },
+      "image_url": "https://monk.nl/wp-content/uploads/2020/09/monk-ams-voorkant-rond.png"
     }
   ]
 }

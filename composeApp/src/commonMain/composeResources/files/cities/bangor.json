@@ -1,0 +1,22 @@
+{
+  "city": "Bangor",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T12:14:58Z",
+  "gyms": [
+    {
+      "id": "bangor-maes-glas-climbing",
+      "name": "Bangor Maes Glas Climbing",
+      "address": "Ffriddoedd Road, Bangor LL57 2EH",
+      "url": "https://www.maesglas.co.uk/",
+      "lat": 53.226384,
+      "lng": -4.135626,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

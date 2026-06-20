@@ -1,0 +1,35 @@
+{
+  "city": "Champaign",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boneyard-boulders",
+      "name": "Boneyard Boulders",
+      "address": "119 East University Avenue, Champaign, IL 61820",
+      "url": "https://www.urbanaboulders.com",
+      "lat": 40.1160525,
+      "lng": -88.2377967,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "horizon-climbing",
+      "name": "Horizon Climbing",
+      "address": "1914 Round Barn Road, Champaign, IL 61821",
+      "url": "https://www.climbhorizon.com",
+      "lat": 40.1117869,
+      "lng": -88.2795036,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

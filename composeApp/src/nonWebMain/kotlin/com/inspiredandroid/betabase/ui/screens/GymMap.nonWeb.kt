@@ -51,7 +51,6 @@ import kotlin.time.Duration.Companion.milliseconds
 
 private const val MAP_STYLE_URI = "https://tiles.openfreemap.org/styles/liberty"
 private val BERLIN = Position(latitude = 52.5200, longitude = 13.4050)
-
 // Above this zoom every gym is shown as its own pin; at/below it nearby gyms collapse into
 // count badges. Kept low so a focused city ungroups into pins without zooming in far.
 private const val CLUSTER_MAX_ZOOM = 9
@@ -70,8 +69,6 @@ actual fun GymMap(
         ),
     )
 
-    // All gyms in a single FeatureCollection so MapLibre can cluster across categories.
-    // Each feature carries its name (label) and category (data-driven pin icon); id stays the gym id.
     val allFeatures = remember(gyms) {
         FeatureCollection(
             gyms.map { gym ->
@@ -79,6 +76,7 @@ actual fun GymMap(
                     geometry = Point(Position(latitude = gym.latitude, longitude = gym.longitude)),
                     properties = JsonObject(
                         mapOf(
+                            "gym_id" to JsonPrimitive(gym.id),
                             "name" to JsonPrimitive(gym.name),
                             "category" to JsonPrimitive(gym.markerCategory().name.lowercase()),
                         ),
@@ -100,7 +98,6 @@ actual fun GymMap(
         )
     }
 
-    // Tapping a cluster zooms in until it expands; the move is applied here so onClick stays sync.
     var pendingClusterMove by remember { mutableStateOf<CameraPosition?>(null) }
     LaunchedEffect(pendingClusterMove) {
         val move = pendingClusterMove ?: return@LaunchedEffect
@@ -108,9 +105,41 @@ actual fun GymMap(
         pendingClusterMove = null
     }
 
-    val markerBitmaps = rememberGymMarkerBitmaps()
+    val fallbackMarkerBitmaps = rememberGymMarkerBitmaps()
+    val gymMarkerBitmaps = rememberGymPhotoMarkerBitmaps(gyms)
     val accentColor = BetabaseTheme.colors.accent
     val onAccentColor = BetabaseTheme.colors.onAccent
+
+    val categoryFallback = remember(fallbackMarkerBitmaps) {
+        switch(
+            input = feature["category"].asString(),
+            case("boulder", image(fallbackMarkerBitmaps.getValue(GymMarkerCategory.BOULDER))),
+            case("lead", image(fallbackMarkerBitmaps.getValue(GymMarkerCategory.LEAD))),
+            case("combined", image(fallbackMarkerBitmaps.getValue(GymMarkerCategory.COMBINED))),
+            fallback = image(fallbackMarkerBitmaps.getValue(GymMarkerCategory.BOULDER)),
+        )
+    }
+
+    val gymPhotoCases = remember(gymMarkerBitmaps) {
+        gymMarkerBitmaps.map { (gymId, markerBitmap) ->
+            case(
+                label = gymId,
+                output = image(markerBitmap),
+            )
+        }.toTypedArray()
+    }
+
+    val markerIconImage = remember(gymPhotoCases, categoryFallback) {
+        if (gymPhotoCases.isNotEmpty()) {
+            switch(
+                input = feature["gym_id"].asString(),
+                cases = gymPhotoCases,
+                fallback = categoryFallback,
+            )
+        } else {
+            categoryFallback
+        }
+    }
 
     MaplibreMap(
         modifier = modifier.fillMaxSize(),
@@ -134,7 +163,6 @@ actual fun GymMap(
             ),
         )
 
-        // Cluster bubble: grows with the number of gyms it represents.
         CircleLayer(
             id = "gym-clusters",
             source = source,
@@ -163,7 +191,6 @@ actual fun GymMap(
             },
         )
 
-        // Gym count drawn on top of the bubble.
         SymbolLayer(
             id = "gym-cluster-counts",
             source = source,
@@ -175,19 +202,12 @@ actual fun GymMap(
             textAllowOverlap = const(true),
         )
 
-        // Individual gyms: shown once a cluster expands. One layer, icon chosen by category.
         SymbolLayer(
             id = "gym-markers",
             source = source,
             filter = feature.has("point_count").not(),
-            iconImage = switch(
-                feature["category"].asString(),
-                case("boulder", image(markerBitmaps.getValue(GymMarkerCategory.BOULDER))),
-                case("lead", image(markerBitmaps.getValue(GymMarkerCategory.LEAD))),
-                case("combined", image(markerBitmaps.getValue(GymMarkerCategory.COMBINED))),
-                fallback = image(markerBitmaps.getValue(GymMarkerCategory.BOULDER)),
-            ),
-            iconAnchor = const(SymbolAnchor.Bottom),
+            iconImage = markerIconImage,
+            iconAnchor = const(SymbolAnchor.Center),
             iconAllowOverlap = const(true),
             textField = format(span(feature["name"].asString())),
             textFont = const(listOf("Noto Sans Bold")),
@@ -196,7 +216,7 @@ actual fun GymMap(
             textHaloColor = const(Color.White),
             textHaloWidth = const(2.dp),
             textAnchor = const(SymbolAnchor.Top),
-            textOffset = offset(0.em, 0.4.em),
+            textOffset = offset(0.em, 1.2.em),
             textOptional = const(true),
             onClick = { clicked ->
                 val featureId = clicked.firstOrNull()?.id?.content

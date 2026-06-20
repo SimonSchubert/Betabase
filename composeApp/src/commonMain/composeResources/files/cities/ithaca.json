@@ -1,0 +1,37 @@
+{
+  "city": "Ithaca",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "cayuga-climbs",
+      "name": "Cayuga Climbs",
+      "address": "53 Hall Road, Ithaca, NY 14850",
+      "url": "https://www.cayugaclimbs.com",
+      "lat": 42.4724668,
+      "lng": -76.4086152,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "lindseth-climbing-center",
+      "name": "Lindseth Climbing Center",
+      "address": "554 Campus Road, Ithaca, NY 14853",
+      "url": "https://scl.cornell.edu/coe/lindseth-climbing-center",
+      "lat": 42.4458505,
+      "lng": -76.4756032,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

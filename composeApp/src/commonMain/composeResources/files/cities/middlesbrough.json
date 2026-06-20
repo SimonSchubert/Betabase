@@ -1,0 +1,52 @@
+{
+  "city": "Middlesbrough",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T11:43:34Z",
+  "gyms": [
+    {
+      "id": "middlesbrough-climbing-centre",
+      "name": "Middlesbrough Climbing Centre",
+      "address": "Middlesbrough Sports Village, Alan Peacock Way, Middlesbrough TS4 3BA",
+      "url": "https://www.middlesbrough.gov.uk/",
+      "lat": 54.547376,
+      "lng": -1.21107,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rock-antics-middlesbrough",
+      "name": "Rock Antics Middlesbrough",
+      "address": "Unit K Warelands Way, Longlands Road, Middlesbrough TS4 2JY",
+      "url": "https://www.rockantics.co.uk/",
+      "lat": 54.564883,
+      "lng": -1.216625,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://rockantics.co.uk/wp-content/uploads/2024/07/smiling-woman-reaching-top-of-climbing-wall-in-ind-2023-11-27-05-25-09-utc-scaled.jpg"
+    },
+    {
+      "id": "teesside-university-climbing-wall",
+      "name": "Teesside University Climbing Wall",
+      "address": "Victoria Road, Middlesbrough TS1 3AP",
+      "url": "https://www.tees.ac.uk/sport",
+      "lat": 54.569375,
+      "lng": -1.237544,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

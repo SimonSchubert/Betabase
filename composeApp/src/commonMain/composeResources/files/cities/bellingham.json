@@ -1,0 +1,36 @@
+{
+  "city": "Bellingham",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "mach1-adventure-park",
+      "name": "Mach1 Adventure Park",
+      "address": "4190 Cordata Parkway, Bellingham, WA 98226",
+      "url": "https://mach1bellingham.com",
+      "lat": 48.7930074,
+      "lng": -122.4898457,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vital-climbing-gym",
+      "name": "Vital Climbing Gym",
+      "address": "1421 North State Street, Bellingham, WA 98225",
+      "url": "https://www.vitalclimbinggym.com/bellingham",
+      "lat": 48.7503025,
+      "lng": -122.4749208,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

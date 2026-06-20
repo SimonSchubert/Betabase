@@ -1,0 +1,37 @@
+{
+  "city": "San Jose",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "spartan-recreation-and-aquatic-center",
+      "name": "Spartan Recreation and Aquatic Center",
+      "address": "324 Paseo De San Carlos, San Jose, CA 95112",
+      "url": "https://www.spartanrecreation.com/srac",
+      "lat": 37.3344971,
+      "lng": -121.8795474,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-studio",
+      "name": "The Studio",
+      "address": "396 South 1st Street, San Jose, CA 95113",
+      "url": "https://touchstoneclimbing.com/the-studio",
+      "lat": 37.3303118,
+      "lng": -121.8858024,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

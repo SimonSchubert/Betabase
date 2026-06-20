@@ -1,0 +1,22 @@
+{
+  "city": "Flagstaff",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "vertical-relief-climbing-center",
+      "name": "Vertical Relief Climbing Center",
+      "address": "Flagstaff, Arizona",
+      "url": "https://www.flagstaffclimbing.com",
+      "lat": 35.1943656,
+      "lng": -111.6496035,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

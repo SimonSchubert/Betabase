@@ -1,0 +1,37 @@
+{
+  "city": "Virginia Beach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "adventure-park",
+      "name": "Adventure Park",
+      "address": "801 General Booth Boulevard, Virginia Beach, VA 23451",
+      "url": "https://myadventurepark.com/location/virginia-beach-va",
+      "lat": 36.816773,
+      "lng": -75.987928,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "adventureworks-wetland-ziplines",
+      "name": "Adventureworks Wetland Ziplines",
+      "address": "1304 Prosperity Road, Virginia Beach, VA 23451",
+      "url": "https://www.adventureworks.com/zipline-virginia-beach",
+      "lat": 36.7955916,
+      "lng": -75.9869916,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

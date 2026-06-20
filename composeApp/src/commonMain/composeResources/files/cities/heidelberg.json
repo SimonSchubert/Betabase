@@ -31,7 +31,8 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {},
+      "image_url": "https://www.kletterzentrum-heidelberg.de/114%20-%20Sektion%20Heidelberg/H%C3%BCtten/Kletterhalle/10038/image-thumb__10038__heroteaser/dav_sektion_heidelberg@2x.8cbe164f.webp"
     },
     {
       "id": "boulderhaus-heidelberg",
@@ -40,7 +41,9 @@
       "url": "https://www.boulderhaus.net/heidelberg",
       "lat": 49.3861699,
       "lng": 8.6791896,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}

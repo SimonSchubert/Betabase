@@ -1,0 +1,22 @@
+{
+  "city": "Springfield",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "go-ape-zipline-adventure-park",
+      "name": "Go Ape Zipline & Adventure Park",
+      "address": "7550 Reservation Drive, Springfield, VA 22153",
+      "url": "https://www.goape.com/location/virginia-springfield",
+      "lat": 38.7472841,
+      "lng": -77.2762464,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

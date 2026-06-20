@@ -1,0 +1,22 @@
+{
+  "city": "Baton Rouge",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "paula-g-manship-ymca",
+      "name": "Paula G. Manship YMCA",
+      "address": "8100 YMCA Plaza Drive, Baton Rouge, LA 70810",
+      "url": "https://www.ymcabr.org/branch-locator/paula-g",
+      "lat": 30.3756064,
+      "lng": -91.0747849,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}
