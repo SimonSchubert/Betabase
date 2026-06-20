@@ -1,0 +1,41 @@
+name: Refresh athlete videos
+
+# Rebuilds data/athlete_videos.json from every athlete YouTube channel so the
+# app fetches one prebuilt file instead of hitting ~25 Atom feeds per device.
+on:
+  schedule:
+    # Every 2 hours, at :17 to avoid the top-of-hour scheduling crush.
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+
+# Avoid overlapping runs racing to push the same file.
+concurrency:
+  group: refresh-athlete-videos
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch athlete videos
+        run: node scripts/fetch-athlete-videos.mjs
+
+      - name: Commit if changed
+        run: |
+          if [[ -z "$(git status --porcelain data/athlete_videos.json)" ]]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/athlete_videos.json
+          git commit -m "Refresh athlete videos"
+          git push

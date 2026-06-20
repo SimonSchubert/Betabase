@@ -17,6 +17,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.zIndex
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.inspiredandroid.betabase.data.AthleteFeedRepository
+import com.inspiredandroid.betabase.data.AthleteVideosFeedSource
 import com.inspiredandroid.betabase.data.AthleteVideosRepository
 import com.inspiredandroid.betabase.data.AthletesRepository
 import com.inspiredandroid.betabase.data.BundledJsonEventSource
@@ -73,8 +74,11 @@ fun BetabaseApp() {
         val athleteVideosRepository = remember(httpClient, jsonCache) {
             AthleteVideosRepository(YoutubeChannelSource(httpClient, cache = jsonCache))
         }
-        val athleteFeedRepository = remember(athletesRepository, athleteVideosRepository) {
-            AthleteFeedRepository(athletesRepository, athleteVideosRepository)
+        val athleteFeedRepository = remember(httpClient, jsonCache, athletesRepository) {
+            AthleteFeedRepository(
+                athletesRepository = athletesRepository,
+                videosSource = AthleteVideosFeedSource(httpClient, cache = jsonCache),
+            )
         }
         val filterStorage = remember { createFilterStorage() }
         val viewModel = viewModel {
