@@ -39,6 +39,18 @@
         "sat": "11:00-22:00",
         "sun": "10:00-22:00"
       }
+    },
+    {
+      "id": "kba-saar",
+      "name": "KBA-Saar",
+      "address": "Dudweilerstraße 100, 66111 Saarbrücken",
+      "url": "https://www.kba-saar.de",
+      "lat": 49.2732328,
+      "lng": 7.0215449,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

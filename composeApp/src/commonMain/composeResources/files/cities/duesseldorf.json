@@ -81,6 +81,18 @@
         "sat": "09:00-23:00",
         "sun": "09:00-22:00"
       }
+    },
+    {
+      "id": "bergstation-duesseldorf",
+      "name": "Bergstation",
+      "address": "Fichtenstraße 53, 40233 Düsseldorf",
+      "url": "https://www.bergstation.de",
+      "lat": 51.2138154,
+      "lng": 6.8123285,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

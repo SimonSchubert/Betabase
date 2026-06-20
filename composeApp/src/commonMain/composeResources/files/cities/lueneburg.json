@@ -1,0 +1,19 @@
+{
+  "city": "Lüneburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kraftwerk-lueneburg",
+      "name": "Kraftwerk",
+      "address": "Pulverweg 6, 21337 Lüneburg",
+      "url": "https://www.kraftwerk-lueneburg.de",
+      "lat": 53.2442186,
+      "lng": 10.4213842,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

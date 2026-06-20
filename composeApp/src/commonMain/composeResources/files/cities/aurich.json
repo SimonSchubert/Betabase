@@ -1,0 +1,19 @@
+{
+  "city": "Aurich",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kluntje-aurich",
+      "name": "Kluntje Boulderhalle Aurich",
+      "address": "Dornbuschweg 13, 26603 Aurich",
+      "url": "https://www.kluntje-aurich.de",
+      "lat": 53.478342,
+      "lng": 7.4662201,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": 500,
+      "opening_hours": {}
+    }
+  ]
+}

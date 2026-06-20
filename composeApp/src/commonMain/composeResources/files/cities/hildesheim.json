@@ -1,0 +1,27 @@
+{
+  "city": "Hildesheim",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "hiclimb-hildesheim",
+      "name": "hiclimb – DAV Kletterzentrum Hildesheim",
+      "address": "Lerchenkamp 52, 31137 Hildesheim",
+      "url": "https://www.hiclimb.de",
+      "lat": 52.1724621,
+      "lng": 9.9435233,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:30",
+        "tue": "14:00-22:30",
+        "wed": "14:00-22:30",
+        "thu": "14:00-22:30",
+        "fri": "14:00-22:30",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "city": "Grenzach-Wyhlen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "loebloc",
+      "name": "LÖ bloc",
+      "address": "Im Fallberg 6, 79639 Grenzach-Wyhlen",
+      "url": "https://www.loebloc.de",
+      "lat": 47.5368411,
+      "lng": 7.6980882,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

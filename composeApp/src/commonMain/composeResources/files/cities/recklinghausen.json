@@ -16,8 +16,23 @@
       ],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "neoliet-kletterzentrum-bochum",
+      "name": "Neoliet Kletterzentrum Bochum",
+      "address": "Flottmannstraße 53h, 44805 Bochum",
+      "url": "https://www.neoliet.de/bochum/",
+      "lat": 51.5171068,
+      "lng": 7.2189929,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  "fetched_at": "2026-06-20T00:00:00Z"
 }

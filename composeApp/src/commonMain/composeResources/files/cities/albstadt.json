@@ -1,0 +1,21 @@
+{
+  "city": "Albstadt",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dolomiti-boulderbox",
+      "name": "Dolomiti-Boulderbox",
+      "address": "Lengentalstraße 32, 72459 Albstadt",
+      "url": "https://www.dolomiti-boulderbox.de",
+      "lat": 48.2517376,
+      "lng": 8.9761023,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

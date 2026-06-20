@@ -29,6 +29,18 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "blockle-tuebingen",
+      "name": "Blöckle Boulderhalle",
+      "address": "Reutlinger Straße 63, 72072 Tübingen",
+      "url": "https://www.blockle-tuebingen.de",
+      "lat": 48.5152842,
+      "lng": 9.0576184,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",

@@ -31,6 +31,30 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulder-base-bremen",
+      "name": "Boulder Base Bremen",
+      "address": "Hohweg 5, 28219 Bremen",
+      "url": "https://www.boulderbasebremen.de",
+      "lat": 53.1061722,
+      "lng": 8.7975242,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "linie7-bremen",
+      "name": "Linie7",
+      "address": "Güterbahnhof, Beim Handelsmuseum Tor 43, 28195 Bremen",
+      "url": "https://www.linie7.com",
+      "lat": 53.0812841,
+      "lng": 8.8134627,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

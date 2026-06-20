@@ -1,0 +1,22 @@
+{
+  "city": "Offenbach",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterbar-offenbach",
+      "name": "KletterBar Offenbach",
+      "address": "Sprendlinger Landstraße 177b, 63069 Offenbach",
+      "url": "https://www.kletterbar-offenbach.de",
+      "lat": 50.0851416,
+      "lng": 8.7437123,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "city": "Straubing",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "alte-ziegelei-straubing",
+      "name": "Alte Ziegelei Boulderhalle Straubing",
+      "address": "alte Ziegelei 16, 94315 Straubing",
+      "url": "https://www.boulderhalle-straubing.de",
+      "lat": 48.8779433,
+      "lng": 12.5643637,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

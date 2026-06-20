@@ -1,0 +1,19 @@
+{
+  "city": "Koblenz",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "eifelblock-koblenz",
+      "name": "Eifelblock Koblenz",
+      "address": "Rizzastraße 42, 56068 Koblenz",
+      "url": "https://www.eifelblock.de/koblenz",
+      "lat": 50.3695876,
+      "lng": 7.553065,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -40,6 +40,30 @@
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
       }
+    },
+    {
+      "id": "monolith-muenster",
+      "name": "Monolith Boulderhalle Münster",
+      "address": "Eulerstraße 2, 48155 Münster",
+      "url": "https://monolith-boulderhalle.de",
+      "lat": 51.9503842,
+      "lng": 7.6362184,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rockvibes-muenster",
+      "name": "Rockvibes",
+      "address": "Grevener Straße 125b, 48159 Münster",
+      "url": "https://www.rockvibes.de",
+      "lat": 51.9788616,
+      "lng": 7.6084513,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

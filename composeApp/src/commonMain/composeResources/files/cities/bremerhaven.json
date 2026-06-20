@@ -1,0 +1,19 @@
+{
+  "city": "Bremerhaven",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bremerhaven-boulder-club",
+      "name": "Bremerhaven Boulder Club",
+      "address": "Moltkestraße 13, 27576 Bremerhaven",
+      "url": "https://www.bremerhaven-boulderclub.de",
+      "lat": 53.5546553,
+      "lng": 8.5778481,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

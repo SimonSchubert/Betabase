@@ -1,0 +1,19 @@
+{
+  "city": "Ludwigshafen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterzentrum-extrem",
+      "name": "Kletterzentrum EXTREM",
+      "address": "Mundenheimer Straße 115, 67061 Ludwigshafen",
+      "url": "https://www.kletterzentrum-extrem.de",
+      "lat": 49.4735238,
+      "lng": 8.4505428,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

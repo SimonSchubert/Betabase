@@ -41,6 +41,42 @@
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
       }
+    },
+    {
+      "id": "block-barock-kassel",
+      "name": "Block Barock",
+      "address": "Wolfhager Straße 339, 34128 Kassel",
+      "url": "https://www.block-barock.de",
+      "lat": 51.3124821,
+      "lng": 9.4182734,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "vertical-world-kassel",
+      "name": "Kletterzentrum Kassel Vertical World",
+      "address": "Wolfhager Straße 339, 34128 Kassel",
+      "url": "https://www.vertical-world.de",
+      "lat": 51.3124821,
+      "lng": 9.4182734,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterzentrum-nordhessen",
+      "name": "Kletterzentrum Nordhessen",
+      "address": "Hinter dem Söhrewald 2, 34225 Baunatal",
+      "url": "https://www.kletterzentrum-nordhessen.de",
+      "lat": 51.2583842,
+      "lng": 9.4162184,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

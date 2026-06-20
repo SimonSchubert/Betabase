@@ -1,0 +1,21 @@
+{
+  "city": "Weyarn",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterz",
+      "name": "KletterZ",
+      "address": "Am Weiglfeld 30, 83629 Weyarn",
+      "url": "https://www.kletterz.de",
+      "lat": 47.8657038,
+      "lng": 11.7897388,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

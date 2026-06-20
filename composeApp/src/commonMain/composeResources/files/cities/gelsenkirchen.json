@@ -27,18 +27,20 @@
       }
     },
     {
-      "id": "neoliet-kletterzentrum-bochum",
-      "name": "Neoliet Kletterzentrum Bochum",
-      "address": "Flottmannstraße 53h, 44805 Bochum",
-      "url": "https://www.neoliet.de/bochum/",
-      "lat": 51.5171068,
-      "lng": 7.2189929,
+      "id": "stuntwerk-essen",
+      "name": "Stuntwerk Essen",
+      "address": "Segerothstraße 83a, 45141 Essen",
+      "url": "https://stuntwerk.de/essen/",
+      "lat": 51.465487,
+      "lng": 7.0010087,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
-      "boards": [],
-      "size_sqm": null,
+      "boards": [
+        "moonboard",
+        "campusboard"
+      ],
+      "size_sqm": 1500,
       "opening_hours": {}
     }
   ],

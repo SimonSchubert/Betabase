@@ -1,0 +1,22 @@
+{
+  "city": "Wildau",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "die-gaemse",
+      "name": "Die Gämse",
+      "address": "Schwartzkopffstraße 6, 15745 Wildau",
+      "url": "https://www.diegaemse.de",
+      "lat": 52.3201328,
+      "lng": 13.6318737,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

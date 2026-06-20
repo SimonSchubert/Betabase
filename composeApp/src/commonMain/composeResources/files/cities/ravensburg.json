@@ -1,0 +1,19 @@
+{
+  "city": "Ravensburg",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterbox-ravensburg",
+      "name": "Kletterbox Ravensburg",
+      "address": "Eisenbahnstraße 95, 88212 Ravensburg",
+      "url": "https://www.kletterbox.de",
+      "lat": 47.783152,
+      "lng": 9.6106506,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

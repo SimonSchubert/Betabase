@@ -94,6 +94,18 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulderdrome-radebeul",
+      "name": "boulderdrome",
+      "address": "Nach der Schiffsmühle 6, 01445 Radebeul",
+      "url": "https://www.boulderdrome.de",
+      "lat": 51.1042186,
+      "lng": 13.6553842,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 2000,
+      "opening_hours": {}
     }
   ]
 }

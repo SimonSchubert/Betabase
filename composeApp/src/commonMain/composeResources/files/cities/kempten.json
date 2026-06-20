@@ -1,0 +1,22 @@
+{
+  "city": "Kempten",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "swoboda-alpin",
+      "name": "Swoboda Alpin",
+      "address": "Aybühlweg 69, 87439 Kempten",
+      "url": "https://www.dav-kempten.de/swoboda-alpin",
+      "lat": 47.7199134,
+      "lng": 10.289832,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

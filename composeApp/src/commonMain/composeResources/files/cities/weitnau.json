@@ -1,0 +1,22 @@
+{
+  "city": "Weitnau",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterhalle-seltmans",
+      "name": "Kletterhalle Seltmans",
+      "address": "Heinrich-Nicolaus-Straße 15, 87480 Weitnau",
+      "url": "https://www.kletterhalleseltmans.de",
+      "lat": 47.6423191,
+      "lng": 10.0894012,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

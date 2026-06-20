@@ -1,0 +1,21 @@
+{
+  "city": "Illschwang",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "bouldertreff-illschwang",
+      "name": "Bouldertreff Illschwang",
+      "address": "Gewerbepark 3, 92278 Illschwang",
+      "url": "https://www.bouldertreff-illschwang.de",
+      "lat": 49.4575709,
+      "lng": 11.6731486,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

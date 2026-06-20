@@ -1,0 +1,22 @@
+{
+  "city": "Dietmannsried",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "exxpozed-climbing",
+      "name": "eXXpozed climbing",
+      "address": "Baumeisterstraße 3, 87463 Dietmannsried",
+      "url": "https://www.exxpozed-climbing.de",
+      "lat": 47.8143227,
+      "lng": 10.299385,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

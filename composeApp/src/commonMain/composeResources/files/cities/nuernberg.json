@@ -82,6 +82,30 @@
         "sat": "09:00-21:00",
         "sun": "09:00-21:30"
       }
+    },
+    {
+      "id": "climbing-factory-nuernberg",
+      "name": "Climbing Factory",
+      "address": "Industriestraße 21a, 90441 Nürnberg",
+      "url": "https://www.climbing-factory.de",
+      "lat": 49.431584,
+      "lng": 11.0591933,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "der-steinbock-zirndorf",
+      "name": "der steinbock Zirndorf",
+      "address": "Leyher Straße 54, 90431 Nürnberg",
+      "url": "https://www.dersteinbock-zirndorf.de",
+      "lat": 49.4427777,
+      "lng": 10.9596556,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

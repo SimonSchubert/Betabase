@@ -1,0 +1,35 @@
+{
+  "city": "Greifswald",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "grips-greifswald",
+      "name": "Grips Boulderhalle Greifswald",
+      "address": "Scharnhorststraße 2, 17489 Greifswald",
+      "url": "https://www.grips-greifswald.de",
+      "lat": 54.0883727,
+      "lng": 13.378516,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "greifsbloc",
+      "name": "Greifsbloc",
+      "address": "Am Neuen Friedhof 11c, 17489 Greifswald",
+      "url": "https://greifsbloc.jimdofree.com",
+      "lat": 54.0965156,
+      "lng": 13.3619251,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

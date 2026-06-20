@@ -1,0 +1,22 @@
+{
+  "city": "Willingen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterhalle-willingen",
+      "name": "Kletterhalle Willingen",
+      "address": "Zur Hoppecke 9, 34508 Willingen",
+      "url": "https://www.kletterhalle-willingen.de",
+      "lat": 51.2922558,
+      "lng": 8.5966912,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

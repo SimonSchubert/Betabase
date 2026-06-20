@@ -1,0 +1,19 @@
+{
+  "city": "Kaltenkirchen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulder-point-kaltenkirchen",
+      "name": "Boulder-Point",
+      "address": "Harksheider Weg 119, 24568 Kaltenkirchen",
+      "url": "https://www.boulder-point.de",
+      "lat": 53.8282311,
+      "lng": 9.9819197,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

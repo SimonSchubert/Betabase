@@ -1,0 +1,21 @@
+{
+  "city": "Landau",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "fitzrocks",
+      "name": "Fitz Rocks",
+      "address": "Albert-Einstein-Straße 6, 76829 Landau",
+      "url": "https://www.fitzrocks.de",
+      "lat": 49.1879341,
+      "lng": 8.1327555,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

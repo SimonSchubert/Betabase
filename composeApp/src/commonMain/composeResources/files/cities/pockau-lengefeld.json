@@ -1,0 +1,22 @@
+{
+  "city": "Pockau-Lengefeld",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterwelt-erzgebirge",
+      "name": "Kletterwelt Erzgebirge",
+      "address": "Marienberger Str. 36, 09509 Pockau-Lengefeld",
+      "url": "https://www.kletterwelt-erzgebirge.de",
+      "lat": 50.6803291,
+      "lng": 13.2112246,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

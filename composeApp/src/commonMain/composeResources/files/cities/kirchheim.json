@@ -1,0 +1,22 @@
+{
+  "city": "Kirchheim bei München",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "high-east",
+      "name": "Kletterhalle High-east",
+      "address": "Sonnenallee 2, 85551 Kirchheim bei München",
+      "url": "https://www.high-east.de",
+      "lat": 48.1564309,
+      "lng": 11.7603471,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

@@ -81,6 +81,30 @@
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
       }
+    },
+    {
+      "id": "griffwerk-stuttgart",
+      "name": "Griffwerk",
+      "address": "Fritz-Elsas-Straße 44, 70174 Stuttgart",
+      "url": "https://www.griffwerk-stuttgart.de",
+      "lat": 48.7768626,
+      "lng": 9.1693628,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "roccadion-stuttgart",
+      "name": "Roccadion",
+      "address": "Höhenstraße 12, 70736 Fellbach",
+      "url": "https://www.roccadion.de",
+      "lat": 48.8132842,
+      "lng": 9.2726184,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

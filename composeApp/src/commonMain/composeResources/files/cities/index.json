@@ -10,6 +10,14 @@
       "file": "aachen.json"
     },
     {
+      "id": "albstadt",
+      "name": "Albstadt",
+      "country": "DE",
+      "lat": 48.233048,
+      "lng": 8.9991483,
+      "file": "albstadt.json"
+    },
+    {
       "id": "amsterdam",
       "name": "Amsterdam",
       "country": "NL",
@@ -32,6 +40,14 @@
       "lat": 48.370545,
       "lng": 10.89779,
       "file": "augsburg.json"
+    },
+    {
+      "id": "aurich",
+      "name": "Aurich",
+      "country": "DE",
+      "lat": 53.469944,
+      "lng": 7.482345,
+      "file": "aurich.json"
     },
     {
       "id": "bamberg",
@@ -106,6 +122,14 @@
       "file": "bremen.json"
     },
     {
+      "id": "bremerhaven",
+      "name": "Bremerhaven",
+      "country": "DE",
+      "lat": 53.539584,
+      "lng": 8.580942,
+      "file": "bremerhaven.json"
+    },
+    {
       "id": "brussels",
       "name": "Brussels",
       "country": "BE",
@@ -152,6 +176,14 @@
       "lat": 49.872825,
       "lng": 8.651193,
       "file": "darmstadt.json"
+    },
+    {
+      "id": "dietmannsried",
+      "name": "Dietmannsried",
+      "country": "DE",
+      "lat": 47.8269002,
+      "lng": 10.2842415,
+      "file": "dietmannsried.json"
     },
     {
       "id": "dortmund",
@@ -266,6 +298,22 @@
       "file": "goettingen.json"
     },
     {
+      "id": "greifswald",
+      "name": "Greifswald",
+      "country": "DE",
+      "lat": 54.086555,
+      "lng": 13.392342,
+      "file": "greifswald.json"
+    },
+    {
+      "id": "grenzach-wyhlen",
+      "name": "Grenzach-Wyhlen",
+      "country": "DE",
+      "lat": 47.5528548,
+      "lng": 7.6737981,
+      "file": "grenzach-wyhlen.json"
+    },
+    {
       "id": "halle",
       "name": "Halle (Saale)",
       "country": "DE",
@@ -298,6 +346,38 @@
       "file": "heidelberg.json"
     },
     {
+      "id": "heidenau",
+      "name": "Heidenau",
+      "country": "DE",
+      "lat": 50.9735851,
+      "lng": 13.8753917,
+      "file": "heidenau.json"
+    },
+    {
+      "id": "hersbruck",
+      "name": "Hersbruck",
+      "country": "DE",
+      "lat": 49.510849,
+      "lng": 11.430623,
+      "file": "hersbruck.json"
+    },
+    {
+      "id": "hildesheim",
+      "name": "Hildesheim",
+      "country": "DE",
+      "lat": 52.15077,
+      "lng": 9.95112,
+      "file": "hildesheim.json"
+    },
+    {
+      "id": "illschwang",
+      "name": "Illschwang",
+      "country": "DE",
+      "lat": 49.4492713,
+      "lng": 11.6856007,
+      "file": "illschwang.json"
+    },
+    {
       "id": "ingolstadt",
       "name": "Ingolstadt",
       "country": "DE",
@@ -322,6 +402,14 @@
       "file": "jena.json"
     },
     {
+      "id": "kaltenkirchen",
+      "name": "Kaltenkirchen",
+      "country": "DE",
+      "lat": 53.83386,
+      "lng": 9.96146,
+      "file": "kaltenkirchen.json"
+    },
+    {
       "id": "karlsruhe",
       "name": "Karlsruhe",
       "country": "DE",
@@ -338,12 +426,36 @@
       "file": "kassel.json"
     },
     {
+      "id": "kempten",
+      "name": "Kempten",
+      "country": "DE",
+      "lat": 47.7267063,
+      "lng": 10.3168835,
+      "file": "kempten.json"
+    },
+    {
       "id": "kiel",
       "name": "Kiel",
       "country": "DE",
       "lat": 54.323292,
       "lng": 10.122765,
       "file": "kiel.json"
+    },
+    {
+      "id": "kirchheim",
+      "name": "Kirchheim bei München",
+      "country": "DE",
+      "lat": 48.175748,
+      "lng": 11.756219,
+      "file": "kirchheim.json"
+    },
+    {
+      "id": "koblenz",
+      "name": "Koblenz",
+      "country": "DE",
+      "lat": 50.356944,
+      "lng": 7.588995,
+      "file": "koblenz.json"
     },
     {
       "id": "koeln",
@@ -370,12 +482,28 @@
       "file": "krefeld.json"
     },
     {
+      "id": "landau",
+      "name": "Landau",
+      "country": "DE",
+      "lat": 49.1982825,
+      "lng": 8.1123441,
+      "file": "landau.json"
+    },
+    {
       "id": "landshut",
       "name": "Landshut",
       "country": "DE",
       "lat": 48.536217,
       "lng": 12.151655,
       "file": "landshut.json"
+    },
+    {
+      "id": "laufenburg",
+      "name": "Laufenburg",
+      "country": "DE",
+      "lat": 47.5671976,
+      "lng": 8.0599414,
+      "file": "laufenburg.json"
     },
     {
       "id": "leipzig",
@@ -402,12 +530,28 @@
       "file": "london.json"
     },
     {
+      "id": "ludwigshafen",
+      "name": "Ludwigshafen",
+      "country": "DE",
+      "lat": 49.481112,
+      "lng": 8.435308,
+      "file": "ludwigshafen.json"
+    },
+    {
       "id": "luebeck",
       "name": "Lübeck",
       "country": "DE",
       "lat": 53.865467,
       "lng": 10.686559,
       "file": "luebeck.json"
+    },
+    {
+      "id": "lueneburg",
+      "name": "Lüneburg",
+      "country": "DE",
+      "lat": 53.250875,
+      "lng": 10.414439,
+      "file": "lueneburg.json"
     },
     {
       "id": "lyon",
@@ -522,6 +666,14 @@
       "file": "oberhausen.json"
     },
     {
+      "id": "offenbach",
+      "name": "Offenbach",
+      "country": "DE",
+      "lat": 50.1055002,
+      "lng": 8.7610698,
+      "file": "offenbach.json"
+    },
+    {
       "id": "oldenburg",
       "name": "Oldenburg",
       "country": "DE",
@@ -570,6 +722,14 @@
       "file": "passau.json"
     },
     {
+      "id": "pockau-lengefeld",
+      "name": "Pockau-Lengefeld",
+      "country": "DE",
+      "lat": 50.7187081,
+      "lng": 13.2256127,
+      "file": "pockau-lengefeld.json"
+    },
+    {
       "id": "potsdam",
       "name": "Potsdam",
       "country": "DE",
@@ -584,6 +744,14 @@
       "lat": 50.087465,
       "lng": 14.421254,
       "file": "prague.json"
+    },
+    {
+      "id": "ravensburg",
+      "name": "Ravensburg",
+      "country": "DE",
+      "lat": 47.781918,
+      "lng": 9.610581,
+      "file": "ravensburg.json"
     },
     {
       "id": "recklinghausen",
@@ -608,6 +776,14 @@
       "lat": 48.49144,
       "lng": 9.20427,
       "file": "reutlingen.json"
+    },
+    {
+      "id": "rodental",
+      "name": "Rödental",
+      "country": "DE",
+      "lat": 50.295987,
+      "lng": 11.0431938,
+      "file": "rodental.json"
     },
     {
       "id": "rome",
@@ -666,6 +842,14 @@
       "file": "stockholm.json"
     },
     {
+      "id": "straubing",
+      "name": "Straubing",
+      "country": "DE",
+      "lat": 48.877346,
+      "lng": 12.564364,
+      "file": "straubing.json"
+    },
+    {
       "id": "stuttgart",
       "name": "Stuttgart",
       "country": "DE",
@@ -722,6 +906,14 @@
       "file": "weimar.json"
     },
     {
+      "id": "weitnau",
+      "name": "Weitnau",
+      "country": "DE",
+      "lat": 47.6577298,
+      "lng": 10.1541946,
+      "file": "weitnau.json"
+    },
+    {
       "id": "wetzlar",
       "name": "Wetzlar",
       "country": "DE",
@@ -730,12 +922,36 @@
       "file": "wetzlar.json"
     },
     {
+      "id": "weyarn",
+      "name": "Weyarn",
+      "country": "DE",
+      "lat": 47.8592018,
+      "lng": 11.7999821,
+      "file": "weyarn.json"
+    },
+    {
       "id": "wiesbaden",
       "name": "Wiesbaden",
       "country": "DE",
       "lat": 50.082038,
       "lng": 8.241656,
       "file": "wiesbaden.json"
+    },
+    {
+      "id": "wildau",
+      "name": "Wildau",
+      "country": "DE",
+      "lat": 52.3214429,
+      "lng": 13.6348744,
+      "file": "wildau.json"
+    },
+    {
+      "id": "willingen",
+      "name": "Willingen",
+      "country": "DE",
+      "lat": 51.2922558,
+      "lng": 8.5966912,
+      "file": "willingen.json"
     },
     {
       "id": "wuerzburg",

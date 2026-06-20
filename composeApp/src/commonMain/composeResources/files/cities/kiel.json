@@ -40,6 +40,18 @@
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
       }
+    },
+    {
+      "id": "nordbloc-kiel",
+      "name": "NORDBLOC",
+      "address": "Grasweg 40, 24118 Kiel",
+      "url": "https://www.nordbloc-kiel.de",
+      "lat": 54.33849,
+      "lng": 10.1186983,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

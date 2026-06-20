@@ -1,0 +1,21 @@
+{
+  "city": "Rödental",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderhouse-roedental",
+      "name": "Boulder House Rödental",
+      "address": "Brückenstraße 6, 96472 Rödental",
+      "url": "https://www.boulderhouse-roedental.de",
+      "lat": 50.2943648,
+      "lng": 11.0502184,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

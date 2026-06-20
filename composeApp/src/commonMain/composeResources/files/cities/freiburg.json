@@ -53,6 +53,42 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "blocwald-freiburg",
+      "name": "blocwald",
+      "address": "Ziegelhofstraße 9, 79110 Freiburg",
+      "url": "https://www.blocwald.de",
+      "lat": 48.0228073,
+      "lng": 7.7946131,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "hotzenblock-freiburg",
+      "name": "HotzenBlock",
+      "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
+      "url": "https://www.hotzenblock.de",
+      "lat": 48.0270273,
+      "lng": 7.8538306,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "upjoy-freiburg",
+      "name": "UPJOY",
+      "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
+      "url": "https://www.upjoy.de",
+      "lat": 48.0270273,
+      "lng": 7.8538306,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

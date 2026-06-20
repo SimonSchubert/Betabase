@@ -1,0 +1,19 @@
+{
+  "city": "Hersbruck",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "dav-kletterzentrum-hersbruck",
+      "name": "DAV Kletterzentrum Hersbruck",
+      "address": "Am Sportpark 1, 91217 Hersbruck",
+      "url": "https://www.kletterwelt-hersbruck.de",
+      "lat": 49.5108492,
+      "lng": 11.4306234,
+      "disciplines": ["boulder", "lead"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}

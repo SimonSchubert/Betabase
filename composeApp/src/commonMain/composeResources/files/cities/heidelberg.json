@@ -32,6 +32,18 @@
       "boards": [],
       "size_sqm": null,
       "opening_hours": {}
+    },
+    {
+      "id": "boulderhaus-heidelberg",
+      "name": "Boulderhaus Heidelberg",
+      "address": "Im Bosseldorn 2, 69126 Heidelberg",
+      "url": "https://www.boulderhaus.net/heidelberg",
+      "lat": 49.3861699,
+      "lng": 8.6791896,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

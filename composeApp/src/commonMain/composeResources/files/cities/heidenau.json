@@ -1,0 +1,22 @@
+{
+  "city": "Heidenau",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-06-20T00:00:00Z",
+  "gyms": [
+    {
+      "id": "yoyo-heidenau",
+      "name": "YOYO Kletterhalle",
+      "address": "Weststraße 32, 01809 Heidenau",
+      "url": "https://www.yoyo-kletterhalle.de",
+      "lat": 50.9822474,
+      "lng": 13.8452102,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    }
+  ]
+}
