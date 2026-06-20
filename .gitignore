@@ -34,5 +34,8 @@ fastlane/README.md
 .bundle/
 vendor/bundle/
 
-# Local-only data scrapers (JSON output under composeResources/files is committed)
-/scripts/
+# Local-only data scrapers (JSON output under composeResources/files is committed).
+# Exception: fetch-athlete-videos.mjs runs in CI (refresh-athlete-videos workflow),
+# so it must be tracked. Use /scripts/* (not /scripts/) so the negation can re-include it.
+/scripts/*
+!/scripts/fetch-athlete-videos.mjs
