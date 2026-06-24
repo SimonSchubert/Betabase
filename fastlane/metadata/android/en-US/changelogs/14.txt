@@ -1,0 +1,3 @@
+Expanded gym map with many new cities and climbing gyms
+Refreshed athlete YouTube video feed
+Improved gym map pin rendering across platforms
