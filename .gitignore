@@ -39,3 +39,7 @@ vendor/bundle/
 # so it must be tracked. Use /scripts/* (not /scripts/) so the negation can re-include it.
 /scripts/*
 !/scripts/fetch-athlete-videos.mjs
+.claude
+.grok
+.cursor
+.opencode
