@@ -1,3 +1,14 @@
+## v0.8.2 — 2026-07-08
+
+### Features
+- Added Tokyo to the climbing gym map
+- Refreshed athlete YouTube video feed
+
+### Improvements
+- Updated gym data for several German cities
+- Improved UI layout and filter handling in athletes and competitions screens
+- Upgraded dependencies
+
 ## v0.8.1 — 2026-06-24
 
 ### Features

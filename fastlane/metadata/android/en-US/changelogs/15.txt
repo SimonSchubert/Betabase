@@ -1,0 +1,5 @@
+Added Tokyo to the climbing gym map
+Refreshed athlete YouTube video feed
+Updated gym data for several German cities
+Improved athletes and competitions screen UI
+Upgraded dependencies
