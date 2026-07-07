@@ -140,25 +140,25 @@ private fun AthletesGrid(
                 .fillMaxSize()
                 .windowInsetsPadding(WindowInsets.statusBars),
             contentPadding = PaddingValues(
-                start = ScreenSidePadding,
-                end = ScreenSidePadding,
                 top = 12.dp,
                 bottom = 32.dp + bottomInset,
             ),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp - ScreenSidePadding * 2),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             val fullSpan: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
 
             item(span = fullSpan, key = "header") {
-                Header(total = state.athletes.size, visible = state.filtered.size)
+                Header(total = state.athletes.size, visible = state.filtered.size, modifier = sidePadding)
             }
             item(span = fullSpan, key = "search") {
-                BetaSearchField(
-                    value = state.filters.query,
-                    onValueChange = onQueryChange,
-                    placeholder = "Search by name or country",
-                )
+                Box(modifier = sidePadding) {
+                    BetaSearchField(
+                        value = state.filters.query,
+                        onValueChange = onQueryChange,
+                        placeholder = "Search by name or country",
+                    )
+                }
             }
             item(span = fullSpan, key = "gender") {
                 GenderRow(
@@ -180,21 +180,25 @@ private fun AthletesGrid(
 
             if (state.filtered.isEmpty() && !state.loading) {
                 item(span = fullSpan, key = "empty") {
-                    BetaText(
-                        text = if (state.athletes.isEmpty()) {
-                            "No athletes loaded."
-                        } else {
-                            "No athletes match the current filters."
-                        },
-                        style = BetabaseTheme.typography.bodySmall,
-                        color = BetabaseTheme.colors.inkMuted,
-                    )
+                    Box(modifier = sidePadding) {
+                        BetaText(
+                            text = if (state.athletes.isEmpty()) {
+                                "No athletes loaded."
+                            } else {
+                                "No athletes match the current filters."
+                            },
+                            style = BetabaseTheme.typography.bodySmall,
+                            color = BetabaseTheme.colors.inkMuted,
+                        )
+                    }
                 }
                 return@LazyVerticalGrid
             }
 
             gridItems(state.filtered, key = { it.id }) { athlete ->
-                AthleteTile(athlete = athlete, currentYear = state.currentYear, onClick = { onOpen(athlete) })
+                Box(modifier = sidePadding) {
+                    AthleteTile(athlete = athlete, currentYear = state.currentYear, onClick = { onOpen(athlete) })
+                }
             }
         }
         PlatformVerticalScrollbar(
@@ -245,31 +249,37 @@ private fun GenderRow(
     showInactive: Boolean,
     onToggle: (AthleteGender) -> Unit,
     onToggleInactive: () -> Unit,
-    modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
-    Row(
-        modifier = modifier.fillMaxWidth(),
+    LazyRow(
+        modifier = Modifier.fillMaxWidth(),
+        contentPadding = PaddingValues(horizontal = ScreenSidePadding),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-        BetaChip(
-            label = "Women",
-            selected = AthleteGender.WOMEN in selected,
-            activeColor = colors.women,
-            onClick = { onToggle(AthleteGender.WOMEN) },
-        )
-        BetaChip(
-            label = "Men",
-            selected = AthleteGender.MEN in selected,
-            activeColor = colors.men,
-            onClick = { onToggle(AthleteGender.MEN) },
-        )
-        BetaChip(
-            label = "Include retired",
-            selected = showInactive,
-            activeColor = colors.ink,
-            onClick = onToggleInactive,
-        )
+        item(key = "women") {
+            BetaChip(
+                label = "Women",
+                selected = AthleteGender.WOMEN in selected,
+                activeColor = colors.women,
+                onClick = { onToggle(AthleteGender.WOMEN) },
+            )
+        }
+        item(key = "men") {
+            BetaChip(
+                label = "Men",
+                selected = AthleteGender.MEN in selected,
+                activeColor = colors.men,
+                onClick = { onToggle(AthleteGender.MEN) },
+            )
+        }
+        item(key = "retired") {
+            BetaChip(
+                label = "Include retired",
+                selected = showInactive,
+                activeColor = colors.ink,
+                onClick = onToggleInactive,
+            )
+        }
     }
 }
 
@@ -278,11 +288,11 @@ private fun CountryRow(
     countries: List<CountryFacet>,
     selected: String?,
     onSelect: (String?) -> Unit,
-    modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
     LazyRow(
-        modifier = modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth(),
+        contentPadding = PaddingValues(horizontal = ScreenSidePadding),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         item(key = "__all") {

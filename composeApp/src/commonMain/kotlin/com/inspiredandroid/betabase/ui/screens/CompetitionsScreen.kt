@@ -5,8 +5,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -21,6 +19,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
@@ -183,7 +182,6 @@ private fun ReadyState(
                     onToggleRound = onToggleRound,
                     onToggleGender = onToggleGender,
                     onTogglePara = onTogglePara,
-                    modifier = sidePadding,
                 )
             }
 
@@ -289,7 +287,6 @@ private fun CompetitionsSectionHeader(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun FilterChips(
     filters: CompetitionsFilters,
@@ -298,16 +295,15 @@ private fun FilterChips(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
-    modifier: Modifier = Modifier,
 ) {
     val colors = BetabaseTheme.colors
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = modifier.fillMaxWidth()) {
-        FlowRow(
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+        LazyRow(
             modifier = Modifier.fillMaxWidth(),
+            contentPadding = PaddingValues(horizontal = ScreenSidePadding),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            SourceTag.entries.forEach { source ->
+            items(SourceTag.entries, key = { it.name }) { source ->
                 BetaChip(
                     label = source.regionLabel,
                     selected = source in filters.sources,
@@ -317,86 +313,112 @@ private fun FilterChips(
                 )
             }
         }
-        FlowRow(
+        LazyRow(
             modifier = Modifier.fillMaxWidth(),
+            contentPadding = PaddingValues(horizontal = ScreenSidePadding),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            BetaChip(
-                label = "Boulder",
-                selected = Discipline.BOULDER in filters.disciplines,
-                activeColor = colors.boulder,
-                onClick = { onToggleDiscipline(Discipline.BOULDER) },
-            )
-            BetaChip(
-                label = "Lead",
-                selected = Discipline.LEAD in filters.disciplines,
-                activeColor = colors.lead,
-                onClick = { onToggleDiscipline(Discipline.LEAD) },
-            )
-            BetaChip(
-                label = "Speed",
-                selected = Discipline.SPEED in filters.disciplines,
-                activeColor = colors.speed,
-                activeOnColor = colors.ink,
-                onClick = { onToggleDiscipline(Discipline.SPEED) },
-            )
-            BetaChip(
-                label = "Combined",
-                selected = Discipline.COMBINED in filters.disciplines,
-                activeColor = colors.combined,
-                onClick = { onToggleDiscipline(Discipline.COMBINED) },
-            )
+            item(key = "boulder") {
+                BetaChip(
+                    label = "Boulder",
+                    selected = Discipline.BOULDER in filters.disciplines,
+                    activeColor = colors.boulder,
+                    onClick = { onToggleDiscipline(Discipline.BOULDER) },
+                )
+            }
+            item(key = "lead") {
+                BetaChip(
+                    label = "Lead",
+                    selected = Discipline.LEAD in filters.disciplines,
+                    activeColor = colors.lead,
+                    onClick = { onToggleDiscipline(Discipline.LEAD) },
+                )
+            }
+            item(key = "speed") {
+                BetaChip(
+                    label = "Speed",
+                    selected = Discipline.SPEED in filters.disciplines,
+                    activeColor = colors.speed,
+                    activeOnColor = colors.ink,
+                    onClick = { onToggleDiscipline(Discipline.SPEED) },
+                )
+            }
+            item(key = "combined") {
+                BetaChip(
+                    label = "Combined",
+                    selected = Discipline.COMBINED in filters.disciplines,
+                    activeColor = colors.combined,
+                    onClick = { onToggleDiscipline(Discipline.COMBINED) },
+                )
+            }
         }
-        FlowRow(
+        LazyRow(
             modifier = Modifier.fillMaxWidth(),
+            contentPadding = PaddingValues(horizontal = ScreenSidePadding),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            BetaChip(
-                label = "Qualifier",
-                selected = Round.QUALIFICATION in filters.rounds,
-                activeColor = colors.ink,
-                onClick = { onToggleRound(Round.QUALIFICATION) },
-            )
-            BetaChip(
-                label = "Semi",
-                selected = Round.SEMIFINAL in filters.rounds,
-                activeColor = colors.ink,
-                onClick = { onToggleRound(Round.SEMIFINAL) },
-            )
-            BetaChip(
-                label = "Final",
-                selected = Round.FINAL in filters.rounds,
-                activeColor = colors.ink,
-                onClick = { onToggleRound(Round.FINAL) },
-            )
-            DotDivider()
-            BetaChip(
-                label = "Women",
-                selected = Gender.WOMEN in filters.genders,
-                activeColor = colors.women,
-                onClick = { onToggleGender(Gender.WOMEN) },
-            )
-            BetaChip(
-                label = "Men",
-                selected = Gender.MEN in filters.genders,
-                activeColor = colors.men,
-                onClick = { onToggleGender(Gender.MEN) },
-            )
-            BetaChip(
-                label = "Youth",
-                selected = Gender.YOUTH in filters.genders,
-                activeColor = colors.youth,
-                onClick = { onToggleGender(Gender.YOUTH) },
-            )
-            DotDivider()
-            BetaChip(
-                label = "Para",
-                selected = filters.includePara,
-                activeColor = colors.ink,
-                onClick = { onTogglePara() },
-            )
+            item(key = "qualifier") {
+                BetaChip(
+                    label = "Qualifier",
+                    selected = Round.QUALIFICATION in filters.rounds,
+                    activeColor = colors.ink,
+                    onClick = { onToggleRound(Round.QUALIFICATION) },
+                )
+            }
+            item(key = "semi") {
+                BetaChip(
+                    label = "Semi",
+                    selected = Round.SEMIFINAL in filters.rounds,
+                    activeColor = colors.ink,
+                    onClick = { onToggleRound(Round.SEMIFINAL) },
+                )
+            }
+            item(key = "final") {
+                BetaChip(
+                    label = "Final",
+                    selected = Round.FINAL in filters.rounds,
+                    activeColor = colors.ink,
+                    onClick = { onToggleRound(Round.FINAL) },
+                )
+            }
+            item(key = "div1") {
+                DotDivider()
+            }
+            item(key = "women") {
+                BetaChip(
+                    label = "Women",
+                    selected = Gender.WOMEN in filters.genders,
+                    activeColor = colors.women,
+                    onClick = { onToggleGender(Gender.WOMEN) },
+                )
+            }
+            item(key = "men") {
+                BetaChip(
+                    label = "Men",
+                    selected = Gender.MEN in filters.genders,
+                    activeColor = colors.men,
+                    onClick = { onToggleGender(Gender.MEN) },
+                )
+            }
+            item(key = "youth") {
+                BetaChip(
+                    label = "Youth",
+                    selected = Gender.YOUTH in filters.genders,
+                    activeColor = colors.youth,
+                    onClick = { onToggleGender(Gender.YOUTH) },
+                )
+            }
+            item(key = "div2") {
+                DotDivider()
+            }
+            item(key = "para") {
+                BetaChip(
+                    label = "Para",
+                    selected = filters.includePara,
+                    activeColor = colors.ink,
+                    onClick = { onTogglePara() },
+                )
+            }
         }
     }
 }
