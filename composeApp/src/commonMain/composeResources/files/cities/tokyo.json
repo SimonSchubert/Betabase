@@ -1,0 +1,458 @@
+{
+  "city": "Tokyo",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-07T00:00:00Z",
+  "gyms": [
+    {
+      "id": "b-pump-tokyo-akihabara",
+      "name": "B-PUMP TOKYO Akihabara",
+      "address": "1-1-8 Yushima, Bunkyo-ku, Tokyo 113-0034",
+      "url": "https://pump-climbing.com/gym/akiba/",
+      "lat": 35.699909,
+      "lng": 139.768037,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "11:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "b-pump-ogikubo",
+      "name": "B-PUMP Ogikubo",
+      "address": "1-10-12 Kamiogi, Suginami-ku, Tokyo 167-0043",
+      "url": "https://pump-climbing.com/gym/bpump/",
+      "lat": 35.7049,
+      "lng": 139.6174,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "beta-climbing-gym",
+      "name": "BETA Climbing Gym",
+      "address": "1-14 Sumiyoshicho, Shinjuku-ku, Tokyo 162-0065",
+      "url": "https://beta-climbing.com/",
+      "lat": 35.692195,
+      "lng": 139.722231,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
+    {
+      "id": "base-camp-tokyo-kinshicho",
+      "name": "Base Camp Tokyo Kinshicho",
+      "address": "2-10-12 Mori, Koto-ku, Tokyo 135-0001",
+      "url": "https://b-camp.jp/",
+      "lat": 35.692955,
+      "lng": 139.817093,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "spray"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "rocklands",
+      "name": "ROCKLANDS",
+      "address": "5-27-16 Higashikasai, Edogawa-ku, Tokyo 134-0084",
+      "url": "https://www.climbinggymrocklands.com/",
+      "lat": 35.7066,
+      "lng": 139.8687,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "noborock-shibuya",
+      "name": "NOBOROCK Shibuya",
+      "address": "9-1 Sakuragaokacho, Shibuya-ku, Tokyo 150-0031",
+      "url": "https://noborock-climbing.com/program/shibuya/",
+      "lat": 35.6580,
+      "lng": 139.7017,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "noborock-takadanobaba",
+      "name": "NOBOROCK Takadanobaba",
+      "address": "4-9-9 Takadanobaba, Shinjuku-ku, Tokyo 169-0075",
+      "url": "https://noborock-climbing.com/program/takadanobaba/",
+      "lat": 35.7110,
+      "lng": 139.7120,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:45",
+        "wed": "18:30-22:45",
+        "thu": "10:00-22:45",
+        "fri": "10:00-22:45",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "noborock-ikebukuro",
+      "name": "NOBOROCK Ikebukuro",
+      "address": "5-13-12 Nishiikebukuro, Toshima-ku, Tokyo 171-0021",
+      "url": "https://noborock-climbing.com/program/ikebukuro/",
+      "lat": 35.7260,
+      "lng": 139.7080,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "urban-base-camp-shinjuku",
+      "name": "Urban Base Camp Shinjuku",
+      "address": "7-3-1 Nishishinjuku, Shinjuku-ku, Tokyo 160-0023",
+      "url": "https://b-camp.jp/shinjuku/",
+      "lat": 35.695989,
+      "lng": 139.698839,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
+    },
+    {
+      "id": "boulcom-tokyo",
+      "name": "BOULCOM Tokyo",
+      "address": "1-13-1 Uchikanda, Chiyoda-ku, Tokyo 101-0047",
+      "url": "https://boulcom.jp/",
+      "lat": 35.6909,
+      "lng": 139.7675,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-17:00"
+      }
+    },
+    {
+      "id": "rocky-shinjuku-akebonobashi",
+      "name": "Rocky Climbing & Fitness Gym Shinjuku-Akebonobashi",
+      "address": "14-6 Ichigayadaimachi, Shinjuku-ku, Tokyo 162-0066",
+      "url": "https://www.rockyclimbing.com/shinjukuakebonobashi/",
+      "lat": 35.6905,
+      "lng": 139.7230,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "fish-and-bird",
+      "name": "Fish and Bird",
+      "address": "7-4-12 Toyo, Koto-ku, Tokyo 135-0016",
+      "url": "https://www.fish-bird.co.jp/fishandbird/",
+      "lat": 35.6680,
+      "lng": 139.8120,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "14:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "14:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "ever-free-climbing-gym",
+      "name": "Ever Free Climbing Gym",
+      "address": "2-1 Yotsuya, Shinjuku-ku, Tokyo 160-0004",
+      "url": "http://www.everfree-climbing.com/",
+      "lat": 35.6895,
+      "lng": 139.7190,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "climbing-gym-spider",
+      "name": "Climbing Gym SPIDER",
+      "address": "1-3-16 Minamiazabu, Minato-ku, Tokyo 106-0047",
+      "url": "http://climbing-spider.com/",
+      "lat": 35.651699,
+      "lng": 139.733603,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "spray"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "14:00-22:00",
+        "wed": "14:00-22:00",
+        "thu": "14:00-22:00",
+        "fri": "14:00-22:00",
+        "sat": "06:00-19:00",
+        "sun": "06:00-19:00"
+      }
+    },
+    {
+      "id": "bunker2",
+      "name": "BUNKER2",
+      "address": "1-13-4 Higashikojiya, Ota-ku, Tokyo 144-0033",
+      "url": "https://dodge1970rio8465.wixsite.com/bouldering-gym-bunke",
+      "lat": 35.5560,
+      "lng": 139.7320,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "16:00-23:00",
+        "tue": "16:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "16:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "runout-climbing-gym",
+      "name": "RUNOUT Climbing Gym",
+      "address": "1-43-7 Nishikoigakubo, Kokubunji, Tokyo 185-0013",
+      "url": "https://runout.info/",
+      "lat": 35.6990,
+      "lng": 139.4680,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "tue": "13:00-22:30",
+        "wed": "13:00-22:30",
+        "thu": "13:00-22:30",
+        "fri": "13:00-22:30",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "climbing-gym-girigiri",
+      "name": "Climbing Gym GIRI.GIRI",
+      "address": "5-2-1 Nishiharacho, Nishitokyo, Tokyo 188-0004",
+      "url": "http://climbing-girigiri.com/",
+      "lat": 35.7250,
+      "lng": 139.5350,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "14:00-22:00",
+        "wed": "14:00-22:00",
+        "thu": "14:00-22:00",
+        "fri": "14:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "play-climbing-gym-yoga-studio",
+      "name": "PLAY climbing gym & yoga studio",
+      "address": "2-6-1 Daikanyama, Akishima, Tokyo 196-0005",
+      "url": "https://moripark-sports-wallstudio.jimdosite.com/",
+      "lat": 35.7120,
+      "lng": 139.3560,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "t-wall-edogawabashi",
+      "name": "T-Wall Edogawabashi",
+      "address": "2-5-23 Suido, Bunkyo-ku, Tokyo 112-0005",
+      "url": "https://twall.jp/gym/edo/",
+      "lat": 35.709653,
+      "lng": 139.737363,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "14:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "14:00-23:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      }
+    },
+    {
+      "id": "quail-climbing-gym",
+      "name": "Quail Climbing Gym",
+      "address": "2-26-19 Hayamiya, Nerima-ku, Tokyo 179-0085",
+      "url": "http://quail-climbing.com/",
+      "lat": 35.756243,
+      "lng": 139.649674,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "spray"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "13:00-23:00",
+        "sun": "13:00-23:00"
+      }
+    }
+  ]
+}

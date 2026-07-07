@@ -1,7 +1,7 @@
 {
   "city": "Frankfurt am Main",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-frankfurt",
@@ -36,7 +36,9 @@
         "boulder",
         "lead"
       ],
-      "boards": [],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:30-22:30",
@@ -59,7 +61,10 @@
       "disciplines": [
         "boulder"
       ],
-      "boards": [],
+      "boards": [
+        "kilter",
+        "tension"
+      ],
       "size_sqm": 1050,
       "opening_hours": {
         "mon": "15:00-23:30",

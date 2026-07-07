@@ -1,22 +1,30 @@
 {
   "city": "Bremen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-bremen",
-      "name": "DAV Kletterzentrum Bremen",
+      "name": "UNTERWEGS – DAV Kletterzentrum Bremen",
       "address": "Hastedter Osterdeich 220, 28207 Bremen",
-      "url": "https://www.dav-bremen.de/kletterzentrum",
-      "lat": 53.0646899,
-      "lng": 8.8545018,
+      "url": "https://www.alpenverein-bremen.de/kletterzentrum",
+      "lat": 53.0638556,
+      "lng": 8.8585964,
       "disciplines": [
         "boulder",
         "lead"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
     },
     {
       "id": "blockhelden-bremen",
@@ -44,7 +52,37 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {
+        "mon": "13:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-21:00"
+      }
+    },
+    {
+      "id": "boulder-base-bremen-woltmershausen",
+      "name": "Boulder Base Bremen Woltmershausen",
+      "address": "Am Tabakquartier 14, 28197 Bremen",
+      "url": "https://www.boulderbasebremen.de",
+      "lat": 53.0755916,
+      "lng": 8.7706974,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-21:00"
+      }
     },
     {
       "id": "linie7-bremen",
@@ -59,7 +97,15 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      },
       "image_url": "https://www.linie7.com/linie7_cms/wp-content/uploads/2016/04/cropped-original_logo_300dpi_1100_einfach-192x192.png"
     }
   ]

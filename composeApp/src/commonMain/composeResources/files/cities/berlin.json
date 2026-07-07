@@ -1,7 +1,7 @@
 {
   "city": "Berlin",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-14T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "alpinclub-berlin-huettenweg",
@@ -67,11 +67,11 @@
       "boards": [],
       "size_sqm": 2300,
       "opening_hours": {
-        "mon": "10:00-23:00",
-        "tue": "10:00-23:00",
-        "wed": "10:00-23:00",
-        "thu": "10:00-23:00",
-        "fri": "10:00-23:00",
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
       },
@@ -101,6 +101,22 @@
         "sun": "09:00-22:00"
       },
       "image_url": "https://boulderklub.de/wp-content/uploads/2025-JKH-TNFClimbFest-Sep-05-2025-0109-edit-1-e1779280057617.png"
+    },
+    {
+      "id": "boulderzimmer",
+      "name": "Boulderzimmer",
+      "address": "Onkel-Tom-Straße 99, 14169 Berlin",
+      "url": "https://boulderzimmer.com/",
+      "lat": 52.4495378,
+      "lng": 13.2521064,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "tension"
+      ],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "bright-site",
@@ -140,13 +156,13 @@
       "boards": [],
       "size_sqm": 1000,
       "opening_hours": {
-        "mon": "11:00-23:00",
-        "tue": "11:00-23:00",
-        "wed": "11:00-23:00",
-        "thu": "11:00-23:00",
-        "fri": "11:00-23:00",
-        "sat": "10:00-22:00",
-        "sun": "10:00-22:00"
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
       },
       "image_url": "https://www.cliffhanger-berlin.de/wp-content/uploads/2018/08/cliffhanger-slider3.jpg"
     },
@@ -216,7 +232,15 @@
         "tension"
       ],
       "size_sqm": 1900,
-      "opening_hours": {},
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      },
       "image_url": "https://daselektra.de/wp-content/uploads/ELEKTRA_LOGO_type_Quad-600x400.jpg"
     },
     {
@@ -300,7 +324,7 @@
       "size_sqm": 1200,
       "opening_hours": {
         "mon": "10:00-23:00",
-        "tue": "10:00-24:00",
+        "tue": "10:00-23:00",
         "wed": "10:00-23:00",
         "thu": "10:00-23:00",
         "fri": "10:00-23:00",
@@ -348,11 +372,11 @@
       ],
       "size_sqm": 1600,
       "opening_hours": {
-        "mon": "10:00-23:00",
-        "tue": "10:00-23:00",
-        "wed": "10:00-23:00",
-        "thu": "07:00-23:00",
-        "fri": "10:00-23:00",
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
       },

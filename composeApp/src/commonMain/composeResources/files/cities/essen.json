@@ -1,7 +1,7 @@
 {
   "city": "Essen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-essen",
@@ -24,22 +24,30 @@
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
       },
-      "image_url": "https://www.boulderwelt.de/wp-content/uploads/2018/12/Dortmund.jpg"
+      "image_url": "https://www.boulderwelt.de/wp-content/uploads/2018/12/BW_Logo.png"
     },
     {
       "id": "dav-kletterzentrum-essen",
-      "name": "DAV Kletterzentrum Essen",
-      "address": "Huttropstraße 60, 45138 Essen",
-      "url": "https://www.dav-essen.de/kletterzentrum",
-      "lat": 51.4437416,
-      "lng": 7.0332745,
+      "name": "DAV Kletterpütt Essen",
+      "address": "Twentmannstraße 125, 45326 Essen",
+      "url": "https://www.dav-essen.de/",
+      "lat": 51.4822280,
+      "lng": 7.0194330,
       "disciplines": [
         "boulder",
         "lead"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "10:00-22:30",
+        "sun": "10:00-22:30"
+      }
     }
   ]
 }

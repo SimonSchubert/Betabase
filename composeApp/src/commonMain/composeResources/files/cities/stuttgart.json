@@ -1,7 +1,7 @@
 {
   "city": "Stuttgart",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "cityrock",
@@ -88,7 +88,8 @@
       ],
       "boards": [
         "moonboard",
-        "kilter"
+        "kilter",
+        "spray"
       ],
       "size_sqm": 1600,
       "opening_hours": {

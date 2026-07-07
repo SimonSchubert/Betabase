@@ -1,7 +1,7 @@
 {
   "city": "Hamburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-hamburg",
@@ -136,7 +136,7 @@
         "boulder"
       ],
       "boards": [],
-      "size_sqm": 100,
+      "size_sqm": 400,
       "opening_hours": {
         "mon": "15:00-24:00",
         "tue": "15:00-24:00",

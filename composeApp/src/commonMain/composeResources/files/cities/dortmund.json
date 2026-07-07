@@ -1,7 +1,7 @@
 {
   "city": "Dortmund",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-07T00:00:00Z",
   "gyms": [
     {
       "id": "boulderwelt-dortmund",
@@ -14,7 +14,8 @@
         "boulder"
       ],
       "boards": [
-        "kilter"
+        "kilter",
+        "tension"
       ],
       "size_sqm": 3250,
       "opening_hours": {
