@@ -1,3 +1,15 @@
+## v0.9.0 — 2026-07-17
+
+### Features
+- Added grading system tab
+- Added Europe region
+- Expanded gym map with major EU climbing hubs and deeper coverage
+
+### Improvements
+- Refreshed NKBV, SCA, and DAV competition calendars
+- Refreshed athlete YouTube video feed
+- Upgraded dependencies
+
 ## v0.8.2 — 2026-07-08
 
 ### Features

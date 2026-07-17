@@ -1,0 +1,6 @@
+Added grading system tab
+Added Europe region
+Expanded gym map with major EU climbing hubs
+Refreshed competition calendars
+Refreshed athlete YouTube video feed
+Upgraded dependencies
