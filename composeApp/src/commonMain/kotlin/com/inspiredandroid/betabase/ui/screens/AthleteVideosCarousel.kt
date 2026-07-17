@@ -56,7 +56,7 @@ fun AthleteVideosCarousel(
             text = "ATHLETE CHANNELS",
             style = BetabaseTheme.typography.displayMedium,
             color = BetabaseTheme.colors.ink,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
+            modifier = headerModifier.fillMaxWidth(),
         )
         LazyRow(
             contentPadding = contentPadding,

@@ -149,10 +149,6 @@ private fun ReadyState(
             ),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            item("brand") {
-                Spacer(Modifier.fillMaxWidth()) // keep for async athlet load
-            }
-
             if (state.athleteVideos.isNotEmpty()) {
                 item("athlete-videos") {
                     AthleteVideosCarousel(
@@ -222,25 +218,6 @@ private fun ReadyState(
 }
 
 private val ScreenSidePadding = 20.dp
-
-@Composable
-private fun BrandHeader(modifier: Modifier = Modifier) {
-    Column(modifier = modifier.fillMaxWidth()) {
-        BetaText(
-            text = "BETABASE",
-            style = BetabaseTheme.typography.displayLarge,
-            color = BetabaseTheme.colors.ink,
-            modifier = Modifier.fillMaxWidth(),
-        )
-        Spacer(Modifier.height(8.dp))
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(1.dp)
-                .background(BetabaseTheme.colors.hairline),
-        )
-    }
-}
 
 @Composable
 private fun CompetitionsSectionHeader(
@@ -426,6 +403,7 @@ private fun FilterChips(
 @Composable
 private fun sourceColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.accent
+    SourceTag.EUROPE -> Color(0xFF003399)
     SourceTag.NKBV -> BetabaseTheme.colors.ink
     SourceTag.SCA -> Color(0xFF16A34A)
     SourceTag.DAV -> Color(0xFFF5C400)
@@ -434,6 +412,7 @@ private fun sourceColor(source: SourceTag) = when (source) {
 @Composable
 private fun sourceOnColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.onAccent
+    SourceTag.EUROPE -> BetabaseTheme.colors.inkInverse
     SourceTag.NKBV -> BetabaseTheme.colors.inkInverse
     SourceTag.SCA -> BetabaseTheme.colors.inkInverse
     SourceTag.DAV -> BetabaseTheme.colors.ink

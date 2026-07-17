@@ -65,15 +65,13 @@ data class Athlete(
     val totalTitles: Int,
     val worldCupSeasonTitles: Int,
     val worldChampionshipTitles: Int,
-    // Per-event World Cup medal totals broken out by discipline. Scraped from
-    // the season pages on Wikipedia (2004 + 2006–2025). Authoritative within
-    // that window; pre-2004 events aren't on Wikipedia in this form.
+    // Per-event World Cup / World Climbing Series medal totals by discipline.
+    // Derived from senior IFSC all_results (not the API's all-age discipline_podiums).
     val worldCupBoulder: MedalCount,
     val worldCupLead: MedalCount,
     val worldCupSpeed: MedalCount,
-    // Documented podium medals from each athlete's Wikipedia medal-record
-    // table — covers Olympics / Worlds / World Games / Euros where the World
-    // Cup roll-up wouldn't apply.
+    // Olympics / Worlds / World Games / continental championships — from IFSC
+    // dedicated podium fields or all_results event-name matching.
     val olympic: MedalCount,
     val worldChampionships: MedalCount,
     val worldGames: MedalCount,

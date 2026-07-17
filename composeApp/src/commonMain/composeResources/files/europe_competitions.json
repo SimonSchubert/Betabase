@@ -1,0 +1,150 @@
+{
+  "source": "EUROPE",
+  "source_url": "https://www.worldclimbing.com/calendar/index",
+  "fetched_at": "2026-07-17T20:07:16Z",
+  "events": [
+    {
+      "id": "europe-world-climbing-europe-championship-barcelona-2026",
+      "title": "World Climbing Europe Championship Barcelona 2026",
+      "series": null,
+      "location": "Barcelona, Spain",
+      "date": "2026-07-17",
+      "end_date": "2026-07-19",
+      "time": null,
+      "discipline": "Boulder",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-championship-barcelona-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-series-barcelona-2026",
+      "title": "World Climbing Europe Series Barcelona 2026",
+      "series": null,
+      "location": "Barcelona, Spain",
+      "date": "2026-07-17",
+      "end_date": null,
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-series-barcelona-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-youth-series-st-polten-2026",
+      "title": "World Climbing Europe Youth Series St. Pölten 2026",
+      "series": null,
+      "location": "St. Pölten, Austria",
+      "date": "2026-08-01",
+      "end_date": null,
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-youth-series-st-polten-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-series-st-polten-2026",
+      "title": "World Climbing Europe Series St. Pölten 2026",
+      "series": null,
+      "location": "St. Pölten, Austria",
+      "date": "2026-08-02",
+      "end_date": null,
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-series-st-polten-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-series-zilina-2026",
+      "title": "World Climbing Europe Series Žilina 2026",
+      "series": null,
+      "location": "Žilina, Slovakia",
+      "date": "2026-08-07",
+      "end_date": "2026-08-09",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-series-zilina-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-series-ostermundigen-2026",
+      "title": "World Climbing Europe Series Ostermundigen 2026",
+      "series": null,
+      "location": "Ostermundigen, Switzerland",
+      "date": "2026-08-21",
+      "end_date": "2026-08-22",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-series-ostermundigen-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-championship-laval-2026",
+      "title": "World Climbing Europe Championship Laval 2026",
+      "series": null,
+      "location": "Laval, France",
+      "date": "2026-08-28",
+      "end_date": "2026-08-30",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-championship-laval-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-para-championship-laval-2026",
+      "title": "World Climbing Europe Para Championship Laval 2026",
+      "series": null,
+      "location": "Laval, France",
+      "date": "2026-08-28",
+      "end_date": "2026-08-29",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-para-championship-laval-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-youth-series-imst-2026",
+      "title": "World Climbing Europe Youth Series Imst 2026",
+      "series": null,
+      "location": "Imst, Austria",
+      "date": "2026-09-04",
+      "end_date": "2026-09-06",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-youth-series-imst-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-youth-championship-augsburg-2026",
+      "title": "World Climbing Europe Youth Championship Augsburg 2026",
+      "series": null,
+      "location": "Augsburg, Germany",
+      "date": "2026-09-19",
+      "end_date": "2026-09-20",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-youth-championship-augsburg-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-youth-series-leipzig-2026",
+      "title": "World Climbing Europe Youth Series Leipzig 2026",
+      "series": null,
+      "location": "Leipzig, Germany",
+      "date": "2026-10-03",
+      "end_date": null,
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-youth-series-leipzig-2026/"
+    },
+    {
+      "id": "europe-world-climbing-europe-series-leipzig-2026",
+      "title": "World Climbing Europe Series Leipzig 2026",
+      "series": null,
+      "location": "Leipzig, Germany",
+      "date": "2026-10-04",
+      "end_date": null,
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-europe-series-leipzig-2026/"
+    },
+    {
+      "id": "europe-european-para-championships-geneva-2027",
+      "title": "European Para Championships Geneva 2027",
+      "series": null,
+      "location": "Geneva, Switzerland",
+      "date": "2027-08-02",
+      "end_date": "2027-08-15",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.ifsc-climbing.org/events/european-para-championships-geneva-2027/"
+    }
+  ]
+}

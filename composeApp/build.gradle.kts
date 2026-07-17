@@ -42,7 +42,15 @@ kotlin {
         }
     }
 
-    jvm("desktop")
+    // Pin desktop bytecode to 21 so it matches the JDK used by compose.desktop
+    // run/jpackage (see javaHome below). Kotlin 2.4 defaults higher (JVM 25 /
+    // class file 69), which then fails at runtime on jdk-21 with
+    // UnsupportedClassVersionError.
+    jvm("desktop") {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_21)
+        }
+    }
 
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {

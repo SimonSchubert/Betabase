@@ -55,6 +55,10 @@ fun BetabaseApp() {
                 sources = listOf(
                     IfscEventSource(httpClient, cache = jsonCache),
                     BundledJsonEventSource(
+                        resourcePath = "files/europe_competitions.json",
+                        tag = SourceTag.EUROPE,
+                    ),
+                    BundledJsonEventSource(
                         resourcePath = "files/nkbv_competitions.json",
                         tag = SourceTag.NKBV,
                     ),

@@ -28,6 +28,7 @@ data class CompetitionEvent(
 
 enum class SourceTag(val displayName: String, val regionLabel: String) {
     IFSC(displayName = "IFSC", regionLabel = "World"),
+    EUROPE(displayName = "Europe", regionLabel = "Europe"),
     NKBV(displayName = "NKBV", regionLabel = "Netherlands"),
     SCA(displayName = "SCA", regionLabel = "Australia"),
     DAV(displayName = "DAV", regionLabel = "Germany"),
