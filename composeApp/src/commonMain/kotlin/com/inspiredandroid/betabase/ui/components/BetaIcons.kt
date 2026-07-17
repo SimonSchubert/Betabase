@@ -2,6 +2,7 @@ package com.inspiredandroid.betabase.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.size
+import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
@@ -25,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import betabase.composeapp.generated.resources.Res
 import betabase.composeapp.generated.resources.arrow_up
 import betabase.composeapp.generated.resources.boulder
+import betabase.composeapp.generated.resources.menu_book
 import com.inspiredandroid.betabase.data.GymMarkerCategory
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.theme.LocalContentColor
@@ -235,4 +237,19 @@ fun GymsIcon(
         drawPath(path = path, color = tint, style = Stroke(width = stroke))
         drawCircle(color = tint, center = Offset(cx, cy), radius = r * 0.32f)
     }
+}
+
+/** Material Symbols outlined menu_book — glossary / grade systems. */
+@Composable
+fun GradesIcon(
+    modifier: Modifier = Modifier,
+    tint: Color = LocalContentColor.current,
+    size: Dp = 22.dp,
+) {
+    Icon(
+        painter = painterResource(Res.drawable.menu_book),
+        contentDescription = null,
+        modifier = modifier.size(size),
+        tint = tint,
+    )
 }

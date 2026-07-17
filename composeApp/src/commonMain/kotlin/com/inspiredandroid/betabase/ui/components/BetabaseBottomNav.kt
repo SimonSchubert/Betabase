@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 
-enum class Tab { Comps, Athletes, Gyms }
+enum class Tab { Comps, Athletes, Gyms, Grades }
 
 @Composable
 fun BetabaseBottomNav(
@@ -59,6 +59,18 @@ fun BetabaseBottomNav(
             label = {
                 BetaText(
                     text = "GYMS",
+                    style = BetabaseTheme.typography.labelSmall,
+                )
+            },
+            colors = navColors,
+        )
+        NavigationBarItem(
+            selected = selected == Tab.Grades,
+            onClick = { onSelect(Tab.Grades) },
+            icon = { GradesIcon() },
+            label = {
+                BetaText(
+                    text = "GRADES",
                     style = BetabaseTheme.typography.labelSmall,
                 )
             },

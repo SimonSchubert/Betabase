@@ -35,6 +35,7 @@ import com.inspiredandroid.betabase.ui.components.Tab
 import com.inspiredandroid.betabase.ui.screens.AthletesScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreen
 import com.inspiredandroid.betabase.ui.screens.CompetitionsViewModel
+import com.inspiredandroid.betabase.ui.screens.GradesScreen
 import com.inspiredandroid.betabase.ui.screens.GymsScreen
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import kotlinx.datetime.TimeZone
@@ -108,8 +109,10 @@ fun BetabaseApp() {
             Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
                 var gymsEverVisible by rememberSaveable { mutableStateOf(false) }
                 var athletesEverVisible by rememberSaveable { mutableStateOf(false) }
+                var gradesEverVisible by rememberSaveable { mutableStateOf(false) }
                 if (selectedTab == Tab.Gyms) gymsEverVisible = true
                 if (selectedTab == Tab.Athletes) athletesEverVisible = true
+                if (selectedTab == Tab.Grades) gradesEverVisible = true
 
                 TabLayer(visible = selectedTab == Tab.Comps) {
                     CompetitionsScreen(
@@ -133,6 +136,11 @@ fun BetabaseApp() {
                 if (gymsEverVisible) {
                     TabLayer(visible = selectedTab == Tab.Gyms) {
                         GymsScreen(filterStorage = filterStorage)
+                    }
+                }
+                if (gradesEverVisible) {
+                    TabLayer(visible = selectedTab == Tab.Grades) {
+                        GradesScreen()
                     }
                 }
             }
