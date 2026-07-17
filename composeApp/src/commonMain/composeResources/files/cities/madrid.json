@@ -1,8 +1,52 @@
 {
   "city": "Madrid",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
+    {
+      "id": "arkose-madrid-carabanchel",
+      "name": "Arkose Madrid Carabanchel",
+      "address": "Calle de Julia Nebot 4, 28025 Madrid",
+      "url": "https://arkose.com/es/madrid-carabanchel",
+      "lat": 40.38756,
+      "lng": -3.735255,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      }
+    },
+    {
+      "id": "arkose-madrid-cuatro-caminos",
+      "name": "Arkose Madrid Cuatro Caminos",
+      "address": "Calle de Leñeros 4, 28039 Madrid",
+      "url": "https://arkose.com/en/madrid-cuatro-caminos",
+      "lat": 40.452666,
+      "lng": -3.707564,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      }
+    },
     {
       "id": "boulder-madrid",
       "name": "Boulder Madrid",
@@ -18,10 +62,26 @@
       "opening_hours": {}
     },
     {
+      "id": "climbat-x-madrid",
+      "name": "Climbat X-Madrid",
+      "address": "Calle Oslo 54, 28922 Alcorcón",
+      "url": "https://x-madrid.com/ocioydeporte/climbat",
+      "lat": 40.339389,
+      "lng": -3.848626,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 2000,
+      "opening_hours": {}
+    },
+    {
       "id": "indoorwall-getafe",
       "name": "Indoorwall Getafe",
       "address": "Calle Fundidores 27, 28906 Getafe",
       "url": "https://www.indoorwall.com",
+      "image_url": "https://www.indoorwall.com/wp-content/uploads/2019/04/IW-indoorwall-climbing-center.png",
       "lat": 40.311873,
       "lng": -3.7030909,
       "disciplines": [
@@ -30,14 +90,90 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.indoorwall.com/wp-content/uploads/2019/04/IW-indoorwall-climbing-center.png"
+      "opening_hours": {}
+    },
+    {
+      "id": "roc-30",
+      "name": "Roc 30",
+      "address": "Paseo de San Illán 106, 28019 Madrid",
+      "url": "https://fmm.es/rocodromo-roc30",
+      "lat": 40.40242,
+      "lng": -3.724513,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 750,
+      "opening_hours": {
+        "mon": "09:00-22:30",
+        "tue": "09:00-22:30",
+        "wed": "09:00-22:30",
+        "thu": "09:00-22:30",
+        "fri": "09:00-22:30",
+        "sat": "11:30-16:00"
+      }
+    },
+    {
+      "id": "rocomadrid",
+      "name": "RocoMadrid",
+      "address": "Calle del Monasterio de Leyre 9, 28029 Madrid",
+      "url": "https://rocomadrid.com",
+      "lat": 40.465341,
+      "lng": -3.695904,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 385,
+      "opening_hours": {}
+    },
+    {
+      "id": "salamandra-boulder-cafe",
+      "name": "Salamandra Boulder Café",
+      "address": "Calle de Escosura 5, 28015 Madrid",
+      "url": "https://www.salamandra-bc.com",
+      "lat": 40.434258,
+      "lng": -3.707018,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "sharma-climbing-madrid-centro",
+      "name": "Sharma Climbing Madrid Centro",
+      "address": "Calle de Julián Camarillo 55, 28037 Madrid",
+      "url": "https://sharmaclimbing.com/en/spain/madrid-centro",
+      "lat": 40.437774,
+      "lng": -3.620214,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": 4000,
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     },
     {
       "id": "sputnik-climbing",
-      "name": "Sputnik Climbing",
+      "name": "Sputnik Climbing Vallehermoso",
       "address": "Calle de Vallehermoso 87, 28003 Madrid",
       "url": "https://sputnikclimbing.com",
+      "image_url": "https://sputnikclimbing.com/wp-content/uploads/2025/04/Sputnik-climbingcohete.png",
       "lat": 40.4394987,
       "lng": -3.7087577,
       "disciplines": [
@@ -46,8 +182,85 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://sputnikclimbing.com/wp-content/uploads/2025/04/Sputnik-climbingcohete.png"
+      "opening_hours": {}
+    },
+    {
+      "id": "sputnik-climbing-alcobendas",
+      "name": "Sputnik Climbing Alcobendas",
+      "address": "Calle de La Granja 100, 28108 Alcobendas",
+      "url": "https://sputnikclimbing.com",
+      "lat": 40.535981,
+      "lng": -3.656654,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "sputnik-climbing-las-rozas",
+      "name": "Sputnik Climbing Las Rozas",
+      "address": "Calle de París 2, 28232 Las Rozas de Madrid",
+      "url": "https://sputnikclimbing.com/en/rocodromo-madrid/las-rozas",
+      "lat": 40.498403,
+      "lng": -3.890871,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "uadibloc",
+      "name": "Uadibloc",
+      "address": "Calle de San Hermenegildo 25, 28015 Madrid",
+      "url": "https://uadibloc.com",
+      "lat": 40.428288,
+      "lng": -3.70892,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": 600,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00"
+      }
+    },
+    {
+      "id": "urban-monkey-madrid",
+      "name": "Urban Monkey Madrid",
+      "address": "Calle de Tarragona 8, 28045 Madrid",
+      "url": "https://urbanmonkey.es",
+      "lat": 40.401618,
+      "lng": -3.697594,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": 500,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ]
 }

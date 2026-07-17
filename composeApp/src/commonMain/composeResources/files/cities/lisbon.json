@@ -1,13 +1,14 @@
 {
   "city": "Lisbon",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
     {
       "id": "98-gravity",
       "name": "9.8 Gravity",
       "address": "Rua Engenheiro Adão Manuel Ramos Barata, 2685-332 Sacavém",
       "url": "https://98gravity.pt",
+      "image_url": "https://www.98gravity.pt/wp-content/uploads/2022/12/banner.jpg",
       "lat": 38.7842913,
       "lng": -9.1255514,
       "disciplines": [
@@ -15,14 +16,85 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.98gravity.pt/wp-content/uploads/2022/12/banner.jpg"
+      "opening_hours": {}
+    },
+    {
+      "id": "altissimo-lisboa",
+      "name": "Altissimo Lisboa",
+      "address": "Estrada de Paço de Arcos 39, 2735-308 Agualva-Cacém",
+      "url": "https://www.altissimo.pt",
+      "lat": 38.764686,
+      "lng": -9.304064,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-20:00",
+        "sun": "09:00-19:00"
+      }
+    },
+    {
+      "id": "climb-up-carnaxide",
+      "name": "Climb UP Carnaxide",
+      "address": "Rua Nossa Senhora da Conceição 3 Armazém L, 2790-111 Carnaxide",
+      "url": "https://www.climbup.pt",
+      "lat": 38.721683,
+      "lng": -9.233104,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      }
+    },
+    {
+      "id": "crux-climbing-center",
+      "name": "Crux Climbing Center",
+      "address": "Rua António Bravo 4B, 2785-543 São Domingos de Rana",
+      "url": "https://www.cruxclimbing.pt",
+      "lat": 38.721735,
+      "lng": -9.330538,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter"
+      ],
+      "size_sqm": 250,
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      }
     },
     {
       "id": "escala25",
       "name": "Escala25",
       "address": "Avenida da Índia 52, 1300-141 Lisboa",
       "url": "https://escala25.com",
+      "image_url": "https://escala25.com/wp-content/uploads/2023/12/230624-Escala25-244-768x512.jpg",
       "lat": 38.7003518,
       "lng": -9.178815,
       "disciplines": [
@@ -30,8 +102,30 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://escala25.com/wp-content/uploads/2023/12/230624-Escala25-244-768x512.jpg"
+      "opening_hours": {
+        "mon": "14:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-18:00",
+        "sun": "10:00-18:00"
+      }
+    },
+    {
+      "id": "rocodromo-areeiro",
+      "name": "Rocódromo do Areeiro",
+      "address": "Rua João da Silva 16B, 1900-271 Lisboa",
+      "url": "https://www.fcmportugal.com",
+      "lat": 38.742624,
+      "lng": -9.12794,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "vertical-wall",
@@ -53,6 +147,7 @@
       "name": "Vertigo Climbing Center",
       "address": "Avenida Infante Dom Henrique, 1950-408 Lisboa",
       "url": "https://vertigoclimbing.pt",
+      "image_url": "https://vertigoclimbing.pt/wp-content/uploads/2020/11/vertigo_project_berlogos_4q.jpg",
       "lat": 38.739902,
       "lng": -9.1020322,
       "disciplines": [
@@ -61,8 +156,7 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://vertigoclimbing.pt/wp-content/uploads/2020/11/vertigo_project_berlogos_4q.jpg"
+      "opening_hours": {}
     }
   ]
 }

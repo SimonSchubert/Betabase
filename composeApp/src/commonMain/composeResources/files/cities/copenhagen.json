@@ -1,13 +1,14 @@
 {
   "city": "Copenhagen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
     {
       "id": "beta-boulders-osterbro",
       "name": "Beta Boulders Østerbro",
       "address": "Hammershusgade, 2100 København",
       "url": "https://betaboulders.com",
+      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg",
       "lat": 55.7069382,
       "lng": 12.5610671,
       "disciplines": [
@@ -15,14 +16,22 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg"
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
     },
     {
       "id": "beta-boulders-sydhavn",
       "name": "Beta Boulders Sydhavn",
-      "address": "Pladehals Allé, 1705 København",
+      "address": "Pladehals Allé 26, 1705 København",
       "url": "https://betaboulders.com",
+      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg",
       "lat": 55.6557971,
       "lng": 12.5510318,
       "disciplines": [
@@ -30,14 +39,46 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg"
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "beta-boulders-west",
+      "name": "Beta Boulders West",
+      "address": "Kastanie Allé 8, 2720 Vanløse",
+      "url": "https://betaboulders.com",
+      "lat": 55.683531,
+      "lng": 12.491253,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
     },
     {
       "id": "bison-boulders-kodbyen",
       "name": "Bison Boulders Kødbyen",
       "address": "Flæsketorvet, 1712 København",
       "url": "https://www.bison-boulders.com",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6891f7ddb1168f3cfa60a7c9/1754396706075-IJOGZHQQN6JEJPHMJ5S7/Logo+Bison+Boulders.png",
       "lat": 55.6672116,
       "lng": 12.5609106,
       "disciplines": [
@@ -53,8 +94,30 @@
         "fri": "09:00-23:00",
         "sat": "09:00-23:00",
         "sun": "09:00-23:00"
-      },
-      "image_url": "https://images.squarespace-cdn.com/content/v1/6891f7ddb1168f3cfa60a7c9/1754396706075-IJOGZHQQN6JEJPHMJ5S7/Logo+Bison+Boulders.png"
+      }
+    },
+    {
+      "id": "blocs-and-walls",
+      "name": "Blocs & Walls",
+      "address": "Refshalevej 163D, 1432 København",
+      "url": "https://www.dbkk.dk",
+      "lat": 55.692943,
+      "lng": 12.610612,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "07:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "10:00-20:00",
+        "sun": "08:00-22:00"
+      }
     }
   ]
 }

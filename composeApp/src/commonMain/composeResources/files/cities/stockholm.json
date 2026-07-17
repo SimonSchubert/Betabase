@@ -1,13 +1,29 @@
 {
   "city": "Stockholm",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
     {
+      "id": "karbin",
+      "name": "Karbin Klätterhall",
+      "address": "Näbbskostigen, 126 39 Stockholm",
+      "url": "https://karbin.com",
+      "lat": 59.289436,
+      "lng": 18.017345,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "klattercentret",
-      "name": "Klättercentret",
-      "address": "Tellusgången 24, 129 04 Stockholm",
+      "name": "Klättercentret Telefonplan",
+      "address": "Tellusgången 22-24, 126 26 Hägersten",
       "url": "https://www.klattercentret.se",
+      "image_url": "https://www.klattercentret.se/wp-content/themes/klattercentret-startsida/images/logo-white.png",
       "lat": 59.2990654,
       "lng": 17.9911878,
       "disciplines": [
@@ -16,8 +32,45 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.klattercentret.se/wp-content/themes/klattercentret-startsida/images/logo-white.png"
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "klattercentret-akalla",
+      "name": "Klättercentret Akalla",
+      "address": "Vandagatan 3, 164 74 Kista",
+      "url": "https://www.klattercentret.se/akalla",
+      "lat": 59.420462,
+      "lng": 17.915311,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klattercentret-solna",
+      "name": "Klättercentret Solna",
+      "address": "Banvaktsvägen 20, 171 48 Solna",
+      "url": "https://www.klattercentret.se/solna",
+      "lat": 59.356923,
+      "lng": 18.01629,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "klatterverket-gasverket",

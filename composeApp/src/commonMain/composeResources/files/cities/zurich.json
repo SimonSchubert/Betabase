@@ -1,13 +1,59 @@
 {
   "city": "Zürich",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
+    {
+      "id": "9grad-thalwil",
+      "name": "9grad Boulderhalle Thalwil",
+      "address": "Zürcherstrasse 65, 8800 Thalwil",
+      "url": "https://www.boulderpark-thalwil.ch",
+      "lat": 47.284443,
+      "lng": 8.56507,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "06:30-22:00",
+        "tue": "06:30-22:00",
+        "wed": "06:30-22:00",
+        "thu": "06:30-22:00",
+        "fri": "06:30-22:00",
+        "sat": "08:00-22:00",
+        "sun": "08:00-22:00"
+      }
+    },
+    {
+      "id": "boulderlounge-schlieren",
+      "name": "Boulderlounge Schlieren",
+      "address": "Zürcherstrasse 39, 8952 Schlieren",
+      "url": "https://www.boulderlounge.ch/schlieren",
+      "lat": 47.398992,
+      "lng": 8.452902,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard",
+        "kilter"
+      ],
+      "size_sqm": 1200,
+      "opening_hours": {
+        "mon": "16:30-22:30",
+        "tue": "16:30-22:30",
+        "wed": "13:30-22:30",
+        "thu": "16:30-22:30",
+        "fri": "16:30-22:30"
+      }
+    },
     {
       "id": "grindelboulder",
       "name": "GrindelBoulder",
       "address": "Grindelstrasse 12, 8303 Bassersdorf",
       "url": "https://grindelboulder.ch",
+      "image_url": "https://grindelboulder.ch/medien/2026/03/banner-heavy-rock-2026.png",
       "lat": 47.4460131,
       "lng": 8.6092783,
       "disciplines": [
@@ -15,14 +61,83 @@
       ],
       "boards": [],
       "size_sqm": 900,
-      "opening_hours": {},
-      "image_url": "https://grindelboulder.ch/medien/2026/03/banner-heavy-rock-2026.png"
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterzentrum-gaswerk-greifensee",
+      "name": "Kletterzentrum Gaswerk Greifensee",
+      "address": "Im Grossriet, 8606 Greifensee",
+      "url": "https://www.kletterzentrum.com/standorte/greifensee",
+      "lat": 47.376644,
+      "lng": 8.672399,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "07:30-22:00",
+        "fri": "10:00-22:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "kletterzentrum-gaswerk-schlieren",
+      "name": "Kletterzentrum Gaswerk Schlieren",
+      "address": "Ballonstrasse, 8952 Schlieren",
+      "url": "https://www.kletterzentrum.com/standorte/schlieren",
+      "lat": 47.402682,
+      "lng": 8.462355,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "07:30-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "kletterzentrum-gaswerk-waedenswil",
+      "name": "Kletterzentrum Gaswerk Wädenswil",
+      "address": "Rütihof 2, 8820 Wädenswil",
+      "url": "https://www.kletterzentrum.com/standorte/waedenswil",
+      "lat": 47.236925,
+      "lng": 8.635288,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "07:30-23:00",
+        "thu": "11:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      }
     },
     {
       "id": "minimum-boulder-fluela",
       "name": "Minimum Boulder Flüela",
       "address": "Flüelastrasse 31, 8047 Zürich",
       "url": "https://minimum.ch",
+      "image_url": "https://minimum.ch/app/themes/minimum.ch/dist/images/minimum-logo-positive_74f7b3d7.svg",
       "lat": 47.3816369,
       "lng": 8.4953202,
       "disciplines": [
@@ -30,14 +145,22 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://minimum.ch/app/themes/minimum.ch/dist/images/minimum-logo-positive_74f7b3d7.svg"
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     },
     {
       "id": "minimum-boulder-leutsch",
       "name": "Minimum Boulder Leutsch",
       "address": "Leutschenbachstrasse 44, 8050 Zürich",
       "url": "https://minimum.ch",
+      "image_url": "https://minimum.ch/app/uploads/2018/06/Minimum_HP_Bouldern2.jpg",
       "lat": 47.4159444,
       "lng": 8.5546917,
       "disciplines": [
@@ -45,14 +168,22 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://minimum.ch/app/uploads/2018/06/Minimum_HP_Bouldern2.jpg"
+      "opening_hours": {
+        "mon": "08:00-23:00",
+        "tue": "08:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "08:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     },
     {
       "id": "mito-bouldering",
       "name": "Mitō Bouldering",
       "address": "Badenerstrasse 434, 8004 Zürich",
       "url": "https://mito-bouldering.ch",
+      "image_url": "https://mito-bouldering.ch/location/boulderingp1.jpg",
       "lat": 47.3806175,
       "lng": 8.5056168,
       "disciplines": [
@@ -63,8 +194,7 @@
         "tension"
       ],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://mito-bouldering.ch/location/boulderingp1.jpg"
+      "opening_hours": {}
     }
   ]
 }

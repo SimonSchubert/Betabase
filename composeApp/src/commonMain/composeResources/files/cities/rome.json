@@ -1,13 +1,63 @@
 {
   "city": "Rome",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-07-17T00:00:00Z",
   "gyms": [
+    {
+      "id": "climbing-side",
+      "name": "Climbing Side",
+      "address": "Via Cristoforo Colombo 1800, 00144 Roma",
+      "url": "https://ciclopeclimb.com",
+      "lat": 41.816364,
+      "lng": 12.461827,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "16:00-22:00",
+        "wed": "16:00-22:00",
+        "fri": "16:00-22:00"
+      }
+    },
+    {
+      "id": "ecole-verticale",
+      "name": "École Verticale",
+      "address": "Lungotevere Flaminio 73, 00196 Roma",
+      "url": "https://www.instagram.com/ecoleverticale",
+      "lat": 41.920116,
+      "lng": 12.471278,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rock-and-walls",
+      "name": "Rock & Walls",
+      "address": "Via di Pietralata 135, 00158 Roma",
+      "url": "http://www.rockandwalls.com",
+      "lat": 41.927477,
+      "lng": 12.536569,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "rock-it-climbing-roma",
       "name": "Rock it Climbing Roma",
       "address": "Via Biordo Michelotti 22, 00176 Roma",
       "url": "https://rockit-arrampicataroma.it",
+      "image_url": "https://www.rockit-arrampicataroma.it/wp-content/uploads/2017/07/rock-it-climbing-roma-02.jpg?id=199",
       "lat": 41.8939442,
       "lng": 12.5381418,
       "disciplines": [
@@ -27,14 +77,29 @@
         "fri": "08:00-23:00",
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
-      },
-      "image_url": "https://www.rockit-arrampicataroma.it/wp-content/uploads/2017/07/rock-it-climbing-roma-02.jpg?id=199"
+      }
+    },
+    {
+      "id": "roma-center-climb",
+      "name": "Roma Center Climb",
+      "address": "Via Cassia 1634, 00123 Roma",
+      "url": "https://palestra-arrampicata-roma.it",
+      "lat": 42.003151,
+      "lng": 12.384999,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "star-wall-climbing-park",
       "name": "Star Wall Climbing Park",
       "address": "Via Edoardo Maragliano 5, 00151 Roma",
       "url": "https://www.starwall.it",
+      "image_url": "https://i0.wp.com/www.starwall.it/wp-content/uploads/2023/10/star-wall-DEF.png?fit=800%2C477&ssl=1",
       "lat": 41.8649983,
       "lng": 12.4431053,
       "disciplines": [
@@ -49,14 +114,14 @@
         "wed": "09:00-22:00",
         "thu": "09:00-22:00",
         "fri": "09:00-22:00"
-      },
-      "image_url": "https://i0.wp.com/www.starwall.it/wp-content/uploads/2023/10/star-wall-DEF.png?fit=800%2C477&ssl=1"
+      }
     },
     {
       "id": "vertical-park",
       "name": "Vertical Park",
       "address": "Via Sassonegro 88, 00169 Roma",
       "url": "https://verticalpark.it",
+      "image_url": "https://verticalpark.it/images/logoverticalpark.png",
       "lat": 41.8635365,
       "lng": 12.5970827,
       "disciplines": [
@@ -75,8 +140,7 @@
         "thu": "10:00-23:00",
         "fri": "13:00-23:00",
         "sat": "11:30-19:00"
-      },
-      "image_url": "https://verticalpark.it/images/logoverticalpark.png"
+      }
     }
   ]
 }
