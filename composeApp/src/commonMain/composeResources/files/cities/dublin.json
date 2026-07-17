@@ -1,0 +1,78 @@
+{
+  "city": "Dublin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "awesome-walls-dublin",
+      "name": "Awesome Walls Dublin",
+      "address": "Unit 6, North Park Business Park, Finglas, Dublin, D11 YP40",
+      "url": "https://awesomewalls.ie/dublin",
+      "lat": 53.4016337,
+      "lng": -6.3161516,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "gravity-climbing-centre",
+      "name": "Gravity Climbing Centre",
+      "address": "6a Goldenbridge Industrial Estate, Inchicore, Dublin 8, D08 HF68",
+      "url": "https://www.gravityclimbing.ie",
+      "lat": 53.335835,
+      "lng": -6.3236231,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "bloc-climbing-gym",
+      "name": "Bloc Climbing Gym",
+      "address": "Unit 23a, Robinhood Industrial Estate, Robinhood Road, Dublin 22, D22 WP86",
+      "url": "https://blocdublin.ie",
+      "lat": 53.3184325,
+      "lng": -6.3469192,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-22:00",
+        "tue": "11:00-22:00",
+        "wed": "11:00-22:00",
+        "thu": "11:00-22:00",
+        "fri": "11:00-22:00",
+        "sat": "11:00-20:00",
+        "sun": "11:00-20:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "the-wall-climbing-gym",
+      "name": "The Wall Climbing Gym",
+      "address": "5 Arkle Road, Sandyford Business Park, Dublin 18, D18 DK29",
+      "url": "https://thewall.ie",
+      "lat": 53.2777488,
+      "lng": -6.2095727,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "city": "Valencia",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "natural-climb",
+      "name": "Natural Climb",
+      "address": "Carrer dels Campaners 6, 46014 Valencia",
+      "url": "http://naturalclimb.es",
+      "lat": 39.4560008,
+      "lng": -0.3976376,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "laif-climbing-gym",
+      "name": "Laif Climbing Gym",
+      "address": "Carrer del Foc 16, 46025 Valencia",
+      "url": "http://www.laifclimbinggym.com",
+      "lat": 39.5007881,
+      "lng": -0.3932301,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 700,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "camaleon-boulder",
+      "name": "Camaleón Boulder",
+      "address": "Carrer d'Eduard Boscà 22, 46023 Valencia",
+      "url": "https://camaleonboulder.com",
+      "lat": 39.4657226,
+      "lng": -0.3575598,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:30-22:00",
+        "tue": "09:30-22:00",
+        "wed": "09:30-22:00",
+        "thu": "09:30-22:00",
+        "fri": "09:30-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "el-bunker",
+      "name": "El Búnker",
+      "address": "Carrer del Duc de Gaeta 10, 46022 Valencia",
+      "url": "http://bunkervalencia.wixsite.com/rocodromo",
+      "lat": 39.4658166,
+      "lng": -0.3498396,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "vuit-climbing-club",
+      "name": "Vuit Climbing Club",
+      "address": "Carrer del Doctor Rafael Bartual 2, 46014 Valencia",
+      "url": "https://www.vuitclimbingclub.com",
+      "lat": 39.4538537,
+      "lng": -0.40392,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

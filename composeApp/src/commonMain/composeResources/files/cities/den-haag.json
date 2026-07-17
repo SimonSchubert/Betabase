@@ -1,0 +1,138 @@
+{
+  "city": "Den Haag",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "boulderhal-walhalla",
+      "name": "Boulderhal Walhalla",
+      "address": "Johan van Veenplein 12, 2521 AC Den Haag",
+      "url": "https://www.boulderhalwalhalla.nl",
+      "lat": 52.0617082,
+      "lng": 4.313718,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "11:00-19:00",
+        "sun": "11:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "boulderhal-de-campus",
+      "name": "Boulderhal de Campus",
+      "address": "Kerketuinenweg 55, 2544 CV Den Haag",
+      "url": "https://www.boulderhaldecampus.nl",
+      "lat": 52.0497783,
+      "lng": 4.254626,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": 1200,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:30",
+        "sun": "09:00-22:30"
+      },
+      "image_url": null
+    },
+    {
+      "id": "boulderhal-nirvana",
+      "name": "Boulderhal Nirvana",
+      "address": "Berkenbosch Blokstraat 9A, 2586 HD Den Haag",
+      "url": "https://www.boulderhalnirvana.nl",
+      "lat": 52.1100671,
+      "lng": 4.2836164,
+      "disciplines": ["boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "beest-boulders-den-haag-centrum",
+      "name": "Beest Boulders Den Haag Centrum",
+      "address": "Grote Marktstraat 26, 2511 BJ Den Haag",
+      "url": "https://beestboulders.com/vestigingen/beest-boulders-den-haag-centrum",
+      "lat": 52.0762637,
+      "lng": 4.3110509,
+      "disciplines": ["boulder"],
+      "boards": ["kilter"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "07:00-23:00",
+        "tue": "07:00-23:00",
+        "wed": "07:00-23:00",
+        "thu": "07:00-23:00",
+        "fri": "07:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "beest-boulders-den-haag-hs",
+      "name": "Beest Boulders Den Haag Hollands Spoor",
+      "address": "Waldorpstraat 15F, 2521 CA Den Haag",
+      "url": "https://beestboulders.com/vestigingen/beest-boulders-den-haag",
+      "lat": 52.0694272,
+      "lng": 4.3236242,
+      "disciplines": ["boulder"],
+      "boards": ["moonboard"],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-18:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "klimmuur-den-haag-hs",
+      "name": "Klimmuur Den Haag Hollands Spoor",
+      "address": "Waldorpstraat 15D, 2521 CA Den Haag",
+      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-hollandsspoor",
+      "lat": 52.069543,
+      "lng": 4.3237448,
+      "disciplines": ["lead", "boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "klimmuur-den-haag-de-uithof",
+      "name": "Klimmuur Den Haag de Uithof",
+      "address": "Jaap Edenweg 10, 2544 NL Den Haag",
+      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-den-haag-de-uithof",
+      "lat": 52.038528,
+      "lng": 4.2405895,
+      "disciplines": ["lead", "boulder"],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

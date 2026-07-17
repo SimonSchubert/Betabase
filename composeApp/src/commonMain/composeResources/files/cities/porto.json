@@ -1,0 +1,53 @@
+{
+  "city": "Porto",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "sao-rock-climbing",
+      "name": "São Rock Climbing",
+      "address": "Rua de Godim 312, 4300-394 Porto",
+      "url": "http://saorockclimbing.com",
+      "lat": 41.1544425,
+      "lng": -8.5872762,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "murus-climbing",
+      "name": "MURUS - The Climbing Temple",
+      "address": "Avenida Vasco da Gama 774, Espaço 13, 4430-247 Vila Nova de Gaia",
+      "url": "https://murus.pt",
+      "lat": 41.1183537,
+      "lng": -8.5996911,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "proa-climbing-center",
+      "name": "Proa Climbing Center",
+      "address": "Avenida Menéres 858, 4450-192 Matosinhos",
+      "url": "https://proaclimbingcenter.com",
+      "lat": 41.1788188,
+      "lng": -8.6822036,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

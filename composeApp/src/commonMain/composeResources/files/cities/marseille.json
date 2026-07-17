@@ -1,0 +1,84 @@
+{
+  "city": "Marseille",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "arkose-prado",
+      "name": "Arkose Prado",
+      "address": "101 Boulevard Michelet, 13009 Marseille",
+      "url": "https://arkose.com/prado",
+      "lat": 43.2675388,
+      "lng": 5.3944303,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1800,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "altissimo-marseille",
+      "name": "Altissimo Marseille",
+      "address": "27 Boulevard Gay Lussac, 13014 Marseille",
+      "url": "https://marseille.altissimo.fr",
+      "lat": 43.3409772,
+      "lng": 5.3754576,
+      "disciplines": [
+        "lead",
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:30-22:30",
+        "tue": "10:30-22:30",
+        "wed": "10:30-22:30",
+        "thu": "10:30-22:30",
+        "fri": "10:30-22:30",
+        "sat": "10:00-19:00",
+        "sun": "10:00-19:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "bloc-session-marseille-centre",
+      "name": "Bloc Session Marseille Centre",
+      "address": "164 Chemin de Saint-Jean du Désert, 13005 Marseille",
+      "url": "https://www.blocsession.com",
+      "lat": 43.2933688,
+      "lng": 5.4120477,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "climb-up-marseille-la-valentine",
+      "name": "Climb Up Marseille La Valentine",
+      "address": "Boulevard de la Barasse, 13011 Marseille",
+      "url": "https://marseille-lavalentine.climb-up.fr",
+      "lat": 43.2865175,
+      "lng": 5.4854168,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

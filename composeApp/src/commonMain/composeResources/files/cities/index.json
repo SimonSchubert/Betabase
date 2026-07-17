@@ -138,6 +138,14 @@
       "file": "ann-arbor.json"
     },
     {
+      "id": "antwerp",
+      "name": "Antwerp",
+      "country": "BE",
+      "lat": 51.22111,
+      "lng": 4.399708,
+      "file": "antwerp.json"
+    },
+    {
       "id": "appleby-in-westmorland",
       "name": "Appleby-in-Westmorland",
       "country": "GB",
@@ -312,6 +320,14 @@
       "lat": 54.116362,
       "lng": -3.212194,
       "file": "barrow-in-furness.json"
+    },
+    {
+      "id": "basel",
+      "name": "Basel",
+      "country": "CH",
+      "lat": 47.558108,
+      "lng": 7.587826,
+      "file": "basel.json"
     },
     {
       "id": "basildon",
@@ -1026,14 +1042,6 @@
       "file": "colchester.json"
     },
     {
-      "id": "koeln",
-      "name": "Cologne",
-      "country": "DE",
-      "lat": 50.938361,
-      "lng": 6.959974,
-      "file": "koeln.json"
-    },
-    {
       "id": "colorado-springs",
       "name": "Colorado Springs",
       "country": "US",
@@ -1162,6 +1170,14 @@
       "file": "darmstadt.json"
     },
     {
+      "id": "den-haag",
+      "name": "Den Haag",
+      "country": "NL",
+      "lat": 52.079984,
+      "lng": 4.311346,
+      "file": "den-haag.json"
+    },
+    {
       "id": "denton",
       "name": "Denton",
       "country": "US",
@@ -1234,6 +1250,22 @@
       "file": "dresden.json"
     },
     {
+      "id": "dublin",
+      "name": "Dublin",
+      "country": "IE",
+      "lat": 53.34938,
+      "lng": -6.260559,
+      "file": "dublin.json"
+    },
+    {
+      "id": "duesseldorf",
+      "name": "Düsseldorf",
+      "country": "DE",
+      "lat": 51.225402,
+      "lng": 6.776314,
+      "file": "duesseldorf.json"
+    },
+    {
       "id": "duisburg",
       "name": "Duisburg",
       "country": "DE",
@@ -1264,14 +1296,6 @@
       "lat": 54.77358,
       "lng": -1.562904,
       "file": "durham.json"
-    },
-    {
-      "id": "duesseldorf",
-      "name": "Düsseldorf",
-      "country": "DE",
-      "lat": 51.225402,
-      "lng": 6.776314,
-      "file": "duesseldorf.json"
     },
     {
       "id": "east-brunswick",
@@ -1610,6 +1634,22 @@
       "file": "geneseo.json"
     },
     {
+      "id": "geneva",
+      "name": "Geneva",
+      "country": "CH",
+      "lat": 46.201756,
+      "lng": 6.146601,
+      "file": "geneva.json"
+    },
+    {
+      "id": "ghent",
+      "name": "Ghent",
+      "country": "BE",
+      "lat": 51.053829,
+      "lng": 3.725012,
+      "file": "ghent.json"
+    },
+    {
       "id": "giessen",
       "name": "Gießen",
       "country": "DE",
@@ -1664,6 +1704,14 @@
       "lat": 51.198885,
       "lng": -0.628981,
       "file": "godalming.json"
+    },
+    {
+      "id": "goettingen",
+      "name": "Göttingen",
+      "country": "DE",
+      "lat": 51.532832,
+      "lng": 9.935181,
+      "file": "goettingen.json"
     },
     {
       "id": "golden",
@@ -1784,14 +1832,6 @@
       "lat": 53.871991,
       "lng": -1.707065,
       "file": "guiseley.json"
-    },
-    {
-      "id": "goettingen",
-      "name": "Göttingen",
-      "country": "DE",
-      "lat": 51.532832,
-      "lng": 9.935181,
-      "file": "goettingen.json"
     },
     {
       "id": "hackensack",
@@ -1952,6 +1992,14 @@
       "lat": 50.9735851,
       "lng": 13.8753917,
       "file": "heidenau.json"
+    },
+    {
+      "id": "helsinki",
+      "name": "Helsinki",
+      "country": "FI",
+      "lat": 60.16662,
+      "lng": 24.943541,
+      "file": "helsinki.json"
     },
     {
       "id": "hemel-hempstead",
@@ -2346,6 +2394,14 @@
       "file": "koblenz.json"
     },
     {
+      "id": "koeln",
+      "name": "Cologne",
+      "country": "DE",
+      "lat": 50.938361,
+      "lng": 6.959974,
+      "file": "koeln.json"
+    },
+    {
       "id": "konstanz",
       "name": "Konstanz",
       "country": "DE",
@@ -2642,22 +2698,6 @@
       "file": "ludwigshafen.json"
     },
     {
-      "id": "luton",
-      "name": "Luton",
-      "country": "GB",
-      "lat": 51.908024,
-      "lng": -0.392612,
-      "file": "luton.json"
-    },
-    {
-      "id": "lyon",
-      "name": "Lyon",
-      "country": "FR",
-      "lat": 45.757814,
-      "lng": 4.832011,
-      "file": "lyon.json"
-    },
-    {
       "id": "luebeck",
       "name": "Lübeck",
       "country": "DE",
@@ -2672,6 +2712,22 @@
       "lat": 53.250875,
       "lng": 10.414439,
       "file": "lueneburg.json"
+    },
+    {
+      "id": "luton",
+      "name": "Luton",
+      "country": "GB",
+      "lat": 51.908024,
+      "lng": -0.392612,
+      "file": "luton.json"
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "country": "FR",
+      "lat": 45.757814,
+      "lng": 4.832011,
+      "file": "lyon.json"
     },
     {
       "id": "machynlleth",
@@ -2744,6 +2800,14 @@
       "lat": 50.812476,
       "lng": 8.772234,
       "file": "marburg.json"
+    },
+    {
+      "id": "marseille",
+      "name": "Marseille",
+      "country": "FR",
+      "lat": 43.296399,
+      "lng": 5.377789,
+      "file": "marseille.json"
     },
     {
       "id": "martley",
@@ -2882,6 +2946,14 @@
       "file": "minneapolis.json"
     },
     {
+      "id": "moenchengladbach",
+      "name": "Mönchengladbach",
+      "country": "DE",
+      "lat": 51.194713,
+      "lng": 6.435379,
+      "file": "moenchengladbach.json"
+    },
+    {
       "id": "mooresville",
       "name": "Mooresville",
       "country": "US",
@@ -2906,22 +2978,6 @@
       "file": "morrisville.json"
     },
     {
-      "id": "munich",
-      "name": "Munich",
-      "country": "DE",
-      "lat": 48.137108,
-      "lng": 11.575382,
-      "file": "munich.json"
-    },
-    {
-      "id": "moenchengladbach",
-      "name": "Mönchengladbach",
-      "country": "DE",
-      "lat": 51.194713,
-      "lng": 6.435379,
-      "file": "moenchengladbach.json"
-    },
-    {
       "id": "muelheim",
       "name": "Mülheim an der Ruhr",
       "country": "DE",
@@ -2936,6 +2992,14 @@
       "lat": 51.960665,
       "lng": 7.626135,
       "file": "muenster.json"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "country": "DE",
+      "lat": 48.137108,
+      "lng": 11.575382,
+      "file": "munich.json"
     },
     {
       "id": "new-haven",
@@ -3418,6 +3482,14 @@
       "file": "portland-me.json"
     },
     {
+      "id": "porto",
+      "name": "Porto",
+      "country": "PT",
+      "lat": 41.15022,
+      "lng": -8.61035,
+      "file": "porto.json"
+    },
+    {
       "id": "portsmouth",
       "name": "Portsmouth",
       "country": "GB",
@@ -3626,6 +3698,14 @@
       "file": "rockville.json"
     },
     {
+      "id": "rodental",
+      "name": "Rödental",
+      "country": "DE",
+      "lat": 50.295987,
+      "lng": 11.0431938,
+      "file": "rodental.json"
+    },
+    {
       "id": "rome",
       "name": "Rome",
       "country": "IT",
@@ -3680,14 +3760,6 @@
       "lat": 52.366217,
       "lng": -1.254699,
       "file": "rugby.json"
-    },
-    {
-      "id": "rodental",
-      "name": "Rödental",
-      "country": "DE",
-      "lat": 50.295987,
-      "lng": 11.0431938,
-      "file": "rodental.json"
     },
     {
       "id": "saarbruecken",
@@ -4402,6 +4474,14 @@
       "file": "tucson.json"
     },
     {
+      "id": "tuebingen",
+      "name": "Tübingen",
+      "country": "DE",
+      "lat": 48.520326,
+      "lng": 9.053596,
+      "file": "tuebingen.json"
+    },
+    {
       "id": "tulsa",
       "name": "Tulsa",
       "country": "US",
@@ -4418,12 +4498,12 @@
       "file": "tunbridge-wells.json"
     },
     {
-      "id": "tuebingen",
-      "name": "Tübingen",
-      "country": "DE",
-      "lat": 48.520326,
-      "lng": 9.053596,
-      "file": "tuebingen.json"
+      "id": "turin",
+      "name": "Turin",
+      "country": "IT",
+      "lat": 45.067755,
+      "lng": 7.682489,
+      "file": "turin.json"
     },
     {
       "id": "ullapool",
@@ -4450,12 +4530,28 @@
       "file": "urbana.json"
     },
     {
+      "id": "utrecht",
+      "name": "Utrecht",
+      "country": "NL",
+      "lat": 52.090701,
+      "lng": 5.121563,
+      "file": "utrecht.json"
+    },
+    {
       "id": "uxbridge",
       "name": "Uxbridge",
       "country": "GB",
       "lat": 51.53284,
       "lng": -0.472836,
       "file": "uxbridge.json"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "country": "ES",
+      "lat": 39.469707,
+      "lng": -0.376335,
+      "file": "valencia.json"
     },
     {
       "id": "vancouver",
@@ -4786,6 +4882,14 @@
       "file": "wrexham.json"
     },
     {
+      "id": "wuerzburg",
+      "name": "Würzburg",
+      "country": "DE",
+      "lat": 49.791306,
+      "lng": 9.953355,
+      "file": "wuerzburg.json"
+    },
+    {
       "id": "wuppertal",
       "name": "Wuppertal",
       "country": "DE",
@@ -4800,14 +4904,6 @@
       "lat": 52.573238,
       "lng": 1.120506,
       "file": "wymondham.json"
-    },
-    {
-      "id": "wuerzburg",
-      "name": "Würzburg",
-      "country": "DE",
-      "lat": 49.791306,
-      "lng": 9.953355,
-      "file": "wuerzburg.json"
     },
     {
       "id": "york",

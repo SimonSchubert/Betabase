@@ -1,0 +1,61 @@
+{
+  "city": "Basel",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "kletterhalle-7",
+      "name": "Kletterhalle 7",
+      "address": "Dornacherstrasse 192, 4053 Basel",
+      "url": "https://www.kletterhalle7.ch",
+      "lat": 47.5417421,
+      "lng": 7.5932153,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1550,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "elys-boulderloft",
+      "name": "ELYS Boulderloft",
+      "address": "Elsässerstrasse 215a, 4056 Basel",
+      "url": "https://www.boulderloft.ch",
+      "lat": 47.574633,
+      "lng": 7.5738407,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 2000,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "b2-boulders-pratteln",
+      "name": "B2 Boulders & Bar",
+      "address": "Salinenwegli, 4133 Pratteln",
+      "url": "https://bzwei.ch",
+      "lat": 47.5258271,
+      "lng": 7.683399,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1200,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

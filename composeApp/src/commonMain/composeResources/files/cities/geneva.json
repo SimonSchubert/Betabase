@@ -1,0 +1,82 @@
+{
+  "city": "Geneva",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "totem-meyrin",
+      "name": "TOTEM Meyrin",
+      "address": "Rue Emma-Kammacher 5B, 1217 Meyrin",
+      "url": "https://totem.ch/meyrin",
+      "lat": 46.2221533,
+      "lng": 6.0729056,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "totem-vernier",
+      "name": "TOTEM Vernier Le Môll",
+      "address": "Avenue de l'Etang 67, 1219 Vernier",
+      "url": "https://totem.ch",
+      "lat": 46.219161,
+      "lng": 6.1027549,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "planet-climbing-plan-les-ouates",
+      "name": "Planet Climbing Plan-les-Ouates",
+      "address": "Route de la Galaise 13B, 1228 Plan-les-Ouates",
+      "url": "https://planetclimbing.ch/plan-les-ouates",
+      "lat": 46.1654788,
+      "lng": 6.1036894,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "planet-climbing-lancy",
+      "name": "Planet Climbing Lancy",
+      "address": "Avenue des Morgines 10, 1213 Petit-Lancy",
+      "url": "https://planetclimbing.ch/lancy",
+      "lat": 46.1904616,
+      "lng": 6.1114401,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "structure-pan",
+      "name": "Structure Pan d'Escalade",
+      "address": "Chemin des Batailles 18, 1214 Vernier",
+      "url": "https://panstructure.ch",
+      "lat": 46.2206241,
+      "lng": 6.087654,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

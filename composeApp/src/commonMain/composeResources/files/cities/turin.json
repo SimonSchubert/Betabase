@@ -1,0 +1,70 @@
+{
+  "city": "Turin",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "escape-climbing-garden",
+      "name": "Escape Climbing Garden",
+      "address": "Via Torino 168, 10093 Collegno",
+      "url": "https://www.escapearrampicata.com",
+      "lat": 45.0728683,
+      "lng": 7.5926995,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "centro-arrampicata-torino",
+      "name": "Centro Arrampicata Torino",
+      "address": "Via Paolo Braccini, 10129 Torino",
+      "url": "https://centroarrampicatatorino.org",
+      "lat": 45.0598724,
+      "lng": 7.6540992,
+      "disciplines": [
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "boulderbar",
+      "name": "BoulderBar",
+      "address": "Via Guglielmo Reiss Romoli 122/10, 10148 Torino",
+      "url": "http://www.boulderbar.it",
+      "lat": 45.1128918,
+      "lng": 7.6872199,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "bside-climbing",
+      "name": "B-side Climbing",
+      "address": "Via Amedeo Ravina 28, 10152 Torino",
+      "url": "https://www.bsideclimbing.it",
+      "lat": 45.0775394,
+      "lng": 7.7135753,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "city": "Ghent",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-07-17T00:00:00Z",
+  "gyms": [
+    {
+      "id": "rhino-boulder-gym",
+      "name": "Rhino Boulder Gym",
+      "address": "Kaarderijstraat 69, 9000 Gent",
+      "url": "https://www.rhinobouldergym.com",
+      "lat": 51.0548482,
+      "lng": 3.6993572,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "08:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "walden-boulder",
+      "name": "Walden Boulder",
+      "address": "Hurstweg 8, 9000 Gent",
+      "url": "https://walden.gent",
+      "lat": 51.0739386,
+      "lng": 3.7232236,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "klimzaal-arsenaal",
+      "name": "Klimzaal Arsenaal",
+      "address": "Brusselsesteenweg 602, 9050 Gentbrugge",
+      "url": "https://www.klimzaalarsenaal.be",
+      "lat": 51.0316893,
+      "lng": 3.7576928,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "klimzaal-bleau",
+      "name": "Klimzaal Bleau",
+      "address": "Campinglaan 2, 9000 Gent",
+      "url": "https://www.klimzaalbleau.be",
+      "lat": 51.0496167,
+      "lng": 3.6811482,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "klimzaal-balance",
+      "name": "Klimzaal Balance",
+      "address": "Louis Van Houttestraat 109, 9050 Gent",
+      "url": "https://www.klimzaalbalance.be",
+      "lat": 51.0411845,
+      "lng": 3.7447316,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    }
+  ]
+}
