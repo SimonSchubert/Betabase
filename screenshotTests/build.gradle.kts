@@ -69,10 +69,10 @@ tasks.register("updateScreenshots") {
     doLast {
         val mediaMapping =
             mapOf(
-                "ready" to "screen_01_ready.png",
-                "loading" to "screen_02_loading.png",
-                "error" to "screen_03_error.png",
-                "filteredEmpty" to "screen_04_filtered_empty.png",
+                "readyWithMedia" to "screen_01_ready.png",
+                "athletes" to "screen_02_athletes.png",
+                "grades" to "screen_03_grades.png",
+                "error" to "screen_04_error.png",
                 "youthFiltered" to "screen_05_youth.png",
             )
         mediaDirFile.mkdirs()
@@ -91,10 +91,10 @@ tasks.register("updateScreenshots") {
 
         val phoneMapping =
             mapOf(
-                "ready" to "01_ready.png",
-                "youthFiltered" to "02_youth.png",
-                "filteredEmpty" to "03_filters.png",
-                "error" to "04_offline.png",
+                "readyWithMedia" to "01_comps.png",
+                "athletes" to "02_athletes.png",
+                "grades" to "03_grades.png",
+                "youthFiltered" to "04_youth.png",
             )
         phoneScreenshotsDirFile.mkdirs()
         phoneMapping.forEach { (testName, fastlaneName) ->
@@ -147,6 +147,8 @@ dependencies {
     testImplementation(libs.compose.ui)
     testImplementation(libs.compose.components.resources)
     testImplementation(libs.kotlinx.datetime)
+    testImplementation(libs.coil.compose)
+    testImplementation("io.coil-kt.coil3:coil-test:${libs.versions.coil.get()}")
 }
 
 spotless {

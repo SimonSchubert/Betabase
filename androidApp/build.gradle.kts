@@ -52,7 +52,8 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             val hasReleaseKeystore =
                 System.getenv("KEYSTORE_FILE") != null ||
                     rootProject.layout.projectDirectory

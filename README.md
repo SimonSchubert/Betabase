@@ -5,9 +5,9 @@ Upcoming sport climbing competitions, in your pocket.
 A Jetpack Compose Android app that aggregates climbing competitions from multiple sources into a single, filterable list.
 
 <p align="center">
-  <img src="media/screen_01_ready.png" width="240" alt="Main list" />
-  <img src="media/screen_05_youth.png" width="240" alt="Youth filter" />
-  <img src="media/screen_03_error.png" width="240" alt="Offline state" />
+  <img src="media/screen_01_ready.png" width="240" alt="Competitions with athlete channels and streams" />
+  <img src="media/screen_02_athletes.png" width="240" alt="Athletes directory" />
+  <img src="media/screen_03_grades.png" width="240" alt="Grade conversion table" />
 </p>
 
 ## Sources
@@ -147,15 +147,18 @@ The signing config in `app/build.gradle.kts` falls back to debug-signing when no
 
 ## Screenshot tests
 
-Paparazzi tests live in `app/src/test/kotlin/.../screenshots/`. Snapshots are committed under `app/src/test/snapshots/images/`.
+Paparazzi tests live in `screenshotTests/`. Snapshots are committed under `screenshotTests/src/test/snapshots/images/`.
+
+Paparazzi installs a Coil `FakeImageLoader` that **downloads live** IFSC portraits and YouTube thumbs (same URLs as the app) into `screenshotTests/build/fixture-cache/` — not committed. Network is required on a cold cache; later runs reuse the cache. Only the rendered PNGs in `media/` and `fastlane/` are stored in git.
 
 ```bash
-./gradlew :app:verifyPaparazziDebug    # CI mode: fail on visual diff
-./gradlew :app:recordPaparazziDebug    # rewrite snapshots after intentional changes
-./gradlew :app:updateScreenshots       # also copies labelled PNGs into media/
+./gradlew :screenshotTests:verifyPaparazziDebug    # CI mode: fail on visual diff (needs network or warm cache)
+./gradlew :screenshotTests:recordPaparazziDebug    # rewrite snapshots after intentional changes
+./gradlew :screenshotTests:updateScreenshots       # copies into media/ + fastlane phoneScreenshots
+rm -rf screenshotTests/build/fixture-cache         # force re-download of remote images
 ```
 
-Add new snapshots by writing a `@Test` in `ScreenshotTest.kt` that calls `snap { CompetitionsScreenContent(state = …, on… = {}) }` with hand-built `CompetitionsUiState`. Map the test name to a media filename inside the `updateScreenshots` task in `app/build.gradle.kts`.
+Add new snapshots in `ScreenshotTest.kt` with hand-built UI state (`CompetitionsUiState` streams/athleteVideos, `AthletesUiState`, etc.). Map the test name in the `updateScreenshots` task in `screenshotTests/build.gradle.kts`.
 
 
 ## License

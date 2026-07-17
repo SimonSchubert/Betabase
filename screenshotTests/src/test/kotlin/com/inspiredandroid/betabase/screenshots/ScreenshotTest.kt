@@ -16,9 +16,13 @@ import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.Gender
 import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
 import com.inspiredandroid.betabase.ui.components.Tab
+import com.inspiredandroid.betabase.ui.screens.AthletesScreenContent
+import com.inspiredandroid.betabase.ui.screens.AthletesUiState
 import com.inspiredandroid.betabase.ui.screens.CompetitionsScreenContent
 import com.inspiredandroid.betabase.ui.screens.CompetitionsUiState
+import com.inspiredandroid.betabase.ui.screens.GradesScreen
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
@@ -30,6 +34,12 @@ class ScreenshotTest {
         showSystemUi = true,
         maxPercentDifference = 0.1,
     )
+
+    @Before
+    fun setUpImages() {
+        // Live IFSC / YouTube images — downloaded into build/fixture-cache (not git).
+        paparazzi.installLiveImageLoader(screenshotRemoteImageUrls())
+    }
 
     private fun snap(selectedTab: Tab = Tab.Comps, content: @Composable () -> Unit) {
         paparazzi.unsafeUpdateConfig(theme = "android:Theme.Material.Light.NoActionBar")
@@ -69,6 +79,47 @@ class ScreenshotTest {
                 onToggleGender = {},
                 onTogglePara = {},
             )
+        }
+    }
+
+    /** Primary store/README shot: athlete channels + streams + competition list. */
+    @Test
+    fun readyWithMedia() {
+        snap {
+            CompetitionsScreenContent(
+                state = CompetitionsUiState(
+                    initialLoading = false,
+                    events = sampleEvents,
+                    streams = sampleStreams,
+                    athleteVideos = sampleAthleteVideos,
+                ),
+                onRefresh = {},
+                onToggleSource = {},
+                onToggleDiscipline = {},
+                onToggleRound = {},
+                onToggleGender = {},
+                onTogglePara = {},
+            )
+        }
+    }
+
+    @Test
+    fun athletes() {
+        snap(selectedTab = Tab.Athletes) {
+            AthletesScreenContent(
+                state = AthletesUiState(
+                    athletes = sampleAthletes,
+                    loading = false,
+                    currentYear = 2026,
+                ),
+            )
+        }
+    }
+
+    @Test
+    fun grades() {
+        snap(selectedTab = Tab.Grades) {
+            GradesScreen()
         }
     }
 

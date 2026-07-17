@@ -98,8 +98,7 @@ fun AthletesScreen(
     }
 
     Box(modifier = modifier.fillMaxSize()) {
-        ImageBackground()
-        AthletesGrid(
+        AthletesScreenContent(
             state = state,
             onToggleGender = viewModel::toggle,
             onSelectCountry = viewModel::selectCountry,
@@ -116,6 +115,29 @@ fun AthletesScreen(
                 onBack = { onSelectAthlete(null) },
             )
         }
+    }
+}
+
+/** Stateless grid for tests / screenshots. Does not host the detail sheet. */
+@Composable
+fun AthletesScreenContent(
+    state: AthletesUiState,
+    onToggleGender: (AthleteGender) -> Unit = {},
+    onSelectCountry: (String?) -> Unit = {},
+    onQueryChange: (String) -> Unit = {},
+    onToggleInactive: () -> Unit = {},
+    onOpen: (Athlete) -> Unit = {},
+) {
+    Box(modifier = Modifier.fillMaxSize()) {
+        ImageBackground()
+        AthletesGrid(
+            state = state,
+            onToggleGender = onToggleGender,
+            onSelectCountry = onSelectCountry,
+            onQueryChange = onQueryChange,
+            onToggleInactive = onToggleInactive,
+            onOpen = onOpen,
+        )
     }
 }
 
