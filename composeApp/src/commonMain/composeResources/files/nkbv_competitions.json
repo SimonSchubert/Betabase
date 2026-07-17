@@ -1,128 +1,8 @@
 {
   "source": "NKBV",
   "source_url": "https://was2.shiftf5.nl/competitions",
-  "fetched_at": "2026-06-13T08:08:16Z",
+  "fetched_at": "2026-07-17T20:22:36Z",
   "events": [
-    {
-      "id": "nkbv-4957",
-      "title": "Jeugd Boulder Series Limburg 4",
-      "series": "Jeugd Boulder Series Limburg 2026",
-      "location": "Radium Boulders Maastricht",
-      "date": "2026-06-13",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://was2.shiftf5.nl/competitions/4957"
-    },
-    {
-      "id": "nkbv-4979",
-      "title": "Jeugd Boulder Series Midden-NL 6",
-      "series": "Jeugd Boulder Series Midden Nederland 2026",
-      "location": "Kei de Hoef, Amersfoort",
-      "date": "2026-06-13",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://was2.shiftf5.nl/competitions/4979"
-    },
-    {
-      "id": "nkbv-4978",
-      "title": "Volwassenen Boulder Series Midden Nederland 3",
-      "series": "Volwassenen Boulder Series Midden Nederland 2025 - 2026",
-      "location": "Kei de Hoef, Amersfoort",
-      "date": "2026-06-13",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://was2.shiftf5.nl/competitions/4978"
-    },
-    {
-      "id": "nkbv-4858",
-      "title": "Volwassenen Klim Series Midden Nederland 5",
-      "series": "Volwassenen Klim Series Midden Nederland 2025 - 2026",
-      "location": "National Climbing Center Nieuwegein",
-      "date": "2026-06-19",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4858"
-    },
-    {
-      "id": "nkbv-4977",
-      "title": "Jeugd Boulder Series Midden-NL 7",
-      "series": "Jeugd Boulder Series Midden Nederland 2026",
-      "location": "Mono Boulder Ede",
-      "date": "2026-06-20",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://was2.shiftf5.nl/competitions/4977"
-    },
-    {
-      "id": "nkbv-4865",
-      "title": "Jeugd Klim Series Noord-Oost 7",
-      "series": "Jeugd Klim series Noord Oost 2025 - 2026",
-      "location": "Noardwand, Leeuwarden",
-      "date": "2026-06-20",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4865"
-    },
-    {
-      "id": "nkbv-4934",
-      "title": "Jeugd Lead 3 | U15 & MU17",
-      "series": "2026 JEUGD LEAD U15 & MU17",
-      "location": "Climbing Center, Arnhem Olympus",
-      "date": "2026-06-20",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4934"
-    },
-    {
-      "id": "nkbv-4846",
-      "title": "Jeugd Klim Series Midden Nederland Finale",
-      "series": "Jeugd Klim Series Midden Nederland 2025 - 2026",
-      "location": "National Climbing Center Nieuwegein",
-      "date": "2026-06-21",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4846"
-    },
-    {
-      "id": "nkbv-4936",
-      "title": "Jeugd Lead 3 | U19 & JU17",
-      "series": "2026 JEUGD LEAD U19 & JU17",
-      "location": "Climbing Center, Arnhem Olympus",
-      "date": "2026-06-21",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4936"
-    },
-    {
-      "id": "nkbv-4875",
-      "title": "Volwassenen Klim Series Noord-Oost 6",
-      "series": "Volwassenen Klim Series Noord Oost 2025 - 2026",
-      "location": "Noardwand, Leeuwarden",
-      "date": "2026-06-21",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4875"
-    },
-    {
-      "id": "nkbv-4989",
-      "title": "NJK LEAD 2026",
-      "series": null,
-      "location": "Neoliet Tilburg",
-      "date": "2026-06-27",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://was2.shiftf5.nl/competitions/4989"
-    },
-    {
-      "id": "nkbv-4982",
-      "title": "Boulder Series Finale 2026",
-      "series": null,
-      "location": "Boulder Gym Arnhem Rijnhal",
-      "date": "2026-07-11",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://was2.shiftf5.nl/competitions/4982"
-    },
     {
       "id": "nkbv-4951",
       "title": "10 uren van Yvoir 2026",
@@ -132,6 +12,26 @@
       "time": null,
       "discipline": "Lead",
       "url": "https://was2.shiftf5.nl/competitions/4951"
+    },
+    {
+      "id": "nkbv-5027",
+      "title": "TOC-Jaardag",
+      "series": null,
+      "location": "Climbing Center Nieuwegein",
+      "date": "2026-09-26",
+      "time": null,
+      "discipline": "Boulder",
+      "url": "https://was2.shiftf5.nl/competitions/5027"
+    },
+    {
+      "id": "nkbv-5012",
+      "title": "ICCC Utrecht 2026 & NK IJsklimmen 2026",
+      "series": null,
+      "location": "Klimmuur Kalymnos, Utrecht",
+      "date": "2026-12-12",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5012"
     }
   ]
 }

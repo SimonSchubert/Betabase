@@ -1,51 +1,8 @@
 {
   "source": "DAV",
   "source_url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026",
-  "fetched_at": "2026-06-13T08:08:18Z",
+  "fetched_at": "2026-07-17T20:22:37Z",
   "events": [
-    {
-      "id": "bbl-finale-2026-06-13",
-      "title": "Bundesliga Finale",
-      "series": "Techniker Boulder Bundesliga 2025/26",
-      "location": "Studio Bloc, Pfungstadt",
-      "date": "2026-06-13",
-      "end_date": "2026-06-14",
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/"
-    },
-    {
-      "id": "dav-berta-block-masters-2026",
-      "title": "Berta Block Masters 26",
-      "series": "Berta Block Masters",
-      "location": "Berta Block, Berlin",
-      "date": "2026-06-20",
-      "time": "09:00",
-      "discipline": "Boulder",
-      "url": "https://www.bertablock.de/bbms26"
-    },
-    {
-      "id": "dav-6-deutscher-jugendcup-l-2026-06-21",
-      "title": "6. Deutscher Jugendcup (L)",
-      "series": "Deutscher Jugendcup 2026",
-      "location": "Wetzlar, Germany",
-      "date": "2026-06-21",
-      "end_date": null,
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
-    },
-    {
-      "id": "dav-7-deutscher-jugendcup-s-2026-06-28",
-      "title": "7. Deutscher Jugendcup (S)",
-      "series": "Deutscher Jugendcup 2026",
-      "location": "Hamburg, Germany",
-      "date": "2026-06-28",
-      "end_date": null,
-      "time": null,
-      "discipline": "Speed",
-      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
-    },
     {
       "id": "dav-deutsche-meisterschaft-s-2026-07-26",
       "title": "Deutsche Meisterschaft (S)",
