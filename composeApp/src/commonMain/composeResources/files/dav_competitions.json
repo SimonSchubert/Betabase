@@ -1,21 +1,10 @@
 {
   "source": "DAV",
   "source_url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026",
-  "fetched_at": "2026-08-02T14:50:00Z",
+  "fetched_at": "2026-08-02T19:58:47Z",
   "events": [
     {
-      "id": "dc-station-1-suedbloc-berlin-2026-08-01",
-      "title": "Deutschland Cup — Station 1: Südbloc (Berlin)",
-      "series": "Deutschland Cup 2026/27",
-      "location": "Südbloc, Großbeerenstraße 2-10, 12107 Berlin, Deutschland",
-      "date": "2026-08-01",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
-    },
-    {
-      "id": "bbl-station-1-suedbloc-berlin-2026-08-01",
+      "id": "bbl-station-1-s-dbloc-berlin-2026-08-01",
       "title": "Station 1: Südbloc (Berlin)",
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Südbloc, Großbeerenstraße 2-10, 12107 Berlin, Deutschland",
@@ -23,7 +12,7 @@
       "end_date": "2026-09-15",
       "time": null,
       "discipline": "Boulder",
-      "url": "https://www.xn--sdbloc-3ya.de/"
+      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "dc-station-2-boulder-base-bremen-2026-08-15",
@@ -70,18 +59,29 @@
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
-      "id": "dav-world-climbing-europe-youth-championships-l-2026-09-20",
+      "id": "dav-world-climbing-europe-youth-championships-l-2026-09-19",
       "title": "World Climbing Europe Youth Championships (L)",
       "series": "World Climbing in Germany 2026",
-      "location": "Augsburg, Germany",
-      "date": "2026-09-20",
+      "location": "Augsburg, DE",
+      "date": "2026-09-19",
+      "end_date": "2026-09-20",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
+    },
+    {
+      "id": "dav-8-deutscher-jugendcup-l-2026-09-26",
+      "title": "8. Deutscher Jugendcup (L)",
+      "series": "Deutscher Jugendcup 2026",
+      "location": "Nürnberg, DE",
+      "date": "2026-09-26",
       "end_date": null,
       "time": null,
       "discipline": "Lead",
       "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
     },
     {
-      "id": "dc-station-4-einstein-koeln-2026-09-26",
+      "id": "dc-station-4-einstein-k-ln-2026-09-26",
       "title": "Deutschland Cup — Station 4: Einstein (Köln)",
       "series": "Deutschland Cup 2026/27",
       "location": "Einstein Boulderhalle Köln, Widdersdorfer Straße 205, 50825 Köln, Deutschland",
@@ -92,7 +92,7 @@
       "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
     },
     {
-      "id": "bbl-station-4-einstein-koeln-2026-09-26",
+      "id": "bbl-station-4-einstein-k-ln-2026-09-26",
       "title": "Station 4: Einstein (Köln)",
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Einstein Boulderhalle Köln, Widdersdorfer Straße 205, 50825 Köln, Deutschland",
@@ -103,21 +103,10 @@
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
-      "id": "dav-8-deutscher-jugendcup-l-2026-09-26",
-      "title": "8. Deutscher Jugendcup (L)",
-      "series": "Deutscher Jugendcup 2026",
-      "location": "Nürnberg, Germany",
-      "date": "2026-09-26",
-      "end_date": null,
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
-    },
-    {
       "id": "dav-world-climbing-europe-youth-series-s-2026-10-03",
       "title": "World Climbing Europe Youth Series (S)",
       "series": "World Climbing in Germany 2026",
-      "location": "Leipzig, Germany",
+      "location": "Leipzig, DE",
       "date": "2026-10-03",
       "end_date": null,
       "time": null,
@@ -128,7 +117,7 @@
       "id": "dav-world-climbing-europe-series-s-2026-10-04",
       "title": "World Climbing Europe Series (S)",
       "series": "World Climbing in Germany 2026",
-      "location": "Leipzig, Germany",
+      "location": "Leipzig, DE",
       "date": "2026-10-04",
       "end_date": null,
       "time": null,
@@ -169,6 +158,17 @@
       "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
     },
     {
+      "id": "dav-deutsche-meisterschaft-l-2026-10-31",
+      "title": "Deutsche Meisterschaft (L)",
+      "series": "Deutsche Meisterschaft 2026",
+      "location": "Darmstadt, DE",
+      "date": "2026-10-31",
+      "end_date": "2026-11-01",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
+    },
+    {
       "id": "bbl-station-6-prisma-wuppertal-2026-10-31",
       "title": "Station 6: Prisma (Wuppertal)",
       "series": "Techniker Boulder Bundesliga 2026/27",
@@ -178,17 +178,6 @@
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
-    },
-    {
-      "id": "dav-deutsche-meisterschaft-l-2026-10-31",
-      "title": "Deutsche Meisterschaft (L)",
-      "series": "Deutsche Meisterschaft 2026",
-      "location": "Darmstadt, Germany",
-      "date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
     },
     {
       "id": "dc-station-7-greifhaus-braunschweig-2026-11-28",
@@ -213,7 +202,7 @@
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
-      "id": "bbl-station-8-osnabloc-osnabrueck-2026-12-19",
+      "id": "bbl-station-8-osnabloc-osnabr-ck-2026-12-19",
       "title": "Station 8: Osnabloc (Osnabrück)",
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "OSNABLOC, Großer Fledderweg 89, 49084 Osnabrück, Deutschland",
@@ -221,7 +210,7 @@
       "end_date": "2027-01-31",
       "time": null,
       "discipline": "Boulder",
-      "url": "https://osnabloc.de"
+      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-9-rocks-jena-2027-01-16",
@@ -246,7 +235,7 @@
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
-      "id": "bbl-station-11-einstein-muenchen-2027-02-27",
+      "id": "bbl-station-11-einstein-m-nchen-2027-02-27",
       "title": "Station 11: Einstein (München)",
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Einstein Boulderhalle München, Landsberger Straße 185, 80687 München, Deutschland",
@@ -268,7 +257,7 @@
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     },
     {
-      "id": "bbl-station-13-e4-nuernberg-2027-04-03",
+      "id": "bbl-station-13-e4-n-rnberg-2027-04-03",
       "title": "Station 13: E4 (Nürnberg)",
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Boulderhalle E4, Allersberger Straße 185, 90461 Nürnberg, Deutschland",
@@ -276,7 +265,7 @@
       "end_date": "2027-05-17",
       "time": null,
       "discipline": "Boulder",
-      "url": "https://www.boulderhalle-e4.de"
+      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
     }
   ]
 }
