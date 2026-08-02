@@ -6,11 +6,13 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBars
@@ -75,16 +77,27 @@ fun GradesScreen(modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             item {
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Column(modifier = Modifier.fillMaxWidth()) {
                     BetaText(
-                        text = "Grades",
-                        style = BetabaseTheme.typography.displaySmall,
+                        text = "GRADES",
+                        style = BetabaseTheme.typography.displayMedium,
                         color = BetabaseTheme.colors.ink,
+                        modifier = Modifier.fillMaxWidth(),
                     )
+                    Spacer(Modifier.height(6.dp))
                     BetaText(
                         text = "Approximate conversions between common grading systems. Grades are subjective — treat these as a guide, not exact science.",
-                        style = BetabaseTheme.typography.bodyMedium,
+                        style = BetabaseTheme.typography.label,
                         color = BetabaseTheme.colors.inkMuted,
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(3.dp)
+                            .clip(BetabaseTheme.shapes.pill)
+                            .background(BetabaseTheme.colors.ink),
                     )
                 }
             }
