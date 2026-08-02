@@ -18,7 +18,7 @@ data class IfscVideo(
 ) {
     val isUpcoming: Boolean get() = durationSeconds == 0 && scheduledStartTime != null
 
-    val watchUrl: String get() = "https://www.youtube.com/watch?v=$id"
+    val watchUrl: String get() = youtubeWatchUrl(id)
 
-    val thumbnailUrl: String get() = "https://img.youtube.com/vi/$id/mqdefault.jpg"
+    val thumbnailUrl: String get() = youtubeThumbnailUrl(id)
 }

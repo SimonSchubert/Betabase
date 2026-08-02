@@ -7,9 +7,7 @@ data class GymsFilters(
     val disciplines: Set<Discipline>,
     val requireBoards: Boolean,
 ) {
-    fun toggle(discipline: Discipline) = copy(
-        disciplines = if (discipline in disciplines) disciplines - discipline else disciplines + discipline,
-    )
+    fun toggle(discipline: Discipline) = copy(disciplines = disciplines.toggleMember(discipline))
 
     fun toggleBoards() = copy(requireBoards = !requireBoards)
 

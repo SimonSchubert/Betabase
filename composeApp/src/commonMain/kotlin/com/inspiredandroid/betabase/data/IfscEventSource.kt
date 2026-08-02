@@ -1,30 +1,24 @@
 package com.inspiredandroid.betabase.data
 
 import io.ktor.client.HttpClient
-import io.ktor.client.request.get
-import io.ktor.client.request.header
-import io.ktor.client.statement.bodyAsText
-import io.ktor.http.HttpHeaders
-import io.ktor.http.isSuccess
 
 class IfscEventSource(
-    private val client: HttpClient,
-    private val cache: JsonCache? = null,
+    client: HttpClient,
+    cache: JsonCache? = null,
     private val feedUrl: String = DEFAULT_URL,
 ) : EventSource {
 
     override val tag: SourceTag = SourceTag.IFSC
 
-    override suspend fun cached(): List<CompetitionEvent>? {
-        val bytes = cache?.read(CACHE_KEY) ?: return null
-        return runCatching { parseEvents(bytes.decodeToString()) }.getOrNull()
-    }
+    private val remote = CachedRemoteText(
+        client = client,
+        cache = cache,
+        accept = "text/calendar, text/plain, */*",
+    )
 
-    override suspend fun fetch(): List<CompetitionEvent> {
-        val text = downloadText(feedUrl)
-        runCatching { cache?.write(CACHE_KEY, text.encodeToByteArray()) }
-        return parseEvents(text)
-    }
+    override suspend fun cached(): List<CompetitionEvent>? = remote.cached(CACHE_KEY)?.let { runCatching { parseEvents(it) }.getOrNull() }
+
+    override suspend fun fetch(): List<CompetitionEvent> = parseEvents(remote.fetch(url = feedUrl, key = CACHE_KEY))
 
     private fun parseEvents(text: String): List<CompetitionEvent> = IcsParser.parse(text).mapNotNull { it.toEvent() }
 
@@ -50,15 +44,6 @@ class IfscEventSource(
             gender = gender,
             isPara = EventClassifier.isPara(listOfNotNull(summary, seriesLine).joinToString(" ")),
         )
-    }
-
-    private suspend fun downloadText(url: String): String {
-        val response = client.get(url) {
-            header(HttpHeaders.Accept, "text/calendar, text/plain, */*")
-            header(HttpHeaders.UserAgent, "Betabase/0.1")
-        }
-        if (!response.status.isSuccess()) error("HTTP ${response.status.value} from $url")
-        return response.bodyAsText()
     }
 
     companion object {

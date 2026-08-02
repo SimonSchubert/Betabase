@@ -57,5 +57,3 @@ data class CompetitionsFilters(
         )
     }
 }
-
-private fun <T> Set<T>.toggleMember(value: T): Set<T> = if (value in this) this - value else this + value

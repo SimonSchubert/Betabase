@@ -12,6 +12,23 @@ interface FilterStorage {
 
 expect fun createFilterStorage(): FilterStorage
 
+/**
+ * Builds a [FilterStorage] over any string key-value store (SharedPreferences,
+ * NSUserDefaults, localStorage, java.util.prefs, …). Platforms only supply
+ * get/put; encode/decode stays shared.
+ */
+fun FilterStorage(
+    get: (key: String) -> String?,
+    put: (key: String, value: String) -> Unit,
+    filtersKey: String = "filters_json",
+    gymsKey: String = "gyms_filters_json",
+): FilterStorage = object : FilterStorage {
+    override fun load(): CompetitionsFilters? = get(filtersKey)?.let(::decodeFilters)
+    override fun save(filters: CompetitionsFilters) = put(filtersKey, encodeFilters(filters))
+    override fun loadGyms(): GymsFilters? = get(gymsKey)?.let(::decodeGymsFilters)
+    override fun saveGyms(filters: GymsFilters) = put(gymsKey, encodeGymsFilters(filters))
+}
+
 private val json = Json { ignoreUnknownKeys = true }
 
 @Serializable
