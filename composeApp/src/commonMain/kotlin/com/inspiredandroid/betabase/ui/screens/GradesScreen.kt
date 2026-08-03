@@ -32,9 +32,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.inspiredandroid.betabase.data.ClimbingHoldTypes
 import com.inspiredandroid.betabase.data.GradeComparisonTable
 import com.inspiredandroid.betabase.data.GradeDiscipline
 import com.inspiredandroid.betabase.data.GradeSystem
+import com.inspiredandroid.betabase.data.HoldType
 import com.inspiredandroid.betabase.data.gradeTableFor
 import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
@@ -127,6 +129,31 @@ fun GradesScreen(modifier: Modifier = Modifier) {
                 key = { _, system -> system.id },
             ) { _, system ->
                 SystemBlurbCard(system = system)
+            }
+
+            item {
+                BetaText(
+                    text = "Hold types",
+                    style = BetabaseTheme.typography.titleMedium,
+                    color = BetabaseTheme.colors.ink,
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+            }
+
+            item {
+                BetaText(
+                    text = "The shape of a hold often matters as much as the grade. Here’s a quick guide to common gym and outdoor holds.",
+                    style = BetabaseTheme.typography.label,
+                    color = BetabaseTheme.colors.inkMuted,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+
+            itemsIndexed(
+                items = ClimbingHoldTypes,
+                key = { _, hold -> hold.id },
+            ) { _, hold ->
+                HoldTypeCard(hold = hold)
             }
         }
 
@@ -285,6 +312,35 @@ private fun SystemBlurbCard(
             }
             BetaText(
                 text = system.description,
+                style = BetabaseTheme.typography.bodyMedium,
+                color = BetabaseTheme.colors.inkMuted,
+            )
+        }
+    }
+}
+
+@Composable
+private fun HoldTypeCard(
+    hold: HoldType,
+    modifier: Modifier = Modifier,
+) {
+    BetaCard(
+        modifier = modifier.fillMaxWidth(),
+        background = BetabaseTheme.colors.surface,
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+        ) {
+            BetaText(
+                text = hold.name,
+                style = BetabaseTheme.typography.titleSmall,
+                color = BetabaseTheme.colors.ink,
+            )
+            BetaText(
+                text = hold.description,
                 style = BetabaseTheme.typography.bodyMedium,
                 color = BetabaseTheme.colors.inkMuted,
             )
