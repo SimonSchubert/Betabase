@@ -26,10 +26,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import com.inspiredandroid.betabase.data.AthleteFeedItem
+import com.inspiredandroid.betabase.ui.components.AthletesIcon
 import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaPill
 import com.inspiredandroid.betabase.ui.components.BetaText
@@ -42,6 +47,7 @@ import kotlin.time.Instant
 @Composable
 fun AthleteVideosCarousel(
     items: List<AthleteFeedItem>,
+    onOpenAthletes: () -> Unit,
     onOpenAthlete: (String) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
@@ -52,18 +58,54 @@ fun AthleteVideosCarousel(
     val now = if (inInspection) FixedInspectionNow else tickedNow
 
     Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        AthletesSectionHeader(
+            onOpenAthletes = onOpenAthletes,
+            modifier = headerModifier,
+        )
+        if (items.isNotEmpty()) {
+            LazyRow(
+                contentPadding = contentPadding,
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                items(items, key = { "${it.athlete.id}:${it.video.id}" }) { item ->
+                    AthleteFeedCard(item = item, now = now, onOpenAthlete = onOpenAthlete)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun AthletesSectionHeader(
+    onOpenAthletes: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
         BetaText(
-            text = "ATHLETE CHANNELS",
+            text = "ATHLETES",
             style = BetabaseTheme.typography.displayMedium,
             color = BetabaseTheme.colors.ink,
-            modifier = headerModifier.fillMaxWidth(),
+            modifier = Modifier.weight(1f),
         )
-        LazyRow(
-            contentPadding = contentPadding,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        BetaCard(
+            modifier = Modifier
+                .size(40.dp)
+                .semantics {
+                    contentDescription = "Open athletes"
+                    role = Role.Button
+                },
+            shape = CircleShape,
+            onClick = onOpenAthletes,
         ) {
-            items(items, key = { "${it.athlete.id}:${it.video.id}" }) { item ->
-                AthleteFeedCard(item = item, now = now, onOpenAthlete = onOpenAthlete)
+            Box(modifier = Modifier.size(40.dp), contentAlignment = Alignment.Center) {
+                AthletesIcon(
+                    tint = BetabaseTheme.colors.ink,
+                    size = 20.dp,
+                )
             }
         }
     }

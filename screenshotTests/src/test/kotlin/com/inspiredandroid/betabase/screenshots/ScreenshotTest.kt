@@ -105,14 +105,27 @@ class ScreenshotTest {
 
     @Test
     fun athletes() {
-        snap(selectedTab = Tab.Athletes) {
-            AthletesScreenContent(
-                state = AthletesUiState(
-                    athletes = sampleAthletes,
-                    loading = false,
-                    currentYear = 2026,
-                ),
-            )
+        // Athletes is a secondary screen (no bottom-nav tab); hide nav for the shot.
+        paparazzi.unsafeUpdateConfig(theme = "android:Theme.Material.Light.NoActionBar")
+        paparazzi.snapshot {
+            CompositionLocalProvider(LocalInspectionMode provides true) {
+                BetabaseTheme {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .background(BetabaseTheme.colors.background),
+                    ) {
+                        AthletesScreenContent(
+                            state = AthletesUiState(
+                                athletes = sampleAthletes,
+                                loading = false,
+                                currentYear = 2026,
+                            ),
+                            onBack = {},
+                        )
+                    }
+                }
+            }
         }
     }
 

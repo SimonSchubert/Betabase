@@ -40,7 +40,10 @@ import com.inspiredandroid.betabase.ui.screens.GymsScreen
 import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import kotlinx.datetime.TimeZone
 
-private val TabSaver = Saver<Tab, String>(save = { it.name }, restore = { Tab.valueOf(it) })
+private val TabSaver = Saver<Tab, String>(
+    save = { it.name },
+    restore = { runCatching { Tab.valueOf(it) }.getOrDefault(Tab.Comps) },
+)
 
 @Composable
 fun BetabaseApp() {
@@ -99,6 +102,7 @@ fun BetabaseApp() {
         }
 
         var selectedTab by rememberSaveable(stateSaver = TabSaver) { mutableStateOf(Tab.Comps) }
+        var showAthletes by rememberSaveable { mutableStateOf(false) }
         var selectedAthleteId by rememberSaveable { mutableStateOf<String?>(null) }
 
         Column(
@@ -108,46 +112,53 @@ fun BetabaseApp() {
         ) {
             Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
                 var gymsEverVisible by rememberSaveable { mutableStateOf(false) }
-                var athletesEverVisible by rememberSaveable { mutableStateOf(false) }
                 var gradesEverVisible by rememberSaveable { mutableStateOf(false) }
                 if (selectedTab == Tab.Gyms) gymsEverVisible = true
-                if (selectedTab == Tab.Athletes) athletesEverVisible = true
                 if (selectedTab == Tab.Grades) gradesEverVisible = true
 
-                TabLayer(visible = selectedTab == Tab.Comps) {
+                TabLayer(visible = selectedTab == Tab.Comps && !showAthletes) {
                     CompetitionsScreen(
                         viewModel = viewModel,
+                        onOpenAthletes = {
+                            selectedAthleteId = null
+                            showAthletes = true
+                        },
                         onOpenAthlete = { id ->
                             selectedAthleteId = id
-                            athletesEverVisible = true
-                            selectedTab = Tab.Athletes
+                            showAthletes = true
                         },
                     )
                 }
-                if (athletesEverVisible) {
-                    TabLayer(visible = selectedTab == Tab.Athletes) {
-                        AthletesScreen(
-                            videosRepository = athleteVideosRepository,
-                            selectedAthleteId = selectedAthleteId,
-                            onSelectAthlete = { selectedAthleteId = it },
-                        )
-                    }
-                }
                 if (gymsEverVisible) {
-                    TabLayer(visible = selectedTab == Tab.Gyms) {
+                    TabLayer(visible = selectedTab == Tab.Gyms && !showAthletes) {
                         GymsScreen(filterStorage = filterStorage)
                     }
                 }
                 if (gradesEverVisible) {
-                    TabLayer(visible = selectedTab == Tab.Grades) {
+                    TabLayer(visible = selectedTab == Tab.Grades && !showAthletes) {
                         GradesScreen()
                     }
                 }
+                if (showAthletes) {
+                    TabLayer(visible = true) {
+                        AthletesScreen(
+                            videosRepository = athleteVideosRepository,
+                            selectedAthleteId = selectedAthleteId,
+                            onSelectAthlete = { selectedAthleteId = it },
+                            onBack = {
+                                selectedAthleteId = null
+                                showAthletes = false
+                            },
+                        )
+                    }
+                }
             }
-            BetabaseBottomNav(
-                selected = selectedTab,
-                onSelect = { selectedTab = it },
-            )
+            if (!showAthletes) {
+                BetabaseBottomNav(
+                    selected = selectedTab,
+                    onSelect = { selectedTab = it },
+                )
+            }
         }
     }
 }

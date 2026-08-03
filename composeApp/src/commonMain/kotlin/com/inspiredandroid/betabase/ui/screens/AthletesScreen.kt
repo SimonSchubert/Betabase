@@ -84,17 +84,24 @@ private val Gold = Color(0xFFD4AF37)
 private val Silver = Color(0xFFB8B8B8)
 private val Bronze = Color(0xFFB87333)
 
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun AthletesScreen(
     modifier: Modifier = Modifier,
     videosRepository: AthleteVideosRepository? = null,
     selectedAthleteId: String? = null,
     onSelectAthlete: (String?) -> Unit = {},
+    onBack: (() -> Unit)? = null,
 ) {
     val viewModel = viewModel { AthletesViewModel(videosRepository = videosRepository) }
     val state by viewModel.state.collectAsStateWithLifecycle()
     val selected = remember(selectedAthleteId, state.athletes) {
         selectedAthleteId?.let { id -> state.athletes.firstOrNull { it.id == id } }
+    }
+
+    // System back leaves the athletes stack only when no detail is open.
+    if (onBack != null && selected == null) {
+        BackHandler(enabled = true, onBack = onBack)
     }
 
     Box(modifier = modifier.fillMaxSize()) {
@@ -105,6 +112,7 @@ fun AthletesScreen(
             onQueryChange = viewModel::setQuery,
             onToggleInactive = viewModel::toggleInactive,
             onOpen = { onSelectAthlete(it.id) },
+            onBack = onBack,
         )
         if (selected != null) {
             AthleteDetail(
@@ -127,6 +135,7 @@ fun AthletesScreenContent(
     onQueryChange: (String) -> Unit = {},
     onToggleInactive: () -> Unit = {},
     onOpen: (Athlete) -> Unit = {},
+    onBack: (() -> Unit)? = null,
 ) {
     Box(modifier = Modifier.fillMaxSize()) {
         ImageBackground()
@@ -137,6 +146,7 @@ fun AthletesScreenContent(
             onQueryChange = onQueryChange,
             onToggleInactive = onToggleInactive,
             onOpen = onOpen,
+            onBack = onBack,
         )
     }
 }
@@ -149,6 +159,7 @@ private fun AthletesGrid(
     onQueryChange: (String) -> Unit,
     onToggleInactive: () -> Unit,
     onOpen: (Athlete) -> Unit,
+    onBack: (() -> Unit)? = null,
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
     val sidePadding = Modifier.padding(horizontal = ScreenSidePadding)
@@ -171,7 +182,12 @@ private fun AthletesGrid(
             val fullSpan: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
 
             item(span = fullSpan, key = "header") {
-                Header(total = state.athletes.size, visible = state.filtered.size, modifier = sidePadding)
+                Header(
+                    total = state.athletes.size,
+                    visible = state.filtered.size,
+                    onBack = onBack,
+                    modifier = sidePadding,
+                )
             }
             item(span = fullSpan, key = "search") {
                 Box(modifier = sidePadding) {
@@ -234,14 +250,28 @@ private fun AthletesGrid(
 }
 
 @Composable
-private fun Header(total: Int, visible: Int, modifier: Modifier = Modifier) {
+private fun Header(
+    total: Int,
+    visible: Int,
+    onBack: (() -> Unit)? = null,
+    modifier: Modifier = Modifier,
+) {
     Column(modifier = modifier.fillMaxWidth()) {
-        BetaText(
-            text = "ATHLETES",
-            style = BetabaseTheme.typography.displayMedium,
-            color = BetabaseTheme.colors.ink,
+        Row(
             modifier = Modifier.fillMaxWidth(),
-        )
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            if (onBack != null) {
+                BackButton(onBack = onBack)
+            }
+            BetaText(
+                text = "ATHLETES",
+                style = BetabaseTheme.typography.displayMedium,
+                color = BetabaseTheme.colors.ink,
+                modifier = Modifier.weight(1f),
+            )
+        }
         Spacer(Modifier.height(6.dp))
         val countLabel = when {
             total == 0 -> "Loading…"

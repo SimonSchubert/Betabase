@@ -57,6 +57,7 @@ import org.jetbrains.compose.resources.painterResource
 @Composable
 fun CompetitionsScreen(
     viewModel: CompetitionsViewModel,
+    onOpenAthletes: () -> Unit = {},
     onOpenAthlete: (String) -> Unit = {},
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -68,6 +69,7 @@ fun CompetitionsScreen(
         onToggleRound = viewModel::toggle,
         onToggleGender = viewModel::toggle,
         onTogglePara = viewModel::toggleIncludePara,
+        onOpenAthletes = onOpenAthletes,
         onOpenAthlete = onOpenAthlete,
     )
 }
@@ -91,6 +93,7 @@ fun CompetitionsScreenContent(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onOpenAthletes: () -> Unit = {},
     onOpenAthlete: (String) -> Unit = {},
 ) {
     Box(
@@ -109,6 +112,7 @@ fun CompetitionsScreenContent(
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
                 onTogglePara = onTogglePara,
+                onOpenAthletes = onOpenAthletes,
                 onOpenAthlete = onOpenAthlete,
             )
         }
@@ -124,6 +128,7 @@ private fun ReadyState(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onOpenAthletes: () -> Unit,
     onOpenAthlete: (String) -> Unit,
 ) {
     val bottomInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
@@ -149,15 +154,14 @@ private fun ReadyState(
             ),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            if (state.athleteVideos.isNotEmpty()) {
-                item("athlete-videos") {
-                    AthleteVideosCarousel(
-                        items = state.athleteVideos,
-                        onOpenAthlete = onOpenAthlete,
-                        contentPadding = PaddingValues(horizontal = ScreenSidePadding),
-                        headerModifier = sidePadding,
-                    )
-                }
+            item("athlete-videos") {
+                AthleteVideosCarousel(
+                    items = state.athleteVideos,
+                    onOpenAthletes = onOpenAthletes,
+                    onOpenAthlete = onOpenAthlete,
+                    contentPadding = PaddingValues(horizontal = ScreenSidePadding),
+                    headerModifier = sidePadding,
+                )
             }
 
             item("competitions-section") {
