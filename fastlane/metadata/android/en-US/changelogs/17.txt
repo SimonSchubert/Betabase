@@ -1,0 +1,5 @@
+Added hold types
+Moved Athletes to home screen action
+Refreshed competition calendars
+Refreshed athlete YouTube video feed
+Improved data layer and Grades screen styling

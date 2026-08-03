@@ -1,3 +1,15 @@
+## v0.10.0 - 2026-08-03
+
+### Features
+- Added hold types
+- Moved Athletes from the bottom bar to a home screen action
+
+### Improvements
+- Refreshed competition calendars for Europe, Netherlands, Australia, and Germany (including DAV Boulder Bundesliga 2026/27)
+- Refreshed athlete YouTube video feed
+- Unified data-layer network, cache, and filter abstractions
+- Aligned Grades headline styling with the Athletes section
+
 ## v0.9.0 — 2026-07-17
 
 ### Features
