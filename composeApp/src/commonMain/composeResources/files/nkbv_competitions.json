@@ -1,7 +1,7 @@
 {
   "source": "NKBV",
   "source_url": "https://was2.shiftf5.nl/competitions",
-  "fetched_at": "2026-07-17T20:22:36Z",
+  "fetched_at": "2026-08-02T19:58:31Z",
   "events": [
     {
       "id": "nkbv-4951",
@@ -24,6 +24,66 @@
       "url": "https://was2.shiftf5.nl/competitions/5027"
     },
     {
+      "id": "nkbv-5036",
+      "title": "Volwassenen Klim Series Brabant Gelderland 1",
+      "series": null,
+      "location": "Neoliet Eindhoven",
+      "date": "2026-10-10",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5036"
+    },
+    {
+      "id": "nkbv-5033",
+      "title": "Jeugd Klim Series Brabant Gelderland 1",
+      "series": null,
+      "location": "Neoliet Eindhoven",
+      "date": "2026-10-11",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5033"
+    },
+    {
+      "id": "nkbv-5041",
+      "title": "Volwassenen Klim Series Brabant Gelderland 2",
+      "series": null,
+      "location": "Neoliet Tilburg",
+      "date": "2026-11-07",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5041"
+    },
+    {
+      "id": "nkbv-5037",
+      "title": "Jeugd Klim Series Brabant Gelderland 2",
+      "series": null,
+      "location": "Neoliet Tilburg",
+      "date": "2026-11-08",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5037"
+    },
+    {
+      "id": "nkbv-5042",
+      "title": "Volwassenen Klim Series Brabant Gelderland 3",
+      "series": null,
+      "location": "Yellow Stone Roosendaal",
+      "date": "2026-11-21",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5042"
+    },
+    {
+      "id": "nkbv-5038",
+      "title": "Jeugd Klim Series Brabant Gelderland 3",
+      "series": null,
+      "location": "Yellow Stone Roosendaal",
+      "date": "2026-11-22",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5038"
+    },
+    {
       "id": "nkbv-5012",
       "title": "ICCC Utrecht 2026 & NK IJsklimmen 2026",
       "series": null,
@@ -32,6 +92,46 @@
       "time": null,
       "discipline": "Lead",
       "url": "https://was2.shiftf5.nl/competitions/5012"
+    },
+    {
+      "id": "nkbv-5043",
+      "title": "Volwassenen Klim Series Brabant Gelderland 4",
+      "series": null,
+      "location": "Climbing Network Arnhem",
+      "date": "2027-01-16",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5043"
+    },
+    {
+      "id": "nkbv-5039",
+      "title": "Jeugd Klim Series Brabant Gelderland 4",
+      "series": null,
+      "location": "Climbing Network Arnhem",
+      "date": "2027-01-17",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5039"
+    },
+    {
+      "id": "nkbv-5044",
+      "title": "Volwassenen Klim Series Brabant Gelderland 5",
+      "series": null,
+      "location": "Stadsmuur Nijmegen",
+      "date": "2027-01-30",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5044"
+    },
+    {
+      "id": "nkbv-5040",
+      "title": "Jeugd Klim Series Brabant Gelderland 5",
+      "series": null,
+      "location": "Stadsmuur Nijmegen",
+      "date": "2027-01-31",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://was2.shiftf5.nl/competitions/5040"
     }
   ]
 }

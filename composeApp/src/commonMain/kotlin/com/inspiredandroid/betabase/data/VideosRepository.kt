@@ -1,7 +1,6 @@
 package com.inspiredandroid.betabase.data
 
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
 import kotlin.time.Clock
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
@@ -18,12 +17,12 @@ class VideosRepository(
      * call; cache parse failures are silently dropped so a stale-schema blob
      * doesn't surface as an error.
      */
-    fun loadRecent(): Flow<Result<List<IfscVideo>>> = flow {
+    fun loadRecent(): Flow<Result<List<IfscVideo>>> {
         val cutoff = Clock.System.now() - maxAge
-        source.cached()?.let { videos ->
-            emit(Result.success(process(videos, cutoff)))
-        }
-        emit(runCatching { process(source.fetch(), cutoff) })
+        return loadCachedThenFresh(
+            cached = { source.cached()?.let { process(it, cutoff) } },
+            fetch = { process(source.fetch(), cutoff) },
+        )
     }
 
     private fun process(videos: List<IfscVideo>, cutoff: kotlin.time.Instant): List<IfscVideo> = videos.asSequence()

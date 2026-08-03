@@ -1,32 +1,25 @@
 package com.inspiredandroid.betabase.data
 
 import io.ktor.client.HttpClient
-import io.ktor.client.request.get
-import io.ktor.client.request.header
-import io.ktor.client.statement.bodyAsText
-import io.ktor.http.HttpHeaders
-import io.ktor.http.isSuccess
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlin.time.Instant
 
 class IfscVideosSource(
-    private val client: HttpClient,
-    private val cache: JsonCache? = null,
+    client: HttpClient,
+    cache: JsonCache? = null,
     private val feedUrl: String = DEFAULT_URL,
 ) {
+    private val remote = CachedRemoteText(
+        client = client,
+        cache = cache,
+        accept = "application/json, */*",
+    )
 
-    suspend fun cached(): List<IfscVideo>? {
-        val bytes = cache?.read(CACHE_KEY) ?: return null
-        return runCatching { parse(bytes.decodeToString()) }.getOrNull()
-    }
+    suspend fun cached(): List<IfscVideo>? = remote.cached(CACHE_KEY)?.let { runCatching { parse(it) }.getOrNull() }
 
-    suspend fun fetch(): List<IfscVideo> {
-        val text = downloadText(feedUrl)
-        runCatching { cache?.write(CACHE_KEY, text.encodeToByteArray()) }
-        return parse(text)
-    }
+    suspend fun fetch(): List<IfscVideo> = parse(remote.fetch(url = feedUrl, key = CACHE_KEY))
 
     private fun parse(text: String): List<IfscVideo> = json.decodeFromString<List<VideoDto>>(text).mapNotNull { it.toDomain() }
 
@@ -47,15 +40,6 @@ class IfscVideosSource(
             gender = gender,
             isPara = EventClassifier.isPara(title),
         )
-    }
-
-    private suspend fun downloadText(url: String): String {
-        val response = client.get(url) {
-            header(HttpHeaders.Accept, "application/json, */*")
-            header(HttpHeaders.UserAgent, "Betabase/0.1")
-        }
-        if (!response.status.isSuccess()) error("HTTP ${response.status.value} from $url")
-        return response.bodyAsText()
     }
 
     @Serializable

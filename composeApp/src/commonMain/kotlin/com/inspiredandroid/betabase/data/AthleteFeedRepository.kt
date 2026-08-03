@@ -34,6 +34,7 @@ class AthleteFeedRepository(
     private var cached: List<AthleteFeedItem>? = null
 
     fun loadRecent(): Flow<Result<List<AthleteFeedItem>>> = flow {
+        // In-memory hit short-circuits: no disk or network.
         mutex.withLock { cached }?.let {
             emit(Result.success(it))
             return@flow
@@ -51,14 +52,17 @@ class AthleteFeedRepository(
         }
         val cutoff = Clock.System.now() - maxAge
 
-        videosSource.cached()?.let { byChannel ->
-            val items = assemble(athletes, byChannel, cutoff)
-            if (items.isNotEmpty()) emit(Result.success(items))
-        }
-
-        val fresh = runCatching { assemble(athletes, videosSource.fetch(), cutoff) }
-        fresh.onSuccess { items -> mutex.withLock { cached = items } }
-        emit(fresh)
+        loadCachedThenFresh(
+            cached = {
+                videosSource.cached()?.let { assemble(athletes, it, cutoff) }
+                    ?.takeIf { it.isNotEmpty() }
+            },
+            fetch = {
+                assemble(athletes, videosSource.fetch(), cutoff).also { items ->
+                    mutex.withLock { cached = items }
+                }
+            },
+        ).collect { emit(it) }
     }
 
     private fun assemble(

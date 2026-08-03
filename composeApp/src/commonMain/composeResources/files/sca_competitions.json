@@ -1,37 +1,17 @@
 {
   "source": "SCA",
-  "source_url": "https://www.sportclimbingaustralia.org.au/Upcoming-Events",
-  "fetched_at": "2026-07-17T20:22:37Z",
+  "source_url": "https://www.sportclimbingaustralia.org.au/page-18333",
+  "fetched_at": "2026-08-02T20:01:21Z",
   "events": [
     {
-      "id": "sca-6717120",
-      "title": "K2 Basecamp 2026 Queensland Youth Lead + Speed Titles",
-      "series": null,
-      "location": "Bounce Hendra, 4/370 Nudgee Rd Hendra QLD 4011",
-      "date": "2026-07-18",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.sportclimbingaustralia.org.au/event-6717120"
-    },
-    {
       "id": "sca-6764421",
-      "title": "2026 NSW Speed National Championships",
+      "title": "2026 NSW State Speed Titles",
       "series": null,
       "location": "Elevate Climbing, Villawood, NSW, Australia",
       "date": "2026-08-08",
       "time": "08:00",
       "discipline": "Speed",
       "url": "https://www.sportclimbingaustralia.org.au/event-6764421"
-    },
-    {
-      "id": "sca-6762833",
-      "title": "K2 Basecamp 2026 Queensland OPEN Lead + Speed Titles",
-      "series": null,
-      "location": "Bounce Hendra, 4/370 Nudgee Rd Hendra QLD 4011",
-      "date": "2026-08-15",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.sportclimbingaustralia.org.au/event-6762833"
     },
     {
       "id": "sca-6660661",
@@ -44,14 +24,37 @@
       "url": "https://www.sportclimbingaustralia.org.au/event-6660661"
     },
     {
+      "id": "sca-6762833",
+      "title": "K2 Basecamp 2026 Queensland Open Lead & Speed Titles",
+      "series": null,
+      "location": "Bounce Hendra, 4/370 Nudgee Rd Hendra QLD 4011",
+      "date": "2026-08-15",
+      "end_date": "2026-08-17",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.sportclimbingaustralia.org.au/event-6762833"
+    },
+    {
       "id": "sca-6746230",
       "title": "2026 WA Youth Boulder Titles",
       "series": null,
       "location": "Adrenaline Vault Cockburn. 443 Yangebup Road, Cockburn Central WA 6164",
       "date": "2026-08-22",
+      "end_date": "2026-08-24",
       "time": null,
       "discipline": "Boulder",
       "url": "https://www.sportclimbingaustralia.org.au/event-6746230"
+    },
+    {
+      "id": "sca-6779420",
+      "title": "2026 Boulder National Cup & WA Open Titles",
+      "series": null,
+      "location": "Portside Osborne Park, WA",
+      "date": "2026-09-25",
+      "end_date": "2026-09-27",
+      "time": null,
+      "discipline": "Boulder",
+      "url": "https://www.sportclimbingaustralia.org.au/event-6779420"
     }
   ]
 }

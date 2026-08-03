@@ -10,6 +10,7 @@ import com.inspiredandroid.betabase.data.AthletesRepository
 import com.inspiredandroid.betabase.data.YoutubeVideo
 import com.inspiredandroid.betabase.data.isActive
 import com.inspiredandroid.betabase.data.today
+import com.inspiredandroid.betabase.data.toggleMember
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -23,7 +24,7 @@ data class AthletesFilters(
     val query: String = "",
     val showInactive: Boolean = false,
 ) {
-    fun toggle(gender: AthleteGender): AthletesFilters = copy(genders = if (gender in genders) genders - gender else genders + gender)
+    fun toggle(gender: AthleteGender): AthletesFilters = copy(genders = genders.toggleMember(gender))
 
     /** Selects a country, or clears the filter when the already-selected one is tapped again. */
     fun withCountry(country: String?): AthletesFilters = copy(country = if (country == this.country) null else country)

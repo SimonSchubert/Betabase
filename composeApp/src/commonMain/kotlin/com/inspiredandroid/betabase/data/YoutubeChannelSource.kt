@@ -1,11 +1,6 @@
 package com.inspiredandroid.betabase.data
 
 import io.ktor.client.HttpClient
-import io.ktor.client.request.get
-import io.ktor.client.request.header
-import io.ktor.client.statement.bodyAsText
-import io.ktor.http.HttpHeaders
-import io.ktor.http.isSuccess
 import kotlin.time.Instant
 
 /**
@@ -21,30 +16,19 @@ import kotlin.time.Instant
  * `UC`), never an `@handle` or `/c/Name` vanity path.
  */
 class YoutubeChannelSource(
-    private val client: HttpClient,
-    private val cache: JsonCache? = null,
+    client: HttpClient,
+    cache: JsonCache? = null,
     private val feedUrlBase: String = DEFAULT_FEED_BASE,
 ) {
+    private val remote = CachedRemoteText(
+        client = client,
+        cache = cache,
+        accept = "application/atom+xml, text/xml, */*",
+    )
 
-    suspend fun cached(channelId: String): List<YoutubeVideo>? {
-        val bytes = cache?.read(cacheKey(channelId)) ?: return null
-        return runCatching { parseEntries(bytes.decodeToString()) }.getOrNull()
-    }
+    suspend fun cached(channelId: String): List<YoutubeVideo>? = remote.cached(cacheKey(channelId))?.let { runCatching { parseEntries(it) }.getOrNull() }
 
-    suspend fun fetch(channelId: String): List<YoutubeVideo> {
-        val xml = downloadText(feedUrlBase + channelId)
-        runCatching { cache?.write(cacheKey(channelId), xml.encodeToByteArray()) }
-        return parseEntries(xml)
-    }
-
-    private suspend fun downloadText(url: String): String {
-        val response = client.get(url) {
-            header(HttpHeaders.Accept, "application/atom+xml, text/xml, */*")
-            header(HttpHeaders.UserAgent, "Betabase/0.1")
-        }
-        if (!response.status.isSuccess()) error("HTTP ${response.status.value} from $url")
-        return response.bodyAsText()
-    }
+    suspend fun fetch(channelId: String): List<YoutubeVideo> = parseEntries(remote.fetch(url = feedUrlBase + channelId, key = cacheKey(channelId)))
 
     private fun parseEntries(xml: String): List<YoutubeVideo> {
         // Hand-parse <entry> blocks (no DOT_MATCHES_ALL — not available on all

@@ -14,8 +14,7 @@ import kotlinx.coroutines.sync.withLock
  *     unless the in-memory hit short-circuits the whole call.
  *
  * [load] is a Flow so callers see two emissions (cached, then fresh) on cold
- * start. [cachedFor] / [fetch] are single-shot helpers used by
- * [AthleteFeedRepository] when fanning out across many channels.
+ * start.
  */
 class AthleteVideosRepository(
     private val source: YoutubeChannelSource,
@@ -25,33 +24,26 @@ class AthleteVideosRepository(
     private val cache = mutableMapOf<String, List<YoutubeVideo>>()
 
     fun load(channelId: String): Flow<Result<List<YoutubeVideo>>> = flow {
+        // In-memory hit short-circuits: no disk or network.
         mutex.withLock { cache[channelId] }?.let {
             emit(Result.success(it))
             return@flow
         }
-        source.cached(channelId)?.let { videos ->
-            val processed = process(videos)
-            mutex.withLock { if (channelId !in cache) cache[channelId] = processed }
-            emit(Result.success(processed))
-        }
-        val networkResult = runCatching { process(source.fetch(channelId)) }
-        networkResult.onSuccess { videos -> mutex.withLock { cache[channelId] = videos } }
-        emit(networkResult)
+        loadCachedThenFresh(
+            cached = {
+                source.cached(channelId)?.let { videos ->
+                    process(videos).also { processed ->
+                        mutex.withLock { if (channelId !in cache) cache[channelId] = processed }
+                    }
+                }
+            },
+            fetch = {
+                process(source.fetch(channelId)).also { videos ->
+                    mutex.withLock { cache[channelId] = videos }
+                }
+            },
+        ).collect { emit(it) }
     }
-
-    /** Disk-cache snapshot only; no network. Used by the athlete-feed assembler. */
-    suspend fun cachedFor(channelId: String): List<YoutubeVideo>? {
-        mutex.withLock { cache[channelId] }?.let { return it }
-        val videos = source.cached(channelId) ?: return null
-        val processed = process(videos)
-        mutex.withLock { if (channelId !in cache) cache[channelId] = processed }
-        return processed
-    }
-
-    /** Network fetch, populates the in-memory cache on success. */
-    suspend fun fetch(channelId: String): Result<List<YoutubeVideo>> = runCatching {
-        process(source.fetch(channelId))
-    }.onSuccess { videos -> mutex.withLock { cache[channelId] = videos } }
 
     private fun process(videos: List<YoutubeVideo>): List<YoutubeVideo> = videos.sortedByDescending { it.publishedAt }.take(maxItems)
 }
