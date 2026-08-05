@@ -27,8 +27,10 @@ import com.inspiredandroid.betabase.data.IfscVideosSource
 import com.inspiredandroid.betabase.data.SourceTag
 import com.inspiredandroid.betabase.data.VideosRepository
 import com.inspiredandroid.betabase.data.YoutubeChannelSource
+import com.inspiredandroid.betabase.data.createEventReminderScheduler
 import com.inspiredandroid.betabase.data.createFilterStorage
 import com.inspiredandroid.betabase.data.createJsonCache
+import com.inspiredandroid.betabase.data.createReminderStore
 import com.inspiredandroid.betabase.data.setupImageLoader
 import com.inspiredandroid.betabase.ui.components.BetabaseBottomNav
 import com.inspiredandroid.betabase.ui.components.Tab
@@ -96,12 +98,16 @@ fun BetabaseApp() {
             )
         }
         val filterStorage = remember { createFilterStorage() }
+        val reminderStore = remember { createReminderStore() }
+        val reminderScheduler = remember { createEventReminderScheduler() }
         val viewModel = viewModel {
             CompetitionsViewModel(
                 repository = repository,
                 videosRepository = videosRepository,
                 athleteFeedRepository = athleteFeedRepository,
                 filterStorage = filterStorage,
+                reminderStore = reminderStore,
+                reminderScheduler = reminderScheduler,
             )
         }
 

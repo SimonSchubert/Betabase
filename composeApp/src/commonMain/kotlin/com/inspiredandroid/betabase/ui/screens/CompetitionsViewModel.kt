@@ -9,17 +9,23 @@ import com.inspiredandroid.betabase.data.CompetitionEvent
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.CompetitionsRepository
 import com.inspiredandroid.betabase.data.Discipline
+import com.inspiredandroid.betabase.data.EventReminderScheduler
 import com.inspiredandroid.betabase.data.FilterStorage
 import com.inspiredandroid.betabase.data.Gender
 import com.inspiredandroid.betabase.data.IfscVideo
+import com.inspiredandroid.betabase.data.ReminderStore
 import com.inspiredandroid.betabase.data.Round
 import com.inspiredandroid.betabase.data.SourceTag
 import com.inspiredandroid.betabase.data.VideosRepository
+import com.inspiredandroid.betabase.data.remindersSupported
+import com.inspiredandroid.betabase.data.toReminderRecord
+import com.inspiredandroid.betabase.ui.util.startInstant
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Clock
 
 @Immutable
 data class CompetitionsUiState(
@@ -30,6 +36,7 @@ data class CompetitionsUiState(
     val streams: List<IfscVideo> = emptyList(),
     val athleteVideos: List<AthleteFeedItem> = emptyList(),
     val filters: CompetitionsFilters = CompetitionsFilters.Default,
+    val reminderIds: Set<String> = emptySet(),
 ) {
     val filteredEvents: List<CompetitionEvent> by lazy { events.filter(filters::matches) }
     val filteredStreams: List<IfscVideo> by lazy { streams.filter(filters::matches) }
@@ -43,14 +50,20 @@ class CompetitionsViewModel(
     private val videosRepository: VideosRepository? = null,
     private val athleteFeedRepository: AthleteFeedRepository? = null,
     private val filterStorage: FilterStorage? = null,
+    private val reminderStore: ReminderStore? = null,
+    private val reminderScheduler: EventReminderScheduler? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(
-        CompetitionsUiState(filters = filterStorage?.load() ?: CompetitionsFilters.Default),
+        CompetitionsUiState(
+            filters = filterStorage?.load() ?: CompetitionsFilters.Default,
+            reminderIds = reminderStore?.load()?.map { it.eventId }?.toSet().orEmpty(),
+        ),
     )
     val state: StateFlow<CompetitionsUiState> = _state.asStateFlow()
 
     init {
+        restoreReminders()
         load()
     }
 
@@ -65,6 +78,39 @@ class CompetitionsViewModel(
     fun toggle(gender: Gender) = updateFilters { it.toggle(gender) }
 
     fun toggleIncludePara() = updateFilters { it.toggleIncludePara() }
+
+    fun toggleReminder(event: CompetitionEvent) {
+        if (!remindersSupported || reminderStore == null || reminderScheduler == null) return
+        if (event.allDay) return
+        val startMs = event.startInstant().toEpochMilliseconds()
+        if (startMs <= Clock.System.now().toEpochMilliseconds()) return
+
+        viewModelScope.launch {
+            val alreadyOn = event.id in _state.value.reminderIds
+            if (alreadyOn) {
+                reminderScheduler.cancel(event.id)
+                reminderStore.remove(event.id)
+                _state.update { it.copy(reminderIds = it.reminderIds - event.id) }
+                return@launch
+            }
+
+            if (!reminderScheduler.ensurePermission()) return@launch
+
+            val record = event.toReminderRecord(startMs)
+            reminderScheduler.schedule(record)
+            reminderStore.upsert(record)
+            _state.update { it.copy(reminderIds = it.reminderIds + event.id) }
+        }
+    }
+
+    private fun restoreReminders() {
+        val store = reminderStore ?: return
+        val scheduler = reminderScheduler ?: return
+        val now = Clock.System.now().toEpochMilliseconds()
+        val kept = store.prunePast(now)
+        scheduler.rescheduleAll(kept)
+        _state.update { it.copy(reminderIds = kept.map { r -> r.eventId }.toSet()) }
+    }
 
     private inline fun updateFilters(transform: (CompetitionsFilters) -> CompetitionsFilters) {
         _state.update { it.copy(filters = transform(it.filters)) }

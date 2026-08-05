@@ -1,6 +1,8 @@
 package com.inspiredandroid.betabase.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -11,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -19,6 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.inspiredandroid.betabase.data.CompetitionEvent
@@ -38,6 +45,8 @@ fun CompetitionCard(
     now: Instant,
     zone: TimeZone,
     modifier: Modifier = Modifier,
+    isReminded: Boolean = false,
+    onToggleReminder: (() -> Unit)? = null,
 ) {
     val accent = disciplineColor(event.discipline)
     val uriHandler = LocalUriHandler.current
@@ -104,6 +113,12 @@ fun CompetitionCard(
                         style = BetabaseTheme.typography.labelSmall,
                         color = BetabaseTheme.colors.inkMuted,
                     )
+                    if (onToggleReminder != null) {
+                        ReminderToggle(
+                            isReminded = isReminded,
+                            onToggle = onToggleReminder,
+                        )
+                    }
                 }
 
                 BetaText(
@@ -143,6 +158,36 @@ fun CompetitionCard(
 }
 
 private fun formatHourMinute(hour: Int, minute: Int): String = "${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}"
+
+@Composable
+private fun ReminderToggle(
+    isReminded: Boolean,
+    onToggle: () -> Unit,
+) {
+    val description = if (isReminded) "Cancel reminder" else "Remind me when it starts"
+    val tint = if (isReminded) BetabaseTheme.colors.boulder else BetabaseTheme.colors.inkMuted
+    val interaction = remember { MutableInteractionSource() }
+    Box(
+        modifier = Modifier
+            .size(32.dp)
+            .semantics {
+                contentDescription = description
+                role = Role.Button
+            }
+            .clickable(
+                interactionSource = interaction,
+                indication = null,
+                onClick = onToggle,
+            ),
+        contentAlignment = Alignment.Center,
+    ) {
+        ReminderBellIcon(
+            filled = isReminded,
+            tint = tint,
+            size = 20.dp,
+        )
+    }
+}
 
 @Composable
 private fun DotSeparator() {

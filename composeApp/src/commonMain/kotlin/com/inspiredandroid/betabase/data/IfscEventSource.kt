@@ -42,6 +42,7 @@ class IfscEventSource(
             discipline = discipline,
             round = round,
             gender = gender,
+            allDay = allDay,
             isPara = EventClassifier.isPara(listOfNotNull(summary, seriesLine).joinToString(" ")),
         )
     }

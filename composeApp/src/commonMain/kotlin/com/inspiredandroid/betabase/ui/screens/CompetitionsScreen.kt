@@ -35,11 +35,13 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import betabase.composeapp.generated.resources.Res
 import betabase.composeapp.generated.resources.background
+import com.inspiredandroid.betabase.data.CompetitionEvent
 import com.inspiredandroid.betabase.data.CompetitionsFilters
 import com.inspiredandroid.betabase.data.Discipline
 import com.inspiredandroid.betabase.data.Gender
 import com.inspiredandroid.betabase.data.Round
 import com.inspiredandroid.betabase.data.SourceTag
+import com.inspiredandroid.betabase.data.remindersSupported
 import com.inspiredandroid.betabase.ui.components.BetaButton
 import com.inspiredandroid.betabase.ui.components.BetaCard
 import com.inspiredandroid.betabase.ui.components.BetaChip
@@ -50,6 +52,7 @@ import com.inspiredandroid.betabase.ui.theme.BetabaseTheme
 import com.inspiredandroid.betabase.ui.util.FixedInspectionNow
 import com.inspiredandroid.betabase.ui.util.rememberNow
 import com.inspiredandroid.betabase.ui.util.startIn
+import com.inspiredandroid.betabase.ui.util.startInstant
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import org.jetbrains.compose.resources.painterResource
@@ -69,6 +72,7 @@ fun CompetitionsScreen(
         onToggleRound = viewModel::toggle,
         onToggleGender = viewModel::toggle,
         onTogglePara = viewModel::toggleIncludePara,
+        onToggleReminder = viewModel::toggleReminder,
         onOpenAthletes = onOpenAthletes,
         onOpenAthlete = onOpenAthlete,
     )
@@ -93,6 +97,7 @@ fun CompetitionsScreenContent(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onToggleReminder: (CompetitionEvent) -> Unit = {},
     onOpenAthletes: () -> Unit = {},
     onOpenAthlete: (String) -> Unit = {},
 ) {
@@ -112,6 +117,7 @@ fun CompetitionsScreenContent(
                 onToggleRound = onToggleRound,
                 onToggleGender = onToggleGender,
                 onTogglePara = onTogglePara,
+                onToggleReminder = onToggleReminder,
                 onOpenAthletes = onOpenAthletes,
                 onOpenAthlete = onOpenAthlete,
             )
@@ -128,6 +134,7 @@ private fun ReadyState(
     onToggleRound: (Round) -> Unit,
     onToggleGender: (Gender) -> Unit,
     onTogglePara: () -> Unit,
+    onToggleReminder: (CompetitionEvent) -> Unit,
     onOpenAthletes: () -> Unit,
     onOpenAthlete: (String) -> Unit,
 ) {
@@ -207,7 +214,21 @@ private fun ReadyState(
                     DayHeader(day, modifier = sidePadding)
                 }
                 items(grouped.getValue(day), key = { it.id }) { event ->
-                    CompetitionCard(event = event, now = now, zone = zone, modifier = sidePadding)
+                    val canRemind = remindersSupported &&
+                        !event.allDay &&
+                        event.startInstant() > now
+                    CompetitionCard(
+                        event = event,
+                        now = now,
+                        zone = zone,
+                        modifier = sidePadding,
+                        isReminded = event.id in state.reminderIds,
+                        onToggleReminder = if (canRemind) {
+                            { onToggleReminder(event) }
+                        } else {
+                            null
+                        },
+                    )
                 }
             }
         }

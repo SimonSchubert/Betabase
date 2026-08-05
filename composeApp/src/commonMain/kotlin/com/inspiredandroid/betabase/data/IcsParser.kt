@@ -21,6 +21,7 @@ object IcsParser {
         val startZone: TimeZone?,
         val end: LocalDateTime?,
         val endZone: TimeZone?,
+        val allDay: Boolean = false,
     )
 
     fun parse(text: String): List<RawEvent> {
@@ -83,10 +84,16 @@ object IcsParser {
         return Property(name, params, value)
     }
 
+    private data class ParsedDateTime(
+        val dateTime: LocalDateTime,
+        val zone: TimeZone,
+        val allDay: Boolean,
+    )
+
     private fun toRawEvent(map: Map<String, Pair<Map<String, String>, String>>): RawEvent {
         fun text(name: String): String? = map[name]?.second?.let(::unescapeText)
-        val (start, startZone) = map["DTSTART"]?.let { (params, v) -> parseDateTime(v, params) } ?: (null to null)
-        val (end, endZone) = map["DTEND"]?.let { (params, v) -> parseDateTime(v, params) } ?: (null to null)
+        val startParsed = map["DTSTART"]?.let { (params, v) -> parseDateTime(v, params) }
+        val endParsed = map["DTEND"]?.let { (params, v) -> parseDateTime(v, params) }
         return RawEvent(
             uid = text("UID"),
             summary = text("SUMMARY"),
@@ -94,33 +101,34 @@ object IcsParser {
             location = text("LOCATION"),
             url = map["URL"]?.second,
             status = map["STATUS"]?.second,
-            start = start,
-            startZone = startZone,
-            end = end,
-            endZone = endZone,
+            start = startParsed?.dateTime,
+            startZone = startParsed?.zone,
+            end = endParsed?.dateTime,
+            endZone = endParsed?.zone,
+            allDay = startParsed?.allDay == true,
         )
     }
 
-    private fun parseDateTime(value: String, params: Map<String, String>): Pair<LocalDateTime, TimeZone>? {
+    private fun parseDateTime(value: String, params: Map<String, String>): ParsedDateTime? {
         return try {
             when {
                 value.endsWith("Z") -> {
                     val core = value.removeSuffix("Z")
                     val ldt = parseCompactDateTime(core) ?: return null
                     val instant = ldt.toInstant(TimeZone.UTC)
-                    instant.toLocalDateTime(TimeZone.UTC) to TimeZone.UTC
+                    ParsedDateTime(instant.toLocalDateTime(TimeZone.UTC), TimeZone.UTC, allDay = false)
                 }
 
                 params["VALUE"] == "DATE" || value.length == 8 -> {
                     val date = parseCompactDate(value) ?: return null
-                    date.atTime(0, 0) to TimeZone.currentSystemDefault()
+                    ParsedDateTime(date.atTime(0, 0), TimeZone.currentSystemDefault(), allDay = true)
                 }
 
                 else -> {
                     val zone = params["TZID"]?.let { runCatching { TimeZone.of(it) }.getOrNull() }
                         ?: TimeZone.currentSystemDefault()
                     val ldt = parseCompactDateTime(value) ?: return null
-                    ldt to zone
+                    ParsedDateTime(ldt, zone, allDay = false)
                 }
             }
         } catch (e: Throwable) {

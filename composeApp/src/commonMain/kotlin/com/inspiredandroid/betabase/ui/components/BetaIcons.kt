@@ -253,3 +253,50 @@ fun GradesIcon(
         tint = tint,
     )
 }
+
+/** Bell for competition start reminders — outline when off, filled when armed. */
+@Composable
+fun ReminderBellIcon(
+    filled: Boolean,
+    modifier: Modifier = Modifier,
+    tint: Color = LocalContentColor.current,
+    size: Dp = 20.dp,
+) {
+    Canvas(modifier = modifier.size(size)) {
+        val w = this.size.width
+        val h = this.size.height
+        val stroke = w * 0.10f
+        val cx = w / 2f
+        // Dome
+        val domeTop = h * 0.12f
+        val domeBottom = h * 0.62f
+        val domeWidth = w * 0.72f
+        val left = cx - domeWidth / 2f
+        val right = cx + domeWidth / 2f
+        val path = Path().apply {
+            moveTo(left, domeBottom)
+            quadraticTo(left, domeTop, cx, domeTop)
+            quadraticTo(right, domeTop, right, domeBottom)
+            lineTo(right + w * 0.06f, domeBottom + h * 0.08f)
+            lineTo(left - w * 0.06f, domeBottom + h * 0.08f)
+            close()
+        }
+        if (filled) {
+            drawPath(path, color = tint)
+        } else {
+            drawPath(path, color = tint, style = Stroke(width = stroke))
+        }
+        // Clapper
+        drawCircle(
+            color = tint,
+            center = Offset(cx, h * 0.88f),
+            radius = w * 0.10f,
+        )
+        // Crown nub
+        drawCircle(
+            color = tint,
+            center = Offset(cx, domeTop),
+            radius = w * 0.07f,
+        )
+    }
+}
