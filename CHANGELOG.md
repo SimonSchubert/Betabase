@@ -1,3 +1,14 @@
+## v0.11.0 - 2026-08-05
+
+### Features
+- Added competition start reminders for timed events
+- Added American competitions
+
+### Improvements
+- Updated gym map data
+- Refreshed athlete YouTube video feed
+- Upgraded dependencies
+
 ## v0.10.0 - 2026-08-03
 
 ### Features

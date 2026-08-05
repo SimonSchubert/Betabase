@@ -1,0 +1,5 @@
+Add competition start reminders for timed events
+Add American competitions
+Update gym map data
+Refresh athlete YouTube video feed
+Upgrade dependencies
