@@ -1,0 +1,18 @@
+{
+  "source": "AMERICAS",
+  "source_url": "https://www.worldclimbing.com/calendar/index",
+  "fetched_at": "2026-08-05T19:12:22Z",
+  "events": [
+    {
+      "id": "americas-world-climbing-pan-america-championship-curitiba-2026",
+      "title": "World Climbing Pan America Championship Curitiba 2026",
+      "series": "World Climbing Pan America",
+      "location": "Curitiba, Brazil",
+      "date": "2026-08-22",
+      "end_date": "2026-08-23",
+      "time": null,
+      "discipline": "Speed",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-pan-america-championship-curitiba-2026/"
+    }
+  ]
+}

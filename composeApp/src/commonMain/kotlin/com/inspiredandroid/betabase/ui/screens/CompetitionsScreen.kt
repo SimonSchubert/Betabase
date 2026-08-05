@@ -408,6 +408,7 @@ private fun FilterChips(
 private fun sourceColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.accent
     SourceTag.EUROPE -> Color(0xFF003399)
+    SourceTag.AMERICAS -> Color(0xFFDC2626)
     SourceTag.NKBV -> BetabaseTheme.colors.ink
     SourceTag.SCA -> Color(0xFF16A34A)
     SourceTag.DAV -> Color(0xFFF5C400)
@@ -417,6 +418,7 @@ private fun sourceColor(source: SourceTag) = when (source) {
 private fun sourceOnColor(source: SourceTag) = when (source) {
     SourceTag.IFSC -> BetabaseTheme.colors.onAccent
     SourceTag.EUROPE -> BetabaseTheme.colors.inkInverse
+    SourceTag.AMERICAS -> BetabaseTheme.colors.inkInverse
     SourceTag.NKBV -> BetabaseTheme.colors.inkInverse
     SourceTag.SCA -> BetabaseTheme.colors.inkInverse
     SourceTag.DAV -> BetabaseTheme.colors.ink

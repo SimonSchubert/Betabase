@@ -63,6 +63,10 @@ fun BetabaseApp() {
                         tag = SourceTag.EUROPE,
                     ),
                     BundledJsonEventSource(
+                        resourcePath = "files/americas_competitions.json",
+                        tag = SourceTag.AMERICAS,
+                    ),
+                    BundledJsonEventSource(
                         resourcePath = "files/nkbv_competitions.json",
                         tag = SourceTag.NKBV,
                     ),

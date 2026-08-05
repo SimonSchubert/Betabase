@@ -108,6 +108,15 @@ val sampleEvents = listOf(
         source = SourceTag.EUROPE,
         discipline = Discipline.BOULDER, round = Round.OTHER, gender = Gender.MIXED,
     ),
+    event(
+        id = "americas-1",
+        title = "World Climbing Pan America Championship Curitiba 2026",
+        series = "World Climbing Pan America",
+        location = "Curitiba, Brazil",
+        month = 8, day = 22, allDay = true,
+        source = SourceTag.AMERICAS,
+        discipline = Discipline.SPEED, round = Round.OTHER, gender = Gender.MIXED,
+    ),
 )
 
 val youthSampleEvents = listOf(
