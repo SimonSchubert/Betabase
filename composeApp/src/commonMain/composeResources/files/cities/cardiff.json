@@ -1,7 +1,7 @@
 {
   "city": "Cardiff",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "boulders-cardiff",
@@ -17,6 +17,20 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://images.squarespace-cdn.com/content/v1/5b680ff22714e5a2859144bf/e364f082-81ba-4f4e-92fd-be117999999e/NICAS-Primary-Centre-Logo.jpg?format=2500w"
+    },
+    {
+      "id": "flashpoint",
+      "name": "Flashpoint",
+      "address": "Penarth Road 236, CF11 8EQ Cardiff",
+      "url": "https://flashpointcardiff.com",
+      "lat": 51.4615854,
+      "lng": -3.197905,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

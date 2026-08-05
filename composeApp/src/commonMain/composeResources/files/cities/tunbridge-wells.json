@@ -1,8 +1,23 @@
 {
   "city": "Tunbridge Wells",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:53:36Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "chimera-climbing-tunbridge-wells",
+      "name": "Chimera Climbing",
+      "address": "TN2 3DR Tunbridge Wells",
+      "url": "https://www.chimeraclimbing.com",
+      "lat": 51.1534185,
+      "lng": 0.2795733,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "high-sports-tunbridge-wells",
       "name": "High Sports Tunbridge Wells",

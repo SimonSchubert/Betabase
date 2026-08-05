@@ -1,7 +1,7 @@
 {
   "city": "Barcelona",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "bloc-district-barcelona-marina",
@@ -194,6 +194,21 @@
         "sat": "11:00-23:00",
         "sun": "09:00-18:00"
       }
+    },
+    {
+      "id": "sharma-climbing-gava",
+      "name": "Sharma Climbing Gavà",
+      "address": "Carrer de Girona 25, 08850 Gavà",
+      "url": "https://www.sharmaclimbing.com/en/spain/barcelona-gava",
+      "lat": 41.301181,
+      "lng": 2.0126821,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

@@ -1,18 +1,32 @@
 {
   "city": "Bielefeld",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "dav-kletterzentrum-bielefeld",
-      "name": "DAV Kletterzentrum Bielefeld",
-      "address": "Lerchenstraße 63, 33609 Bielefeld",
-      "url": "https://www.dav-bielefeld.de/kletterzentrum",
-      "lat": 52.0213233,
-      "lng": 8.575856,
+      "id": "bloc-buster",
+      "name": "Bloc Buster",
+      "address": "Herforder Straße 265a, 33609 Bielefeld",
+      "url": "https://bielefeld.blocbuster.net",
+      "lat": 52.0396434,
+      "lng": 8.5659543,
       "disciplines": [
         "boulder",
         "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhalle-bootshaus",
+      "name": "Boulderhalle Bootshaus",
+      "address": "Bielefeld",
+      "url": "https://www.boulderhallebootshaus.de",
+      "lat": 52.0296269,
+      "lng": 8.5895355,
+      "disciplines": [
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,
@@ -32,6 +46,21 @@
       "size_sqm": 2400,
       "opening_hours": {},
       "image_url": "http://center-of-gravity-boulderhalle.de/wp-content/uploads/logo_cog.svg"
+    },
+    {
+      "id": "dav-kletterzentrum-bielefeld",
+      "name": "DAV Kletterzentrum Bielefeld",
+      "address": "Lerchenstraße 63, 33609 Bielefeld",
+      "url": "https://www.dav-bielefeld.de/kletterzentrum",
+      "lat": 52.0213233,
+      "lng": 8.575856,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

@@ -1,18 +1,17 @@
 {
   "city": "Trier",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "kletterhalle-cube",
-      "name": "Kletterhalle Cube",
-      "address": "Diedenhofener Straße 27c, 54294 Trier",
-      "url": "https://www.kletterhalle-cube.de",
-      "lat": 49.7294734,
-      "lng": 6.6153859,
+      "id": "blocschokolade",
+      "name": "BlocSchokolade",
+      "address": "Ruwerer Straße 27, Trier",
+      "url": "https://www.blocschokolade.de",
+      "lat": 49.7762357,
+      "lng": 6.694033,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,
@@ -32,6 +31,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.eifelblock.de/wp-content/uploads/2024/05/cropped-Logo-Homepage-192x192.jpg"
+    },
+    {
+      "id": "kletterhalle-cube",
+      "name": "Kletterhalle Cube",
+      "address": "Diedenhofener Straße 27c, 54294 Trier",
+      "url": "https://www.kletterhalle-cube.de",
+      "lat": 49.7294734,
+      "lng": 6.6153859,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

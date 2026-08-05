@@ -1,23 +1,30 @@
 {
   "city": "Bonn",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "dav-kletterzentrum-bonn",
-      "name": "DAV Kletter- und Boulderzentrum Bonn",
-      "address": "Charles-de-Gaulle-Straße 17, 53113 Bonn",
-      "url": "https://www.dav-bonn.de/kletterzentrum",
-      "lat": 50.7180714,
-      "lng": 7.1307849,
+      "id": "boulders-habitat-bonn-beuel",
+      "name": "Boulders Habitat Bonn-Beuel",
+      "address": "Paulusstraße 22, 53227 Bonn",
+      "url": "https://www.bouldershabitat.de",
+      "lat": 50.7386638,
+      "lng": 7.1312882,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.dav-bonn.de/fileadmin/images/logos/dav-bonn-logo.png"
+      "size_sqm": 1100,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      },
+      "image_url": "https://www.bouldershabitat.de/wp-content/uploads/2024/02/bouldern-mit-kindern.jpg"
     },
     {
       "id": "boulders-habitat-bonn-dransdorf",
@@ -43,27 +50,50 @@
       "image_url": "https://www.bouldershabitat.de/wp-content/uploads/2024/02/bouldern-mit-kindern.jpg"
     },
     {
-      "id": "boulders-habitat-bonn-beuel",
-      "name": "Boulders Habitat Bonn-Beuel",
-      "address": "Paulusstraße 22, 53227 Bonn",
-      "url": "https://www.bouldershabitat.de",
-      "lat": 50.7386638,
-      "lng": 7.1312882,
+      "id": "bronxrock-kletterhalle",
+      "name": "BronxRock Kletterhalle",
+      "address": "Vorgebirgsstraße 5, 50389 Wesseling",
+      "url": "https://www.bronxrock.de",
+      "lat": 50.8129493,
+      "lng": 6.9921984,
       "disciplines": [
-        "boulder"
+        "boulder",
+        "lead"
       ],
       "boards": [],
-      "size_sqm": 1100,
-      "opening_hours": {
-        "mon": "09:00-23:00",
-        "tue": "09:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "09:00-23:00",
-        "fri": "09:00-23:00",
-        "sat": "09:00-22:00",
-        "sun": "09:00-22:00"
-      },
-      "image_url": "https://www.bouldershabitat.de/wp-content/uploads/2024/02/bouldern-mit-kindern.jpg"
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "dav-kletterzentrum-bonn",
+      "name": "DAV Kletter- und Boulderzentrum Bonn",
+      "address": "Charles-de-Gaulle-Straße 17, 53113 Bonn",
+      "url": "https://www.dav-bonn.de/kletterzentrum",
+      "lat": 50.7180714,
+      "lng": 7.1307849,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.dav-bonn.de/fileadmin/images/logos/dav-bonn-logo.png"
+    },
+    {
+      "id": "stuntwerk-troisdorf",
+      "name": "Stuntwerk Troisdorf",
+      "address": "Kölner Straße 2, 53840 Troisdorf",
+      "url": "https://stuntwerk-troisdorf.de",
+      "lat": 50.8141899,
+      "lng": 7.1636918,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

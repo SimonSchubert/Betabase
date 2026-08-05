@@ -1,7 +1,7 @@
 {
   "city": "Halifax",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:52:45Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "halifax-climbing-centre",
@@ -10,6 +10,21 @@
       "url": "https://www.calderdale.gov.uk/",
       "lat": 53.7270507,
       "lng": -1.8585616,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-climbing-hub",
+      "name": "The Climbing Hub",
+      "address": "BD7 2BR Bradford",
+      "url": "https://www.theclimbinghub.co.uk",
+      "lat": 53.784924,
+      "lng": -1.7830407,
       "disciplines": [
         "boulder",
         "lead"

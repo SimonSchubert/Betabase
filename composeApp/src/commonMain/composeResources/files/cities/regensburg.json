@@ -1,18 +1,17 @@
 {
   "city": "Regensburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "dav-kletterzentrum-regensburg",
-      "name": "DAV Kletterzentrum Regensburg",
-      "address": "Am Silbergarten, 93138 Lappersdorf",
-      "url": "https://www.dav-regensburg.de/kletterzentrum",
-      "lat": 49.0422566,
-      "lng": 12.0862713,
+      "id": "boulderhalle-projekt-eins",
+      "name": "Boulderhalle Projekt Eins",
+      "address": "Pommernstraße 1, 93073 Neutraubling",
+      "url": "https://www.boulderhalle-projekt-eins.de",
+      "lat": 48.982359,
+      "lng": 12.195504,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,
@@ -39,6 +38,21 @@
         "sat": "08:00-23:00",
         "sun": "08:00-23:00"
       }
+    },
+    {
+      "id": "dav-kletterzentrum-regensburg",
+      "name": "DAV Kletterzentrum Regensburg",
+      "address": "Am Silbergarten, 93138 Lappersdorf",
+      "url": "https://www.dav-regensburg.de/kletterzentrum",
+      "lat": 49.0422566,
+      "lng": 12.0862713,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

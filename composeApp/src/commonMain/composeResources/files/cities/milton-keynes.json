@@ -1,8 +1,23 @@
 {
   "city": "Milton Keynes",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:57:02Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "big-rock-bond",
+      "name": "Big Rock Bond",
+      "address": "Milton Keynes",
+      "url": "https://www.bigrockclimbing.com",
+      "lat": 52.0099055,
+      "lng": -0.7169749,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "big-rock-climbing-centre",
       "name": "Big Rock Climbing Centre",

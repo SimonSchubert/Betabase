@@ -1,7 +1,7 @@
 {
   "city": "East Grinstead",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:43:34Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "blackland-farm-climbing",
@@ -18,6 +18,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "http://www.girlguiding.org.uk/globalassets/image-library/hero/volunteer/homepage-flipped.jpg"
+    },
+    {
+      "id": "volume-1-climbing-east-grinstead",
+      "name": "Volume 1 Climbing",
+      "address": "Hills Road Unit 12, RH19 1XZ East Grinstead",
+      "url": "https://www.volume1climbing.co.uk",
+      "lat": 51.1355032,
+      "lng": -0.0390589,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

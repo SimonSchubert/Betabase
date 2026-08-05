@@ -1,7 +1,7 @@
 {
   "city": "Cambridge",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:52:45Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "clip-n-climb-cambridge",
@@ -32,6 +32,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://kelseykerridge.co.uk/wp-content/uploads/2023/12/DSC08356.jpg"
+    },
+    {
+      "id": "rainbow-rocket-north",
+      "name": "Rainbow Rocket North",
+      "address": "Wadloes Road, CB5 8PD Cambridge",
+      "url": "https://rainbowrocket.cc/centre/north",
+      "lat": 52.21704,
+      "lng": 0.1567767,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "university-of-cambridge-climbing-wall",

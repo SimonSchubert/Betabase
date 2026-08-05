@@ -1,8 +1,70 @@
 {
   "city": "Antwerp",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "beest-boulders-antwerpen",
+      "name": "Beest Boulders Antwerpen",
+      "address": "Rijnkaai 2, 2000 Antwerpen",
+      "url": "https://beestboulders.com/vestigingen/beest-boulders-antwerpen",
+      "lat": 51.2339691,
+      "lng": 4.4036103,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-23:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "boulderzaal-the-island",
+      "name": "Boulderzaal The Island",
+      "address": "Natiestraat 2, 2060 Antwerpen",
+      "url": "https://boulderzaaltheisland.be",
+      "lat": 51.2385495,
+      "lng": 4.4213697,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "11:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "11:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "city-lizard",
+      "name": "City Lizard",
+      "address": "Singel 5A, Antwerp",
+      "url": "https://www.citylizard.be",
+      "lat": 51.1733625,
+      "lng": 4.1528222,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "klimzaal-blok",
       "name": "Klimzaal Blok",
@@ -31,54 +93,6 @@
       "image_url": null
     },
     {
-      "id": "boulderzaal-the-island",
-      "name": "Boulderzaal The Island",
-      "address": "Natiestraat 2, 2060 Antwerpen",
-      "url": "https://boulderzaaltheisland.be",
-      "lat": 51.2385495,
-      "lng": 4.4213697,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "11:00-23:00",
-        "tue": "11:00-23:00",
-        "wed": "11:00-23:00",
-        "thu": "14:00-23:00",
-        "fri": "11:00-23:00",
-        "sat": "10:00-22:00",
-        "sun": "10:00-22:00"
-      },
-      "image_url": null
-    },
-    {
-      "id": "beest-boulders-antwerpen",
-      "name": "Beest Boulders Antwerpen",
-      "address": "Rijnkaai 2, 2000 Antwerpen",
-      "url": "https://beestboulders.com/vestigingen/beest-boulders-antwerpen",
-      "lat": 51.2339691,
-      "lng": 4.4036103,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [
-        "kilter"
-      ],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "09:00-23:00",
-        "tue": "09:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "09:00-23:00",
-        "fri": "09:00-23:00",
-        "sat": "09:00-23:00",
-        "sun": "09:00-23:00"
-      },
-      "image_url": null
-    },
-    {
       "id": "klimzaal-wallstreet",
       "name": "Klimzaal Wallstreet",
       "address": "Van Duyststraat 16, 2100 Deurne",
@@ -95,6 +109,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": null
+    },
+    {
+      "id": "level-up",
+      "name": "Level Up",
+      "address": "Kattenbroek 33, 2650 Edegem",
+      "url": "https://www.levelup.be",
+      "lat": 51.1506841,
+      "lng": 4.4243869,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

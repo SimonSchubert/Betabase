@@ -1,8 +1,51 @@
 {
   "city": "Ravensburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "achberger-nordwand",
+      "name": "Achberger Nordwand",
+      "address": "Schulstraße 11, 88147 Achberg",
+      "url": "https://adfunture.de/kletterhalle",
+      "lat": 47.6137445,
+      "lng": 9.714936,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "blockle-boulderzentrum-ravensburg",
+      "name": "Blöckle Boulderzentrum Ravensburg",
+      "address": "Deisenfangstraße 7, 88212 Ravensburg",
+      "url": "https://www.boulderhalle-ravensburg.de",
+      "lat": 47.7917058,
+      "lng": 9.6079062,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "greifbar",
+      "name": "Greifbar",
+      "address": "Ravensburg",
+      "url": "https://greifbar-bouldern.de",
+      "lat": 47.6520878,
+      "lng": 9.5032046,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "kletterbox-ravensburg",
       "name": "Kletterbox Ravensburg",
@@ -10,6 +53,36 @@
       "url": "https://www.kletterbox.de",
       "lat": 47.783152,
       "lng": 9.6106506,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterhalle-amtzell",
+      "name": "Kletterhalle Amtzell",
+      "address": "Waldburger Straße 21a, 88279 Amtzell",
+      "url": "http://www.kletterhalle-amtzell.de",
+      "lat": 47.7083197,
+      "lng": 9.7470337,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterhalle-dav-friedrichshafen",
+      "name": "Kletterhalle DAV Friedrichshafen",
+      "address": "Vogelsangstraße 21/1, 88046 Friedrichshafen",
+      "url": "https://www.dav-fn.de/Kletterzentrum",
+      "lat": 47.6522871,
+      "lng": 9.4964326,
       "disciplines": [
         "boulder",
         "lead"

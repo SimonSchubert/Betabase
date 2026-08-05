@@ -1,8 +1,22 @@
 {
   "city": "Ipswich",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:52:45Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "avid-climbing",
+      "name": "Avid Climbing",
+      "address": "Bermuda Road 8, IP3 9RU Ipswich",
+      "url": "https://www.avidclimbing.co.uk",
+      "lat": 52.0274117,
+      "lng": 1.2058998,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "clip-n-climb-ipswich",
       "name": "Clip 'n Climb Ipswich",

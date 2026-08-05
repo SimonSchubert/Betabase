@@ -1,8 +1,46 @@
 {
   "city": "Milano",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulder-co",
+      "name": "Boulder & Co.",
+      "address": "Via Archimede 27, 20864 Agrate Brianza",
+      "url": "https://www.bouldereco.com",
+      "lat": 45.5670772,
+      "lng": 9.3375841,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "urban-wall",
+      "name": "Climbing District Milano — Urban Wall",
+      "address": "Via Antonio Gramsci 29, 20016 Pero",
+      "url": "https://climbingdistrict.it",
+      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/logo-footer-1.svg",
+      "lat": 45.5112491,
+      "lng": 9.0914364,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1000,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-23:00",
+        "sun": "10:00-23:00"
+      }
+    },
     {
       "id": "fantasy-climbing",
       "name": "Fantasy Climbing",
@@ -101,28 +139,19 @@
       }
     },
     {
-      "id": "urban-wall",
-      "name": "Climbing District Milano — Urban Wall",
-      "address": "Via Antonio Gramsci 29, 20016 Pero",
-      "url": "https://climbingdistrict.it",
-      "image_url": "https://climbingdistrict.uk/app/uploads/2025/06/logo-footer-1.svg",
-      "lat": 45.5112491,
-      "lng": 9.0914364,
+      "id": "stone-age-climbing-park",
+      "name": "Stone Age Climbing Park",
+      "address": "Via Enrico Fermi 130, 21040 Uboldo",
+      "url": "http://www.stoneageclimb.it",
+      "lat": 45.6147318,
+      "lng": 8.9904084,
       "disciplines": [
         "boulder",
         "lead"
       ],
       "boards": [],
-      "size_sqm": 1000,
-      "opening_hours": {
-        "mon": "10:00-23:00",
-        "tue": "10:00-23:00",
-        "wed": "10:00-23:00",
-        "thu": "10:00-23:00",
-        "fri": "10:00-23:00",
-        "sat": "10:00-23:00",
-        "sun": "10:00-23:00"
-      }
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

@@ -1,8 +1,23 @@
 {
   "city": "Budapest",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "bigwall",
+      "name": "BigWall",
+      "address": "Károlyi István utca 10, 1047 Budapest",
+      "url": "https://bigwall.hu",
+      "lat": 47.5652791,
+      "lng": 19.0831298,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "boulder-academy-budapest",
       "name": "Boulder Academy Budapest",
@@ -17,6 +32,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://static.wixstatic.com/media/4f0254_29adf656aee2437cba2f95552162baf3~mv2.png"
+    },
+    {
+      "id": "fless",
+      "name": "fless!",
+      "address": "Kövér Lajos utca 23, 1149 Budapest",
+      "url": "https://fless.hu",
+      "lat": 47.5145273,
+      "lng": 19.1143988,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "flow-boulder",
@@ -40,6 +70,35 @@
         "sun": "08:00-22:00"
       },
       "image_url": "https://www.flowboulder.hu/assets/Uploads/egyedulallo-citywall-falak__FillMaxWzE2NzcsMTEyMF0.jpg"
+    },
+    {
+      "id": "gravity-boulder-bar",
+      "name": "Gravity Boulder Bar",
+      "address": "Lövőház utca 2-6, 1024 Budapest",
+      "url": "https://gravitybudapest.com",
+      "lat": 47.5088586,
+      "lng": 19.0254205,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mag47",
+      "name": "MAG47",
+      "address": "Kada utca 144, 1106 Budapest",
+      "url": "https://mag47.hu",
+      "lat": 47.4821414,
+      "lng": 19.1568119,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "mom-sport",
@@ -71,6 +130,20 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://monkeyboulder.hu/wp-content/uploads/2025/11/banner2.jpg"
+    },
+    {
+      "id": "spirit-boulder",
+      "name": "Spirit Boulder",
+      "address": "Budapest",
+      "url": "https://spiritboulder.hu",
+      "lat": 47.4555996,
+      "lng": 18.9648592,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

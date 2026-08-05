@@ -1,7 +1,7 @@
 {
   "city": "Erlangen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "blockhelden-erlangen",
@@ -27,6 +27,20 @@
       "image_url": "https://blockhelden.de/wp-content/uploads/2024/03/BLOCKHLEDEN-Bamberg-boulder-splut.jpg"
     },
     {
+      "id": "boulderia",
+      "name": "Boulderia",
+      "address": "Gräfenberger Straße 36, 91077 Neunkirchen am Brand",
+      "url": "https://www.boulderia.de",
+      "lat": 49.6085544,
+      "lng": 11.134279,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "dav-sparkassen-bergwelt-erlangen",
       "name": "DAV Sparkassen Bergwelt",
       "address": "Hartmannstraße 116, 91052 Erlangen",
@@ -49,6 +63,20 @@
         "sun": "09:00-21:00"
       },
       "image_url": "https://www.kletter-und-vereinszentrum.de/wp-content/uploads/2019/04/Logo_Kletter-und-Vereinszentrum_Bergwelt.svg"
+    },
+    {
+      "id": "der-steinbock-erlangen",
+      "name": "Der Steinbock Erlangen",
+      "address": "Bierlachweg 45, 91058 Erlangen",
+      "url": "https://www.dersteinbock-erlangen.de",
+      "lat": 49.5743875,
+      "lng": 10.9971883,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "source": "AMERICAS",
   "source_url": "https://www.worldclimbing.com/calendar/index",
-  "fetched_at": "2026-08-05T19:12:22Z",
+  "fetched_at": "2026-08-05T19:29:19Z",
   "events": [
     {
       "id": "americas-world-climbing-pan-america-championship-curitiba-2026",
@@ -13,6 +13,50 @@
       "time": null,
       "discipline": "Speed",
       "url": "https://www.ifsc-climbing.org/events/world-climbing-pan-america-championship-curitiba-2026/"
+    },
+    {
+      "id": "americas-world-climbing-series-salt-lake-city-2026",
+      "title": "World Climbing Series Salt Lake City 2026",
+      "series": "World Climbing Series",
+      "location": "Salt Lake City, USA",
+      "date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "time": null,
+      "discipline": "Boulder",
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-series-salt-lake-city-2026/"
+    },
+    {
+      "id": "americas-world-climbing-series-santiago-2026",
+      "title": "World Climbing Series Santiago 2026",
+      "series": "World Climbing Series",
+      "location": "Santiago, Chile",
+      "date": "2026-10-23",
+      "end_date": "2026-10-25",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.ifsc-climbing.org/events/world-climbing-series-santiago-2026/"
+    },
+    {
+      "id": "americas-olympic-games-la28",
+      "title": "Olympic Games LA28",
+      "series": "Olympic Games",
+      "location": "Los Angeles, USA",
+      "date": "2028-07-14",
+      "end_date": "2028-07-30",
+      "time": null,
+      "discipline": null,
+      "url": "https://www.ifsc-climbing.org/events/olympic-games-la28/"
+    },
+    {
+      "id": "americas-paralympic-games-la28",
+      "title": "Paralympic Games LA28",
+      "series": "Olympic Games",
+      "location": "Los Angeles, USA",
+      "date": "2028-08-15",
+      "end_date": "2028-08-27",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.ifsc-climbing.org/events/paralympic-games-la28/"
     }
   ]
 }

@@ -1,8 +1,23 @@
 {
   "city": "Karlsruhe",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulderhalle-steil",
+      "name": "Boulderhalle Steil",
+      "address": "Hardeckstraße 4, 76185 Karlsruhe",
+      "url": "https://boulderhalle-steil.com",
+      "lat": 48.9988873,
+      "lng": 8.3614569,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://boulderhalle-steil.com/wp-content/uploads/2023/08/IMG_7218-uai-720x540.jpeg"
+    },
     {
       "id": "boulderwelt-karlsruhe",
       "name": "Boulderwelt Karlsruhe",
@@ -51,19 +66,19 @@
       "image_url": "https://www.dav-kletterzentrum-karlsruhe.de/131%20-%20Sektion%20Karlsruhe/Kletter-%20und%20Boulderzentrum/Kurse%20-%20Indoor/04%20Hallenbilder/23812/image-thumb__23812__heroteaser/DAV_Kletterhalle01@2x.7cbdb326.webp"
     },
     {
-      "id": "boulderhalle-steil",
-      "name": "Boulderhalle Steil",
-      "address": "Hardeckstraße 4, 76185 Karlsruhe",
-      "url": "https://boulderhalle-steil.com",
-      "lat": 48.9988873,
-      "lng": 8.3614569,
+      "id": "the-rock",
+      "name": "The Rock",
+      "address": "Ziegelstraße 1, 76185 Karlsruhe",
+      "url": "https://kletterhalle-karlsruhe.de",
+      "lat": 49.0068452,
+      "lng": 8.3610895,
       "disciplines": [
-        "boulder"
+        "boulder",
+        "lead"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://boulderhalle-steil.com/wp-content/uploads/2023/08/IMG_7218-uai-720x540.jpeg"
+      "opening_hours": {}
     }
   ]
 }

@@ -1,8 +1,23 @@
 {
   "city": "Southend-on-Sea",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:52:45Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "indirock",
+      "name": "IndiRock",
+      "address": "SS2 5SR Southend-on-Sea",
+      "url": "https://indirock.co.uk",
+      "lat": 51.5409462,
+      "lng": 0.7124913,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "southend-climbing-centre",
       "name": "Southend Climbing Centre",

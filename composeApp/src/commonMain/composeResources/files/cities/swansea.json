@@ -1,7 +1,7 @@
 {
   "city": "Swansea",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:14:58Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "clyne-farm-climbing",
@@ -18,6 +18,36 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://clynefarm.com/wp-content/uploads/2021/10/Activities-Horse-Riding-Assault-Course-Climbing.jpg"
+    },
+    {
+      "id": "crazyclimb-swansea",
+      "name": "Crazyclimb Swansea",
+      "address": "Unit 5b, Parc Tawe, Retail Park, SA1 2AL Swansea",
+      "url": "https://crazyclimbswansea.com",
+      "lat": 51.6221154,
+      "lng": -3.9392205,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "flashpoint-swansea",
+      "name": "Flashpoint Swansea",
+      "address": "Parc Tawe Link Road 5A, SA1 2AL Swansea",
+      "url": "https://flashpointswansea.com",
+      "lat": 51.6219999,
+      "lng": -3.9395203,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "swansea-university-climbing-wall",

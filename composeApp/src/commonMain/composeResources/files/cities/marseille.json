@@ -1,31 +1,8 @@
 {
   "city": "Marseille",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "arkose-prado",
-      "name": "Arkose Prado",
-      "address": "101 Boulevard Michelet, 13009 Marseille",
-      "url": "https://arkose.com/prado",
-      "lat": 43.2675388,
-      "lng": 5.3944303,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": 1800,
-      "opening_hours": {
-        "mon": "07:00-24:00",
-        "tue": "07:00-24:00",
-        "wed": "07:00-24:00",
-        "thu": "07:00-24:00",
-        "fri": "07:00-24:00",
-        "sat": "07:00-24:00",
-        "sun": "07:00-24:00"
-      },
-      "image_url": null
-    },
     {
       "id": "altissimo-marseille",
       "name": "Altissimo Marseille",
@@ -51,6 +28,29 @@
       "image_url": null
     },
     {
+      "id": "arkose-prado",
+      "name": "Arkose Prado",
+      "address": "101 Boulevard Michelet, 13009 Marseille",
+      "url": "https://arkose.com/prado",
+      "lat": 43.2675388,
+      "lng": 5.3944303,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": 1800,
+      "opening_hours": {
+        "mon": "07:00-24:00",
+        "tue": "07:00-24:00",
+        "wed": "07:00-24:00",
+        "thu": "07:00-24:00",
+        "fri": "07:00-24:00",
+        "sat": "07:00-24:00",
+        "sun": "07:00-24:00"
+      },
+      "image_url": null
+    },
+    {
       "id": "bloc-session-marseille-centre",
       "name": "Bloc Session Marseille Centre",
       "address": "164 Chemin de Saint-Jean du Désert, 13005 Marseille",
@@ -64,6 +64,35 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": null
+    },
+    {
+      "id": "climb-up-marseille",
+      "name": "Climb up",
+      "address": "Rue Paul Langevin 260, Marseille",
+      "url": "https://aix-lesmilles.climb-up.fr",
+      "lat": 43.4802823,
+      "lng": 5.3741783,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "climb-up-aubagne",
+      "name": "Climb Up Aubagne",
+      "address": "Marseille",
+      "url": "https://aubagne.climb-up.fr",
+      "lat": 43.2843835,
+      "lng": 5.579005,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "climb-up-marseille-la-valentine",

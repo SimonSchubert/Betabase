@@ -1,8 +1,37 @@
 {
   "city": "Mannheim",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulder-island",
+      "name": "Boulder Island",
+      "address": "Industriestraße 39, 68169 Mannheim",
+      "url": "https://boulder-island.de",
+      "lat": 49.5135724,
+      "lng": 8.4693874,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhaus-mannheim",
+      "name": "Boulderhaus Mannheim",
+      "address": "Im Bosseldorn 2, 69126 Heidelberg",
+      "url": "https://www.boulderhaus.net/mannheim",
+      "lat": 49.3861699,
+      "lng": 8.6791896,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "boulderwelt-mannheim",
       "name": "Boulderwelt Mannheim",
@@ -42,14 +71,29 @@
       "image_url": "https://www.dav-mannheim.de/wp-content/uploads/backgorund-topo-dav.jpg"
     },
     {
-      "id": "boulderhaus-mannheim",
-      "name": "Boulderhaus Mannheim",
-      "address": "Im Bosseldorn 2, 69126 Heidelberg",
-      "url": "https://www.boulderhaus.net/mannheim",
-      "lat": 49.3861699,
-      "lng": 8.6791896,
+      "id": "kletterhalle-bensheim",
+      "name": "Kletterhalle Bensheim",
+      "address": "Albert-Einstein-Allee 8, 64625 Bensheim",
+      "url": "https://www.kletterhalle-bensheim.de",
+      "lat": 49.6703955,
+      "lng": 8.5856357,
       "disciplines": [
-        "boulder"
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "smart-climb",
+      "name": "Smart Climb",
+      "address": "Mannheim",
+      "url": "https://smartclimb.de",
+      "lat": 49.497036,
+      "lng": 8.5027716,
+      "disciplines": [
+        "boulder",
+        "lead"
       ],
       "boards": [],
       "size_sqm": null,

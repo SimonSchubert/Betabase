@@ -1,23 +1,21 @@
 {
   "city": "Wuppertal",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "dav-wupperwaende",
-      "name": "DAV-Kletterzentrum Wupperwände",
-      "address": "Badische Straße 76, 42389 Wuppertal",
-      "url": "https://www.wupperwaende.de",
-      "lat": 51.2685586,
-      "lng": 7.2358009,
+      "id": "bahnhof-blo",
+      "name": "Bahnhof Blo",
+      "address": "Wiesenstraße 118, Wuppertal",
+      "url": "https://bouldercafe-wuppertal.de",
+      "lat": 51.2655235,
+      "lng": 7.1382121,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.wupperwaende.de/025%20-%20Sektion%20Wuppertal/03%20Geb%C3%A4ude/05%20Wupperw%C3%A4nde/136443/image-thumb__136443__heroteaser/WW%20au%C3%9Fen%202@2x.c7fc8294.webp"
+      "opening_hours": {}
     },
     {
       "id": "boulderhalle-prisma",
@@ -41,6 +39,22 @@
         "sun": "10:00-22:00"
       },
       "image_url": "https://boulderhalle-prisma.de/wp-content/uploads/2023/01/overview.png"
+    },
+    {
+      "id": "dav-wupperwaende",
+      "name": "DAV-Kletterzentrum Wupperwände",
+      "address": "Badische Straße 76, 42389 Wuppertal",
+      "url": "https://www.wupperwaende.de",
+      "lat": 51.2685586,
+      "lng": 7.2358009,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.wupperwaende.de/025%20-%20Sektion%20Wuppertal/03%20Geb%C3%A4ude/05%20Wupperw%C3%A4nde/136443/image-thumb__136443__heroteaser/WW%20au%C3%9Fen%202@2x.c7fc8294.webp"
     }
   ]
 }

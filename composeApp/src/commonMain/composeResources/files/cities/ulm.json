@@ -1,7 +1,7 @@
 {
   "city": "Ulm",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterzentrum-illertissen",
@@ -39,6 +39,20 @@
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
       }
+    },
+    {
+      "id": "stuntwerk-senden",
+      "name": "STUNTWERK Senden",
+      "address": "Berliner Straße 25, Ulm",
+      "url": "https://stuntwerk-senden.de",
+      "lat": 48.3334985,
+      "lng": 10.0372184,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

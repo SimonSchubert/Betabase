@@ -1,7 +1,7 @@
 {
   "city": "Aberdeen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:14:58Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "beach-leisure-centre-climbing",
@@ -13,6 +13,20 @@
       "disciplines": [
         "boulder",
         "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "bloc10",
+      "name": "Bloc10",
+      "address": "Holland Street 5-19, AB25 3UJ Aberdeen",
+      "url": "https://www.bloc10.co.uk/aberdeen",
+      "lat": 57.1540967,
+      "lng": -2.1100469,
+      "disciplines": [
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,

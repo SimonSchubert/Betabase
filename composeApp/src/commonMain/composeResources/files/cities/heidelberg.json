@@ -1,8 +1,36 @@
 {
   "city": "Heidelberg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulderhaus-heidelberg",
+      "name": "Boulderhaus Heidelberg",
+      "address": "Im Bosseldorn 2, 69126 Heidelberg",
+      "url": "https://www.boulderhaus.net/heidelberg",
+      "lat": 49.3861699,
+      "lng": 8.6791896,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "crimp-boulderhalle",
+      "name": "Crimp Boulderhalle",
+      "address": "Wieblinger Weg 100, 69123 Heidelberg",
+      "url": "https://www.crimp-heidelberg.com",
+      "lat": 49.4123932,
+      "lng": 8.6445875,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "dav-kletterzentrum-heidelberg",
       "name": "DAV Kletterzentrum Heidelberg",
@@ -33,20 +61,6 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.kletterzentrum-heidelberg.de/114%20-%20Sektion%20Heidelberg/H%C3%BCtten/Kletterhalle/10038/image-thumb__10038__heroteaser/dav_sektion_heidelberg@2x.8cbe164f.webp"
-    },
-    {
-      "id": "boulderhaus-heidelberg",
-      "name": "Boulderhaus Heidelberg",
-      "address": "Im Bosseldorn 2, 69126 Heidelberg",
-      "url": "https://www.boulderhaus.net/heidelberg",
-      "lat": 49.3861699,
-      "lng": 8.6791896,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
     }
   ]
 }

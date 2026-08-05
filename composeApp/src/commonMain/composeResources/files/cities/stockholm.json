@@ -1,8 +1,22 @@
 {
   "city": "Stockholm",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "bouldering-stockholm",
+      "name": "Bouldering Stockholm",
+      "address": "Slakthusgatan 26, Stockholm",
+      "url": "https://boulderingstockholm.se",
+      "lat": 59.2896483,
+      "lng": 18.0821129,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "karbin",
       "name": "Karbin Klätterhall",
@@ -10,6 +24,36 @@
       "url": "https://karbin.com",
       "lat": 59.289436,
       "lng": 18.017345,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klattercentret-akalla",
+      "name": "Klättercentret Akalla",
+      "address": "Vandagatan 3, 164 74 Kista",
+      "url": "https://www.klattercentret.se/akalla",
+      "lat": 59.420462,
+      "lng": 17.915311,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klattercentret-solna",
+      "name": "Klättercentret Solna",
+      "address": "Banvaktsvägen 20, 171 48 Solna",
+      "url": "https://www.klattercentret.se/solna",
+      "lat": 59.356923,
+      "lng": 18.01629,
       "disciplines": [
         "boulder",
         "lead"
@@ -43,36 +87,6 @@
       }
     },
     {
-      "id": "klattercentret-akalla",
-      "name": "Klättercentret Akalla",
-      "address": "Vandagatan 3, 164 74 Kista",
-      "url": "https://www.klattercentret.se/akalla",
-      "lat": 59.420462,
-      "lng": 17.915311,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
-    },
-    {
-      "id": "klattercentret-solna",
-      "name": "Klättercentret Solna",
-      "address": "Banvaktsvägen 20, 171 48 Solna",
-      "url": "https://www.klattercentret.se/solna",
-      "lat": 59.356923,
-      "lng": 18.01629,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
-    },
-    {
       "id": "klatterverket-gasverket",
       "name": "Klätterverket Gasverket",
       "address": "Gasverksvägen 15, 115 42 Stockholm",
@@ -94,6 +108,21 @@
       "url": "https://klatterverket.se",
       "lat": 59.3055679,
       "lng": 18.1211641,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "moumo",
+      "name": "Moumo",
+      "address": "Stockholm",
+      "url": "https://www.moumo.se",
+      "lat": 59.3119428,
+      "lng": 18.0738235,
       "disciplines": [
         "boulder",
         "lead"

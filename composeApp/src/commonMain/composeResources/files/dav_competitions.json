@@ -9,7 +9,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Südbloc, Großbeerenstraße 2-10, 12107 Berlin, Deutschland",
       "date": "2026-08-01",
-      "end_date": "2026-09-15",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -31,7 +31,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Boulder Base Bremen, Hohweg 5, 28219 Bremen, Deutschland",
       "date": "2026-08-15",
-      "end_date": "2026-09-27",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -53,7 +53,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Studio Bloc Mannheim, Mannheim, Deutschland",
       "date": "2026-09-05",
-      "end_date": "2026-10-18",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -97,7 +97,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Einstein Boulderhalle Köln, Widdersdorfer Straße 205, 50825 Köln, Deutschland",
       "date": "2026-09-26",
-      "end_date": "2026-11-08",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -141,7 +141,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Element Boulders Essen, Haedenkampstraße 73, 45143 Essen, Deutschland",
       "date": "2026-10-24",
-      "end_date": "2026-12-06",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -174,7 +174,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Boulderhalle Prisma, Vohwinkeler Str. 119, 42329 Wuppertal, Deutschland",
       "date": "2026-10-31",
-      "end_date": "2026-12-13",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -196,7 +196,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Greifhaus, Hamburger Straße 268, 38114 Braunschweig, Deutschland",
       "date": "2026-11-28",
-      "end_date": "2027-01-03",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -207,7 +207,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "OSNABLOC, Großer Fledderweg 89, 49084 Osnabrück, Deutschland",
       "date": "2026-12-19",
-      "end_date": "2027-01-31",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -218,7 +218,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "rocks. Kletterzentrum, Fritz-Winkler-Straße 3, 07743 Jena, Deutschland",
       "date": "2027-01-16",
-      "end_date": "2027-02-28",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -229,7 +229,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Top Boulder, Malmsheim, Deutschland",
       "date": "2027-02-06",
-      "end_date": "2027-03-21",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -240,7 +240,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Einstein Boulderhalle München, Landsberger Straße 185, 80687 München, Deutschland",
       "date": "2027-02-27",
-      "end_date": "2027-04-04",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -251,7 +251,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Frankenjura Academy, Forchheim, Deutschland",
       "date": "2027-03-20",
-      "end_date": "2027-05-02",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
@@ -262,7 +262,7 @@
       "series": "Techniker Boulder Bundesliga 2026/27",
       "location": "Boulderhalle E4, Allersberger Straße 185, 90461 Nürnberg, Deutschland",
       "date": "2027-04-03",
-      "end_date": "2027-05-17",
+      "end_date": null,
       "time": null,
       "discipline": "Boulder",
       "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"

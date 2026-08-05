@@ -1,8 +1,22 @@
 {
   "city": "Münster",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulder-factory",
+      "name": "boulder factory",
+      "address": "Rudolf-Diesel-Straße 45, 48157 Münster",
+      "url": "https://www.boulderfactory.de",
+      "lat": 51.9886054,
+      "lng": 7.6675898,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "dav-kletterzentrum-muenster",
       "name": "DAV Kletterzentrum Münster",

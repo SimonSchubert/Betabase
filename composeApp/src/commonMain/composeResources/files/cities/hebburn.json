@@ -1,7 +1,7 @@
 {
   "city": "Hebburn",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:57:02Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "clegwell-community-centre-climbing",
@@ -10,6 +10,21 @@
       "url": "https://www.southtyneside.gov.uk/",
       "lat": 54.972517,
       "lng": -1.519118,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "eden-rock-newcastle",
+      "name": "Eden Rock Newcastle",
+      "address": "Benfield Studios 4-6, NE6 4NQ Newcastle upon Tyne",
+      "url": "https://www.edenrockclimbing.com/newcastle",
+      "lat": 54.9858332,
+      "lng": -1.5607408,
       "disciplines": [
         "boulder",
         "lead"

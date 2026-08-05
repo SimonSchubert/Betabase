@@ -1,7 +1,7 @@
 {
   "city": "Madrid",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "arkose-madrid-carabanchel",
@@ -54,6 +54,34 @@
       "url": "https://www.bouldermadrid.com",
       "lat": 40.3912461,
       "lng": -3.6696446,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulder-vallecas",
+      "name": "Boulder Vallecas",
+      "address": "Camino de las Hormigueras 174, Madrid",
+      "url": "https://bouldervallecas.com",
+      "lat": 40.3775014,
+      "lng": -3.6317749,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulder-zone-retiro",
+      "name": "Boulder Zone Retiro",
+      "address": "Calle Azcona 44, 28028 Madrid",
+      "url": "https://www.boulderzoneretiro.com",
+      "lat": 40.43451,
+      "lng": -3.6687386,
       "disciplines": [
         "boulder"
       ],
@@ -169,22 +197,6 @@
       }
     },
     {
-      "id": "sputnik-climbing",
-      "name": "Sputnik Climbing Vallehermoso",
-      "address": "Calle de Vallehermoso 87, 28003 Madrid",
-      "url": "https://sputnikclimbing.com",
-      "image_url": "https://sputnikclimbing.com/wp-content/uploads/2025/04/Sputnik-climbingcohete.png",
-      "lat": 40.4394987,
-      "lng": -3.7087577,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
-    },
-    {
       "id": "sputnik-climbing-alcobendas",
       "name": "Sputnik Climbing Alcobendas",
       "address": "Calle de La Granja 100, 28108 Alcobendas",
@@ -206,6 +218,22 @@
       "url": "https://sputnikclimbing.com/en/rocodromo-madrid/las-rozas",
       "lat": 40.498403,
       "lng": -3.890871,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "sputnik-climbing",
+      "name": "Sputnik Climbing Vallehermoso",
+      "address": "Calle de Vallehermoso 87, 28003 Madrid",
+      "url": "https://sputnikclimbing.com",
+      "image_url": "https://sputnikclimbing.com/wp-content/uploads/2025/04/Sputnik-climbingcohete.png",
+      "lat": 40.4394987,
+      "lng": -3.7087577,
       "disciplines": [
         "boulder",
         "lead"

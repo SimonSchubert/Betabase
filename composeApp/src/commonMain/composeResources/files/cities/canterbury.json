@@ -1,8 +1,23 @@
 {
   "city": "Canterbury",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:43:34Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "chimera-climbing",
+      "name": "Chimera Climbing",
+      "address": "Maynard Road 22, CT1 3RH Canterbury",
+      "url": "https://www.chimeraclimbingcanterbury.com",
+      "lat": 51.2735271,
+      "lng": 1.0690372,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "clip-n-climb-canterbury",
       "name": "Clip 'n Climb Canterbury",

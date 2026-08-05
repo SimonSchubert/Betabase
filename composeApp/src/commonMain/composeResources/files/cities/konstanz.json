@@ -50,8 +50,24 @@
         "sun": "10:00-21:00"
       },
       "image_url": "https://www.kletterwerk.de/140%20-%20Sektion%20Konstanz/Kletterwerk/Hallenteile/212171/image-thumb__212171__heroteaser/AH_roundview@2x.d3cf3097.webp"
+    },
+    {
+      "id": "volksbank-vertical-dav-boulder-und-kletterzentrum-uberlingen",
+      "name": "Volksbank Vertical - DAV Boulder- und Kletterzentrum Überlingen",
+      "address": "Sankt-Johann-Straße 15, 88662 Überlingen",
+      "url": "https://www.volksbank-vertical.de",
+      "lat": 47.7670563,
+      "lng": 9.1676529,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z"
+  "fetched_at": "2026-08-05T00:00:00Z"
 }

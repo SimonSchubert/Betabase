@@ -1,7 +1,7 @@
 {
   "city": "Rome",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "climbing-side",
@@ -23,12 +23,12 @@
       }
     },
     {
-      "id": "ecole-verticale",
-      "name": "École Verticale",
-      "address": "Lungotevere Flaminio 73, 00196 Roma",
-      "url": "https://www.instagram.com/ecoleverticale",
-      "lat": 41.920116,
-      "lng": 12.471278,
+      "id": "hangar",
+      "name": "Hangar",
+      "address": "Via Tuscolana, 00044 Frascati",
+      "url": "https://www.hangarfrascati.com",
+      "lat": 41.8232255,
+      "lng": 12.6385709,
       "disciplines": [
         "boulder",
         "lead"
@@ -141,6 +141,21 @@
         "fri": "13:00-23:00",
         "sat": "11:30-19:00"
       }
+    },
+    {
+      "id": "ecole-verticale",
+      "name": "École Verticale",
+      "address": "Lungotevere Flaminio 73, 00196 Roma",
+      "url": "https://www.instagram.com/ecoleverticale",
+      "lat": 41.920116,
+      "lng": 12.471278,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

@@ -1,86 +1,8 @@
 {
   "city": "Helsinki",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "kiipeilyareena-salmisaari",
-      "name": "KiipeilyAreena Salmisaari",
-      "address": "Energiakatu 3, 00180 Helsinki",
-      "url": "https://kiipeilyareena.com/en/locations/salmisaari",
-      "lat": 60.16603,
-      "lng": 24.903671,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
-    {
-      "id": "kiipeilyareena-ristikko",
-      "name": "KiipeilyAreena Ristikko",
-      "address": "Ajomiehentie 1, 00390 Helsinki",
-      "url": "https://kiipeilyareena.com",
-      "lat": 60.2392715,
-      "lng": 24.8494206,
-      "disciplines": [
-        "boulder",
-        "lead",
-        "speed"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
-    {
-      "id": "kiipeilyareena-kalasatama",
-      "name": "KiipeilyAreena Kalasatama",
-      "address": "Hermannin rantatie 5, Redi Shopping Centre, 00580 Helsinki",
-      "url": "https://kiipeilyareena.com/en/locations/kalasatama",
-      "lat": 60.1869567,
-      "lng": 24.9792379,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
-    {
-      "id": "boulderkeskus-pasila",
-      "name": "Boulderkeskus Pasila",
-      "address": "Veturitallinkuja 4, 00520 Helsinki",
-      "url": "https://www.boulderkeskus.com/en/content/73-bk-pasila",
-      "lat": 60.1959847,
-      "lng": 24.9324656,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
-    {
-      "id": "boulderkeskus-konala",
-      "name": "Boulderkeskus Konala",
-      "address": "Ruosilantie 1, 00390 Helsinki",
-      "url": "https://www.boulderkeskus.com/en/content/71-bk-konala",
-      "lat": 60.2368431,
-      "lng": 24.8589212,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
     {
       "id": "boulderkeskus-herttoniemi",
       "name": "Boulderkeskus Herttoniemi",
@@ -105,6 +27,99 @@
       "lng": 24.8888878,
       "disciplines": [
         "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "boulderkeskus-konala",
+      "name": "Boulderkeskus Konala",
+      "address": "Ruosilantie 1, 00390 Helsinki",
+      "url": "https://www.boulderkeskus.com/en/content/71-bk-konala",
+      "lat": 60.2368431,
+      "lng": 24.8589212,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "boulderkeskus-pasila",
+      "name": "Boulderkeskus Pasila",
+      "address": "Veturitallinkuja 4, 00520 Helsinki",
+      "url": "https://www.boulderkeskus.com/en/content/73-bk-pasila",
+      "lat": 60.1959847,
+      "lng": 24.9324656,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "helsingin-kiipeilykeskus",
+      "name": "Helsingin Kiipeilykeskus",
+      "address": "Erätie 3, 00730 Helsinki",
+      "url": "https://kiipeilykeskus.com",
+      "lat": 60.2651888,
+      "lng": 25.0167036,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kiipeilyareena-kalasatama",
+      "name": "KiipeilyAreena Kalasatama",
+      "address": "Hermannin rantatie 5, Redi Shopping Centre, 00580 Helsinki",
+      "url": "https://kiipeilyareena.com/en/locations/kalasatama",
+      "lat": 60.1869567,
+      "lng": 24.9792379,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "kiipeilyareena-ristikko",
+      "name": "KiipeilyAreena Ristikko",
+      "address": "Ajomiehentie 1, 00390 Helsinki",
+      "url": "https://kiipeilyareena.com",
+      "lat": 60.2392715,
+      "lng": 24.8494206,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "kiipeilyareena-salmisaari",
+      "name": "KiipeilyAreena Salmisaari",
+      "address": "Energiakatu 3, 00180 Helsinki",
+      "url": "https://kiipeilyareena.com/en/locations/salmisaari",
+      "lat": 60.16603,
+      "lng": 24.903671,
+      "disciplines": [
+        "boulder",
+        "lead"
       ],
       "boards": [],
       "size_sqm": null,

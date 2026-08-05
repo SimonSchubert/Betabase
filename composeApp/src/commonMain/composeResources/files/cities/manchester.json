@@ -1,7 +1,7 @@
 {
   "city": "Manchester",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:19:36Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "awesome-walls-stockport",
@@ -50,6 +50,21 @@
         "sun": "09:00-21:00"
       },
       "image_url": "https://www.depotclimbing.co.uk/big-depot-manchester/wp-content/uploads/sites/20/2025/01/bdm-web-banner.jpg"
+    },
+    {
+      "id": "blochaus-climbing",
+      "name": "BlocHaus Climbing",
+      "address": "Wood Street 34, M11 2FB Manchester",
+      "url": "https://www.blochausclimbing.com",
+      "lat": 53.4743333,
+      "lng": -2.1835031,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "boulder-uk-manchester",

@@ -1,7 +1,7 @@
 {
   "city": "Paignton",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:19:09Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "parkfield-climbing-wall",
@@ -13,6 +13,20 @@
       "disciplines": [
         "boulder",
         "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "the-boulder-bunker",
+      "name": "The Boulder Bunker",
+      "address": "South Street 11, TQ2 5AE Torquay",
+      "url": "https://theboulderbunker.com",
+      "lat": 50.470871,
+      "lng": -3.5401041,
+      "disciplines": [
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,

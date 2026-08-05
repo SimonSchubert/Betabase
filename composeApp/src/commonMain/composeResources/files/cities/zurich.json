@@ -1,7 +1,7 @@
 {
   "city": "Zürich",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "9grad-thalwil",
@@ -24,6 +24,48 @@
         "sat": "08:00-22:00",
         "sun": "08:00-22:00"
       }
+    },
+    {
+      "id": "bouba-boulder-baden",
+      "name": "BOUBA Boulder Baden",
+      "address": "Oberstadtstrasse 12, 5400 Baden",
+      "url": "https://boulder-baden.ch",
+      "lat": 47.4688608,
+      "lng": 8.3057703,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderbaar",
+      "name": "BoulderBaar",
+      "address": "Sihlbruggstrasse 3b, 6340 Baar",
+      "url": "https://boulderbaar.ch",
+      "lat": 47.1985269,
+      "lng": 8.5400979,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhalle-adliswil",
+      "name": "Boulderhalle Adliswil",
+      "address": "Zurich",
+      "url": "https://www.climbing.ch",
+      "lat": 47.3048044,
+      "lng": 8.5249698,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "boulderlounge-schlieren",
@@ -61,6 +103,21 @@
       ],
       "boards": [],
       "size_sqm": 900,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterhalle-6a-plus",
+      "name": "Kletterhalle 6a Plus",
+      "address": "Klosterstrasse 17, 8406 Winterthur",
+      "url": "http://www.sechsaplus.ch",
+      "lat": 47.4889201,
+      "lng": 8.704661,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
       "opening_hours": {}
     },
     {

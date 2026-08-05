@@ -1,7 +1,7 @@
 {
   "city": "Prague",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "big-wall",
@@ -53,6 +53,21 @@
       "image_url": "https://freesolo.cz/wp-content/uploads/boulder1-WEB.jpg"
     },
     {
+      "id": "jamjam",
+      "name": "JamJam",
+      "address": "Prague",
+      "url": "https://www.jamjam.cz",
+      "lat": 50.088702,
+      "lng": 14.315283,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "jungle-holesovice",
       "name": "Jungle Holešovice",
       "address": "U Výstaviště 11, 170 00 Praha 7",
@@ -66,6 +81,49 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://holesovice.jungle.cz/data/leaderboard/d12ea7a4ceb042faf5a267dbb3cb2c1e.jpg"
+    },
+    {
+      "id": "jungle-letnany",
+      "name": "JUNGLE Letňany",
+      "address": "Prague",
+      "url": "https://www.jungleletnany.cz",
+      "lat": 50.14179,
+      "lng": 14.51814,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "jungle-vystaviste",
+      "name": "Jungle Výstaviště",
+      "address": "Prague",
+      "url": "https://www.bouldervystaviste.cz",
+      "lat": 50.108482,
+      "lng": 14.4313988,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "lezecka-stena-trinactka",
+      "name": "Lezecká stěna třináctka",
+      "address": "Prague",
+      "url": "http://stenastodulky.cz",
+      "lat": 50.04068,
+      "lng": 14.3274325,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "lokal-blok",
@@ -112,6 +170,36 @@
         "sat": "06:00-23:00",
         "sun": "06:00-23:00"
       }
+    },
+    {
+      "id": "stena-ruzyne",
+      "name": "Stěna Ruzyně",
+      "address": "Prague",
+      "url": "https://www.stena-ruzyne.com",
+      "lat": 50.081991,
+      "lng": 14.307993,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "ultraant",
+      "name": "Ultraant",
+      "address": "Prague",
+      "url": "http://www.ultraant.com",
+      "lat": 50.0886957,
+      "lng": 14.4233146,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

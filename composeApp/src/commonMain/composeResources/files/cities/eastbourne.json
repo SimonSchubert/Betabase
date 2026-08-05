@@ -1,7 +1,7 @@
 {
   "city": "Eastbourne",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:43:34Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "eastbourne-climbing-centre",
@@ -18,6 +18,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.leisurecentre.com/.imaging/focalpoint/600x480/dam/jcr:f6a3a38c-b0e4-4bc7-b35e-ad554cab8acf/Parkwood_Spiceball_BrandShoot_Feb2024_1139RESIZE.jpg"
+    },
+    {
+      "id": "the-ordinary-climbers",
+      "name": "The Ordinary Climbers",
+      "address": "Chaucer Business Park, BN26 6QH Polegate",
+      "url": "https://www.theordinaryclimbers.com",
+      "lat": 50.8190863,
+      "lng": 0.2697721,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "university-of-brighton-eastbourne-climbing",

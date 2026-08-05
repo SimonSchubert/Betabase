@@ -1,8 +1,22 @@
 {
   "city": "Amsterdam",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "baz-bouldergym",
+      "name": "BAZ Bouldergym",
+      "address": "Oostzijde 381, 1508EP Zaandam",
+      "url": "https://www.bazbouldergym.nl",
+      "lat": 52.460505,
+      "lng": 4.8139338,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "beest-boulders-amsterdam",
       "name": "Beest Boulders Amsterdam",
@@ -73,6 +87,34 @@
         "sun": "09:00-21:00"
       },
       "image_url": "https://boulderneoliet.nl/wp-content/uploads/2025/03/Boulder-Amsterdam-0048-scaled.jpg"
+    },
+    {
+      "id": "boulderhal-de-fabriek",
+      "name": "Boulderhal de Fabriek",
+      "address": "Graftermeerstraat 40, 2131AC Hoofddorp",
+      "url": "https://boulderhaldefabriek.nl/boulderen-3/de-fabriek-hoofddorp",
+      "lat": 52.3134883,
+      "lng": 4.6915534,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhal-de-fabriek-haarlem",
+      "name": "Boulderhal de Fabriek Haarlem",
+      "address": "Ben Viljoenstraat 1, 2021AA Haarlem",
+      "url": "https://boulderhaldefabriek.nl/boulderen-3/de-fabriek-haarlem",
+      "lat": 52.3923103,
+      "lng": 4.6478805,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "boulderhal-luchthaven",
@@ -172,6 +214,21 @@
         "sun": "09:00-23:00"
       },
       "image_url": "https://www.deklimmuur.nl/wp-content/uploads/2023/01/KM_Logo_Web_175x360-1.png"
+    },
+    {
+      "id": "klimmuur-haarlem",
+      "name": "Klimmuur Haarlem",
+      "address": "Spaarndamseweg 120B, 2021KA Haarlem",
+      "url": "https://www.deklimmuur.nl",
+      "lat": 52.3912893,
+      "lng": 4.6493244,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "monk-amsterdam",

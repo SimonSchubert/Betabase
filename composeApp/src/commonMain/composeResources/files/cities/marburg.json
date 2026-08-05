@@ -2,22 +2,6 @@
   "city": "Marburg",
   "gyms": [
     {
-      "id": "volksbank-kletterhalle-marburg",
-      "name": "Volksbank Kletterhalle Marburg",
-      "address": "Rudolf-Bultmann-Straße 4g, 35039 Marburg",
-      "url": "https://www.kletterhalle-marburg.de",
-      "lat": 50.816276,
-      "lng": 8.778897,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.kletterhalle-marburg.de/167%20-%20Sektion%20Marburg-Lahn/Kletterhalle/Hallenfotos/57953/image-thumb__57953__heroteaser/VKM_Aussen7@2x.217c7f21.webp"
-    },
-    {
       "id": "gaia-boulderhalle-marburg",
       "name": "Gaia Boulderhalle",
       "address": "Tom-Mutters-Straße 8, 35041 Marburg",
@@ -39,8 +23,38 @@
         "sun": "10:00-22:30"
       },
       "image_url": "https://www.gaia-boulderhalle.de/assets/images/logo.svg"
+    },
+    {
+      "id": "onsight-boulderverein-marburg-e-v",
+      "name": "OnSight Boulderverein Marburg e.V.",
+      "address": "Elisabethstraße 10, 35037 Marburg",
+      "url": "https://onsight-marburg.de",
+      "lat": 50.8153621,
+      "lng": 8.7687574,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "volksbank-kletterhalle-marburg",
+      "name": "Volksbank Kletterhalle Marburg",
+      "address": "Rudolf-Bultmann-Straße 4g, 35039 Marburg",
+      "url": "https://www.kletterhalle-marburg.de",
+      "lat": 50.816276,
+      "lng": 8.778897,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.kletterhalle-marburg.de/167%20-%20Sektion%20Marburg-Lahn/Kletterhalle/Hallenfotos/57953/image-thumb__57953__heroteaser/VKM_Aussen7@2x.217c7f21.webp"
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z"
+  "fetched_at": "2026-08-05T00:00:00Z"
 }

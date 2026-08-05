@@ -1,8 +1,22 @@
 {
   "city": "Mainz",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "blockwerk",
+      "name": "Blockwerk",
+      "address": "Hauptstraße 17-19, 55120 Mainz",
+      "url": "https://www.blockwerk.info",
+      "lat": 50.0155936,
+      "lng": 8.2345538,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "dav-kletterzentrum-mainz",
       "name": "DAV Kletterzentrum Mainz",

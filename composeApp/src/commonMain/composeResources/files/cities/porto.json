@@ -1,23 +1,8 @@
 {
   "city": "Porto",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "sao-rock-climbing",
-      "name": "São Rock Climbing",
-      "address": "Rua de Godim 312, 4300-394 Porto",
-      "url": "http://saorockclimbing.com",
-      "lat": 41.1544425,
-      "lng": -8.5872762,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
     {
       "id": "murus-climbing",
       "name": "MURUS - The Climbing Temple",
@@ -48,6 +33,36 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": null
+    },
+    {
+      "id": "sao-rock-climbing",
+      "name": "São Rock Climbing",
+      "address": "Rua de Godim 312, 4300-394 Porto",
+      "url": "http://saorockclimbing.com",
+      "lat": 41.1544425,
+      "lng": -8.5872762,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "zone-climb",
+      "name": "Zone Climb",
+      "address": "Travessa Joaquim Lopes Pintor 81, 4405-869 Mafamude e Vilar do Paraíso",
+      "url": "https://zone.com.pt/climb",
+      "lat": 41.1112664,
+      "lng": -8.62127,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

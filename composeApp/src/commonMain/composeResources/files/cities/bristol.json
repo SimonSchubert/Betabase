@@ -1,7 +1,7 @@
 {
   "city": "Bristol",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:01:09Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "bloc-climbing-bristol",
@@ -28,6 +28,20 @@
       "disciplines": [
         "boulder",
         "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "flashpoint-bristol",
+      "name": "Flashpoint Bristol",
+      "address": "Bristol",
+      "url": "https://flashpointbristol.com",
+      "lat": 51.4455997,
+      "lng": -2.5811842,
+      "disciplines": [
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,

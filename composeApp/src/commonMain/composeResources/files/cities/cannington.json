@@ -1,7 +1,7 @@
 {
   "city": "Cannington",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:07:43Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "cannington-climbing-wall",
@@ -10,6 +10,21 @@
       "url": "https://www.canningtonactivitycentre.co.uk/",
       "lat": 51.152281,
       "lng": -3.065259,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "chalkup",
+      "name": "ChalkUp!",
+      "address": "Budley Farm Commercial Units, TA5 1LL Bridgwater",
+      "url": "https://www.chalkup.uk",
+      "lat": 51.1523091,
+      "lng": -3.1491306,
       "disciplines": [
         "boulder",
         "lead"

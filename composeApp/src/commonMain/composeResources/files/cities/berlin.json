@@ -1,7 +1,7 @@
 {
   "city": "Berlin",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-07T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "alpinclub-berlin-huettenweg",
@@ -101,6 +101,20 @@
         "sun": "09:00-22:00"
       },
       "image_url": "https://boulderklub.de/wp-content/uploads/2025-JKH-TNFClimbFest-Sep-05-2025-0109-edit-1-e1779280057617.png"
+    },
+    {
+      "id": "boulderworx",
+      "name": "Boulderworx",
+      "address": "Berliner Straße 46, 10713 Berlin",
+      "url": "https://www.boulderworx.de",
+      "lat": 52.4869489,
+      "lng": 13.3182979,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "boulderzimmer",

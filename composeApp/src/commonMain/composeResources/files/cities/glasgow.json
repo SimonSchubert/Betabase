@@ -1,8 +1,22 @@
 {
   "city": "Glasgow",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:20:07Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "brushworks",
+      "name": "Brushworks",
+      "address": "Black Street 74, G4 0EF Glasgow",
+      "url": "https://www.brushworksclimbing.co.uk",
+      "lat": 55.8674594,
+      "lng": -4.2401257,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "cuningar-loop-boulders",
       "name": "Cuningar Loop Boulders",
@@ -33,6 +47,20 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://glasgowclimbingcentre.com/wp-content/themes/gcc-wp/dist/images/logo.jpg"
+    },
+    {
+      "id": "hang-on",
+      "name": "Hang On",
+      "address": "Glasgow",
+      "url": "https://hangonclimbing.com",
+      "lat": 55.7752569,
+      "lng": -4.0366173,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "kelvin-hall-climbing-wall",

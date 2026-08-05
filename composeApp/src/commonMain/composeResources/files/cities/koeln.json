@@ -1,8 +1,22 @@
 {
   "city": "Köln",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-07T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "bouldereck-erftstadt",
+      "name": "BoulderEck Erftstadt",
+      "address": "Carl-Benz-Ring 2, Cologne",
+      "url": "https://bouldereck.de",
+      "lat": 50.7938805,
+      "lng": 6.7834629,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "boulderplanet",
       "name": "Boulderplanet",
@@ -49,6 +63,21 @@
         "sun": "10:00-21:00"
       },
       "image_url": "https://canyon-chorweiler.de/wp-content/uploads/2026/03/Klettermarathon-Bilder-online-768x960.png"
+    },
+    {
+      "id": "chimpanzodrome",
+      "name": "Chimpanzodrome",
+      "address": "Ernst-Heinrich-Geist-Straße 18, 50226 Cologne",
+      "url": "https://www.chimpanzodrome.de",
+      "lat": 50.9091415,
+      "lng": 6.8191283,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "einstein-boulder-koeln",

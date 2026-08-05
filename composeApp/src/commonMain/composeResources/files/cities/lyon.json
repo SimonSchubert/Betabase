@@ -1,7 +1,7 @@
 {
   "city": "Lyon",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "bloc-session-lyon-centre",
@@ -95,6 +95,48 @@
         "sat": "10:00-19:00",
         "sun": "10:00-19:00"
       }
+    },
+    {
+      "id": "mroc-laennec",
+      "name": "MRoc Laënnec",
+      "address": "Lyon",
+      "url": "https://laennec.mroc.fr",
+      "lat": 45.7372101,
+      "lng": 4.8800574,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mroc-part-dieu",
+      "name": "MRoc Part-Dieu",
+      "address": "Rue du Pensionnat 86, Lyon",
+      "url": "https://partdieu.mroc.fr",
+      "lat": 45.7547623,
+      "lng": 4.8584916,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mroc-villeurbanne",
+      "name": "MRoc Villeurbanne",
+      "address": "Lyon",
+      "url": "https://villeurbanne.mroc.fr",
+      "lat": 45.7749348,
+      "lng": 4.8759137,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

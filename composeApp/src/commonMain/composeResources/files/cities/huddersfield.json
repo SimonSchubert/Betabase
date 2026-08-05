@@ -1,7 +1,7 @@
 {
   "city": "Huddersfield",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:53:36Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "be-boulder",
@@ -10,6 +10,20 @@
       "url": "https://www.be-boulder.co.uk/",
       "lat": 53.6712,
       "lng": -1.7448,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "freeklime",
+      "name": "Freeklime",
+      "address": "Huddersfield",
+      "url": "https://www.freeklime.co.uk/locations/huddersfield",
+      "lat": 53.6470972,
+      "lng": -1.7725283,
       "disciplines": [
         "boulder"
       ],

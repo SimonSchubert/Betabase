@@ -1,7 +1,7 @@
 {
   "city": "Warsaw",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "camp4",
@@ -10,6 +10,37 @@
       "url": "https://halawspinaczkowa.pl",
       "lat": 52.1436578,
       "lng": 21.0053829,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "murall-gorczewska",
+      "name": "Centrum Wspinaczkowe Murall",
+      "address": "Górczewska, 01-471 Warszawa",
+      "url": "https://murall.pl",
+      "lat": 52.2402959,
+      "lng": 20.9062655,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://murall.pl/wp-content/uploads/2019/09/Slider2_20190830203121_SA2_2271_photo_Ola_Drutkowska_Szymon_Aksienionek.jpg"
+    },
+    {
+      "id": "on-sight-obozowa",
+      "name": "Centrum Wspinaczkowe On Sight",
+      "address": "Obozowa 60, 01-423 Warszawa",
+      "url": "https://www.obozowa.waw.pl",
+      "lat": 52.2480282,
+      "lng": 20.9538627,
       "disciplines": [
         "boulder",
         "lead"
@@ -81,20 +112,19 @@
       "image_url": "https://annopol.murall.pl/wp-content/uploads/2022/11/snow-logo-inv-ret.png"
     },
     {
-      "id": "murall-gorczewska",
-      "name": "Centrum Wspinaczkowe Murall",
-      "address": "Górczewska, 01-471 Warszawa",
-      "url": "https://murall.pl",
-      "lat": 52.2402959,
-      "lng": 20.9062655,
+      "id": "murall-krakowska",
+      "name": "Murall Krakowska",
+      "address": "Aleja Krakowska 61, 02-183 Warszawa",
+      "url": "https://krakowska.murall.pl",
+      "lat": 52.1702104,
+      "lng": 20.9330719,
       "disciplines": [
         "boulder",
         "lead"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://murall.pl/wp-content/uploads/2019/09/Slider2_20190830203121_SA2_2271_photo_Ola_Drutkowska_Szymon_Aksienionek.jpg"
+      "opening_hours": {}
     },
     {
       "id": "obiekto",
@@ -110,21 +140,6 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://obiekto.pl/lib/mpeoab/OBIEKTO-logo-white-mg6unlmi.svg"
-    },
-    {
-      "id": "on-sight-obozowa",
-      "name": "Centrum Wspinaczkowe On Sight",
-      "address": "Obozowa 60, 01-423 Warszawa",
-      "url": "https://www.obozowa.waw.pl",
-      "lat": 52.2480282,
-      "lng": 20.9538627,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
     },
     {
       "id": "volt-boulderownia",

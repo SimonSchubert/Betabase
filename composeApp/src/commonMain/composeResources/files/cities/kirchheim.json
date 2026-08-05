@@ -1,8 +1,23 @@
 {
   "city": "Kirchheim bei München",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "kletterhalle-des-dav-ebersberg-grafing",
+      "name": "Kletterhalle des DAV Ebersberg-Grafing",
+      "address": "Lagerhausstraße 17, 85567 Grafing bei München",
+      "url": "https://www.alpenverein-grafing.de",
+      "lat": 48.0477258,
+      "lng": 11.9637351,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "high-east",
       "name": "Kletterhalle High-east",

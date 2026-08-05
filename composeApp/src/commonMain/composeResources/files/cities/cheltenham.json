@@ -1,8 +1,22 @@
 {
   "city": "Cheltenham",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:52:45Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulders-cheltenham",
+      "name": "Boulders",
+      "address": "GL51 9FD Cheltenham",
+      "url": "https://cheltenham.bouldersuk.com",
+      "lat": 51.9142526,
+      "lng": -2.0965904,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "cheltenham-climbing-centre",
       "name": "Cheltenham Climbing Centre",

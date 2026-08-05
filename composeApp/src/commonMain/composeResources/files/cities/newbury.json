@@ -1,7 +1,7 @@
 {
   "city": "Newbury",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T11:57:02Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "newbury-waterside-centre-climbing",
@@ -18,6 +18,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://res.cloudinary.com/eola/image/upload/q_auto,f_auto/v1/eola/public_images/eola-logo"
+    },
+    {
+      "id": "northway-climbing-centre",
+      "name": "Northway Climbing Centre",
+      "address": "York Road, RG14 7NF Newbury",
+      "url": "https://northwayclimbing.com",
+      "lat": 51.3964796,
+      "lng": -1.3164439,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

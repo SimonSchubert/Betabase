@@ -1,31 +1,8 @@
 {
   "city": "Copenhagen",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "beta-boulders-osterbro",
-      "name": "Beta Boulders Østerbro",
-      "address": "Hammershusgade, 2100 København",
-      "url": "https://betaboulders.com",
-      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg",
-      "lat": 55.7069382,
-      "lng": 12.5610671,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "09:00-22:00",
-        "tue": "09:00-22:00",
-        "wed": "09:00-22:00",
-        "thu": "09:00-22:00",
-        "fri": "09:00-22:00",
-        "sat": "09:00-21:00",
-        "sun": "09:00-21:00"
-      }
-    },
     {
       "id": "beta-boulders-sydhavn",
       "name": "Beta Boulders Sydhavn",
@@ -62,6 +39,29 @@
       "boards": [
         "moonboard"
       ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:00"
+      }
+    },
+    {
+      "id": "beta-boulders-osterbro",
+      "name": "Beta Boulders Østerbro",
+      "address": "Hammershusgade, 2100 København",
+      "url": "https://betaboulders.com",
+      "image_url": "https://betaboulders.com/wp-content/uploads/2021/04/beta_boulders_2048_018.jpg",
+      "lat": 55.7069382,
+      "lng": 12.5610671,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
       "size_sqm": null,
       "opening_hours": {
         "mon": "09:00-22:00",
@@ -118,6 +118,48 @@
         "sat": "10:00-20:00",
         "sun": "08:00-22:00"
       }
+    },
+    {
+      "id": "boulders-valby",
+      "name": "Boulders Valby",
+      "address": "Valby, Copenhagen",
+      "url": "https://www.boulders.dk/valby",
+      "lat": 55.6610635,
+      "lng": 12.5152288,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulders-vanlose",
+      "name": "Boulders Vanløse",
+      "address": "Copenhagen",
+      "url": "https://www.brucestudios.com/da/studios/4402/boulders-vanlose",
+      "lat": 55.6872998,
+      "lng": 12.4930022,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulders-sydhavn",
+      "name": "Boulders Sydhavn",
+      "address": "Copenhagen",
+      "url": "https://boulders.dk/kbhsydhavn",
+      "lat": 55.6413012,
+      "lng": 12.5389893,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

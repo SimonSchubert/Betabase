@@ -1,31 +1,8 @@
 {
   "city": "Brussels",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "a-bloc",
-      "name": "À Bloc",
-      "address": "Avenue Léonard Mommaerts 11, 1140 Evere",
-      "url": "https://abloc.brussels",
-      "lat": 50.8566,
-      "lng": 4.4096,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "10:00-23:00",
-        "tue": "10:00-23:00",
-        "wed": "10:00-23:00",
-        "thu": "10:00-23:00",
-        "fri": "10:00-23:00",
-        "sat": "10:00-21:00",
-        "sun": "10:00-21:00"
-      },
-      "image_url": "https://abloc.brussels/_app/immutable/assets/logo-A.rkv75rIA.webp"
-    },
     {
       "id": "arkose-canal",
       "name": "Arkose Canal",
@@ -73,6 +50,20 @@
       "image_url": "https://www-static.bldrmaritime.be/wp-content/uploads/2026/05/Boulderen-2.png"
     },
     {
+      "id": "boulder",
+      "name": "Boulder",
+      "address": "Persilstraat 51E, 3020 Herent",
+      "url": "https://www.boulder.one",
+      "lat": 50.9036516,
+      "lng": 4.6681721,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "brussels-monkeys-climbing",
       "name": "Brussels Monkeys Climbing",
       "address": "Avenue du Sippelberg 1, 1080 Bruxelles",
@@ -115,6 +106,49 @@
       "image_url": "https://www.ev-club.be/views/images/diapo_redim/slider01.jpg"
     },
     {
+      "id": "hall9",
+      "name": "Hall9",
+      "address": "Brussels",
+      "url": "https://hall9.be",
+      "lat": 50.9414853,
+      "lng": 4.4331427,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klimkaffee-mechelen",
+      "name": "Klimkaffee Mechelen",
+      "address": "Douaneplein 8, Brussels",
+      "url": "https://klimkaffee.be/mechelen",
+      "lat": 51.0239798,
+      "lng": 4.4931886,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klimzaal-banzai",
+      "name": "Klimzaal Banzai",
+      "address": "Pierre Corneliskaai 10,12, Brussels",
+      "url": "https://klimzaalbanzai.be",
+      "lat": 50.9434449,
+      "lng": 4.0416855,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "le-camp-de-base",
       "name": "Le Camp de Base",
       "address": "Chaussée de Boondael 210C, 1050 Ixelles",
@@ -136,6 +170,21 @@
         "sun": "09:00-21:00"
       },
       "image_url": "https://www.lecampdebase.be/wp-content/uploads/2022/04/Layer-1.png"
+    },
+    {
+      "id": "maniak-braine-l-alleud",
+      "name": "Maniak Braine-l'Alleud",
+      "address": "Brussels",
+      "url": "https://braine.maniak.club",
+      "lat": 50.6888687,
+      "lng": 4.3883846,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "maniak-padoue",
@@ -211,6 +260,20 @@
       "image_url": "https://petite-ile.be/wp-content/uploads/2019/04/photo-01.jpg"
     },
     {
+      "id": "pink-peaks",
+      "name": "Pink Peaks",
+      "address": "Antwerpselaan 1, 1853 Grimbergen",
+      "url": "https://www.pinkpeaks.be",
+      "lat": 50.9169468,
+      "lng": 4.3466198,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "stone-age",
       "name": "Stone Age",
       "address": "Avenue Mounier 87, 1200 Woluwe-Saint-Lambert",
@@ -256,6 +319,29 @@
         "sun": "10:00-21:00"
       },
       "image_url": "https://terresneuves.be/wp-content/uploads/cropped-Logo-mauve-TN-192x192.jpg"
+    },
+    {
+      "id": "a-bloc",
+      "name": "À Bloc",
+      "address": "Avenue Léonard Mommaerts 11, 1140 Evere",
+      "url": "https://abloc.brussels",
+      "lat": 50.8566,
+      "lng": 4.4096,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      },
+      "image_url": "https://abloc.brussels/_app/immutable/assets/logo-A.rkv75rIA.webp"
     }
   ]
 }

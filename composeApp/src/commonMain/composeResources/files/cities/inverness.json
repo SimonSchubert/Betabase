@@ -1,7 +1,7 @@
 {
   "city": "Inverness",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:14:58Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "climb-inverness-leisure",
@@ -33,6 +33,20 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.highlifehighland.com/uploads/leisure-centres/_768xAUTO_crop_center-center_none/39-Inverness-Leisure-Photography-March-2026-57.jpg"
+    },
+    {
+      "id": "the-ledge-climbing-gym",
+      "name": "The Ledge Climbing Gym",
+      "address": "Telford Street, IV3 5LU Inverness",
+      "url": "https://www.theledgeclimbing.com",
+      "lat": 57.4812322,
+      "lng": -4.244407,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

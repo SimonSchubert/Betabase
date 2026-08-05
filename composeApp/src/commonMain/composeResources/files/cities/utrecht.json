@@ -1,34 +1,8 @@
 {
   "city": "Utrecht",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "boulderhal-sterk",
-      "name": "Boulderhal Sterk",
-      "address": "Koningin Wilhelminalaan 4, 3527 LD Utrecht",
-      "url": "https://www.boulderhalsterk.nl/sterk",
-      "lat": 52.0762437,
-      "lng": 5.1083846,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
-      "size_sqm": 600,
-      "opening_hours": {},
-      "image_url": null
-    },
-    {
-      "id": "boulderhal-sterk-spoor",
-      "name": "Boulderhal Sterk Spoor",
-      "address": "Schaverijstraat 52, 3534 AS Utrecht",
-      "url": "https://www.boulderhalsterk.nl/sterkspoor",
-      "lat": 52.1051887,
-      "lng": 5.0827563,
-      "disciplines": ["boulder"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": null
-    },
     {
       "id": "boulderhal-energiehaven",
       "name": "Boulderhal Energiehaven",
@@ -36,8 +10,12 @@
       "url": "https://www.boulderhalenergiehaven.nl",
       "lat": 52.099977,
       "lng": 5.0709044,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "08:30-23:00",
@@ -51,13 +29,47 @@
       "image_url": null
     },
     {
+      "id": "boulderhal-sterk",
+      "name": "Boulderhal Sterk",
+      "address": "Koningin Wilhelminalaan 4, 3527 LD Utrecht",
+      "url": "https://www.boulderhalsterk.nl/sterk",
+      "lat": 52.0762437,
+      "lng": 5.1083846,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": 600,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "boulderhal-sterk-spoor",
+      "name": "Boulderhal Sterk Spoor",
+      "address": "Schaverijstraat 52, 3534 AS Utrecht",
+      "url": "https://www.boulderhalsterk.nl/sterkspoor",
+      "lat": 52.1051887,
+      "lng": 5.0827563,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
       "id": "boulderhal-zuidhaven",
       "name": "Boulderhal Zuidhaven",
       "address": "Vrieslantlaan 2, 3526 AA Utrecht",
       "url": "https://www.boulderhalzuidhaven.nl",
       "lat": 52.064597,
       "lng": 5.1044248,
-      "disciplines": ["boulder"],
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -72,13 +84,104 @@
       "image_url": null
     },
     {
+      "id": "kei-boulderhal",
+      "name": "Kei Boulderhal",
+      "address": "Soesterweg 314, 3812BH Amersfoort",
+      "url": "https://www.keiboulderhal.nl",
+      "lat": 52.1567212,
+      "lng": 5.3647629,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kei-boulderhal-de-hoef",
+      "name": "Kei Boulderhal De Hoef",
+      "address": "Databankweg 12K, 3821AL Amersfoort",
+      "url": "https://www.keiboulderhal.nl",
+      "lat": 52.1802895,
+      "lng": 5.4152309,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "klimmuur-utrecht",
+      "name": "Klimmuur Utrecht",
+      "address": "Vlampijpstraat 79, 3534 AR Utrecht",
+      "url": "https://www.klimmuur-utrecht.nl",
+      "lat": 52.1047122,
+      "lng": 5.0849112,
+      "disciplines": [
+        "lead",
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "address": "Vreelandseweg 5, 1216CG Hilversum",
+      "url": "https://monk.nl/hilversum",
+      "lat": 52.2198971,
+      "lng": 5.1492304,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mountain-network-utrecht",
+      "name": "Mountain Network",
+      "address": "Blokhoeve 12, 3438LC Nieuwegein",
+      "url": "https://mountain-network.nl/klimcentra/locaties/klimhal-nieuwegein",
+      "lat": 52.0465338,
+      "lng": 5.0917806,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "national-climbing-center-nieuwegein",
+      "name": "National Climbing Center Nieuwegein",
+      "address": "Iepenhoeve 41A, 3438MR Nieuwegein",
+      "url": "https://www.climbingnetwork.nl/indoor/locatie/national-climbingcenter-nieuwegein",
+      "lat": 52.0478674,
+      "lng": 5.0921099,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "neoliet-utrecht",
       "name": "Neoliet Utrecht",
       "address": "Componistenlaan 6, 3451 SX Utrecht",
       "url": "https://www.neoliet.nl/en/utrecht",
       "lat": 52.1128319,
       "lng": 5.0314177,
-      "disciplines": ["boulder", "lead"],
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
@@ -90,19 +193,6 @@
         "sat": "09:00-19:00",
         "sun": "09:00-21:00"
       },
-      "image_url": null
-    },
-    {
-      "id": "klimmuur-utrecht",
-      "name": "Klimmuur Utrecht",
-      "address": "Vlampijpstraat 79, 3534 AR Utrecht",
-      "url": "https://www.klimmuur-utrecht.nl",
-      "lat": 52.1047122,
-      "lng": 5.0849112,
-      "disciplines": ["lead", "boulder"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
       "image_url": null
     }
   ]

@@ -1,7 +1,7 @@
 {
   "city": "Rotterdam",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "beest-boulders-rotterdam",
@@ -54,6 +54,49 @@
         "sun": "09:00-21:00"
       },
       "image_url": "https://www.deklimmuur.nl/wp-content/uploads/2023/01/KM_Logo_Web_175x360-1.png"
+    },
+    {
+      "id": "klimcentrum-monte-cervino",
+      "name": "Klimcentrum Monte Cervino",
+      "address": "Hoeksekade 141, 2661JL Bergschenhoek",
+      "url": "https://www.montecervino.nl",
+      "lat": 51.9772105,
+      "lng": 4.5360815,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "monk-bouldergym",
+      "name": "Monk Bouldergym",
+      "address": "Ceintuurbaan 183, 3051KC Rotterdam",
+      "url": "https://monk.nl/rotterdam",
+      "lat": 51.9416564,
+      "lng": 4.4734028,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "mountain-network",
+      "name": "Mountain Network",
+      "address": "Maria Montessorilaan 3A, 3312KJ Dordrecht",
+      "url": "https://mountain-network.nl/klimcentra/locaties/klimhal-dordrecht",
+      "lat": 51.7988824,
+      "lng": 4.678826,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "neoliet-bolder-rotterdam",

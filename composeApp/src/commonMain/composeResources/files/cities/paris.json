@@ -1,7 +1,7 @@
 {
   "city": "Paris",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-05-15T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "antrebloc",
@@ -307,6 +307,21 @@
       }
     },
     {
+      "id": "big-wall-franconville",
+      "name": "Big Wall Franconville",
+      "address": "Avenue des Marais 25, Paris",
+      "url": "https://bigwallfranconville.fr",
+      "lat": 48.9916968,
+      "lng": 2.2209295,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "blocbuster-courbevoie",
       "name": "Blocbuster Courbevoie",
       "address": "47 Avenue de l'Europe, 92400 Courbevoie",
@@ -375,6 +390,20 @@
       }
     },
     {
+      "id": "blocpark-arkose",
+      "name": "Blocpark Arkose",
+      "address": "Paris",
+      "url": "https://massy.arkose.com",
+      "lat": 48.7227211,
+      "lng": 2.2696439,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "climb-up-aubervilliers",
       "name": "Climb Up Aubervilliers",
       "address": "111 Avenue Victor Hugo, 93300 Aubervilliers",
@@ -421,6 +450,20 @@
         "sun": "08:00-24:00"
       },
       "image_url": "https://paris-porteditalie.climb-up.fr/wp-content/uploads/2026/03/LOGO-CLIMB-UP-BLANC.webp"
+    },
+    {
+      "id": "climb-up-epinay",
+      "name": "Climb Up Épinay",
+      "address": "Rue Henri Wallon 8, 93800 Épinay-sur-Seine",
+      "url": "https://epinay.climb-up.fr",
+      "lat": 48.953824,
+      "lng": 2.3219625,
+      "disciplines": [
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "climbing-district-bastille",

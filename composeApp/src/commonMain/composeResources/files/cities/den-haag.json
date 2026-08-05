@@ -1,71 +1,8 @@
 {
   "city": "Den Haag",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
-    {
-      "id": "boulderhal-walhalla",
-      "name": "Boulderhal Walhalla",
-      "address": "Johan van Veenplein 12, 2521 AC Den Haag",
-      "url": "https://www.boulderhalwalhalla.nl",
-      "lat": 52.0617082,
-      "lng": 4.313718,
-      "disciplines": ["boulder"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "13:00-23:00",
-        "tue": "13:00-23:00",
-        "wed": "13:00-23:00",
-        "thu": "13:00-23:00",
-        "fri": "13:00-23:00",
-        "sat": "11:00-19:00",
-        "sun": "11:00-22:00"
-      },
-      "image_url": null
-    },
-    {
-      "id": "boulderhal-de-campus",
-      "name": "Boulderhal de Campus",
-      "address": "Kerketuinenweg 55, 2544 CV Den Haag",
-      "url": "https://www.boulderhaldecampus.nl",
-      "lat": 52.0497783,
-      "lng": 4.254626,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
-      "size_sqm": 1200,
-      "opening_hours": {
-        "mon": "12:00-23:00",
-        "tue": "12:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "12:00-23:00",
-        "fri": "09:00-23:00",
-        "sat": "09:00-22:30",
-        "sun": "09:00-22:30"
-      },
-      "image_url": null
-    },
-    {
-      "id": "boulderhal-nirvana",
-      "name": "Boulderhal Nirvana",
-      "address": "Berkenbosch Blokstraat 9A, 2586 HD Den Haag",
-      "url": "https://www.boulderhalnirvana.nl",
-      "lat": 52.1100671,
-      "lng": 4.2836164,
-      "disciplines": ["boulder"],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "13:00-23:00",
-        "tue": "13:00-23:00",
-        "wed": "13:00-23:00",
-        "thu": "13:00-23:00",
-        "fri": "09:00-23:00",
-        "sat": "09:00-19:00",
-        "sun": "09:00-22:00"
-      },
-      "image_url": null
-    },
     {
       "id": "beest-boulders-den-haag-centrum",
       "name": "Beest Boulders Den Haag Centrum",
@@ -73,8 +10,12 @@
       "url": "https://beestboulders.com/vestigingen/beest-boulders-den-haag-centrum",
       "lat": 52.0762637,
       "lng": 4.3110509,
-      "disciplines": ["boulder"],
-      "boards": ["kilter"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "07:00-23:00",
@@ -94,8 +35,12 @@
       "url": "https://beestboulders.com/vestigingen/beest-boulders-den-haag",
       "lat": 52.0694272,
       "lng": 4.3236242,
-      "disciplines": ["boulder"],
-      "boards": ["moonboard"],
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": null,
       "opening_hours": {
         "mon": "13:00-23:00",
@@ -109,17 +54,131 @@
       "image_url": null
     },
     {
-      "id": "klimmuur-den-haag-hs",
-      "name": "Klimmuur Den Haag Hollands Spoor",
-      "address": "Waldorpstraat 15D, 2521 CA Den Haag",
-      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-hollandsspoor",
-      "lat": 52.069543,
-      "lng": 4.3237448,
-      "disciplines": ["lead", "boulder"],
+      "id": "bouldercentrum-delfts-bleau",
+      "name": "Bouldercentrum Delfts Bleau",
+      "address": "Schieweg 15L, 2627AN Delft",
+      "url": "https://www.delftsbleau.nl",
+      "lat": 51.9948117,
+      "lng": 4.3667978,
+      "disciplines": [
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhal-de-campus",
+      "name": "Boulderhal de Campus",
+      "address": "Kerketuinenweg 55, 2544 CV Den Haag",
+      "url": "https://www.boulderhaldecampus.nl",
+      "lat": 52.0497783,
+      "lng": 4.254626,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": 1200,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-22:30",
+        "sun": "09:00-22:30"
+      },
       "image_url": null
+    },
+    {
+      "id": "boulderhal-krachtstof",
+      "name": "Boulderhal Krachtstof",
+      "address": "Admiraal Banckertweg 2, 2315SR Leiden",
+      "url": "https://www.boulderhalkrachtstof.nl",
+      "lat": 52.1585489,
+      "lng": 4.5119568,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhal-kunststof",
+      "name": "Boulderhal Kunststof",
+      "address": "Rooseveltstraat 49E, 2321BL Leiden",
+      "url": "https://www.boulderhalkunststof.nl",
+      "lat": 52.144977,
+      "lng": 4.4810125,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "boulderhal-nirvana",
+      "name": "Boulderhal Nirvana",
+      "address": "Berkenbosch Blokstraat 9A, 2586 HD Den Haag",
+      "url": "https://www.boulderhalnirvana.nl",
+      "lat": 52.1100671,
+      "lng": 4.2836164,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "boulderhal-walhalla",
+      "name": "Boulderhal Walhalla",
+      "address": "Johan van Veenplein 12, 2521 AC Den Haag",
+      "url": "https://www.boulderhalwalhalla.nl",
+      "lat": 52.0617082,
+      "lng": 4.313718,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "13:00-23:00",
+        "tue": "13:00-23:00",
+        "wed": "13:00-23:00",
+        "thu": "13:00-23:00",
+        "fri": "13:00-23:00",
+        "sat": "11:00-19:00",
+        "sun": "11:00-22:00"
+      },
+      "image_url": null
+    },
+    {
+      "id": "club-wildflower-climbing",
+      "name": "Club Wildflower Climbing",
+      "address": "Dorus Rijkersweg 15, 2315WC Leiden",
+      "url": "https://wildflowerclimbinggym.org",
+      "lat": 52.1593342,
+      "lng": 4.5136751,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "klimmuur-den-haag-de-uithof",
@@ -128,11 +187,44 @@
       "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-den-haag-de-uithof",
       "lat": 52.038528,
       "lng": 4.2405895,
-      "disciplines": ["lead", "boulder"],
+      "disciplines": [
+        "lead",
+        "boulder"
+      ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {},
       "image_url": null
+    },
+    {
+      "id": "klimmuur-den-haag-hs",
+      "name": "Klimmuur Den Haag Hollands Spoor",
+      "address": "Waldorpstraat 15D, 2521 CA Den Haag",
+      "url": "https://www.deklimmuur.nl/vestigingen/klimmuur-hollandsspoor",
+      "lat": 52.069543,
+      "lng": 4.3237448,
+      "disciplines": [
+        "lead",
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": null
+    },
+    {
+      "id": "revolt-bouldering-gym",
+      "name": "Revolt Bouldering Gym",
+      "address": "Kleveringweg 15, 2616LZ Delft",
+      "url": "https://www.revoltclimbing.com",
+      "lat": 52.0256784,
+      "lng": 4.3647823,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     }
   ]
 }

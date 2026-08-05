@@ -1,23 +1,21 @@
 {
   "city": "Saarbrücken",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "dav-kletterzentrum-saarbruecken",
-      "name": "DAV Kletterzentrum Saarbrücken",
-      "address": "Mainzer Straße 30, 66111 Saarbrücken",
-      "url": "https://www.dav-saarbruecken.de/kletterzentrum",
-      "lat": 49.231282,
-      "lng": 7.0019761,
+      "id": "boulder-olymp",
+      "name": "Boulder Olymp",
+      "address": "Kleinottweilerstraße 75, 66450 Bexbach",
+      "url": "https://www.boulderolymp.de",
+      "lat": 49.3468768,
+      "lng": 7.2753241,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.dav-saarbruecken.de/wp-content/uploads/2018/08/dav-sb-logo.png"
+      "opening_hours": {}
     },
     {
       "id": "boulderwerk-saarbruecken",
@@ -41,6 +39,51 @@
         "sun": "10:00-22:00"
       },
       "image_url": "https://images.squarespace-cdn.com/content/v1/63bc0f23802a057af98d2294/1709560242713-REX1UGIKPJVYUCGYGDTM/image-asset.jpeg"
+    },
+    {
+      "id": "dada-boulders",
+      "name": "Dada Boulders",
+      "address": "Provinzialstraße 57, 66787 Wadgassen",
+      "url": "https://dadaboulders.de",
+      "lat": 49.2616508,
+      "lng": 6.8094782,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "dav-kletterhalle-ensdorf",
+      "name": "DAV Kletterhalle Ensdorf",
+      "address": "Saarbrücken",
+      "url": "https://www.bergfreunde-saar.de/index.php?id=120",
+      "lat": 49.3131913,
+      "lng": 6.7863639,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "dav-kletterzentrum-saarbruecken",
+      "name": "DAV Kletterzentrum Saarbrücken",
+      "address": "Mainzer Straße 30, 66111 Saarbrücken",
+      "url": "https://www.dav-saarbruecken.de/kletterzentrum",
+      "lat": 49.231282,
+      "lng": 7.0019761,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {},
+      "image_url": "https://www.dav-saarbruecken.de/wp-content/uploads/2018/08/dav-sb-logo.png"
     },
     {
       "id": "kba-saar",

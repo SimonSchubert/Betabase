@@ -1,8 +1,22 @@
 {
   "city": "Hersbruck",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulderhalle-zugzwang",
+      "name": "Boulderhalle Zugzwang",
+      "address": "Hersbruck",
+      "url": "https://zugzwang.clubdesk.com",
+      "lat": 49.6905011,
+      "lng": 11.6301404,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "dav-kletterzentrum-hersbruck",
       "name": "DAV Kletterzentrum Hersbruck",
@@ -10,6 +24,21 @@
       "url": "https://www.kletterwelt-hersbruck.de",
       "lat": 49.5108492,
       "lng": 11.4306234,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterhalle-kunstgriff",
+      "name": "Kletterhalle KunstGriff",
+      "address": "Schulstraße 6, 90518 Altdorf b. Nürnberg",
+      "url": "https://www.dav-altdorf.de/kletterhalle",
+      "lat": 49.3880801,
+      "lng": 11.3415336,
       "disciplines": [
         "boulder",
         "lead"

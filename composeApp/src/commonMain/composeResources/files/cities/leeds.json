@@ -1,7 +1,7 @@
 {
   "city": "Leeds",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:19:09Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "big-depot-leeds",
@@ -92,6 +92,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.depotclimbing.co.uk/leeds-armley/wp-content/uploads/sites/19/2022/09/depot-climbing_centre-social-icon.png"
+    },
+    {
+      "id": "last-sun-dance",
+      "name": "Last Sun Dance",
+      "address": "Leeds",
+      "url": "https://www.lastsundance.com",
+      "lat": 53.7893198,
+      "lng": -1.4998376,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "the-climbing-lab",

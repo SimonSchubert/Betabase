@@ -17,6 +17,35 @@
       "image_url": "https://www.b12-tuebingen.de/wp-content/uploads/2025/12/Logo2026klein.png"
     },
     {
+      "id": "blockle-tuebingen",
+      "name": "Blöckle Boulderhalle",
+      "address": "Reutlinger Straße 63, 72072 Tübingen",
+      "url": "https://www.blockle-tuebingen.de",
+      "lat": 48.5152842,
+      "lng": 9.0576184,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "rox-boulder-und-kletterhalle",
+      "name": "ROX Boulder- und Kletterhalle",
+      "address": "Ohmstraße 6, 71083 Herrenberg",
+      "url": "https://rox-herrenberg.de",
+      "lat": 48.5798032,
+      "lng": 8.8939595,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
       "id": "tu-arena-tuebingen",
       "name": "TÜ-Arena Kletteranlage",
       "address": "Europastraße 50, 72072 Tübingen",
@@ -31,22 +60,8 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.tsg-tuebingen.de/files/6015/8270/5875/T_Arena_Kletteranlage_Homepage.JPG"
-    },
-    {
-      "id": "blockle-tuebingen",
-      "name": "Blöckle Boulderhalle",
-      "address": "Reutlinger Straße 63, 72072 Tübingen",
-      "url": "https://www.blockle-tuebingen.de",
-      "lat": 48.5152842,
-      "lng": 9.0576184,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
     }
   ],
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z"
+  "fetched_at": "2026-08-05T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "city": "Birmingham",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T10:53:36Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "ackers-adventure-climbing",
@@ -119,6 +119,21 @@
       "size_sqm": null,
       "opening_hours": {},
       "image_url": "https://www.redpointbirmingham.co.uk/wp-content/uploads/2016/05/climbing.jpg"
+    },
+    {
+      "id": "redpoint-climbing-centre",
+      "name": "Redpoint Climbing Centre",
+      "address": "Cecil Street 77, B19 3SU Birmingham",
+      "url": "https://www.redpointbirmingham.co.uk",
+      "lat": 52.489329,
+      "lng": -1.8958095,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "university-of-birmingham-climbing-wall",

@@ -1,8 +1,23 @@
 {
   "city": "Oslo",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "gneis-lilleaker",
+      "name": "Gneis Lilleaker",
+      "address": "Oslo",
+      "url": "https://gneislilleaker.no",
+      "lat": 59.9174817,
+      "lng": 10.6318121,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "klatreverket",
       "name": "Klatreverket",

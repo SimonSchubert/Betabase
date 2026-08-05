@@ -1,8 +1,22 @@
 {
   "city": "Darmstadt",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
+    {
+      "id": "boulderhaus-darmstadt",
+      "name": "Boulderhaus Darmstadt",
+      "address": "Landwehrstraße 79, 64293 Darmstadt",
+      "url": "https://www.boulderhaus.net",
+      "lat": 49.8799322,
+      "lng": 8.6362005,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
     {
       "id": "dav-kletterzentrum-darmstadt",
       "name": "DAV Kletterzentrum Darmstadt",
@@ -19,12 +33,12 @@
       "opening_hours": {}
     },
     {
-      "id": "boulderhaus-darmstadt",
-      "name": "Boulderhaus Darmstadt",
-      "address": "Landwehrstraße 79, 64293 Darmstadt",
-      "url": "https://www.boulderhaus.net",
-      "lat": 49.8799322,
-      "lng": 8.6362005,
+      "id": "studio-bloc-boulderhalle",
+      "name": "Studio Bloc Boulderhalle",
+      "address": "Gottlieb-Daimler-Straße 6, 64319 Pfungstadt",
+      "url": "https://www.studiobloc.de",
+      "lat": 49.8155724,
+      "lng": 8.6108752,
       "disciplines": [
         "boulder"
       ],

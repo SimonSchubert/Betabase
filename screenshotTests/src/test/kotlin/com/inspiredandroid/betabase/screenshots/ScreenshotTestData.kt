@@ -110,12 +110,12 @@ val sampleEvents = listOf(
     ),
     event(
         id = "americas-1",
-        title = "World Climbing Pan America Championship Curitiba 2026",
-        series = "World Climbing Pan America",
-        location = "Curitiba, Brazil",
-        month = 8, day = 22, allDay = true,
+        title = "World Climbing Series Salt Lake City 2026",
+        series = "World Climbing Series",
+        location = "Salt Lake City, USA",
+        month = 10, day = 16, allDay = true,
         source = SourceTag.AMERICAS,
-        discipline = Discipline.SPEED, round = Round.OTHER, gender = Gender.MIXED,
+        discipline = Discipline.BOULDER, round = Round.OTHER, gender = Gender.MIXED,
     ),
 )
 

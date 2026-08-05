@@ -1,7 +1,7 @@
 {
   "city": "Edinburgh",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T12:14:58Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "alien-bloc",
@@ -49,6 +49,20 @@
         "sun": "10:00-19:00"
       },
       "image_url": "https://www.alienrock.co.uk/wp-content/uploads/2024/08/logo.gif"
+    },
+    {
+      "id": "eden-rock-edinburgh",
+      "name": "Eden Rock Edinburgh",
+      "address": "Edgefield Road Industrial Estate, EH20 9TB Loanhead",
+      "url": "https://www.edenrockclimbing.com",
+      "lat": 55.8837025,
+      "lng": -3.1503166,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
     },
     {
       "id": "eica-ratho",

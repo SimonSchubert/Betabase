@@ -1,7 +1,7 @@
 {
   "city": "Landau",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-20T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
       "id": "fitzrocks",
@@ -10,6 +10,20 @@
       "url": "https://www.fitzrocks.de",
       "lat": 49.1879341,
       "lng": 8.1327555,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "petz-boulderhalle",
+      "name": "Petz Boulderhalle",
+      "address": "Europastraße 17, 67433 Neustadt an der Weinstraße",
+      "url": "https://boulderhalle-neustadt.de",
+      "lat": 49.3411237,
+      "lng": 8.1543406,
       "disciplines": [
         "boulder"
       ],

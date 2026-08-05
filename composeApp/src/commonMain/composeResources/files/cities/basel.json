@@ -1,21 +1,20 @@
 {
   "city": "Basel",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-07-17T00:00:00Z",
+  "fetched_at": "2026-08-05T00:00:00Z",
   "gyms": [
     {
-      "id": "kletterhalle-7",
-      "name": "Kletterhalle 7",
-      "address": "Dornacherstrasse 192, 4053 Basel",
-      "url": "https://www.kletterhalle7.ch",
-      "lat": 47.5417421,
-      "lng": 7.5932153,
+      "id": "b2-boulders-pratteln",
+      "name": "B2 Boulders & Bar",
+      "address": "Salinenwegli, 4133 Pratteln",
+      "url": "https://bzwei.ch",
+      "lat": 47.5258271,
+      "lng": 7.683399,
       "disciplines": [
-        "boulder",
-        "lead"
+        "boulder"
       ],
       "boards": [],
-      "size_sqm": 1550,
+      "size_sqm": 1200,
       "opening_hours": {},
       "image_url": null
     },
@@ -43,17 +42,33 @@
       "image_url": null
     },
     {
-      "id": "b2-boulders-pratteln",
-      "name": "B2 Boulders & Bar",
-      "address": "Salinenwegli, 4133 Pratteln",
-      "url": "https://bzwei.ch",
-      "lat": 47.5258271,
-      "lng": 7.683399,
+      "id": "hebdi",
+      "name": "Hebdi",
+      "address": "Meyer-Wiggli-Strasse 1, 4410 Liestal",
+      "url": "https://hebdi.rocks",
+      "lat": 47.4858301,
+      "lng": 7.7356005,
       "disciplines": [
-        "boulder"
+        "boulder",
+        "lead"
       ],
       "boards": [],
-      "size_sqm": 1200,
+      "size_sqm": null,
+      "opening_hours": {}
+    },
+    {
+      "id": "kletterhalle-7",
+      "name": "Kletterhalle 7",
+      "address": "Dornacherstrasse 192, 4053 Basel",
+      "url": "https://www.kletterhalle7.ch",
+      "lat": 47.5417421,
+      "lng": 7.5932153,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1550,
       "opening_hours": {},
       "image_url": null
     }
