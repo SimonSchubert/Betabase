@@ -34,7 +34,11 @@ interface ReminderStore {
     }
 }
 
-expect fun createReminderStore(): ReminderStore
+/** Platform-backed reminder persistence via the shared [StringStore]. */
+fun createReminderStore(store: StringStore = createStringStore()): ReminderStore = ReminderStore(
+    get = store::get,
+    put = store::put,
+)
 
 /**
  * Builds a [ReminderStore] over any string key-value store.
@@ -43,9 +47,13 @@ expect fun createReminderStore(): ReminderStore
 fun ReminderStore(
     get: (key: String) -> String?,
     put: (key: String, value: String) -> Unit,
-    key: String = "reminders_json",
+    key: String = PrefKeys.REMINDERS,
 ): ReminderStore = object : ReminderStore {
-    override fun load(): Set<ReminderRecord> = get(key)?.let(::decodeReminders).orEmpty()
+    override fun load(): Set<ReminderRecord> =
+        (get(key) ?: get(PrefKeys.LEGACY_REMINDERS)?.also { put(key, it) })
+            ?.let(::decodeReminders)
+            .orEmpty()
+
     override fun save(records: Set<ReminderRecord>) = put(key, encodeReminders(records))
 }
 

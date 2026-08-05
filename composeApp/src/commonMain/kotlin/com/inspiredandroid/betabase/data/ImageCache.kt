@@ -6,7 +6,14 @@ import coil3.SingletonImageLoader
 import coil3.disk.DiskCache
 import okio.Path.Companion.toPath
 
-expect fun imageCacheDirectory(): String?
+/**
+ * Writable cache root for this platform (Android cacheDir, iOS Caches,
+ * XDG/desktop cache, null on wasm). Shared by the JSON network cache and the
+ * Coil disk cache so path resolution lives in one place.
+ */
+expect fun platformCacheDirectory(): String?
+
+fun imageCacheDirectory(): String? = platformCacheDirectory()?.let { "$it/coil_image_cache" }
 
 fun setupImageLoader() {
     SingletonImageLoader.setSafe { context -> buildImageLoader(context) }

@@ -19,3 +19,9 @@ object NoopJsonCache : JsonCache {
     override suspend fun read(key: String): ByteArray? = null
     override suspend fun write(key: String, bytes: ByteArray) {}
 }
+
+/** Disk-backed cache under [platformCacheDirectory]/json_cache, or [NoopJsonCache]. */
+internal fun fileJsonCacheOrNoop(create: (directory: String) -> JsonCache): JsonCache {
+    val root = platformCacheDirectory() ?: return NoopJsonCache
+    return create("$root/json_cache")
+}

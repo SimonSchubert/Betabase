@@ -18,6 +18,14 @@ expect val remindersSupported: Boolean
 
 expect fun createEventReminderScheduler(): EventReminderScheduler
 
+/** Shared no-op used by desktop and wasm where local notifications are unsupported. */
+object NoOpEventReminderScheduler : EventReminderScheduler {
+    override suspend fun ensurePermission(): Boolean = false
+    override fun schedule(record: ReminderRecord) = Unit
+    override fun cancel(eventId: String) = Unit
+    override fun rescheduleAll(records: Collection<ReminderRecord>) = Unit
+}
+
 fun CompetitionEvent.toReminderRecord(triggerEpochMillis: Long): ReminderRecord = ReminderRecord(
     eventId = id,
     title = title,

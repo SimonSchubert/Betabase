@@ -10,7 +10,11 @@ interface FilterStorage {
     fun saveGyms(filters: GymsFilters)
 }
 
-expect fun createFilterStorage(): FilterStorage
+/** Platform-backed filter persistence via the shared [StringStore]. */
+fun createFilterStorage(store: StringStore = createStringStore()): FilterStorage = FilterStorage(
+    get = store::get,
+    put = store::put,
+)
 
 /**
  * Builds a [FilterStorage] over any string key-value store (SharedPreferences,
@@ -20,12 +24,19 @@ expect fun createFilterStorage(): FilterStorage
 fun FilterStorage(
     get: (key: String) -> String?,
     put: (key: String, value: String) -> Unit,
-    filtersKey: String = "filters_json",
-    gymsKey: String = "gyms_filters_json",
+    filtersKey: String = PrefKeys.FILTERS,
+    gymsKey: String = PrefKeys.GYMS_FILTERS,
 ): FilterStorage = object : FilterStorage {
-    override fun load(): CompetitionsFilters? = get(filtersKey)?.let(::decodeFilters)
+    override fun load(): CompetitionsFilters? =
+        (get(filtersKey) ?: get(PrefKeys.LEGACY_FILTERS)?.also { put(filtersKey, it) })
+            ?.let(::decodeFilters)
+
     override fun save(filters: CompetitionsFilters) = put(filtersKey, encodeFilters(filters))
-    override fun loadGyms(): GymsFilters? = get(gymsKey)?.let(::decodeGymsFilters)
+
+    override fun loadGyms(): GymsFilters? =
+        (get(gymsKey) ?: get(PrefKeys.LEGACY_GYMS_FILTERS)?.also { put(gymsKey, it) })
+            ?.let(::decodeGymsFilters)
+
     override fun saveGyms(filters: GymsFilters) = put(gymsKey, encodeGymsFilters(filters))
 }
 
