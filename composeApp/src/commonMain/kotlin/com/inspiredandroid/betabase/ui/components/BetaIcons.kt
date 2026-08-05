@@ -254,6 +254,68 @@ fun GradesIcon(
     )
 }
 
+/** Pull-up bar with hanging figure — training / hang sessions. */
+@Composable
+fun TrainIcon(
+    modifier: Modifier = Modifier,
+    tint: Color = LocalContentColor.current,
+    size: Dp = 22.dp,
+) {
+    Canvas(modifier = modifier.size(size)) {
+        val w = this.size.width
+        val h = this.size.height
+        val stroke = w * 0.11f
+        // Bar
+        drawRoundRect(
+            color = tint,
+            topLeft = Offset(w * 0.08f, h * 0.12f),
+            size = Size(w * 0.84f, stroke),
+            cornerRadius = CornerRadius(stroke / 2f, stroke / 2f),
+        )
+        // Hands gripping bar
+        val handY = h * 0.12f + stroke
+        drawCircle(color = tint, center = Offset(w * 0.32f, handY + w * 0.06f), radius = w * 0.07f)
+        drawCircle(color = tint, center = Offset(w * 0.68f, handY + w * 0.06f), radius = w * 0.07f)
+        // Arms
+        val armTop = handY + w * 0.12f
+        val shoulderY = h * 0.48f
+        drawLine(
+            color = tint,
+            start = Offset(w * 0.32f, armTop),
+            end = Offset(w * 0.42f, shoulderY),
+            strokeWidth = stroke,
+        )
+        drawLine(
+            color = tint,
+            start = Offset(w * 0.68f, armTop),
+            end = Offset(w * 0.58f, shoulderY),
+            strokeWidth = stroke,
+        )
+        // Head
+        drawCircle(color = tint, center = Offset(w * 0.50f, shoulderY + w * 0.02f), radius = w * 0.10f)
+        // Torso
+        drawLine(
+            color = tint,
+            start = Offset(w * 0.50f, shoulderY + w * 0.14f),
+            end = Offset(w * 0.50f, h * 0.78f),
+            strokeWidth = stroke,
+        )
+        // Legs slightly bent
+        drawLine(
+            color = tint,
+            start = Offset(w * 0.50f, h * 0.78f),
+            end = Offset(w * 0.38f, h * 0.96f),
+            strokeWidth = stroke,
+        )
+        drawLine(
+            color = tint,
+            start = Offset(w * 0.50f, h * 0.78f),
+            end = Offset(w * 0.62f, h * 0.96f),
+            strokeWidth = stroke,
+        )
+    }
+}
+
 /** Bell for competition start reminders — outline when off, filled when armed. */
 @Composable
 fun ReminderBellIcon(
