@@ -1,68 +1,13 @@
 {
   "source": "DAV",
   "source_url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026",
-  "fetched_at": "2026-08-02T19:58:47Z",
+  "fetched_at": "2026-09-11T15:34:05Z",
   "events": [
-    {
-      "id": "bbl-station-1-s-dbloc-berlin-2026-08-01",
-      "title": "Station 1: Südbloc (Berlin)",
-      "series": "Techniker Boulder Bundesliga 2026/27",
-      "location": "Südbloc, Großbeerenstraße 2-10, 12107 Berlin, Deutschland",
-      "date": "2026-08-01",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
-    },
-    {
-      "id": "dc-station-2-boulder-base-bremen-2026-08-15",
-      "title": "Deutschland Cup — Station 2: Boulder Base (Bremen)",
-      "series": "Deutschland Cup 2026/27",
-      "location": "Boulder Base Bremen, Hohweg 5, 28219 Bremen, Deutschland",
-      "date": "2026-08-15",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
-    },
-    {
-      "id": "bbl-station-2-boulder-base-bremen-2026-08-15",
-      "title": "Station 2: Boulder Base (Bremen)",
-      "series": "Techniker Boulder Bundesliga 2026/27",
-      "location": "Boulder Base Bremen, Hohweg 5, 28219 Bremen, Deutschland",
-      "date": "2026-08-15",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
-    },
-    {
-      "id": "dc-station-3-studio-bloc-mannheim-2026-09-05",
-      "title": "Deutschland Cup — Station 3: Studio Bloc (Mannheim)",
-      "series": "Deutschland Cup 2026/27",
-      "location": "Studio Bloc Mannheim, Mannheim, Deutschland",
-      "date": "2026-09-05",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
-    },
-    {
-      "id": "bbl-station-3-studio-bloc-mannheim-2026-09-05",
-      "title": "Station 3: Studio Bloc (Mannheim)",
-      "series": "Techniker Boulder Bundesliga 2026/27",
-      "location": "Studio Bloc Mannheim, Mannheim, Deutschland",
-      "date": "2026-09-05",
-      "end_date": null,
-      "time": null,
-      "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
-    },
     {
       "id": "dav-world-climbing-europe-youth-championships-l-2026-09-19",
       "title": "World Climbing Europe Youth Championships (L)",
       "series": "World Climbing in Germany 2026",
-      "location": "Augsburg, DE",
+      "location": "Augsburg, Germany",
       "date": "2026-09-19",
       "end_date": "2026-09-20",
       "time": null,
@@ -73,7 +18,7 @@
       "id": "dav-8-deutscher-jugendcup-l-2026-09-26",
       "title": "8. Deutscher Jugendcup (L)",
       "series": "Deutscher Jugendcup 2026",
-      "location": "Nürnberg, DE",
+      "location": "Nürnberg, Germany",
       "date": "2026-09-26",
       "end_date": null,
       "time": null,
@@ -89,7 +34,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
+      "url": "https://boulder-bundesliga.de/deutschland-cup-gesamtwertung/"
     },
     {
       "id": "bbl-station-4-einstein-k-ln-2026-09-26",
@@ -100,13 +45,13 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "dav-world-climbing-europe-youth-series-s-2026-10-03",
       "title": "World Climbing Europe Youth Series (S)",
       "series": "World Climbing in Germany 2026",
-      "location": "Leipzig, DE",
+      "location": "Leipzig, Germany",
       "date": "2026-10-03",
       "end_date": null,
       "time": null,
@@ -117,7 +62,7 @@
       "id": "dav-world-climbing-europe-series-s-2026-10-04",
       "title": "World Climbing Europe Series (S)",
       "series": "World Climbing in Germany 2026",
-      "location": "Leipzig, DE",
+      "location": "Leipzig, Germany",
       "date": "2026-10-04",
       "end_date": null,
       "time": null,
@@ -133,7 +78,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
+      "url": "https://boulder-bundesliga.de/deutschland-cup-gesamtwertung/"
     },
     {
       "id": "bbl-station-5-element-essen-2026-10-24",
@@ -144,7 +89,18 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
+    },
+    {
+      "id": "dav-deutsche-meisterschaft-l-2026-10-31",
+      "title": "Deutsche Meisterschaft (L)",
+      "series": "Deutsche Meisterschaft 2026",
+      "location": "Darmstadt, Germany",
+      "date": "2026-10-31",
+      "end_date": "2026-11-01",
+      "time": null,
+      "discipline": "Lead",
+      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
     },
     {
       "id": "dc-station-6-prisma-wuppertal-2026-10-31",
@@ -155,18 +111,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
-    },
-    {
-      "id": "dav-deutsche-meisterschaft-l-2026-10-31",
-      "title": "Deutsche Meisterschaft (L)",
-      "series": "Deutsche Meisterschaft 2026",
-      "location": "Darmstadt, DE",
-      "date": "2026-10-31",
-      "end_date": "2026-11-01",
-      "time": null,
-      "discipline": "Lead",
-      "url": "https://www.alpenverein.de/verband/wettkampf/wettkampfklettern/wettkampfkalender-2026"
+      "url": "https://boulder-bundesliga.de/deutschland-cup-gesamtwertung/"
     },
     {
       "id": "bbl-station-6-prisma-wuppertal-2026-10-31",
@@ -177,7 +122,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "dc-station-7-greifhaus-braunschweig-2026-11-28",
@@ -188,7 +133,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/deutschland-cup-gesamtwertung/"
+      "url": "https://boulder-bundesliga.de/deutschland-cup-gesamtwertung/"
     },
     {
       "id": "bbl-station-7-greifhaus-braunschweig-2026-11-28",
@@ -199,7 +144,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-8-osnabloc-osnabr-ck-2026-12-19",
@@ -210,7 +155,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-9-rocks-jena-2027-01-16",
@@ -221,7 +166,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-10-top-boulder-malmsheim-2027-02-06",
@@ -232,7 +177,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-11-einstein-m-nchen-2027-02-27",
@@ -243,7 +188,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-12-fj-academy-forchheim-2027-03-20",
@@ -254,7 +199,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     },
     {
       "id": "bbl-station-13-e4-n-rnberg-2027-04-03",
@@ -265,7 +210,7 @@
       "end_date": null,
       "time": null,
       "discipline": "Boulder",
-      "url": "https://boulder-bundesliga.de/index.php/boulder-bundesliga-stationen-26-27/"
+      "url": "https://boulder-bundesliga.de/boulder-bundesliga-stationen-26-27/"
     }
   ]
 }

@@ -1,19 +1,8 @@
 {
   "source": "AMERICAS",
   "source_url": "https://www.worldclimbing.com/calendar/index",
-  "fetched_at": "2026-08-05T19:29:19Z",
+  "fetched_at": "2026-09-11T15:33:20Z",
   "events": [
-    {
-      "id": "americas-world-climbing-pan-america-championship-curitiba-2026",
-      "title": "World Climbing Pan America Championship Curitiba 2026",
-      "series": "World Climbing Pan America",
-      "location": "Curitiba, Brazil",
-      "date": "2026-08-22",
-      "end_date": "2026-08-23",
-      "time": null,
-      "discipline": "Speed",
-      "url": "https://www.ifsc-climbing.org/events/world-climbing-pan-america-championship-curitiba-2026/"
-    },
     {
       "id": "americas-world-climbing-series-salt-lake-city-2026",
       "title": "World Climbing Series Salt Lake City 2026",
@@ -35,6 +24,61 @@
       "time": null,
       "discipline": null,
       "url": "https://www.ifsc-climbing.org/events/world-climbing-series-santiago-2026/"
+    },
+    {
+      "id": "americas-usac-elite-yeti-national-championships-2027-02-03",
+      "title": "YETI National Championships",
+      "series": "USA Climbing Elite Series",
+      "location": "USA",
+      "date": "2027-02-03",
+      "end_date": "2027-02-07",
+      "time": null,
+      "discipline": null,
+      "url": "https://usaclimbing.org/yeti-national-championships/"
+    },
+    {
+      "id": "americas-usac-elite-national-team-trials-2027-03-10",
+      "title": "National Team Trials",
+      "series": "USA Climbing Elite Series",
+      "location": "USA",
+      "date": "2027-03-10",
+      "end_date": "2027-03-14",
+      "time": null,
+      "discipline": null,
+      "url": "https://usaclimbing.org/national-team-trials/"
+    },
+    {
+      "id": "americas-nacs-north-american-cup-lead-speed-2027-04-10",
+      "title": "North American Cup (Lead & Speed)",
+      "series": "North American Cup Series",
+      "location": "USA",
+      "date": "2027-04-10",
+      "end_date": "2027-04-11",
+      "time": null,
+      "discipline": null,
+      "url": "https://usaclimbing.org/compete/north-american-cup-series/"
+    },
+    {
+      "id": "americas-nacs-north-american-cup-vail-boulder-speed-2027-06-10",
+      "title": "North American Cup Vail (Boulder & Speed)",
+      "series": "North American Cup Series",
+      "location": "Vail, CO, USA",
+      "date": "2027-06-10",
+      "end_date": "2027-06-13",
+      "time": null,
+      "discipline": null,
+      "url": "https://usaclimbing.org/compete/north-american-cup-series/"
+    },
+    {
+      "id": "americas-nacs-north-american-cup-salt-lake-city-2026-boulder-lead-speed-2027-07-30",
+      "title": "North American Cup Salt Lake City 2026 (Boulder, Lead & Speed)",
+      "series": "North American Cup Series",
+      "location": "Salt Lake City, UT, USA",
+      "date": "2027-07-30",
+      "end_date": "2027-08-03",
+      "time": null,
+      "discipline": null,
+      "url": "https://usaclimbing.org/compete/north-american-cup-series/"
     },
     {
       "id": "americas-olympic-games-la28",

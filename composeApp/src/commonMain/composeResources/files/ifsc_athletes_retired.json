@@ -1,7 +1,7 @@
 {
   "source": "IFSC results API",
   "source_url": "https://ifsc.results.info",
-  "fetched_at": "2026-07-17T20:06:12Z",
+  "fetched_at": "2026-09-11T17:10:55Z",
   "note": "Long-retired / inactive athletes — loaded lazily when 'show inactive' is enabled.",
   "athletes": [
     {
@@ -11,6 +11,8 @@
       "last_name": "Eiter",
       "gender": "W",
       "country": "AUT",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Angela_Eiter.jpg/500px-Angela_Eiter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Angela_Eiter",
       "profile_url": "https://ifsc.results.info/athletes/1207",
       "titles": {
         "lead": 9,
@@ -64,6 +66,7 @@
       "gender": "W",
       "country": "JPN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/y7jmr3n8wlvvu5bqyf32ur9uam4o",
+      "wiki_url": "https://en.wikipedia.org/wiki/Akiyo_Noguchi",
       "profile_url": "https://ifsc.results.info/athletes/2253",
       "titles": {
         "boulder": 4,
@@ -163,6 +166,7 @@
       "gender": "W",
       "country": "AUT",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/4PiTS3JdxmQiVEWyKbZj9s6f",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anna_Stöhr",
       "profile_url": "https://ifsc.results.info/athletes/1211",
       "titles": {
         "lead": 2,
@@ -205,6 +209,7 @@
       "last_name": "Levet",
       "gender": "W",
       "country": "FRA",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sandrine_Levet",
       "profile_url": "https://ifsc.results.info/athletes/430",
       "titles": {
         "boulder": 6,
@@ -253,6 +258,7 @@
       "gender": "W",
       "country": "SLO",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/QrTQEa7RmtGc9Zfh28sRPLyC",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mina_Markovič",
       "profile_url": "https://ifsc.results.info/athletes/1122",
       "titles": {
         "lead": 3,
@@ -304,6 +310,8 @@
       "last_name": "Chabot",
       "gender": "M",
       "country": "FRA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Alexandre_Chabot_-_PuntX_9a_-_Gorges_du_Loup.jpg/500px-Alexandre_Chabot_-_PuntX_9a_-_Gorges_du_Loup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alexandre_Chabot",
       "profile_url": "https://ifsc.results.info/athletes/4470",
       "titles": {
         "lead": 3,
@@ -354,6 +362,8 @@
       "last_name": "Fischhuber",
       "gender": "M",
       "country": "AUT",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Kilian_Fischhuber.jpg/500px-Kilian_Fischhuber.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kilian_Fischhuber",
       "profile_url": "https://ifsc.results.info/athletes/1204",
       "titles": {
         "boulder": 5,
@@ -401,6 +411,7 @@
       "gender": "W",
       "country": "BEL",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/naSk6ZvHP5oEY5uS66sg5kDX",
+      "wiki_url": "https://en.wikipedia.org/wiki/Muriel_Sarkany",
       "profile_url": "https://ifsc.results.info/athletes/306",
       "titles": {
         "lead": 6,
@@ -622,6 +633,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/15mqe73anncklfba484yf3o1ezmw",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anouck_Jaubert",
       "profile_url": "https://ifsc.results.info/athletes/479",
       "titles": {
         "speed": 3,
@@ -668,6 +680,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/1MoAKhewCMhoBgtqCs5mJCxf",
+      "wiki_url": "https://en.wikipedia.org/wiki/Liv_Sansoz",
       "profile_url": "https://ifsc.results.info/athletes/4530",
       "titles": {
         "lead": 5,
@@ -716,6 +729,7 @@
       "gender": "M",
       "country": "RUS",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/5UkRxTxo97kH16daTmWMWB9w",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dmitrii_Sharafutdinov",
       "profile_url": "https://ifsc.results.info/athletes/53",
       "titles": {
         "boulder": 4,
@@ -758,6 +772,7 @@
       "gender": "W",
       "country": "RUS",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/gufpwvklw5vctq96i1o6zxo8ne2x",
+      "wiki_url": "https://en.wikipedia.org/wiki/Iuliia_Kaplina",
       "profile_url": "https://ifsc.results.info/athletes/110",
       "titles": {
         "speed": 1,
@@ -803,6 +818,7 @@
       "last_name": "Mrázek",
       "gender": "M",
       "country": "CZE",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tomáš_Mrázek",
       "profile_url": "https://ifsc.results.info/athletes/1356",
       "titles": {
         "lead": 5,
@@ -936,6 +952,7 @@
       "last_name": "Meyer",
       "gender": "M",
       "country": "FRA",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jérôme_Meyer",
       "profile_url": "https://ifsc.results.info/athletes/412",
       "titles": {
         "boulder": 3,
@@ -1016,6 +1033,8 @@
       "last_name": "Ernst",
       "gender": "W",
       "country": "AUT",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Johanna_Ernst_Imst_2009.JPG/500px-Johanna_Ernst_Imst_2009.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Johanna_Ernst",
       "profile_url": "https://ifsc.results.info/athletes/1219",
       "titles": {
         "lead": 5,
@@ -1099,6 +1118,7 @@
       "gender": "W",
       "country": "GBR",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/zqm1qe2oqpp2gij0hwwkwzheeeft",
+      "wiki_url": "https://en.wikipedia.org/wiki/Shauna_Coxsey",
       "profile_url": "https://ifsc.results.info/athletes/636",
       "titles": {
         "boulder": 2,
@@ -1134,6 +1154,8 @@
       "last_name": "Lama",
       "gender": "M",
       "country": "AUT",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/David-lama1.JPG/500px-David-lama1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/David_Lama",
       "profile_url": "https://ifsc.results.info/athletes/1213",
       "titles": {
         "lead": 2,
@@ -1222,6 +1244,7 @@
       "gender": "M",
       "country": "RUS",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/q4UYe3MdjXhvXZRPjkr6YDmm",
+      "wiki_url": "https://en.wikipedia.org/wiki/Stanislav_Kokorin",
       "profile_url": "https://ifsc.results.info/athletes/74",
       "titles": {
         "speed": 4,
@@ -1412,6 +1435,7 @@
       "gender": "M",
       "country": "GER",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/xuixezfmch2r8xtt1pd7hb3kv2ox",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jan_Hojer",
       "profile_url": "https://ifsc.results.info/athletes/3422",
       "titles": {
         "boulder": 1,
@@ -1504,6 +1528,7 @@
       "last_name": "Styenkovyy",
       "gender": "M",
       "country": "UKR",
+      "wiki_url": "https://en.wikipedia.org/wiki/Maksym_Styenkovyy",
       "profile_url": "https://ifsc.results.info/athletes/1470",
       "titles": {
         "speed": 3,
@@ -1547,6 +1572,7 @@
       "gender": "M",
       "country": "JPN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/RG81Z8NDzqKkxFBCipnkkMmt",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sachi_Amma",
       "profile_url": "https://ifsc.results.info/athletes/2254",
       "titles": {
         "lead": 2,
@@ -1628,6 +1654,7 @@
       "gender": "M",
       "country": "JPN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/GNyfB3Q8dJhxXcbd3944m5Zo",
+      "wiki_url": "https://en.wikipedia.org/wiki/Yuji_Hirayama",
       "profile_url": "https://ifsc.results.info/athletes/2247",
       "titles": {
         "lead": 2,
@@ -1669,6 +1696,7 @@
       "gender": "M",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/jF4QNBxzmSGHXbkNWWBdTT3L",
+      "wiki_url": "https://en.wikipedia.org/wiki/Romain_Desgranges",
       "profile_url": "https://ifsc.results.info/athletes/437",
       "titles": {
         "lead": 1,
@@ -2114,6 +2142,7 @@
       "gender": "W",
       "country": "BEL",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/swyywy78fxwo03zqefwoia3vlqcb",
+      "wiki_url": "https://en.wikipedia.org/wiki/Anak_Verhoeven",
       "profile_url": "https://ifsc.results.info/athletes/315",
       "titles": {
         "lead": 4,
@@ -2200,6 +2229,7 @@
       "gender": "M",
       "country": "ITA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/Y8SKQNYsAwp7Z1mh75erb1ju",
+      "wiki_url": "https://en.wikipedia.org/wiki/Christian_Core",
       "profile_url": "https://ifsc.results.info/athletes/4463",
       "titles": {
         "boulder": 3,
@@ -2241,6 +2271,7 @@
       "gender": "M",
       "country": "SLO",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/nr6ez77r9p8ju3mj04yl4jg3l05q",
+      "wiki_url": "https://en.wikipedia.org/wiki/Domen_Škofic",
       "profile_url": "https://ifsc.results.info/athletes/1129",
       "titles": {
         "lead": 3,
@@ -2384,6 +2415,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/xtYhWcts1BjHL3Go2i7QAU1b",
+      "wiki_url": "https://en.wikipedia.org/wiki/Isabelle_Patissier",
       "profile_url": "https://ifsc.results.info/athletes/6518",
       "titles": {
         "lead": 1,
@@ -2803,6 +2835,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/LYqezgAw9re6o478pGMfaGa9",
+      "wiki_url": "https://en.wikipedia.org/wiki/Stéphanie_Bodet",
       "profile_url": "https://ifsc.results.info/athletes/4529",
       "titles": {
         "boulder": 1,
@@ -2887,6 +2920,8 @@
       "last_name": "Deulin",
       "gender": "M",
       "country": "RUS",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/2020-11-21_-_IFSC_Euros_-_Speed_M_-_QF_-_Photo_09.jpg/500px-2020-11-21_-_IFSC_Euros_-_Speed_M_-_QF_-_Photo_09.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vladislav_Deulin",
       "profile_url": "https://ifsc.results.info/athletes/98",
       "titles": {
         "speed": 1,
@@ -2999,6 +3034,8 @@
       "last_name": "Digiulian",
       "gender": "W",
       "country": "USA",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sasha_DiGiulian.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "wiki_url": "https://en.wikipedia.org/wiki/Sasha_DiGiulian",
       "profile_url": "https://ifsc.results.info/athletes/1712",
       "medals": {
         "world_championships": {
@@ -3135,6 +3172,7 @@
       "gender": "W",
       "country": "INA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/s38vkfc963y3zoqz9rezqpm378ug",
+      "wiki_url": "https://en.wikipedia.org/wiki/Aries_Susanti_Rahayu",
       "profile_url": "https://ifsc.results.info/athletes/3337",
       "medals": {
         "european_championships": {
@@ -3753,6 +3791,7 @@
       "gender": "W",
       "country": "BEL",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/d6DxdTyTvi37jsjscJYioVkZ",
+      "wiki_url": "https://en.wikipedia.org/wiki/Chloé_Graftiaux",
       "profile_url": "https://ifsc.results.info/athletes/309",
       "titles": {
         "lead": 1,
@@ -4284,7 +4323,7 @@
       "last_gold": {
         "year": 2021,
         "venue": "Ibarra",
-        "competition": "Combined"
+        "competition": "Boulder"
       },
       "last_competed": 2022
     },
@@ -4693,6 +4732,8 @@
       "last_name": "Puccio",
       "gender": "W",
       "country": "USA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Alex_Puccio_USA_2017_%28cropped%29.jpg/500px-Alex_Puccio_USA_2017_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alex_Puccio",
       "profile_url": "https://ifsc.results.info/athletes/1710",
       "medals": {
         "world_championships": {
@@ -4735,7 +4776,7 @@
       "last_gold": {
         "year": 2013,
         "venue": "Asian Champ.",
-        "competition": "Lead"
+        "competition": "Boulder"
       },
       "last_competed": 2018
     },
@@ -5117,6 +5158,7 @@
       "gender": "M",
       "country": "USA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/wat5vjRwJwxuRt8dKiaezfJm",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hans_Florine",
       "profile_url": "https://ifsc.results.info/athletes/6568",
       "titles": {
         "speed": 1,
@@ -5145,6 +5187,7 @@
       "gender": "M",
       "country": "JPN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/hkqjip18ebbqe2tsr8jtr7lj0hrp",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kai_Harada",
       "profile_url": "https://ifsc.results.info/athletes/2332",
       "titles": {
         "boulder": 1,
@@ -5801,6 +5844,7 @@
       "gender": "M",
       "country": "ITA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/c2K4K7E8Qz1Q2th7BSqBz5J7",
+      "wiki_url": "https://en.wikipedia.org/wiki/Cristian_Brenna",
       "profile_url": "https://ifsc.results.info/athletes/4472",
       "medals": {
         "european_championships": {
@@ -6154,6 +6198,7 @@
       "last_name": "Esmaeilzadeh",
       "gender": "W",
       "country": "IRI",
+      "wiki_url": "https://en.wikipedia.org/wiki/Farnaz_Esmaeilzadeh",
       "profile_url": "https://ifsc.results.info/athletes/3464",
       "medals": {
         "european_championships": {
@@ -6269,6 +6314,8 @@
       "last_name": "Harrington",
       "gender": "W",
       "country": "USA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Emily_Harrington_sends_Golden_Gate_%285.13_VI%29_in_El_Capitan_-_06.jpg/500px-Emily_Harrington_sends_Golden_Gate_%285.13_VI%29_in_El_Capitan_-_06.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Emily_Harrington",
       "profile_url": "https://ifsc.results.info/athletes/5282",
       "medals": {
         "world_championships": {
@@ -6326,6 +6373,7 @@
       "gender": "W",
       "country": "USA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/VeRdVRsirZy59txHLruMgzmU",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lynn_Hill",
       "profile_url": "https://ifsc.results.info/athletes/6519",
       "world_cup_events": {
         "lead": {
@@ -6483,6 +6531,8 @@
       "last_name": "Kiersch",
       "gender": "W",
       "country": "USA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2019_Sport_%26_Speed_Open_Nationals_-_Semifinals_-_Michaela_Kiersch_-_02.jpg/500px-2019_Sport_%26_Speed_Open_Nationals_-_Semifinals_-_Michaela_Kiersch_-_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Michaela_Kiersch",
       "profile_url": "https://ifsc.results.info/athletes/1718",
       "medals": {
         "european_championships": {
@@ -6698,6 +6748,7 @@
       "last_name": "Lightner",
       "gender": "M",
       "country": "USA",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kai_Lightner",
       "profile_url": "https://ifsc.results.info/athletes/1772",
       "medals": {
         "european_championships": {
@@ -7142,6 +7193,7 @@
       "last_name": "Rands",
       "gender": "W",
       "country": "USA",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lisa_Rands",
       "profile_url": "https://ifsc.results.info/athletes/5129",
       "world_cup_events": {
         "boulder": {
@@ -7278,6 +7330,7 @@
       "gender": "M",
       "country": "USA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/gtgrCy66HojFTpyVB9jMYKSM",
+      "wiki_url": "https://en.wikipedia.org/wiki/Chris_Sharma",
       "profile_url": "https://ifsc.results.info/athletes/4665",
       "medals": {
         "world_championships": {
@@ -7335,6 +7388,8 @@
       "last_name": "Shiraishi",
       "gender": "W",
       "country": "USA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Climbing_World_Championships_2018_Lead_Final_Shiraishi_%28BT0A2525%29-3.jpg/500px-Climbing_World_Championships_2018_Lead_Final_Shiraishi_%28BT0A2525%29-3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ashima_Shiraishi",
       "profile_url": "https://ifsc.results.info/athletes/1812",
       "medals": {
         "european_championships": {
@@ -7389,6 +7444,7 @@
       "gender": "M",
       "country": "GBR",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/Np9McGDWzUPMfmZsRv2c3V2k",
+      "wiki_url": "https://en.wikipedia.org/wiki/Malcolm_Smith",
       "profile_url": "https://ifsc.results.info/athletes/5135",
       "world_cup_events": {
         "boulder": {
@@ -7429,6 +7485,7 @@
       "gender": "W",
       "country": "RSA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/4r3assdseg8f0eiq5qgoqrta5jrq",
+      "wiki_url": "https://en.wikipedia.org/wiki/Erin_Sterkenburg",
       "profile_url": "https://ifsc.results.info/athletes/1103",
       "medals": {
         "european_championships": {
@@ -7470,6 +7527,7 @@
       "gender": "M",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/GVphUEhXwAq4akLKTfmWJ2Vu",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tribout",
       "profile_url": "https://ifsc.results.info/athletes/6463",
       "world_cup_events": {
         "lead": {
@@ -7658,6 +7716,7 @@
       "gender": "M",
       "country": "JPN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/2bq4r24a49763x864cdsrycjsrqe",
+      "wiki_url": "https://en.wikipedia.org/wiki/Keita_Watabe",
       "profile_url": "https://ifsc.results.info/athletes/2265",
       "medals": {
         "european_championships": {
@@ -7689,6 +7748,7 @@
       "gender": "M",
       "country": "USA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/4uEADGicKXjUT7ZwP1UZpGHf",
+      "wiki_url": "https://en.wikipedia.org/wiki/Daniel_Woods",
       "profile_url": "https://ifsc.results.info/athletes/1707",
       "world_cup_events": {
         "boulder": {
@@ -7962,20 +8022,6 @@
       "last_competed": 2018
     },
     {
-      "id": "ifsc-14241",
-      "ifsc_id": 14241,
-      "first_name": "Andrea Ludovico",
-      "last_name": "Chelleris",
-      "gender": "M",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/14241",
-      "titles": {
-        "total": 2,
-        "world_cup_season": 2
-      },
-      "birth_date": "2009-03-21"
-    },
-    {
       "id": "ifsc-935",
       "ifsc_id": 935,
       "first_name": "Elisabetta",
@@ -8021,21 +8067,6 @@
         "world_cup_season": 2
       },
       "last_competed": 2004
-    },
-    {
-      "id": "ifsc-14579",
-      "ifsc_id": 14579,
-      "first_name": "Léo",
-      "last_name": "Grosset",
-      "gender": "M",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/14579",
-      "titles": {
-        "speed": 1,
-        "total": 2,
-        "world_cup_season": 2
-      },
-      "birth_date": "2009-04-29"
     },
     {
       "id": "ifsc-2849",
@@ -8100,6 +8131,21 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-16701",
+      "ifsc_id": 16701,
+      "first_name": "Amélie",
+      "last_name": "Kägi",
+      "gender": "W",
+      "country": "SUI",
+      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/fu4vq5bimhzgwo7f5rwnq48d9ycy",
+      "profile_url": "https://ifsc.results.info/athletes/16701",
+      "titles": {
+        "total": 2,
+        "world_cup_season": 2
+      },
+      "birth_date": "2011-07-14"
+    },
+    {
       "id": "ifsc-7926",
       "ifsc_id": 7926,
       "first_name": "Alexandra",
@@ -8154,6 +8200,8 @@
       "last_name": "Parma",
       "gender": "M",
       "country": "AUT",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Georg_Parma_-_WorldYouthChampionships_-_Boulder%2C_Arco_%28IT%29_2015.jpg/500px-Georg_Parma_-_WorldYouthChampionships_-_Boulder%2C_Arco_%28IT%29_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Georg_Parma",
       "profile_url": "https://ifsc.results.info/athletes/1234",
       "titles": {
         "lead": 2,
@@ -8645,6 +8693,21 @@
       "last_competed": 2016
     },
     {
+      "id": "ifsc-1152",
+      "ifsc_id": 1152,
+      "first_name": "Tanja",
+      "last_name": "Glusic",
+      "gender": "W",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/1152",
+      "titles": {
+        "lead": 1,
+        "total": 1,
+        "world_cup_season": 1
+      },
+      "birth_date": "1995-12-26"
+    },
+    {
       "id": "ifsc-10776",
       "ifsc_id": 10776,
       "first_name": "Gian",
@@ -8783,6 +8846,20 @@
       "last_competed": 2018
     },
     {
+      "id": "ifsc-15505",
+      "ifsc_id": 15505,
+      "first_name": "Lara",
+      "last_name": "Haselwanter",
+      "gender": "W",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/15505",
+      "titles": {
+        "total": 1,
+        "world_cup_season": 1
+      },
+      "birth_date": "2010-02-22"
+    },
+    {
       "id": "ifsc-7109",
       "ifsc_id": 7109,
       "first_name": "Manuel",
@@ -8829,21 +8906,6 @@
       }
     },
     {
-      "id": "ifsc-542",
-      "ifsc_id": 542,
-      "first_name": "Lucie",
-      "last_name": "Jarrige",
-      "gender": "W",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/542",
-      "titles": {
-        "lead": 1,
-        "total": 1,
-        "world_cup_season": 1
-      },
-      "birth_date": "1990-12-10"
-    },
-    {
       "id": "ifsc-8696",
       "ifsc_id": 8696,
       "first_name": "Lucas",
@@ -8885,21 +8947,6 @@
         "world_cup_season": 1
       },
       "last_competed": 2013
-    },
-    {
-      "id": "ifsc-16701",
-      "ifsc_id": 16701,
-      "first_name": "Amélie",
-      "last_name": "Kägi",
-      "gender": "W",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/fu4vq5bimhzgwo7f5rwnq48d9ycy",
-      "profile_url": "https://ifsc.results.info/athletes/16701",
-      "titles": {
-        "total": 1,
-        "world_cup_season": 1
-      },
-      "birth_date": "2011-07-14"
     },
     {
       "id": "ifsc-1233",
@@ -8948,21 +8995,6 @@
         "world_cup_season": 1
       },
       "last_competed": 2000
-    },
-    {
-      "id": "ifsc-14307",
-      "ifsc_id": 14307,
-      "first_name": "Christian",
-      "last_name": "Leitner",
-      "gender": "M",
-      "country": "AUT",
-      "profile_url": "https://ifsc.results.info/athletes/14307",
-      "titles": {
-        "lead": 1,
-        "total": 1,
-        "world_cup_season": 1
-      },
-      "birth_date": "2009-03-06"
     },
     {
       "id": "ifsc-351",
@@ -9120,6 +9152,7 @@
       "gender": "M",
       "country": "GBR",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/Zywso9i4pCz2pkMnRyquHMGJ",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ben_Moon",
       "profile_url": "https://ifsc.results.info/athletes/6473",
       "titles": {
         "combined": 1,
@@ -9139,6 +9172,20 @@
         }
       },
       "last_competed": 2003
+    },
+    {
+      "id": "ifsc-17093",
+      "ifsc_id": 17093,
+      "first_name": "Maksymilian",
+      "last_name": "Myśliwiec",
+      "gender": "M",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/17093",
+      "titles": {
+        "total": 1,
+        "world_cup_season": 1
+      },
+      "birth_date": "2010-10-21"
     },
     {
       "id": "ifsc-464",
@@ -9350,6 +9397,7 @@
       "last_name": "Sapir",
       "gender": "M",
       "country": "ISR",
+      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/g5rbfeasetbyo5hd8i9hgj0ar1rd",
       "profile_url": "https://ifsc.results.info/athletes/4010",
       "titles": {
         "lead": 1,
@@ -9525,6 +9573,20 @@
       },
       "birth_date": "1990-04-30",
       "last_competed": 2007
+    },
+    {
+      "id": "ifsc-18451",
+      "ifsc_id": 18451,
+      "first_name": "Maxmilián",
+      "last_name": "Suchan",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18451",
+      "titles": {
+        "total": 1,
+        "world_cup_season": 1
+      },
+      "birth_date": "2011-11-29"
     },
     {
       "id": "ifsc-8158",
@@ -10029,16 +10091,6 @@
       "birth_date": "2005-05-19"
     },
     {
-      "id": "ifsc-13767",
-      "ifsc_id": 13767,
-      "first_name": "Tomy",
-      "last_name": "Adamovsky",
-      "gender": "M",
-      "country": "ISR",
-      "profile_url": "https://ifsc.results.info/athletes/13767",
-      "birth_date": "2008-12-22"
-    },
-    {
       "id": "ifsc-681",
       "ifsc_id": 681,
       "first_name": "Isabelle",
@@ -10464,6 +10516,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/BuEmpm7YKhY1nYq1ihVmGsBA",
       "profile_url": "https://ifsc.results.info/athletes/6676",
       "last_competed": 1995
+    },
+    {
+      "id": "ifsc-18450",
+      "ifsc_id": 18450,
+      "first_name": "Elena",
+      "last_name": "Alcer",
+      "gender": "W",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/18450",
+      "birth_date": "2011-03-01"
     },
     {
       "id": "ifsc-993",
@@ -10906,6 +10968,16 @@
       "last_competed": 2014
     },
     {
+      "id": "ifsc-17878",
+      "ifsc_id": 17878,
+      "first_name": "Saga",
+      "last_name": "Andersson",
+      "gender": "W",
+      "country": "FIN",
+      "profile_url": "https://ifsc.results.info/athletes/17878",
+      "birth_date": "2010-11-14"
+    },
+    {
       "id": "ifsc-8898",
       "ifsc_id": 8898,
       "first_name": "Wiktor",
@@ -11023,16 +11095,6 @@
       "country": "HUN",
       "profile_url": "https://ifsc.results.info/athletes/2178",
       "birth_date": "1998-03-21"
-    },
-    {
-      "id": "ifsc-16084",
-      "ifsc_id": 16084,
-      "first_name": "Darío",
-      "last_name": "Andrés Ruíz",
-      "gender": "M",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/16084",
-      "birth_date": "2009-06-30"
     },
     {
       "id": "ifsc-4112",
@@ -11427,6 +11489,16 @@
       "last_competed": 2005
     },
     {
+      "id": "ifsc-18070",
+      "ifsc_id": 18070,
+      "first_name": "Aurora Marie",
+      "last_name": "Arezzo",
+      "gender": "W",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18070",
+      "birth_date": "2011-04-21"
+    },
+    {
       "id": "ifsc-13419",
       "ifsc_id": 13419,
       "first_name": "Stav",
@@ -11790,6 +11862,16 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-17904",
+      "ifsc_id": 17904,
+      "first_name": "Eric",
+      "last_name": "Ashmore",
+      "gender": "M",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/17904",
+      "birth_date": "2008-03-14"
+    },
+    {
       "id": "ifsc-5603",
       "ifsc_id": 5603,
       "first_name": "William",
@@ -11808,6 +11890,16 @@
       "country": "USA",
       "profile_url": "https://ifsc.results.info/athletes/7369",
       "last_competed": 2005
+    },
+    {
+      "id": "ifsc-17917",
+      "ifsc_id": 17917,
+      "first_name": "Elijah",
+      "last_name": "Ashworth",
+      "gender": "M",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/17917",
+      "birth_date": "2011-12-13"
     },
     {
       "id": "ifsc-4337",
@@ -11947,16 +12039,6 @@
       "country": "FIN",
       "profile_url": "https://ifsc.results.info/athletes/12625",
       "birth_date": "2004-06-14"
-    },
-    {
-      "id": "ifsc-2437",
-      "ifsc_id": 2437,
-      "first_name": "Petar",
-      "last_name": "Atanasov",
-      "gender": "M",
-      "country": "BUL",
-      "profile_url": "https://ifsc.results.info/athletes/2437",
-      "birth_date": "2003-06-19"
     },
     {
       "id": "ifsc-8564",
@@ -12277,16 +12359,6 @@
       "country": "ISR",
       "profile_url": "https://ifsc.results.info/athletes/15747",
       "birth_date": "2009-01-18"
-    },
-    {
-      "id": "ifsc-17223",
-      "ifsc_id": 17223,
-      "first_name": "Lizer",
-      "last_name": "Aznarez Bescos",
-      "gender": "M",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/17223",
-      "birth_date": "2007-02-18"
     },
     {
       "id": "ifsc-1452",
@@ -12645,6 +12717,16 @@
       "last_competed": 2001
     },
     {
+      "id": "ifsc-18798",
+      "ifsc_id": 18798,
+      "first_name": "Anne-Sophie",
+      "last_name": "Bakker",
+      "gender": "W",
+      "country": "NED",
+      "profile_url": "https://ifsc.results.info/athletes/18798",
+      "birth_date": "2010-06-12"
+    },
+    {
       "id": "ifsc-5625",
       "ifsc_id": 5625,
       "first_name": "Sandra",
@@ -12844,6 +12926,16 @@
       "last_competed": 2021
     },
     {
+      "id": "ifsc-18118",
+      "ifsc_id": 18118,
+      "first_name": "Ioanna",
+      "last_name": "Bambatzikou",
+      "gender": "W",
+      "country": "GRE",
+      "profile_url": "https://ifsc.results.info/athletes/18118",
+      "birth_date": "2011-10-16"
+    },
+    {
       "id": "ifsc-1002",
       "ifsc_id": 1002,
       "first_name": "Luca",
@@ -12881,16 +12973,6 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/14782",
       "birth_date": "2008-03-18"
-    },
-    {
-      "id": "ifsc-12889",
-      "ifsc_id": 12889,
-      "first_name": "Ilai",
-      "last_name": "Bar Ilan",
-      "gender": "M",
-      "country": "ISR",
-      "profile_url": "https://ifsc.results.info/athletes/12889",
-      "birth_date": "2007-06-06"
     },
     {
       "id": "ifsc-17499",
@@ -13215,6 +13297,16 @@
       "gender": "W",
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/7629"
+    },
+    {
+      "id": "ifsc-18462",
+      "ifsc_id": 18462,
+      "first_name": "Carlotta",
+      "last_name": "Barth",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18462",
+      "birth_date": "2009-07-09"
     },
     {
       "id": "ifsc-5178",
@@ -13597,16 +13689,6 @@
       "gender": "M",
       "country": "BUL",
       "profile_url": "https://ifsc.results.info/athletes/14260",
-      "birth_date": "2009-05-08"
-    },
-    {
-      "id": "ifsc-14261",
-      "ifsc_id": 14261,
-      "first_name": "Boris",
-      "last_name": "Bechev",
-      "gender": "M",
-      "country": "BUL",
-      "profile_url": "https://ifsc.results.info/athletes/14261",
       "birth_date": "2009-05-08"
     },
     {
@@ -14066,6 +14148,16 @@
       "birth_date": "2008-08-02"
     },
     {
+      "id": "ifsc-18800",
+      "ifsc_id": 18800,
+      "first_name": "Edvin",
+      "last_name": "Bengtsson",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18800",
+      "birth_date": "2010-01-27"
+    },
+    {
       "id": "ifsc-6836",
       "ifsc_id": 6836,
       "first_name": "Milan",
@@ -14142,17 +14234,6 @@
       "gender": "M",
       "country": "USA",
       "profile_url": "https://ifsc.results.info/athletes/8062"
-    },
-    {
-      "id": "ifsc-2182",
-      "ifsc_id": 2182,
-      "first_name": "Adél",
-      "last_name": "Benus",
-      "gender": "W",
-      "country": "HUN",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/f1SP5z8KHaW2bKyJYx3PpVqr",
-      "profile_url": "https://ifsc.results.info/athletes/2182",
-      "birth_date": "2001-08-01"
     },
     {
       "id": "ifsc-7719",
@@ -14413,16 +14494,6 @@
       "last_competed": 2011
     },
     {
-      "id": "ifsc-14475",
-      "ifsc_id": 14475,
-      "first_name": "Francisco",
-      "last_name": "Bernardes",
-      "gender": "M",
-      "country": "POR",
-      "profile_url": "https://ifsc.results.info/athletes/14475",
-      "birth_date": "2008-04-17"
-    },
-    {
       "id": "ifsc-15740",
       "ifsc_id": 15740,
       "first_name": "Natalia",
@@ -14461,6 +14532,16 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/15614",
       "birth_date": "2005-10-11"
+    },
+    {
+      "id": "ifsc-18449",
+      "ifsc_id": 18449,
+      "first_name": "Nino",
+      "last_name": "Bernini",
+      "gender": "M",
+      "country": "SUI",
+      "profile_url": "https://ifsc.results.info/athletes/18449",
+      "birth_date": "2009-12-27"
     },
     {
       "id": "ifsc-13615",
@@ -14532,6 +14613,16 @@
       "gender": "M",
       "country": "BEL",
       "profile_url": "https://ifsc.results.info/athletes/8706"
+    },
+    {
+      "id": "ifsc-17956",
+      "ifsc_id": 17956,
+      "first_name": "Theodor",
+      "last_name": "Berthelsen",
+      "gender": "M",
+      "country": "DEN",
+      "profile_url": "https://ifsc.results.info/athletes/17956",
+      "birth_date": "2009-09-04"
     },
     {
       "id": "ifsc-457",
@@ -14714,6 +14805,16 @@
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/14306",
       "birth_date": "2009-06-27"
+    },
+    {
+      "id": "ifsc-18160",
+      "ifsc_id": 18160,
+      "first_name": "Vincent",
+      "last_name": "Bicknell",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18160",
+      "birth_date": "2010-02-20"
     },
     {
       "id": "ifsc-6785",
@@ -14993,6 +15094,26 @@
       "last_competed": 2019
     },
     {
+      "id": "ifsc-18521",
+      "ifsc_id": 18521,
+      "first_name": "Ole Sigurd",
+      "last_name": "Biørn-Lian",
+      "gender": "M",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18521",
+      "birth_date": "2011-01-26"
+    },
+    {
+      "id": "ifsc-18804",
+      "ifsc_id": 18804,
+      "first_name": "Tyra",
+      "last_name": "Björkqvist",
+      "gender": "W",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18804",
+      "birth_date": "2010-03-12"
+    },
+    {
       "id": "ifsc-16915",
       "ifsc_id": 16915,
       "first_name": "Mali",
@@ -15090,6 +15211,16 @@
       "profile_url": "https://ifsc.results.info/athletes/3779",
       "birth_date": "1990-06-10",
       "last_competed": 2021
+    },
+    {
+      "id": "ifsc-18429",
+      "ifsc_id": 18429,
+      "first_name": "Leonardo",
+      "last_name": "Blasutig",
+      "gender": "M",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18429",
+      "birth_date": "2010-05-11"
     },
     {
       "id": "ifsc-8985",
@@ -15321,6 +15452,16 @@
       "country": "CZE",
       "profile_url": "https://ifsc.results.info/athletes/15590",
       "birth_date": "2010-02-20"
+    },
+    {
+      "id": "ifsc-17982",
+      "ifsc_id": 17982,
+      "first_name": "Eliška",
+      "last_name": "Bodorová",
+      "gender": "W",
+      "country": "SVK",
+      "profile_url": "https://ifsc.results.info/athletes/17982",
+      "birth_date": "2011-03-03"
     },
     {
       "id": "ifsc-5769",
@@ -16118,16 +16259,6 @@
       "profile_url": "https://ifsc.results.info/athletes/8271"
     },
     {
-      "id": "ifsc-15474",
-      "ifsc_id": 15474,
-      "first_name": "Tom",
-      "last_name": "Bouwknegt",
-      "gender": "M",
-      "country": "GBR",
-      "profile_url": "https://ifsc.results.info/athletes/15474",
-      "birth_date": "2009-11-21"
-    },
-    {
       "id": "ifsc-5908",
       "ifsc_id": 5908,
       "first_name": "Mathieu",
@@ -16366,16 +16497,6 @@
       "birth_date": "2009-09-21"
     },
     {
-      "id": "ifsc-17293",
-      "ifsc_id": 17293,
-      "first_name": "Emie",
-      "last_name": "Brault",
-      "gender": "W",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/17293",
-      "birth_date": "2007-04-29"
-    },
-    {
       "id": "ifsc-6615",
       "ifsc_id": 6615,
       "first_name": "Irmgard",
@@ -16446,14 +16567,14 @@
       "birth_date": "2009-02-11"
     },
     {
-      "id": "ifsc-14770",
-      "ifsc_id": 14770,
-      "first_name": "Macha",
+      "id": "ifsc-18334",
+      "ifsc_id": 18334,
+      "first_name": "Sidonie",
       "last_name": "Brebion",
       "gender": "W",
       "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/14770",
-      "birth_date": "2008-08-07"
+      "profile_url": "https://ifsc.results.info/athletes/18334",
+      "birth_date": "2010-10-07"
     },
     {
       "id": "ifsc-4519",
@@ -16514,16 +16635,6 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/14777",
       "birth_date": "2009-05-04"
-    },
-    {
-      "id": "ifsc-16047",
-      "ifsc_id": 16047,
-      "first_name": "Sofia",
-      "last_name": "Brenna",
-      "gender": "W",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/16047",
-      "birth_date": "2009-09-14"
     },
     {
       "id": "ifsc-4667",
@@ -16654,6 +16765,16 @@
       "gender": "M",
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/7715"
+    },
+    {
+      "id": "ifsc-18161",
+      "ifsc_id": 18161,
+      "first_name": "Emilia",
+      "last_name": "Briel",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18161",
+      "birth_date": "2011-10-27"
     },
     {
       "id": "ifsc-5885",
@@ -17687,16 +17808,6 @@
       "last_competed": 1994
     },
     {
-      "id": "ifsc-14472",
-      "ifsc_id": 14472,
-      "first_name": "Sofia",
-      "last_name": "Cabaço",
-      "gender": "W",
-      "country": "POR",
-      "profile_url": "https://ifsc.results.info/athletes/14472",
-      "birth_date": "2009-07-21"
-    },
-    {
       "id": "ifsc-431",
       "ifsc_id": 431,
       "first_name": "Romain",
@@ -18004,16 +18115,6 @@
       "last_competed": 2013
     },
     {
-      "id": "ifsc-14221",
-      "ifsc_id": 14221,
-      "first_name": "Emma",
-      "last_name": "Campa",
-      "gender": "W",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/14221",
-      "birth_date": "2009-10-21"
-    },
-    {
       "id": "ifsc-1032",
       "ifsc_id": 1032,
       "first_name": "Petra",
@@ -18023,6 +18124,16 @@
       "profile_url": "https://ifsc.results.info/athletes/1032",
       "birth_date": "2001-05-26",
       "last_competed": 2021
+    },
+    {
+      "id": "ifsc-18333",
+      "ifsc_id": 18333,
+      "first_name": "Lou",
+      "last_name": "Campistron",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18333",
+      "birth_date": "2011-05-04"
     },
     {
       "id": "ifsc-3799",
@@ -18116,6 +18227,16 @@
       "country": "ITA",
       "profile_url": "https://ifsc.results.info/athletes/14209",
       "birth_date": "2008-11-04"
+    },
+    {
+      "id": "ifsc-18435",
+      "ifsc_id": 18435,
+      "first_name": "Matilde",
+      "last_name": "Capoferro",
+      "gender": "W",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18435",
+      "birth_date": "2011-08-09"
     },
     {
       "id": "ifsc-943",
@@ -18329,6 +18450,16 @@
       "birth_date": "2010-12-15"
     },
     {
+      "id": "ifsc-18811",
+      "ifsc_id": 18811,
+      "first_name": "Gabriel",
+      "last_name": "Carreira Domingues",
+      "gender": "M",
+      "country": "NED",
+      "profile_url": "https://ifsc.results.info/athletes/18811",
+      "birth_date": "2010-08-09"
+    },
+    {
       "id": "ifsc-6883",
       "ifsc_id": 6883,
       "first_name": "David",
@@ -18490,6 +18621,16 @@
       "profile_url": "https://ifsc.results.info/athletes/554",
       "birth_date": "2001-05-16",
       "last_competed": 2022
+    },
+    {
+      "id": "ifsc-18437",
+      "ifsc_id": 18437,
+      "first_name": "Eleonora",
+      "last_name": "Casali",
+      "gender": "W",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18437",
+      "birth_date": "2011-06-12"
     },
     {
       "id": "ifsc-11473",
@@ -19769,6 +19910,7 @@
           "bronze": 1
         }
       },
+      "birth_date": "1966-08-17",
       "last_competed": 2004
     },
     {
@@ -20010,6 +20152,16 @@
       "country": "CZE",
       "profile_url": "https://ifsc.results.info/athletes/5474",
       "last_competed": 2005
+    },
+    {
+      "id": "ifsc-18825",
+      "ifsc_id": 18825,
+      "first_name": "Zoja",
+      "last_name": "Chudíková",
+      "gender": "W",
+      "country": "SVK",
+      "profile_url": "https://ifsc.results.info/athletes/18825",
+      "birth_date": "2009-11-05"
     },
     {
       "id": "ifsc-1769",
@@ -21009,17 +21161,6 @@
       "birth_date": "2003-10-23"
     },
     {
-      "id": "ifsc-14471",
-      "ifsc_id": 14471,
-      "first_name": "Natércia",
-      "last_name": "Crisanto",
-      "gender": "W",
-      "country": "POR",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/ft1rhpnrnhvc3wthzmmnphoqbajo",
-      "profile_url": "https://ifsc.results.info/athletes/14471",
-      "birth_date": "2009-12-21"
-    },
-    {
       "id": "ifsc-7551",
       "ifsc_id": 7551,
       "first_name": "Susanna",
@@ -21334,16 +21475,6 @@
       "birth_date": "2004-05-13"
     },
     {
-      "id": "ifsc-14318",
-      "ifsc_id": 14318,
-      "first_name": "Brecht",
-      "last_name": "D'Haeseleer",
-      "gender": "M",
-      "country": "BEL",
-      "profile_url": "https://ifsc.results.info/athletes/14318",
-      "birth_date": "2009-09-23"
-    },
-    {
       "id": "ifsc-5737",
       "ifsc_id": 5737,
       "first_name": "Kirill",
@@ -21352,6 +21483,16 @@
       "country": "RUS",
       "profile_url": "https://ifsc.results.info/athletes/5737",
       "last_competed": 2006
+    },
+    {
+      "id": "ifsc-18434",
+      "ifsc_id": 18434,
+      "first_name": "Sam",
+      "last_name": "Da Pozzo",
+      "gender": "M",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18434",
+      "birth_date": "2010-02-13"
     },
     {
       "id": "ifsc-17803",
@@ -21641,6 +21782,16 @@
       "country": "INA",
       "profile_url": "https://ifsc.results.info/athletes/5581",
       "last_competed": 2005
+    },
+    {
+      "id": "ifsc-17807",
+      "ifsc_id": 17807,
+      "first_name": "Lachezar",
+      "last_name": "Daskalov",
+      "gender": "M",
+      "country": "BUL",
+      "profile_url": "https://ifsc.results.info/athletes/17807",
+      "birth_date": "2011-03-17"
     },
     {
       "id": "ifsc-4431",
@@ -21995,6 +22146,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/kbS1MPykGaaFJaAbzQti7ce9",
       "profile_url": "https://ifsc.results.info/athletes/4948",
       "last_competed": 2013
+    },
+    {
+      "id": "ifsc-18792",
+      "ifsc_id": 18792,
+      "first_name": "Agnese",
+      "last_name": "De Micheli",
+      "gender": "W",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18792",
+      "birth_date": "2011-12-16"
     },
     {
       "id": "ifsc-8795",
@@ -22389,6 +22550,16 @@
       "last_competed": 2010
     },
     {
+      "id": "ifsc-18801",
+      "ifsc_id": 18801,
+      "first_name": "Leontin",
+      "last_name": "Denanto",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18801",
+      "birth_date": "2010-02-14"
+    },
+    {
       "id": "ifsc-324",
       "ifsc_id": 324,
       "first_name": "Rob",
@@ -22580,17 +22751,6 @@
       "country": "CZE",
       "profile_url": "https://ifsc.results.info/athletes/12573",
       "birth_date": "2002-12-14"
-    },
-    {
-      "id": "ifsc-14676",
-      "ifsc_id": 14676,
-      "first_name": "Larina",
-      "last_name": "Dettling",
-      "gender": "W",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/tbu8gc2khfdmmk2bzrq6awoph1y1",
-      "profile_url": "https://ifsc.results.info/athletes/14676",
-      "birth_date": "2009-12-07"
     },
     {
       "id": "ifsc-4924",
@@ -23520,6 +23680,8 @@
       "last_name": "Douady",
       "gender": "W",
       "country": "FRA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Luce_Douady_%28IMG_10010%29.jpg/500px-Luce_Douady_%28IMG_10010%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Luce_Douady",
       "profile_url": "https://ifsc.results.info/athletes/11620",
       "medals": {
         "european_championships": {
@@ -23619,16 +23781,6 @@
       "birth_date": "2000-11-25"
     },
     {
-      "id": "ifsc-14760",
-      "ifsc_id": 14760,
-      "first_name": "Emre",
-      "last_name": "Doğan",
-      "gender": "M",
-      "country": "TUR",
-      "profile_url": "https://ifsc.results.info/athletes/14760",
-      "birth_date": "2004-07-26"
-    },
-    {
       "id": "ifsc-1541",
       "ifsc_id": 1541,
       "first_name": "Mykhailo",
@@ -23687,6 +23839,16 @@
       "country": "CRO",
       "profile_url": "https://ifsc.results.info/athletes/14208",
       "birth_date": "2009-06-18"
+    },
+    {
+      "id": "ifsc-18090",
+      "ifsc_id": 18090,
+      "first_name": "Matevž",
+      "last_name": "Dretnik",
+      "gender": "M",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18090",
+      "birth_date": "2010-04-19"
     },
     {
       "id": "ifsc-6812",
@@ -23866,16 +24028,6 @@
       "profile_url": "https://ifsc.results.info/athletes/11578"
     },
     {
-      "id": "ifsc-12367",
-      "ifsc_id": 12367,
-      "first_name": "Tomasz",
-      "last_name": "Dudek",
-      "gender": "M",
-      "country": "POL",
-      "profile_url": "https://ifsc.results.info/athletes/12367",
-      "birth_date": "2006-12-16"
-    },
-    {
       "id": "ifsc-8635",
       "ifsc_id": 8635,
       "first_name": "Tetiana",
@@ -23900,6 +24052,8 @@
       "last_name": "Dufraisse",
       "gender": "W",
       "country": "FRA",
+      "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Boulder_Worldcup_Vienna_28-05-2010_quali-w044_Aliz%C3%A9e_Dufraisse.jpg/500px-Boulder_Worldcup_Vienna_28-05-2010_quali-w044_Aliz%C3%A9e_Dufraisse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wiki_url": "https://en.wikipedia.org/wiki/Alizée_Dufraisse",
       "profile_url": "https://ifsc.results.info/athletes/442",
       "medals": {
         "european_championships": {
@@ -24272,16 +24426,6 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/5752",
       "last_competed": 2009
-    },
-    {
-      "id": "ifsc-14671",
-      "ifsc_id": 14671,
-      "first_name": "Lucie",
-      "last_name": "Dvorak",
-      "gender": "W",
-      "country": "SUI",
-      "profile_url": "https://ifsc.results.info/athletes/14671",
-      "birth_date": "2007-01-12"
     },
     {
       "id": "ifsc-1159",
@@ -24785,6 +24929,16 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/4955",
       "last_competed": 2010
+    },
+    {
+      "id": "ifsc-18145",
+      "ifsc_id": 18145,
+      "first_name": "Juzlenko",
+      "last_name": "Elektra Angelina",
+      "gender": "W",
+      "country": "LAT",
+      "profile_url": "https://ifsc.results.info/athletes/18145",
+      "birth_date": "2011-06-06"
     },
     {
       "id": "ifsc-8788",
@@ -25519,6 +25673,16 @@
       "last_competed": 2011
     },
     {
+      "id": "ifsc-18813",
+      "ifsc_id": 18813,
+      "first_name": "Mary",
+      "last_name": "Falconer",
+      "gender": "W",
+      "country": "ROU",
+      "profile_url": "https://ifsc.results.info/athletes/18813",
+      "birth_date": "2010-08-15"
+    },
+    {
       "id": "ifsc-15110",
       "ifsc_id": 15110,
       "first_name": "Yevheniia",
@@ -25630,6 +25794,16 @@
       "birth_date": "2010-05-22"
     },
     {
+      "id": "ifsc-18071",
+      "ifsc_id": 18071,
+      "first_name": "Lorenzo",
+      "last_name": "Farinelli",
+      "gender": "M",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18071",
+      "birth_date": "2010-02-07"
+    },
+    {
       "id": "ifsc-2183",
       "ifsc_id": 2183,
       "first_name": "Panka",
@@ -25739,16 +25913,6 @@
       "gender": "M",
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/15147",
-      "birth_date": "2009-04-15"
-    },
-    {
-      "id": "ifsc-17050",
-      "ifsc_id": 17050,
-      "first_name": "Finia",
-      "last_name": "Fassbender",
-      "gender": "W",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/17050",
       "birth_date": "2009-04-15"
     },
     {
@@ -26159,6 +26323,16 @@
       "last_competed": 2014
     },
     {
+      "id": "ifsc-18535",
+      "ifsc_id": 18535,
+      "first_name": "Eric",
+      "last_name": "Fernández Pinilla",
+      "gender": "M",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18535",
+      "birth_date": "2009-08-30"
+    },
+    {
       "id": "ifsc-13341",
       "ifsc_id": 13341,
       "first_name": "Emma",
@@ -26218,6 +26392,16 @@
       "gender": "M",
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/10764"
+    },
+    {
+      "id": "ifsc-18508",
+      "ifsc_id": 18508,
+      "first_name": "Theodor",
+      "last_name": "Fetzer",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18508",
+      "birth_date": "2009-07-16"
     },
     {
       "id": "ifsc-6999",
@@ -26652,6 +26836,16 @@
       "last_competed": 2003
     },
     {
+      "id": "ifsc-18141",
+      "ifsc_id": 18141,
+      "first_name": "Telma",
+      "last_name": "Flores Yuste",
+      "gender": "W",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18141",
+      "birth_date": "2011-03-24"
+    },
+    {
       "id": "ifsc-8294",
       "ifsc_id": 8294,
       "first_name": "Antonia",
@@ -26690,6 +26884,16 @@
       "country": "NOR",
       "profile_url": "https://ifsc.results.info/athletes/7224",
       "last_competed": 2004
+    },
+    {
+      "id": "ifsc-18463",
+      "ifsc_id": 18463,
+      "first_name": "Anett",
+      "last_name": "Folt",
+      "gender": "W",
+      "country": "HUN",
+      "profile_url": "https://ifsc.results.info/athletes/18463",
+      "birth_date": "2011-10-07"
     },
     {
       "id": "ifsc-1132",
@@ -26820,6 +27024,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8749"
     },
     {
+      "id": "ifsc-18201",
+      "ifsc_id": 18201,
+      "first_name": "Ailie",
+      "last_name": "Forsyth",
+      "gender": "W",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/18201",
+      "birth_date": "2010-07-03"
+    },
+    {
       "id": "ifsc-1294",
       "ifsc_id": 1294,
       "first_name": "Lea",
@@ -26898,6 +27112,16 @@
       "gender": "W",
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/8364"
+    },
+    {
+      "id": "ifsc-18337",
+      "ifsc_id": 18337,
+      "first_name": "Ninon",
+      "last_name": "Fournet",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18337",
+      "birth_date": "2008-05-06"
     },
     {
       "id": "ifsc-6173",
@@ -27031,16 +27255,6 @@
       "profile_url": "https://ifsc.results.info/athletes/3614",
       "birth_date": "2002-10-29",
       "last_competed": 2021
-    },
-    {
-      "id": "ifsc-14656",
-      "ifsc_id": 14656,
-      "first_name": "Yanay",
-      "last_name": "Frank",
-      "gender": "M",
-      "country": "ISR",
-      "profile_url": "https://ifsc.results.info/athletes/14656",
-      "birth_date": "2009-08-24"
     },
     {
       "id": "ifsc-11656",
@@ -27486,6 +27700,16 @@
       "birth_date": "2002-08-13"
     },
     {
+      "id": "ifsc-18803",
+      "ifsc_id": 18803,
+      "first_name": "Olle",
+      "last_name": "Furn",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18803",
+      "birth_date": "2009-10-17"
+    },
+    {
       "id": "ifsc-2344",
       "ifsc_id": 2344,
       "first_name": "Hinako",
@@ -27506,6 +27730,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/jBwJfMwJAHbRu7H9rS4YhsZ3",
       "profile_url": "https://ifsc.results.info/athletes/6648",
       "last_competed": 1995
+    },
+    {
+      "id": "ifsc-18507",
+      "ifsc_id": 18507,
+      "first_name": "Kilian",
+      "last_name": "Fuschlberger",
+      "gender": "M",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18507",
+      "birth_date": "2011-05-19"
     },
     {
       "id": "ifsc-419",
@@ -27967,16 +28201,6 @@
       "country": "ESP",
       "profile_url": "https://ifsc.results.info/athletes/14423",
       "birth_date": "2009-12-07"
-    },
-    {
-      "id": "ifsc-17061",
-      "ifsc_id": 17061,
-      "first_name": "Nora",
-      "last_name": "García Maestu",
-      "gender": "W",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/17061",
-      "birth_date": "2009-03-13"
     },
     {
       "id": "ifsc-16869",
@@ -28533,6 +28757,16 @@
       "birth_date": "2009-07-28"
     },
     {
+      "id": "ifsc-18433",
+      "ifsc_id": 18433,
+      "first_name": "Olga",
+      "last_name": "Gerovasili",
+      "gender": "W",
+      "country": "GRE",
+      "profile_url": "https://ifsc.results.info/athletes/18433",
+      "birth_date": "2011-08-05"
+    },
+    {
       "id": "ifsc-6021",
       "ifsc_id": 6021,
       "first_name": "Stefan",
@@ -29045,6 +29279,7 @@
       "gender": "M",
       "country": "GER",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/cjSw47beQrGeTKW6eD6hb4Ad",
+      "wiki_url": "https://en.wikipedia.org/wiki/Stefan_Glowacz",
       "profile_url": "https://ifsc.results.info/athletes/6466",
       "medals": {
         "world_championships": {
@@ -29079,14 +29314,14 @@
       "last_competed": 2016
     },
     {
-      "id": "ifsc-1152",
-      "ifsc_id": 1152,
-      "first_name": "Tanja",
-      "last_name": "Glusic",
+      "id": "ifsc-1172",
+      "ifsc_id": 1172,
+      "first_name": "Petra",
+      "last_name": "Glušič",
       "gender": "W",
       "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/1152",
-      "birth_date": "1995-12-26"
+      "profile_url": "https://ifsc.results.info/athletes/1172",
+      "birth_date": "2001-07-23"
     },
     {
       "id": "ifsc-11746",
@@ -29261,6 +29496,16 @@
       "country": "ISR",
       "profile_url": "https://ifsc.results.info/athletes/7180",
       "last_competed": 1999
+    },
+    {
+      "id": "ifsc-17780",
+      "ifsc_id": 17780,
+      "first_name": "Amit",
+      "last_name": "Goldstein",
+      "gender": "W",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17780",
+      "birth_date": "2011-02-02"
     },
     {
       "id": "ifsc-1162",
@@ -30064,16 +30309,6 @@
       "last_competed": 2013
     },
     {
-      "id": "ifsc-14635",
-      "ifsc_id": 14635,
-      "first_name": "Emma",
-      "last_name": "Gregorotti",
-      "gender": "W",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/14635",
-      "birth_date": "2009-08-02"
-    },
-    {
       "id": "ifsc-8818",
       "ifsc_id": 8818,
       "first_name": "Jakob",
@@ -30306,6 +30541,16 @@
       "last_competed": 2001
     },
     {
+      "id": "ifsc-17778",
+      "ifsc_id": 17778,
+      "first_name": "Neve",
+      "last_name": "Gronner",
+      "gender": "M",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17778",
+      "birth_date": "2011-02-24"
+    },
+    {
       "id": "ifsc-6285",
       "ifsc_id": 6285,
       "first_name": "Daan",
@@ -30430,6 +30675,16 @@
       "gender": "M",
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/7278"
+    },
+    {
+      "id": "ifsc-18310",
+      "ifsc_id": 18310,
+      "first_name": "Agnes",
+      "last_name": "Gstrein",
+      "gender": "W",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18310",
+      "birth_date": "2011-07-25"
     },
     {
       "id": "ifsc-7773",
@@ -30944,6 +31199,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8551"
     },
     {
+      "id": "ifsc-18142",
+      "ifsc_id": 18142,
+      "first_name": "Irene",
+      "last_name": "Gómez García",
+      "gender": "W",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18142",
+      "birth_date": "2011-03-19"
+    },
+    {
       "id": "ifsc-8238",
       "ifsc_id": 8238,
       "first_name": "Mathias",
@@ -30969,6 +31234,16 @@
       "gender": "M",
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/8698"
+    },
+    {
+      "id": "ifsc-18253",
+      "ifsc_id": 18253,
+      "first_name": "Kerem Demir",
+      "last_name": "Güven",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18253",
+      "birth_date": "2009-12-05"
     },
     {
       "id": "ifsc-4994",
@@ -31214,6 +31489,16 @@
       "profile_url": "https://ifsc.results.info/athletes/10785"
     },
     {
+      "id": "ifsc-18311",
+      "ifsc_id": 18311,
+      "first_name": "Lilly",
+      "last_name": "Hager",
+      "gender": "W",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18311",
+      "birth_date": "2011-10-19"
+    },
+    {
       "id": "ifsc-2258",
       "ifsc_id": 2258,
       "first_name": "Asaki",
@@ -31362,16 +31647,6 @@
       "gender": "W",
       "country": "GBR",
       "profile_url": "https://ifsc.results.info/athletes/8460"
-    },
-    {
-      "id": "ifsc-14477",
-      "ifsc_id": 14477,
-      "first_name": "Jenný Þóra",
-      "last_name": "Halldórsdóttir",
-      "gender": "W",
-      "country": "ISL",
-      "profile_url": "https://ifsc.results.info/athletes/14477",
-      "birth_date": "2009-02-19"
     },
     {
       "id": "ifsc-17631",
@@ -31868,6 +32143,16 @@
       "birth_date": "2003-06-05"
     },
     {
+      "id": "ifsc-18430",
+      "ifsc_id": 18430,
+      "first_name": "Veronika",
+      "last_name": "Harmackova",
+      "gender": "W",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18430",
+      "birth_date": "2011-09-07"
+    },
+    {
       "id": "ifsc-5608",
       "ifsc_id": 5608,
       "first_name": "Ludivine",
@@ -32006,16 +32291,6 @@
       "country": "JPN",
       "profile_url": "https://ifsc.results.info/athletes/4842",
       "last_competed": 2010
-    },
-    {
-      "id": "ifsc-15505",
-      "ifsc_id": 15505,
-      "first_name": "Lara",
-      "last_name": "Haselwanter",
-      "gender": "W",
-      "country": "AUT",
-      "profile_url": "https://ifsc.results.info/athletes/15505",
-      "birth_date": "2010-02-22"
     },
     {
       "id": "ifsc-8411",
@@ -33028,16 +33303,6 @@
       "profile_url": "https://ifsc.results.info/athletes/7714"
     },
     {
-      "id": "ifsc-12233",
-      "ifsc_id": 12233,
-      "first_name": "Anya",
-      "last_name": "Hmaimou",
-      "gender": "W",
-      "country": "GBR",
-      "profile_url": "https://ifsc.results.info/athletes/12233",
-      "birth_date": "2006-09-28"
-    },
-    {
       "id": "ifsc-5190",
       "ifsc_id": 5190,
       "first_name": "Sona",
@@ -34004,6 +34269,16 @@
       "last_competed": 1991
     },
     {
+      "id": "ifsc-18432",
+      "ifsc_id": 18432,
+      "first_name": "Jindrich",
+      "last_name": "Hudecek",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18432",
+      "birth_date": "2008-01-15"
+    },
+    {
       "id": "ifsc-5820",
       "ifsc_id": 5820,
       "first_name": "Mauricio",
@@ -34019,6 +34294,7 @@
           "bronze": 2
         }
       },
+      "birth_date": "1989-03-16",
       "last_competed": 2015
     },
     {
@@ -34120,6 +34396,7 @@
       "gender": "M",
       "country": "FIN",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/TcuuVuyhVTWdTR7eASMqMU7d",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nalle_Hukkataival",
       "profile_url": "https://ifsc.results.info/athletes/5611",
       "medals": {
         "european_championships": {
@@ -34942,6 +35219,16 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-17951",
+      "ifsc_id": 17951,
+      "first_name": "Alva",
+      "last_name": "Ishøy",
+      "gender": "W",
+      "country": "DEN",
+      "profile_url": "https://ifsc.results.info/athletes/17951",
+      "birth_date": "2011-08-25"
+    },
+    {
       "id": "ifsc-5782",
       "ifsc_id": 5782,
       "first_name": "Aliya",
@@ -34981,6 +35268,16 @@
       "country": "ISR",
       "profile_url": "https://ifsc.results.info/athletes/16053",
       "birth_date": "2009-09-24"
+    },
+    {
+      "id": "ifsc-17776",
+      "ifsc_id": 17776,
+      "first_name": "Michael",
+      "last_name": "Israeli",
+      "gender": "M",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17776",
+      "birth_date": "2008-10-01"
     },
     {
       "id": "ifsc-8167",
@@ -35248,16 +35545,6 @@
       "birth_date": "2010-03-24"
     },
     {
-      "id": "ifsc-16785",
-      "ifsc_id": 16785,
-      "first_name": "Ebba",
-      "last_name": "Jacksteit",
-      "gender": "W",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/16785",
-      "birth_date": "2009-03-07"
-    },
-    {
       "id": "ifsc-6654",
       "ifsc_id": 6654,
       "first_name": "Anne",
@@ -35446,16 +35733,6 @@
       "gender": "M",
       "country": "RUS",
       "profile_url": "https://ifsc.results.info/athletes/7749"
-    },
-    {
-      "id": "ifsc-14518",
-      "ifsc_id": 14518,
-      "first_name": "Šimon",
-      "last_name": "Jakubec",
-      "gender": "M",
-      "country": "SVK",
-      "profile_url": "https://ifsc.results.info/athletes/14518",
-      "birth_date": "2009-02-02"
     },
     {
       "id": "ifsc-8265",
@@ -35650,6 +35927,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8825"
     },
     {
+      "id": "ifsc-18415",
+      "ifsc_id": 18415,
+      "first_name": "Erazem",
+      "last_name": "Janžekovič",
+      "gender": "M",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18415",
+      "birth_date": "2010-06-01"
+    },
+    {
       "id": "ifsc-8524",
       "ifsc_id": 8524,
       "first_name": "Louis",
@@ -35679,6 +35966,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8127"
     },
     {
+      "id": "ifsc-542",
+      "ifsc_id": 542,
+      "first_name": "Lucie",
+      "last_name": "Jarrige",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/542",
+      "birth_date": "1990-12-10"
+    },
+    {
       "id": "ifsc-7595",
       "ifsc_id": 7595,
       "first_name": "Benjamin",
@@ -35687,6 +35984,16 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/7595",
       "last_competed": 1999
+    },
+    {
+      "id": "ifsc-18372",
+      "ifsc_id": 18372,
+      "first_name": "Monica",
+      "last_name": "Jauset Sabater",
+      "gender": "W",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18372",
+      "birth_date": "2011-04-29"
     },
     {
       "id": "ifsc-6787",
@@ -36020,6 +36327,16 @@
       "gender": "M",
       "country": "ESP",
       "profile_url": "https://ifsc.results.info/athletes/8535"
+    },
+    {
+      "id": "ifsc-17934",
+      "ifsc_id": 17934,
+      "first_name": "Javier",
+      "last_name": "Jiménez Caban",
+      "gender": "M",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/17934",
+      "birth_date": "2010-11-26"
     },
     {
       "id": "ifsc-6614",
@@ -37127,6 +37444,16 @@
       "last_competed": 2007
     },
     {
+      "id": "ifsc-18836",
+      "ifsc_id": 18836,
+      "first_name": "Elen",
+      "last_name": "Kankiova",
+      "gender": "W",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18836",
+      "birth_date": "2010-10-19"
+    },
+    {
       "id": "ifsc-8287",
       "ifsc_id": 8287,
       "first_name": "Klara",
@@ -37211,16 +37538,6 @@
       "gender": "W",
       "country": "UKR",
       "profile_url": "https://ifsc.results.info/athletes/8314"
-    },
-    {
-      "id": "ifsc-4103",
-      "ifsc_id": 4103,
-      "first_name": "Vahap",
-      "last_name": "Karadağ",
-      "gender": "M",
-      "country": "TUR",
-      "profile_url": "https://ifsc.results.info/athletes/4103",
-      "birth_date": "1999-11-20"
     },
     {
       "id": "ifsc-5723",
@@ -37757,6 +38074,16 @@
       "last_competed": 2017
     },
     {
+      "id": "ifsc-18248",
+      "ifsc_id": 18248,
+      "first_name": "Yiğit Ekin",
+      "last_name": "Kaya",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18248",
+      "birth_date": "2011-08-20"
+    },
+    {
       "id": "ifsc-7504",
       "ifsc_id": 7504,
       "first_name": "Konstantin",
@@ -38014,6 +38341,16 @@
       "birth_date": "2004-06-19"
     },
     {
+      "id": "ifsc-18227",
+      "ifsc_id": 18227,
+      "first_name": "Jonah",
+      "last_name": "Kero",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18227",
+      "birth_date": "2008-04-14"
+    },
+    {
       "id": "ifsc-11558",
       "ifsc_id": 11558,
       "first_name": "Ella",
@@ -38032,16 +38369,6 @@
       "gender": "M",
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/10616"
-    },
-    {
-      "id": "ifsc-12798",
-      "ifsc_id": 12798,
-      "first_name": "Finley",
-      "last_name": "Kerswell",
-      "gender": "M",
-      "country": "GBR",
-      "profile_url": "https://ifsc.results.info/athletes/12798",
-      "birth_date": "2007-02-14"
     },
     {
       "id": "ifsc-11438",
@@ -38314,16 +38641,6 @@
       "country": "POL",
       "profile_url": "https://ifsc.results.info/athletes/2875",
       "birth_date": "2000-07-14"
-    },
-    {
-      "id": "ifsc-15418",
-      "ifsc_id": 15418,
-      "first_name": "Kamila",
-      "last_name": "Kiersztyn",
-      "gender": "W",
-      "country": "POL",
-      "profile_url": "https://ifsc.results.info/athletes/15418",
-      "birth_date": "2009-06-18"
     },
     {
       "id": "ifsc-2795",
@@ -39307,16 +39624,6 @@
       "profile_url": "https://ifsc.results.info/athletes/8052"
     },
     {
-      "id": "ifsc-15997",
-      "ifsc_id": 15997,
-      "first_name": "Filipa",
-      "last_name": "Knoll",
-      "gender": "W",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/15997",
-      "birth_date": "2009-04-30"
-    },
-    {
       "id": "ifsc-4723",
       "ifsc_id": 4723,
       "first_name": "Damaris",
@@ -39568,6 +39875,16 @@
       "birth_date": "1995-08-03"
     },
     {
+      "id": "ifsc-18455",
+      "ifsc_id": 18455,
+      "first_name": "Adam",
+      "last_name": "Kohout",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18455",
+      "birth_date": "2010-01-27"
+    },
+    {
       "id": "ifsc-14512",
       "ifsc_id": 14512,
       "first_name": "Lena",
@@ -39598,6 +39915,16 @@
       "last_competed": 2005
     },
     {
+      "id": "ifsc-18417",
+      "ifsc_id": 18417,
+      "first_name": "Rene",
+      "last_name": "Kokalj",
+      "gender": "M",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18417",
+      "birth_date": "2010-06-30"
+    },
+    {
       "id": "ifsc-12788",
       "ifsc_id": 12788,
       "first_name": "Eevi",
@@ -39624,7 +39951,8 @@
       "last_name": "Kolenko",
       "gender": "M",
       "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/8726"
+      "profile_url": "https://ifsc.results.info/athletes/8726",
+      "birth_date": "1997-02-09"
     },
     {
       "id": "ifsc-15372",
@@ -39913,6 +40241,16 @@
       "birth_date": "2009-05-07"
     },
     {
+      "id": "ifsc-18519",
+      "ifsc_id": 18519,
+      "first_name": "Richard",
+      "last_name": "Kopelent",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18519",
+      "birth_date": "2010-12-12"
+    },
+    {
       "id": "ifsc-7474",
       "ifsc_id": 7474,
       "first_name": "Natalia",
@@ -39920,6 +40258,16 @@
       "gender": "W",
       "country": "RUS",
       "profile_url": "https://ifsc.results.info/athletes/7474"
+    },
+    {
+      "id": "ifsc-18509",
+      "ifsc_id": 18509,
+      "first_name": "Elisabeth",
+      "last_name": "Kopp",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18509",
+      "birth_date": "2011-08-08"
     },
     {
       "id": "ifsc-12744",
@@ -40085,6 +40433,16 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/13870",
       "birth_date": "2007-11-09"
+    },
+    {
+      "id": "ifsc-18460",
+      "ifsc_id": 18460,
+      "first_name": "Zehra Berra",
+      "last_name": "Korkut",
+      "gender": "W",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18460",
+      "birth_date": "2010-03-30"
     },
     {
       "id": "ifsc-139",
@@ -40301,16 +40659,6 @@
       "profile_url": "https://ifsc.results.info/athletes/883",
       "birth_date": "1998-09-29",
       "last_competed": 2016
-    },
-    {
-      "id": "ifsc-13326",
-      "ifsc_id": 13326,
-      "first_name": "Anej",
-      "last_name": "Kostomaj",
-      "gender": "M",
-      "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/13326",
-      "birth_date": "2007-05-21"
     },
     {
       "id": "ifsc-3369",
@@ -40685,6 +41033,16 @@
       "last_competed": 2005
     },
     {
+      "id": "ifsc-18159",
+      "ifsc_id": 18159,
+      "first_name": "Marcel",
+      "last_name": "Kraege",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18159",
+      "birth_date": "2010-09-22"
+    },
+    {
       "id": "ifsc-3430",
       "ifsc_id": 3430,
       "first_name": "Franz",
@@ -40726,6 +41084,16 @@
       "profile_url": "https://ifsc.results.info/athletes/3036",
       "birth_date": "1994-08-26",
       "last_competed": 2020
+    },
+    {
+      "id": "ifsc-18810",
+      "ifsc_id": 18810,
+      "first_name": "Cooper",
+      "last_name": "Kramer",
+      "gender": "M",
+      "country": "NED",
+      "profile_url": "https://ifsc.results.info/athletes/18810",
+      "birth_date": "2011-11-12"
     },
     {
       "id": "ifsc-12550",
@@ -40878,6 +41246,16 @@
       "gender": "M",
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/8803"
+    },
+    {
+      "id": "ifsc-18534",
+      "ifsc_id": 18534,
+      "first_name": "Jachym",
+      "last_name": "Kresl",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18534",
+      "birth_date": "2010-07-06"
     },
     {
       "id": "ifsc-14444",
@@ -41881,6 +42259,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8922"
     },
     {
+      "id": "ifsc-18081",
+      "ifsc_id": 18081,
+      "first_name": "Andreas",
+      "last_name": "Kärner",
+      "gender": "M",
+      "country": "EST",
+      "profile_url": "https://ifsc.results.info/athletes/18081",
+      "birth_date": "2008-08-11"
+    },
+    {
       "id": "ifsc-5259",
       "ifsc_id": 5259,
       "first_name": "Janina",
@@ -42400,16 +42788,6 @@
       "last_competed": 1998
     },
     {
-      "id": "ifsc-15937",
-      "ifsc_id": 15937,
-      "first_name": "Swann",
-      "last_name": "Lamblin-Burguet",
-      "gender": "W",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/15937",
-      "birth_date": "2009-03-17"
-    },
-    {
       "id": "ifsc-391",
       "ifsc_id": 391,
       "first_name": "Anthony",
@@ -42709,6 +43087,16 @@
       "birth_date": "2002-12-30"
     },
     {
+      "id": "ifsc-18336",
+      "ifsc_id": 18336,
+      "first_name": "Emma",
+      "last_name": "Large",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18336",
+      "birth_date": "2009-03-21"
+    },
+    {
       "id": "ifsc-5321",
       "ifsc_id": 5321,
       "first_name": "Marine",
@@ -42856,6 +43244,16 @@
       "gender": "W",
       "country": "ESP",
       "profile_url": "https://ifsc.results.info/athletes/7808"
+    },
+    {
+      "id": "ifsc-18832",
+      "ifsc_id": 18832,
+      "first_name": "Juli",
+      "last_name": "Laschinski",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18832",
+      "birth_date": "2011-01-10"
     },
     {
       "id": "ifsc-2892",
@@ -43192,6 +43590,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/FRc9vVsRtAUvKFup5oHb49k6",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mélissa_Le_Nevé",
       "profile_url": "https://ifsc.results.info/athletes/454",
       "world_cup_events": {
         "boulder": {
@@ -43969,8 +44368,19 @@
       "last_name": "Levin",
       "gender": "W",
       "country": "EST",
+      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/c3k10yornanxvatw70q6ulclsy1v",
       "profile_url": "https://ifsc.results.info/athletes/15435",
       "birth_date": "2010-08-06"
+    },
+    {
+      "id": "ifsc-17773",
+      "ifsc_id": 17773,
+      "first_name": "Yonatan",
+      "last_name": "Levin",
+      "gender": "M",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17773",
+      "birth_date": "2011-06-16"
     },
     {
       "id": "ifsc-9874",
@@ -44201,6 +44611,16 @@
       "country": "CHN",
       "profile_url": "https://ifsc.results.info/athletes/5809",
       "last_competed": 2007
+    },
+    {
+      "id": "ifsc-17724",
+      "ifsc_id": 17724,
+      "first_name": "Yunghsin",
+      "last_name": "Li",
+      "gender": "W",
+      "country": "BEL",
+      "profile_url": "https://ifsc.results.info/athletes/17724",
+      "birth_date": "2010-10-27"
     },
     {
       "id": "ifsc-2827",
@@ -44455,6 +44875,26 @@
       },
       "birth_date": "1978-07-04",
       "last_competed": 2009
+    },
+    {
+      "id": "ifsc-18805",
+      "ifsc_id": 18805,
+      "first_name": "Pennie",
+      "last_name": "Lind",
+      "gender": "W",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18805",
+      "birth_date": "2010-09-24"
+    },
+    {
+      "id": "ifsc-18799",
+      "ifsc_id": 18799,
+      "first_name": "Eskil",
+      "last_name": "Lindberg",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18799",
+      "birth_date": "2010-04-27"
     },
     {
       "id": "ifsc-7484",
@@ -44771,6 +45211,16 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/5433",
       "last_competed": 2005
+    },
+    {
+      "id": "ifsc-18277",
+      "ifsc_id": 18277,
+      "first_name": "Benjamin",
+      "last_name": "Livermore",
+      "gender": "M",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/18277",
+      "birth_date": "2011-04-11"
     },
     {
       "id": "ifsc-6897",
@@ -45247,6 +45697,16 @@
       "birth_date": "2010-01-13"
     },
     {
+      "id": "ifsc-18166",
+      "ifsc_id": 18166,
+      "first_name": "Liliana",
+      "last_name": "Luby",
+      "gender": "W",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/18166",
+      "birth_date": "2011-06-07"
+    },
+    {
       "id": "ifsc-15641",
       "ifsc_id": 15641,
       "first_name": "Leonora",
@@ -45367,6 +45827,16 @@
       "birth_date": "2002-08-21"
     },
     {
+      "id": "ifsc-18400",
+      "ifsc_id": 18400,
+      "first_name": "Mathias",
+      "last_name": "Lund-Fridell",
+      "gender": "M",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18400",
+      "birth_date": "2010-06-02"
+    },
+    {
       "id": "ifsc-4718",
       "ifsc_id": 4718,
       "first_name": "Tomas",
@@ -45406,6 +45876,16 @@
       "birth_date": "2001-10-11"
     },
     {
+      "id": "ifsc-18502",
+      "ifsc_id": 18502,
+      "first_name": "Elisa",
+      "last_name": "Lusetti",
+      "gender": "W",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18502",
+      "birth_date": "2010-03-15"
+    },
+    {
       "id": "ifsc-16379",
       "ifsc_id": 16379,
       "first_name": "Oleksii",
@@ -45414,6 +45894,16 @@
       "country": "UKR",
       "profile_url": "https://ifsc.results.info/athletes/16379",
       "birth_date": "2009-06-17"
+    },
+    {
+      "id": "ifsc-18466",
+      "ifsc_id": 18466,
+      "first_name": "Estello",
+      "last_name": "Luu-Freund",
+      "gender": "M",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18466",
+      "birth_date": "2010-01-22"
     },
     {
       "id": "ifsc-6538",
@@ -45469,6 +45959,16 @@
       "country": "USA",
       "profile_url": "https://ifsc.results.info/athletes/12170",
       "birth_date": "1989-01-28"
+    },
+    {
+      "id": "ifsc-18368",
+      "ifsc_id": 18368,
+      "first_name": "Marley",
+      "last_name": "Lynch",
+      "gender": "M",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/18368",
+      "birth_date": "2011-02-08"
     },
     {
       "id": "ifsc-1495",
@@ -45923,16 +46423,6 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/13872",
       "birth_date": "2007-03-31"
-    },
-    {
-      "id": "ifsc-15886",
-      "ifsc_id": 15886,
-      "first_name": "Tommaso",
-      "last_name": "Magni",
-      "gender": "M",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/15886",
-      "birth_date": "2007-01-19"
     },
     {
       "id": "ifsc-5364",
@@ -46729,6 +47219,16 @@
       "last_competed": 2014
     },
     {
+      "id": "ifsc-18416",
+      "ifsc_id": 18416,
+      "first_name": "Zala",
+      "last_name": "Marjetič",
+      "gender": "W",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18416",
+      "birth_date": "2011-04-23"
+    },
+    {
       "id": "ifsc-12926",
       "ifsc_id": 12926,
       "first_name": "Shani",
@@ -46778,6 +47278,16 @@
       "gender": "M",
       "country": "BUL",
       "profile_url": "https://ifsc.results.info/athletes/7971"
+    },
+    {
+      "id": "ifsc-18255",
+      "ifsc_id": 18255,
+      "first_name": "Artem",
+      "last_name": "Markov",
+      "gender": "M",
+      "country": "UKR",
+      "profile_url": "https://ifsc.results.info/athletes/18255",
+      "birth_date": "2009-12-09"
     },
     {
       "id": "ifsc-17962",
@@ -47482,16 +47992,6 @@
       "last_competed": 2012
     },
     {
-      "id": "ifsc-14474",
-      "ifsc_id": 14474,
-      "first_name": "Guilherme",
-      "last_name": "Matias",
-      "gender": "M",
-      "country": "POR",
-      "profile_url": "https://ifsc.results.info/athletes/14474",
-      "birth_date": "2009-06-09"
-    },
-    {
       "id": "ifsc-8354",
       "ifsc_id": 8354,
       "first_name": "Martin",
@@ -47910,6 +48410,16 @@
       "last_competed": 2009
     },
     {
+      "id": "ifsc-17671",
+      "ifsc_id": 17671,
+      "first_name": "Rosie",
+      "last_name": "Mcgowan",
+      "gender": "W",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/17671",
+      "birth_date": "2008-09-01"
+    },
+    {
       "id": "ifsc-1752",
       "ifsc_id": 1752,
       "first_name": "Grace",
@@ -48029,6 +48539,16 @@
       "country": "ECU",
       "profile_url": "https://ifsc.results.info/athletes/10913",
       "last_competed": 2012
+    },
+    {
+      "id": "ifsc-18370",
+      "ifsc_id": 18370,
+      "first_name": "Marcos",
+      "last_name": "Medina Calvo",
+      "gender": "M",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18370",
+      "birth_date": "2011-11-08"
     },
     {
       "id": "ifsc-5781",
@@ -48221,6 +48741,16 @@
       "birth_date": "2010-01-02"
     },
     {
+      "id": "ifsc-18436",
+      "ifsc_id": 18436,
+      "first_name": "Hervè",
+      "last_name": "Melada",
+      "gender": "M",
+      "country": "ITA",
+      "profile_url": "https://ifsc.results.info/athletes/18436",
+      "birth_date": "2011-06-23"
+    },
+    {
       "id": "ifsc-8500",
       "ifsc_id": 8500,
       "first_name": "Sara",
@@ -48276,6 +48806,16 @@
       "profile_url": "https://ifsc.results.info/athletes/1899",
       "birth_date": "1998-08-28",
       "last_competed": 2018
+    },
+    {
+      "id": "ifsc-18399",
+      "ifsc_id": 18399,
+      "first_name": "Alma Louise",
+      "last_name": "Melås",
+      "gender": "W",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18399",
+      "birth_date": "2009-02-28"
     },
     {
       "id": "ifsc-8805",
@@ -48658,6 +49198,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8787"
     },
     {
+      "id": "ifsc-18452",
+      "ifsc_id": 18452,
+      "first_name": "Jakob",
+      "last_name": "Meyer",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18452",
+      "birth_date": "2010-04-23"
+    },
+    {
       "id": "ifsc-12397",
       "ifsc_id": 12397,
       "first_name": "Daria",
@@ -48698,6 +49248,16 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-18158",
+      "ifsc_id": 18158,
+      "first_name": "Felix",
+      "last_name": "Michael",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18158",
+      "birth_date": "2010-07-09"
+    },
+    {
       "id": "ifsc-15458",
       "ifsc_id": 15458,
       "first_name": "Angeliki",
@@ -48706,6 +49266,16 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/15458",
       "birth_date": "2010-06-28"
+    },
+    {
+      "id": "ifsc-18217",
+      "ifsc_id": 18217,
+      "first_name": "Kľuska",
+      "last_name": "Michal",
+      "gender": "M",
+      "country": "SVK",
+      "profile_url": "https://ifsc.results.info/athletes/18217",
+      "birth_date": "2011-03-03"
     },
     {
       "id": "ifsc-7098",
@@ -49037,14 +49607,14 @@
       "profile_url": "https://ifsc.results.info/athletes/8476"
     },
     {
-      "id": "ifsc-14185",
-      "ifsc_id": 14185,
-      "first_name": "Aske Wit",
-      "last_name": "Mikkelsen",
-      "gender": "M",
-      "country": "DEN",
-      "profile_url": "https://ifsc.results.info/athletes/14185",
-      "birth_date": "2009-02-06"
+      "id": "ifsc-18180",
+      "ifsc_id": 18180,
+      "first_name": "Varvara",
+      "last_name": "Mikheeva",
+      "gender": "W",
+      "country": "AIN",
+      "profile_url": "https://ifsc.results.info/athletes/18180",
+      "birth_date": "2010-11-17"
     },
     {
       "id": "ifsc-2806",
@@ -49480,16 +50050,6 @@
       "last_competed": 2014
     },
     {
-      "id": "ifsc-14585",
-      "ifsc_id": 14585,
-      "first_name": "Ana",
-      "last_name": "Mišan",
-      "gender": "W",
-      "country": "CRO",
-      "profile_url": "https://ifsc.results.info/athletes/14585",
-      "birth_date": "2009-11-16"
-    },
-    {
       "id": "ifsc-13240",
       "ifsc_id": 13240,
       "first_name": "Olwethu",
@@ -49832,16 +50392,6 @@
       "last_competed": 2004
     },
     {
-      "id": "ifsc-17163",
-      "ifsc_id": 17163,
-      "first_name": "Jan",
-      "last_name": "Molist Domingo",
-      "gender": "M",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/17163",
-      "birth_date": "2009-09-08"
-    },
-    {
       "id": "ifsc-3892",
       "ifsc_id": 3892,
       "first_name": "Lucie",
@@ -50084,6 +50634,16 @@
       "birth_date": "2002-06-04"
     },
     {
+      "id": "ifsc-18814",
+      "ifsc_id": 18814,
+      "first_name": "Clara",
+      "last_name": "Moreno",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18814",
+      "birth_date": "2010-08-23"
+    },
+    {
       "id": "ifsc-4943",
       "ifsc_id": 4943,
       "first_name": "Daniel",
@@ -50215,6 +50775,16 @@
       "profile_url": "https://ifsc.results.info/athletes/167",
       "birth_date": "2000-05-14",
       "last_competed": 2017
+    },
+    {
+      "id": "ifsc-18017",
+      "ifsc_id": 18017,
+      "first_name": "Markas",
+      "last_name": "Morozovas",
+      "gender": "M",
+      "country": "LTU",
+      "profile_url": "https://ifsc.results.info/athletes/18017",
+      "birth_date": "2011-04-20"
     },
     {
       "id": "ifsc-673",
@@ -50364,6 +50934,16 @@
       "country": "CAN",
       "profile_url": "https://ifsc.results.info/athletes/6375",
       "last_competed": 2015
+    },
+    {
+      "id": "ifsc-17669",
+      "ifsc_id": 17669,
+      "first_name": "Lily",
+      "last_name": "Moss",
+      "gender": "W",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/17669",
+      "birth_date": "2009-01-02"
     },
     {
       "id": "ifsc-3812",
@@ -50853,6 +51433,16 @@
       "birth_date": "2002-06-29"
     },
     {
+      "id": "ifsc-18465",
+      "ifsc_id": 18465,
+      "first_name": "Emma",
+      "last_name": "Mussard",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18465",
+      "birth_date": "2011-09-05"
+    },
+    {
       "id": "ifsc-6832",
       "ifsc_id": 6832,
       "first_name": "Phillipe",
@@ -50994,16 +51584,6 @@
       "birth_date": "1998-02-05"
     },
     {
-      "id": "ifsc-17093",
-      "ifsc_id": 17093,
-      "first_name": "Maksymilian",
-      "last_name": "Myśliwiec",
-      "gender": "M",
-      "country": "POL",
-      "profile_url": "https://ifsc.results.info/athletes/17093",
-      "birth_date": "2010-10-21"
-    },
-    {
       "id": "ifsc-7631",
       "ifsc_id": 7631,
       "first_name": "Raphael",
@@ -51123,6 +51703,16 @@
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/17049",
       "birth_date": "2010-06-23"
+    },
+    {
+      "id": "ifsc-18510",
+      "ifsc_id": 18510,
+      "first_name": "Jacob",
+      "last_name": "Müller",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18510",
+      "birth_date": "2010-03-15"
     },
     {
       "id": "ifsc-3694",
@@ -51841,16 +52431,6 @@
       "profile_url": "https://ifsc.results.info/athletes/8886"
     },
     {
-      "id": "ifsc-16783",
-      "ifsc_id": 16783,
-      "first_name": "Pia",
-      "last_name": "Neumeier",
-      "gender": "W",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/16783",
-      "birth_date": "2008-12-26"
-    },
-    {
       "id": "ifsc-5626",
       "ifsc_id": 5626,
       "first_name": "Felix",
@@ -52408,6 +52988,26 @@
       "last_competed": 1999
     },
     {
+      "id": "ifsc-18332",
+      "ifsc_id": 18332,
+      "first_name": "Elouan",
+      "last_name": "Noel",
+      "gender": "M",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18332",
+      "birth_date": "2011-09-03"
+    },
+    {
+      "id": "ifsc-18447",
+      "ifsc_id": 18447,
+      "first_name": "Gilda",
+      "last_name": "Nolden",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18447",
+      "birth_date": "2010-12-12"
+    },
+    {
       "id": "ifsc-4784",
       "ifsc_id": 4784,
       "first_name": "Baptiste",
@@ -52478,6 +53078,16 @@
       "birth_date": "2004-12-11"
     },
     {
+      "id": "ifsc-17954",
+      "ifsc_id": 17954,
+      "first_name": "Sia",
+      "last_name": "Normand-Treier",
+      "gender": "W",
+      "country": "DEN",
+      "profile_url": "https://ifsc.results.info/athletes/17954",
+      "birth_date": "2011-05-30"
+    },
+    {
       "id": "ifsc-9005",
       "ifsc_id": 9005,
       "first_name": "Alexander",
@@ -52515,6 +53125,16 @@
       "country": "MAS",
       "profile_url": "https://ifsc.results.info/athletes/5616",
       "last_competed": 2007
+    },
+    {
+      "id": "ifsc-18335",
+      "ifsc_id": 18335,
+      "first_name": "Léna",
+      "last_name": "Nouret",
+      "gender": "W",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18335",
+      "birth_date": "2009-10-20"
     },
     {
       "id": "ifsc-3486",
@@ -52598,16 +53218,6 @@
       "country": "SWE",
       "profile_url": "https://ifsc.results.info/athletes/13206",
       "birth_date": "2005-04-18"
-    },
-    {
-      "id": "ifsc-16098",
-      "ifsc_id": 16098,
-      "first_name": "Stella",
-      "last_name": "Novak",
-      "gender": "W",
-      "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/16098",
-      "birth_date": "2009-07-18"
     },
     {
       "id": "ifsc-5288",
@@ -52727,6 +53337,16 @@
       "birth_date": "2005-09-19"
     },
     {
+      "id": "ifsc-18833",
+      "ifsc_id": 18833,
+      "first_name": "Filip",
+      "last_name": "Nowak",
+      "gender": "M",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/18833",
+      "birth_date": "2008-01-26"
+    },
+    {
       "id": "ifsc-7431",
       "ifsc_id": 7431,
       "first_name": "Erik",
@@ -52827,6 +53447,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/chjpsh9oqou7gk0jpc7k44q494yn",
       "profile_url": "https://ifsc.results.info/athletes/5598",
       "last_competed": 2012
+    },
+    {
+      "id": "ifsc-17877",
+      "ifsc_id": 17877,
+      "first_name": "Raisa",
+      "last_name": "Nurmi",
+      "gender": "W",
+      "country": "FIN",
+      "profile_url": "https://ifsc.results.info/athletes/17877",
+      "birth_date": "2011-05-10"
     },
     {
       "id": "ifsc-15467",
@@ -53198,6 +53828,7 @@
       "last_name": "Ogawa",
       "gender": "W",
       "country": "JPN",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tomoko_Ogawa",
       "profile_url": "https://ifsc.results.info/athletes/5199",
       "medals": {
         "european_championships": {
@@ -53217,6 +53848,16 @@
       "country": "GBR",
       "profile_url": "https://ifsc.results.info/athletes/5789",
       "last_competed": 2008
+    },
+    {
+      "id": "ifsc-17915",
+      "ifsc_id": 17915,
+      "first_name": "Arthur",
+      "last_name": "Ogden",
+      "gender": "M",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/17915",
+      "birth_date": "2011-08-05"
     },
     {
       "id": "ifsc-200",
@@ -53725,16 +54366,6 @@
       "last_competed": 1994
     },
     {
-      "id": "ifsc-17116",
-      "ifsc_id": 17116,
-      "first_name": "Eduard",
-      "last_name": "Osmans",
-      "gender": "M",
-      "country": "UKR",
-      "profile_url": "https://ifsc.results.info/athletes/17116",
-      "birth_date": "2008-05-19"
-    },
-    {
       "id": "ifsc-5391",
       "ifsc_id": 5391,
       "first_name": "Stine",
@@ -53903,6 +54534,16 @@
       "country": "ISR",
       "profile_url": "https://ifsc.results.info/athletes/15576",
       "birth_date": "2010-07-26"
+    },
+    {
+      "id": "ifsc-17628",
+      "ifsc_id": 17628,
+      "first_name": "Roman",
+      "last_name": "Ovcharenko",
+      "gender": "M",
+      "country": "UKR",
+      "profile_url": "https://ifsc.results.info/athletes/17628",
+      "birth_date": "2011-05-25"
     },
     {
       "id": "ifsc-173",
@@ -54198,6 +54839,16 @@
       "profile_url": "https://ifsc.results.info/athletes/7815"
     },
     {
+      "id": "ifsc-18302",
+      "ifsc_id": 18302,
+      "first_name": "Mihael",
+      "last_name": "Pal",
+      "gender": "M",
+      "country": "CRO",
+      "profile_url": "https://ifsc.results.info/athletes/18302",
+      "birth_date": "2010-07-01"
+    },
+    {
       "id": "ifsc-17463",
       "ifsc_id": 17463,
       "first_name": "Marius",
@@ -54368,6 +55019,16 @@
       "profile_url": "https://ifsc.results.info/athletes/11113"
     },
     {
+      "id": "ifsc-17629",
+      "ifsc_id": 17629,
+      "first_name": "Vladyslava",
+      "last_name": "Panchenko",
+      "gender": "W",
+      "country": "UKR",
+      "profile_url": "https://ifsc.results.info/athletes/17629",
+      "birth_date": "2011-02-09"
+    },
+    {
       "id": "ifsc-13512",
       "ifsc_id": 13512,
       "first_name": "Daniele",
@@ -54438,6 +55099,16 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/13868",
       "birth_date": "2008-07-14"
+    },
+    {
+      "id": "ifsc-18454",
+      "ifsc_id": 18454,
+      "first_name": "Matej",
+      "last_name": "Papez",
+      "gender": "M",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18454",
+      "birth_date": "2008-07-17"
     },
     {
       "id": "ifsc-11604",
@@ -54764,6 +55435,16 @@
       "country": "NED",
       "profile_url": "https://ifsc.results.info/athletes/3609",
       "birth_date": "2003-01-06"
+    },
+    {
+      "id": "ifsc-18445",
+      "ifsc_id": 18445,
+      "first_name": "Sammy",
+      "last_name": "Patri",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18445",
+      "birth_date": "2011-05-24"
     },
     {
       "id": "ifsc-8464",
@@ -55362,17 +56043,6 @@
       "birth_date": "2009-01-14"
     },
     {
-      "id": "ifsc-14674",
-      "ifsc_id": 14674,
-      "first_name": "Tanguy",
-      "last_name": "Pereira",
-      "gender": "M",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/gxexi69c3p5tbf6hccw4z01bli0c",
-      "profile_url": "https://ifsc.results.info/athletes/14674",
-      "birth_date": "2009-01-10"
-    },
-    {
       "id": "ifsc-4664",
       "ifsc_id": 4664,
       "first_name": "Sara",
@@ -55491,16 +56161,6 @@
       "gender": "W",
       "country": "RUS",
       "profile_url": "https://ifsc.results.info/athletes/7473"
-    },
-    {
-      "id": "ifsc-17284",
-      "ifsc_id": 17284,
-      "first_name": "Margherita",
-      "last_name": "Pernigotti",
-      "gender": "W",
-      "country": "ITA",
-      "profile_url": "https://ifsc.results.info/athletes/17284",
-      "birth_date": "2008-04-29"
     },
     {
       "id": "ifsc-12893",
@@ -55733,16 +56393,6 @@
       "country": "BUL",
       "profile_url": "https://ifsc.results.info/athletes/17252",
       "birth_date": "2010-12-20"
-    },
-    {
-      "id": "ifsc-1172",
-      "ifsc_id": 1172,
-      "first_name": "Glusic",
-      "last_name": "Petra",
-      "gender": "W",
-      "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/1172",
-      "birth_date": "2001-07-23"
     },
     {
       "id": "ifsc-15977",
@@ -56156,16 +56806,6 @@
       "last_competed": 2017
     },
     {
-      "id": "ifsc-13390",
-      "ifsc_id": 13390,
-      "first_name": "Ihor",
-      "last_name": "Pichka",
-      "gender": "M",
-      "country": "UKR",
-      "profile_url": "https://ifsc.results.info/athletes/13390",
-      "birth_date": "2008-08-27"
-    },
-    {
       "id": "ifsc-15371",
       "ifsc_id": 15371,
       "first_name": "Demid",
@@ -56342,6 +56982,16 @@
       "birth_date": "2002-05-03"
     },
     {
+      "id": "ifsc-18198",
+      "ifsc_id": 18198,
+      "first_name": "Jan",
+      "last_name": "Pilch",
+      "gender": "M",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/18198",
+      "birth_date": "2010-02-11"
+    },
+    {
       "id": "ifsc-4619",
       "ifsc_id": 4619,
       "first_name": "Igor",
@@ -56505,16 +57155,6 @@
       "profile_url": "https://ifsc.results.info/athletes/7980"
     },
     {
-      "id": "ifsc-17068",
-      "ifsc_id": 17068,
-      "first_name": "Haizea",
-      "last_name": "Pinto Ilincheta",
-      "gender": "W",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/17068",
-      "birth_date": "2009-06-20"
-    },
-    {
       "id": "ifsc-3198",
       "ifsc_id": 3198,
       "first_name": "Anouk",
@@ -56606,6 +57246,16 @@
       "birth_date": "2008-04-08"
     },
     {
+      "id": "ifsc-18464",
+      "ifsc_id": 18464,
+      "first_name": "Noam",
+      "last_name": "Pittermann",
+      "gender": "M",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18464",
+      "birth_date": "2010-01-16"
+    },
+    {
       "id": "ifsc-12773",
       "ifsc_id": 12773,
       "first_name": "Sara",
@@ -56614,17 +57264,6 @@
       "country": "ITA",
       "profile_url": "https://ifsc.results.info/athletes/12773",
       "birth_date": "2006-06-03"
-    },
-    {
-      "id": "ifsc-1730",
-      "ifsc_id": 1730,
-      "first_name": "Thomas",
-      "last_name": "Pitzel",
-      "gender": "M",
-      "country": "USA",
-      "profile_url": "https://ifsc.results.info/athletes/1730",
-      "birth_date": "1995-06-02",
-      "last_competed": 2018
     },
     {
       "id": "ifsc-8200",
@@ -57916,6 +58555,7 @@
       "gender": "M",
       "country": "AUS",
       "profile_url": "https://ifsc.results.info/athletes/5634",
+      "birth_date": "1980-05-28",
       "last_competed": 2006
     },
     {
@@ -58084,16 +58724,6 @@
       "last_competed": 2022
     },
     {
-      "id": "ifsc-14250",
-      "ifsc_id": 14250,
-      "first_name": "Arttu",
-      "last_name": "Puusniekka",
-      "gender": "M",
-      "country": "FIN",
-      "profile_url": "https://ifsc.results.info/athletes/14250",
-      "birth_date": "2005-10-21"
-    },
-    {
       "id": "ifsc-12696",
       "ifsc_id": 12696,
       "first_name": "Danielis Ugnius",
@@ -58105,14 +58735,14 @@
       "birth_date": "2003-06-15"
     },
     {
-      "id": "ifsc-13570",
-      "ifsc_id": 13570,
-      "first_name": "Lucas",
-      "last_name": "Pérez Nieto",
+      "id": "ifsc-18130",
+      "ifsc_id": 18130,
+      "first_name": "Hadrián",
+      "last_name": "Pérez Gómez",
       "gender": "M",
       "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/13570",
-      "birth_date": "2008-02-07"
+      "profile_url": "https://ifsc.results.info/athletes/18130",
+      "birth_date": "2008-09-25"
     },
     {
       "id": "ifsc-11469",
@@ -58635,6 +59265,16 @@
       "birth_date": "2007-04-11"
     },
     {
+      "id": "ifsc-18446",
+      "ifsc_id": 18446,
+      "first_name": "Mina",
+      "last_name": "Rambausek",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18446",
+      "birth_date": "2010-07-10"
+    },
+    {
       "id": "ifsc-14734",
       "ifsc_id": 14734,
       "first_name": "Noga",
@@ -58822,17 +59462,6 @@
       "country": "SWE",
       "profile_url": "https://ifsc.results.info/athletes/5368",
       "last_competed": 2007
-    },
-    {
-      "id": "ifsc-14151",
-      "ifsc_id": 14151,
-      "first_name": "Julia",
-      "last_name": "Rasmussen",
-      "gender": "W",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/8xgbv9jn4q7a1v2ijfnpe28l9eum",
-      "profile_url": "https://ifsc.results.info/athletes/14151",
-      "birth_date": "2009-02-20"
     },
     {
       "id": "ifsc-7072",
@@ -59047,6 +59676,16 @@
       "profile_url": "https://ifsc.results.info/athletes/1128",
       "birth_date": "1993-03-26",
       "last_competed": 2016
+    },
+    {
+      "id": "ifsc-18231",
+      "ifsc_id": 18231,
+      "first_name": "Aleksandar",
+      "last_name": "Rašić",
+      "gender": "M",
+      "country": "SRB",
+      "profile_url": "https://ifsc.results.info/athletes/18231",
+      "birth_date": "2009-08-28"
     },
     {
       "id": "ifsc-7628",
@@ -59413,16 +60052,6 @@
       "birth_date": "2007-01-02"
     },
     {
-      "id": "ifsc-17055",
-      "ifsc_id": 17055,
-      "first_name": "Nick",
-      "last_name": "Ressmann",
-      "gender": "M",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/17055",
-      "birth_date": "2009-12-07"
-    },
-    {
       "id": "ifsc-1279",
       "ifsc_id": 1279,
       "first_name": "Stephan",
@@ -59442,6 +60071,7 @@
       "gender": "W",
       "country": "GER",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/oU9Z8KF4eR5Q2J83wGs4LDHZ",
+      "wiki_url": "https://en.wikipedia.org/wiki/Monika_Retschy",
       "profile_url": "https://ifsc.results.info/athletes/2013",
       "world_cup_events": {
         "boulder": {
@@ -59534,16 +60164,6 @@
       "birth_date": "2008-08-14"
     },
     {
-      "id": "ifsc-17035",
-      "ifsc_id": 17035,
-      "first_name": "Jonas",
-      "last_name": "Rheinberger",
-      "gender": "M",
-      "country": "LIE",
-      "profile_url": "https://ifsc.results.info/athletes/17035",
-      "birth_date": "2009-10-28"
-    },
-    {
       "id": "ifsc-579",
       "ifsc_id": 579,
       "first_name": "Coraline",
@@ -59573,6 +60193,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/yiv6yv9svr5a1ew327366iu5ou43",
       "profile_url": "https://ifsc.results.info/athletes/14473",
       "birth_date": "2009-06-29"
+    },
+    {
+      "id": "ifsc-18096",
+      "ifsc_id": 18096,
+      "first_name": "Luka",
+      "last_name": "Ribič",
+      "gender": "M",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18096",
+      "birth_date": "2010-02-21"
     },
     {
       "id": "ifsc-5327",
@@ -59635,6 +60265,16 @@
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/13297",
       "birth_date": "2008-05-10"
+    },
+    {
+      "id": "ifsc-18153",
+      "ifsc_id": 18153,
+      "first_name": "Yehor",
+      "last_name": "Riedkin",
+      "gender": "M",
+      "country": "UKR",
+      "profile_url": "https://ifsc.results.info/athletes/18153",
+      "birth_date": "2010-08-19"
     },
     {
       "id": "ifsc-12599",
@@ -59752,6 +60392,16 @@
       "country": "NOR",
       "profile_url": "https://ifsc.results.info/athletes/12446",
       "birth_date": "1993-08-15"
+    },
+    {
+      "id": "ifsc-17816",
+      "ifsc_id": 17816,
+      "first_name": "Heine",
+      "last_name": "Risinggård",
+      "gender": "M",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/17816",
+      "birth_date": "2010-07-03"
     },
     {
       "id": "ifsc-13143",
@@ -59914,6 +60564,7 @@
       "last_name": "Robinson",
       "gender": "M",
       "country": "USA",
+      "wiki_url": "https://en.wikipedia.org/wiki/Paul_Robinson",
       "profile_url": "https://ifsc.results.info/athletes/4839",
       "world_cup_events": {
         "boulder": {
@@ -60093,6 +60744,16 @@
       "birth_date": "2006-09-15"
     },
     {
+      "id": "ifsc-18149",
+      "ifsc_id": 18149,
+      "first_name": "Berta",
+      "last_name": "Rodríguez García",
+      "gender": "W",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18149",
+      "birth_date": "2011-11-25"
+    },
+    {
       "id": "ifsc-812",
       "ifsc_id": 812,
       "first_name": "Pablo",
@@ -60233,7 +60894,7 @@
     {
       "id": "ifsc-16891",
       "ifsc_id": 16891,
-      "first_name": "Vito",
+      "first_name": "Vito Vedran",
       "last_name": "Rogovic",
       "gender": "M",
       "country": "CRO",
@@ -60392,6 +61053,7 @@
       "last_name": "Romero",
       "gender": "W",
       "country": "VEN",
+      "wiki_url": "https://en.wikipedia.org/wiki/Leslie_Romero",
       "profile_url": "https://ifsc.results.info/athletes/3180",
       "medals": {
         "european_championships": {
@@ -60402,6 +61064,16 @@
       },
       "birth_date": "1998-03-18",
       "last_competed": 2020
+    },
+    {
+      "id": "ifsc-18377",
+      "ifsc_id": 18377,
+      "first_name": "David",
+      "last_name": "Romero Lazaro",
+      "gender": "M",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18377",
+      "birth_date": "2010-12-01"
     },
     {
       "id": "ifsc-1787",
@@ -60870,6 +61542,16 @@
       "profile_url": "https://ifsc.results.info/athletes/7805"
     },
     {
+      "id": "ifsc-18199",
+      "ifsc_id": 18199,
+      "first_name": "Ayla",
+      "last_name": "Rubio García",
+      "gender": "W",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18199",
+      "birth_date": "2008-06-03"
+    },
+    {
       "id": "ifsc-556",
       "ifsc_id": 556,
       "first_name": "Erwan",
@@ -60954,6 +61636,16 @@
       "last_competed": 2010
     },
     {
+      "id": "ifsc-18312",
+      "ifsc_id": 18312,
+      "first_name": "Paul",
+      "last_name": "Rudigier",
+      "gender": "M",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18312",
+      "birth_date": "2010-05-04"
+    },
+    {
       "id": "ifsc-2889",
       "ifsc_id": 2889,
       "first_name": "Maja",
@@ -61032,6 +61724,16 @@
       "profile_url": "https://ifsc.results.info/athletes/7914"
     },
     {
+      "id": "ifsc-18820",
+      "ifsc_id": 18820,
+      "first_name": "Maximilian",
+      "last_name": "Ruhland",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18820",
+      "birth_date": "2010-03-15"
+    },
+    {
       "id": "ifsc-12160",
       "ifsc_id": 12160,
       "first_name": "Melissa",
@@ -61097,6 +61799,16 @@
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/11587",
       "birth_date": "2004-07-23"
+    },
+    {
+      "id": "ifsc-17971",
+      "ifsc_id": 17971,
+      "first_name": "Eduards",
+      "last_name": "Rupeiks",
+      "gender": "M",
+      "country": "LAT",
+      "profile_url": "https://ifsc.results.info/athletes/17971",
+      "birth_date": "2011-04-20"
     },
     {
       "id": "ifsc-15985",
@@ -61230,17 +61942,6 @@
       "birth_date": "2010-01-31"
     },
     {
-      "id": "ifsc-17083",
-      "ifsc_id": 17083,
-      "first_name": "Bignia",
-      "last_name": "Ryffel",
-      "gender": "W",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/u351j9e1ovhc2e1wdqjoatqkpij4",
-      "profile_url": "https://ifsc.results.info/athletes/17083",
-      "birth_date": "2009-02-10"
-    },
-    {
       "id": "ifsc-14753",
       "ifsc_id": 14753,
       "first_name": "Antoni",
@@ -61330,6 +62031,16 @@
       "country": "HUN",
       "profile_url": "https://ifsc.results.info/athletes/14502",
       "birth_date": "2009-02-01"
+    },
+    {
+      "id": "ifsc-18163",
+      "ifsc_id": 18163,
+      "first_name": "Alice",
+      "last_name": "Röst",
+      "gender": "W",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18163",
+      "birth_date": "2008-06-14"
     },
     {
       "id": "ifsc-11810",
@@ -61518,16 +62229,6 @@
       "birth_date": "2008-01-11"
     },
     {
-      "id": "ifsc-11674",
-      "ifsc_id": 11674,
-      "first_name": "Lukas",
-      "last_name": "Sager",
-      "gender": "M",
-      "country": "AUT",
-      "profile_url": "https://ifsc.results.info/athletes/11674",
-      "birth_date": "2005-05-16"
-    },
-    {
       "id": "ifsc-4073",
       "ifsc_id": 4073,
       "first_name": "Sarp",
@@ -61565,6 +62266,16 @@
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/5853",
       "last_competed": 2008
+    },
+    {
+      "id": "ifsc-18511",
+      "ifsc_id": 18511,
+      "first_name": "Johannes",
+      "last_name": "Sailer",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18511",
+      "birth_date": "2011-05-07"
     },
     {
       "id": "ifsc-17638",
@@ -61875,6 +62586,7 @@
       "gender": "M",
       "country": "UKR",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/36cfi6ejsujeau7fzpbgybbnzcps",
+      "wiki_url": "https://en.wikipedia.org/wiki/Fedir_Samoilov",
       "profile_url": "https://ifsc.results.info/athletes/1489",
       "medals": {
         "world_championships": {
@@ -61993,6 +62705,16 @@
       "country": "ESP",
       "profile_url": "https://ifsc.results.info/athletes/4803",
       "last_competed": 2014
+    },
+    {
+      "id": "ifsc-17955",
+      "ifsc_id": 17955,
+      "first_name": "Ronja",
+      "last_name": "Sand",
+      "gender": "W",
+      "country": "DEN",
+      "profile_url": "https://ifsc.results.info/athletes/17955",
+      "birth_date": "2010-06-02"
     },
     {
       "id": "ifsc-2688",
@@ -62602,6 +63324,7 @@
       "last_name": "Scarth-Johnson",
       "gender": "W",
       "country": "AUS",
+      "wiki_url": "https://en.wikipedia.org/wiki/Angie_Scarth-Johnson",
       "profile_url": "https://ifsc.results.info/athletes/2563",
       "medals": {
         "european_championships": {
@@ -62729,16 +63452,6 @@
       "gender": "M",
       "country": "HUN",
       "profile_url": "https://ifsc.results.info/athletes/7271"
-    },
-    {
-      "id": "ifsc-15999",
-      "ifsc_id": 15999,
-      "first_name": "Felix",
-      "last_name": "Schauwecker",
-      "gender": "M",
-      "country": "GER",
-      "profile_url": "https://ifsc.results.info/athletes/15999",
-      "birth_date": "2009-04-30"
     },
     {
       "id": "ifsc-289",
@@ -63115,6 +63828,16 @@
       "gender": "W",
       "country": "GER",
       "profile_url": "https://ifsc.results.info/athletes/7627"
+    },
+    {
+      "id": "ifsc-18206",
+      "ifsc_id": 18206,
+      "first_name": "Simon",
+      "last_name": "Schmutzhard",
+      "gender": "M",
+      "country": "AUT",
+      "profile_url": "https://ifsc.results.info/athletes/18206",
+      "birth_date": "2011-02-15"
     },
     {
       "id": "ifsc-10778",
@@ -64128,14 +64851,14 @@
       "birth_date": "2003-07-03"
     },
     {
-      "id": "ifsc-16099",
-      "ifsc_id": 16099,
-      "first_name": "Nik",
-      "last_name": "Sevnik",
-      "gender": "M",
-      "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/16099",
-      "birth_date": "2007-09-10"
+      "id": "ifsc-18251",
+      "ifsc_id": 18251,
+      "first_name": "Sedef",
+      "last_name": "Seven",
+      "gender": "W",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18251",
+      "birth_date": "2008-12-17"
     },
     {
       "id": "ifsc-6073",
@@ -64895,6 +65618,16 @@
       "last_competed": 2009
     },
     {
+      "id": "ifsc-17774",
+      "ifsc_id": 17774,
+      "first_name": "Kfir",
+      "last_name": "Shpigel Frenkel",
+      "gender": "M",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17774",
+      "birth_date": "2009-09-19"
+    },
+    {
       "id": "ifsc-4178",
       "ifsc_id": 4178,
       "first_name": "Pranil Man",
@@ -64977,14 +65710,14 @@
       "last_competed": 2016
     },
     {
-      "id": "ifsc-13332",
-      "ifsc_id": 13332,
-      "first_name": "Mariia",
-      "last_name": "Shymkova",
+      "id": "ifsc-18069",
+      "ifsc_id": 18069,
+      "first_name": "Arina",
+      "last_name": "Shyshkina",
       "gender": "W",
       "country": "UKR",
-      "profile_url": "https://ifsc.results.info/athletes/13332",
-      "birth_date": "2008-06-13"
+      "profile_url": "https://ifsc.results.info/athletes/18069",
+      "birth_date": "2010-07-23"
     },
     {
       "id": "ifsc-5181",
@@ -65174,6 +65907,16 @@
       "profile_url": "https://ifsc.results.info/athletes/11661",
       "birth_date": "2005-01-05",
       "last_competed": 2022
+    },
+    {
+      "id": "ifsc-18184",
+      "ifsc_id": 18184,
+      "first_name": "Mariia",
+      "last_name": "Silkina",
+      "gender": "W",
+      "country": "AIN",
+      "profile_url": "https://ifsc.results.info/athletes/18184",
+      "birth_date": "2010-08-18"
     },
     {
       "id": "ifsc-11477",
@@ -65669,6 +66412,16 @@
       "last_competed": 2008
     },
     {
+      "id": "ifsc-18807",
+      "ifsc_id": 18807,
+      "first_name": "Bea",
+      "last_name": "Skoglund",
+      "gender": "W",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18807",
+      "birth_date": "2008-07-01"
+    },
+    {
       "id": "ifsc-7625",
       "ifsc_id": 7625,
       "first_name": "Lucie",
@@ -66075,6 +66828,16 @@
       "gender": "M",
       "country": "GBR",
       "profile_url": "https://ifsc.results.info/athletes/7736"
+    },
+    {
+      "id": "ifsc-18538",
+      "ifsc_id": 18538,
+      "first_name": "Hana",
+      "last_name": "Smode",
+      "gender": "W",
+      "country": "SLO",
+      "profile_url": "https://ifsc.results.info/athletes/18538",
+      "birth_date": "2011-07-03"
     },
     {
       "id": "ifsc-12685",
@@ -66505,6 +67268,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8893"
     },
     {
+      "id": "ifsc-17250",
+      "ifsc_id": 17250,
+      "first_name": "Taavet",
+      "last_name": "Sonn",
+      "gender": "M",
+      "country": "EST",
+      "profile_url": "https://ifsc.results.info/athletes/17250",
+      "birth_date": "2009-09-29"
+    },
+    {
       "id": "ifsc-10502",
       "ifsc_id": 10502,
       "first_name": "Navid",
@@ -66637,6 +67410,16 @@
       "birth_date": "2001-07-04"
     },
     {
+      "id": "ifsc-18331",
+      "ifsc_id": 18331,
+      "first_name": "Léo",
+      "last_name": "Soule",
+      "gender": "M",
+      "country": "FRA",
+      "profile_url": "https://ifsc.results.info/athletes/18331",
+      "birth_date": "2011-06-30"
+    },
+    {
       "id": "ifsc-4411",
       "ifsc_id": 4411,
       "first_name": "Patrick",
@@ -66653,16 +67436,6 @@
       },
       "birth_date": "1999-10-10",
       "last_competed": 2017
-    },
-    {
-      "id": "ifsc-17961",
-      "ifsc_id": 17961,
-      "first_name": "Orestes",
-      "last_name": "Soulis",
-      "gender": "M",
-      "country": "GRE",
-      "profile_url": "https://ifsc.results.info/athletes/17961",
-      "birth_date": "2009-04-21"
     },
     {
       "id": "ifsc-8305",
@@ -66723,6 +67496,16 @@
       "last_competed": 2005
     },
     {
+      "id": "ifsc-18459",
+      "ifsc_id": 18459,
+      "first_name": "Bartu",
+      "last_name": "Soykan",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18459",
+      "birth_date": "2011-06-09"
+    },
+    {
       "id": "ifsc-12911",
       "ifsc_id": 12911,
       "first_name": "Eftychia",
@@ -66764,17 +67547,6 @@
       "last_competed": 1993
     },
     {
-      "id": "ifsc-14681",
-      "ifsc_id": 14681,
-      "first_name": "Jan",
-      "last_name": "Spilker",
-      "gender": "M",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/psk1l6tz7owmw5o6btpqnefkz70z",
-      "profile_url": "https://ifsc.results.info/athletes/14681",
-      "birth_date": "2009-09-22"
-    },
-    {
       "id": "ifsc-6852",
       "ifsc_id": 6852,
       "first_name": "Ief",
@@ -66784,6 +67556,16 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/rXZQDc2yey8rGUR4jitkyjqQ",
       "profile_url": "https://ifsc.results.info/athletes/6852",
       "last_competed": 1993
+    },
+    {
+      "id": "ifsc-18117",
+      "ifsc_id": 18117,
+      "first_name": "Georgios",
+      "last_name": "Spithas",
+      "gender": "M",
+      "country": "GRE",
+      "profile_url": "https://ifsc.results.info/athletes/18117",
+      "birth_date": "2011-03-10"
     },
     {
       "id": "ifsc-8329",
@@ -67041,6 +67823,16 @@
       "gender": "M",
       "country": "AUT",
       "profile_url": "https://ifsc.results.info/athletes/8620"
+    },
+    {
+      "id": "ifsc-18401",
+      "ifsc_id": 18401,
+      "first_name": "Ella",
+      "last_name": "Stenbeck-Askheim",
+      "gender": "W",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18401",
+      "birth_date": "2011-09-20"
     },
     {
       "id": "ifsc-4560",
@@ -67948,16 +68740,6 @@
       "last_competed": 2003
     },
     {
-      "id": "ifsc-15469",
-      "ifsc_id": 15469,
-      "first_name": "Isaac",
-      "last_name": "Sutton",
-      "gender": "M",
-      "country": "GBR",
-      "profile_url": "https://ifsc.results.info/athletes/15469",
-      "birth_date": "2009-12-10"
-    },
-    {
       "id": "ifsc-5484",
       "ifsc_id": 5484,
       "first_name": "Svenja",
@@ -68068,6 +68850,16 @@
       "birth_date": "2009-09-12"
     },
     {
+      "id": "ifsc-17168",
+      "ifsc_id": 17168,
+      "first_name": "Grigorijs",
+      "last_name": "Svoboda",
+      "gender": "M",
+      "country": "LAT",
+      "profile_url": "https://ifsc.results.info/athletes/17168",
+      "birth_date": "2010-11-09"
+    },
+    {
       "id": "ifsc-1370",
       "ifsc_id": 1370,
       "first_name": "Tereza",
@@ -68168,6 +68960,16 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-17770",
+      "ifsc_id": 17770,
+      "first_name": "Hili",
+      "last_name": "Swartz",
+      "gender": "W",
+      "country": "ISR",
+      "profile_url": "https://ifsc.results.info/athletes/17770",
+      "birth_date": "2009-11-01"
+    },
+    {
       "id": "ifsc-4641",
       "ifsc_id": 4641,
       "first_name": "Yolanda",
@@ -68208,6 +69010,16 @@
       "profile_url": "https://ifsc.results.info/athletes/3272",
       "birth_date": "1993-09-07",
       "last_competed": 2021
+    },
+    {
+      "id": "ifsc-18371",
+      "ifsc_id": 18371,
+      "first_name": "Zuzanna",
+      "last_name": "Sygulska",
+      "gender": "W",
+      "country": "POL",
+      "profile_url": "https://ifsc.results.info/athletes/18371",
+      "birth_date": "2011-03-13"
     },
     {
       "id": "ifsc-8478",
@@ -68487,6 +69299,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8577",
       "birth_date": "1994-11-09",
       "last_competed": 2021
+    },
+    {
+      "id": "ifsc-18398",
+      "ifsc_id": 18398,
+      "first_name": "Markus Midthun",
+      "last_name": "Søvik",
+      "gender": "M",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18398",
+      "birth_date": "2010-01-02"
     },
     {
       "id": "ifsc-2190",
@@ -68892,16 +69714,6 @@
       "profile_url": "https://ifsc.results.info/athletes/1604",
       "birth_date": "1988-11-26",
       "last_competed": 2017
-    },
-    {
-      "id": "ifsc-14253",
-      "ifsc_id": 14253,
-      "first_name": "Antonina",
-      "last_name": "Tarczon",
-      "gender": "W",
-      "country": "POL",
-      "profile_url": "https://ifsc.results.info/athletes/14253",
-      "birth_date": "2009-09-30"
     },
     {
       "id": "ifsc-5858",
@@ -69740,6 +70552,16 @@
       "last_competed": 2018
     },
     {
+      "id": "ifsc-18164",
+      "ifsc_id": 18164,
+      "first_name": "Herman",
+      "last_name": "Tidare",
+      "gender": "M",
+      "country": "SWE",
+      "profile_url": "https://ifsc.results.info/athletes/18164",
+      "birth_date": "2008-09-24"
+    },
+    {
       "id": "ifsc-14191",
       "ifsc_id": 14191,
       "first_name": "Marat",
@@ -69748,6 +70570,16 @@
       "country": "EST",
       "profile_url": "https://ifsc.results.info/athletes/14191",
       "birth_date": "2007-09-07"
+    },
+    {
+      "id": "ifsc-18188",
+      "ifsc_id": 18188,
+      "first_name": "Aleksandr",
+      "last_name": "Tikhov",
+      "gender": "M",
+      "country": "AIN",
+      "profile_url": "https://ifsc.results.info/athletes/18188",
+      "birth_date": "2010-09-07"
     },
     {
       "id": "ifsc-7530",
@@ -70221,6 +71053,16 @@
       "last_competed": 2004
     },
     {
+      "id": "ifsc-18456",
+      "ifsc_id": 18456,
+      "first_name": "Anna",
+      "last_name": "Tomanova",
+      "gender": "W",
+      "country": "CZE",
+      "profile_url": "https://ifsc.results.info/athletes/18456",
+      "birth_date": "2008-12-25"
+    },
+    {
       "id": "ifsc-3926",
       "ifsc_id": 3926,
       "first_name": "Watchareewan",
@@ -70600,6 +71442,7 @@
       "gender": "W",
       "country": "FRA",
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/rbfTaH7ELjhnHcKnYvXhDZQK",
+      "wiki_url": "https://en.wikipedia.org/wiki/Claudine_Trécourt",
       "profile_url": "https://ifsc.results.info/athletes/6580",
       "medals": {
         "european_championships": {
@@ -70739,6 +71582,15 @@
       "gender": "M",
       "country": "FRA",
       "profile_url": "https://ifsc.results.info/athletes/11482"
+    },
+    {
+      "id": "ifsc-18520",
+      "ifsc_id": 18520,
+      "first_name": "Stella",
+      "last_name": "Trieu Søreide",
+      "gender": "W",
+      "country": "NOR",
+      "profile_url": "https://ifsc.results.info/athletes/18520"
     },
     {
       "id": "ifsc-12631",
@@ -71104,6 +71956,16 @@
       "birth_date": "2003-07-31"
     },
     {
+      "id": "ifsc-18250",
+      "ifsc_id": 18250,
+      "first_name": "Ada",
+      "last_name": "Tunç",
+      "gender": "W",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18250",
+      "birth_date": "2009-06-20"
+    },
+    {
       "id": "ifsc-2805",
       "ifsc_id": 2805,
       "first_name": "Viljami",
@@ -71362,16 +72224,6 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/01y62c4dqr3ux8jqv52olnm1vzar",
       "profile_url": "https://ifsc.results.info/athletes/17649",
       "birth_date": "2011-07-28"
-    },
-    {
-      "id": "ifsc-12370",
-      "ifsc_id": 12370,
-      "first_name": "Marcell",
-      "last_name": "Tóth-Magériusz",
-      "gender": "M",
-      "country": "HUN",
-      "profile_url": "https://ifsc.results.info/athletes/12370",
-      "birth_date": "2005-09-10"
     },
     {
       "id": "ifsc-12424",
@@ -71888,6 +72740,16 @@
       "country": "GRE",
       "profile_url": "https://ifsc.results.info/athletes/15454",
       "birth_date": "2010-03-15"
+    },
+    {
+      "id": "ifsc-18114",
+      "ifsc_id": 18114,
+      "first_name": "Pavlina",
+      "last_name": "Vakondiou",
+      "gender": "W",
+      "country": "GRE",
+      "profile_url": "https://ifsc.results.info/athletes/18114",
+      "birth_date": "2011-07-16"
     },
     {
       "id": "ifsc-13300",
@@ -72582,6 +73444,16 @@
       "birth_date": "2005-02-24"
     },
     {
+      "id": "ifsc-17606",
+      "ifsc_id": 17606,
+      "first_name": "Lucas",
+      "last_name": "Vankeirsbilck",
+      "gender": "M",
+      "country": "NED",
+      "profile_url": "https://ifsc.results.info/athletes/17606",
+      "birth_date": "2009-08-12"
+    },
+    {
       "id": "ifsc-14687",
       "ifsc_id": 14687,
       "first_name": "Adela",
@@ -72638,6 +73510,16 @@
       "gender": "M",
       "country": "ITA",
       "profile_url": "https://ifsc.results.info/athletes/8181"
+    },
+    {
+      "id": "ifsc-18200",
+      "ifsc_id": 18200,
+      "first_name": "Moritz",
+      "last_name": "Varnhorn",
+      "gender": "M",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18200",
+      "birth_date": "2011-03-25"
     },
     {
       "id": "ifsc-11910",
@@ -72777,16 +73659,6 @@
       "country": "UKR",
       "profile_url": "https://ifsc.results.info/athletes/5021",
       "last_competed": 2014
-    },
-    {
-      "id": "ifsc-13281",
-      "ifsc_id": 13281,
-      "first_name": "Ola",
-      "last_name": "Vekve",
-      "gender": "M",
-      "country": "NOR",
-      "profile_url": "https://ifsc.results.info/athletes/13281",
-      "birth_date": "2008-03-17"
     },
     {
       "id": "ifsc-17164",
@@ -73158,17 +74030,6 @@
       "profile_url": "https://ifsc.results.info/athletes/8018"
     },
     {
-      "id": "ifsc-15386",
-      "ifsc_id": 15386,
-      "first_name": "Sofiane",
-      "last_name": "Vial",
-      "gender": "M",
-      "country": "SUI",
-      "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/jyawsz55dwyod3z7slf02p0xgo4f",
-      "profile_url": "https://ifsc.results.info/athletes/15386",
-      "birth_date": "2009-04-14"
-    },
-    {
       "id": "ifsc-17336",
       "ifsc_id": 17336,
       "first_name": "Malik",
@@ -73273,16 +74134,6 @@
       "birth_date": "2009-04-06"
     },
     {
-      "id": "ifsc-14292",
-      "ifsc_id": 14292,
-      "first_name": "Aina",
-      "last_name": "Vila Cantero",
-      "gender": "W",
-      "country": "ESP",
-      "profile_url": "https://ifsc.results.info/athletes/14292",
-      "birth_date": "2009-02-16"
-    },
-    {
       "id": "ifsc-12175",
       "ifsc_id": 12175,
       "first_name": "Eloi",
@@ -73291,16 +74142,6 @@
       "country": "ESP",
       "profile_url": "https://ifsc.results.info/athletes/12175",
       "birth_date": "1989-01-07"
-    },
-    {
-      "id": "ifsc-15939",
-      "ifsc_id": 15939,
-      "first_name": "Hypolite",
-      "last_name": "Vilanova",
-      "gender": "M",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/15939",
-      "birth_date": "2009-07-29"
     },
     {
       "id": "ifsc-12530",
@@ -73331,6 +74172,16 @@
       "country": "ITA",
       "profile_url": "https://ifsc.results.info/athletes/15424",
       "birth_date": "2010-11-06"
+    },
+    {
+      "id": "ifsc-18536",
+      "ifsc_id": 18536,
+      "first_name": "Lucas",
+      "last_name": "Villalba Morillo",
+      "gender": "M",
+      "country": "ESP",
+      "profile_url": "https://ifsc.results.info/athletes/18536",
+      "birth_date": "2010-08-10"
     },
     {
       "id": "ifsc-13745",
@@ -73490,16 +74341,6 @@
       "photo": "https://d1n1qj9geboqnb.cloudfront.net/ifsc/public/iGWVa2q5UjN388UQxbckTgSf",
       "profile_url": "https://ifsc.results.info/athletes/6982",
       "last_competed": 1995
-    },
-    {
-      "id": "ifsc-17462",
-      "ifsc_id": 17462,
-      "first_name": "Florian",
-      "last_name": "Virapin",
-      "gender": "M",
-      "country": "FRA",
-      "profile_url": "https://ifsc.results.info/athletes/17462",
-      "birth_date": "2008-04-27"
     },
     {
       "id": "ifsc-13918",
@@ -73669,6 +74510,16 @@
       "profile_url": "https://ifsc.results.info/athletes/2587",
       "birth_date": "1994-03-19",
       "last_competed": 2019
+    },
+    {
+      "id": "ifsc-18162",
+      "ifsc_id": 18162,
+      "first_name": "Lea",
+      "last_name": "Voigt",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18162",
+      "birth_date": "2011-03-29"
     },
     {
       "id": "ifsc-14424",
@@ -74224,16 +75075,6 @@
       "country": "BEL",
       "profile_url": "https://ifsc.results.info/athletes/376",
       "birth_date": "2004-06-24"
-    },
-    {
-      "id": "ifsc-14661",
-      "ifsc_id": 14661,
-      "first_name": "Maya",
-      "last_name": "Walter",
-      "gender": "W",
-      "country": "AUT",
-      "profile_url": "https://ifsc.results.info/athletes/14661",
-      "birth_date": "2009-08-09"
     },
     {
       "id": "ifsc-5479",
@@ -75079,6 +75920,16 @@
       "profile_url": "https://ifsc.results.info/athletes/8261"
     },
     {
+      "id": "ifsc-16843",
+      "ifsc_id": 16843,
+      "first_name": "Charlotte",
+      "last_name": "Willcox",
+      "gender": "W",
+      "country": "GBR",
+      "profile_url": "https://ifsc.results.info/athletes/16843",
+      "birth_date": "2010-10-15"
+    },
+    {
       "id": "ifsc-7057",
       "ifsc_id": 7057,
       "first_name": "Monika",
@@ -75695,6 +76546,16 @@
       "country": "USA",
       "profile_url": "https://ifsc.results.info/athletes/6180",
       "last_competed": 2012
+    },
+    {
+      "id": "ifsc-18512",
+      "ifsc_id": 18512,
+      "first_name": "Lisa",
+      "last_name": "Wucherer",
+      "gender": "W",
+      "country": "GER",
+      "profile_url": "https://ifsc.results.info/athletes/18512",
+      "birth_date": "2009-05-23"
     },
     {
       "id": "ifsc-14321",
@@ -76945,16 +77806,6 @@
       "birth_date": "2005-12-27"
     },
     {
-      "id": "ifsc-17044",
-      "ifsc_id": 17044,
-      "first_name": "Franciszek",
-      "last_name": "Zawiejski",
-      "gender": "M",
-      "country": "POL",
-      "profile_url": "https://ifsc.results.info/athletes/17044",
-      "birth_date": "2009-02-06"
-    },
-    {
       "id": "ifsc-224",
       "ifsc_id": 224,
       "first_name": "Demyan",
@@ -77502,16 +78353,6 @@
       "profile_url": "https://ifsc.results.info/athletes/8437"
     },
     {
-      "id": "ifsc-16074",
-      "ifsc_id": 16074,
-      "first_name": "Filip",
-      "last_name": "Zlamal",
-      "gender": "M",
-      "country": "CZE",
-      "profile_url": "https://ifsc.results.info/athletes/16074",
-      "birth_date": "2007-12-14"
-    },
-    {
       "id": "ifsc-7268",
       "ifsc_id": 7268,
       "first_name": "Dimitar Kirilov",
@@ -77746,6 +78587,16 @@
       "birth_date": "2007-11-22"
     },
     {
+      "id": "ifsc-17380",
+      "ifsc_id": 17380,
+      "first_name": "Ahmet Emin",
+      "last_name": "Çakir",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/17380",
+      "birth_date": "2010-01-29"
+    },
+    {
       "id": "ifsc-4092",
       "ifsc_id": 4092,
       "first_name": "Begüm Zeynep",
@@ -77756,6 +78607,16 @@
       "birth_date": "2004-08-16"
     },
     {
+      "id": "ifsc-18777",
+      "ifsc_id": 18777,
+      "first_name": "Enes",
+      "last_name": "Çelebi̇",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18777",
+      "birth_date": "2009-05-03"
+    },
+    {
       "id": "ifsc-15973",
       "ifsc_id": 15973,
       "first_name": "Sigurður Orri",
@@ -77764,16 +78625,6 @@
       "country": "ISL",
       "profile_url": "https://ifsc.results.info/athletes/15973",
       "birth_date": "2009-07-11"
-    },
-    {
-      "id": "ifsc-12784",
-      "ifsc_id": 12784,
-      "first_name": "Paul",
-      "last_name": "Öckher",
-      "gender": "M",
-      "country": "AUT",
-      "profile_url": "https://ifsc.results.info/athletes/12784",
-      "birth_date": "2007-01-16"
     },
     {
       "id": "ifsc-15989",
@@ -77793,6 +78644,16 @@
       "gender": "W",
       "country": "SWE",
       "profile_url": "https://ifsc.results.info/athletes/8609"
+    },
+    {
+      "id": "ifsc-18249",
+      "ifsc_id": 18249,
+      "first_name": "Kuzey",
+      "last_name": "Özdemi̇r",
+      "gender": "M",
+      "country": "TUR",
+      "profile_url": "https://ifsc.results.info/athletes/18249",
+      "birth_date": "2010-05-16"
     },
     {
       "id": "ifsc-13278",
@@ -77948,16 +78809,6 @@
       "birth_date": "2000-11-20"
     },
     {
-      "id": "ifsc-17127",
-      "ifsc_id": 17127,
-      "first_name": "Mark",
-      "last_name": "Šalamon",
-      "gender": "M",
-      "country": "SLO",
-      "profile_url": "https://ifsc.results.info/athletes/17127",
-      "birth_date": "2009-03-11"
-    },
-    {
       "id": "ifsc-8873",
       "ifsc_id": 8873,
       "first_name": "Atila",
@@ -78015,6 +78866,16 @@
       "gender": "W",
       "country": "SLO",
       "profile_url": "https://ifsc.results.info/athletes/7858"
+    },
+    {
+      "id": "ifsc-18823",
+      "ifsc_id": 18823,
+      "first_name": "Sabína",
+      "last_name": "Švárna",
+      "gender": "W",
+      "country": "SVK",
+      "profile_url": "https://ifsc.results.info/athletes/18823",
+      "birth_date": "2011-08-23"
     }
   ]
 }
