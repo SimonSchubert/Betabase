@@ -1,13 +1,14 @@
 {
   "city": "Hannover",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "boulderhalle-beta",
       "name": "Boulderhalle Beta",
       "address": "Gertrud-Knebusch-Straße 15, 30167 Hannover",
       "url": "https://boulderhalle-beta.de",
+      "image_url": "https://boulderhalle-beta.de/wp-content/uploads/2019/01/Beta-Boulderhalle-Hannover-Logo_weiß_300x140-300x140.png",
       "lat": 52.3855295,
       "lng": 9.7309763,
       "disciplines": [
@@ -26,14 +27,14 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://boulderhalle-beta.de/wp-content/uploads/2019/01/Beta-Boulderhalle-Hannover-Logo_weiß_300x140-300x140.png"
+      }
     },
     {
       "id": "griffreich",
       "name": "GriffReich – DAV Kletterzentrum Hannover",
       "address": "Peiner Straße 28, 30519 Hannover",
       "url": "https://griffreich.de",
+      "image_url": "https://griffreich.de/113%20-%20Sektion%20Hannover/GriffReich/News/179370/image-thumb__179370__heroteaser/%C3%9Cberhang@2x.3de2dcbb.webp",
       "lat": 52.3388018,
       "lng": 9.7738309,
       "disciplines": [
@@ -50,14 +51,14 @@
         "fri": "14:00-22:00",
         "sat": "10:00-20:00",
         "sun": "10:00-20:00"
-      },
-      "image_url": "https://griffreich.de/113%20-%20Sektion%20Hannover/GriffReich/News/179370/image-thumb__179370__heroteaser/%C3%9Cberhang@2x.3de2dcbb.webp"
+      }
     },
     {
       "id": "kletterbar-hannover",
       "name": "KletterBar Hannover",
       "address": "Reinhold-Schleese-Straße 21, 30179 Hannover",
       "url": "https://www.kletterbar-hannover.de",
+      "image_url": "https://kletterbar-hannover.de/wp-content/uploads/2018/11/Slider_Halle.jpg",
       "lat": 52.4216976,
       "lng": 9.7255037,
       "disciplines": [
@@ -74,14 +75,14 @@
         "fri": "10:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://kletterbar-hannover.de/wp-content/uploads/2018/11/Slider_Halle.jpg"
+      }
     },
     {
       "id": "urban-apes-hannover",
       "name": "urban apes Hannover",
       "address": "Am Mittelfelde 39, 30519 Hannover",
       "url": "https://www.urbanapes.de/hannover",
+      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png",
       "lat": 52.3289382,
       "lng": 9.7837325,
       "disciplines": [
@@ -97,8 +98,7 @@
         "fri": "10:00-23:00",
         "sat": "10:00-22:00",
         "sun": "10:00-22:00"
-      },
-      "image_url": "https://www.urbanapes.de/wp-content/uploads/2022/04/urbanapes_logo_apple_180x180.png"
+      }
     }
   ]
 }

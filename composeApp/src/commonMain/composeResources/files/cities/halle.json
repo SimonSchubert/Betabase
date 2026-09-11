@@ -1,26 +1,37 @@
 {
   "city": "Halle (Saale)",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "boulderkombinat-halle",
       "name": "Boulderkombinat",
       "address": "Delitzscher Straße 63a, 06112 Halle (Saale)",
       "url": "https://boulderkombinat.de",
+      "image_url": "https://boulderkombinat.de/wp-content/uploads/2022/07/BK-Website-Title-Slider-02.jpg",
       "lat": 51.479186,
       "lng": 12.006497,
       "disciplines": [
         "boulder"
       ],
       "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://boulderkombinat.de/wp-content/uploads/2022/07/BK-Website-Title-Slider-02.jpg"
+      "size_sqm": 700,
+      "opening_hours": {
+        "mon": "10:00-22:00",
+        "tue": "10:00-22:00",
+        "wed": "10:00-22:00",
+        "thu": "10:00-22:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     },
     {
       "id": "kletterthalia-halle",
       "name": "Kletterthalia",
       "address": "Thaliapassage 3, 06108 Halle (Saale)",
       "url": "https://ig-klettern-halle.de/kletterthalia/",
+      "image_url": "https://ig-klettern-halle.de/administrator/cache/preview/0f1da26caed7fe4bf13935f929a4be84.jpg",
       "lat": 51.490443,
       "lng": 11.96653,
       "disciplines": [
@@ -29,10 +40,7 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://ig-klettern-halle.de/administrator/cache/preview/0f1da26caed7fe4bf13935f929a4be84.jpg"
+      "opening_hours": {}
     }
-  ],
-  "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  ]
 }

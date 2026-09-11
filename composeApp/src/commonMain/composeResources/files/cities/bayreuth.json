@@ -1,11 +1,14 @@
 {
   "city": "Bayreuth",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "kletterzentrum-bayreuth",
       "name": "Kletterzentrum Bayreuth",
       "address": "Schwabenstraße 27, 95448 Bayreuth",
       "url": "https://www.kletterzentrum-bayreuth.de",
+      "image_url": "https://kletterzentrum-bayreuth.de/wp-content/uploads/2025/05/Climbing-gym-overview.jpg",
       "lat": 49.935712,
       "lng": 11.598978,
       "disciplines": [
@@ -14,10 +17,7 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://kletterzentrum-bayreuth.de/wp-content/uploads/2025/05/Climbing-gym-overview.jpg"
+      "opening_hours": {}
     }
-  ],
-  "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  ]
 }

@@ -1,13 +1,14 @@
 {
   "city": "Innsbruck",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "blocbox-innsbruck",
       "name": "BlocBox",
       "address": "Viaduktbogen 83, 6020 Innsbruck",
       "url": "https://blocbox-training.com",
+      "image_url": "https://blocbox-training.com/wp-content/uploads/2024/01/logo-black.png",
       "lat": 47.2727866,
       "lng": 11.4069501,
       "disciplines": [
@@ -23,14 +24,14 @@
         "fri": "09:00-24:00",
         "sat": "09:00-24:00",
         "sun": "09:00-24:00"
-      },
-      "image_url": "https://blocbox-training.com/wp-content/uploads/2024/01/logo-black.png"
+      }
     },
     {
       "id": "kletterzentrum-innsbruck",
       "name": "Kletterzentrum Innsbruck",
       "address": "Matthias-Schmid-Straße 13c, 6020 Innsbruck",
       "url": "https://www.kletterzentrum-innsbruck.at",
+      "image_url": "https://www.kletterzentrum-innsbruck.at/uploads/videos/header_poster_1280.jpg",
       "lat": 47.2768106,
       "lng": 11.4134391,
       "disciplines": [
@@ -39,17 +40,16 @@
         "speed"
       ],
       "boards": [],
-      "size_sqm": 5700,
+      "size_sqm": 5750,
       "opening_hours": {
-        "mon": "09:00-23:00",
-        "tue": "09:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "09:00-23:00",
-        "fri": "09:00-23:00",
+        "mon": "09:00-22:00",
+        "tue": "09:00-22:00",
+        "wed": "09:00-22:00",
+        "thu": "09:00-22:00",
+        "fri": "09:00-22:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://www.kletterzentrum-innsbruck.at/uploads/videos/header_poster_1280.jpg"
+      }
     }
   ]
 }

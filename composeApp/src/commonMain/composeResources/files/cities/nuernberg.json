@@ -1,13 +1,64 @@
 {
   "city": "Nürnberg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
+    {
+      "id": "bambule-kletterhalle",
+      "name": "BAMBULE Kletterhalle",
+      "address": "Industriestraße 21a, 90441 Nürnberg",
+      "url": "https://www.bambule-kletterhalle.de",
+      "image_url": "https://bambule-kletterhalle.de/wp-content/uploads/2022/08/logo-mint-weniger-freiflaeche-1024x853.jpg",
+      "lat": 49.431584,
+      "lng": 11.0591933,
+      "disciplines": [
+        "boulder",
+        "lead",
+        "speed"
+      ],
+      "boards": [
+        "moonboard"
+      ],
+      "size_sqm": 2500,
+      "opening_hours": {
+        "mon": "10:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "10:00-22:30",
+        "thu": "10:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "09:00-21:00",
+        "sun": "09:00-21:30"
+      }
+    },
+    {
+      "id": "boulderhalle-e4",
+      "name": "Boulderhalle E4",
+      "address": "Allersberger Straße 185, 90461 Nürnberg",
+      "url": "https://www.boulderhalle-e4.de",
+      "image_url": "https://www.boulderhalle-e4.de/wp-content/uploads/2022/12/boulderhalle-e4-nuernberg-seit-2013.svg",
+      "lat": 49.4344151,
+      "lng": 11.0972883,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "08:00-23:00",
+        "sat": "08:00-23:00",
+        "sun": "08:00-23:00"
+      }
+    },
     {
       "id": "cafe-kraft-nuernberg",
       "name": "Café Kraft",
       "address": "Gebertstraße 9, 90411 Nürnberg",
       "url": "https://www.cafekraft.de",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/64482eff121c672196de419d/1682452297438-TPGTIF6ZNK7WP1GVEEYE/Erlangen_Hallenansicht_innen.jpg?format=2500w",
       "lat": 49.4797711,
       "lng": 11.1224848,
       "disciplines": [
@@ -25,37 +76,37 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://images.squarespace-cdn.com/content/v1/64482eff121c672196de419d/1682452297438-TPGTIF6ZNK7WP1GVEEYE/Erlangen_Hallenansicht_innen.jpg?format=2500w"
+      }
     },
     {
-      "id": "boulderhalle-e4",
-      "name": "Boulderhalle E4",
-      "address": "Allersberger Straße 185, 90461 Nürnberg",
-      "url": "https://www.boulderhalle-e4.de",
-      "lat": 49.4344151,
-      "lng": 11.0972883,
+      "id": "climbing-factory-nuernberg",
+      "name": "Climbing Factory",
+      "address": "Fahrradstraße 58, 90429 Nürnberg",
+      "url": "https://climbing-factory.de",
+      "lat": 49.4595122,
+      "lng": 11.0352861,
       "disciplines": [
-        "boulder"
+        "boulder",
+        "lead"
       ],
       "boards": [],
       "size_sqm": null,
       "opening_hours": {
-        "mon": "09:00-23:00",
-        "tue": "09:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "09:00-23:00",
-        "fri": "08:00-23:00",
-        "sat": "08:00-23:00",
-        "sun": "08:00-23:00"
-      },
-      "image_url": "https://www.boulderhalle-e4.de/wp-content/uploads/2022/12/boulderhalle-e4-nuernberg-seit-2013.svg"
+        "mon": "17:00-22:30",
+        "tue": "10:00-22:30",
+        "wed": "14:00-22:30",
+        "thu": "17:00-22:30",
+        "fri": "10:00-22:30",
+        "sat": "09:00-21:30",
+        "sun": "09:00-21:30"
+      }
     },
     {
       "id": "der-steinbock-nuernberg",
       "name": "der steinbock Nürnberg",
       "address": "Leyher Straße 54, 90431 Nürnberg",
       "url": "https://www.dersteinbock-nuernberg.de",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d8cea73abd6080198b3bc95/1767887866604-GV0Z14Q9Y0GN2FADIU56/250031_2001_Kinderkurse_Screen_Banner_Winterferien2.jpg",
       "lat": 49.4510292,
       "lng": 11.0287018,
       "disciplines": [
@@ -73,63 +124,32 @@
         "fri": "07:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://images.squarespace-cdn.com/content/v1/5d8cea73abd6080198b3bc95/1767887866604-GV0Z14Q9Y0GN2FADIU56/250031_2001_Kinderkurse_Screen_Banner_Winterferien2.jpg"
-    },
-    {
-      "id": "bambule-kletterhalle",
-      "name": "BAMBULE Kletterhalle",
-      "address": "Industriestraße 21a, 90441 Nürnberg",
-      "url": "https://www.bambule-kletterhalle.de",
-      "lat": 49.431584,
-      "lng": 11.0591933,
-      "disciplines": [
-        "boulder",
-        "lead",
-        "speed"
-      ],
-      "boards": [],
-      "size_sqm": 2500,
-      "opening_hours": {
-        "mon": "10:00-22:30",
-        "tue": "10:00-22:30",
-        "wed": "10:00-22:30",
-        "thu": "10:00-22:30",
-        "fri": "10:00-22:30",
-        "sat": "09:00-21:00",
-        "sun": "09:00-21:30"
-      },
-      "image_url": "https://bambule-kletterhalle.de/wp-content/uploads/2022/08/logo-mint-weniger-freiflaeche-1024x853.jpg"
-    },
-    {
-      "id": "climbing-factory-nuernberg",
-      "name": "Climbing Factory",
-      "address": "Industriestraße 21a, 90441 Nürnberg",
-      "url": "https://www.climbing-factory.de",
-      "lat": 49.431584,
-      "lng": 11.0591933,
-      "disciplines": [
-        "boulder",
-        "lead"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
+      }
     },
     {
       "id": "der-steinbock-zirndorf",
       "name": "der steinbock Zirndorf",
-      "address": "Leyher Straße 54, 90431 Nürnberg",
+      "address": "Steinweg 9, 90513 Zirndorf",
       "url": "https://www.dersteinbock-zirndorf.de",
-      "lat": 49.4427777,
-      "lng": 10.9596556,
+      "image_url": "https://images.squarespace-cdn.com/content/v1/564b2ae7e4b026b6304311ad/3809cab3-7863-422f-9947-c97b2a377769/hallenansicht_1.jpg?format=2500w",
+      "lat": 49.4428151,
+      "lng": 10.959537,
       "disciplines": [
         "boulder"
       ],
-      "boards": [],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://images.squarespace-cdn.com/content/v1/564b2ae7e4b026b6304311ad/3809cab3-7863-422f-9947-c97b2a377769/hallenansicht_1.jpg?format=2500w"
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "14:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "09:00-22:00",
+        "sat": "09:00-22:00",
+        "sun": "09:00-22:00"
+      }
     }
   ]
 }

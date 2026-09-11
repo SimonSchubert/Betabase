@@ -1,21 +1,29 @@
 {
   "city": "Siegen",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "schluesselstelle-siegen",
       "name": "Schlüsselstelle – Jung's Boulderhalle & Café",
       "address": "Bismarckstraße 81, 57076 Siegen",
-      "url": "https://www.schluesselstelle-siegen.de",
+      "url": "https://boulderhalle-siegen.de",
       "lat": 50.890042,
       "lng": 8.026002,
       "disciplines": [
         "boulder"
       ],
       "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
+      "size_sqm": 500,
+      "opening_hours": {
+        "mon": "14:00-23:00",
+        "tue": "14:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "14:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
-  ],
-  "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  ]
 }

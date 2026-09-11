@@ -1,33 +1,8 @@
 {
   "city": "Mönchengladbach",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
-    {
-      "id": "monkeyspot-moenchengladbach",
-      "name": "Monkeyspot",
-      "address": "Ohlerkirchweg 39, 41069 Mönchengladbach",
-      "url": "https://monkeyspot.de/startseite-moenchengladbach/",
-      "lat": 51.184487,
-      "lng": 6.430813,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [
-        "kilter"
-      ],
-      "size_sqm": null,
-      "opening_hours": {
-        "mon": "09:00-23:00",
-        "tue": "09:00-23:00",
-        "wed": "09:00-23:00",
-        "thu": "09:00-23:00",
-        "fri": "09:00-23:00",
-        "sat": "09:00-23:00",
-        "sun": "09:00-22:00"
-      },
-      "image_url": "https://monkeyspot.de/wp-content/uploads/elementor/thumbs/20190708-Monkeyspot-0509-qngoyrp01y5h397o2syhucs5oidg9rmvgcw2d8m3vu.jpg"
-    },
     {
       "id": "kletterkirche-moenchengladbach",
       "name": "Kletterkirche",
@@ -49,6 +24,31 @@
         "fri": "12:00-22:00",
         "sat": "09:00-20:00",
         "sun": "09:00-20:00"
+      }
+    },
+    {
+      "id": "monkeyspot-moenchengladbach",
+      "name": "Monkeyspot",
+      "address": "Ohlerkirchweg 39, 41069 Mönchengladbach",
+      "url": "https://monkeyspot.de/startseite-moenchengladbach/",
+      "image_url": "https://monkeyspot.de/wp-content/uploads/elementor/thumbs/20190708-Monkeyspot-0509-qngoyrp01y5h397o2syhucs5oidg9rmvgcw2d8m3vu.jpg",
+      "lat": 51.184487,
+      "lng": 6.430813,
+      "disciplines": [
+        "boulder"
+      ],
+      "boards": [
+        "kilter"
+      ],
+      "size_sqm": null,
+      "opening_hours": {
+        "mon": "09:00-23:00",
+        "tue": "09:00-23:00",
+        "wed": "09:00-23:00",
+        "thu": "09:00-23:00",
+        "fri": "09:00-23:00",
+        "sat": "09:00-23:00",
+        "sun": "09:00-22:00"
       }
     }
   ]

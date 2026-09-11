@@ -1,5 +1,7 @@
 {
   "city": "Braunschweig",
+  "source": "manual-curation-web-research",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "dav-kletterhalle-braunschweig",
@@ -17,21 +19,50 @@
       "opening_hours": {}
     },
     {
+      "id": "fliegerhalle-braunschweig",
+      "name": "Fliegerhalle",
+      "address": "Westbahnhof 3, 38118 Braunschweig",
+      "url": "https://www.fliegerhalle-bs.de",
+      "lat": 52.25137,
+      "lng": 10.5028547,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1650,
+      "opening_hours": {
+        "mon": "15:00-23:00",
+        "tue": "11:00-23:00",
+        "wed": "11:00-23:00",
+        "thu": "11:00-23:00",
+        "fri": "15:00-23:00",
+        "sat": "09:30-21:00",
+        "sun": "09:30-21:00"
+      }
+    },
+    {
       "id": "greifhaus-braunschweig",
       "name": "Greifhaus",
       "address": "Hamburger Straße 268, 38114 Braunschweig",
-      "url": "https://www.greifhaus-braunschweig.de",
-      "lat": 52.279375,
-      "lng": 10.52112,
+      "url": "https://www.greifhaus.de",
+      "lat": 52.2793714,
+      "lng": 10.5211154,
       "disciplines": [
         "boulder",
         "lead"
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {}
+      "opening_hours": {
+        "mon": "10:00-23:00",
+        "tue": "10:00-23:00",
+        "wed": "10:00-23:00",
+        "thu": "10:00-23:00",
+        "fri": "10:00-23:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      }
     }
-  ],
-  "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z"
+  ]
 }

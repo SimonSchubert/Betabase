@@ -1,19 +1,22 @@
 {
   "city": "Freiburg",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "blockhaus-freiburg",
       "name": "Blockhaus Freiburg",
-      "address": "Ziegelhofstraße 9, 79110 Freiburg",
+      "address": "Merdinger Weg 6, 79111 Freiburg",
       "url": "https://www.blockhaus-freiburg.de",
-      "lat": 48.0228073,
-      "lng": 7.7946131,
+      "image_url": "https://static.wixstatic.com/media/39a7ad_949883ec881f4a8eb597ab00a1f53482~mv2.jpg",
+      "lat": 47.9942595,
+      "lng": 7.7911611,
       "disciplines": [
         "boulder"
       ],
-      "boards": [],
+      "boards": [
+        "moonboard"
+      ],
       "size_sqm": 2000,
       "opening_hours": {
         "mon": "09:00-23:00",
@@ -23,14 +26,14 @@
         "fri": "09:00-23:00",
         "sat": "09:00-22:00",
         "sun": "09:00-22:00"
-      },
-      "image_url": "https://static.wixstatic.com/media/39a7ad_949883ec881f4a8eb597ab00a1f53482~mv2.jpg"
+      }
     },
     {
       "id": "boulder-kitchen-freiburg",
       "name": "Boulder Kitchen Freiburg",
       "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
       "url": "https://www.freiburg-boulderkitchen.de",
+      "image_url": "https://www.freiburg-boulderkitchen.de/wp-content/uploads/2026/03/BoulderkitchenFreiburg.jpg",
       "lat": 48.0270273,
       "lng": 7.8538306,
       "disciplines": [
@@ -38,14 +41,29 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.freiburg-boulderkitchen.de/wp-content/uploads/2026/03/BoulderkitchenFreiburg.jpg"
+      "opening_hours": {}
+    },
+    {
+      "id": "eiger-north-freiburg",
+      "name": "Klettercenter EigerNord",
+      "address": "Hans-Bunte-Straße 10a, 79108 Freiburg",
+      "url": "https://www.eigernord.de",
+      "lat": 48.0279175,
+      "lng": 7.8549237,
+      "disciplines": [
+        "boulder",
+        "lead"
+      ],
+      "boards": [],
+      "size_sqm": 1400,
+      "opening_hours": {}
     },
     {
       "id": "kletterzentrum-freiburg",
       "name": "Kletterzentrum Freiburg",
       "address": "Schwarzwaldstraße 242, 79117 Freiburg",
       "url": "https://kletterzentrum-freiburg.de",
+      "image_url": "https://kletterzentrum-freiburg.de/wp-content/uploads/2025/05/DAV_Freiburg_KleZ-V1-WebRes-387-Foto-von-Hannes-Tell-500x500.jpg",
       "lat": 47.9866852,
       "lng": 7.8951552,
       "disciplines": [
@@ -54,53 +72,7 @@
       ],
       "boards": [],
       "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://kletterzentrum-freiburg.de/wp-content/uploads/2025/05/DAV_Freiburg_KleZ-V1-WebRes-387-Foto-von-Hannes-Tell-500x500.jpg"
-    },
-    {
-      "id": "blocwald-freiburg",
-      "name": "blocwald",
-      "address": "Ziegelhofstraße 9, 79110 Freiburg",
-      "url": "https://www.blocwald.de",
-      "lat": 48.0228073,
-      "lng": 7.7946131,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://www.blocwald.de/wp-content/uploads/2019/11/boulder_ewa_bp02.jpg"
-    },
-    {
-      "id": "hotzenblock-freiburg",
-      "name": "HotzenBlock",
-      "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
-      "url": "https://www.hotzenblock.de",
-      "lat": 48.0270273,
-      "lng": 7.8538306,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://hotzenblock.de/wp-content/uploads/2025/06/hotzenblock_logo-2048x424.png"
-    },
-    {
-      "id": "upjoy-freiburg",
-      "name": "UPJOY",
-      "address": "Hans-Bunte-Straße 8, 79108 Freiburg",
-      "url": "https://www.upjoy.de",
-      "lat": 48.0270273,
-      "lng": 7.8538306,
-      "disciplines": [
-        "boulder"
-      ],
-      "boards": [],
-      "size_sqm": null,
-      "opening_hours": {},
-      "image_url": "https://upjoy.de/wp-content/uploads/2022/12/Upjoy_Bouldern_Klettern_facetofce-sw.jpg"
+      "opening_hours": {}
     }
   ]
 }

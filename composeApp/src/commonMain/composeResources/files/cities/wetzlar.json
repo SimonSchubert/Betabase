@@ -1,13 +1,13 @@
 {
   "city": "Wetzlar",
   "source": "manual-curation-web-research",
-  "fetched_at": "2026-06-19T00:00:00Z",
+  "fetched_at": "2026-09-11T00:00:00Z",
   "gyms": [
     {
       "id": "cube-dav-wetzlar",
       "name": "Cube – DAV Kletterzentrum Wetzlar",
       "address": "Sportparkstraße 3a, 35578 Wetzlar",
-      "url": "https://www.dav-wetzlar.de/kletterzentrum",
+      "url": "https://www.cube-kletterzentrum.de",
       "lat": 50.5537468,
       "lng": 8.5255202,
       "disciplines": [
@@ -15,8 +15,16 @@
         "lead"
       ],
       "boards": [],
-      "size_sqm": null,
-      "opening_hours": {}
+      "size_sqm": 2285,
+      "opening_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-22:00"
+      }
     }
   ]
 }
