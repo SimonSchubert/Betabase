@@ -146,7 +146,8 @@ actual fun GymMap(
         modifier = modifier.fillMaxSize(),
         baseStyle = BaseStyle.Uri(MAP_STYLE_URI),
         cameraState = cameraState,
-        options = MapOptions(ornamentOptions = OrnamentOptions.OnlyLogo),
+        // Keep the attribution button: the OpenFreeMap tiles are OpenStreetMap data (ODbL), which requires visible credit.
+        options = MapOptions(ornamentOptions = OrnamentOptions.AllEnabled),
         onMapClick = { _, _ ->
             onGymSelected(null)
             ClickResult.Pass
